@@ -1,0 +1,10 @@
+CURRENT.md
+archive
+campaign
+checkpoints
+gm
+journal
+locations
+npcs
+party
+rules

@@ -1,0 +1,47 @@
+schema: campaign-checkpoint/v1
+checkpoint_id: cp-0000
+base_checkpoint_id: cp-0000
+kind: delta
+created_at: TODO
+source_chat_ref: null
+
+continuity:
+  journal_entry_id: journal.entry-example
+  scene_id: scene-0000
+  scene_status: continue
+  next_scene_id: null
+  next_scene_name: null
+
+summary: TODO
+assertions: []
+changes: []
+
+journal_append:
+  events: []
+  decisions: []
+  consequences: []
+  important_rolls: []
+
+new_facts: []
+knowledge_changes: []
+new_rulings: []
+module_overrides: []
+open_thread_changes: []
+uncertainties: []
+
+current_scene:
+  fiction_time: TODO
+  location: location.unknown
+  present: []
+  situation: TODO
+  active_threats: []
+  key_resources: []
+  pending_decisions: []
+
+expected_files:
+  modify:
+    - CURRENT.md
+  create:
+    - checkpoints/cp-0000.yaml
+
+commit_message: "checkpoint cp-0000: TODO"
