@@ -1,0 +1,304 @@
+schema: campaign-checkpoint/v1
+checkpoint_id: cp-0001
+base_checkpoint_id: null
+kind: baseline
+created_at: 2026-07-29
+source_chat_ref: lairofthelamb.pdf
+
+continuity:
+  journal_entry_id: journal.entry-0001
+  scene_id: scene-0004
+  scene_status: continue
+  next_scene_id: null
+  next_scene_name: null
+
+summary: "Baseline-импорт сыгранной кампании Lair of the Lamb до окованной двери со светом."
+
+assertions:
+  - "До импорта репозиторий находился в состоянии preparation без checkpoint."
+  - "Источник кампании содержит одну непрерывную сыгранную последовательность."
+
+changes:
+  - operation: add
+    target: campaign
+    value: "Lair of the Lamb на Trespasser v2.1.3"
+    reason: "Импорт кампании из PDF чата."
+    source_event: event-001
+  - operation: add
+    target: party
+    value: "Бьорн, Эльза, Годвин и Марта"
+    reason: "Создание baseline состава."
+    source_event: event-001
+  - operation: set
+    target: character.marta.status
+    from: active
+    to: dead
+    reason: "Марта утонула в ледяной цистерне."
+    source_event: event-007
+  - operation: set
+    target: npc.unknown-hunter.status
+    from: active
+    to: dead
+    reason: "Группа убила существо в сухом коридоре."
+    source_event: event-011
+  - operation: move
+    target: party.location
+    from: location.lair.start-cell
+    to: location.lair.ironbound-door
+    reason: "Итог пройденного маршрута."
+    source_event: event-012
+
+journal_append:
+  events:
+    - id: event-001
+      type: discovery
+      fiction_time: "Первый день, начало"
+      summary: "Бьорн, Эльза, Годвин и Марта очнулись в тёмной стартовой камере под Белым храмом."
+    - id: event-002
+      type: action
+      fiction_time: "Первый день, позднее"
+      summary: "Неудачная попытка выломать дверь подняла alarm с 0 до 1; крупное существо пришло на шум и выломало дверь снаружи."
+    - id: event-003
+      type: action
+      fiction_time: "Первый день, позднее"
+      summary: "Группа тихо спустилась в сточную яму с помощью кирки и избежала обнаружения."
+    - id: event-004
+      type: discovery
+      fiction_time: "Первый день, позднее"
+      summary: "В стоке с утопленника сняты ржавый тесак и запечатанный латунный тубус."
+    - id: event-005
+      type: discovery
+      fiction_time: "Первый день, позднее"
+      summary: "Сточный желоб закончился водопадом в большой затопленный зал."
+    - id: event-006
+      type: action
+      fiction_time: "Первый день, позднее"
+      summary: "Группа спустилась в цистерну и поплыла в направлении сквозняка."
+    - id: event-007
+      type: action
+      fiction_time: "Первый день, позднее"
+      summary: "После провала заплыва трое достигли уступа, а Марта и щенок утонули."
+    - id: event-008
+      type: action
+      fiction_time: "Первый день, позднее"
+      summary: "Выжившие прошли расщелину и сняли мокрую одежду, связав её в тюки."
+    - id: event-009
+      type: discovery
+      fiction_time: "Первый день, позднее"
+      summary: "Годвин вскрыл тубус и нашёл похожий на карту пергамент и обломок мела."
+    - id: event-010
+      type: action
+      fiction_time: "Первый день, позднее"
+      summary: "Группа спряталась у стен и устроила засаду неизвестному существу."
+    - id: event-011
+      type: action
+      fiction_time: "Первый день, позднее"
+      summary: "Бьорн, Эльза и Годвин совместно убили неизвестного охотника."
+    - id: event-012
+      type: discovery
+      fiction_time: "Первый день, текущий момент"
+      summary: "Группа обнаружила окованную дверь со слабым серо-зелёным светом из щели снизу."
+  decisions:
+    - "Скрыться от крупного существа через сточную яму."
+    - "Плыть по направлению сквозняка."
+    - "Сохранить смерть Марты как цену провала."
+    - "Снять мокрую одежду и нести её тюками."
+    - "Убить неизвестного охотника из засады."
+  consequences:
+    - "Марта и щенок погибли."
+    - "Unknown hunter убит; группа покрыта его кровью."
+    - "Стартовая дверь разрушена."
+    - "Alarm импортирован как 1/10 с отмеченным конфликтом."
+  important_rolls:
+    - "Попытка выбить дверь: заявленный итог 8, failure."
+    - "Тихий спуск в сток: 7 на кубе +3 = 10, success."
+    - "Заплыв: 6 на кубе +3 = 9 против TN 10, failure."
+
+new_facts:
+  - id: fact.party-captured
+    kind: established
+    content: "Четыре commoners очнулись пленниками под Белым храмом."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-001
+  - id: fact.marta-dead
+    kind: established
+    content: "Марта и щенок погибли в затопленной цистерне."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-007
+  - id: fact.start-cell-breached
+    kind: established
+    content: "Крупное существо выломало дверь стартовой камеры снаружи."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-002
+  - id: fact.corpse-loot
+    kind: established
+    content: "В стоке с утопленника сняты ржавый тесак и тубус."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-004
+  - id: fact.tube-contents
+    kind: established
+    content: "В тубусе находились похожий на карту пергамент и мел."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-009
+  - id: fact.hunter-dead
+    kind: established
+    content: "Неизвестный охотник убит в сухом коридоре."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-011
+  - id: fact.light-beyond-door
+    kind: established
+    content: "За текущей окованной дверью есть слабый серо-зелёный свет."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-012
+  - id: fact.lamb-alive
+    kind: established
+    content: "Смерть Агнца не происходила; исходное состояние модуля сохраняет его живым."
+    truth_status: confirmed
+    knowledge_level: gm-secret
+    source_event: event-002
+
+knowledge_changes:
+  - operation: add
+    subject: party
+    knowledge_ref: fact.marta-dead
+    summary: "Трое выживших знают, что Марта и щенок не выбрались из воды."
+    source_event: event-007
+  - operation: add
+    subject: party
+    knowledge_ref: fact.light-beyond-door
+    summary: "Группа увидела свет из-под окованной двери."
+    source_event: event-012
+
+new_rulings:
+  - ruling.first-day-hp
+  - ruling.start-dehydration
+  - ruling.spark-shadow-roll
+  - ruling.darkness
+  - ruling.mob-damage
+  - ruling.dungeon-time-alarm
+  - ruling.player-skill
+
+module_overrides:
+  - override.start-room
+  - override.start-equipment
+  - override.dehydration
+  - override.sewer-branch
+  - override.unknown-hunter
+  - override.ironbound-door
+  - override.marta-death
+
+open_thread_changes:
+  - operation: add
+    thread_id: thread.escape-lair
+    title: "Побег из логова"
+    question: "Как выжившие выберутся из подземелий Белого храма?"
+    status: active
+    knowledge_level: player-known
+    source_event: event-001
+  - operation: add
+    thread_id: thread.ironbound-door
+    title: "Свет за дверью"
+    question: "Подходит ли ключ и что находится по ту сторону?"
+    status: active
+    knowledge_level: player-known
+    source_event: event-012
+  - operation: add
+    thread_id: thread.parchment-map
+    title: "Пергамент из тубуса"
+    question: "Является ли он картой и что на нём написано?"
+    status: active
+    knowledge_level: player-known
+    source_event: event-009
+  - operation: add
+    thread_id: thread.unknown-hunter
+    title: "Неизвестный охотник"
+    question: "Что за существо было убито в сухом коридоре?"
+    status: active
+    knowledge_level: player-known
+    source_event: event-011
+  - operation: add
+    thread_id: thread.find-light-water
+    title: "Свет и вода"
+    question: "Где добыть надёжный свет и питьевую воду?"
+    status: active
+    knowledge_level: player-known
+    source_event: event-012
+  - operation: add
+    thread_id: thread.module-reconnection
+    title: "Возврат к карте модуля"
+    question: "К какой номерной комнате ведёт импровизированная ветвь?"
+    status: active
+    knowledge_level: gm-secret
+    source_event: event-012
+
+uncertainties:
+  - "Точная длительность и фаза dungeon round не восстановимы из чата."
+  - "Alarm явно назван равным 1, но последующие повышения не отслеживались по рулбуку."
+  - "Импровизированные помещения не сопоставлены с номерными комнатами модуля."
+  - "Природа и stat block неизвестного охотника не установлены."
+  - "Содержимое пергамента и комнаты за дверью не установлено."
+
+current_scene:
+  fiction_time: "Первый день; точное время неизвестно"
+  location: location.lair.ironbound-door
+  present:
+    - character.bjorn
+    - character.elsa
+    - character.godwin
+  situation: "Трое commoners стоят в темноте перед закрытой окованной дверью; из щели снизу идёт слабый серо-зелёный свет."
+  active_threats:
+    - "Неизвестное содержимое комнаты за дверью."
+    - "Отсутствие собственного света."
+    - "Запах крови и живой Агнец где-то в подземелье."
+  key_resources:
+    - "Кирка и ржавый тесак."
+    - "Связка ключей."
+    - "Набор для вскрытия."
+    - "Пергамент, мел и вскрытый тубус."
+  pending_decisions:
+    - "Прислушаться, проверить ключи или открыть дверь иным способом."
+    - "Согласовать alarm и новую границу dungeon round."
+
+expected_files:
+  modify:
+    - CHANGELOG.md
+    - CURRENT.md
+    - campaign/premises.md
+    - campaign/established-facts.md
+    - campaign/timeline.md
+    - campaign/open-threads.md
+    - campaign/clocks.md
+    - party/party.md
+    - locations/index.md
+    - npcs/index.md
+    - rules/house-rules.md
+    - rules/rulings.md
+    - rules/quick-reference.md
+    - gm/secrets.md
+    - gm/factions.md
+    - gm/future-events.md
+    - gm/module-overrides.md
+  create:
+    - checkpoints/cp-0001.yaml
+    - journal/entry-0001.md
+    - party/character-bjorn.md
+    - party/character-elsa.md
+    - party/character-godwin.md
+    - party/character-marta.md
+    - locations/lair.md
+    - locations/start-cell.md
+    - locations/sewer.md
+    - locations/cistern-ledge.md
+    - locations/dry-corridor.md
+    - locations/ironbound-door.md
+    - npcs/lamb.md
+    - npcs/unknown-hunter.md
+
+commit_message: "checkpoint cp-0001: import Lair of the Lamb chat campaign"
