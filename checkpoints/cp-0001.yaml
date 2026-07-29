@@ -1,0 +1,50 @@
+schema: campaign-checkpoint/v1
+checkpoint_id: cp-0001
+base_checkpoint_id: null
+kind: baseline
+created_at: 2026-07-29
+source_chat_ref: https://chatgpt.com/share/6a69dcb8-f4d8-83eb-a63f-dd27f8585b32
+
+continuity:
+  journal_entry_id: journal.entry-0002
+  scene_id: scene-0007
+  scene_status: continue
+  next_scene_id: null
+  next_scene_name: null
+
+summary: >
+  Baseline после импорта кампании: группа стоит у порога сокровищницы
+  с четырьмя гигантскими пчёлами; четыре гоблина ушли дальше.
+
+assertions: []
+changes: []
+
+journal_append:
+  events: []
+  decisions: []
+  consequences: []
+  important_rolls: []
+
+new_facts: []
+new_rulings: []
+module_overrides: []
+open_thread_changes: []
+uncertainties:
+  - Полный выбор deeds и talents персонажей первого уровня ещё не зафиксирован.
+
+current_scene:
+  location: location.pyramid.bee-treasury
+  situation: >
+    Партия стоит за порогом; четыре видимые пчелы охраняют клетку,
+    а следы четырёх гоблинов уходят через дальнюю дверь.
+  pending_decision: Как преодолеть комнату и продолжать ли погоню.
+
+expected_files:
+  modify:
+    - CURRENT.md
+    - journal/entry-0001.md
+  create:
+    - journal/entry-0002.md
+    - checkpoints/cp-0001.yaml
+
+commit_message: "checkpoint cp-0001: establish imported campaign baseline"

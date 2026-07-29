@@ -1,0 +1,826 @@
+schema: campaign-checkpoint/v1
+checkpoint_id: cp-0002
+base_checkpoint_id: cp-0001
+kind: delta
+created_at: "2026-07-29T18:40:37+04:00"
+source_chat_ref: null
+
+continuity:
+  journal_entry_id: journal.entry-0002
+  scene_id: scene-0007
+  scene_status: continue
+  next_scene_id: null
+  next_scene_name: null
+
+summary: "Группа отступила от пчёл, исследовала северо-западный путь из мастерской, обнаружила тайную комнату №3, уничтожила семь стирджей, укрылась от пяти пещерных саранчей и обыскала помещение."
+
+assertions:
+  - target: CURRENT.checkpoint_id
+    equals: cp-0001
+  - target: CURRENT.active_scene_id
+    equals: scene-0007
+  - target: CURRENT.active_journal_id
+    equals: journal.entry-0002
+  - target: party.location
+    equals: location.pyramid.bee-treasury.threshold-safe-side
+  - target: campaign.dungeon_frame
+    equals:
+      day: 1
+      round: 5
+      actions_used: 2
+      actions_total: 3
+  - target: clock.thirst
+    equals:
+      current: 6
+      maximum: 6
+  - target: clock.alarm
+    equals:
+      current: 5
+      maximum: 10
+  - target: character.nara.hp
+    equals: 28
+  - target: character.sevek.hp
+    equals: 14
+  - target: character.oris.hp
+    equals: 16
+  - target: character.tavra.hp
+    equals: 20
+  - target: character.nara.endurance
+    equals: 12
+  - target: character.sevek.endurance
+    equals: 11
+  - target: character.oris.endurance
+    equals: 11
+  - target: character.tavra.endurance
+    equals: 10
+  - target: party.light.active
+    equals:
+      item: crude-torch
+      carrier: character.oris
+      state: burning
+  - target: location.pyramid.bee-treasury.workshop-door.state
+    equals: ajar
+  - target: location.pyramid.workshop.visible_exits
+    equals:
+      - door-east-to-bee-treasury
+      - ladder-centre-to-gas-chamber
+      - ladder-left-to-left-cylinder
+      - ladder-right-to-right-cylinder
+
+changes:
+  - operation: move
+    target: party.location
+    from: location.pyramid.bee-treasury.threshold-safe-side
+    to: location.pyramid.workshop
+    reason: "Группа отказалась входить к пчёлам и отступила в ремонтную мастерскую."
+    source_event: event-001
+
+  - operation: set
+    target: location.pyramid.bee-treasury.workshop-door.state
+    from: ajar
+    to: closed
+    reason: "После отступления каменная дверь между мастерской и путём к сокровищнице закрылась."
+    source_event: event-001
+
+  - operation: set
+    target: campaign.dungeon_frame
+    from:
+      day: 1
+      round: 5
+      actions_used: 2
+      actions_total: 3
+    to:
+      day: 1
+      round: 5
+      actions_used: 3
+      actions_total: 3
+    reason: "Отступление от пчёл израсходовало последнее общее действие dungeon round 5."
+    source_event: event-001
+
+  - operation: set
+    target: character.nara.hp
+    from: 28
+    to: 27
+    reason: "Нара потеряла 1 HP от критической жажды в конце dungeon round 5."
+    source_event: event-002
+
+  - operation: set
+    target: character.sevek.hp
+    from: 14
+    to: 13
+    reason: "Севек потерял 1 HP от критической жажды в конце dungeon round 5."
+    source_event: event-002
+
+  - operation: set
+    target: character.oris.hp
+    from: 16
+    to: 15
+    reason: "Орис потерял 1 HP от критической жажды в конце dungeon round 5."
+    source_event: event-002
+
+  - operation: set
+    target: character.tavra.hp
+    from: 20
+    to: 19
+    reason: "Тавра потеряла 1 HP от критической жажды в конце dungeon round 5."
+    source_event: event-002
+
+  - operation: set
+    target: clock.alarm.current
+    from: 5
+    to: 6
+    reason: "Alarm увеличился на 1 в конце dungeon round 5."
+    source_event: event-002
+
+  - operation: set
+    target: campaign.dungeon_frame
+    from:
+      day: 1
+      round: 5
+      actions_used: 3
+      actions_total: 3
+    to:
+      day: 1
+      round: 6
+      actions_used: 0
+      actions_total: 3
+    reason: "Dungeon round 5 завершился без случайной встречи; начался dungeon round 6."
+    source_event: event-002
+
+  - operation: set
+    target: location.pyramid.workshop.visible_exits
+    from:
+      - door-east-to-bee-treasury
+      - ladder-centre-to-gas-chamber
+      - ladder-left-to-left-cylinder
+      - ladder-right-to-right-cylinder
+    to:
+      - door-east-to-bee-treasury
+      - door-northwest-to-western-corridor
+      - door-southwest-to-western-corridor
+      - ladder-centre-to-gas-chamber
+      - ladder-left-to-left-cylinder
+      - ladder-right-to-right-cylinder
+    reason: "Проверка карты модуля исправила неполное описание комнаты 6: в мастерской три дверных выхода, а не один."
+    source_event: event-003
+
+  - operation: add
+    target: campaign.locations.discovered
+    value: location.pyramid.northwest-corridor
+    quantity: 1
+    reason: "Группа исследовала путь через северо-западную дверь мастерской."
+    source_event: event-004
+
+  - operation: move
+    target: party.location
+    from: location.pyramid.workshop
+    to: location.pyramid.northwest-corridor
+    reason: "Группа прошла через северо-западную дверь мастерской."
+    source_event: event-004
+
+  - operation: set
+    target: campaign.dungeon_frame
+    from:
+      day: 1
+      round: 6
+      actions_used: 0
+      actions_total: 3
+    to:
+      day: 1
+      round: 6
+      actions_used: 1
+      actions_total: 3
+    reason: "Explore северо-западного коридора израсходовал первое действие dungeon round 6."
+    source_event: event-004
+
+  - operation: set
+    target: location.pyramid.northwest-corridor.search_status
+    from: unsearched
+    to: searched
+    reason: "Группа тщательно осмотрела коридор и прилегающие стены."
+    source_event: event-005
+
+  - operation: add
+    target: campaign.features.discovered
+    value: location.pyramid.northwest-corridor.secret-door-south
+    quantity: 1
+    reason: "Search обнаружил замаскированную каменную дверь в южной стене."
+    source_event: event-005
+
+  - operation: set
+    target: campaign.dungeon_frame
+    from:
+      day: 1
+      round: 6
+      actions_used: 1
+      actions_total: 3
+    to:
+      day: 1
+      round: 6
+      actions_used: 2
+      actions_total: 3
+    reason: "Search коридора израсходовал второе действие dungeon round 6."
+    source_event: event-005
+
+  - operation: set
+    target: location.pyramid.secret-room-3.secret-door.state
+    from: closed
+    to: open
+    reason: "Группа нашла подвижный участок и открыла тайную каменную плиту нажимом."
+    source_event: event-006
+
+  - operation: add
+    target: campaign.locations.discovered
+    value: location.pyramid.secret-room-3
+    quantity: 1
+    reason: "За тайной дверью обнаружена комната №3."
+    source_event: event-006
+
+  - operation: add
+    target: encounters.active
+    value: npc.stirges-room-3
+    quantity: 7
+    reason: "Открытие тайной двери потревожило семь стирджей."
+    source_event: event-006
+
+  - operation: set
+    target: campaign.dungeon_frame
+    from:
+      day: 1
+      round: 6
+      actions_used: 2
+      actions_total: 3
+    to:
+      day: 1
+      round: 6
+      actions_used: 3
+      actions_total: 3
+    reason: "Открытие и исследование пространства за тайной дверью израсходовало третье действие dungeon round 6."
+    source_event: event-006
+
+  - operation: remove
+    target: encounters.active
+    value: npc.stirges-room-3
+    quantity: 7
+    reason: "Все семь стирджей были уничтожены в абстрагированном бою."
+    source_event: event-007
+
+  - operation: add
+    target: location.pyramid.secret-room-3.corpses
+    value: stirge-corpse
+    quantity: 7
+    reason: "После боя в комнате остались тела семи стирджей."
+    source_event: event-007
+
+  - operation: set
+    target: character.nara.hp
+    from: 27
+    to: 23
+    reason: "Нара потеряла 4 HP в бою со стирджами."
+    source_event: event-007
+
+  - operation: set
+    target: character.oris.hp
+    from: 15
+    to: 12
+    reason: "Орис потерял 3 HP в бою со стирджами."
+    source_event: event-007
+
+  - operation: set
+    target: character.tavra.hp
+    from: 19
+    to: 17
+    reason: "Тавра потеряла 2 HP в бою со стирджами."
+    source_event: event-007
+
+  - operation: set
+    target: clock.alarm.current
+    from: 6
+    to: 7
+    reason: "Шум боя со стирджами увеличил Alarm на 1."
+    source_event: event-007
+
+  - operation: set
+    target: character.nara.hp
+    from: 23
+    to: 22
+    reason: "Нара потеряла ещё 1 HP от критической жажды в конце dungeon round 6."
+    source_event: event-008
+
+  - operation: set
+    target: character.sevek.hp
+    from: 13
+    to: 12
+    reason: "Севек потерял 1 HP от критической жажды в конце dungeon round 6."
+    source_event: event-008
+
+  - operation: set
+    target: character.oris.hp
+    from: 12
+    to: 11
+    reason: "Орис потерял ещё 1 HP от критической жажды в конце dungeon round 6."
+    source_event: event-008
+
+  - operation: set
+    target: character.tavra.hp
+    from: 17
+    to: 16
+    reason: "Тавра потеряла ещё 1 HP от критической жажды в конце dungeon round 6."
+    source_event: event-008
+
+  - operation: set
+    target: clock.alarm.current
+    from: 7
+    to: 8
+    reason: "Alarm увеличился на 1 в конце dungeon round 6."
+    source_event: event-008
+
+  - operation: set
+    target: clock.alarm.current
+    from: 8
+    to: 0
+    reason: "Alarm check вызвал случайную встречу, после чего часы Alarm сбросились."
+    source_event: event-008
+
+  - operation: add
+    target: encounters.active
+    value: npc.giant-cave-locusts
+    quantity: 5
+    reason: "Случайная встреча привела к тайной двери пять гигантских пещерных саранчей."
+    source_event: event-008
+
+  - operation: set
+    target: campaign.dungeon_frame
+    from:
+      day: 1
+      round: 6
+      actions_used: 3
+      actions_total: 3
+    to:
+      day: 1
+      round: 7
+      actions_used: 0
+      actions_total: 3
+    reason: "После завершения раунда и появления случайной встречи начался dungeon round 7."
+    source_event: event-008
+
+  - operation: move
+    target: party.location
+    from: location.pyramid.northwest-corridor
+    to: location.pyramid.secret-room-3
+    reason: "Группа отступила внутрь тайной комнаты, чтобы скрыться от саранчей."
+    source_event: event-009
+
+  - operation: set
+    target: location.pyramid.secret-room-3.secret-door.state
+    from: open
+    to: closed
+    reason: "Группа отпустила самозакрывающуюся каменную плиту и укрылась за ней."
+    source_event: event-009
+
+  - operation: remove
+    target: encounters.active
+    value: npc.giant-cave-locusts
+    quantity: 5
+    reason: "Саранчи не обнаружили тайную дверь и прошли мимо; встреча завершилась без боя."
+    source_event: event-009
+
+  - operation: move
+    target: npc.giant-cave-locusts.location
+    from: location.pyramid.northwest-corridor.near-secret-door
+    to: location.pyramid.northwest-corridor.northward-unknown
+    reason: "Пять саранчей удалились по коридору в северном направлении."
+    source_event: event-009
+
+  - operation: set
+    target: location.pyramid.secret-room-3.search_status
+    from: unsearched
+    to: searched
+    reason: "Группа полностью обыскала тайную комнату и тела стирджей."
+    source_event: event-010
+
+  - operation: move
+    target: treasure.b4-room3-gems.location
+    from: location.pyramid.secret-room-3
+    to: party.inventory.unassigned
+    reason: "Четыре драгоценных камня собраны вместе, но носитель и занимаемые слоты ещё не назначены."
+    source_event: event-010
+
+  - operation: set
+    target: campaign.dungeon_frame
+    from:
+      day: 1
+      round: 7
+      actions_used: 0
+      actions_total: 3
+    to:
+      day: 1
+      round: 7
+      actions_used: 1
+      actions_total: 3
+    reason: "Search тайной комнаты израсходовал первое действие dungeon round 7."
+    source_event: event-010
+
+journal_append:
+  events:
+    - id: event-001
+      type: action
+      fiction_time: "Первый день экспедиции, dungeon round 5, действие 3"
+      summary: "Группа отступила от сокровищницы с четырьмя пчёлами в ремонтную мастерскую; дверь к пчёлам закрылась."
+
+    - id: event-002
+      type: action
+      fiction_time: "Первый день экспедиции, конец dungeon round 5"
+      summary: "Критическая жажда нанесла каждому 1 HP; Alarm вырос до 6, проверка d10=8 не вызвала встречу, факел Ориса продолжил гореть."
+
+    - id: event-003
+      type: discovery
+      fiction_time: "Первый день экспедиции, начало dungeon round 6; исправление непрерывности"
+      summary: "Карта B4 подтвердила, что мастерская №6 имеет три дверных выхода: восточный, северо-западный и юго-западный, помимо трёх лестниц."
+
+    - id: event-004
+      type: action
+      fiction_time: "Первый день экспедиции, dungeon round 6, действие 1"
+      summary: "Группа прошла через северо-западную дверь мастерской и исследовала коридор, идущий на запад и затем поворачивающий на север."
+
+    - id: event-005
+      type: discovery
+      fiction_time: "Первый день экспедиции, dungeon round 6, действие 2"
+      summary: "Search коридора обнаружил тайную каменную дверь в южной стене; ловушек на обследованном участке и двери не найдено."
+
+    - id: event-006
+      type: action
+      fiction_time: "Первый день экспедиции, dungeon round 6, действие 3"
+      summary: "Группа нажимом открыла тайную плиту и обнаружила комнату №3 с семью стирджами; групповая encounter check была выиграна."
+
+    - id: event-007
+      type: action
+      fiction_time: "Первый день экспедиции, dungeon round 6, около двух combat rounds"
+      summary: "Группа приняла абстрагированный бой в узком проёме и уничтожила семь стирджей; Нара потеряла 4 HP, Орис 3 HP, Тавра 2 HP, Севек не пострадал."
+
+    - id: event-008
+      type: action
+      fiction_time: "Первый день экспедиции, конец dungeon round 6"
+      summary: "Бой и завершение раунда подняли Alarm до 8; жажда нанесла каждому 1 HP, факел продолжил гореть, а alarm check вызвал пять пещерных саранчей и сбросил Alarm до 0."
+
+    - id: event-009
+      type: action
+      fiction_time: "Первый день экспедиции, переход к dungeon round 7"
+      summary: "Группа закрыла тайную дверь и укрылась в комнате №3; пять саранчей не нашли вход и ушли по коридору на север."
+
+    - id: event-010
+      type: action
+      fiction_time: "Первый день экспедиции, dungeon round 7, действие 1"
+      summary: "Search полностью обследовал комнату и тела стирджей: найдены и собраны четыре драгоценных камня, а высоко в северной стене обнаружено узкое отверстие."
+
+  decisions:
+    - source_event: event-001
+      summary: "Отказаться от немедленного проникновения в сокровищницу пчёл и отступить."
+    - source_event: event-004
+      summary: "Исследовать северо-западный выход из мастерской."
+    - source_event: event-007
+      summary: "Принять бой со стирджами и разрешить его абстрагированно, используя узкий проём."
+    - source_event: event-009
+      summary: "Избежать боя с пещерными саранчами, закрыв тайную дверь и укрывшись в комнате."
+    - source_event: event-010
+      summary: "Обыскать тайную комнату и тела стирджей."
+
+  consequences:
+    - source_event: event-001
+      summary: "Четыре пчелы остались живы за закрытой дверью; сокровищница не разграблена."
+    - source_event: event-002
+      summary: "Четыре уцелевших гоблина получили дополнительное время и ещё большую фору; их точное местоположение неизвестно."
+    - source_event: event-007
+      summary: "Все семь стирджей мертвы; Endurance, Recovery Dice, Resolve и состояния персонажей не изменились."
+    - source_event: event-008
+      summary: "После двух последовательных тиков жажды итоговые HP: Нара 22/28, Севек 12/15, Орис 11/17, Тавра 16/22."
+    - source_event: event-009
+      summary: "Случайная встреча завершилась без боя и без дополнительного dungeon action."
+    - source_event: event-010
+      summary: "Комната №3 полностью обыскана; иных проходов, ловушек, сокровищ или полезных ресурсов на телах стирджей не обнаружено."
+
+  important_rolls:
+    - id: roll-001
+      source_event: event-002
+      procedure: alarm-check
+      die: d10
+      die_result: 8
+      target: 6
+      outcome: "Встреча не произошла."
+
+    - id: roll-002
+      source_event: event-006
+      procedure: "group AGILITY | STEALTH encounter check"
+      target: 12
+      results:
+        - subject: character.nara
+          die_result: 14
+          modifiers: 1
+          total: 15
+          outcome: success
+        - subject: character.sevek
+          die_result: 13
+          modifiers: 4
+          total: 17
+          outcome: success
+        - subject: character.oris
+          die_result: 13
+          modifiers: -4
+          modifier_note: "Горящий факел; AGILITY 0."
+          total: 9
+          outcome: failure
+        - subject: character.tavra
+          die_result: 7
+          modifiers: 3
+          total: 10
+          outcome: failure
+      group_successes: 2
+      group_failures: 2
+      outcome: "Применённый в чате результат: группа выиграла encounter check и получила выбор подхода; противник не был застигнут врасплох."
+
+    - id: roll-003
+      source_event: event-008
+      procedure: alarm-check
+      die: d10
+      die_result: null
+      target: 8
+      outcome: "Результат был не выше 8; произошла встреча с пятью гигантскими пещерными саранчами, после чего Alarm сбросился."
+
+new_facts:
+  - id: fact.workshop-three-door-layout
+    kind: established
+    content: "Ремонтная мастерская №6 имеет восточную дверь к пути в сокровищницу, северо-западную и юго-западную двери в западные коридоры, а также три лестницы к статуям."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-003
+
+  - id: fact.northwest-corridor-secret-door
+    kind: established
+    content: "В коридоре за северо-западной дверью мастерской есть тайная дверь в южной стене; обследованный участок и сама дверь не имеют обнаруженных ловушек."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-005
+
+  - id: fact.room3-secret-door-mechanism
+    kind: established
+    content: "Тайная дверь комнаты №3 является тяжёлой каменной плитой, открывается нажимом и медленно закрывается, если её не удерживать."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-006
+
+  - id: fact.room3-stirges-slain
+    kind: established
+    content: "В комнате №3 обитали семь стирджей; все они уничтожены, их тела остаются внутри."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-007
+
+  - id: fact.cave-locusts-passed-north
+    kind: established
+    content: "Пять гигантских пещерных саранчей прошли мимо закрытой тайной двери и удалились по коридору в северном направлении."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-009
+
+  - id: fact.room3-four-gems
+    kind: established
+    content: "В комнате №3 найдены четыре драгоценных камня с указанной в B4 стоимостью 100 gp, 100 gp, 500 gp и 1000 gp; камни собраны вместе, но ещё не получили Trespasser Value."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-010
+
+  - id: fact.room3-north-aperture
+    kind: established
+    content: "Высоко в северной стене комнаты №3 имеется небольшое отверстие, слишком узкое для персонажей; стирджи использовали его для вылета наружу."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-010
+
+  - id: fact.room3-search-complete
+    kind: established
+    content: "Комната №3 полностью обыскана: других проходов, ловушек и сокровищ не обнаружено; тела стирджей не содержат назначенных модулем ресурсов или добычи."
+    truth_status: confirmed
+    knowledge_level: player-known
+    source_event: event-010
+
+knowledge_changes:
+  - operation: add
+    subject: party
+    knowledge_ref: fact.workshop-three-door-layout
+    summary: "Все четыре персонажа знают исправленную геометрию мастерской №6."
+    source_event: event-003
+
+  - operation: add
+    subject: party
+    knowledge_ref: fact.northwest-corridor-secret-door
+    summary: "Все четыре персонажа знают расположение и обследованное состояние тайной двери."
+    source_event: event-005
+
+  - operation: add
+    subject: party
+    knowledge_ref: fact.room3-secret-door-mechanism
+    summary: "Все четыре персонажа знают, как открывается и закрывается тайная плита."
+    source_event: event-006
+
+  - operation: add
+    subject: party
+    knowledge_ref: fact.room3-stirges-slain
+    summary: "Все четыре персонажа знают, что комната очищена от семи стирджей."
+    source_event: event-007
+
+  - operation: add
+    subject: party
+    knowledge_ref: fact.cave-locusts-passed-north
+    summary: "Все четыре персонажа слышали и определили общее направление ухода саранчей."
+    source_event: event-009
+
+  - operation: add
+    subject: party
+    knowledge_ref: fact.room3-four-gems
+    summary: "Все четыре персонажа знают состав найденной добычи и исходные стоимости камней по B4."
+    source_event: event-010
+
+  - operation: add
+    subject: party
+    knowledge_ref: fact.room3-north-aperture
+    summary: "Все четыре персонажа знают об узком отверстии высоко в северной стене."
+    source_event: event-010
+
+  - operation: add
+    subject: party
+    knowledge_ref: fact.room3-search-complete
+    summary: "Все четыре персонажа знают итог полного обыска комнаты и тел стирджей."
+    source_event: event-010
+
+new_rulings: []
+
+module_overrides:
+  - id: override.b4-room3-secret-door-operation
+    operation: add
+    target: location.pyramid.secret-room-3.secret-door
+    summary: "Для текущего канона неописанный в B4 механизм определён как нажимная тяжёлая каменная плита, которая медленно самозакрывается, если её не удерживать."
+    knowledge_level: player-known
+    source_event: event-006
+
+  - id: override.b4-room3-stirge-adaptation
+    operation: add
+    target: npc.stirges-room-3
+    summary: "Семь стирджей для разрешённого абстрактного боя были адаптированы как Harrier 1 / Underling с 1 HP каждый; узкий дверной проём уменьшил их эффективную угрозу. Все семь уничтожены."
+    knowledge_level: player-known
+    source_event: event-007
+
+open_thread_changes:
+  - operation: update
+    thread_id: thread.bee-treasure
+    note: "Группа отступила в мастерскую и закрыла дверь; четыре пчелы и сокровища остались нетронутыми."
+    related_facts: []
+    source_event: event-001
+
+  - operation: update
+    thread_id: thread.goblin-pursuit
+    note: "Отступление от пчёл, исследование западного пути и последующие события дали четырём гоблинам дополнительную фору; точный маршрут и местоположение неизвестны."
+    related_facts: []
+    source_event: event-002
+
+  - operation: update
+    thread_id: thread.thirst-crisis
+    note: "В конце dungeon rounds 5 и 6 каждый персонаж потерял по 1 HP; часы остаются заполненными, настоящей воды нет."
+    related_facts: []
+    source_event: event-008
+
+  - operation: update
+    thread_id: thread.find-haven
+    note: "Тайная комната №3 скрыла группу от одной случайной встречи, но её пригодность как безопасного haven, наличие воды и возможность длительного отдыха не установлены."
+    related_facts:
+      - fact.room3-secret-door-mechanism
+      - fact.room3-north-aperture
+    source_event: event-009
+
+  - operation: add
+    thread_id: thread.room3-aperture
+    title: "Отверстие стирджей"
+    question: "Куда выходит узкий проход высоко в северной стене тайной комнаты №3?"
+    status: active
+    knowledge_level: player-known
+    related_entities:
+      - location.pyramid.secret-room-3
+    related_facts:
+      - fact.room3-north-aperture
+    source_event: event-010
+
+uncertainties:
+  - "Точные результаты depletion checks грубого факела в конце dungeon rounds 5 и 6 не были названы; установлено только, что факел Ориса продолжает гореть."
+  - "Точный результат d10 на alarm check в конце dungeon round 6 не был назван; установлено только, что результат был не выше Alarm 8 и вызвал встречу."
+  - "Точный encounter-check roll при появлении пещерных саранчей не был зарегистрирован; установлено, что группа заметила угрозу достаточно рано, чтобы выбрать Withdraw."
+  - "Бой со стирджами был разрешён абстрагированно по просьбе игрока; отдельные атаки, защиты, блоки и броски урона не регистрировались."
+  - "Точная позиция каждого персонажа в дверном проёме во время абстрагированного боя не установлена."
+  - "Trespasser-адаптация и боевые характеристики гигантских пещерных саранчей не установлены, поскольку боя с ними не произошло."
+  - "Точное текущее местоположение пяти пещерных саранчей неизвестно; известно только, что они ушли по коридору на север."
+  - "Точное текущее местоположение и маршрут четырёх уцелевших гоблинов остаются неизвестными."
+  - "Не определено, куда выходит узкое отверстие в северной стене комнаты №3."
+  - "Носитель четырёх драгоценных камней и занимаемые ими инвентарные слоты не назначены."
+  - "Предложенная схема перевода сокровищ B/X в Trespasser не была подтверждена; камням не назначены Treasure Value, XP или Wealth."
+  - "Окончательные deeds и talents персонажей первого уровня по-прежнему не полностью зафиксированы."
+
+current_scene:
+  fiction_time: "Первый день экспедиции, dungeon round 7, потрачено 1 из 3 общих действий"
+  location: location.pyramid.secret-room-3
+  present:
+    - character.nara
+    - character.sevek
+    - character.oris
+    - character.tavra
+  situation: "Группа находится внутри полностью обысканной тайной комнаты №3. Каменная дверь закрыта. В комнате лежат семь мёртвых стирджей; четыре драгоценных камня собраны вместе и ожидают распределения. Пять пещерных саранчей прошли мимо и ушли на север."
+  active_threats:
+    - "clock.thirst остаётся 6/6; в конце dungeon round 7 каждый персонаж без настоящей воды потеряет 1 HP."
+    - "Пять гигантских пещерных саранчей живы и находятся где-то севернее тайной двери."
+    - "Четыре уцелевших гоблина получили дополнительную фору; их местоположение неизвестно."
+    - "Четыре гигантские пчелы остаются живы в сокровищнице за закрытым восточным маршрутом."
+    - "Горящий грубый факел Ориса остаётся расходуемым источником света."
+  key_resources:
+    - "Один горящий грубый факел у Ориса и два незажжённых грубых факела."
+    - "Девять светящихся желёз огненных жуков, вместе 1 слот; расчётная длительность около двух дней с момента извлечения."
+    - "Два пустых бурдюка; пищи и настоящей воды нет."
+    - "Четыре драгоценных камня: 100 gp, 100 gp, 500 gp и 1000 gp по B4; носитель, слоты и Trespasser Value не назначены."
+    - "Шесть фляг старого масла и кузнечные инструменты остаются в мастерской."
+    - "Два грубых кинжала и два грубых коротких лука остаются в газовой комнате."
+  pending_decisions:
+    - "Как использовать оставшиеся 2 общих действия dungeon round 7."
+    - "Назначить носителя и инвентарные слоты для четырёх драгоценных камней."
+    - "Подтвердить, изменить или отклонить предложенную схему перевода сокровищ B/X в Treasure Value Trespasser."
+    - "Искать ли пригодную воду или место для отдыха до следующего тика жажды."
+    - "Открывать ли тайную дверь и продолжать исследование северного коридора, где прошли саранчи, либо возвращаться в мастерскую."
+    - "Исследовать ли происхождение узкого отверстия в северной стене комнаты."
+    - "До следующего использования незаписанных способностей окончательно выбрать deeds и talents персонажей первого уровня."
+  party_status:
+    character.nara:
+      hp: 22
+      hp_max: 28
+      endurance: 12
+      endurance_max: 12
+      recovery_dice: 12d6
+      resolve: 0
+      conditions:
+        - critical-thirst
+    character.sevek:
+      hp: 12
+      hp_max: 15
+      endurance: 11
+      endurance_max: 11
+      recovery_dice: 11d6
+      resolve: 0
+      conditions:
+        - critical-thirst
+    character.oris:
+      hp: 11
+      hp_max: 17
+      endurance: 11
+      endurance_max: 12
+      recovery_dice: 12d6
+      resolve: 0
+      conditions:
+        - critical-thirst
+      carrying:
+        - burning-crude-torch
+    character.tavra:
+      hp: 16
+      hp_max: 22
+      endurance: 10
+      endurance_max: 11
+      recovery_dice: 11d6
+      resolve: 0
+      conditions:
+        - critical-thirst
+  clocks:
+    clock.thirst:
+      current: 6
+      maximum: 6
+    clock.alarm:
+      current: 0
+      maximum: 10
+
+expected_files:
+  modify:
+    - CURRENT.md
+    - journal/entry-0002.md
+    - party/party.md
+    - party/character-nara.md
+    - party/character-sevek.md
+    - party/character-oris.md
+    - party/character-tavra.md
+    - campaign/clocks.md
+    - campaign/open-threads.md
+    - campaign/established-facts.md
+    - campaign/timeline.md
+    - locations/pyramid-workshop.md
+    - locations/pyramid-bee-treasury.md
+    - npcs/goblin-survivors.md
+    - gm/module-overrides.md
+  create:
+    - checkpoints/cp-0002.yaml
+    - locations/pyramid-northwest-corridor.md
+    - locations/pyramid-secret-room-3.md
+    - npcs/stirges-room-3.md
+    - npcs/giant-cave-locusts.md
+
+commit_message: "checkpoint cp-0002: тайная комната и бой со стирджами"

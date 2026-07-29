@@ -1,8 +1,8 @@
 # Индекс локаций
 
-Локации ещё не созданы.
-
-| ID | Название | Родительская область | Статус | Уровень известности | Файл |
+| ID | Название | Статус | Родительская локация | Уровень известности | Файл |
 | --- | --- | --- | --- | --- | --- |
-
-Создавайте новые файлы из [шаблона локации](location-template.md).
+| `location.pyramid` | Ступенчатая пирамида Затерянного города | `active` | `location.none` | `mixed` | [pyramid.md](pyramid.md) |
+| `location.pyramid.gas-chamber` | Зал трёх бронзовых статуй | `active` | `location.pyramid` | `mixed` | [pyramid-gas-chamber.md](pyramid-gas-chamber.md) |
+| `location.pyramid.workshop` | Ремонтная мастерская под статуями | `active` | `location.pyramid` | `mixed` | [pyramid-workshop.md](pyramid-workshop.md) |
+| `location.pyramid.bee-treasury` | Сокровищница с гигантскими пчёлами | `active` | `location.pyramid` | `mixed` | [pyramid-bee-treasury.md](pyramid-bee-treasury.md) |
