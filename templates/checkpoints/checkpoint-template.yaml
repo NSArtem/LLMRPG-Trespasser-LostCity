@@ -15,6 +15,7 @@ continuity:
 summary: TODO
 assertions: []
 changes: []
+resource_changes: []
 
 journal_append:
   events: []

@@ -525,6 +525,94 @@ def check_delta_checkpoint_payload(
                 f"'{source_event}' не найден в journal_append.events"
             )
 
+    resource_lines = yaml_section_lines(text, "resource_changes")
+    resources = yaml_list_mappings(resource_lines, 2)
+    raw_resource_items = sum(
+        1 for line in resource_lines if re.match(r"^ {2}-\s+", line)
+    )
+    if raw_resource_items != len(resources):
+        errors.append(
+            f"{display(path)}: каждый элемент resource_changes "
+            "должен быть объектом"
+        )
+    allowed_resource_operations = {
+        "add",
+        "update",
+        "transfer",
+        "consume",
+        "remove",
+    }
+    required_resource_fields = {
+        "id",
+        "operation",
+        "name",
+        "quantity_before",
+        "quantity_after",
+        "holder_before",
+        "holder_after",
+        "condition_before",
+        "condition_after",
+        "capabilities",
+        "limitations",
+        "maintenance",
+        "load_limit",
+        "noise",
+        "light",
+        "consumption",
+        "source_event",
+    }
+    resource_ids: set[str] = set()
+    null_values = {"", "null", "~"}
+    for index, resource in enumerate(resources, start=1):
+        missing = sorted(required_resource_fields - resource.keys())
+        resource_id = resource.get("id", "")
+        if not ID_RE.fullmatch(resource_id):
+            errors.append(
+                f"{display(path)}: resource_changes[{index}].id "
+                f"'{resource_id}' имеет неверный формат"
+            )
+        elif resource_id in resource_ids:
+            errors.append(
+                f"{display(path)}: повторяющийся resource_changes.id "
+                f"'{resource_id}'"
+            )
+        else:
+            resource_ids.add(resource_id)
+
+        operation = resource.get("operation", "")
+        if operation not in allowed_resource_operations:
+            errors.append(
+                f"{display(path)}: resource_changes[{index}].operation "
+                "должен быть add, update, transfer, consume или remove"
+            )
+        if not resource.get("name"):
+            missing.append("name")
+        if operation == "transfer":
+            for key in ("holder_before", "holder_after"):
+                if resource.get(key, "") in null_values:
+                    errors.append(
+                        f"{display(path)}: resource_changes[{index}].{key} "
+                        "для transfer должен однозначно указывать держателя"
+                    )
+        if operation == "consume":
+            for key in ("quantity_before", "quantity_after"):
+                if resource.get(key, "") in null_values:
+                    errors.append(
+                        f"{display(path)}: resource_changes[{index}].{key} "
+                        "для consume должен содержать количество или unknown"
+                    )
+        if missing:
+            errors.append(
+                f"{display(path)}: resource_changes[{index}] "
+                "не содержит поля: " + ", ".join(sorted(set(missing)))
+            )
+        source_event = resource.get("source_event", "")
+        if source_event and source_event not in event_ids:
+            errors.append(
+                f"{display(path)}: resource_changes[{index}].source_event "
+                f"'{source_event}' не найден в journal_append.events"
+            )
+
     new_facts = yaml_list_mappings(
         yaml_section_lines(text, "new_facts"), 2
     )
