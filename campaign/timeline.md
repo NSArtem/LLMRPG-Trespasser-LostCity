@@ -12,4 +12,9 @@
 | Позднее | `journal.entry-0001` | `cp-0001` | Марта и щенок погибли; трое выживших достигли уступа. | `location.lair.cistern-ledge` | `event-007` | confirmed |
 | Позднее | `journal.entry-0001` | `cp-0001` | Выжившие прошли расщелину, сняли мокрую одежду и вскрыли тубус. | `location.lair.dry-corridor` | `event-008`–`event-009` | confirmed |
 | Позднее | `journal.entry-0001` | `cp-0001` | После засады группа убила неизвестного охотника. | `location.lair.dry-corridor` | `event-010`–`event-011` | confirmed |
-| Текущий момент | `journal.entry-0001` | `cp-0001` | Группа нашла окованную дверь со светом за ней. | `location.lair.ironbound-door` | `event-012` | active |
+| Позднее | `journal.entry-0001` | `cp-0001` | Группа нашла окованную дверь со светом за ней. | `location.lair.ironbound-door` | `event-012` | confirmed |
+| Первый отслеженный раунд | `journal.entry-0001` | `cp-0002` | Дверь обследована, отперта ключом; найдены светящаяся камера и вода. | `location.lair.luminous-cistern-room` | `event-013`–`event-018` | confirmed |
+| Второй отслеженный раунд | `journal.entry-0001` | `cp-0002` | Группа напилась, подняла правую плиту, разведала выходы и изготовила грибной светильник. | освещённая камера / `location.lair.stream-cave` | `event-019`–`event-024` | confirmed |
+| Третий отслеженный раунд | `journal.entry-0001` | `cp-0002` | Исследованы склад и кладовая; собраны припасы; Alarm вызвал бледного ползуна. | `location.lair.storage-room` | `event-025`–`event-028` | confirmed |
+| Погоня, несколько минут | `journal.entry-0001` | `cp-0002` | Группа открыла заклиненную дверь, ушла по нижнему коридору и поднялась через люк. | `location.lair.lower-corridor` | `event-029`–`event-032` | confirmed |
+| Текущий момент | `journal.entry-0001` | `cp-0002` | Люк забаррикадирован камнем; группа стоит у холодного пролома. | `location.lair.upper-ruin` / `npc.bloated-crawler` | `event-033` | active |
