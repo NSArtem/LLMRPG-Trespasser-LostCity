@@ -13,9 +13,11 @@ SCALAR_FACETS = (
     "kind",
     "medium",
     "elevation",
+    "baseline_state",
+    "visibility",
     "traversal_direction",
 )
-SET_FACETS = ("barriers", "features", "conditions")
+SET_FACETS = ("barriers", "features", "conditions", "hazards")
 
 
 def _value_key(value: Any) -> bytes:
@@ -65,7 +67,7 @@ def reconcile_records(
             field_observations[field] = values
             concrete: dict[bytes, Any] = {}
             for item in values:
-                if item["value"] is not None:
+                if item["value"] is not None or field == "topology_node":
                     concrete[_value_key(item["value"])] = item["value"]
             if len(concrete) == 1:
                 fields[field] = next(iter(concrete.values()))
@@ -103,6 +105,14 @@ def reconcile_records(
                 "observation_ids": [
                     observation["observation_id"] for observation in group
                 ],
+                "extracted_ids": sorted(
+                    {
+                        observation.get(
+                            "extracted_concept_id", observation["concept_id"]
+                        )
+                        for observation in group
+                    }
+                ),
             }
         )
     return records, conflicts
@@ -114,6 +124,14 @@ def _relative_direction(
     if direction not in {"from_to", "to_from"} or start == canonical_start:
         return direction
     return "to_from" if direction == "from_to" else "from_to"
+
+
+def _relative_elevation(
+    elevation: str | None, start: str, canonical_start: str
+) -> str | None:
+    if start == canonical_start or elevation not in {"up", "down"}:
+        return elevation
+    return "down" if elevation == "up" else "up"
 
 
 def reconcile_topology(
@@ -131,14 +149,22 @@ def reconcile_topology(
             observation["facets"]["traversal_direction"] = _relative_direction(
                 raw["facets"].get("traversal_direction"), raw["from"], start
             )
+            observation["facets"]["elevation"] = _relative_elevation(
+                raw["facets"].get("elevation"), raw["from"], start
+            )
             edge_groups[(start, end)].append(observation)
     nodes = []
+    conflicts = []
     for identifier in sorted(node_groups):
         observations = sorted(
             node_groups[identifier], key=lambda item: item["observation_id"]
         )
-        nodes.append(
-            {
+        classifications = {
+            item["classification"]
+            for item in observations
+            if item.get("classification") is not None
+        }
+        node = {
                 "id": identifier,
                 "labels": sorted(set(item["label"] for item in observations)),
                 "titles": sorted(
@@ -148,11 +174,32 @@ def reconcile_topology(
                     {page for item in observations for page in item["source_pages"]}
                 ),
                 "observations": observations,
+                "classification_observations": [
+                    {
+                        "value": item.get("classification"),
+                        "source_pages": item["source_pages"],
+                        "confidence": item["confidence"],
+                        "pack_id": item["pack_id"],
+                        "observation_id": item["observation_id"],
+                    }
+                    for item in observations
+                ],
             }
-        )
+        if len(classifications) == 1:
+            node["classification"] = next(iter(classifications))
+        elif len(classifications) > 1:
+            conflicts.append(
+                {
+                    "id": f"conflict.{identifier}.classification",
+                    "object_id": identifier,
+                    "field": "classification",
+                    "values": sorted(classifications),
+                    "blocking": True,
+                }
+            )
+        nodes.append(node)
     node_ids = {node["id"] for node in nodes}
     passages = []
-    conflicts = []
     for endpoints in sorted(edge_groups):
         start, end = endpoints
         if start not in node_ids or end not in node_ids:

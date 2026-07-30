@@ -152,6 +152,10 @@ def repository_text_files() -> list[Path]:
             not path.is_file()
             or ".git" in path.parts
             or "templates" in path.parts
+            or (
+                path.parent == REPO_ROOT
+                and path.name.startswith(("plan-by-", "review-by-"))
+            )
         ):
             continue
         if path.name in TEXT_NAMES or path.suffix.lower() in TEXT_SUFFIXES:

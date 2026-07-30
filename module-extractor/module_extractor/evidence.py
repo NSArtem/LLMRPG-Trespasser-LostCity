@@ -19,6 +19,8 @@ from .util import load_json, require_safe_id, sha256_bytes, sha256_file, write_j
 
 ELEVATIONS = {"level", "up", "down", "vertical", "variable"}
 DIRECTIONS = {"both", "from_to", "to_from", "conditional"}
+NODE_CLASSIFICATIONS = {"place", "waypoint", "boundary"}
+VISIBILITIES = {"visible", "hidden"}
 
 
 def _checked_string_set(value: Any) -> list[str]:
@@ -84,7 +86,7 @@ def _content_observations(
     return observations, uncertainties
 
 
-def validate_v1_map(
+def validate_map_response(
     response: Mapping[str, Any], pack: Mapping[str, Any], source: Mapping[str, Any]
 ) -> dict[str, Any]:
     if response.get("schema") != MAP_SCHEMA:
@@ -104,12 +106,21 @@ def validate_v1_map(
         if identifier in node_ids:
             raise ExtractorError(f"duplicate map node {identifier}")
         node_ids.add(identifier)
+        label = raw.get("label")
+        if not isinstance(label, str) or not label.strip():
+            raise ExtractorError(f"{context}.label must be a non-empty string")
+        title = raw.get("title")
+        if title is not None and (
+            not isinstance(title, str) or not title.strip()
+        ):
+            raise ExtractorError(f"{context}.title must be a non-empty string or null")
         nodes.append(
             {
                 "observation_id": f"observation.{pack['pack_id']}.node.{identifier}",
                 "concept_id": identifier,
-                "label": str(raw.get("label", "")),
-                "title": raw.get("title"),
+                "label": label,
+                "title": title,
+                "classification": raw.get("classification"),
                 "source_pages": _pages(
                     raw.get("source_pages"),
                     context=f"{context}.source_pages",
@@ -122,6 +133,11 @@ def validate_v1_map(
         )
         if raw.get("confidence") not in CONFIDENCES:
             raise ExtractorError(f"{context}.confidence is invalid")
+        if (
+            raw.get("classification") is not None
+            and raw.get("classification") not in NODE_CLASSIFICATIONS
+        ):
+            raise ExtractorError(f"{context}.classification is invalid")
     passages = []
     passage_ids: set[str] = set()
     facet_errors: list[str] = []
@@ -147,6 +163,9 @@ def validate_v1_map(
             "barriers",
             "features",
             "conditions",
+            "baseline_state",
+            "visibility",
+            "hazards",
             "traversal_direction",
         }
         unknown_fields = sorted(set(facets) - allowed_facet_fields)
@@ -155,7 +174,7 @@ def validate_v1_map(
                 f"{context}.facets contains unsupported fields: "
                 + ", ".join(unknown_fields)
             )
-        for field in ("kind", "medium"):
+        for field in ("kind", "medium", "baseline_state"):
             value = facets.get(field)
             if value is not None and (
                 not isinstance(value, str) or not value.strip()
@@ -166,6 +185,7 @@ def validate_v1_map(
         for field, allowed_values in (
             ("elevation", ELEVATIONS),
             ("traversal_direction", DIRECTIONS),
+            ("visibility", VISIBILITIES),
         ):
             value = facets.get(field)
             if value is not None and (
@@ -176,7 +196,7 @@ def validate_v1_map(
                     f"{context}.facets.{field} must be one of "
                     f"{choices}, or null; got {value!r}"
                 )
-        for field in ("barriers", "features", "conditions"):
+        for field in ("barriers", "features", "conditions", "hazards"):
             value = facets.get(field, [])
             if not isinstance(value, list) or any(
                 not isinstance(item, str) or not item.strip() for item in value
@@ -206,6 +226,9 @@ def validate_v1_map(
                     "conditions": _checked_string_set(
                         facets.get("conditions", [])
                     ),
+                    "baseline_state": facets.get("baseline_state"),
+                    "visibility": facets.get("visibility"),
+                    "hazards": _checked_string_set(facets.get("hazards", [])),
                     "traversal_direction": facets.get("traversal_direction"),
                 },
                 "source_pages": _pages(
@@ -290,7 +313,7 @@ def validate_pack_response(
     if not isinstance(response, dict):
         raise ExtractorError(f"response {pack['pack_id']} must be an object")
     if pack["task"] == "maps":
-        validate_v1_map(response, pack, source)
+        validate_map_response(response, pack, source)
     else:
         validate_content_response(response, pack, source)
 
@@ -395,7 +418,7 @@ def ingest_responses(
             raise ExtractorError(f"response {pack['pack_id']} must be an object")
         task_coverage: list[dict[str, Any]]
         if pack["task"] == "maps":
-            result = validate_v1_map(response, pack, source)
+            result = validate_map_response(response, pack, source)
             map_results.append(result)
             uncertainties.extend(result["uncertainties"])
             pack_record_ids.extend(node["concept_id"] for node in result["nodes"])

@@ -62,9 +62,9 @@ Task-to-record mapping:
 
 Every record needs id, record_type, fields, source_pages, confidence,
 references, and uncertainties. Required fields by record type:
-- location: title, description
+- location: title and player-safe first_impression
 - actor: title, role
-- situation: title, trigger
+- situation: title, player-safe perceived, activation
 - procedure: title, trigger, steps (array)
 - knowledge, rule, item, spell, class, effect: title, text
 - table: title, entries (array)
@@ -72,11 +72,74 @@ references, and uncertainties. Required fields by record type:
 Each uncertainty needs description and source_pages. Confidence is high,
 medium, or low.
 
+For a location, extract only source-supported operational fields:
+- contents: visible contents (array of strings);
+- discoverable: objects with information and the action or condition needed
+  to acquire it;
+- hidden: GM-only information (array of strings);
+- triggers, hazards, resources, and occupants (arrays of strings);
+- actor_references, situation_references, procedure_references, and
+  knowledge_references (arrays of record IDs also listed in references);
+- keyed_area, map_label, or topology_label when the source supplies it;
+- topology_node when the text explicitly names a map node, or null only when
+  the source explicitly establishes that the location is not mapped.
+
+Omit optional location fields when the source provides no evidence. Never add
+empty arrays, generic prose, or invented defaults merely to fill the shape.
+First impression is player-safe: do not include secrets, concealed features,
+or facts that require investigation. Discoverable entries must pair the
+information with a non-empty acquisition condition. Hidden is GM-only.
+For an actor, extract only source-supported operational fields:
+- appearance: what observers immediately notice (string);
+- role: what the actor is and does in the adventure (string);
+- goals, behavior, capabilities: arrays of strings; capabilities retain exact
+  statistics, numbers, and mechanics;
+- reactions: objects with stimulus and response;
+- relationships: objects with target_id (another actor record ID) and
+  relationship;
+- knowledge_references, location_references, and situation_references: arrays
+  of record IDs also listed in references;
+- hidden: GM-only motivations, orders, or constraints (array of strings);
+- starting_state: only a state the source explicitly states as the starting
+  state (array of strings).
+
+Everything except hidden may be revealed through play. Never record mutable
+runtime state such as current health, position, attitude, or inventory.
+
+For a situation, extract only source-supported operational fields:
+- perceived: what the players perceive when it occurs (player-safe string);
+- activation: an object with type (triggered, timed, random, keyed, ongoing,
+  or chosen) and condition;
+- repeat: an object with mode (once or repeatable) and an optional condition;
+- location_references, procedure_references, knowledge_references: arrays of
+  record IDs also listed in references;
+- participants: objects with actor_id and role;
+- actor_reactions: objects with actor_id and reaction;
+- stakes: the pressure and what is at risk (array of strings);
+- approaches: likely player approaches or decisions (array of strings);
+- outcomes: possible outcomes (array of strings);
+- completion: completion conditions (array of strings);
+- possible_effects: objects with effect, description, an optional condition,
+  and a target. Effect is one of activate-situation, actor-state,
+  future-thread, reveal-knowledge, schedule-procedure, stop-procedure, or
+  topology-state. Every effect except future-thread names a target: the
+  situation, actor, knowledge, or procedure record ID, or, for
+  topology-state, the map node ID. Possible effects describe what the source
+  says may happen. They are never applied and never record that a situation
+  already ran.
+
+`place_record_template`, `actor_record_template`, and
+`situation_record_template` in the response template illustrate the shape only;
+do not return them as evidence or copy fields that the source does not support.
+
 Return only a JSON file matching response-template.json. Copy schema,
 source_sha256, pack_id, and task exactly. Each source-specific observation must
 have a stable conceptual id, typed fields, confidence, and physical-page
 citations. Paraphrase operational content while retaining exact mechanics,
 names, numbers, and table entries. Attach uncertainty to its affected record.
+Use a source-faithful extracted ID; do not guess the final canonical runtime
+ID. Alternate IDs from different passages are retained as observations and
+reviewed after all packs are ingested.
 Complete task_coverage for every routed page/task pair. Use extracted with
 compatible record IDs when evidence was found. Use not-found with a concise
 explanation only when close reading finds no evidence for a routed task.
@@ -156,6 +219,80 @@ def _content_template(
             for row in page_tasks
             for task in row["tasks"]
         ],
+        "place_record_template": {
+            "id": "location.area-example",
+            "record_type": "location",
+            "fields": {
+                "title": "Example Room",
+                "first_impression": "A source-supported player-safe impression.",
+                "contents": ["A visible source-supported feature."],
+                "discoverable": [
+                    {
+                        "information": "A source-supported concealed detail.",
+                        "condition": "Search the indicated feature.",
+                    }
+                ],
+                "hidden": ["A source-supported GM-only fact."],
+                "topology_label": "1",
+            },
+            "source_pages": [page_tasks[0]["pdf_page"]],
+            "confidence": "low",
+            "references": [],
+            "uncertainties": [],
+        },
+        "actor_record_template": {
+            "id": "actor.example-guard",
+            "record_type": "actor",
+            "fields": {
+                "title": "Example Guard",
+                "appearance": "A source-supported observable description.",
+                "role": "What the source says this actor does here.",
+                "goals": ["A source-supported goal."],
+                "behavior": ["A source-supported public behavior."],
+                "reactions": [
+                    {
+                        "stimulus": "A source-supported provocation.",
+                        "response": "The source-supported response.",
+                    }
+                ],
+                "capabilities": ["Exact source statistics and mechanics."],
+                "hidden": ["A source-supported secret order or motivation."],
+            },
+            "source_pages": [page_tasks[0]["pdf_page"]],
+            "confidence": "low",
+            "references": [],
+            "uncertainties": [],
+        },
+        "situation_record_template": {
+            "id": "situation.example-standoff",
+            "record_type": "situation",
+            "fields": {
+                "title": "Example Standoff",
+                "perceived": "A player-safe description of what happens.",
+                "activation": {
+                    "type": "triggered",
+                    "condition": "The source-stated activation condition.",
+                },
+                "repeat": {"mode": "once", "condition": None},
+                "participants": [
+                    {"actor_id": "actor.example-guard", "role": "Blocks the way."}
+                ],
+                "stakes": ["What the source says is at risk."],
+                "approaches": ["A likely source-supported approach."],
+                "outcomes": ["A source-supported possible outcome."],
+                "completion": ["The source-stated completion condition."],
+                "possible_effects": [
+                    {
+                        "effect": "future-thread",
+                        "description": "A source-supported later consequence.",
+                    }
+                ],
+            },
+            "source_pages": [page_tasks[0]["pdf_page"]],
+            "confidence": "low",
+            "references": ["actor.example-guard"],
+            "uncertainties": [],
+        },
         "records": [],
     }
 
@@ -166,8 +303,11 @@ def _map_prompt(
     return f"""Extract visible topology evidence from physical pages {', '.join(map(str, pages))}.
 
 Return only JSON matching response-template.json. Copy schema, source_sha256,
-and pack_id exactly. Record source-specific nodes and passages. A passage has
-independent facets:
+and pack_id exactly. Record source-specific nodes and passages. Classify each
+node as place, waypoint, or boundary. A waypoint or boundary remains topology
+and does not need a full place card. Use null only when the source does not
+support a classification and record the uncertainty. A passage has independent
+facets:
 - kind: a concise source-faithful description such as corridor, path, doorway,
   hatch, stairway, shaft, bridge, portal, or transport ward;
 - medium: a concise source-faithful traversal medium such as ground, water,
@@ -178,15 +318,20 @@ independent facets:
 - features: other operational properties of the connection;
 - conditions: requirements or circumstances that control whether traversal is
   possible, including keyed, timed, one-use, vehicle-only, or spell-dependent;
+- baseline_state: the source-stated default state such as open, closed,
+  blocked, dormant, or concealed;
+- visibility: exactly visible, hidden, or null;
+- hazards: hazards intrinsic to traversing the connection;
 - traversal_direction: exactly both, from_to, to_from, conditional, or null.
 
-Use null for an unknown scalar facet and [] for an unknown set facet; unknown
-values assert nothing. Put arbitrary source wording in kind, medium, barriers,
-features, or conditions rather than inventing a controlled value. A direction
-is conditional when its availability or direction depends on a stated
-condition; record that condition under conditions. Cite only pages in this
-pack and attach each uncertainty to a node or passage ID. Do not infer
-invisible connections or generate canonical files.
+Hidden and conditional passages must name their revealing or traversal
+requirements under conditions. Use null for an unknown scalar facet and [] for
+an unknown set facet; unknown values assert nothing. Put arbitrary source
+wording in kind, medium, barriers, features, or conditions rather than
+inventing a controlled value. A direction is conditional when its availability
+or direction depends on a stated condition; record that condition under
+conditions. Cite only pages in this pack and attach each uncertainty to a node
+or passage ID. Do not infer invisible connections or generate canonical files.
 
 schema: {MAP_SCHEMA}
 source_sha256: {source['sha256']}
@@ -205,12 +350,14 @@ def _map_template(
             {
                 "id": "area-example",
                 "label": "Example",
+                "classification": "place",
                 "source_pages": [page],
                 "confidence": "low",
             },
             {
                 "id": "area-other",
                 "label": "Other",
+                "classification": "waypoint",
                 "source_pages": [page],
                 "confidence": "low",
             }
@@ -227,6 +374,9 @@ def _map_template(
                     "barriers": [],
                     "features": [],
                     "conditions": [],
+                    "baseline_state": None,
+                    "visibility": None,
+                    "hazards": [],
                     "traversal_direction": None,
                 },
                 "source_pages": [page],
@@ -404,7 +554,7 @@ def create_focused_packs(
     for number, group in enumerate(
         partition_map_pages(routed_map_pages, map_sizes), 1
     ):
-        pack_id = f"map.v1.{number:03d}"
+        pack_id = f"map.v2.{number:03d}"
         render_bytes = sum(map_sizes[page] for page in group)
         entries: dict[str, bytes | Path] = {
             "README.md": focused_pack_readme(

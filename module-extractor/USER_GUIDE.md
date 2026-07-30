@@ -86,3 +86,35 @@ JSON, and rerun `python3 module-extractor/cli.py run`.
 
 `_exchange/` and `.module-extractor-cache/` are disposable. `module-input/`
 contains durable inputs, and `module/` is extractor-generated output.
+
+A release starts at `module/MODULE.md`, with compact lookup in `index.md` and
+`index.json` and selectively loadable cards under `cards/`. Full extraction
+state and reports are isolated under `module/audit/`; they are for review and
+repair, not normal gameplay context. `GENERATED_OUTPUT.json` identifies the
+verified output contract and owns the complete generated tree.
+
+To resolve the exact bounded context for one released place without loading
+the complete index or topology into play context:
+
+```bash
+python3 module-extractor/cli.py status \
+  --scene place.example-adventure.gate
+```
+
+The JSON result lists the place card, typed `load_with` card paths, byte count,
+current node, only its adjacent edges, and the situations available at that
+place. `audit/` and the source PDF are excluded.
+
+Choosing which available situation is running is your decision, never the
+extractor's. Name it explicitly to add the actors, procedures, and knowledge
+that situation needs:
+
+```bash
+python3 module-extractor/cli.py status \
+  --scene place.example-adventure.gate \
+  --situation situation.example-adventure.parley-at-the-gate
+```
+
+The active situation reports its possible effects with `applied: false`. Those
+effects describe what the source says may happen. Nothing applies them, and
+nothing copies them into a checkpoint.

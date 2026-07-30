@@ -9,6 +9,7 @@ from typing import Any, Mapping
 
 from .contracts import (
     CANONICAL_SCHEMA,
+    REVIEW_SCHEMA,
     validate_pack_manifest,
     validate_review,
     validate_routing,
@@ -17,9 +18,16 @@ from .contracts import (
 from .coverage import build_coverage
 from .errors import ExtractorError
 from .evidence import ingest_responses
+from .identity import apply_identity_review
+from .operations import resolve_operational_records
 from .reconciliation import reconcile_records, reconcile_topology
-from .rendering import render_module
-from .review import apply_review, canonicalize_evidence_aliases, release_gate
+from .rendering import (
+    generated_output_is_replaceable,
+    render_module,
+    validate_rendered_module,
+)
+from .review import apply_review, release_gate
+from .topology import resolve_operational_topology
 from .util import (
     atomic_publish,
     canonical_json_bytes,
@@ -38,11 +46,14 @@ def load_run(run_dir: Path) -> dict[str, Any]:
         review = validate_review(load_json(review_path), source)
     else:
         review = {
-            "schema": "module-review-overlay/v1",
+            "schema": REVIEW_SCHEMA,
             "source_sha256": source["sha256"],
+            "canonical_ids": [],
             "aliases": [],
+            "distinct": [],
             "values": [],
             "accepted_uncertainties": [],
+            "topology_composites": [],
             "notes": "",
         }
     return {
@@ -57,11 +68,16 @@ def load_run(run_dir: Path) -> dict[str, Any]:
 def evaluate(run_dir: Path) -> dict[str, Any]:
     loaded = load_run(run_dir)
     evidence = ingest_responses(run_dir, loaded["packs"], loaded["source"])
-    evidence = canonicalize_evidence_aliases(evidence, loaded["review"])
-    records, content_conflicts = reconcile_records(
-        evidence["content_observations"]
+    identity = apply_identity_review(
+        evidence, loaded["review"], loaded["source"]
     )
-    topology, topology_conflicts = reconcile_topology(evidence["map_results"])
+    canonical_evidence = identity["evidence"]
+    records, content_conflicts = reconcile_records(
+        canonical_evidence["content_observations"]
+    )
+    topology, topology_conflicts = reconcile_topology(
+        canonical_evidence["map_results"]
+    )
     conflicts = sorted(
         content_conflicts + topology_conflicts, key=lambda item: item["id"]
     )
@@ -71,17 +87,24 @@ def evaluate(run_dir: Path) -> dict[str, Any]:
         loaded["packs"],
         evidence["responses"],
     )
-    reviewed = apply_review(
-        records,
-        topology,
-        conflicts,
-        evidence["uncertainties"],
-        loaded["review"],
+    reviewed = resolve_operational_records(
+        resolve_operational_topology(
+            apply_review(
+                records,
+                topology,
+                conflicts,
+                canonical_evidence["uncertainties"],
+                loaded["review"],
+                identity,
+            )
+        )
     )
     gate_errors = release_gate(reviewed, coverage)
     return {
         **loaded,
         "evidence": evidence,
+        "canonical_evidence": canonical_evidence,
+        "identity": identity,
         "raw_records": records,
         "raw_topology": topology,
         "conflicts": conflicts,
@@ -137,7 +160,20 @@ def canonical_module(
         "review": evaluated["review"],
         "records": evaluated["reviewed"]["records"],
         "topology": evaluated["reviewed"]["topology"],
+        "topology_links": evaluated["reviewed"]["topology_links"],
+        "topology_errors": evaluated["reviewed"]["topology_errors"],
+        "record_errors": evaluated["reviewed"]["record_errors"],
         "aliases": evaluated["reviewed"]["aliases"],
+        "identity": {
+            "candidate_groups": evaluated["identity"]["candidate_groups"],
+            "confirmed_aliases": evaluated["identity"]["confirmed_aliases"],
+            "canonical_ids": evaluated["identity"]["canonical_ids"],
+            "rejected_merges": evaluated["identity"]["rejected_merges"],
+            "keyed_area_conflicts": evaluated["identity"][
+                "keyed_area_conflicts"
+            ],
+            "errors": evaluated["reviewed"]["identity_errors"],
+        },
         "raw_observations": {
             "content": evaluated["evidence"]["content_observations"],
             "topology": evaluated["evidence"]["map_results"],
@@ -149,6 +185,9 @@ def canonical_module(
         "pending_uncertainties": evaluated["reviewed"]["pending_uncertainties"],
         "conflicts": evaluated["conflicts"],
         "unresolved_conflicts": evaluated["reviewed"]["unresolved_conflicts"],
+        "unresolved_duplicate_candidates": evaluated["reviewed"][
+            "unresolved_duplicate_candidates"
+        ],
         "release_gate": {
             "passed": not evaluated["gate_errors"],
             "errors": evaluated["gate_errors"],
@@ -160,36 +199,7 @@ def canonical_module(
 
 
 def _replaceable_output(path: Path) -> bool:
-    if not path.exists():
-        return True
-    if not path.is_dir():
-        return False
-    sentinel = path / "GENERATED_OUTPUT.json"
-    if sentinel.is_file():
-        try:
-            value = load_json(sentinel)
-        except ExtractorError:
-            return False
-        return (
-            isinstance(value, dict)
-            and value.get("schema") == "module-extractor-generated-output/v1"
-        )
-    # One-time migration from the preserved PoC's generated preview.
-    legacy = path / "manifest.yaml"
-    allowed = {
-        "actors",
-        "knowledge",
-        "manifest.yaml",
-        "places",
-        "procedures",
-        "situations",
-        "topology",
-    }
-    return (
-        legacy.is_file()
-        and "experiment: true" in legacy.read_text(encoding="utf-8")
-        and {item.name for item in path.iterdir()} <= allowed
-    )
+    return not path.exists() or generated_output_is_replaceable(path)
 
 
 def assemble(
@@ -216,6 +226,7 @@ def assemble(
         temporary_path = Path(temporary)
         stage = temporary_path / "product"
         render_module(stage, module)
+        validate_rendered_module(stage, module)
         atomic_publish(
             stage,
             output,

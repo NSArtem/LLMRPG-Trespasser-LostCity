@@ -1,4 +1,4 @@
-"""Versioned v1 contracts and strict validators."""
+"""Versioned extraction contracts and strict validators."""
 
 from __future__ import annotations
 
@@ -10,11 +10,13 @@ from .util import SAFE_SLUG, require_safe_id, require_sha256
 
 
 ROUTING_SCHEMA = "module-routing/v1"
-CONTENT_SCHEMA = "module-content-evidence/v1"
-MAP_SCHEMA = "module-map-evidence/v1"
-REVIEW_SCHEMA = "module-review-overlay/v1"
+CONTENT_SCHEMA = "module-content-evidence/v3"
+MAP_SCHEMA = "module-map-evidence/v2"
+REVIEW_SCHEMA = "module-review-overlay/v3"
 COVERAGE_SCHEMA = "module-coverage/v1"
-CANONICAL_SCHEMA = "operational-module/v1"
+CANONICAL_SCHEMA = "operational-module/v3"
+GENERATED_OUTPUT_SCHEMA = "module-extractor-generated-output/v4"
+RUNTIME_INDEX_SCHEMA = "operational-module-index/v4"
 
 ROUTING_TASKS = {
     "adventure",
@@ -60,9 +62,9 @@ RECORD_TYPES = {
     "effect",
 }
 REQUIRED_FIELDS = {
-    "location": ("title", "description"),
+    "location": ("title", "first_impression"),
     "actor": ("title", "role"),
-    "situation": ("title", "trigger"),
+    "situation": ("title", "perceived", "activation"),
     "procedure": ("title", "trigger", "steps"),
     "knowledge": ("title", "text"),
     "rule": ("title", "text"),
@@ -72,6 +74,124 @@ REQUIRED_FIELDS = {
     "class": ("title", "text"),
     "effect": ("title", "text"),
 }
+REQUIRED_FIELD_KINDS = {
+    "steps": list,
+    "entries": list,
+    "activation": dict,
+}
+
+PLACE_LIST_FIELDS = {
+    "contents",
+    "hidden",
+    "triggers",
+    "hazards",
+    "resources",
+    "occupants",
+}
+PLACE_REFERENCE_FIELDS = {
+    "actor_references",
+    "situation_references",
+    "procedure_references",
+    "knowledge_references",
+}
+PLACE_MATCH_FIELDS = {
+    "keyed_area",
+    "area_number",
+    "map_label",
+    "topology_label",
+}
+
+ACTOR_TEXT_FIELDS = {"appearance", "role"}
+ACTOR_LIST_FIELDS = {
+    "goals",
+    "behavior",
+    "capabilities",
+    "hidden",
+    "starting_state",
+}
+ACTOR_OBJECT_FIELDS = {
+    "reactions": ("stimulus", "response"),
+    "relationships": ("relationship", "target_id"),
+}
+ACTOR_REFERENCE_FIELDS = {
+    "knowledge_references",
+    "location_references",
+    "situation_references",
+}
+# Runtime state belongs to the campaign checkpoint, never to the immutable
+# module baseline. `starting_state` is the one labeled exception.
+MUTABLE_ACTOR_FIELDS = {
+    "attitude",
+    "current_attitude",
+    "current_health",
+    "current_location",
+    "current_position",
+    "current_status",
+    "disposition",
+    "health",
+    "hit_points",
+    "hp",
+    "inventory",
+    "mood",
+    "position",
+    "status",
+    "wounds",
+}
+
+SITUATION_TEXT_FIELDS = {"perceived"}
+SITUATION_LIST_FIELDS = {"stakes", "approaches", "outcomes", "completion"}
+SITUATION_OBJECT_FIELDS = {
+    "participants": ("actor_id", "role"),
+    "actor_reactions": ("actor_id", "reaction"),
+}
+SITUATION_REFERENCE_FIELDS = {
+    "location_references",
+    "procedure_references",
+    "knowledge_references",
+}
+# A situation card describes source possibilities. It never records that an
+# effect was applied or that the situation already ran.
+MUTABLE_SITUATION_FIELDS = {
+    "active",
+    "applied_effects",
+    "completed",
+    "current_state",
+    "progress",
+    "resolved",
+    "state",
+    "status",
+}
+ACTIVATION_TYPES = {
+    "triggered",
+    "timed",
+    "random",
+    "keyed",
+    "ongoing",
+    "chosen",
+}
+REPEAT_MODES = {"once", "repeatable"}
+POSSIBLE_EFFECT_TYPES = {
+    "activate-situation",
+    "actor-state",
+    "future-thread",
+    "reveal-knowledge",
+    "schedule-procedure",
+    "stop-procedure",
+    "topology-state",
+}
+# Effects that name a record of a specific canonical type.
+EFFECT_RECORD_TYPES = {
+    "activate-situation": "situation",
+    "actor-state": "actor",
+    "reveal-knowledge": "knowledge",
+    "schedule-procedure": "procedure",
+    "stop-procedure": "procedure",
+}
+# `topology-state` names a topology node or passage; `future-thread` names
+# nothing that exists yet.
+UNTARGETED_EFFECT_TYPES = {"future-thread"}
+# Object keys inside typed fields that hold a record or topology identifier.
+IDENTIFIER_KEYS = {"actor_id", "target_id", "target"}
 
 
 def as_object(value: Any, context: str) -> dict[str, Any]:
@@ -330,6 +450,199 @@ def validate_pack_manifest(
     return sorted(results, key=lambda item: item["pack_id"])
 
 
+def _validate_string_list(
+    fields: Mapping[str, Any], field: str, context: str
+) -> None:
+    if field not in fields:
+        return
+    items = as_array(fields[field], f"{context}.fields.{field}")
+    if not items or any(
+        not isinstance(item, str) or not item.strip() for item in items
+    ):
+        raise ExtractorError(
+            f"{context}.fields.{field} must contain one or more non-empty strings"
+        )
+
+
+def _validate_reference_list(
+    fields: Mapping[str, Any], field: str, context: str
+) -> None:
+    if field not in fields:
+        return
+    items = as_array(fields[field], f"{context}.fields.{field}")
+    if not items:
+        raise ExtractorError(
+            f"{context}.fields.{field} must be omitted instead of empty"
+        )
+    if len(items) != len(set(items)):
+        raise ExtractorError(f"{context}.fields.{field} contains duplicates")
+    for index, item in enumerate(items):
+        require_safe_id(item, f"{context}.fields.{field}[{index}]")
+
+
+def _validate_object_list(
+    fields: Mapping[str, Any],
+    field: str,
+    keys: Sequence[str],
+    context: str,
+) -> None:
+    if field not in fields:
+        return
+    items = as_array(fields[field], f"{context}.fields.{field}")
+    if not items:
+        raise ExtractorError(
+            f"{context}.fields.{field} must be omitted instead of empty"
+        )
+    for index, raw in enumerate(items):
+        item_context = f"{context}.fields.{field}[{index}]"
+        item = as_object(raw, item_context)
+        if set(item) != set(keys):
+            raise ExtractorError(
+                f"{item_context} must contain exactly " + ", ".join(sorted(keys))
+            )
+        for key in sorted(keys):
+            if key in IDENTIFIER_KEYS:
+                require_safe_id(item[key], f"{item_context}.{key}")
+            else:
+                as_string(item[key], f"{item_context}.{key}")
+
+
+def _validate_mutable_fields(
+    fields: Mapping[str, Any], forbidden: set[str], context: str
+) -> None:
+    present = sorted(set(fields) & forbidden)
+    if present:
+        raise ExtractorError(
+            f"{context}.fields must not carry mutable runtime state: "
+            + ", ".join(present)
+        )
+
+
+def _validate_activation(value: Any, context: str) -> None:
+    activation = as_object(value, context)
+    if set(activation) != {"type", "condition"}:
+        raise ExtractorError(f"{context} must contain type and condition")
+    if activation["type"] not in ACTIVATION_TYPES:
+        raise ExtractorError(
+            f"{context}.type must be one of " + ", ".join(sorted(ACTIVATION_TYPES))
+        )
+    as_string(activation["condition"], f"{context}.condition")
+
+
+def _validate_repeat(value: Any, context: str) -> None:
+    repeat = as_object(value, context)
+    if not {"mode"} <= set(repeat) or not set(repeat) <= {"mode", "condition"}:
+        raise ExtractorError(f"{context} must contain mode and optional condition")
+    if repeat["mode"] not in REPEAT_MODES:
+        raise ExtractorError(
+            f"{context}.mode must be one of " + ", ".join(sorted(REPEAT_MODES))
+        )
+    if repeat.get("condition") is not None:
+        as_string(repeat["condition"], f"{context}.condition")
+
+
+def _validate_possible_effects(value: Any, context: str) -> None:
+    effects = as_array(value, context)
+    if not effects:
+        raise ExtractorError(f"{context} must be omitted instead of empty")
+    seen: set[tuple[str, str | None, str]] = set()
+    for index, raw in enumerate(effects):
+        item_context = f"{context}[{index}]"
+        effect = as_object(raw, item_context)
+        if not {"effect", "description"} <= set(effect) or not set(effect) <= {
+            "effect",
+            "target",
+            "description",
+            "condition",
+        }:
+            raise ExtractorError(
+                f"{item_context} must contain effect, description, and optional "
+                "target and condition"
+            )
+        kind = effect["effect"]
+        if kind not in POSSIBLE_EFFECT_TYPES:
+            raise ExtractorError(
+                f"{item_context}.effect must be one of "
+                + ", ".join(sorted(POSSIBLE_EFFECT_TYPES))
+            )
+        description = as_string(effect["description"], f"{item_context}.description")
+        target = effect.get("target")
+        if kind in UNTARGETED_EFFECT_TYPES:
+            if target is not None:
+                raise ExtractorError(f"{item_context} must not name a target")
+        else:
+            require_safe_id(target, f"{item_context}.target")
+        if effect.get("condition") is not None:
+            as_string(effect["condition"], f"{item_context}.condition")
+        key = (kind, target, description)
+        if key in seen:
+            raise ExtractorError(f"{item_context} duplicates an earlier effect")
+        seen.add(key)
+
+
+def _validate_place_fields(fields: Mapping[str, Any], context: str) -> None:
+    for field in sorted(PLACE_LIST_FIELDS):
+        _validate_string_list(fields, field, context)
+    for field in sorted(PLACE_REFERENCE_FIELDS):
+        _validate_reference_list(fields, field, context)
+    if "discoverable" in fields:
+        _validate_object_list(
+            fields, "discoverable", ("information", "condition"), context
+        )
+    if "topology_node" in fields and fields["topology_node"] is not None:
+        require_safe_id(fields["topology_node"], f"{context}.fields.topology_node")
+    for field in sorted(PLACE_MATCH_FIELDS):
+        if field in fields and (
+            not isinstance(fields[field], (str, int))
+            or isinstance(fields[field], bool)
+            or not str(fields[field]).strip()
+        ):
+            raise ExtractorError(
+                f"{context}.fields.{field} must be a non-empty string or integer"
+            )
+
+
+def _validate_actor_fields(fields: Mapping[str, Any], context: str) -> None:
+    _validate_mutable_fields(fields, MUTABLE_ACTOR_FIELDS, context)
+    for field in sorted(ACTOR_TEXT_FIELDS):
+        if field in fields:
+            as_string(fields[field], f"{context}.fields.{field}")
+    for field in sorted(ACTOR_LIST_FIELDS):
+        _validate_string_list(fields, field, context)
+    for field, keys in sorted(ACTOR_OBJECT_FIELDS.items()):
+        _validate_object_list(fields, field, keys, context)
+    for field in sorted(ACTOR_REFERENCE_FIELDS):
+        _validate_reference_list(fields, field, context)
+
+
+def _validate_situation_fields(fields: Mapping[str, Any], context: str) -> None:
+    _validate_mutable_fields(fields, MUTABLE_SITUATION_FIELDS, context)
+    for field in sorted(SITUATION_TEXT_FIELDS):
+        if field in fields:
+            as_string(fields[field], f"{context}.fields.{field}")
+    if "activation" in fields:
+        _validate_activation(fields["activation"], f"{context}.fields.activation")
+    if "repeat" in fields:
+        _validate_repeat(fields["repeat"], f"{context}.fields.repeat")
+    for field in sorted(SITUATION_LIST_FIELDS):
+        _validate_string_list(fields, field, context)
+    for field, keys in sorted(SITUATION_OBJECT_FIELDS.items()):
+        _validate_object_list(fields, field, keys, context)
+    for field in sorted(SITUATION_REFERENCE_FIELDS):
+        _validate_reference_list(fields, field, context)
+    if "possible_effects" in fields:
+        _validate_possible_effects(
+            fields["possible_effects"], f"{context}.fields.possible_effects"
+        )
+
+
+RECORD_FIELD_VALIDATORS = {
+    "location": _validate_place_fields,
+    "actor": _validate_actor_fields,
+    "situation": _validate_situation_fields,
+}
+
+
 def validate_record(
     value: Any,
     context: str,
@@ -346,11 +659,14 @@ def validate_record(
     for field in REQUIRED_FIELDS[record_type]:
         if field not in fields:
             raise ExtractorError(f"{context}.fields.{field} is required")
-        expected = list if field in {"steps", "entries"} else str
+        expected = REQUIRED_FIELD_KINDS.get(field, str)
         if not isinstance(fields[field], expected):
             raise ExtractorError(
                 f"{context}.fields.{field} must be {expected.__name__}"
             )
+    validator = RECORD_FIELD_VALIDATORS.get(record_type)
+    if validator is not None:
+        validator(fields, context)
     pages = validate_pages(
         record.get("source_pages"),
         f"{context}.source_pages",
@@ -537,23 +853,54 @@ def validate_review(
         raise ExtractorError(f"review overlay schema must be {REVIEW_SCHEMA}")
     if review.get("source_sha256") != source["sha256"]:
         raise ExtractorError("review overlay source hash does not match")
+    canonical_ids = as_array(
+        review.get("canonical_ids", []), "review.canonical_ids"
+    )
     aliases = as_array(review.get("aliases", []), "review.aliases")
+    distinct = as_array(review.get("distinct", []), "review.distinct")
     values = as_array(review.get("values", []), "review.values")
     accepted = as_array(
         review.get("accepted_uncertainties", []), "review.accepted_uncertainties"
     )
-    alias_names: set[str] = set()
+    composites = as_array(
+        review.get("topology_composites", []), "review.topology_composites"
+    )
+    checked_canonical_ids = []
+    canonical_declarations: set[str] = set()
+    for index, raw in enumerate(canonical_ids):
+        context = f"review.canonical_ids[{index}]"
+        item = as_object(raw, context)
+        extracted_id = require_safe_id(
+            item.get("extracted_id"), f"{context}.extracted_id"
+        )
+        if extracted_id in canonical_declarations:
+            raise ExtractorError(
+                f"review declares a canonical ID for {extracted_id} more than once"
+            )
+        canonical_declarations.add(extracted_id)
+        checked_canonical_ids.append(
+            {
+                "extracted_id": extracted_id,
+                "canonical_id": require_safe_id(
+                    item.get("canonical_id"), f"{context}.canonical_id"
+                ),
+                "source_pages": validate_pages(
+                    item.get("source_pages"),
+                    f"{context}.source_pages",
+                    page_count=source["pdf_pages"],
+                ),
+                "rationale": as_string(
+                    item.get("rationale"), f"{context}.rationale"
+                ),
+            }
+        )
+
     checked_aliases = []
     for index, raw in enumerate(aliases):
         context = f"review.aliases[{index}]"
         item = as_object(raw, context)
         alias = require_safe_id(item.get("alias"), f"{context}.alias")
-        canonical_id = require_safe_id(
-            item.get("canonical_id"), f"{context}.canonical_id"
-        )
-        if alias in alias_names:
-            raise ExtractorError(f"ambiguous duplicate alias: {alias}")
-        alias_names.add(alias)
+        target_id = require_safe_id(item.get("target_id"), f"{context}.target_id")
         pages = validate_pages(
             item.get("source_pages"),
             f"{context}.source_pages",
@@ -563,9 +910,36 @@ def validate_review(
         checked_aliases.append(
             {
                 "alias": alias,
-                "canonical_id": canonical_id,
+                "target_id": target_id,
                 "source_pages": pages,
                 "rationale": rationale,
+            }
+        )
+    checked_distinct = []
+    distinct_pairs: set[tuple[str, str]] = set()
+    for index, raw in enumerate(distinct):
+        context = f"review.distinct[{index}]"
+        item = as_object(raw, context)
+        left_id = require_safe_id(item.get("left_id"), f"{context}.left_id")
+        right_id = require_safe_id(item.get("right_id"), f"{context}.right_id")
+        if left_id == right_id:
+            raise ExtractorError(f"{context} must name two different IDs")
+        pair = tuple(sorted((left_id, right_id)))
+        if pair in distinct_pairs:
+            raise ExtractorError(f"duplicate distinct decision: {list(pair)}")
+        distinct_pairs.add(pair)
+        checked_distinct.append(
+            {
+                "left_id": pair[0],
+                "right_id": pair[1],
+                "source_pages": validate_pages(
+                    item.get("source_pages"),
+                    f"{context}.source_pages",
+                    page_count=source["pdf_pages"],
+                ),
+                "rationale": as_string(
+                    item.get("rationale"), f"{context}.rationale"
+                ),
             }
         )
     checked_values = []
@@ -581,6 +955,9 @@ def validate_review(
         value_keys.add(key)
         if "value" not in item:
             raise ExtractorError(f"{context}.value is required")
+        mode = item.get("mode", "select")
+        if mode not in {"select", "compose"}:
+            raise ExtractorError(f"{context}.mode must be select or compose")
         pages = validate_pages(
             item.get("source_pages"),
             f"{context}.source_pages",
@@ -592,6 +969,7 @@ def validate_review(
                 "object_id": object_id,
                 "field": field,
                 "value": item["value"],
+                "mode": mode,
                 "source_pages": pages,
                 "rationale": rationale,
             }
@@ -618,15 +996,64 @@ def validate_review(
                 ),
             }
         )
+    checked_composites = []
+    composite_nodes: set[str] = set()
+    for index, raw in enumerate(composites):
+        context = f"review.topology_composites[{index}]"
+        item = as_object(raw, context)
+        topology_node = require_safe_id(
+            item.get("topology_node"), f"{context}.topology_node"
+        )
+        if topology_node in composite_nodes:
+            raise ExtractorError(
+                f"review declares composite node {topology_node} more than once"
+            )
+        composite_nodes.add(topology_node)
+        place_ids = as_array(item.get("place_ids"), f"{context}.place_ids")
+        if (
+            len(place_ids) < 2
+            or any(not isinstance(place_id, str) for place_id in place_ids)
+            or len(place_ids) != len(set(place_ids))
+        ):
+            raise ExtractorError(
+                f"{context}.place_ids must contain at least two unique IDs"
+            )
+        for place_index, place_id in enumerate(place_ids):
+            require_safe_id(place_id, f"{context}.place_ids[{place_index}]")
+        checked_composites.append(
+            {
+                "topology_node": topology_node,
+                "place_ids": sorted(place_ids),
+                "source_pages": validate_pages(
+                    item.get("source_pages"),
+                    f"{context}.source_pages",
+                    page_count=source["pdf_pages"],
+                ),
+                "rationale": as_string(
+                    item.get("rationale"), f"{context}.rationale"
+                ),
+            }
+        )
     return {
         "schema": REVIEW_SCHEMA,
         "source_sha256": source["sha256"],
-        "aliases": sorted(checked_aliases, key=lambda item: item["alias"]),
+        "canonical_ids": sorted(
+            checked_canonical_ids, key=lambda item: item["extracted_id"]
+        ),
+        "aliases": sorted(
+            checked_aliases, key=lambda item: (item["alias"], item["target_id"])
+        ),
+        "distinct": sorted(
+            checked_distinct, key=lambda item: (item["left_id"], item["right_id"])
+        ),
         "values": sorted(
             checked_values, key=lambda item: (item["object_id"], item["field"])
         ),
         "accepted_uncertainties": sorted(
             checked_accepted, key=lambda item: item["uncertainty_id"]
+        ),
+        "topology_composites": sorted(
+            checked_composites, key=lambda item: item["topology_node"]
         ),
         "notes": as_string(review.get("notes", ""), "review.notes", nonempty=False),
     }

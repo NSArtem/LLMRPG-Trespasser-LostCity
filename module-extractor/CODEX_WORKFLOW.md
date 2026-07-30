@@ -11,9 +11,11 @@ workspace.
 3. If ChatGPT extracted the source incorrectly, correct only the matching
    `_exchange/<pack-id>.json`. Never edit `module-input/responses/`, coverage
    data, or generated `module/` files.
-4. Record canonical aliases, values, and accepted source uncertainties only in
-   `module-input/review.json`, with source pages and an evidence-based
-   rationale. Do not accept an uncertainty merely to satisfy the release gate.
+4. Follow [IDENTITY.md](IDENTITY.md). Record canonical ID declarations,
+   current-run aliases, distinct-candidate decisions, canonical values, and
+   accepted source uncertainties only in `module-input/review.json`, with
+   source pages and an evidence-based rationale. Do not accept an uncertainty
+   or reject a merge merely to satisfy the release gate.
 5. Rerun `python3 module-extractor/cli.py run` after corrections or decisions.
    Continue until release assembly succeeds or a genuine blocker remains.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Repository-local entry point for Module Extractor v1."""
+"""Repository-local entry point for Module Extractor."""
 
 from module_extractor.cli import main
 

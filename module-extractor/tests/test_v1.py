@@ -17,11 +17,15 @@ EXTRACTOR_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(EXTRACTOR_ROOT))
 
 from module_extractor import cli as cli_module  # noqa: E402
+from module_extractor import assembly as assembly_module  # noqa: E402
 from module_extractor.assembly import (  # noqa: E402
     _replaceable_output,
+    assemble,
 )
 from module_extractor.contracts import (  # noqa: E402
     CONTENT_SCHEMA,
+    GENERATED_OUTPUT_SCHEMA,
+    MAP_SCHEMA,
     RECORD_TYPES,
     REQUIRED_FIELDS,
     REVIEW_SCHEMA,
@@ -36,7 +40,7 @@ from module_extractor.errors import ExtractorError  # noqa: E402
 from module_extractor.evidence import (  # noqa: E402
     import_exchange_responses,
     ingest_responses,
-    validate_v1_map,
+    validate_map_response,
 )
 from module_extractor.packs import (  # noqa: E402
     create_focused_packs,
@@ -49,6 +53,12 @@ from module_extractor.reconciliation import (  # noqa: E402
     reconcile_records,
     reconcile_topology,
 )
+from module_extractor.rendering import (  # noqa: E402
+    _card,
+    card_path,
+    render_module,
+    validate_rendered_module,
+)
 from module_extractor.review import (  # noqa: E402
     apply_review,
     canonicalize_evidence_aliases,
@@ -56,6 +66,7 @@ from module_extractor.review import (  # noqa: E402
 )
 from module_extractor.routing import routing_pack_readme  # noqa: E402
 from module_extractor.util import (  # noqa: E402
+    content_tree_hash,
     sha256_file,
 )
 
@@ -90,7 +101,15 @@ def routing(page_count: int = 3) -> dict:
 def required_fields(record_type: str) -> dict:
     result = {}
     for field in REQUIRED_FIELDS[record_type]:
-        result[field] = [] if field in {"entries", "steps"} else field
+        if field in {"entries", "steps"}:
+            result[field] = []
+        elif field == "activation":
+            result[field] = {
+                "type": "triggered",
+                "condition": "The party enters the hall.",
+            }
+        else:
+            result[field] = field
     return result
 
 
@@ -216,6 +235,122 @@ def map_result(
             }
         ],
         "uncertainties": [],
+    }
+
+
+def rendered_module(records: list[dict] | None = None) -> dict:
+    records = records or [
+        {
+            "id": "actor.example.guard",
+            "record_type": "actor",
+            "fields": {"title": "Guard", "role": "Protects the gate."},
+            "source_pages": [1],
+            "references": [],
+            "field_observations": {
+                "role": [
+                    {
+                        "pack_id": "content.001",
+                        "confidence": "high",
+                        "observation_id": "observation.guard",
+                    }
+                ]
+            },
+            "observation_ids": ["observation.guard"],
+        }
+    ]
+    return {
+        "schema": "operational-module/v2",
+        "profile": "release",
+        "source": {
+            "slug": "example-adventure",
+            "filename": "example.pdf",
+            "title": "Example Adventure",
+            "source_system": "Example System",
+            "edition": "Second",
+            "pdf_pages": 1,
+            "sha256": "a" * 64,
+        },
+        "coverage": {
+            "schema": "module-coverage/v1",
+            "physical_pages": 1,
+            "complete": True,
+            "gaps": [],
+            "pages": [
+                {
+                    "pdf_page": 1,
+                    "status": "extracted",
+                    "routing_tasks": ["adventure"],
+                    "exclusion_reason": None,
+                }
+            ],
+        },
+        "packs": [{"pack_id": "content.001"}],
+        "review_sha256": "b" * 64,
+        "review": {
+            "schema": REVIEW_SCHEMA,
+            "aliases": [],
+            "values": [],
+            "accepted_uncertainties": [],
+            "notes": "",
+        },
+        "records": records,
+        "topology": {
+            "nodes": [
+                {
+                    "id": "place.gate",
+                    "labels": ["1"],
+                    "titles": ["Gate"],
+                    "source_pages": [1],
+                    "observations": [{"pack_id": "map.v1.001"}],
+                },
+                {
+                    "id": "place.courtyard",
+                    "labels": ["2"],
+                    "titles": ["Courtyard"],
+                    "source_pages": [1],
+                    "observations": [{"pack_id": "map.v1.001"}],
+                },
+            ],
+            "passages": [
+                {
+                    "id": "edge-place.gate-place.courtyard",
+                    "from": "place.gate",
+                    "to": "place.courtyard",
+                    "facets": {
+                        "kind": "doorway",
+                        "medium": "ground",
+                        "elevation": "level",
+                        "barriers": ["locked gate"],
+                        "features": [],
+                        "conditions": ["requires key"],
+                        "traversal_direction": "both",
+                    },
+                    "facet_observations": {
+                        "kind": [
+                            {
+                                "pack_id": "map.v1.001",
+                                "confidence": "high",
+                            }
+                        ]
+                    },
+                    "source_pages": [1],
+                    "observation_ids": ["observation.passage"],
+                    "conflict_fields": [],
+                }
+            ],
+        },
+        "aliases": {"actor.old-guard": "actor.example.guard"},
+        "raw_observations": {
+            "content": [{"pack_id": "content.001", "confidence": "high"}],
+            "topology": [{"pack_id": "map.v1.001"}],
+        },
+        "uncertainties": [],
+        "accepted_uncertainties": [],
+        "pending_uncertainties": [],
+        "conflicts": [],
+        "unresolved_conflicts": [],
+        "release_gate": {"passed": True, "errors": []},
+        "module_sha256": "c" * 64,
     }
 
 
@@ -1147,6 +1282,7 @@ class WorkspaceCliTests(unittest.TestCase):
             )
             route = routing(page_count=1)
             route["source_sha256"] = identity["sha256"]
+            route["pages"][0]["tasks"] = ["adventure"]
             (exchange / "routing.json").write_text(
                 json.dumps(route), encoding="utf-8"
             )
@@ -1159,17 +1295,23 @@ class WorkspaceCliTests(unittest.TestCase):
 
             pack_id = "content.001"
             self.assertTrue((exchange / f"{pack_id}.zip").is_file())
-            pack = content_pack(pack_id=pack_id)
+            pack = content_pack(
+                pack_id=pack_id, tasks=["adventure"]
+            )
             record = {
-                "id": "rule.example",
-                "record_type": "rule",
-                "fields": {"title": "Example", "text": "Rule text."},
+                "id": "location.example-gate",
+                "record_type": "location",
+                "fields": {
+                    "title": "Example Gate",
+                    "first_impression": "A synthetic adventure location.",
+                    "topology_node": None,
+                },
                 "source_pages": [1],
                 "confidence": "high",
                 "references": [],
                 "uncertainties": [],
             }
-            response = content_response(pack, [record])
+            response = content_response(pack, [record], task="adventure")
             response["source_sha256"] = identity["sha256"]
             (exchange / f"{pack_id}.json").write_text(
                 json.dumps(response), encoding="utf-8"
@@ -1193,8 +1335,42 @@ class WorkspaceCliTests(unittest.TestCase):
             output = io.StringIO()
             with redirect_stdout(output), redirect_stderr(io.StringIO()):
                 cli_module.command_run(run_args)
-            self.assertTrue((root / "module" / "module.json").is_file())
+            assembled = root / "module"
+            self.assertTrue((assembled / "audit" / "module.json").is_file())
+            self.assertTrue((assembled / "MODULE.md").is_file())
             self.assertIn("Release assembled", output.getvalue())
+            first_hash = content_tree_hash(assembled)
+            self.assertTrue(_replaceable_output(assembled))
+
+            duplicate = root / "second-module"
+            assemble(module_input, duplicate, profile="release")
+            self.assertEqual(first_hash, content_tree_hash(duplicate))
+
+            def fail_after_partial_render(stage: Path, module: dict) -> None:
+                stage.mkdir(parents=True)
+                (stage / "partial.txt").write_text(
+                    "incomplete", encoding="utf-8"
+                )
+                raise ExtractorError("synthetic rendering failure")
+
+            with (
+                mock.patch.object(
+                    assembly_module,
+                    "render_module",
+                    side_effect=fail_after_partial_render,
+                ),
+                self.assertRaisesRegex(
+                    ExtractorError, "synthetic rendering failure"
+                ),
+            ):
+                assemble(
+                    module_input,
+                    assembled,
+                    profile="release",
+                    replace_generated_output=True,
+                )
+            self.assertEqual(first_hash, content_tree_hash(assembled))
+
             output = io.StringIO()
             with redirect_stdout(output), redirect_stderr(io.StringIO()):
                 cli_module.command_run(run_args)
@@ -1235,7 +1411,7 @@ class ReconciliationTests(unittest.TestCase):
             "aliases": [
                 {
                     "alias": "rule.alias",
-                    "canonical_id": "rule.canonical",
+                    "target_id": "rule.canonical",
                 }
             ]
         }
@@ -1272,6 +1448,7 @@ class ReconciliationTests(unittest.TestCase):
                 "barriers": ["door"],
                 "features": [],
                 "conditions": [],
+                "hazards": [],
             },
         )
 
@@ -1376,20 +1553,20 @@ class ReviewAndGateTests(unittest.TestCase):
         self.assertEqual(result["unresolved_conflicts"], [])
         self.assertEqual(result["pending_uncertainties"], [])
 
-    def test_ambiguous_aliases_and_cycles_fail(self) -> None:
+    def test_ambiguous_aliases_are_preserved_for_gate_analysis(self) -> None:
         review = {
             "schema": REVIEW_SCHEMA,
             "source_sha256": "a" * 64,
             "aliases": [
                 {
                     "alias": "rule.alias",
-                    "canonical_id": "rule.test",
+                    "target_id": "rule.test",
                     "source_pages": [1],
                     "rationale": "Same rule.",
                 },
                 {
                     "alias": "rule.alias",
-                    "canonical_id": "rule.other",
+                    "target_id": "rule.other",
                     "source_pages": [1],
                     "rationale": "Conflicting target.",
                 },
@@ -1398,8 +1575,8 @@ class ReviewAndGateTests(unittest.TestCase):
             "accepted_uncertainties": [],
             "notes": "",
         }
-        with self.assertRaisesRegex(ExtractorError, "ambiguous duplicate alias"):
-            validate_review(review, source())
+        checked_ambiguous = validate_review(review, source())
+        self.assertEqual(len(checked_ambiguous["aliases"]), 2)
         records, topology, conflicts = self._records_topology()
         checked = validate_review(
             {
@@ -1407,13 +1584,13 @@ class ReviewAndGateTests(unittest.TestCase):
                 "aliases": [
                     {
                         "alias": "rule.alias-a",
-                        "canonical_id": "rule.alias-b",
+                        "target_id": "rule.alias-b",
                         "source_pages": [1],
                         "rationale": "Cycle.",
                     },
                     {
                         "alias": "rule.alias-b",
-                        "canonical_id": "rule.alias-a",
+                        "target_id": "rule.alias-a",
                         "source_pages": [1],
                         "rationale": "Cycle.",
                     },
@@ -1689,7 +1866,7 @@ class IngestionTests(unittest.TestCase):
             "physical_pages": [1],
         }
         response = {
-            "schema": "module-map-evidence/v1",
+            "schema": MAP_SCHEMA,
             "source_sha256": "a" * 64,
             "pack_id": "map.v1.001",
             "nodes": [
@@ -1732,7 +1909,7 @@ class IngestionTests(unittest.TestCase):
                 }
             ],
         }
-        result = validate_v1_map(response, pack, source())
+        result = validate_map_response(response, pack, source())
         self.assertEqual(
             result["uncertainties"][0]["target_id"], "edge-area-1-area-2"
         )
@@ -1741,11 +1918,11 @@ class IngestionTests(unittest.TestCase):
         )
         response["uncertainties"][0]["target_id"] = "passage-missing"
         with self.assertRaisesRegex(ExtractorError, "unknown target"):
-            validate_v1_map(response, pack, source())
+            validate_map_response(response, pack, source())
         response["uncertainties"][0]["target_id"] = "passage-one-two"
         pack["physical_pages"] = [1, 2]
         with self.assertRaisesRegex(ExtractorError, "no topology evidence"):
-            validate_v1_map(response, pack, source())
+            validate_map_response(response, pack, source())
 
     def test_map_facet_errors_are_aggregated_but_structure_fails_fast(self) -> None:
         pack = {
@@ -1754,7 +1931,7 @@ class IngestionTests(unittest.TestCase):
             "physical_pages": [1],
         }
         response = {
-            "schema": "module-map-evidence/v1",
+            "schema": MAP_SCHEMA,
             "source_sha256": "a" * 64,
             "pack_id": "map.v1.001",
             "nodes": [
@@ -1793,7 +1970,7 @@ class IngestionTests(unittest.TestCase):
             "uncertainties": [],
         }
         with self.assertRaises(ExtractorError) as raised:
-            validate_v1_map(response, pack, source())
+            validate_map_response(response, pack, source())
         message = str(raised.exception)
         self.assertIn("map facet validation failed", message)
         self.assertIn("unsupported fields: passage_kind", message)
@@ -1809,7 +1986,7 @@ class IngestionTests(unittest.TestCase):
 
         response["passages"][0]["to"] = "missing"
         with self.assertRaisesRegex(ExtractorError, "unknown node") as structural:
-            validate_v1_map(response, pack, source())
+            validate_map_response(response, pack, source())
         self.assertNotIn("facet validation", str(structural.exception))
 
     def test_ingest_aggregates_facet_errors_across_map_packs(self) -> None:
@@ -1834,7 +2011,7 @@ class IngestionTests(unittest.TestCase):
                 }
                 packs.append(pack)
                 response = {
-                    "schema": "module-map-evidence/v1",
+                    "schema": MAP_SCHEMA,
                     "source_sha256": "a" * 64,
                     "pack_id": pack_id,
                     "nodes": [
@@ -1888,6 +2065,199 @@ class IngestionTests(unittest.TestCase):
 
 
 class EndToEndTests(unittest.TestCase):
+    def test_runtime_output_contract_is_compact_routed_and_auditable(self) -> None:
+        record_types = (
+            "location",
+            "actor",
+            "situation",
+            "knowledge",
+            "procedure",
+            "rule",
+            "table",
+            "item",
+            "spell",
+            "class",
+            "effect",
+        )
+        records = []
+        for record_type in record_types:
+            fields = required_fields(record_type)
+            fields["title"] = f"{record_type.title()} Example"
+            if record_type == "location":
+                fields["topology_node"] = "place.gate"
+            identifier = (
+                "place.gate"
+                if record_type == "location"
+                else f"{record_type}.example"
+            )
+            records.append(
+                {
+                    "id": identifier,
+                    "record_type": record_type,
+                    "fields": fields,
+                    "source_pages": [1],
+                    "references": [],
+                    "field_observations": {
+                        "title": [
+                            {
+                                "pack_id": "content.001",
+                                "confidence": "high",
+                            }
+                        ]
+                    },
+                    "observation_ids": [f"observation.{record_type}"],
+                }
+            )
+        module = rendered_module(records)
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            first = root / "first"
+            second = root / "second"
+            render_module(first, module)
+            validate_rendered_module(first, module)
+            render_module(second, module)
+            validate_rendered_module(second, module)
+
+            expected_directories = {
+                "location": "places",
+                "actor": "actors",
+                "situation": "situations",
+                "knowledge": "knowledge",
+                "procedure": "procedures",
+                "rule": "reference",
+                "table": "reference",
+                "item": "reference",
+                "spell": "reference",
+                "class": "reference",
+                "effect": "reference",
+            }
+            for record, directory in expected_directories.items():
+                matching = next(
+                    item
+                    for item in records
+                    if item["record_type"] == record
+                )
+                expected_path = f"cards/{directory}/{matching['id']}.md"
+                self.assertEqual(
+                    card_path(matching),
+                    expected_path,
+                )
+                self.assertTrue((first / expected_path).is_file())
+
+            marker = json.loads(
+                (first / "GENERATED_OUTPUT.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(marker["schema"], GENERATED_OUTPUT_SCHEMA)
+            self.assertEqual(
+                set(marker["runtime_files"]) | set(marker["audit_files"]),
+                {
+                    path.relative_to(first).as_posix()
+                    for path in first.rglob("*")
+                    if path.is_file() and path.name != "GENERATED_OUTPUT.json"
+                },
+            )
+            index_text = (first / "index.json").read_text(encoding="utf-8")
+            index = json.loads(index_text)
+            allowed = {
+                "id",
+                "type",
+                "title",
+                "path",
+                "aliases",
+                "references",
+                "topology_node",
+                "load_with",
+                "activation",
+                "repeat",
+                "possible_effects",
+            }
+            self.assertTrue(
+                all(set(item) <= allowed for item in index["records"])
+            )
+            place_index = next(
+                item for item in index["records"] if item["id"] == "place.gate"
+            )
+            self.assertEqual(place_index["type"], "place")
+            self.assertEqual(place_index["topology_node"], "place.gate")
+            situation_index = next(
+                item
+                for item in index["records"]
+                if item["id"] == "situation.example"
+            )
+            self.assertEqual(
+                situation_index["activation"]["type"], "triggered"
+            )
+            self.assertEqual(
+                set(situation_index["load_with"]),
+                {"actors", "procedures", "knowledge"},
+            )
+            self.assertEqual(situation_index["possible_effects"], [])
+            for prohibited in (
+                "observation_ids",
+                "pack_id",
+                "confidence",
+                "review",
+                "coverage",
+            ):
+                self.assertNotIn(prohibited, index_text)
+            topology_text = (first / "topology.yaml").read_text(
+                encoding="utf-8"
+            )
+            self.assertIn('"kind": "doorway"', topology_text)
+            self.assertIn('"conditions": [', topology_text)
+            self.assertNotIn("facet_observations", topology_text)
+            self.assertNotIn("pack_id", topology_text)
+            self.assertNotIn("confidence", topology_text)
+            self.assertLess(
+                (first / "index.json").stat().st_size,
+                (first / "audit" / "module.json").stat().st_size,
+            )
+            self.assertEqual(
+                (first / "topology.yaml").read_bytes(),
+                (second / "topology.yaml").read_bytes(),
+            )
+            self.assertEqual(
+                content_tree_hash(first), content_tree_hash(second)
+            )
+
+    def test_card_envelope_escapes_yaml_and_orders_fields(self) -> None:
+        # Reference cards keep the generic operational-field rendering; places,
+        # actors, and situations have dedicated operational layouts.
+        text = _card(
+            {
+                "id": "item.example.horn",
+                "record_type": "item",
+                "fields": {
+                    "zebra": "last",
+                    "title": 'Horn: "North"\n---',
+                    "alpha": "first",
+                },
+                "source_pages": [2, 10],
+                "references": ["place.example.gate"],
+            },
+            aliases=["item.horn", "item.old-horn"],
+            verification="verified",
+        )
+        self.assertIn('title: "Horn: \\"North\\"\\n---"', text)
+        self.assertIn(
+            'aliases: ["item.horn", "item.old-horn"]', text
+        )
+        self.assertLess(text.index("### Alpha"), text.index("### Zebra"))
+        self.assertTrue(text.startswith("---\nid: "))
+
+    def test_module_entry_has_identity_metadata_and_runtime_boundaries(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            module = rendered_module()
+            render_module(root, module)
+            text = (root / "MODULE.md").read_text(encoding="utf-8")
+            self.assertIn("Module ID: `example-adventure`", text)
+            self.assertIn("Verification: `verified`", text)
+            self.assertIn("System: Example System", text)
+            self.assertIn("Edition: Second", text)
+            self.assertIn("not gameplay context", text)
+            self.assertIn("only `First impression` is player-safe", text)
+
     def test_unsafe_replacement_is_refused(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             target = Path(temporary) / "personal"
@@ -1897,6 +2267,30 @@ class EndToEndTests(unittest.TestCase):
             self.assertEqual(
                 (target / "notes.txt").read_text(encoding="utf-8"), "not generated"
             )
+
+    def test_prior_generated_output_contract_is_not_replaceable(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            target = Path(temporary) / "old-output"
+            target.mkdir()
+            (target / "GENERATED_OUTPUT.json").write_text(
+                json.dumps(
+                    {"schema": "module-extractor-generated-output/v1"}
+                ),
+                encoding="utf-8",
+            )
+            self.assertFalse(_replaceable_output(target))
+
+    def test_incomplete_or_tampered_v2_output_is_not_replaceable(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            target = Path(temporary) / "generated"
+            module = rendered_module()
+            render_module(target, module)
+            validate_rendered_module(target, module)
+            self.assertTrue(_replaceable_output(target))
+            (target / "MODULE.md").write_text(
+                "personal edit", encoding="utf-8"
+            )
+            self.assertFalse(_replaceable_output(target))
 
 
 if __name__ == "__main__":

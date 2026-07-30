@@ -16,6 +16,7 @@ from typing import Any, Mapping, Sequence
 
 from .assembly import assemble, canonical_module, evaluate, load_run
 from .contracts import (
+    GENERATED_OUTPUT_SCHEMA,
     REVIEW_SCHEMA,
     validate_pack_manifest,
     validate_review,
@@ -26,6 +27,7 @@ from .errors import ExtractorError
 from .evidence import import_exchange_responses, validate_pack_response
 from .packs import create_focused_packs
 from .preparation import inferred_slug, prepare
+from .scene import resolve_scene
 from .util import load_json, sha256_file, write_json
 
 
@@ -98,7 +100,7 @@ def _released_module_matches(
     workspace: Workspace, evaluated: Mapping[str, Any]
 ) -> bool:
     marker = workspace.module / "GENERATED_OUTPUT.json"
-    module_path = workspace.module / "module.json"
+    module_path = workspace.module / "audit" / "module.json"
     if not marker.is_file() or not module_path.is_file():
         return False
     try:
@@ -108,8 +110,7 @@ def _released_module_matches(
         return False
     if (
         not isinstance(marker_value, dict)
-        or marker_value.get("schema")
-        != "module-extractor-generated-output/v1"
+        or marker_value.get("schema") != GENERATED_OUTPUT_SCHEMA
     ):
         return False
     expected = canonical_module(evaluated, profile="release")
@@ -645,6 +646,14 @@ def _status(evaluated: Mapping[str, Any]) -> dict[str, Any]:
         "records": len(evaluated["reviewed"]["records"]),
         "topology_nodes": len(evaluated["reviewed"]["topology"]["nodes"]),
         "topology_passages": len(evaluated["reviewed"]["topology"]["passages"]),
+        "mapped_places": sum(
+            link["topology_node"] is not None
+            for link in evaluated["reviewed"].get("topology_links", [])
+        ),
+        "topology_errors": len(
+            evaluated["reviewed"].get("topology_errors", [])
+        ),
+        "record_errors": len(evaluated["reviewed"].get("record_errors", [])),
         "coverage_complete": evaluated["coverage"]["complete"],
         "blocking_conflicts": len(evaluated["reviewed"]["unresolved_conflicts"]),
         "pending_uncertainties": len(
@@ -657,6 +666,13 @@ def _status(evaluated: Mapping[str, Any]) -> dict[str, Any]:
 
 def command_status(args: argparse.Namespace) -> None:
     workspace = _workspace(args)
+    situation = getattr(args, "situation", None)
+    if getattr(args, "scene", None):
+        resolved = resolve_scene(workspace.module, args.scene, situation)
+        print(json.dumps(resolved, indent=2, sort_keys=True))
+        return
+    if situation:
+        raise ExtractorError("--situation requires --scene PLACE_ID")
     try:
         state = inspect_workspace(workspace)
     except ExtractorError as exc:
@@ -853,9 +869,12 @@ def _empty_review(source_sha256: str) -> dict[str, Any]:
     return {
         "schema": REVIEW_SCHEMA,
         "source_sha256": source_sha256,
+        "canonical_ids": [],
         "aliases": [],
+        "distinct": [],
         "values": [],
         "accepted_uncertainties": [],
+        "topology_composites": [],
         "notes": "",
     }
 
@@ -871,6 +890,13 @@ def render_codex_task(
     uncertainties = evaluated["reviewed"]["pending_uncertainties"]
     coverage = evaluated.get("coverage", {"gaps": []})
     gaps = coverage["gaps"]
+    candidates = [
+        candidate
+        for candidate in evaluated.get("identity", {}).get("candidate_groups", [])
+        if candidate["status"] == "unresolved"
+    ]
+    topology_errors = evaluated["reviewed"].get("topology_errors", [])
+    topology_links = evaluated["reviewed"].get("topology_links", [])
     lines = [
         "# Codex extraction task",
         "",
@@ -921,6 +947,162 @@ def render_codex_task(
                 f"- Candidate packs: {', '.join(f'`{value}`' for value in candidate_packs) or 'none'}",
                 "- Source and evidence paths:",
                 *[f"  - `{path}`" for path in paths],
+                "",
+            ]
+        )
+    lines.extend(
+        [
+        "## Duplicate candidates",
+        "",
+        f"- Unresolved candidates: {len(candidates)}",
+        f"- High-confidence unresolved candidates: "
+        f"{sum(item['confidence'] == 'high' for item in candidates)}",
+        "",
+        ]
+    )
+    if not candidates:
+        lines.extend(["No unresolved duplicate candidates.", ""])
+    for candidate in candidates:
+        left_id, right_id = candidate["extracted_ids"]
+        pages = candidate["source_pages"]
+        observations = [
+            observation
+            for observation in evaluated["evidence"]["content_observations"]
+            if observation["concept_id"] in candidate["extracted_ids"]
+        ]
+        topology_observations = [
+            node
+            for result in evaluated["evidence"]["map_results"]
+            for node in result["nodes"]
+            if node["concept_id"] in candidate["extracted_ids"]
+        ]
+        all_observations = sorted(
+            observations + topology_observations,
+            key=lambda item: item["observation_id"],
+        )
+        pack_ids = sorted(
+            {
+                observation["pack_id"]
+                for observation in all_observations
+                if observation.get("pack_id")
+            }
+        )
+        paths = _review_paths(
+            pack_ids=pack_ids,
+            pages=pages,
+            include_map_renders=bool(topology_observations),
+        )
+        lines.extend(
+            [
+                f"### `{candidate['id']}`",
+                "",
+                f"- Confidence: `{candidate['confidence']}`",
+                f"- Extracted IDs: `{left_id}`, `{right_id}`",
+                f"- Signals: {', '.join(candidate['signals'])}",
+                f"- Source pages: {', '.join(map(str, pages))}",
+                f"- Decision needed: {candidate['evidence_needed']}",
+                "- Relevant paths:",
+                *[f"  - `{path}`" for path in paths],
+                "- Observations:",
+                "",
+                *_json_block(all_observations),
+                "",
+                "If these are one concept, declare the canonical ID and alias "
+                "one extracted ID to the other:",
+                "",
+                *_json_block(
+                    {
+                        "canonical_ids": [
+                            {
+                                "extracted_id": left_id,
+                                "canonical_id": (
+                                    "replace.with.policy-compliant-canonical-id"
+                                ),
+                                "source_pages": pages,
+                                "rationale": "Replace with source-based rationale.",
+                            }
+                        ],
+                        "aliases": [
+                            {
+                                "alias": right_id,
+                                "target_id": left_id,
+                                "source_pages": pages,
+                                "rationale": "Replace with source-based rationale.",
+                            }
+                        ],
+                    }
+                ),
+                "",
+                "If they are different concepts, add this decision to `distinct`:",
+                "",
+                *_json_block(
+                    {
+                        "left_id": left_id,
+                        "right_id": right_id,
+                        "source_pages": pages,
+                        "rationale": "Replace with evidence proving distinction.",
+                    }
+                ),
+                "",
+            ]
+        )
+    lines.extend(
+        [
+            "## Place and topology decisions",
+            "",
+            f"- Unresolved topology decisions: {len(topology_errors)}",
+            f"- Resolved place links: {len(topology_links)}",
+            "",
+        ]
+    )
+    if not topology_errors:
+        lines.extend(["No unresolved place-to-topology decisions.", ""])
+    else:
+        lines.extend(f"- {error}" for error in topology_errors)
+        lines.extend(
+            [
+                "",
+                "Inspect the cited content response, map response, page text, and "
+                "map render. Correct extraction errors in the exchange response. "
+                "For an evidence-backed canonical decision, select "
+                "`topology_node` on the place or `classification` on the map node "
+                "through `values`. Use null only for a source-supported unmapped "
+                "place.",
+                "",
+                "If multiple place cards intentionally compose one map node, add "
+                "a source-cited `topology_composites` operation naming that node "
+                "and every place ID.",
+                "",
+            ]
+        )
+    if topology_links:
+        lines.extend(["Current resolved links:", ""])
+        lines.extend(_json_block(topology_links))
+        lines.append("")
+    record_errors = evaluated["reviewed"].get("record_errors", [])
+    lines.extend(
+        [
+            "## Actor and situation decisions",
+            "",
+            f"- Unresolved actor and situation errors: {len(record_errors)}",
+            "",
+        ]
+    )
+    if not record_errors:
+        lines.extend(["No unresolved actor or situation decisions.", ""])
+    else:
+        lines.extend(f"- {error}" for error in record_errors)
+        lines.extend(
+            [
+                "",
+                "Read the cited source pages before deciding. Correct a wrong "
+                "observation in `_exchange/<pack-id>.json`; record a canonical "
+                "decision through `values` on the named record. Keep observable "
+                "material and GM-only material separate: `hidden` is GM-only. "
+                "Do not place mutable health, position, attitude, or inventory "
+                "in a card; use `starting_state` only for a source-stated "
+                "starting state. Possible effects stay hypothetical and are "
+                "never applied here.",
                 "",
             ]
         )
@@ -1136,6 +1318,18 @@ def build_parser() -> argparse.ArgumentParser:
     _workspace_option(status_parser)
     status_parser.add_argument(
         "--json", action="store_true", help="print structured status"
+    )
+    status_parser.add_argument(
+        "--scene",
+        metavar="PLACE_ID",
+        help="resolve one bounded scene context bundle from the released module",
+    )
+    status_parser.add_argument(
+        "--situation",
+        metavar="SITUATION_ID",
+        help=(
+            "explicitly select which situation available at --scene is active"
+        ),
     )
     status_parser.set_defaults(function=command_status)
 
