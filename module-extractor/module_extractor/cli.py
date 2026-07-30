@@ -17,6 +17,7 @@ from typing import Any, Mapping, Sequence
 from .assembly import assemble, canonical_module, evaluate, load_run
 from .contracts import (
     GENERATED_OUTPUT_SCHEMA,
+    PLAY_CONTRACT,
     REVIEW_SCHEMA,
     validate_pack_manifest,
     validate_review,
@@ -111,6 +112,10 @@ def _released_module_matches(
     if (
         not isinstance(marker_value, dict)
         or marker_value.get("schema") != GENERATED_OUTPUT_SCHEMA
+        or marker_value.get("play_contract") != PLAY_CONTRACT
+        or marker_value.get("verification") != "verified"
+        or not (workspace.module / "MODULE.md").is_file()
+        or not (workspace.module / "index.json").is_file()
     ):
         return False
     expected = canonical_module(evaluated, profile="release")

@@ -26,6 +26,7 @@ from module_extractor.contracts import (  # noqa: E402
     CONTENT_SCHEMA,
     GENERATED_OUTPUT_SCHEMA,
     MAP_SCHEMA,
+    PLAY_CONTRACT,
     RECORD_TYPES,
     REQUIRED_FIELDS,
     REVIEW_SCHEMA,
@@ -2065,6 +2066,56 @@ class IngestionTests(unittest.TestCase):
 
 
 class EndToEndTests(unittest.TestCase):
+    def test_playability_requires_complete_current_play_contract(self) -> None:
+        module = rendered_module()
+        cases = {
+            "verified": None,
+            "missing play contract": ("marker-pop", "play_contract"),
+            "unknown play contract": (
+                "marker-set",
+                ("play_contract", "module-play/v999"),
+            ),
+            "unverified": ("marker-set", ("verification", "unverified")),
+            "missing MODULE.md": ("unlink", "MODULE.md"),
+            "missing index.json": ("unlink", "index.json"),
+        }
+        with tempfile.TemporaryDirectory() as temporary:
+            for name, mutation in cases.items():
+                with self.subTest(name=name):
+                    root = Path(temporary) / name.replace(" ", "-")
+                    render_module(root, module)
+                    if mutation is not None:
+                        operation, value = mutation
+                        if operation == "unlink":
+                            (root / value).unlink()
+                        else:
+                            marker_path = root / "GENERATED_OUTPUT.json"
+                            marker = json.loads(
+                                marker_path.read_text(encoding="utf-8")
+                            )
+                            if operation == "marker-pop":
+                                marker.pop(value)
+                            else:
+                                field, replacement = value
+                                marker[field] = replacement
+                            marker_path.write_text(
+                                json.dumps(marker), encoding="utf-8"
+                            )
+                    workspace = cli_module.Workspace(
+                        root.parent,
+                        root.parent / "module-input",
+                        root.parent / "_exchange",
+                        root.parent / ".module-extractor-cache",
+                        root,
+                    )
+                    with mock.patch.object(
+                        cli_module, "canonical_module", return_value=module
+                    ):
+                        playable = cli_module._released_module_matches(
+                            workspace, {}
+                        )
+                    self.assertEqual(playable, mutation is None)
+
     def test_runtime_output_contract_is_compact_routed_and_auditable(self) -> None:
         record_types = (
             "location",
@@ -2148,6 +2199,7 @@ class EndToEndTests(unittest.TestCase):
                 (first / "GENERATED_OUTPUT.json").read_text(encoding="utf-8")
             )
             self.assertEqual(marker["schema"], GENERATED_OUTPUT_SCHEMA)
+            self.assertEqual(marker["play_contract"], PLAY_CONTRACT)
             self.assertEqual(
                 set(marker["runtime_files"]) | set(marker["audit_files"]),
                 {
@@ -2278,6 +2330,26 @@ class EndToEndTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
+            self.assertFalse(_replaceable_output(target))
+
+    def test_missing_or_unknown_play_contract_is_not_replaceable(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            target = Path(temporary) / "missing"
+            module = rendered_module()
+            render_module(target, module)
+            marker_path = target / "GENERATED_OUTPUT.json"
+            marker = json.loads(marker_path.read_text(encoding="utf-8"))
+
+            marker.pop("play_contract")
+            marker_path.write_text(json.dumps(marker), encoding="utf-8")
+            self.assertFalse(_replaceable_output(target))
+
+            target = Path(temporary) / "unknown"
+            render_module(target, module)
+            marker_path = target / "GENERATED_OUTPUT.json"
+            marker = json.loads(marker_path.read_text(encoding="utf-8"))
+            marker["play_contract"] = "module-play/v999"
+            marker_path.write_text(json.dumps(marker), encoding="utf-8")
             self.assertFalse(_replaceable_output(target))
 
     def test_incomplete_or_tampered_v2_output_is_not_replaceable(self) -> None:

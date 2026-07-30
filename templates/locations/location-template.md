@@ -4,6 +4,7 @@ type: location
 name: "<НАЗВАНИЕ_ЛОКАЦИИ>"
 status: active
 location: location.none
+module_ref: null
 knowledge_level: mixed
 last_updated: cp-0000
 ---

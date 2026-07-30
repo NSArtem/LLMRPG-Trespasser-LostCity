@@ -4,6 +4,7 @@ type: npc
 name: "<ИМЯ_NPC>"
 status: active
 location: location.unknown
+module_ref: null
 knowledge_level: gm-secret
 last_updated: cp-0000
 ---

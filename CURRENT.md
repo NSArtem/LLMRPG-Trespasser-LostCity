@@ -4,6 +4,8 @@ active_scene_id:
 active_journal_id:
 campaign_status: preparation
 last_activity_at:
+module_id:
+module_place_id:
 ---
 
 # Актуальное состояние

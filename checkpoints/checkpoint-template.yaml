@@ -33,6 +33,7 @@ uncertainties: []
 current_scene:
   fiction_time: TODO
   location: location.unknown
+  module_place_id: null
   present: []
   situation: TODO
   active_threats: []

@@ -17,6 +17,7 @@ COVERAGE_SCHEMA = "module-coverage/v1"
 CANONICAL_SCHEMA = "operational-module/v3"
 GENERATED_OUTPUT_SCHEMA = "module-extractor-generated-output/v4"
 RUNTIME_INDEX_SCHEMA = "operational-module-index/v4"
+PLAY_CONTRACT = "module-play/v1"
 
 ROUTING_TASKS = {
     "adventure",

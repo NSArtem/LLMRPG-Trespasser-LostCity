@@ -6,6 +6,7 @@
 
 ## Unreleased
 
+- Проект получил новое имя: **LLM Loremaster**.
 - Добавлено системно-нейтральное состояние до кампании в `templates/`.
 - Добавлен безопасный `scripts/reset_campaign.sh`, заменяющий только пути из
   `templates/reset-paths.txt`.

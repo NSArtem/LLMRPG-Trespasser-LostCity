@@ -93,9 +93,11 @@ attachment. Перед ссылкой на книгу убедись, что с�
 
 Для фактов используй rules/precedence.md. Для правил сначала проверяй
 rules/house-rules.md, затем rules/rulings.md, затем PDF правил. Для содержания
-приключения сначала проверяй gm/module-overrides.md и актуальные файлы
-сущностей, затем проверенные карточки модуля. PDF модуля используй только для
-отсутствующих деталей, конфликтов, исправления или аудита.
+приключения сначала проверяй текущее состояние кампании, затем совпадающие
+строки gm/module-overrides.md, затем загруженные проверенные карточки модуля.
+PDF модуля используй только для отсутствующих деталей, конфликтов, исправления
+или аудита. Текущее состояние никогда не сбрасывай к baseline из-за карточки
+модуля.
 
 ЗАГРУЗКА И ВОЗОБНОВЛЕНИЕ
 
@@ -103,17 +105,60 @@ rules/house-rules.md, затем rules/rulings.md, затем PDF правил. 
 - checkpoint_id;
 - active_scene_id;
 - active_journal_id;
+- module_id;
+- module_place_id;
 - место и время в fiction;
 - присутствующих, ресурсы, угрозы и ожидающее решение.
 
 Если используется готовое приключение, проверь
-module/GENERATED_OUTPUT.json. Загружай module/MODULE.md, module/index.md и
-карточки только при schema module-extractor-generated-output/v2 и verification
-verified. Если такого вывода нет, сообщи об этом и не интерпретируй старую
-структуру module/. Выбирай через индекс только карточки текущей сцены и их
-прямые references. Не загружай module/audit/, полный module/topology.yaml или
-PDF приключения по умолчанию. До появления отдельного контракта player-safe
-считай весь материал module/ GM-only.
+module/GENERATED_OUTPUT.json. Загружай module/MODULE.md и карточки, только
+если play_contract равен module-play/v1, verification равен verified и
+существуют module/MODULE.md и module/index.json. Используй module/index.json
+как точный lookup по ID, но не загружай полный индекс в разговорный контекст
+после разрешения места. Если хотя бы одна проверка не пройдена, назови
+отсутствующий файл или несовместимое поле и не интерпретируй старую структуру
+module/.
+
+Если CURRENT.module_id заполнен, проверь его точное совпадение с module_id
+проверенного вывода. Разреши CURRENT.module_place_id только по точному ID
+записи type: place в module/index.json и загрузи указанную карточку места; не
+сопоставляй место по названию. Из карточки места загрузи только прямые пути
+load_with. Не следуй references рекурсивно и не загружай unrelated cards.
+module_ref кампанийной локации — это связь с baseline, но текущую позицию
+всегда определяет CURRENT.module_place_id.
+
+В доверенном GM-контексте прочитай gm/module-overrides.md и примени совпадающие
+канонические ID поверх baseline загруженной сцены. Валидный override для
+другого места не расширяет сцену. Для непосредственного движения используй
+выходы из карточки места; полный module/topology.yaml открывай только для
+многопереходного маршрута или topology audit. PDF приключения открывай только
+для отсутствующей детали, противоречия, исправления извлечения или аудита.
+До появления отдельного контракта player-safe считай весь материал module/
+GM-only, кроме явно безопасного раздела вроде First impression.
+
+После холодного старта или смены места, до продолжения fiction, выдай receipt:
+
+```text
+Module: module.example
+Place: place.example.gate
+Loaded:
+- cards/places/gate.md
+- cards/actors/guard.md
+- cards/situations/gate-challenge.md
+Overrides applied: none
+PDF consulted: no
+```
+
+Перечисляй точные реально загруженные файлы. Не включай module/audit/, полный
+индекс, topology или PDF, если они не открывались.
+Локальный `status --scene PLACE_ID` — только diagnostic/test oracle. Не требуй
+его выполнения от ChatGPT, читающего репозиторий.
+
+Если module_id пуст, продолжай без module context. Если модуль отсутствует,
+это не ошибка module-free кампании. При неверном play contract, status не
+verified, неизвестном module_place_id или отсутствующей прямой карточке
+останови только module loading, назови точную причину и не повреждай campaign
+state. Invalid override target явно отчитай и не применяй.
 
 Если campaign_status равен preparation, пустые checkpoint_id,
 active_scene_id и active_journal_id являются корректным состоянием до игры.
@@ -218,11 +263,13 @@ add создаёт линию и требует title и question, update доб
 
 Укажи continuity, journal_append, current_scene, expected_files и
 commit_message. current_scene — обязательная контрольная сумма результата, а
-не полный snapshot: заполни fiction_time, location, present, situation,
-active_threats, key_resources и pending_decisions. scene_status может быть
-continue или close. При close укажи next_scene_id и next_scene_name. Journal
-entry не закрывай автоматически: предлагай закрытие только при смысловой
-границе или большом размере.
+не полный snapshot: заполни fiction_time, location, module_place_id, present,
+situation, active_threats, key_resources и pending_decisions.
+module_place_id — точный ID карточки place из проверенного module/index.json
+либо null для кампании без модуля. scene_status может быть continue или close.
+При close укажи next_scene_id и next_scene_name. Journal entry не закрывай
+автоматически: предлагай закрытие только при смысловой границе или большом
+размере.
 
 Перед выдачей пакета сверь конечное состояние: fiction time, положение всех
 участвовавших сущностей, здоровье, состояния, системные и расходуемые ресурсы,
@@ -256,9 +303,15 @@ uncertainties.
    угрозы и ожидающее решение.
 4. Убедись, что checkpoint-файл и активный journal entry существуют и
    согласованы с CURRENT.
-5. Не загружай закрытые journal entries, если для сверки нет конкретной
+5. Проверь module_id и module_place_id: если module_id заполнен, сверь
+   play_contract/verification, точный place в module/index.json и
+   current_scene.module_place_id последнего checkpoint. Не подбирай место по
+   названию.
+6. Для модуля сформируй loading receipt с точными путями одной bounded сцены;
+   укажи применённые overrides и факт обращения к PDF.
+7. Не загружай закрытые journal entries, если для сверки нет конкретной
    необходимости.
-6. Не продолжай повествование, пока я не подтвержу сверку или не исправлю
+8. Не продолжай повествование, пока я не подтвержу сверку или не исправлю
    расхождение.
 
 Если campaign_status равен preparation, вместо пунктов о checkpoint и журнале
@@ -322,8 +375,13 @@ uncertainties.
   thread_id, title, question, status и knowledge_level; update требует
   thread_id и note; close требует thread_id и resolution;
 - заполни обязательную контрольную сумму current_scene: fiction_time,
-  location, present, situation, active_threats, key_resources и
+  location, module_place_id, present, situation, active_threats, key_resources и
   pending_decisions;
+- module_place_id укажи точным ID карточки place из проверенного
+  module/index.json либо null для кампании без модуля;
+- если в отрезке была смена места, сохрани конечный новый
+  module_place_id и не заменяй его названием локации; если место не менялось,
+  перенеси прежний точный ID без изменений;
 - укажи scene_status: continue или close;
 - при close назначь следующий scene-NNNN, но не закрывай journal entry без
   смысловой или размерной причины;
@@ -424,6 +482,8 @@ Checkpoint cp-NNNN применён, проверен и закоммичен. �
    from/to, add/remove требуют value и при необходимости quantity. Сверь
    knowledge_changes, new_facts и open_thread_changes с их контрактами. Сверь
    конечный результат с обязательными полями current_scene.
+   current_scene.module_place_id должен быть точным ID place из проверенного
+   module/index.json либо null; сопоставление по названию запрещено.
 9. Проверь resource_changes по контракту checkpoints/README.md. Для каждого
    значимого ресурса сверь с экспортом количество, состояние, держателя,
    передачи, capabilities, limitations, maintenance, load_limit, noise,
@@ -432,11 +492,13 @@ Checkpoint cp-NNNN применён, проверен и закоммичен. �
    держателя. Любое несовпадение или пропущенная передача блокирует
    применение.
 10. Обнови только expected_files и файлы, неизбежно требуемые инвариантами.
+    Никогда не изменяй файлы под module/ при применении checkpoint.
 11. Дополни активный journal entry; закрывай его только если это явно указано
    и обосновано пакетом.
 12. Сохрани нормализованный пакет как checkpoints/cp-NNNN.yaml.
-13. Обнови CURRENT checkpoint_id, active_scene_id, active_journal_id и
-   last_activity_at.
+13. Обнови CURRENT checkpoint_id, active_scene_id, active_journal_id,
+    last_activity_at и скопируй current_scene.module_place_id в
+    CURRENT.module_place_id.
 14. Запусти python3 scripts/validate_repo.py и git diff --check.
 15. Покажи итоговый diff, список изменённых файлов, проверенный первичный
     экспорт и диапазон, количество проверенных/покрытых существенных деталей,
@@ -455,6 +517,14 @@ Checkpoint cp-NNNN применён, проверен и закоммичен. �
 - цепочка base_checkpoint_id непрерывна;
 - active_journal_id существует, открыт и содержит active_scene_id;
 - last_updated профильных файлов использует cp-NNNN;
+- module_id и module_place_id либо оба пусты, либо оба заполнены;
+- при заполненном module_id `GENERATED_OUTPUT.json` имеет
+  `play_contract: module-play/v1` и `verification: verified`, module_id совпадает,
+  а `module_place_id` точно разрешается в `module/index.json` как `type: place`;
+- `CURRENT.module_place_id` совпадает с `current_scene.module_place_id` последнего
+  checkpoint и с `module_ref` активной кампанийной локации, если он указан;
+- все populated ID в `gm/module-overrides.md` существуют в module index или
+  topology nodes/passages; invalid targets не применяются;
 - открытые линии, часы, факты и module overrides не противоречат CURRENT;
 - закрытые journal entries не изменялись после закрытия;
 - нет активных ссылок на прежнюю календарную структуру журналов;

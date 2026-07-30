@@ -5,6 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any, Mapping
 
+from .contracts import PLAY_CONTRACT
 from .errors import ExtractorError
 from .rendering import LOAD_WITH_GROUPS
 from .util import load_json
@@ -40,17 +41,8 @@ def _safe_runtime_path(module_root: Path, relative: str) -> Path:
 
 
 def _select(by_id: Mapping[str, Any], identifier: str) -> dict[str, Any] | None:
-    selected = by_id.get(identifier)
-    if selected is not None:
-        return selected
-    return next(
-        (
-            item
-            for item in by_id.values()
-            if identifier in item.get("aliases", [])
-        ),
-        None,
-    )
+    """Select only a canonical runtime ID; aliases are not place bindings."""
+    return by_id.get(identifier)
 
 
 def _checked_load_with(
@@ -83,6 +75,18 @@ def resolve_scene(
     decision: without `situation_id` the bundle stays at the place level.
     """
     module_root = module_root.resolve()
+    marker = load_json(module_root / "GENERATED_OUTPUT.json")
+    if (
+        not isinstance(marker, dict)
+        or marker.get("play_contract") != PLAY_CONTRACT
+        or marker.get("verification") != "verified"
+        or not (module_root / "MODULE.md").is_file()
+        or not (module_root / "index.json").is_file()
+    ):
+        raise ExtractorError(
+            "module is not play-ready: expected play_contract "
+            f"{PLAY_CONTRACT}, verification verified, MODULE.md, and index.json"
+        )
     index = load_json(module_root / "index.json")
     if not isinstance(index, dict) or not isinstance(index.get("records"), list):
         raise ExtractorError("runtime index is invalid")

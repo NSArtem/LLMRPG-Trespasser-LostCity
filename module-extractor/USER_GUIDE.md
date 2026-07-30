@@ -91,7 +91,11 @@ A release starts at `module/MODULE.md`, with compact lookup in `index.md` and
 `index.json` and selectively loadable cards under `cards/`. Full extraction
 state and reports are isolated under `module/audit/`; they are for review and
 repair, not normal gameplay context. `GENERATED_OUTPUT.json` identifies the
-verified output contract and owns the complete generated tree.
+verified output contract and owns the complete generated tree. Play consumers
+accept output only when `play_contract` is `module-play/v1`, `verification` is
+`verified`, and both `MODULE.md` and `index.json` exist. A missing or unknown
+play contract is an explicit incompatibility, never a signal to infer an older
+layout.
 
 To resolve the exact bounded context for one released place without loading
 the complete index or topology into play context:

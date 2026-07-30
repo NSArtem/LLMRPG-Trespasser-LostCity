@@ -8,6 +8,7 @@ Markdown- или YAML-парсер: он намеренно проверяет �
 
 from __future__ import annotations
 
+import json
 import re
 import sys
 from collections import defaultdict
@@ -142,6 +143,7 @@ PROJECT_ATTACHMENT_TERMS = (
     "PDF приключения",
     "attachment",
 )
+PLAY_CONTRACT = "module-play/v1"
 
 
 def repository_text_files() -> list[Path]:
@@ -304,6 +306,13 @@ def nested_yaml_scalar(text: str, section: str, key: str) -> str | None:
     return None
 
 
+def optional_scalar(value: str | None) -> str | None:
+    """Normalizes the empty/null spellings used by front matter and YAML."""
+    if value is None or value.strip() in {"", "null", "~"}:
+        return None
+    return value.strip()
+
+
 def yaml_section_lines(text: str, section: str) -> list[str]:
     """Возвращает строки простого верхнеуровневого раздела YAML."""
     lines = text.splitlines()
@@ -405,6 +414,7 @@ def check_delta_checkpoint_payload(
     required_scene_keys = {
         "fiction_time",
         "location",
+        "module_place_id",
         "present",
         "situation",
         "active_threats",
@@ -943,6 +953,341 @@ def check_continuity(
         )
 
 
+def load_json_object(path: Path, label: str, errors: list[str]) -> dict | None:
+    """Loads a JSON object and reports a repository-validation error."""
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        errors.append(f"{label}: отсутствует файл {display(path)}")
+        return None
+    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+        errors.append(f"{label}: {display(path)} не является корректным JSON ({exc})")
+        return None
+    if not isinstance(value, dict):
+        errors.append(f"{label}: {display(path)} должен содержать JSON object")
+        return None
+    return value
+
+
+def check_module_campaign_binding(
+    texts: dict[Path, str], errors: list[str]
+) -> None:
+    """Validates the optional exact binding from campaign state to a place card."""
+    current_path = REPO_ROOT / "CURRENT.md"
+    current_text = texts.get(current_path)
+    if current_text is None:
+        return
+    current = front_matter(current_text)
+    if current is None:
+        return
+
+    module_id = optional_scalar(current.get("module_id"))
+    module_place_id = optional_scalar(current.get("module_place_id"))
+    if current.get("campaign_status") == "preparation":
+        if module_id is not None or module_place_id is not None:
+            errors.append(
+                "CURRENT.md: в состоянии preparation поля module_id и "
+                "module_place_id должны быть пустыми"
+            )
+        return
+    if (module_id is None) != (module_place_id is None):
+        errors.append(
+            "CURRENT.md: module_id и module_place_id должны быть либо оба "
+            "заполнены, либо оба пусты"
+        )
+        return
+    if module_id is None:
+        checkpoint_id = optional_scalar(current.get("checkpoint_id"))
+        if checkpoint_id is not None:
+            checkpoint_path = (
+                REPO_ROOT / "checkpoints" / f"{checkpoint_id}.yaml"
+            )
+            checkpoint_text = texts.get(checkpoint_path)
+            if checkpoint_text is not None:
+                checkpoint_place_id = optional_scalar(
+                    nested_yaml_scalar(
+                        checkpoint_text, "current_scene", "module_place_id"
+                    )
+                )
+                if checkpoint_place_id is not None:
+                    errors.append(
+                        f"{display(checkpoint_path)}: "
+                        "current_scene.module_place_id заполнен, но "
+                        "CURRENT.module_id и CURRENT.module_place_id пусты"
+                    )
+        return
+
+    module_root = REPO_ROOT / "module"
+    marker = load_json_object(
+        module_root / "GENERATED_OUTPUT.json", "CURRENT.module_id", errors
+    )
+    if marker is None:
+        return
+    if marker.get("play_contract") != PLAY_CONTRACT:
+        errors.append(
+            "module/GENERATED_OUTPUT.json: play_contract должен быть "
+            f"{PLAY_CONTRACT} для привязки кампании"
+        )
+    if marker.get("verification") != "verified":
+        errors.append(
+            "module/GENERATED_OUTPUT.json: verification должен быть verified "
+            "для привязки кампании"
+        )
+    if marker.get("module_id") != module_id:
+        errors.append(
+            "CURRENT.md: module_id "
+            f"'{module_id}' не совпадает с module/GENERATED_OUTPUT.json "
+            f"('{marker.get('module_id')}')"
+        )
+    for relative in ("MODULE.md", "index.json"):
+        path = module_root / relative
+        if not path.is_file():
+            errors.append(
+                f"CURRENT.module_id: отсутствует обязательный файл "
+                f"{display(path)}"
+            )
+
+    index = load_json_object(
+        module_root / "index.json", "CURRENT.module_place_id", errors
+    )
+    if index is None:
+        return
+    records = index.get("records")
+    if not isinstance(records, list):
+        errors.append("module/index.json: records должен быть JSON array")
+        return
+    matches = [
+        item
+        for item in records
+        if isinstance(item, dict) and item.get("id") == module_place_id
+    ]
+    if not matches:
+        errors.append(
+            f"CURRENT.md: module_place_id '{module_place_id}' "
+            "не найден в module/index.json"
+        )
+        return
+    if len(matches) != 1:
+        errors.append(
+            f"module/index.json: ID '{module_place_id}' встречается более одного раза"
+        )
+        return
+    record = matches[0]
+    if record.get("type") != "place":
+        errors.append(
+            f"CURRENT.md: module_place_id '{module_place_id}' разрешается "
+            f"в тип '{record.get('type')}', ожидался place"
+        )
+        return
+    card_relative = record.get("path")
+    if (
+        not isinstance(card_relative, str)
+        or not card_relative
+        or card_relative.startswith("/")
+        or ".." in Path(card_relative).parts
+    ):
+        errors.append(
+            f"module/index.json: место '{module_place_id}' содержит "
+            "небезопасный или отсутствующий path"
+        )
+    elif not (module_root / card_relative).is_file():
+        errors.append(
+            f"CURRENT.md: карточка места '{module_place_id}' отсутствует: "
+            f"{display(module_root / card_relative)}"
+        )
+
+    checkpoint_id = optional_scalar(current.get("checkpoint_id"))
+    if checkpoint_id is None:
+        return
+    checkpoint_path = REPO_ROOT / "checkpoints" / f"{checkpoint_id}.yaml"
+    checkpoint_text = texts.get(checkpoint_path)
+    if checkpoint_text is None and checkpoint_path.is_file():
+        try:
+            checkpoint_text = checkpoint_path.read_text(encoding="utf-8")
+        except UnicodeDecodeError:
+            checkpoint_text = None
+    if checkpoint_text is None:
+        return
+    checkpoint_place_id = optional_scalar(
+        nested_yaml_scalar(checkpoint_text, "current_scene", "module_place_id")
+    )
+    if checkpoint_place_id != module_place_id:
+        errors.append(
+            f"{display(checkpoint_path)}: current_scene.module_place_id "
+            f"'{checkpoint_place_id}' не совпадает с CURRENT.module_place_id "
+            f"'{module_place_id}'"
+        )
+
+    location_id = optional_scalar(
+        nested_yaml_scalar(checkpoint_text, "current_scene", "location")
+    )
+    if location_id is None:
+        return
+    location_matches: list[tuple[Path, dict[str, str]]] = []
+    for path in sorted((REPO_ROOT / "locations").glob("*.md")):
+        text = texts.get(path)
+        if text is None:
+            continue
+        data = front_matter(text)
+        if data is not None and data.get("id") == location_id:
+            location_matches.append((path, data))
+    for path, data in location_matches:
+        location_module_ref = optional_scalar(data.get("module_ref"))
+        if location_module_ref is not None and location_module_ref != module_place_id:
+            errors.append(
+                f"{display(path)}: module_ref '{location_module_ref}' "
+                f"не совпадает с CURRENT.module_place_id '{module_place_id}'"
+            )
+
+
+def module_override_ids(text: str) -> list[tuple[int, str]]:
+    """Return populated target IDs from the overrides markdown table.
+
+    The table is intentionally parsed without a Markdown dependency. Fenced
+    examples are ignored so the documentation can show sample rows without
+    turning them into campaign state.
+    """
+    in_fence = False
+    table_started = False
+    result: list[tuple[int, str]] = []
+    for number, line in enumerate(text.splitlines(), start=1):
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            in_fence = not in_fence
+            continue
+        if in_fence or not stripped.startswith("|"):
+            continue
+        cells = [cell.strip() for cell in stripped.strip("|").split("|")]
+        if not cells:
+            continue
+        first = cells[0]
+        if first.casefold() == "id":
+            table_started = True
+            continue
+        if not table_started or re.fullmatch(r":?-{3,}:?", first):
+            continue
+        target = first.strip().strip("`").strip().strip('"')
+        if target and target not in {"-", "—", "null", "~"}:
+            result.append((number, target))
+    return result
+
+
+def check_module_override_targets(
+    texts: dict[Path, str], errors: list[str]
+) -> None:
+    """Validate populated override IDs against the immutable runtime module."""
+    override_path = REPO_ROOT / "gm" / "module-overrides.md"
+    override_text = texts.get(override_path)
+    if override_text is None:
+        return
+    targets = module_override_ids(override_text)
+    if not targets:
+        return
+
+    current_path = REPO_ROOT / "CURRENT.md"
+    current_text = texts.get(current_path)
+    current = front_matter(current_text) if current_text is not None else None
+    module_id = optional_scalar(current.get("module_id")) if current else None
+    if module_id is None:
+        errors.append(
+            "gm/module-overrides.md: populated override IDs cannot be checked "
+            "without CURRENT.module_id and a verified runtime module"
+        )
+        return
+
+    module_root = REPO_ROOT / "module"
+    marker = load_json_object(
+        module_root / "GENERATED_OUTPUT.json",
+        "gm/module-overrides.md",
+        errors,
+    )
+    if marker is None:
+        return
+    if marker.get("play_contract") != PLAY_CONTRACT:
+        errors.append(
+            "gm/module-overrides.md: cannot validate targets because "
+            f"play_contract is not {PLAY_CONTRACT}"
+        )
+    if marker.get("verification") != "verified":
+        errors.append(
+            "gm/module-overrides.md: cannot validate targets because "
+            "module verification is not verified"
+        )
+    if marker.get("module_id") != module_id:
+        errors.append(
+            "gm/module-overrides.md: cannot validate targets because "
+            "CURRENT.module_id does not match the runtime module"
+        )
+    if (
+        marker.get("play_contract") != PLAY_CONTRACT
+        or marker.get("verification") != "verified"
+        or marker.get("module_id") != module_id
+    ):
+        return
+
+    index = load_json_object(
+        module_root / "index.json", "gm/module-overrides.md", errors
+    )
+    if index is None:
+        return
+    records = index.get("records")
+    if not isinstance(records, list):
+        errors.append(
+            "gm/module-overrides.md: module/index.json records must be a JSON array"
+        )
+        return
+    record_ids = {
+        item["id"]
+        for item in records
+        if isinstance(item, dict) and isinstance(item.get("id"), str)
+    }
+    unresolved = {target for _line, target in targets if target not in record_ids}
+    topology_ids: set[str] = set()
+    if unresolved:
+        topology = load_json_object(
+            module_root / "topology.yaml", "gm/module-overrides.md", errors
+        )
+        if topology is not None:
+            nodes = topology.get("nodes")
+            passages = topology.get("passages")
+            if not isinstance(nodes, list):
+                errors.append(
+                    "gm/module-overrides.md: module/topology.yaml nodes must be "
+                    "a JSON array"
+                )
+            else:
+                topology_ids.update(
+                    item["id"]
+                    for item in nodes
+                    if isinstance(item, dict) and isinstance(item.get("id"), str)
+                )
+            if not isinstance(passages, list):
+                # A small compatibility allowance makes the diagnostic useful
+                # for hand-authored synthetic modules while generated runtime
+                # output uses the canonical `passages` key.
+                passages = topology.get("edges")
+            if not isinstance(passages, list):
+                errors.append(
+                    "gm/module-overrides.md: module/topology.yaml passages must "
+                    "be a JSON array"
+                )
+            else:
+                topology_ids.update(
+                    item["id"]
+                    for item in passages
+                    if isinstance(item, dict) and isinstance(item.get("id"), str)
+                )
+
+    for line, target in targets:
+        if target in record_ids or target in topology_ids:
+            continue
+        errors.append(
+            f"gm/module-overrides.md:{line}: invalid target ID '{target}'; "
+            "not found in module/index.json or module/topology.yaml "
+            "nodes/passages"
+        )
+
+
 def check_checkpoint_chain(
     texts: dict[Path, str], errors: list[str]
 ) -> None:
@@ -1271,6 +1616,8 @@ def main() -> int:
     check_entity_checkpoint_ids(texts, errors)
     check_continuity(texts, errors)
     check_checkpoint_chain(texts, errors)
+    check_module_campaign_binding(texts, errors)
+    check_module_override_targets(texts, errors)
     check_ids(texts, errors)
     check_markdown_links(texts, errors)
     check_required_sections(texts, errors, warnings)

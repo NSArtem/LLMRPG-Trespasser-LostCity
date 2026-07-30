@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 from typing import Any, Mapping, Sequence
 
-from .contracts import GENERATED_OUTPUT_SCHEMA, RUNTIME_INDEX_SCHEMA
+from .contracts import GENERATED_OUTPUT_SCHEMA, PLAY_CONTRACT, RUNTIME_INDEX_SCHEMA
 from .errors import ExtractorError
 from .util import canonical_json_bytes, load_json, write_json
 
@@ -994,6 +994,7 @@ def render_module(stage: Path, module: Mapping[str, Any]) -> None:
         stage / "GENERATED_OUTPUT.json",
         {
             "schema": GENERATED_OUTPUT_SCHEMA,
+            "play_contract": PLAY_CONTRACT,
             "module_id": _module_id(module),
             "verification": verification,
             "source_sha256": module["source"]["sha256"],
@@ -1016,7 +1017,7 @@ def _walk_keys(value: Any) -> set[str]:
 
 
 def generated_output_is_replaceable(path: Path) -> bool:
-    """Return whether an existing tree is wholly owned by a valid v3 marker."""
+    """Return whether an existing tree is wholly owned by the current marker."""
     if not path.is_dir():
         return False
     try:
@@ -1025,6 +1026,7 @@ def generated_output_is_replaceable(path: Path) -> bool:
         return False
     expected_fields = {
         "schema",
+        "play_contract",
         "module_id",
         "verification",
         "source_sha256",
@@ -1037,6 +1039,7 @@ def generated_output_is_replaceable(path: Path) -> bool:
         not isinstance(marker, dict)
         or set(marker) != expected_fields
         or marker.get("schema") != GENERATED_OUTPUT_SCHEMA
+        or marker.get("play_contract") != PLAY_CONTRACT
         or marker.get("verification") not in {"verified", "unverified"}
     ):
         return False
@@ -1101,6 +1104,7 @@ def validate_rendered_module(stage: Path, module: Mapping[str, Any]) -> None:
     marker = load_json(stage / "GENERATED_OUTPUT.json")
     expected_marker_fields = {
         "schema",
+        "play_contract",
         "module_id",
         "verification",
         "source_sha256",
@@ -1113,6 +1117,8 @@ def validate_rendered_module(stage: Path, module: Mapping[str, Any]) -> None:
         raise ExtractorError("generated output marker has unexpected fields")
     if marker.get("schema") != GENERATED_OUTPUT_SCHEMA:
         raise ExtractorError("generated output marker has the wrong schema")
+    if marker.get("play_contract") != PLAY_CONTRACT:
+        raise ExtractorError("generated output marker has the wrong play contract")
     runtime_files = marker.get("runtime_files")
     audit_files = marker.get("audit_files")
     if (
