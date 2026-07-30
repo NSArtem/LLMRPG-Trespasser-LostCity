@@ -1,0 +1,299 @@
+{
+  "pages": [
+    {
+      "confidence": "high",
+      "exclusion_reason": "cover",
+      "notes": "Front cover.",
+      "pdf_page": 1,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": "blank",
+      "notes": "Blank page.",
+      "pdf_page": 2,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": "divider",
+      "notes": "Title and credits page.",
+      "pdf_page": 3,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": "divider",
+      "notes": "Table of contents with decorative art.",
+      "pdf_page": 4,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Adventure introduction, use guidance, and level/system notes.",
+      "pdf_page": 5,
+      "tasks": [
+        "adventure",
+        "rules"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Referee background and Cold Prince history.",
+      "pdf_page": 6,
+      "tasks": [
+        "adventure",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Sir Chyde, tomb history, and soul-binding ring effects.",
+      "pdf_page": 7,
+      "tasks": [
+        "adventure",
+        "items",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Adventure hooks, inheritance, tomb robbers, and complication.",
+      "pdf_page": 8,
+      "tasks": [
+        "adventure"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Player background, folklore, and investigation leads.",
+      "pdf_page": 9,
+      "tasks": [
+        "adventure"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Dolmenwood lore, fairies, materials, and languages.",
+      "pdf_page": 10,
+      "tasks": [
+        "adventure",
+        "rules"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Outside-mound encounters and approach area.",
+      "pdf_page": 11,
+      "tasks": [
+        "adventure",
+        "tables",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Whythling Stones encounter and creature details.",
+      "pdf_page": 12,
+      "tasks": [
+        "adventure",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Tomb entrance and worm-hole encounter areas.",
+      "pdf_page": 13,
+      "tasks": [
+        "adventure",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Burial-mound random events and Hall of Guardians.",
+      "pdf_page": 14,
+      "tasks": [
+        "adventure",
+        "tables"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Blindfolded statue and freezing mirror areas.",
+      "pdf_page": 15,
+      "tasks": [
+        "adventure",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Family crypt, skeletons, coffers, and random contents.",
+      "pdf_page": 16,
+      "tasks": [
+        "adventure",
+        "tables"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Chapel and abandoned priest's quarters.",
+      "pdf_page": 17,
+      "tasks": [
+        "adventure"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Weapon statues, battle mural, and Hall of Hounds.",
+      "pdf_page": 18,
+      "tasks": [
+        "adventure"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Knight's tomb, ghost, coffer, portrait, and treasure.",
+      "pdf_page": 19,
+      "tasks": [
+        "adventure"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Warded pool and passage to the fairy realm.",
+      "pdf_page": 20,
+      "tasks": [
+        "adventure",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Fairy Prison random events and frozen-lake tower approach.",
+      "pdf_page": 21,
+      "tasks": [
+        "adventure",
+        "tables"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Tower entrance hall and goblin encounters.",
+      "pdf_page": 22,
+      "tasks": [
+        "adventure"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Fairy kitchen, wedding feast, and creature details.",
+      "pdf_page": 23,
+      "tasks": [
+        "adventure"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Princess's bedchamber, NPC details, ring, and treasure.",
+      "pdf_page": 24,
+      "tasks": [
+        "adventure",
+        "items",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Epilogue outcomes for the door, lovers, and stolen ring.",
+      "pdf_page": 25,
+      "tasks": [
+        "adventure",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Soul-binding ring, limitless-fungi pouch, and random effects.",
+      "pdf_page": 26,
+      "tasks": [
+        "items",
+        "effects",
+        "tables"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": "cover",
+      "notes": "Back cover.",
+      "pdf_page": 27,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Outside-the-mound keyed map and area summary.",
+      "pdf_page": 28,
+      "tasks": [
+        "adventure",
+        "maps"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Burial-mound keyed dungeon map and area summary.",
+      "pdf_page": 29,
+      "tasks": [
+        "adventure",
+        "maps"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Fairy Prison keyed exterior map and area summary.",
+      "pdf_page": 30,
+      "tasks": [
+        "adventure",
+        "maps"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Tower level maps and keyed room summaries.",
+      "pdf_page": 31,
+      "tasks": [
+        "adventure",
+        "maps"
+      ]
+    }
+  ],
+  "schema": "module-routing/v1",
+  "source_sha256": "75f903b106b1f3459676ad9d8ac255c7b943d2f8c9158a6e58e8655efd69b261"
+}

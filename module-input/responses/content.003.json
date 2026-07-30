@@ -1,0 +1,1584 @@
+{
+  "pack_id": "content.003",
+  "records": [
+    {
+      "id": "location.area15.wintry-glade",
+      "record_type": "location",
+      "fields": {
+        "title": "Wintry Glade",
+        "description": "A bitterly cold glade under gently falling snow, with pristine 2-foot-deep snow, sparkling sunlight, and visible breath. Larger-than-human bootprints run from the tower to the woods and back."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area15.frozen-lake",
+        "location.area15.white-marble-tower",
+        "location.area15.hoar-clad-forest",
+        "location.area15.purple-sky-crack"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.area15.frozen-lake",
+      "record_type": "location",
+      "fields": {
+        "title": "Frozen Lake",
+        "description": "A lake frozen solid to a depth of 5 feet, with a cleared ice-skating patch. The white marble tower stands on it."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area15.wintry-glade",
+        "location.area15.white-marble-tower"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.area15.white-marble-tower",
+      "record_type": "location",
+      "fields": {
+        "title": "White Marble Tower",
+        "description": "A white marble tower with icy walls that impose –20% on checks to climb sheer surfaces. Its polished cherrywood door with black iron fittings is unlocked; frost-patterned windows can be smashed open; a thin bluish smoke plume rises from the summit."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area15.frozen-lake",
+        "location.area16.entrance-hall"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.area15.hoar-clad-forest",
+      "record_type": "location",
+      "fields": {
+        "title": "Hoar-Clad Forest",
+        "description": "An ominous fir wood heavy with snow. Moss-covered corpses hang in the trees as food for the troll Grimmlegridge. The fairy woods are treacherous and may contain giant spiders, frost elves, or winter wolves."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.grimmlegridge",
+        "procedure.area15.wander-forest"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.area15.warded-paths",
+      "record_type": "location",
+      "fields": {
+        "title": "Paths into the Forest",
+        "description": "Forest paths are blocked by dozens of ghostly candles floating in mid-air. A traveller cannot step onto a path without passing through the candle ward."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure.area15.pass-candle-ward",
+        "procedure.area15.dispel-candle-ward"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.area15.purple-sky-crack",
+      "record_type": "location",
+      "fields": {
+        "title": "Purple Crack in the Sky",
+        "description": "A purple crack hangs in the sky and occasionally sheds sticky purple drips that stain the snow."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area15.wintry-glade"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.fairy-prison.random-events",
+      "record_type": "situation",
+      "fields": {
+        "title": "Fairy Prison Random Event Check",
+        "trigger": "Every two turns in the Fairy Prison, there is a 1-in-6 chance that one event from the Random Events table occurs."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "table.fairy-prison.random-events"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.area15.wander-forest",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Wander in the Hoar-Clad Forest",
+        "trigger": "Characters leave the safer glade and wander in the treacherous fairy woods.",
+        "steps": [
+          "Treat the forest as hazardous fairy woodland.",
+          "Introduce a possible encounter with giant spiders, frost elves, or winter wolves."
+        ]
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area15.hoar-clad-forest"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.area15.pass-candle-ward",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Pass Through the Ghostly Candle Ward",
+        "trigger": "A character attempts to enter one of the forest paths through the floating candles.",
+        "steps": [
+          "A character who came from the tomb can pass through the ward; it is impassable to everyone else.",
+          "A permitted traveller appears at the bottom of the stairs in area 14.",
+          "On arrival, 1d6 days have passed in the mortal world."
+        ]
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area15.warded-paths"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.area15.dispel-candle-ward",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Dispel the Ghostly Candle Ward",
+        "trigger": "Someone attempts to remove the ward blocking the forest paths.",
+        "steps": [
+          "Fairy magic cannot affect the ward.",
+          "Other magic may dispel it.",
+          "Resolve dispelling as though the ward were cast by a 10th-level cleric."
+        ]
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area15.warded-paths",
+        "knowledge.frigia-door.wards"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.frost-elf-guards-and-knights",
+      "record_type": "actor",
+      "fields": {
+        "title": "Frost Elf Guards and Knights",
+        "role": "Proud frost elf warriors who serve as guests and guards. A random event may bring 1d3 knights from the forest on white chargers; at the feast, 5 knights sit as guests and 4 guards stand at the edges, ready to act. Combat profile: AC 3 [16], HD 2, attack 1 × spear or lance (1d6), THAC0 18 [+1], MV 60’ (20’), saves D12 W13 P13 B15 S15 (E2), ML 9, Neutral, XP 20."
+      },
+      "source_pages": [
+        21,
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.fairy-prison.random-events",
+        "location.area18.wedding-feast",
+        "procedure.area18.escort-uninvited-guests"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.white-raven-messenger",
+      "record_type": "actor",
+      "fields": {
+        "title": "White Raven Messenger",
+        "role": "A cawing white raven that arrives during a random event carrying a message for Princess Snowfall-at-Dusk: her friend Lord Mantle-of-Runes is coming."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "table.fairy-prison.random-events",
+        "actor.princess-snowfall-at-dusk"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.goblin-sleigh-rider",
+      "record_type": "actor",
+      "fields": {
+        "title": "Goblin Sleigh-Rider",
+        "role": "A goblin courier who may race from the forest in a laden sleigh pulled by white stags, bringing fairy fruits, ice wines, and a cauldron of steaming soup to the tower."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "table.fairy-prison.random-events",
+        "location.area15.white-marble-tower"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.dire-wolf-pack",
+      "record_type": "actor",
+      "fields": {
+        "title": "Dire Wolf Pack",
+        "role": "A pack of 2d6 dire wolves may creep from the forest and sniff around the frozen lake for prey; use the dire wolf statistics from Old-School Essentials."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "table.fairy-prison.random-events",
+        "location.area15.frozen-lake"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.fairy-prison.random-events",
+      "record_type": "table",
+      "fields": {
+        "title": "Random Events (1-in-6 Chance Every Two Turns)",
+        "entries": [
+          {
+            "roll": 1,
+            "result": "1d3 frost elf knights, guests of the princess, emerge from the forest on white chargers."
+          },
+          {
+            "roll": 2,
+            "result": "A cawing white raven brings the princess a message announcing the arrival of her friend, Lord Mantle-of-Runes."
+          },
+          {
+            "roll": 3,
+            "result": "A laden sleigh pulled by white stags rushes from the forest. Its goblin rider brings fairy fruits, ice wines, and a cauldron of steaming soup to the tower."
+          },
+          {
+            "roll": 4,
+            "result": "2d6 dire wolves creep from the forest and sniff around the lake, seeking prey."
+          }
+        ]
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.fairy-prison.random-events",
+        "actor.frost-elf-guards-and-knights",
+        "actor.white-raven-messenger",
+        "actor.goblin-sleigh-rider",
+        "actor.dire-wolf-pack"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.area16.entrance-hall",
+      "record_type": "location",
+      "fields": {
+        "title": "Entrance Hall",
+        "description": "The tower entrance is decorated with garlands of white roses and pale blue forget-me-nots tied with ribbons. Dozens of winter hats and coats crowd wall hooks; boots and ice skates line shoe racks. A fireplace burns melting icicles with electric-blue flames. Baking aromas drift from area 17, while muted voices come from the stairs to area 18."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.griddlegrim",
+        "actor.grimmlegridge",
+        "location.area17.fairy-kitchen",
+        "location.area18.wedding-feast"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.griddlegrim",
+      "record_type": "actor",
+      "fields": {
+        "title": "Griddlegrim",
+        "role": "A jovial Dolmenwood goblin doorman with a large head, spindly neck, dark grey warty skin, huge yellow eyes, and purple velvet finery. He rides on Grimmlegridge’s back, checks every visitor’s name, admits invited wedding guests, and offers uninvited visitors entry if they eat a mushroom from his pouch. Combat profile: AC 7 [12], HD 1* (4 hp), attack 1 × spear (1d6) or 1 × spell, THAC0 19 [0], MV 90’ (30’), saves D12 W13 P14 B15 S16 (1), ML 7, Neutral, XP 13; spells charm person, darkness, sleep, and phantasmal force."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.grimmlegridge",
+        "procedure.area16.gain-entry",
+        "item.pouch-of-limitless-fungi",
+        "knowledge.dolmenwood-goblins"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.grimmlegridge",
+      "record_type": "actor",
+      "fields": {
+        "title": "Grimmlegridge",
+        "role": "A hulking, obese, 10-foot-tall Dolmenwood troll with hairless clay-like flesh, filthy ragged hessian clothes, and a bulging pouch of moss-covered humanoid bones. He obeys Griddlegrim but secretly wants to crush the characters and add their bodies to his moss-corpse collection. Combat profile: AC 6 [13], HD 8* (45 hp), attacks 2 × fists (1d10 plus moss growth), THAC0 12 [+7], MV 120’ (40’), saves D8 W9 P10 B10 S12 (8), ML 9, Chaotic, XP 1,200. A touched mortal sprouts moss at the contact point. He regenerates 3 hp per round and reforms unless killed with fire or acid."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.griddlegrim",
+        "location.area15.hoar-clad-forest",
+        "knowledge.dolmenwood-trolls"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.area16.door-admission",
+      "record_type": "situation",
+      "fields": {
+        "title": "Entrance Hall Admission Check",
+        "trigger": "Visitors arrive at the tower door and Griddlegrim checks their names against the wedding guests."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.griddlegrim",
+        "procedure.area16.gain-entry"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.area16.gain-entry",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Gain Entry to the Wedding",
+        "trigger": "A visitor asks Griddlegrim to enter the tower.",
+        "steps": [
+          "Griddlegrim checks the visitor’s name.",
+          "Invited wedding guests are admitted.",
+          "An uninvited person may enter by eating one mushroom from Griddlegrim’s Pouch of Limitless Fungi and resolving its magic."
+        ]
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.griddlegrim",
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.dolmenwood-trolls",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Dolmenwood Troll Lore",
+        "text": "Dolmenwood trolls are mossivorous fairies. Their preferred food is moss grown on the corpse of a sentient being, a taste that drives them to murder."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.grimmlegridge"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.dolmenwood-goblins",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Dolmenwood Goblin Lore",
+        "text": "Dolmenwood goblins are native to Fairy. In the mortal world they are known as tricksters, charlatans, and sellers of strange fey objects."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.griddlegrim"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.area17.fairy-kitchen",
+      "record_type": "location",
+      "fields": {
+        "title": "Fairy Kitchen",
+        "description": "A busy kitchen with an electric-blue icicle fire, a cast-iron stove holding bubbling stockpots and baking currant buns, a flour-covered worktable, and a pantry packed with candied fruit, frozen game, and ice wines. The air smells of currants and spice and is thick with broth steam."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.frost-elf-cooks",
+        "procedure.area17.raid-pantry"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.frost-elf-cooks",
+      "record_type": "actor",
+      "fields": {
+        "title": "Frost Elf Cooks",
+        "role": "Two short, stout, blue-skinned cooks with twinkling pearly eyes. They are flustered but orderly and loudly order intruders to help carry food to the feast. Combat profile: AC 9 [10], HD 1 (3 hp each), attack 1 × knife or rolling pin (1d3), THAC0 19 [0], MV 120’ (40’), saves D12 W13 P13 B15 S15 (E1), ML 6, Neutral, XP 10 each."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area17.fairy-kitchen",
+        "procedure.area17.help-cooks",
+        "knowledge.area17.awaiting-sir-chyde"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.area17.help-cooks",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Help the Frost Elf Cooks",
+        "trigger": "The characters enter the Fairy Kitchen and the cooks notice them.",
+        "steps": [
+          "The cooks shout orders at the characters.",
+          "They demand that the characters carry additional food upstairs to the wedding feast."
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.frost-elf-cooks",
+        "location.area18.wedding-feast"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.area17.awaiting-sir-chyde",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "The Feast Awaits Sir Chyde",
+        "text": "The frost elf cooks know that Princess Snowfall-at-Dusk’s guests are waiting for the arrival of her betrothed, Sir Chyde."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.frost-elf-cooks",
+        "actor.princess-snowfall-at-dusk",
+        "procedure.princess-plea.retrieve-ring"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.area17.raid-pantry",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Raid the Fairy Pantry",
+        "trigger": "A character spends time searching deeper into the pantry.",
+        "steps": [
+          "The pantry appears larger the farther one explores it.",
+          "For each person and each turn spent searching, roll a 1-in-6 chance of finding treasure worth 2d10 × 10 gp in the mortal world.",
+          "Possible finds include rare fairy wines, jellied dreams, sprite dust, and tarts of infatuation."
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area17.fairy-kitchen"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.area18.wedding-feast",
+      "record_type": "location",
+      "fields": {
+        "title": "Wedding Feast",
+        "description": "A lavish feast room dominated by a table laden with roast swans stuffed with blackbirds, syrup-dripping fruit, ice wines in buckets, and violet spirits in crystal decanters. Five frost elf knights and seven frost elf nobles wait in subdued silence; the princess’s guests have already waited for centuries."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.frost-elf-guards-and-knights",
+        "actor.frost-elf-nobles",
+        "procedure.area18.eat-fairy-feast"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.frost-elf-nobles",
+      "record_type": "actor",
+      "fields": {
+        "title": "Frost Elf Nobles",
+        "role": "Seven decadent, foppish nobles in flouncy silk and lace, quietly sipping wine and dabbing handkerchiefs. They are ambivalent toward strangers but call the guards if disturbed. Combat profile: AC 8 [11], HD 4*, attack 1 × icicle dagger (1d4) or 1 × spell, THAC0 16 [+3], MV 120’ (40’), saves D10 W11 P11 B13 S12 (E4), ML 7, Neutral, XP 125; spells sleep and hold person."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area18.wedding-feast",
+        "situation.area18.nobles-disturbed"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.area18.eat-fairy-feast",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Eat or Drink at the Fairy Feast",
+        "trigger": "A mortal consumes food or drink from the wedding feast.",
+        "steps": [
+          "The mortal makes a save versus spells.",
+          "On a failed save, the mortal forever yearns to return to Fairy."
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area18.wedding-feast"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.area18.nobles-disturbed",
+      "record_type": "situation",
+      "fields": {
+        "title": "Frost Elf Nobles Disturbed",
+        "trigger": "The subdued nobles at the feast are disrupted or bothered; they respond ambivalently and summon the guards."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.frost-elf-nobles",
+        "actor.frost-elf-guards-and-knights"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.area18.escort-uninvited-guests",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Escort Uninvited Guests to the Princess",
+        "trigger": "The four frost elf guards identify uninvited visitors at the wedding feast.",
+        "steps": [
+          "The guards move immediately to intervene.",
+          "They escort the uninvited visitors to Princess Snowfall-at-Dusk in area 19."
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.frost-elf-guards-and-knights",
+        "actor.princess-snowfall-at-dusk",
+        "location.area19.princess-bedchamber"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.area19.princess-bedchamber",
+      "record_type": "location",
+      "fields": {
+        "title": "The Princess’s Bedchamber",
+        "description": "A regal chamber with a canopy bed veiled in snow dust and covered in white wolf skins, a dressing table with jewellery boxes, an overfull wardrobe of coats and gowns, and a fireplace of melting icicles burning with electric-blue flames."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.princess-snowfall-at-dusk",
+        "item.ice-jewels",
+        "item.fairy-silver-necklaces",
+        "item.hoarfrost-sapphire-brooch",
+        "item.fur-coats",
+        "item.scintillating-gowns"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.princess-snowfall-at-dusk",
+      "record_type": "actor",
+      "fields": {
+        "title": "Princess Snowfall-at-Dusk",
+        "role": "An ageless, benevolent frost elf princess with winter-sun blonde hair, scintillating pale skin, crystalline blue eyes, a flowing white gown, and a crystal star bound to her brow. She is dignified, hopeful despite her imprisonment, and excited by the possibilities presented by mortal strangers. She wants reunion with Sir Chyde. Combat profile: AC 7 [12], HD 5* (19 hp), attack 1 × icicle dagger (1d4) or 1 × spell, THAC0 15 [+4], MV 120’ (40’), saves D10 W11 P11 B13 S12 (E5), ML 8, Neutral, XP 300; spells charm person, sleep, hold person, and invisibility. She can grant one other person’s wish, but may use that power only once ever."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure.princess-plea.retrieve-ring",
+        "knowledge.princess.sir-chyde",
+        "knowledge.princess.magical-ban",
+        "item.princess-brow-star"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.princess.sir-chyde",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Princess Snowfall-at-Dusk’s Knowledge of Sir Chyde",
+        "text": "The princess knows that Sir Chyde’s soul remains in his tomb, that his hounds are named Chedr and Flaegr, and that the warded paths from her glade lead to the tomb in the mortal world. She believes he was taken from her by mortality."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.princess-snowfall-at-dusk",
+        "procedure.princess-plea.retrieve-ring",
+        "location.area15.warded-paths"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.princess.magical-ban",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "The Princess’s Magical Ban",
+        "text": "Princess Snowfall-at-Dusk cannot leave the glade containing her tower unless she renounces her love for Sir Chyde. The ban also defeats magical summoning and teleportation, including the Ring of Soul-Binding’s full-moon power to unite bound persons."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.princess-snowfall-at-dusk",
+        "location.area15.wintry-glade",
+        "item.ring-of-soul-binding",
+        "knowledge.epilogue.ban-persists"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.princess-plea.retrieve-ring",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Fulfil the Princess’s Plea",
+        "trigger": "Princess Snowfall-at-Dusk asks the characters to reunite her with Sir Chyde.",
+        "steps": [
+          "Return through the warded route to Sir Chyde’s tomb.",
+          "Take the ring from Sir Chyde’s coffer.",
+          "Bring the ring into Fairy; Sir Chyde’s soul follows it, allowing the lovers to reunite and marry.",
+          "The princess may reward the characters with jewels or by granting one wish."
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.princess-snowfall-at-dusk",
+        "item.ring-of-soul-binding",
+        "situation.epilogue.lovers-reunited"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.princess-brow-star",
+      "record_type": "item",
+      "fields": {
+        "title": "Princess Snowfall-at-Dusk’s Brow Star",
+        "text": "A flashing crystal star bound to the princess’s brow with a silver cord; worth 300 gp."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.princess-snowfall-at-dusk"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.ice-jewels",
+      "record_type": "item",
+      "fields": {
+        "title": "Ice-Jewels",
+        "text": "The princess’s jewellery boxes contain 30 ice-jewels, each worth 200 gp."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area19.princess-bedchamber"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.fairy-silver-necklaces",
+      "record_type": "item",
+      "fields": {
+        "title": "Necklaces of Fairy Silver",
+        "text": "The princess’s jewellery boxes contain 12 necklaces of fairy silver, each worth 150 gp."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area19.princess-bedchamber"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.hoarfrost-sapphire-brooch",
+      "record_type": "item",
+      "fields": {
+        "title": "Hoarfrost Sapphire Brooch",
+        "text": "A sapphire set in a platinum brooch shaped like spiky hoarfrost; worth 1,000 gp."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area19.princess-bedchamber"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.fur-coats",
+      "record_type": "item",
+      "fields": {
+        "title": "Fur Coats",
+        "text": "The princess’s wardrobe holds 20 fur coats, each worth 100 gp."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area19.princess-bedchamber"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.scintillating-gowns",
+      "record_type": "item",
+      "fields": {
+        "title": "Scintillating Gowns",
+        "text": "The princess’s wardrobe holds 20 scintillating gowns, each worth 100 gp. The wardrobe contains more garments than should physically fit inside."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.area19.princess-bedchamber"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.frigia.doorway-from-dolmenwood",
+      "record_type": "location",
+      "fields": {
+        "title": "A Door to Frigia",
+        "description": "The tower stands in an obscure part of Frigia, the Cold Prince’s fairy kingdom. The Ring of Soul-Binding has drawn this region close to the mortal world over centuries, creating a usable route from Dolmenwood into Fairy."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "knowledge.frigia-door.wards",
+        "knowledge.frigia-door.cold-prince",
+        "item.ring-of-soul-binding"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.frigia-door.wards",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Wards Between the Tomb and Frigia",
+        "text": "The wards set when Sir Chyde’s tomb was sealed stop natives of Frigia from passing between Fairy and the mortal world, but mortals may travel from Dolmenwood into Frigia. Fairy magic cannot dispel these wards, though mortal magic may be able to do so."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.frigia.doorway-from-dolmenwood",
+        "procedure.area15.dispel-candle-ward"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.frigia-door.cold-prince",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "The Cold Prince’s Interest in the Door",
+        "text": "The Cold Prince continually seeks a return to Dolmenwood. A doorway in his own kingdom leading there would be priceless, and the characters could exploit the route for schemes beyond the adventure."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.frigia.doorway-from-dolmenwood"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.epilogue.lovers-reunited",
+      "record_type": "situation",
+      "fields": {
+        "title": "The Lovers Reunited",
+        "trigger": "The Ring of Soul-Binding is carried from Sir Chyde’s tomb into Fairy. The mortal and fairy regions then begin to separate; within a day or two, the passages between areas 14 and 15 vanish and area 14 again becomes a vaulted chamber with a pool."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure.princess-plea.retrieve-ring",
+        "item.ring-of-soul-binding",
+        "knowledge.epilogue.ban-persists"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.epilogue.ban-persists",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Reunion Does Not Break the Princess’s Ban",
+        "text": "Reuniting Sir Chyde and Princess Snowfall-at-Dusk does not remove the magic imprisoning her in the tower. Deeper magic or the Cold Prince’s intervention would be required."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "knowledge.princess.magical-ban",
+        "situation.epilogue.lovers-reunited"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.epilogue.future-contact",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Possible Future Plea from the Lovers",
+        "text": "Sir Chyde or Princess Snowfall-at-Dusk may later find a way to contact the characters and ask for help breaking the princess’s magical imprisonment."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.princess-snowfall-at-dusk",
+        "knowledge.epilogue.ban-persists"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.epilogue.ring-stolen",
+      "record_type": "situation",
+      "fields": {
+        "title": "The Ring Stolen",
+        "trigger": "Someone removes the Ring of Soul-Binding from the tomb and keeps it. Sir Chyde’s ghost visits the possessor nightly, first pleading for the ring’s return and promising his fairy bride’s generosity, then becoming angry and violent if refused."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "item.ring-of-soul-binding",
+        "effect.ring.ghost-haunting",
+        "procedure.epilogue.end-haunting"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.epilogue.end-haunting",
+      "record_type": "procedure",
+      "fields": {
+        "title": "End Sir Chyde’s Haunting",
+        "trigger": "The possessor of the stolen Ring of Soul-Binding is being haunted by Sir Chyde’s ghost.",
+        "steps": [
+          "Either slay the ghost, or undo the soul-binding on the ring.",
+          "Unbinding may be achieved through one of the ring’s stated release conditions."
+        ]
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.epilogue.ring-stolen",
+        "effect.ring.unbinding"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.ring-of-soul-binding",
+      "record_type": "item",
+      "fields": {
+        "title": "Ring of Soul-Binding",
+        "text": "A fairy magic ring that intertwines two beings’ souls. Its bearer may give it to another person to bind them; an unwilling recipient may save versus spells. The binding ends if the ring is destroyed, dispel magic is cast on the ring or either bound person, either person renounces the bond, or the giver dies. Bound persons can speak through the ring; cross-world separation narrows the boundary between Fairy and the mortal world; on a full moon the wearer can call the other person to them for one night; if the wearer dies, their spirit haunts the ring as a ghost able to manifest only within 10 feet of it."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.ring.binding",
+        "effect.ring.unbinding",
+        "effect.ring.communication",
+        "effect.ring.planar-convergence",
+        "effect.ring.full-moon-union",
+        "effect.ring.ghost-haunting"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.pouch-of-limitless-fungi",
+      "record_type": "item",
+      "fields": {
+        "title": "Pouch of Limitless Fungi",
+        "text": "An ordinary-looking burlap belt pouch filled with colourful mushrooms. It never runs out. The first mushroom a character eats each day produces a random magical effect on 1d12; later mushrooms that day make the character sick. Unless an entry says otherwise, the effect is permanent."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.pouch.inexhaustible",
+        "effect.pouch.first-daily-mushroom",
+        "effect.pouch.repeat-mushroom-sickness",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ring.binding",
+      "record_type": "effect",
+      "fields": {
+        "title": "Soul Binding",
+        "text": "The ring’s possessor may give it to another person, binding that person’s soul to the giver’s. An unwilling recipient receives a save versus spells to resist."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.ring-of-soul-binding",
+        "effect.ring.unbinding"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ring.unbinding",
+      "record_type": "effect",
+      "fields": {
+        "title": "Undoing the Soul Binding",
+        "text": "The bond ends if the ring is destroyed; dispel magic is cast on the ring or either bound person; either bound person renounces the binding; or the person who gave the ring dies."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.ring-of-soul-binding",
+        "effect.ring.binding",
+        "procedure.epilogue.end-haunting"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ring.communication",
+      "record_type": "effect",
+      "fields": {
+        "title": "Ring-Borne Communication",
+        "text": "The two bound persons can communicate verbally through the ring."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.ring-of-soul-binding"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ring.planar-convergence",
+      "record_type": "effect",
+      "fields": {
+        "title": "Planar Boundary Narrowing",
+        "text": "When one bound person is in the mortal world and the other is in Fairy, the ring draws them closer by narrowing the boundary between the two worlds."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.ring-of-soul-binding",
+        "location.frigia.doorway-from-dolmenwood"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ring.full-moon-union",
+      "record_type": "effect",
+      "fields": {
+        "title": "Full-Moon Union",
+        "text": "On a full-moon night, the wearer may call the other bound person to them. The pair are physically united for one night."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.ring-of-soul-binding",
+        "knowledge.princess.magical-ban"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ring.ghost-haunting",
+      "record_type": "effect",
+      "fields": {
+        "title": "Ghost Bound to the Ring",
+        "text": "If the ring’s wearer dies, their spirit cannot rest and haunts the ring as a ghost. The ghost can manifest only while within 10 feet of the ring."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.ring-of-soul-binding",
+        "situation.epilogue.ring-stolen"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.pouch.inexhaustible",
+      "record_type": "effect",
+      "fields": {
+        "title": "Limitless Mushrooms",
+        "text": "Removing mushrooms never empties the pouch; it is always full."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.pouch.first-daily-mushroom",
+      "record_type": "effect",
+      "fields": {
+        "title": "First Mushroom of the Day",
+        "text": "The first mushroom a character eats each day produces one random magical effect determined by 1d12. Unless the rolled entry states otherwise, that effect is permanent."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.pouch.repeat-mushroom-sickness",
+      "record_type": "effect",
+      "fields": {
+        "title": "Additional Mushroom Sickness",
+        "text": "Any mushrooms eaten after the first one on the same day make the character sick rather than producing another random effect."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shroom.01",
+      "record_type": "effect",
+      "fields": {
+        "title": "Double Size",
+        "text": "The eater doubles in size, destroying their clothing, and deals double melee damage for 1d6 turns."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shroom.02",
+      "record_type": "effect",
+      "fields": {
+        "title": "Six-Inch Stature",
+        "text": "The eater shrinks to 6 inches tall for 1d6 turns."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shroom.03",
+      "record_type": "effect",
+      "fields": {
+        "title": "Purple Skin",
+        "text": "The eater’s skin turns permanently purple."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shroom.04",
+      "record_type": "effect",
+      "fields": {
+        "title": "Eyes in the Palms",
+        "text": "The eater’s eyes shrivel away; 1 turn later, new eyes grow in the palms of their hands."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shroom.05",
+      "record_type": "effect",
+      "fields": {
+        "title": "Ten-Foot Hair",
+        "text": "All hair on the eater’s body grows to 10 feet long."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shroom.06",
+      "record_type": "effect",
+      "fields": {
+        "title": "Sentient Critical Nose",
+        "text": "The eater’s nose swells, develops a sour face, becomes sentient, and endlessly criticizes the character’s actions."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shroom.07",
+      "record_type": "effect",
+      "fields": {
+        "title": "Random Ability Increase",
+        "text": "Increase one randomly selected ability score by +1."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shroom.08",
+      "record_type": "effect",
+      "fields": {
+        "title": "Luminous Enlarged Eyes",
+        "text": "The eater’s eyes enlarge and emit yellow light in a 30-foot radius."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shroom.09",
+      "record_type": "effect",
+      "fields": {
+        "title": "Warm Fuzzy Assurance",
+        "text": "The eater automatically succeeds on their next saving throw."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shroom.10",
+      "record_type": "effect",
+      "fields": {
+        "title": "Transparent Body",
+        "text": "The eater’s body becomes transparent for 1d6 turns. If naked, the character surprises on a roll of 1–4."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shroom.11",
+      "record_type": "effect",
+      "fields": {
+        "title": "Weeping and Hysterical Laughter",
+        "text": "Whenever spoken to, the eater alternates between weeping and hysterical laughter for 1d6 turns."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shroom.12",
+      "record_type": "effect",
+      "fields": {
+        "title": "Vomit Worms and Maggots",
+        "text": "The eater vomits a stream of worms and maggots and can do nothing else for 1d6 turns."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.pouch.random-shroom-effects",
+      "record_type": "table",
+      "fields": {
+        "title": "Random Shroom Effects (1d12)",
+        "entries": [
+          {
+            "roll": 1,
+            "result": "Double in size, destroying clothing. Double melee damage. Lasts 1d6 turns."
+          },
+          {
+            "roll": 2,
+            "result": "Shrink to 6” tall for 1d6 turns."
+          },
+          {
+            "roll": 3,
+            "result": "Skin turns permanently purple."
+          },
+          {
+            "roll": 4,
+            "result": "Eyes shrivel up. New eyes grow on palms of hands, 1 turn later."
+          },
+          {
+            "roll": 5,
+            "result": "All hair on body grows to 10’ long."
+          },
+          {
+            "roll": 6,
+            "result": "Nose swells, grows a sour face, and becomes sentient. It is endlessly critical of the PC’s actions."
+          },
+          {
+            "roll": 7,
+            "result": "+1 to a random ability score."
+          },
+          {
+            "roll": 8,
+            "result": "Eyes enlarge and emit yellow light in a 30’ radius."
+          },
+          {
+            "roll": 9,
+            "result": "Warm, fuzzy feeling. Automatically make next saving throw."
+          },
+          {
+            "roll": 10,
+            "result": "Body turns transparent for 1d6 turns. Can surprise on a 1–4, if naked."
+          },
+          {
+            "roll": 11,
+            "result": "Alternate weeping and hysterical laughter when spoken to. Lasts 1d6 turns."
+          },
+          {
+            "roll": 12,
+            "result": "Vomit up a stream of worms and maggots. Unable to do anything else for 1d6 turns."
+          }
+        ]
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "effect.pouch.first-daily-mushroom",
+        "effect.shroom.01",
+        "effect.shroom.02",
+        "effect.shroom.03",
+        "effect.shroom.04",
+        "effect.shroom.05",
+        "effect.shroom.06",
+        "effect.shroom.07",
+        "effect.shroom.08",
+        "effect.shroom.09",
+        "effect.shroom.10",
+        "effect.shroom.11",
+        "effect.shroom.12"
+      ],
+      "uncertainties": []
+    }
+  ],
+  "schema": "module-content-evidence/v1",
+  "source_sha256": "75f903b106b1f3459676ad9d8ac255c7b943d2f8c9158a6e58e8655efd69b261",
+  "task": "content",
+  "task_coverage": [
+    {
+      "notes": "Extracted area 15 locations, random-event actors and trigger, forest and ward procedures, and related knowledge-bearing observations.",
+      "pdf_page": 21,
+      "record_ids": [
+        "location.area15.wintry-glade",
+        "location.area15.frozen-lake",
+        "location.area15.white-marble-tower",
+        "location.area15.hoar-clad-forest",
+        "location.area15.warded-paths",
+        "location.area15.purple-sky-crack",
+        "situation.fairy-prison.random-events",
+        "procedure.area15.wander-forest",
+        "procedure.area15.pass-candle-ward",
+        "procedure.area15.dispel-candle-ward",
+        "actor.frost-elf-guards-and-knights",
+        "actor.white-raven-messenger",
+        "actor.goblin-sleigh-rider",
+        "actor.dire-wolf-pack"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted the complete four-entry random events table and its 1-in-6-every-two-turns trigger.",
+      "pdf_page": 21,
+      "record_ids": [
+        "table.fairy-prison.random-events"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    },
+    {
+      "notes": "Extracted the entrance hall, both doormen, admission procedure, and Dolmenwood troll and goblin lore.",
+      "pdf_page": 22,
+      "record_ids": [
+        "location.area16.entrance-hall",
+        "actor.griddlegrim",
+        "actor.grimmlegridge",
+        "situation.area16.door-admission",
+        "procedure.area16.gain-entry",
+        "knowledge.dolmenwood-trolls",
+        "knowledge.dolmenwood-goblins"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted the Fairy Kitchen and Wedding Feast locations, occupants, reactions, pantry search, food effect, and escort procedure.",
+      "pdf_page": 23,
+      "record_ids": [
+        "location.area17.fairy-kitchen",
+        "actor.frost-elf-cooks",
+        "procedure.area17.help-cooks",
+        "knowledge.area17.awaiting-sir-chyde",
+        "procedure.area17.raid-pantry",
+        "location.area18.wedding-feast",
+        "actor.frost-elf-guards-and-knights",
+        "actor.frost-elf-nobles",
+        "procedure.area18.eat-fairy-feast",
+        "situation.area18.nobles-disturbed",
+        "procedure.area18.escort-uninvited-guests"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted the princess, her bedchamber, knowledge, magical ban, and ring-retrieval plea.",
+      "pdf_page": 24,
+      "record_ids": [
+        "location.area19.princess-bedchamber",
+        "actor.princess-snowfall-at-dusk",
+        "knowledge.princess.sir-chyde",
+        "knowledge.princess.magical-ban",
+        "procedure.princess-plea.retrieve-ring"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted all specifically described valuables in the princess’s possession, jewellery boxes, and wardrobe.",
+      "pdf_page": 24,
+      "record_ids": [
+        "item.princess-brow-star",
+        "item.ice-jewels",
+        "item.fairy-silver-necklaces",
+        "item.hoarfrost-sapphire-brooch",
+        "item.fur-coats",
+        "item.scintillating-gowns"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "Extracted the Frigia doorway, ward and Cold Prince implications, reunion outcome, persistent ban, future-contact hook, and stolen-ring haunting resolution.",
+      "pdf_page": 25,
+      "record_ids": [
+        "location.frigia.doorway-from-dolmenwood",
+        "knowledge.frigia-door.wards",
+        "knowledge.frigia-door.cold-prince",
+        "situation.epilogue.lovers-reunited",
+        "knowledge.epilogue.ban-persists",
+        "knowledge.epilogue.future-contact",
+        "situation.epilogue.ring-stolen",
+        "procedure.epilogue.end-haunting"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted all Ring of Soul-Binding effects, pouch operating effects, and all twelve random mushroom effects.",
+      "pdf_page": 26,
+      "record_ids": [
+        "effect.ring.binding",
+        "effect.ring.unbinding",
+        "effect.ring.communication",
+        "effect.ring.planar-convergence",
+        "effect.ring.full-moon-union",
+        "effect.ring.ghost-haunting",
+        "effect.pouch.inexhaustible",
+        "effect.pouch.first-daily-mushroom",
+        "effect.pouch.repeat-mushroom-sickness",
+        "effect.shroom.01",
+        "effect.shroom.02",
+        "effect.shroom.03",
+        "effect.shroom.04",
+        "effect.shroom.05",
+        "effect.shroom.06",
+        "effect.shroom.07",
+        "effect.shroom.08",
+        "effect.shroom.09",
+        "effect.shroom.10",
+        "effect.shroom.11",
+        "effect.shroom.12"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "Extracted both magic items and their complete operating mechanics.",
+      "pdf_page": 26,
+      "record_ids": [
+        "item.ring-of-soul-binding",
+        "item.pouch-of-limitless-fungi"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "Extracted the complete 1d12 Random Shroom Effects table.",
+      "pdf_page": 26,
+      "record_ids": [
+        "table.pouch.random-shroom-effects"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    }
+  ]
+}

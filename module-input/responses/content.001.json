@@ -1,0 +1,1532 @@
+{
+  "pack_id": "content.001",
+  "records": [
+    {
+      "id": "location-dolmenwood",
+      "record_type": "location",
+      "fields": {
+        "title": "Dolmenwood",
+        "description": "A weird fairy-tale forest in the mortal world where Fairy lies unusually close. The adventure may be placed in any Dolmenwood hex outside the Witching Ring, Chell, because its events are not tied to a specific forest location."
+      },
+      "source_pages": [
+        5,
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "location-fairy",
+        "procedure-place-adventure-in-dolmenwood"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source deliberately leaves the adventure's exact Dolmenwood hex unspecified.",
+          "source_pages": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-adventure-premise",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Adventure Premise",
+        "text": "Winter's Daughter is a short Dolmenwood adventure about the forbidden love between the mortal knight Sir Chyde and a fairy princess during the ancient war between mortals and fairies. Sir Chyde's sealed tomb has remained closed for centuries and contains secrets and treasure."
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk",
+        "location-sir-chyde-tomb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule-supported-rulesets",
+      "record_type": "rule",
+      "fields": {
+        "title": "Supported Rulesets",
+        "text": "The referee needs Old-School Essentials to run the adventure; both Classic Fantasy and Advanced Fantasy are suitable. The classic Basic/Expert game or another derived ruleset may be used instead."
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule-level-range-and-challenge",
+      "record_type": "rule",
+      "fields": {
+        "title": "Character Levels and Encounter Approach",
+        "text": "The adventure is intended for 1st- to 3rd-level PCs. Encounters are not all balanced to the party's capabilities; play should favor discretion and the judicious use of stealth, parley, and trickery rather than blindly entering combat."
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-place-adventure-in-dolmenwood",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Place the Adventure in Dolmenwood",
+        "trigger": "The referee is using Winter's Daughter in a Dolmenwood campaign.",
+        "steps": [
+          "Choose any forest hex outside the Witching Ring, Chell.",
+          "Treat the adventure's events as independent of any specific established location in the forest."
+        ]
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [
+        "location-dolmenwood"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-cold-prince-campaign-arc",
+      "record_type": "situation",
+      "fields": {
+        "title": "Cold Prince Campaign Arc",
+        "trigger": "Investigative PCs uncover secrets about the war between mortals and fairies roughly nine centuries ago; the referee may connect those discoveries to the banished Cold Prince's attempts to return and claim Dolmenwood."
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-cold-prince",
+        "situation-cold-prince-defeat"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-adapt-adventure-to-other-settings",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Adapt the Adventure to Another Setting",
+        "trigger": "The referee is running the adventure outside Dolmenwood.",
+        "steps": [
+          "Place the adventure in a cool region where icy fairies and rings of ancient standing stones are plausible.",
+          "Integrate the background into the chosen setting.",
+          "Replace the Cold Prince with another wicked fairy king when appropriate."
+        ]
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-cold-prince",
+        "location-whything-stones"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-cold-prince",
+      "record_type": "actor",
+      "fields": {
+        "title": "The Cold Prince",
+        "role": "The fairy lord who ruled Dolmenwood before mortals arrived, holding it in eternal winter through armies of frost elves. Mortals defeated and exiled him to Fairy about nine centuries ago, but fear of his return persists."
+      },
+      "source_pages": [
+        5,
+        6,
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-frost-elves",
+        "actor-snowfall-at-dusk",
+        "situation-cold-prince-defeat"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-frost-elves",
+      "record_type": "actor",
+      "fields": {
+        "title": "Frost Elves",
+        "role": "The Cold Prince's immortal fairy people, described as fair as snow and cruel as ice; they formed part of his forces in the war for Dolmenwood."
+      },
+      "source_pages": [
+        6
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-cold-prince"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-snowfall-at-dusk",
+      "record_type": "actor",
+      "fields": {
+        "title": "Princess Snowfall-at-Dusk",
+        "role": "The seventeenth daughter of the Cold Prince and Sir Chyde's fairy beloved. Her father imprisoned her in Fairy; she later contacts mortals through dreams and waits to recover Sir Chyde's ring and complete their wedding."
+      },
+      "source_pages": [
+        6,
+        7,
+        8
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-cold-prince",
+        "actor-sir-chyde",
+        "item-ring-of-soul-binding",
+        "situation-perpetual-wedding-feast"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-sir-chyde",
+      "record_type": "actor",
+      "fields": {
+        "title": "Sir Chyde",
+        "role": "A near-mythical mortal knight and hero of the war against the Cold Prince. He loved Princess Snowfall-at-Dusk, died in the final battle on the High Wold, and lingers as a phantom because of their soul-binding ring."
+      },
+      "source_pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-snowfall-at-dusk",
+        "location-high-wold",
+        "location-sir-chyde-tomb",
+        "effect-ring-of-soul-binding"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-whything-stones",
+      "record_type": "location",
+      "fields": {
+        "title": "The Whything Stones",
+        "description": "An ancient stone circle in a Dolmenwood clearing where Sir Chyde and Snowfall-at-Dusk first met. Its mossy stones bear moonlight-reflecting eldritch runes and hidden carvings of tormented icy fey; the Drune now frequent and guard the site."
+      },
+      "source_pages": [
+        6,
+        7,
+        12
+      ],
+      "confidence": "high",
+      "references": [
+        "situation-forbidden-love",
+        "actor-drune",
+        "knowledge-whything-stone-runes"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-forbidden-love",
+      "record_type": "situation",
+      "fields": {
+        "title": "Forbidden Love of Mortal and Fairy",
+        "trigger": "During the war, Sir Chyde and Princess Snowfall-at-Dusk meet beside the Whything Stones and begin secret trysts. Chyde commissions the portrait The Lady of the Wood, and the princess gives him a magical ring that binds their souls together for eternity."
+      },
+      "source_pages": [
+        6
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk",
+        "location-whything-stones",
+        "item-portrait-the-lady-of-the-wood",
+        "item-ring-of-soul-binding"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-princess-imprisonment",
+      "record_type": "situation",
+      "fields": {
+        "title": "Princess Imprisoned",
+        "trigger": "The Cold Prince discovers his daughter's relationship with Sir Chyde. His spies capture her, and he confines her in a forlorn tower until she renounces the love; through the binding ring, she secretly continues speaking with Chyde and they plan her rescue."
+      },
+      "source_pages": [
+        6
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-cold-prince",
+        "actor-snowfall-at-dusk",
+        "actor-sir-chyde",
+        "item-ring-of-soul-binding"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-cold-prince-defeat",
+      "record_type": "situation",
+      "fields": {
+        "title": "Defeat and Exile of the Cold Prince",
+        "trigger": "Mortal armies win the war and exile the Cold Prince to his dominion in Fairy. He has not openly troubled Dolmenwood since, but common folk fear his return; folklore says the banishing magic weakens each winter and frigid winds whisper of his desire to reclaim the mortal kingdom."
+      },
+      "source_pages": [
+        6,
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-cold-prince",
+        "location-fairy"
+      ],
+      "uncertainties": [
+        {
+          "description": "The yearly weakening of the banishment is presented as common folklore rather than confirmed referee background.",
+          "source_pages": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "location-high-wold",
+      "record_type": "location",
+      "fields": {
+        "title": "The High Wold",
+        "description": "The hills where Sir Chyde was slain in the final battle between mortal and fairy forces."
+      },
+      "source_pages": [
+        7,
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-sir-chyde",
+        "situation-sir-chyde-death-and-burial"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-sir-chyde-death-and-burial",
+      "record_type": "situation",
+      "fields": {
+        "title": "Death and Burial of Sir Chyde",
+        "trigger": "Sir Chyde is slain in the final battle shortly after Snowfall-at-Dusk is imprisoned. He asks to be interred in a tomb by the Whything Stones with the portrait and ring, with a tomb section for his betrothed and a chapel of St Sedge; the tomb later serves as a pilgrimage site with a resident priest."
+      },
+      "source_pages": [
+        7
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-sir-chyde",
+        "location-high-wold",
+        "location-sir-chyde-tomb",
+        "location-chapel-of-st-sedge",
+        "actor-tomb-priest"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-sir-chyde-tomb",
+      "record_type": "location",
+      "fields": {
+        "title": "Sir Chyde's Tomb",
+        "description": "A burial mound in the glade beside the Whything Stones. It includes Sir Chyde's burial, a subsection dedicated to his betrothed, and a chapel of St Sedge. Once maintained as a pilgrimage site, it was later warded and sealed after fey influence and hauntings."
+      },
+      "source_pages": [
+        7,
+        8,
+        9,
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "location-whything-stones",
+        "location-chapel-of-st-sedge",
+        "situation-tomb-sealing"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-chapel-of-st-sedge",
+      "record_type": "location",
+      "fields": {
+        "title": "Chapel of St Sedge",
+        "description": "A chapel dedicated to Sir Chyde's patron saint, built into his tomb."
+      },
+      "source_pages": [
+        7
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-st-sedge",
+        "location-sir-chyde-tomb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-st-sedge",
+      "record_type": "actor",
+      "fields": {
+        "title": "St Sedge",
+        "role": "Sir Chyde's patron saint and the patron saint of crusaders and knife-makers."
+      },
+      "source_pages": [
+        7
+      ],
+      "confidence": "high",
+      "references": [
+        "location-chapel-of-st-sedge",
+        "actor-sir-chyde"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-tomb-priest",
+      "record_type": "actor",
+      "fields": {
+        "title": "Priest Attendant of Sir Chyde's Tomb",
+        "role": "The resident priest who maintained the tomb and chapel as a pilgrimage site; disturbing dreams and visitations led the priest to recommend abandonment."
+      },
+      "source_pages": [
+        7
+      ],
+      "confidence": "high",
+      "references": [
+        "location-sir-chyde-tomb",
+        "situation-tomb-sealing"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect-ring-of-soul-binding",
+      "record_type": "effect",
+      "fields": {
+        "title": "Effects of the Ring of Soul-Binding",
+        "text": "Death does not end the ring's bond. Sir Chyde's spirit is called back to linger as a phantom in his tomb; the princess's prison in Fairy and the tomb in the mortal world are slowly drawn together until the two realms nearly touch; and the princess and knight can communicate verbally while dreaming of reunion and marriage."
+      },
+      "source_pages": [
+        7
+      ],
+      "confidence": "high",
+      "references": [
+        "item-ring-of-soul-binding",
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk",
+        "location-sir-chyde-tomb",
+        "location-fairy"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item-ring-of-soul-binding",
+      "record_type": "item",
+      "fields": {
+        "title": "Ring of Soul-Binding",
+        "text": "A magical fairy engagement ring bestowed by Snowfall-at-Dusk on Sir Chyde: a bronze band set with a moonstone, with fittings shaped like woven branches. It binds their souls together for eternity, allows communion across imprisonment and death, and binds Sir Chyde's ghost to it. The full item is referenced on page 24 of the source adventure."
+      },
+      "source_pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-snowfall-at-dusk",
+        "actor-sir-chyde",
+        "effect-ring-of-soul-binding",
+        "knowledge-ring-theft-complication"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item-portrait-the-lady-of-the-wood",
+      "record_type": "item",
+      "fields": {
+        "title": "The Lady of the Wood",
+        "text": "A portrait of Princess Snowfall-at-Dusk commissioned by Sir Chyde and placed among his grave goods."
+      },
+      "source_pages": [
+        6,
+        7,
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk",
+        "actor-lady-of-the-wood"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-tomb-sealing",
+      "record_type": "situation",
+      "fields": {
+        "title": "Sealing of Sir Chyde's Tomb",
+        "trigger": "An unsettling fey influence enters the tomb, and its priest suffers disturbing dreams and visitations. The priest recommends abandonment; guardians and wards are installed, and the tomb is sealed."
+      },
+      "source_pages": [
+        7,
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-tomb-priest",
+        "location-sir-chyde-tomb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-centuries-passed",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Centuries After the Tomb Was Sealed",
+        "text": "The tomb has rested quietly. Snowfall-at-Dusk remains imprisoned and forgotten by her father, patiently seeking reunion with Sir Chyde. The Drune now frequent the Whything Stones."
+      },
+      "source_pages": [
+        7
+      ],
+      "confidence": "high",
+      "references": [
+        "location-sir-chyde-tomb",
+        "actor-snowfall-at-dusk",
+        "actor-drune",
+        "location-whything-stones"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-perpetual-wedding-feast",
+      "record_type": "situation",
+      "fields": {
+        "title": "Perpetual Wedding Feast",
+        "trigger": "Still determined to marry Sir Chyde despite his death and the passing centuries, Snowfall-at-Dusk maintains a perpetual wedding feast in her isolated tower. A few brave friends and allies have secretly joined the delayed festivities while she awaits him."
+      },
+      "source_pages": [
+        7
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-snowfall-at-dusk",
+        "actor-sir-chyde"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-drune",
+      "record_type": "actor",
+      "fields": {
+        "title": "The Drune",
+        "role": "A feared cult of sorcerers who covet and jealously guard Dolmenwood's stone circles and ley lines. Common folk associate them with occult machinations, kidnappings, and rumored human sacrifice and are afraid even to speak their name."
+      },
+      "source_pages": [
+        7,
+        12
+      ],
+      "confidence": "high",
+      "references": [
+        "location-whything-stones",
+        "location-iron-owls"
+      ],
+      "uncertainties": [
+        {
+          "description": "Human sacrifice is presented as rumor among common folk, not as confirmed fact.",
+          "source_pages": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "situation-hook-dreams-of-the-lady",
+      "record_type": "situation",
+      "fields": {
+        "title": "Hook: Dreams of the Lady",
+        "trigger": "A valiant or courageous PC begins receiving recurring dreams from a beautiful elf lady dressed in white and wakes with a profound yearning to be with her."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-snowfall-at-dusk",
+        "procedure-follow-the-ladys-dreams"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-follow-the-ladys-dreams",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Follow the Lady's Dream Instructions",
+        "trigger": "The chosen PC has experienced the recurring romantic dream for several weeks.",
+        "steps": [
+          "In a second dream, the PC sees themself enter a burial mound, open a coffer, remove a ring from a skeleton's finger, and bring it to the Lady.",
+          "The Lady says the tomb is real and that a magical door to her realm lies on its lower level.",
+          "She falsely promises her heart if the PC retrieves the ring that she says was stolen from her in ancient times.",
+          "She reveals the tomb's location and says a bearer of the ring can enter the lower-level door into her realm in Fairy."
+        ]
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [
+        "situation-hook-dreams-of-the-lady",
+        "location-sir-chyde-tomb",
+        "location-door-to-fairy",
+        "item-ring-of-soul-binding"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-dream-hook-deception",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Truth Behind the Lady's Dreams",
+        "text": "Princess Snowfall-at-Dusk has found a way to contact the mortal world through dreams. Her professed love for the PC is a deception intended to make the infatuated adventurer recover Sir Chyde's ring for her."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-snowfall-at-dusk",
+        "situation-hook-dreams-of-the-lady",
+        "item-ring-of-soul-binding"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-door-to-fairy",
+      "record_type": "location",
+      "fields": {
+        "title": "Lower-Level Door to Fairy",
+        "description": "A magical doorway on the lower level of Sir Chyde's tomb that leads to Snowfall-at-Dusk's realm in Fairy. The Lady claims that a bearer of Sir Chyde's ring can pass through it."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [
+        "location-sir-chyde-tomb",
+        "location-fairy",
+        "item-ring-of-soul-binding"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-hook-inheritance",
+      "record_type": "situation",
+      "fields": {
+        "title": "Hook: Inheritance",
+        "trigger": "An elderly, long-lost relative of a PC dies and leaves the PC minor wealth, old papers, and an apparent hereditary claim connected to Sir Chyde's tomb."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure-investigate-the-inheritance",
+        "actor-brigford-the-wise",
+        "location-sir-chyde-tomb"
+      ],
+      "uncertainties": [
+        {
+          "description": "The amount and form of the minor inherited wealth are left to the referee.",
+          "source_pages": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "procedure-investigate-the-inheritance",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Investigate the Inherited Charter",
+        "trigger": "The PC receives the deceased relative's papers and oddments.",
+        "steps": [
+          "Review an old charter and family tree claiming that the PC descends from Brigford the Wise, Sir Chyde's brother.",
+          "Use the charter to locate the tomb where Brigford is interred beside his brother.",
+          "Note the charter's claim that Sir Chyde's fabled sword and ring legally belong to the inheriting PC.",
+          "Note the documents' claim that the ring can open a doorway to Fairy."
+        ]
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [
+        "situation-hook-inheritance",
+        "actor-brigford-the-wise",
+        "location-sir-chyde-tomb",
+        "item-ring-of-soul-binding",
+        "location-door-to-fairy"
+      ],
+      "uncertainties": [
+        {
+          "description": "The referee decides whether the supplied genealogy is accurate.",
+          "source_pages": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "actor-brigford-the-wise",
+      "record_type": "actor",
+      "fields": {
+        "title": "Brigford the Wise",
+        "role": "Sir Chyde's brother, said by inherited documents to be buried beside him and to be a distant ancestor of the inheriting PC."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "medium",
+      "references": [
+        "actor-sir-chyde",
+        "procedure-investigate-the-inheritance"
+      ],
+      "uncertainties": [
+        {
+          "description": "The claimed family connection to the PC may be inaccurate at the referee's discretion.",
+          "source_pages": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "situation-hook-tomb-robbers",
+      "record_type": "situation",
+      "fields": {
+        "title": "Hook: Tomb Robbers",
+        "trigger": "A wizard hires the PCs to travel into Dolmenwood and rob an old burial mound."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-wizard-patron",
+        "procedure-tomb-robbers-mission",
+        "location-sir-chyde-tomb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-wizard-patron",
+      "record_type": "actor",
+      "fields": {
+        "title": "Wizard Patron",
+        "role": "An unnamed wizard who gives the party a map to an old Dolmenwood burial mound and pays them to recover Sir Chyde's ring."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [
+        "situation-hook-tomb-robbers",
+        "procedure-tomb-robbers-mission"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-tomb-robbers-mission",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Recover the Ring for the Wizard",
+        "trigger": "The PCs accept the wizard's employment.",
+        "steps": [
+          "Use the wizard's map to reach the old burial mound in Dolmenwood.",
+          "Enter the tomb.",
+          "Take the bronze, moonstone-set ring with woven-branch fittings from the finger of the buried skeleton.",
+          "Return the ring to the wizard for 5,000 gp, or another reward amount chosen by the referee."
+        ]
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-wizard-patron",
+        "location-sir-chyde-tomb",
+        "item-ring-of-soul-binding",
+        "knowledge-ring-theft-complication"
+      ],
+      "uncertainties": [
+        {
+          "description": "The referee may replace the stated 5,000 gp reward with another amount.",
+          "source_pages": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-ring-theft-complication",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Complication of Stealing the Ring",
+        "text": "The ring carries a fairy enchantment: Sir Chyde's ghost is bound to it and will haunt anyone who steals it. The source points to the Epilogue on page 23 for the consequence."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [
+        "item-ring-of-soul-binding",
+        "actor-sir-chyde",
+        "procedure-tomb-robbers-mission"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-common-folklore-cold-prince",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Common Folklore: The Cold Prince",
+        "text": "Common folk say the Cold Prince ruled Dolmenwood before mortals, covering it in eternal frost and snow. About 900 years ago, mortals fought his fairy armies for control of the forest and ultimately exiled him to Fairy. They fear that the banishment weakens in winter and that he still seeks to reclaim his kingdom."
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-cold-prince",
+        "situation-cold-prince-defeat"
+      ],
+      "uncertainties": [
+        {
+          "description": "This record preserves the setting's common folklore and is not wholly equivalent to referee-confirmed history.",
+          "source_pages": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "actor-lady-of-the-wood",
+      "record_type": "actor",
+      "fields": {
+        "title": "The Lady of the Wood",
+        "role": "The mysterious sorcerous maiden whom common folklore names as Sir Chyde's beloved; deeper research identifies her as the fairy princess Snowfall-at-Dusk."
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-snowfall-at-dusk",
+        "actor-sir-chyde",
+        "item-portrait-the-lady-of-the-wood"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-common-folklore-chyde-and-lady",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Common Folklore: Sir Chyde and the Lady",
+        "text": "The common tale says Sir Chyde fell in love during the war with the Lady of the Wood, a sorcerous maiden of mysterious origin. They met deep in Dolmenwood and pledged their hearts by exchanging engagement rings."
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-sir-chyde",
+        "actor-lady-of-the-wood",
+        "situation-forbidden-love"
+      ],
+      "uncertainties": [
+        {
+          "description": "The account intentionally omits the Lady's true identity and simplifies the exchange of rings.",
+          "source_pages": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-common-folklore-chyde-death",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Common Folklore: Sir Chyde's Death and the Lady's Fate",
+        "text": "Common folk know that Sir Chyde died in the final battle on the High Wold and asked to be buried deep in the forest. The Lady was never seen again; some say she died in the glade where the pair first met."
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-sir-chyde",
+        "actor-lady-of-the-wood",
+        "location-high-wold",
+        "location-sir-chyde-tomb"
+      ],
+      "uncertainties": [
+        {
+          "description": "The Lady's supposed death is an unverified rumor and contradicts the referee background that she remains imprisoned.",
+          "source_pages": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "procedure-deeper-investigation",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Research the True Story",
+        "trigger": "PCs spend substantial time and money investigating Sir Chyde and the Lady.",
+        "steps": [
+          "Employ sages, search obscure tomes, or consult oracles.",
+          "Treat each hidden fact as requiring its own significant research effort.",
+          "Reveal, as research succeeds, the Lady's identity, the ring's nature, the notable grave goods, and the reason the tomb was sealed."
+        ]
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "knowledge-research-lady-identity",
+        "knowledge-research-ring",
+        "knowledge-research-grave-goods",
+        "knowledge-research-tomb-sealing"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-research-lady-identity",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Research Fact: Identity of the Lady of the Wood",
+        "text": "Sir Chyde's betrothed was a fairy princess, making their relationship a forbidden love."
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-lady-of-the-wood",
+        "actor-snowfall-at-dusk",
+        "situation-forbidden-love"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-research-ring",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Research Fact: Sir Chyde's Ring",
+        "text": "The ring Sir Chyde wore was a magic item from Fairy that bound his soul to the Lady's."
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "item-ring-of-soul-binding",
+        "effect-ring-of-soul-binding"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-butter-for-bones",
+      "record_type": "actor",
+      "fields": {
+        "title": "Butter-for-Bones",
+        "role": "A fairy giant slain by Sir Chyde with the sword later buried among his notable grave goods."
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-sir-chyde",
+        "knowledge-research-grave-goods"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-research-grave-goods",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Research Fact: Notable Grave Goods",
+        "text": "Sir Chyde was buried with the sword he used to slay the fairy giant Butter-for-Bones, his moonstone engagement ring, and the commissioned portrait of the Lady."
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-butter-for-bones",
+        "item-ring-of-soul-binding",
+        "item-portrait-the-lady-of-the-wood",
+        "location-sir-chyde-tomb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-research-tomb-sealing",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Research Fact: Why the Tomb Was Sealed",
+        "text": "Sir Chyde's tomb remained a pilgrimage site for years until a series of hauntings led the Church to install magical wards and seal it."
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "location-sir-chyde-tomb",
+        "situation-tomb-sealing"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-fairy",
+      "record_type": "location",
+      "fields": {
+        "title": "Fairy",
+        "description": "The immortal realm adjoining the mortal world near Dolmenwood, also sometimes called Elfland. It is endless and timeless, inhabited by elves and many other fairy beings, generally intangible to mortals except at special places or times where the realms overlap and permit transit."
+      },
+      "source_pages": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "location-dolmenwood",
+        "knowledge-two-realms",
+        "actor-fairies"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-two-realms",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "The Mortal World and Fairy",
+        "text": "Dolmenwood occupies a mortal region where Fairy is close enough that its inhabitants may be heard but normally cannot be touched or reached by mortals. Only certain places or times overlap, allowing passage between realms; the adventure contains one such place. Calling Fairy 'Elfland' is imprecise because elves are not its only inhabitants."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "location-dolmenwood",
+        "location-fairy",
+        "location-door-to-fairy"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-fairies",
+      "record_type": "actor",
+      "fields": {
+        "title": "Fairies",
+        "role": "The collective races native to the undying realm of Fairy. Most never cross into the mortal world; those encountered in Dolmenwood are often romantics, obsessives, megalomaniacs, or outcasts who entered or remained there."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "location-fairy",
+        "rule-pure-iron",
+        "rule-silver-sickness"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-dolmenwood-languages",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Languages Used in Dolmenwood",
+        "text": "Woldish is the common tongue. Old Woldish is an ancient dialect largely incomprehensible to Woldish speakers. Drunic is the Drune's secret language. Liturgic is sacred to the Church of the One True God. Sylvan is common among fairies and fairy-kin, though mortal speakers invariably sound foolish. High Elfish is the language of fairy nobility and is utterly unfathomable to mortals. The Immortal Tongue of Fairy is an ancient, reality-bending language known only to the oldest and most dreadful fairies."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-drune",
+        "actor-fairies",
+        "location-fairy"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule-pure-iron",
+      "record_type": "rule",
+      "fields": {
+        "title": "Pure Iron Against Fairies",
+        "text": "Fairies are especially vulnerable to weapons forged from pure iron and suffer double damage when such a weapon hits successfully."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-fairies"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule-silver-sickness",
+      "record_type": "rule",
+      "fields": {
+        "title": "Silver Sickness",
+        "text": "The touch of mortal silver repulses and sickens fairies. The delicate, pale silver native to Fairy does not produce this effect."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-fairies",
+        "location-fairy"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-outside-the-mound",
+      "record_type": "location",
+      "fields": {
+        "title": "Outside the Mound",
+        "description": "The forested area around Sir Chyde's burial mound, where random supernatural or woodland events are checked every two turns."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "location-sir-chyde-tomb",
+        "procedure-check-outside-mound-events",
+        "table-outside-mound-random-events"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-check-outside-mound-events",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Check Random Events Outside the Mound",
+        "trigger": "The party spends two turns outside the burial mound.",
+        "steps": [
+          "Check for a random event with a 1-in-6 chance.",
+          "If an event occurs, use one of the four entries in the Outside the Mound random event table and resolve its stated mechanics."
+        ]
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "location-outside-the-mound",
+        "table-outside-mound-random-events"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page numbers four events but does not explicitly state the die used to select among them.",
+          "source_pages": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "table-outside-mound-random-events",
+      "record_type": "table",
+      "fields": {
+        "title": "Outside the Mound Random Events (1-in-6 Chance Every Two Turns)",
+        "entries": [
+          {
+            "roll": 1,
+            "result": "A PC notices a ghostly, violet-eyed owl watching from a high branch. That PC must save versus spells or faint for 1d6 turns."
+          },
+          {
+            "roll": 2,
+            "result": "1d4 tipsy goblin merchants carrying lanterns cautiously emerge from a forest-floor trapdoor. They have crossed from Fairy into Dolmenwood while searching for rare night-fruits; see Dolmenwood Goblin, page 20."
+          },
+          {
+            "roll": 3,
+            "result": "A gust drives nearby branches into a frenzy. PCs close to trees must save versus paralysis or take 1 damage. Flames sputter and may extinguish: torches have a 4-in-6 chance and lanterns a 2-in-6 chance to go out."
+          },
+          {
+            "roll": 4,
+            "result": "A huge, warty toad approaches, studies the PCs, and croaks the single word 'Betrayal'."
+          }
+        ]
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-ghostly-violet-eyed-owl",
+        "actor-goblin-merchants",
+        "actor-betrayal-toad",
+        "location-outside-the-mound"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-ghostly-violet-eyed-owl",
+      "record_type": "actor",
+      "fields": {
+        "title": "Ghostly Violet-Eyed Owl",
+        "role": "A supernatural owl apparition that watches from a high branch and can cause a witnessing PC to faint unless they save versus spells."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "table-outside-mound-random-events"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-goblin-merchants",
+      "record_type": "actor",
+      "fields": {
+        "title": "Tipsy Goblin Merchants",
+        "role": "A group of 1d4 lantern-bearing goblin merchants who cautiously emerge from a trapdoor after crossing from Fairy to Dolmenwood in search of rare night-fruits."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "table-outside-mound-random-events",
+        "location-fairy",
+        "location-dolmenwood"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-betrayal-toad",
+      "record_type": "actor",
+      "fields": {
+        "title": "Huge Warty Toad",
+        "role": "An uncanny toad that approaches the party, looks at them quizzically, and speaks the single croaking word 'Betrayal'."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "table-outside-mound-random-events"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-approaching-the-burial-mound",
+      "record_type": "location",
+      "fields": {
+        "title": "Approaching the Burial Mound",
+        "description": "The approach passes through tangled forest with brambles half-burying the paths and twisted trees that seem to close behind the PCs. Ahead stands an evidently artificial, flat-topped hillock; irregular clanking metal can be heard from area 2."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "location-sir-chyde-tomb",
+        "situation-twisted-trees-close-the-way",
+        "location-whything-stones"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-twisted-trees-close-the-way",
+      "record_type": "situation",
+      "fields": {
+        "title": "Twisted Trees Close Behind the Party",
+        "trigger": "As PCs pass through the tangled forest toward the burial mound, the twisted trees seem to close in and block the way out."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "location-approaching-the-burial-mound"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-whything-stone-runes",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Runes and Hidden Carvings at the Whything Stones",
+        "text": "The stone circle's eldritch runes reflect moonlight. If deciphered, the magical script appears to serve some role in summoning rituals. Clearing moss from the bases reveals carved icy fey figures wailing and writhing as though tormented."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [
+        "location-whything-stones"
+      ],
+      "uncertainties": [
+        {
+          "description": "The exact function of the runes is not stated; deciphering only indicates an apparent connection to summoning rituals.",
+          "source_pages": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "situation-twitching-stag-skeleton-haze",
+      "record_type": "situation",
+      "fields": {
+        "title": "Twitching Stag Skeleton and Green Haze",
+        "trigger": "A slime-coated stag skeleton twitches among the stones while bright green, glowing slime evaporates into a lingering haze. Breathing the acrid haze makes a character light-headed."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [
+        "location-whything-stones"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-iron-owls",
+      "record_type": "location",
+      "fields": {
+        "title": "Thirteen Iron Owls",
+        "description": "Thirteen rusty iron owls hang with spread wings from trees around the Whything Stones, clanking in the breeze. Rain streaks them and pentagrams are engraved as their eyes; Dolmenwood natives recognize them as Drune symbols."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [
+        "location-whything-stones",
+        "actor-drune",
+        "situation-touching-an-iron-owl"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-touching-an-iron-owl",
+      "record_type": "situation",
+      "fields": {
+        "title": "Touching an Iron Owl",
+        "trigger": "When a character touches one of the thirteen iron owls, a chill comes over that character."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [
+        "location-iron-owls"
+      ],
+      "uncertainties": []
+    }
+  ],
+  "schema": "module-content-evidence/v1",
+  "source_sha256": "75f903b106b1f3459676ad9d8ac255c7b943d2f8c9158a6e58e8655efd69b261",
+  "task": "content",
+  "task_coverage": [
+    {
+      "notes": "",
+      "pdf_page": 5,
+      "record_ids": [
+        "knowledge-adventure-premise",
+        "location-dolmenwood",
+        "procedure-place-adventure-in-dolmenwood",
+        "situation-cold-prince-campaign-arc",
+        "procedure-adapt-adventure-to-other-settings"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 5,
+      "record_ids": [
+        "rule-supported-rulesets",
+        "rule-level-range-and-challenge"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 6,
+      "record_ids": [
+        "actor-cold-prince",
+        "actor-frost-elves",
+        "actor-snowfall-at-dusk",
+        "actor-sir-chyde",
+        "location-whything-stones",
+        "situation-forbidden-love",
+        "situation-princess-imprisonment",
+        "situation-cold-prince-defeat"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 7,
+      "record_ids": [
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk",
+        "location-high-wold",
+        "situation-sir-chyde-death-and-burial",
+        "location-sir-chyde-tomb",
+        "location-chapel-of-st-sedge",
+        "actor-st-sedge",
+        "actor-tomb-priest",
+        "situation-tomb-sealing",
+        "knowledge-centuries-passed",
+        "situation-perpetual-wedding-feast",
+        "actor-drune"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 7,
+      "record_ids": [
+        "effect-ring-of-soul-binding"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 7,
+      "record_ids": [
+        "item-ring-of-soul-binding",
+        "item-portrait-the-lady-of-the-wood"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 8,
+      "record_ids": [
+        "actor-snowfall-at-dusk",
+        "situation-hook-dreams-of-the-lady",
+        "procedure-follow-the-ladys-dreams",
+        "knowledge-dream-hook-deception",
+        "location-door-to-fairy",
+        "situation-hook-inheritance",
+        "procedure-investigate-the-inheritance",
+        "actor-brigford-the-wise",
+        "situation-hook-tomb-robbers",
+        "actor-wizard-patron",
+        "procedure-tomb-robbers-mission",
+        "knowledge-ring-theft-complication"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 9,
+      "record_ids": [
+        "actor-cold-prince",
+        "actor-sir-chyde",
+        "actor-lady-of-the-wood",
+        "location-high-wold",
+        "knowledge-common-folklore-cold-prince",
+        "knowledge-common-folklore-chyde-and-lady",
+        "knowledge-common-folklore-chyde-death",
+        "procedure-deeper-investigation",
+        "knowledge-research-lady-identity",
+        "knowledge-research-ring",
+        "actor-butter-for-bones",
+        "knowledge-research-grave-goods",
+        "knowledge-research-tomb-sealing"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 10,
+      "record_ids": [
+        "location-dolmenwood",
+        "location-fairy",
+        "knowledge-two-realms",
+        "actor-fairies",
+        "knowledge-dolmenwood-languages"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 10,
+      "record_ids": [
+        "rule-pure-iron",
+        "rule-silver-sickness"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 11,
+      "record_ids": [
+        "location-outside-the-mound",
+        "procedure-check-outside-mound-events",
+        "actor-ghostly-violet-eyed-owl",
+        "actor-goblin-merchants",
+        "actor-betrayal-toad",
+        "location-approaching-the-burial-mound",
+        "situation-twisted-trees-close-the-way"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 11,
+      "record_ids": [
+        "table-outside-mound-random-events"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    },
+    {
+      "notes": "",
+      "pdf_page": 12,
+      "record_ids": [
+        "location-whything-stones",
+        "actor-drune",
+        "knowledge-whything-stone-runes",
+        "situation-twitching-stag-skeleton-haze",
+        "location-iron-owls",
+        "situation-touching-an-iron-owl"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    }
+  ]
+}

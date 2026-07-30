@@ -1,0 +1,1389 @@
+{
+  "pack_id": "content.002",
+  "records": [
+    {
+      "id": "location-area-03-tomb-entrance",
+      "record_type": "location",
+      "fields": {
+        "title": "3. Tomb Entrance",
+        "description": "A granite slab seals the burial mound and is overgrown with lichen and sweet-smelling wild roses. Beyond it, stairs descend 20 feet into the earth through centuries of undisturbed dust, deathly silence, and a moist, mouldy smell. Scratches on the stairs indicate that something heavy was dragged upward long ago."
+      },
+      "source_pages": [
+        13
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure-open-tomb-entrance-slab",
+        "procedure-examine-tomb-entrance-stairs"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-open-tomb-entrance-slab",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Open the tomb entrance slab",
+        "trigger": "Characters attempt to move or break the granite slab sealing area 3.",
+        "steps": [
+          "Move the slab with a cumulative STR bonus of at least 4.",
+          "Alternatively, break the slab over 6 turns; cumulative STR bonuses reduce this time, to a minimum of 2 turns."
+        ]
+      },
+      "source_pages": [
+        13
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-03-tomb-entrance"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-examine-tomb-entrance-stairs",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Examine the stairs into the mound",
+        "trigger": "Characters closely examine the stairs in area 3.",
+        "steps": [
+          "Find scratches showing that something heavy was dragged up the stairs a long time ago."
+        ]
+      },
+      "source_pages": [
+        13
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-03-tomb-entrance"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-area-04-worm-hole",
+      "record_type": "location",
+      "fields": {
+        "title": "4. Worm Hole",
+        "description": "A barely 2-foot-wide hole at the mound's edge burrows into the earth and emerges after 15 feet in area 10. Gooey, opalescent, largely transparent slime trails, like petroleum jelly, run from the hole into the woods and back."
+      },
+      "source_pages": [
+        13
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure-investigate-worm-hole",
+        "procedure-examine-worm-hole-slime",
+        "actor-wormtongues"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-investigate-worm-hole",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Investigate or enter the worm hole",
+        "trigger": "Characters illuminate the hole, make noise near it, or crawl down it.",
+        "steps": [
+          "Illumination reveals a 15-foot descent to area 10.",
+          "Making noise attracts the wormtongues lurking inside.",
+          "Crawling down disturbs the wormtongues and leads to area 10 after 15 feet."
+        ]
+      },
+      "source_pages": [
+        13
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-04-worm-hole",
+        "actor-wormtongues",
+        "location-area-10-abandoned-priests-quarters"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-examine-worm-hole-slime",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Examine the worm-hole slime trails",
+        "trigger": "Characters track or touch the slime trails by area 4.",
+        "steps": [
+          "A character skilled in tracking can identify trails of three slug- or worm-like creatures leading from the hole into the woods and back.",
+          "Bare-flesh contact reveals slight acidity, but the slime is not acidic enough to inflict damage."
+        ]
+      },
+      "source_pages": [
+        13
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-04-worm-hole",
+        "actor-wormtongues"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-wormtongues",
+      "record_type": "actor",
+      "fields": {
+        "title": "Wormtongues",
+        "role": "Three 4-foot-long, thigh-thick, dark-pink, bumpy, eyeless worms with lamprey-like tooth-ringed mouths lurk in the narrow tunnel by area 10 and can be attracted or disturbed from area 4. They attack by taste and ravenously attack when noise disturbs them. Statistics: AC 7 [12], HD 1+1* (hp 3, 4, 5), Att 1 × bite (1d4 + acid), THAC0 18 [+1], MV 120’ (40’), SV D12 W13 P14 B15 S16 (1), ML 7, AL Neutral, XP 19. Their acid causes 1 damage per round until washed off, for example with water."
+      },
+      "source_pages": [
+        13,
+        17
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-04-worm-hole",
+        "location-area-10-abandoned-priests-quarters",
+        "situation-wormtongues-disturbed"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table-burial-mound-random-events",
+      "record_type": "table",
+      "fields": {
+        "title": "The Burial Mound — Random Events (1-in-6 Chance Every Two Turns)",
+        "entries": [
+          {
+            "number": 1,
+            "result": "A vision of a beautiful woman dressed all in white, with a star upon her brow, appears in empty space and says, “The ring… The ring holds the key… My eternal salvation”, before disappearing into mist."
+          },
+          {
+            "number": 2,
+            "result": "The sound of hounds baying echoes through the crypt."
+          },
+          {
+            "number": 3,
+            "result": "The 2 dancing skeletons from area 8 waltz through the air on a tour of the tomb."
+          },
+          {
+            "number": 4,
+            "result": "1d3 wormtongues break through a wall or ceiling, hungry for living flesh; see Wormtongues, p15."
+          }
+        ]
+      },
+      "source_pages": [
+        14
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-floating-skeletons",
+        "actor-wormtongues"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source numbers four results but does not state which die or selection method chooses among them after an event is triggered.",
+          "source_pages": [
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "location-area-05-hall-of-guardians",
+      "record_type": "location",
+      "fields": {
+        "title": "5. Hall of Guardians",
+        "description": "A musty, wet chamber with dank, stifling air and wet walls and ceiling. Four approximately 1-foot-tall religious objects stand on corner plinths under mustard-coloured mould: a silver crucifix worth 200gp, a wooden cherub statue, a holy book, and a huge candle. Heavy damp-streaked stone double doors bear the inscription “The Most Dear”. The dusty floor conceals a mosaic and old drag scratches."
+      },
+      "source_pages": [
+        14
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-religious-objects",
+        "situation-religious-objects-animate",
+        "procedure-reveal-hall-of-guardians-mosaic",
+        "knowledge-hall-of-guardians-mosaic-and-drag-marks"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-religious-objects",
+      "record_type": "actor",
+      "fields": {
+        "title": "Religious Objects",
+        "role": "The four mould-covered religious objects animate as flying attackers and shrill, sanctimonious scolds, condemning the characters' misdeeds, including entering the tomb. Statistics: AC 5 [14], HD 1 (hp 3, 3, 4, 5), Att 1 × bash (1d4), THAC0 19 [0], MV 90’ (30’) flying, SV D12 W13 P14 B15 S16 (1), ML 12, AL Lawful, XP 10. When one is killed, it erupts in mould spores; anyone in melee must save versus poison or suffer 1d2 damage and choke for 1 round, during which they cannot act."
+      },
+      "source_pages": [
+        14
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-05-hall-of-guardians",
+        "situation-religious-objects-animate"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-religious-objects-animate",
+      "record_type": "situation",
+      "fields": {
+        "title": "Religious objects attack non-Lawful intruders",
+        "trigger": "When a non-Lawful character sets foot in area 5, the four objects float into the air and attack."
+      },
+      "source_pages": [
+        14
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-05-hall-of-guardians",
+        "actor-religious-objects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-reveal-hall-of-guardians-mosaic",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Reveal the Hall of Guardians mosaic",
+        "trigger": "Movement disturbs the dusty floor in area 5, or characters deliberately clear it.",
+        "steps": [
+          "Disturbing the dust reveals colours beneath it.",
+          "Clearing the floor exposes a mosaic and scratches indicating old heavy movement."
+        ]
+      },
+      "source_pages": [
+        14
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-05-hall-of-guardians",
+        "knowledge-hall-of-guardians-mosaic-and-drag-marks"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-hall-of-guardians-mosaic-and-drag-marks",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Hall of Guardians mosaic and drag marks",
+        "text": "The mosaic shows Sir Chyde on a white charger piercing a fairy knight's heart. Its Old Woldish inscription reads, “Here lies the noble Sir Chyde, slayer of Frost, defender of the King”. Speakers of modern Woldish can recognize the name and the words for “Frost” and “King”. Scratches indicate that something heavy was dragged from area 7 a long time ago."
+      },
+      "source_pages": [
+        14
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-05-hall-of-guardians",
+        "procedure-reveal-hall-of-guardians-mosaic",
+        "location-area-07-freezing-mirror"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-area-06-blindfolded-statue",
+      "record_type": "location",
+      "fields": {
+        "title": "6. Blindfolded Statue",
+        "description": "A white-marble statue depicts a fair maiden with long flowing hair and robe, a star on her brow, and one finger raised to her lips in a plea for silence. A black cloth blindfold covers its eyes. The statue stands on a 3-foot-wide, 1-foot-high round marble plinth. Pristine stairs descend toward area 14 beneath an arch carved as interwoven tree branches; illumination reveals reflections shimmering from water below."
+      },
+      "source_pages": [
+        15
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure-remove-statue-blindfold",
+        "procedure-illuminate-stairs-to-area-14",
+        "location-area-14-warded-pool"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-remove-statue-blindfold",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Remove the blindfold from the maiden statue",
+        "trigger": "Characters unwrap the black cloth from the statue in area 6.",
+        "steps": [
+          "Discover golden crucifixes embroidered on the inside of the cloth."
+        ]
+      },
+      "source_pages": [
+        15
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-06-blindfolded-statue"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-area-07-freezing-mirror",
+      "record_type": "location",
+      "fields": {
+        "title": "7. Freezing Mirror",
+        "description": "A full-length mirror in a beautifully wrought silver frame engraved with crucifixes and unicorns at play hangs behind an empty 3-foot-wide, 1-foot-high white-marble statue plinth. Floor scratches show that a heavy statue was dragged toward area 5. Pristine stairs descend toward area 14 under an interwoven-tree stone arch; illumination reveals water reflections below."
+      },
+      "source_pages": [
+        15
+      ],
+      "confidence": "high",
+      "references": [
+        "situation-freezing-mirror-effect",
+        "procedure-counter-freezing-mirror",
+        "knowledge-freezing-mirror-properties",
+        "procedure-illuminate-stairs-to-area-14",
+        "location-area-05-hall-of-guardians",
+        "location-area-14-warded-pool"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-freezing-mirror-effect",
+      "record_type": "situation",
+      "fields": {
+        "title": "The freezing mirror immobilizes passersby",
+        "trigger": "Anyone who passes in front of the mirror must save versus paralysis or be frozen still."
+      },
+      "source_pages": [
+        15
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-07-freezing-mirror",
+        "procedure-counter-freezing-mirror"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source does not specify the natural duration of the frozen condition if none of the listed remedies is used.",
+          "source_pages": [
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "procedure-counter-freezing-mirror",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Bypass or reverse the freezing mirror",
+        "trigger": "Characters need to pass the mirror safely or free someone frozen by it.",
+        "steps": [
+          "Cover the mirror to bypass its freezing effect.",
+          "Unfreeze an affected person with holy water, cure light wounds, or sunlight."
+        ]
+      },
+      "source_pages": [
+        15
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-07-freezing-mirror",
+        "situation-freezing-mirror-effect"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-freezing-mirror-properties",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Freezing mirror value and persistence",
+        "text": "The mirror has 1,000gp material value. If removed from the tomb, its magical properties fade after one month."
+      },
+      "source_pages": [
+        15
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-07-freezing-mirror"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-illuminate-stairs-to-area-14",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Illuminate the stairs to area 14",
+        "trigger": "Characters shine light down the pristine stairs in area 6 or area 7.",
+        "steps": [
+          "See shimmering reflections from water below."
+        ]
+      },
+      "source_pages": [
+        15
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-06-blindfolded-statue",
+        "location-area-07-freezing-mirror",
+        "location-area-14-warded-pool"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-area-08-family-crypt",
+      "record_type": "location",
+      "fields": {
+        "title": "8. Family Crypt",
+        "description": "Two floating skeletons dance above a fissure in a family crypt containing five stone coffers with tarnished brass portrait plaques. Coffers A and B are open with their lids pushed aside. Transparent slime drips from a hairline ceiling crack, coats the skeletons, and falls into a fissure of initially indeterminate depth; glimmering light below resembles sunlight reflected from snow."
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-floating-skeletons",
+        "situation-family-crypt-coffer-disturbance",
+        "table-family-crypt-brass-plaques",
+        "table-family-crypt-coffer-contents",
+        "procedure-inspect-family-crypt-fissure",
+        "situation-family-crypt-fissure-transit",
+        "situation-family-crypt-slime-contact"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-floating-skeletons",
+      "record_type": "actor",
+      "fields": {
+        "title": "Floating Skeletons",
+        "role": "Two moisture-slick skeletons waltz arm in arm in mid-air above the fissure. One wears a pearl necklace and the other a gold medallion, each worth 500gp. They welcome strangers to join the dance, speak old-fashioned Woldish (Common, not Old Woldish) in a distant whisper, and attack vehemently if any coffer is disturbed. Statistics: AC 8 [11], HD 2 (hp 8, 10), Att 1 × claws (1d4), THAC0 18 [+1], MV 90’ (30’) flying, SV D12 W13 P14 B15 S16 (2), ML 12, AL Neutral, XP 20. As undead they are unaffected by charms and mind control. Any weapon that hits one in melee becomes weightless for a moment, imposing –1 to that weapon's attack roll in the next round."
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-08-family-crypt",
+        "situation-family-crypt-coffer-disturbance",
+        "table-burial-mound-random-events"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-family-crypt-coffer-disturbance",
+      "record_type": "situation",
+      "fields": {
+        "title": "The dancing skeletons defend the coffers",
+        "trigger": "If any coffer in area 8 is disturbed, both floating skeletons attack vehemently."
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-08-family-crypt",
+        "actor-floating-skeletons"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table-family-crypt-brass-plaques",
+      "record_type": "table",
+      "fields": {
+        "title": "Brass Plaques on Coffers",
+        "entries": [
+          {
+            "coffer": "A",
+            "name": "Lady Amaranda",
+            "relationship": "mother",
+            "portrait": "Tall, elegant, stick-like, with a big nose, holding a book."
+          },
+          {
+            "coffer": "B",
+            "name": "Lord Brigforwith",
+            "relationship": "father",
+            "portrait": "Stocky, with a round head and chunky beard."
+          },
+          {
+            "coffer": "C",
+            "name": "Brandywith the Good",
+            "relationship": "elder brother",
+            "portrait": "Bespectacled, head bowed, leaning on a staff."
+          },
+          {
+            "coffer": "D",
+            "name": "Brigford the Wise",
+            "relationship": "younger brother",
+            "portrait": "In chainmail, with a hound at his side and a bow in hand."
+          },
+          {
+            "coffer": "E",
+            "name": "Emaline the Chaste",
+            "relationship": "sister",
+            "portrait": "Petite, in a mourning veil, cradling a cat."
+          }
+        ]
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-08-family-crypt",
+        "table-family-crypt-coffer-contents"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table-family-crypt-coffer-contents",
+      "record_type": "table",
+      "fields": {
+        "title": "Inside the Coffers",
+        "entries": [
+          {
+            "coffers": [
+              "A",
+              "B"
+            ],
+            "contents": "Empty."
+          },
+          {
+            "coffer": "C",
+            "contents": "A skeleton with an ash staff."
+          },
+          {
+            "coffer": "D",
+            "contents": "A skeleton dressed in rusted mail."
+          },
+          {
+            "coffer": "E",
+            "contents": "Two skeletons: one human and one feline."
+          }
+        ]
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-08-family-crypt",
+        "table-family-crypt-brass-plaques"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-inspect-family-crypt-fissure",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Look into the family-crypt fissure",
+        "trigger": "Characters gaze down into the fissure in area 8.",
+        "steps": [
+          "Catch glimpses of glimmering light below, like sunlight reflected off snow."
+        ]
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-08-family-crypt",
+        "situation-family-crypt-fissure-transit"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-family-crypt-fissure-transit",
+      "record_type": "situation",
+      "fields": {
+        "title": "The fissure transports descendents into Fairy",
+        "trigger": "A person or object descends more than 15 feet into the fissure; it then drifts harmlessly, snowflake-like, down from the sky in Fairy at area 15, even though the fall seems long."
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-08-family-crypt",
+        "procedure-inspect-family-crypt-fissure"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-family-crypt-slime-contact",
+      "record_type": "situation",
+      "fields": {
+        "title": "The slime vapour removes weight",
+        "trigger": "An object touching the slime becomes weightless for a moment. If bare flesh touches it, the slime instantly coats the character's whole body; the character becomes permanently lighter than air and drifts to the ceiling until the slime is removed, for example by dispel magic."
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-08-family-crypt",
+        "actor-floating-skeletons"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-area-09-chapel-of-st-sedge",
+      "record_type": "location",
+      "fields": {
+        "title": "9. Chapel of St Sedge",
+        "description": "A decaying but once-solid set of wooden pews faces a stone altar. The altar bears a statue of St Sedge, a holy crusader holding a thick red candle aloft; dried red wax has run over the statue and altar, and the velvet cloth is disintegrating. A ragged tapestry depicts the gates of heaven, where Sir Chyde and St Sedge meet in death. A locked wooden door, swollen with damp, is concealed behind the tapestry."
+      },
+      "source_pages": [
+        17
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure-light-st-sedge-candle",
+        "knowledge-chapel-of-st-sedge-tapestry"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-light-st-sedge-candle",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Light St Sedge’s candle",
+        "trigger": "Characters light the thick red candle held by the statue on the chapel altar.",
+        "steps": [
+          "A wind rushes through the chapel, followed by distant neighing and victorious battle cries."
+        ]
+      },
+      "source_pages": [
+        17
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-09-chapel-of-st-sedge"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-chapel-of-st-sedge-tapestry",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Chapel tapestry and concealed door",
+        "text": "The tapestry shows Sir Chyde and St Sedge meeting at the gates of heaven after death. A locked, damp-swollen wooden door is hidden behind it."
+      },
+      "source_pages": [
+        17
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-09-chapel-of-st-sedge"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-area-10-abandoned-priests-quarters",
+      "record_type": "location",
+      "fields": {
+        "title": "10. Abandoned Priest’s Quarters",
+        "description": "A damp-swollen locked wooden door opens onto abandoned quarters. A collapsed wall leaves rubble, dark earth, and a 2-foot-wide tunnel climbing toward area 4. A decaying angel-carved writing desk holds a stuck, mould-covered book. A loose flagstone conceals a small space with a locked metal box."
+      },
+      "source_pages": [
+        17
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-wormtongues",
+        "situation-wormtongues-disturbed",
+        "procedure-use-priests-quarters-tunnel",
+        "knowledge-flaegr-poem",
+        "procedure-find-priests-cache",
+        "situation-priests-cache-poison-trap",
+        "knowledge-priests-cache-contents"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-wormtongues-disturbed",
+      "record_type": "situation",
+      "fields": {
+        "title": "Noise rouses the wormtongues",
+        "trigger": "Noise in area 10 disturbs the three wormtongues lurking in the tunnel by the collapsed wall, and they ravenously attack."
+      },
+      "source_pages": [
+        17
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-10-abandoned-priests-quarters",
+        "actor-wormtongues"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-use-priests-quarters-tunnel",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Crawl through the priest’s-quarters tunnel",
+        "trigger": "Characters crawl upward through the narrow tunnel behind the collapsed wall in area 10.",
+        "steps": [
+          "Pass the three lurking wormtongues and emerge at area 4."
+        ]
+      },
+      "source_pages": [
+        17
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-10-abandoned-priests-quarters",
+        "location-area-04-worm-hole",
+        "actor-wormtongues"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-flaegr-poem",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Pastoral poem naming Flaegr",
+        "text": "The writing desk's locked drawer is easily smashed open. Inside is an old mould-covered book whose damp-stuck pages are indecipherable, but a brass sheet inside the cover bears a pastoral poem about Sir Chyde hunting with his favoured dogs. One dog is named Flaegr."
+      },
+      "source_pages": [
+        17
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-10-abandoned-priests-quarters",
+        "procedure-open-hall-of-hounds-doors"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-find-priests-cache",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Find the cache beneath the loose flagstone",
+        "trigger": "Characters search area 10 for secret doors or traps.",
+        "steps": [
+          "Locate the loose flagstone.",
+          "Lift it to reveal a small space containing a locked metal box."
+        ]
+      },
+      "source_pages": [
+        17
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-10-abandoned-priests-quarters",
+        "situation-priests-cache-poison-trap",
+        "knowledge-priests-cache-contents"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-priests-cache-poison-trap",
+      "record_type": "situation",
+      "fields": {
+        "title": "Poison needle on the hidden box",
+        "trigger": "Opening or manipulating the hidden metal box lock triggers a poison needle; the victim must save versus poison or suffer 1d6 damage and fall unconscious for 1d6 turns."
+      },
+      "source_pages": [
+        17
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-10-abandoned-priests-quarters",
+        "procedure-find-priests-cache",
+        "knowledge-priests-cache-contents"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-priests-cache-contents",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Contents of the priest’s hidden box",
+        "text": "The locked metal box contains a silver crucifix worth 50gp, a clerical scroll of hold person, a stamped-gold-leaf prayer book worth 500gp, and a box of 20 magically preserved holy wafers. Each wafer cures 1hp."
+      },
+      "source_pages": [
+        17
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-10-abandoned-priests-quarters",
+        "procedure-find-priests-cache",
+        "situation-priests-cache-poison-trap"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-area-11-statues-with-weapons",
+      "record_type": "location",
+      "fields": {
+        "title": "11. Statues With Weapons",
+        "description": "Seven smooth, finely carved dark-stone statues of footmen hold real weapons. The walls bear vivid yellow and purple mould patches. A faded mural shows Sir Chyde on horseback fighting a fairy army with two hunting hounds at his side; mould obscures his raised right hand and parts of the hounds."
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "knowledge-area-11-statue-weapons",
+        "situation-area-11-mould-spores",
+        "procedure-clear-area-11-mould",
+        "knowledge-area-11-battle-mural"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-area-11-statue-weapons",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Weapons held by the seven footmen",
+        "text": "The statues hold: a flanged mace with a spiralling hilt; a morningstar with 2-inch spikes; a battle axe engraved with a horse's head; a warhammer whose head is shaped like a boar; a longsword with wavy blood grooves; a halberd with a mouldy pennant; and a spear with a serrated blade. The fairy-made longsword is enchanted, granting +2 to hit and damage. Its glamour affects mortal wielders and compels them to attack the largest foe in battle."
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-11-statues-with-weapons",
+        "knowledge-area-11-battle-mural"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source does not specify a saving throw against the longsword's glamour or how to resolve ties for the largest foe.",
+          "source_pages": [
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "situation-area-11-mould-spores",
+      "record_type": "situation",
+      "fields": {
+        "title": "Disturbed mould releases choking spores",
+        "trigger": "Disturbing the yellow-and-purple wall mould raises a spore cloud; everyone within 10 feet must save versus poison or suffer 1d4 damage and violent coughing and choking for 1 turn."
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-11-statues-with-weapons",
+        "procedure-clear-area-11-mould"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-clear-area-11-mould",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Clear mould from the battle mural",
+        "trigger": "Characters remove mould from Sir Chyde's raised hand or the painted hounds.",
+        "steps": [
+          "Clearing the knight’s hand reveals a longsword with wavy blood grooves surrounded by a white glow.",
+          "Clearing the hounds reveals the name Chedr written on one hound’s collar.",
+          "Resolve disturbance of the mould using its poison-spore hazard."
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-11-statues-with-weapons",
+        "situation-area-11-mould-spores",
+        "knowledge-area-11-statue-weapons",
+        "knowledge-area-11-battle-mural"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-area-11-battle-mural",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Battle mural clue naming Chedr",
+        "text": "The mural depicts Sir Chyde mounted in battle against a fairy army, accompanied by two hunting hounds. When cleared, his raised hand is shown holding the same wavy-grooved longsword as the statue weapon, glowing white, and one hound's collar gives the name Chedr."
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-11-statues-with-weapons",
+        "knowledge-area-11-statue-weapons",
+        "procedure-clear-area-11-mould",
+        "procedure-open-hall-of-hounds-doors"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-area-12-hall-of-hounds",
+      "record_type": "location",
+      "fields": {
+        "title": "12. Hall of Hounds",
+        "description": "Pillars carved with scenes of holy war against fairies flank massive, smooth stone double doors. The doors are locked and magically warded, with “Call to the Companions” cut deeply into them. Two larger-than-life, 6-foot-tall stone hounds are chained to the base of the doors."
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-stone-hounds",
+        "procedure-open-hall-of-hounds-doors",
+        "situation-hall-of-hounds-door-touch"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-stone-hounds",
+      "record_type": "actor",
+      "fields": {
+        "title": "Stone Hounds",
+        "role": "Two 6-foot-tall stone constructs guard the doors in area 12. Statistics: AC 3 [16], HD 4* (hp 17, 19), Att 1 × bite (1d8), THAC0 16 [+3], MV 120’ (40’), SV D10 W11 P12 B13 S14 (4), ML 12, AL Neutral, XP 125. Their chains prevent them from leaving the room. As constructs, they are harmed only by magic and are unaffected by charms and mind control."
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-12-hall-of-hounds",
+        "situation-hall-of-hounds-door-touch"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-open-hall-of-hounds-doors",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Answer the Hall of Hounds riddle",
+        "trigger": "Characters attempt to open the locked, magically warded double doors in area 12.",
+        "steps": [
+          "Speak the names “Flaegr and Chedr”, in either order.",
+          "The doors open when both names are spoken."
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-12-hall-of-hounds",
+        "knowledge-flaegr-poem",
+        "knowledge-area-11-battle-mural"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-hall-of-hounds-door-touch",
+      "record_type": "situation",
+      "fields": {
+        "title": "Unanswered door contact animates the hounds",
+        "trigger": "Touching the doors without first answering the riddle causes both stone hounds to animate and attack."
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-12-hall-of-hounds",
+        "actor-stone-hounds",
+        "procedure-open-hall-of-hounds-doors"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-area-13-knights-tomb",
+      "record_type": "location",
+      "fields": {
+        "title": "13. The Knight’s Tomb",
+        "description": "Sir Chyde's ghost kneels before a dust-grimed portrait of a fair blond maiden in a white robe with a star on her brow, standing amid the Whything Stones of area 2. A carved stone coffer holds the knight's skeleton and grave goods. Two 4-foot-tall tarnished silver candlesticks stand on the floor."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-ghost-of-sir-chyde",
+        "procedure-fulfill-sir-chydes-request",
+        "knowledge-sir-chyde-and-imprisoned-princess",
+        "knowledge-area-13-tomb-goods",
+        "situation-sir-chydes-ring-removed",
+        "situation-sir-chydes-ring-crushed"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor-ghost-of-sir-chyde",
+      "record_type": "actor",
+      "fields": {
+        "title": "The Ghost of Sir Chyde",
+        "role": "A pale, semi-transparent azure, thin, plate-armoured ghost with raised visor, forlorn and love-lost, kneels before the portrait. He beseeches the characters to help him reach his beloved in Fairy and does not appreciate tomb robbers. Statistics: AC 3 [16], HD 5* (26 hp), Att 1 × touch (1d6 + aging), THAC0 15 [+4], MV 60’ (20’), SV D10 W11 P12 B13 S14 (5), ML 11, AL Lawful, XP 300. His touch ages a mortal target 2d20 years; a fairy does not age but must save versus spells or suffer terror for 1d6 rounds. As incorporeal undead, he is harmed only by magic or silver and is unaffected by charms and mind control. Turning makes him disappear for 24 hours. He is tethered to the ring in the coffer and cannot exist more than 10 feet from it."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-13-knights-tomb",
+        "procedure-fulfill-sir-chydes-request",
+        "knowledge-sir-chyde-and-imprisoned-princess",
+        "knowledge-area-13-tomb-goods",
+        "situation-sir-chydes-ring-removed",
+        "situation-sir-chydes-ring-crushed"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-fulfill-sir-chydes-request",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Carry Sir Chyde’s ring toward his beloved",
+        "trigger": "The ghost asks a living person to help him join the princess in Fairy.",
+        "steps": [
+          "Take the bronze moonstone ring from the stone coffer.",
+          "Carry it to the lower tomb level at area 14.",
+          "Use the stairs in area 6 or area 7 to enter Fairy, where Sir Chyde believes the imprisoned princess waits."
+        ]
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-ghost-of-sir-chyde",
+        "location-area-13-knights-tomb",
+        "location-area-14-warded-pool",
+        "knowledge-sir-chyde-and-imprisoned-princess",
+        "situation-sir-chydes-ring-removed"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-sir-chyde-and-imprisoned-princess",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Sir Chyde’s knowledge of Fairy",
+        "text": "Sir Chyde knows that the stairs in areas 6 and 7 provide entrance to Fairy. He believes the princess awaits there, imprisoned, and wants at last to take her hand in marriage after centuries apart."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [
+        "actor-ghost-of-sir-chyde",
+        "procedure-fulfill-sir-chydes-request",
+        "location-area-06-blindfolded-statue",
+        "location-area-07-freezing-mirror",
+        "location-area-14-warded-pool"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-area-13-tomb-goods",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Sir Chyde’s coffer, portrait, and candlesticks",
+        "text": "The stone coffer is carved with Sir Chyde's likeness and leaf patterns and contains his skeleton. On its wrists are two copper bracelets engraved with owls whose amethyst eyes make each bracelet worth 1,000gp. On one finger is a bronze band set with a moonstone and branch-like fittings: the Ring of Soul-Binding. The restored portrait is worth 1,500gp. Each cleaned silver candlestick is worth 200gp."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-13-knights-tomb",
+        "actor-ghost-of-sir-chyde",
+        "situation-sir-chydes-ring-removed",
+        "situation-sir-chydes-ring-crushed"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-sir-chydes-ring-removed",
+      "record_type": "situation",
+      "fields": {
+        "title": "Removing the Ring of Soul-Binding",
+        "trigger": "When the ring is removed from the coffer, Sir Chyde's ghost disappears temporarily. It can manifest once per day and haunt the person who stole the ring. The ghost remains tethered to the ring and cannot exist more than 10 feet from it."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-13-knights-tomb",
+        "actor-ghost-of-sir-chyde",
+        "knowledge-area-13-tomb-goods"
+      ],
+      "uncertainties": [
+        {
+          "description": "The detailed effects of the daily haunting are deferred to the Epilogue on p23, outside this evidence pack.",
+          "source_pages": [
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "situation-sir-chydes-ring-crushed",
+      "record_type": "situation",
+      "fields": {
+        "title": "Crushing the Ring of Soul-Binding",
+        "trigger": "If the ring is crushed, its power ends, Sir Chyde's soul is released, and the ghost disappears into the afterlife."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-13-knights-tomb",
+        "actor-ghost-of-sir-chyde",
+        "knowledge-area-13-tomb-goods"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location-area-14-warded-pool",
+      "record_type": "location",
+      "fields": {
+        "title": "14. Warded Pool",
+        "description": "From the mortal side, area 14 appears as a vaulted chamber filled by a shimmering pool, with a white-marble statue of a long-haired, robed maiden bearing a star on her brow at its centre. At the foot of the stairs, dozens of ghostly candles float in mid-air and form an unavoidable ward."
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "knowledge-warded-pool-warped-reality",
+        "situation-fairy-characters-sense-the-ward",
+        "procedure-cross-candle-ward",
+        "procedure-return-through-candle-ward",
+        "procedure-dispel-candle-ward"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge-warded-pool-warped-reality",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Warped reality at the Warded Pool",
+        "text": "The apparent vaulted pool is the tomb's bottom level as perceived before passing through the ward in the mortal world. Centuries of action by the Ring of Soul-Binding have warped reality so that Fairy is now more present here than the mortal world. The Church placed the stair-bottom wards when sealing the tomb to prevent further encroachment from Fairy."
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-14-warded-pool",
+        "knowledge-area-13-tomb-goods"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation-fairy-characters-sense-the-ward",
+      "record_type": "situation",
+      "fields": {
+        "title": "Fairy characters sense the ageless realm",
+        "trigger": "At the bottom of the stairs, fairy player characters feel the presence of the ageless realm pressing against the ward from the other side."
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-14-warded-pool",
+        "knowledge-warded-pool-warped-reality"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-cross-candle-ward",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Pass through the candle ward into Fairy",
+        "trigger": "A character coming from area 6 or area 7 passes through the ghostly candles at the bottom step.",
+        "steps": [
+          "Feel a wave of religious awe.",
+          "The perceived vaulted chamber dissolves and reforms as an outdoor scene with a white tower on an island in a frozen lake.",
+          "Appear in area 15."
+        ]
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-14-warded-pool",
+        "location-area-06-blindfolded-statue",
+        "location-area-07-freezing-mirror"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-return-through-candle-ward",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Return through the candle ward",
+        "trigger": "A character in Fairy attempts to pass back through the ward toward the tomb.",
+        "steps": [
+          "Characters who originally came from the tomb can pass back through.",
+          "The ward is impassable to others."
+        ]
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-14-warded-pool",
+        "procedure-cross-candle-ward"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure-dispel-candle-ward",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Dispel the candle ward",
+        "trigger": "Characters attempt to dispel the ward at the bottom of the stairs.",
+        "steps": [
+          "Fairy magic cannot dispel the ward.",
+          "Other magic can dispel it; treat the ward as if cast by a 10th-level cleric."
+        ]
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "location-area-14-warded-pool"
+      ],
+      "uncertainties": []
+    }
+  ],
+  "schema": "module-content-evidence/v1",
+  "source_sha256": "75f903b106b1f3459676ad9d8ac255c7b943d2f8c9158a6e58e8655efd69b261",
+  "task": "content",
+  "task_coverage": [
+    {
+      "notes": "",
+      "pdf_page": 13,
+      "record_ids": [
+        "location-area-03-tomb-entrance",
+        "procedure-open-tomb-entrance-slab",
+        "procedure-examine-tomb-entrance-stairs",
+        "location-area-04-worm-hole",
+        "procedure-investigate-worm-hole",
+        "procedure-examine-worm-hole-slime",
+        "actor-wormtongues"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 14,
+      "record_ids": [
+        "location-area-05-hall-of-guardians",
+        "actor-religious-objects",
+        "situation-religious-objects-animate",
+        "procedure-reveal-hall-of-guardians-mosaic",
+        "knowledge-hall-of-guardians-mosaic-and-drag-marks"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 14,
+      "record_ids": [
+        "table-burial-mound-random-events"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    },
+    {
+      "notes": "",
+      "pdf_page": 15,
+      "record_ids": [
+        "location-area-06-blindfolded-statue",
+        "procedure-remove-statue-blindfold",
+        "location-area-07-freezing-mirror",
+        "situation-freezing-mirror-effect",
+        "procedure-counter-freezing-mirror",
+        "knowledge-freezing-mirror-properties",
+        "procedure-illuminate-stairs-to-area-14"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 16,
+      "record_ids": [
+        "location-area-08-family-crypt",
+        "actor-floating-skeletons",
+        "situation-family-crypt-coffer-disturbance",
+        "procedure-inspect-family-crypt-fissure",
+        "situation-family-crypt-fissure-transit",
+        "situation-family-crypt-slime-contact"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 16,
+      "record_ids": [
+        "table-family-crypt-brass-plaques",
+        "table-family-crypt-coffer-contents"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    },
+    {
+      "notes": "",
+      "pdf_page": 17,
+      "record_ids": [
+        "actor-wormtongues",
+        "location-area-09-chapel-of-st-sedge",
+        "procedure-light-st-sedge-candle",
+        "knowledge-chapel-of-st-sedge-tapestry",
+        "location-area-10-abandoned-priests-quarters",
+        "situation-wormtongues-disturbed",
+        "procedure-use-priests-quarters-tunnel",
+        "knowledge-flaegr-poem",
+        "procedure-find-priests-cache",
+        "situation-priests-cache-poison-trap",
+        "knowledge-priests-cache-contents"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 18,
+      "record_ids": [
+        "location-area-11-statues-with-weapons",
+        "knowledge-area-11-statue-weapons",
+        "situation-area-11-mould-spores",
+        "procedure-clear-area-11-mould",
+        "knowledge-area-11-battle-mural",
+        "location-area-12-hall-of-hounds",
+        "actor-stone-hounds",
+        "procedure-open-hall-of-hounds-doors",
+        "situation-hall-of-hounds-door-touch"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 19,
+      "record_ids": [
+        "location-area-13-knights-tomb",
+        "actor-ghost-of-sir-chyde",
+        "procedure-fulfill-sir-chydes-request",
+        "knowledge-sir-chyde-and-imprisoned-princess",
+        "knowledge-area-13-tomb-goods",
+        "situation-sir-chydes-ring-removed",
+        "situation-sir-chydes-ring-crushed"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 20,
+      "record_ids": [
+        "location-area-14-warded-pool",
+        "knowledge-warded-pool-warped-reality",
+        "situation-fairy-characters-sense-the-ward",
+        "procedure-cross-candle-ward",
+        "procedure-return-through-candle-ward",
+        "procedure-dispel-candle-ward"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    }
+  ]
+}

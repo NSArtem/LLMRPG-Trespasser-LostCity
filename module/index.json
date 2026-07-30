@@ -1,0 +1,3741 @@
+{
+  "aliases": {},
+  "records": [
+    {
+      "id": "actor-betrayal-toad",
+      "path": "cards/entities/actor-betrayal-toad.md",
+      "record_type": "actor",
+      "references": [
+        "table-outside-mound-random-events"
+      ],
+      "source_pages": [
+        11
+      ],
+      "title": "Huge Warty Toad"
+    },
+    {
+      "id": "actor-brigford-the-wise",
+      "path": "cards/entities/actor-brigford-the-wise.md",
+      "record_type": "actor",
+      "references": [
+        "actor-sir-chyde",
+        "procedure-investigate-the-inheritance"
+      ],
+      "source_pages": [
+        8
+      ],
+      "title": "Brigford the Wise"
+    },
+    {
+      "id": "actor-butter-for-bones",
+      "path": "cards/entities/actor-butter-for-bones.md",
+      "record_type": "actor",
+      "references": [
+        "actor-sir-chyde",
+        "knowledge-research-grave-goods"
+      ],
+      "source_pages": [
+        9
+      ],
+      "title": "Butter-for-Bones"
+    },
+    {
+      "id": "actor-cold-prince",
+      "path": "cards/entities/actor-cold-prince.md",
+      "record_type": "actor",
+      "references": [
+        "actor-frost-elves",
+        "actor-snowfall-at-dusk",
+        "situation-cold-prince-defeat"
+      ],
+      "source_pages": [
+        5,
+        6,
+        9
+      ],
+      "title": "The Cold Prince"
+    },
+    {
+      "id": "actor-drune",
+      "path": "cards/entities/actor-drune.md",
+      "record_type": "actor",
+      "references": [
+        "location-iron-owls",
+        "location-whything-stones"
+      ],
+      "source_pages": [
+        7,
+        12
+      ],
+      "title": "The Drune"
+    },
+    {
+      "id": "actor-fairies",
+      "path": "cards/entities/actor-fairies.md",
+      "record_type": "actor",
+      "references": [
+        "location-fairy",
+        "rule-pure-iron",
+        "rule-silver-sickness"
+      ],
+      "source_pages": [
+        10
+      ],
+      "title": "Fairies"
+    },
+    {
+      "id": "actor-floating-skeletons",
+      "path": "cards/entities/actor-floating-skeletons.md",
+      "record_type": "actor",
+      "references": [
+        "location-area-08-family-crypt",
+        "situation-family-crypt-coffer-disturbance",
+        "table-burial-mound-random-events"
+      ],
+      "source_pages": [
+        16
+      ],
+      "title": "Floating Skeletons"
+    },
+    {
+      "id": "actor-frost-elves",
+      "path": "cards/entities/actor-frost-elves.md",
+      "record_type": "actor",
+      "references": [
+        "actor-cold-prince"
+      ],
+      "source_pages": [
+        6
+      ],
+      "title": "Frost Elves"
+    },
+    {
+      "id": "actor-ghost-of-sir-chyde",
+      "path": "cards/entities/actor-ghost-of-sir-chyde.md",
+      "record_type": "actor",
+      "references": [
+        "knowledge-area-13-tomb-goods",
+        "knowledge-sir-chyde-and-imprisoned-princess",
+        "location-area-13-knights-tomb",
+        "procedure-fulfill-sir-chydes-request",
+        "situation-sir-chydes-ring-crushed",
+        "situation-sir-chydes-ring-removed"
+      ],
+      "source_pages": [
+        19
+      ],
+      "title": "The Ghost of Sir Chyde"
+    },
+    {
+      "id": "actor-ghostly-violet-eyed-owl",
+      "path": "cards/entities/actor-ghostly-violet-eyed-owl.md",
+      "record_type": "actor",
+      "references": [
+        "table-outside-mound-random-events"
+      ],
+      "source_pages": [
+        11
+      ],
+      "title": "Ghostly Violet-Eyed Owl"
+    },
+    {
+      "id": "actor-goblin-merchants",
+      "path": "cards/entities/actor-goblin-merchants.md",
+      "record_type": "actor",
+      "references": [
+        "location-dolmenwood",
+        "location-fairy",
+        "table-outside-mound-random-events"
+      ],
+      "source_pages": [
+        11
+      ],
+      "title": "Tipsy Goblin Merchants"
+    },
+    {
+      "id": "actor-lady-of-the-wood",
+      "path": "cards/entities/actor-lady-of-the-wood.md",
+      "record_type": "actor",
+      "references": [
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk",
+        "item-portrait-the-lady-of-the-wood"
+      ],
+      "source_pages": [
+        9
+      ],
+      "title": "The Lady of the Wood"
+    },
+    {
+      "id": "actor-religious-objects",
+      "path": "cards/entities/actor-religious-objects.md",
+      "record_type": "actor",
+      "references": [
+        "location-area-05-hall-of-guardians",
+        "situation-religious-objects-animate"
+      ],
+      "source_pages": [
+        14
+      ],
+      "title": "Religious Objects"
+    },
+    {
+      "id": "actor-sir-chyde",
+      "path": "cards/entities/actor-sir-chyde.md",
+      "record_type": "actor",
+      "references": [
+        "actor-snowfall-at-dusk",
+        "effect-ring-of-soul-binding",
+        "location-high-wold",
+        "location-sir-chyde-tomb"
+      ],
+      "source_pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "title": "Sir Chyde"
+    },
+    {
+      "id": "actor-snowfall-at-dusk",
+      "path": "cards/entities/actor-snowfall-at-dusk.md",
+      "record_type": "actor",
+      "references": [
+        "actor-cold-prince",
+        "actor-sir-chyde",
+        "item-ring-of-soul-binding",
+        "situation-perpetual-wedding-feast"
+      ],
+      "source_pages": [
+        6,
+        7,
+        8
+      ],
+      "title": "Princess Snowfall-at-Dusk"
+    },
+    {
+      "id": "actor-st-sedge",
+      "path": "cards/entities/actor-st-sedge.md",
+      "record_type": "actor",
+      "references": [
+        "actor-sir-chyde",
+        "location-chapel-of-st-sedge"
+      ],
+      "source_pages": [
+        7
+      ],
+      "title": "St Sedge"
+    },
+    {
+      "id": "actor-stone-hounds",
+      "path": "cards/entities/actor-stone-hounds.md",
+      "record_type": "actor",
+      "references": [
+        "location-area-12-hall-of-hounds",
+        "situation-hall-of-hounds-door-touch"
+      ],
+      "source_pages": [
+        18
+      ],
+      "title": "Stone Hounds"
+    },
+    {
+      "id": "actor-tomb-priest",
+      "path": "cards/entities/actor-tomb-priest.md",
+      "record_type": "actor",
+      "references": [
+        "location-sir-chyde-tomb",
+        "situation-tomb-sealing"
+      ],
+      "source_pages": [
+        7
+      ],
+      "title": "Priest Attendant of Sir Chyde's Tomb"
+    },
+    {
+      "id": "actor-wizard-patron",
+      "path": "cards/entities/actor-wizard-patron.md",
+      "record_type": "actor",
+      "references": [
+        "procedure-tomb-robbers-mission",
+        "situation-hook-tomb-robbers"
+      ],
+      "source_pages": [
+        8
+      ],
+      "title": "Wizard Patron"
+    },
+    {
+      "id": "actor-wormtongues",
+      "path": "cards/entities/actor-wormtongues.md",
+      "record_type": "actor",
+      "references": [
+        "location-area-04-worm-hole",
+        "location-area-10-abandoned-priests-quarters",
+        "situation-wormtongues-disturbed"
+      ],
+      "source_pages": [
+        13,
+        17
+      ],
+      "title": "Wormtongues"
+    },
+    {
+      "id": "actor.dire-wolf-pack",
+      "path": "cards/entities/actor.dire-wolf-pack.md",
+      "record_type": "actor",
+      "references": [
+        "location.area15.frozen-lake",
+        "table.fairy-prison.random-events"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "Dire Wolf Pack"
+    },
+    {
+      "id": "actor.frost-elf-cooks",
+      "path": "cards/entities/actor.frost-elf-cooks.md",
+      "record_type": "actor",
+      "references": [
+        "knowledge.area17.awaiting-sir-chyde",
+        "location.area17.fairy-kitchen",
+        "procedure.area17.help-cooks"
+      ],
+      "source_pages": [
+        23
+      ],
+      "title": "Frost Elf Cooks"
+    },
+    {
+      "id": "actor.frost-elf-guards-and-knights",
+      "path": "cards/entities/actor.frost-elf-guards-and-knights.md",
+      "record_type": "actor",
+      "references": [
+        "location.area18.wedding-feast",
+        "procedure.area18.escort-uninvited-guests",
+        "situation.fairy-prison.random-events"
+      ],
+      "source_pages": [
+        21,
+        23
+      ],
+      "title": "Frost Elf Guards and Knights"
+    },
+    {
+      "id": "actor.frost-elf-nobles",
+      "path": "cards/entities/actor.frost-elf-nobles.md",
+      "record_type": "actor",
+      "references": [
+        "location.area18.wedding-feast",
+        "situation.area18.nobles-disturbed"
+      ],
+      "source_pages": [
+        23
+      ],
+      "title": "Frost Elf Nobles"
+    },
+    {
+      "id": "actor.goblin-sleigh-rider",
+      "path": "cards/entities/actor.goblin-sleigh-rider.md",
+      "record_type": "actor",
+      "references": [
+        "location.area15.white-marble-tower",
+        "table.fairy-prison.random-events"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "Goblin Sleigh-Rider"
+    },
+    {
+      "id": "actor.griddlegrim",
+      "path": "cards/entities/actor.griddlegrim.md",
+      "record_type": "actor",
+      "references": [
+        "actor.grimmlegridge",
+        "item.pouch-of-limitless-fungi",
+        "knowledge.dolmenwood-goblins",
+        "procedure.area16.gain-entry"
+      ],
+      "source_pages": [
+        22
+      ],
+      "title": "Griddlegrim"
+    },
+    {
+      "id": "actor.grimmlegridge",
+      "path": "cards/entities/actor.grimmlegridge.md",
+      "record_type": "actor",
+      "references": [
+        "actor.griddlegrim",
+        "knowledge.dolmenwood-trolls",
+        "location.area15.hoar-clad-forest"
+      ],
+      "source_pages": [
+        22
+      ],
+      "title": "Grimmlegridge"
+    },
+    {
+      "id": "actor.princess-snowfall-at-dusk",
+      "path": "cards/entities/actor.princess-snowfall-at-dusk.md",
+      "record_type": "actor",
+      "references": [
+        "item.princess-brow-star",
+        "knowledge.princess.magical-ban",
+        "knowledge.princess.sir-chyde",
+        "procedure.princess-plea.retrieve-ring"
+      ],
+      "source_pages": [
+        24
+      ],
+      "title": "Princess Snowfall-at-Dusk"
+    },
+    {
+      "id": "actor.white-raven-messenger",
+      "path": "cards/entities/actor.white-raven-messenger.md",
+      "record_type": "actor",
+      "references": [
+        "actor.princess-snowfall-at-dusk",
+        "table.fairy-prison.random-events"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "White Raven Messenger"
+    },
+    {
+      "id": "effect-ring-of-soul-binding",
+      "path": "cards/reference/effect-ring-of-soul-binding.md",
+      "record_type": "effect",
+      "references": [
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk",
+        "item-ring-of-soul-binding",
+        "location-fairy",
+        "location-sir-chyde-tomb"
+      ],
+      "source_pages": [
+        7
+      ],
+      "title": "Effects of the Ring of Soul-Binding"
+    },
+    {
+      "id": "effect.pouch.first-daily-mushroom",
+      "path": "cards/reference/effect.pouch.first-daily-mushroom.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "First Mushroom of the Day"
+    },
+    {
+      "id": "effect.pouch.inexhaustible",
+      "path": "cards/reference/effect.pouch.inexhaustible.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Limitless Mushrooms"
+    },
+    {
+      "id": "effect.pouch.repeat-mushroom-sickness",
+      "path": "cards/reference/effect.pouch.repeat-mushroom-sickness.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Additional Mushroom Sickness"
+    },
+    {
+      "id": "effect.ring.binding",
+      "path": "cards/reference/effect.ring.binding.md",
+      "record_type": "effect",
+      "references": [
+        "effect.ring.unbinding",
+        "item.ring-of-soul-binding"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Soul Binding"
+    },
+    {
+      "id": "effect.ring.communication",
+      "path": "cards/reference/effect.ring.communication.md",
+      "record_type": "effect",
+      "references": [
+        "item.ring-of-soul-binding"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Ring-Borne Communication"
+    },
+    {
+      "id": "effect.ring.full-moon-union",
+      "path": "cards/reference/effect.ring.full-moon-union.md",
+      "record_type": "effect",
+      "references": [
+        "item.ring-of-soul-binding",
+        "knowledge.princess.magical-ban"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Full-Moon Union"
+    },
+    {
+      "id": "effect.ring.ghost-haunting",
+      "path": "cards/reference/effect.ring.ghost-haunting.md",
+      "record_type": "effect",
+      "references": [
+        "item.ring-of-soul-binding",
+        "situation.epilogue.ring-stolen"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Ghost Bound to the Ring"
+    },
+    {
+      "id": "effect.ring.planar-convergence",
+      "path": "cards/reference/effect.ring.planar-convergence.md",
+      "record_type": "effect",
+      "references": [
+        "item.ring-of-soul-binding",
+        "location.frigia.doorway-from-dolmenwood"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Planar Boundary Narrowing"
+    },
+    {
+      "id": "effect.ring.unbinding",
+      "path": "cards/reference/effect.ring.unbinding.md",
+      "record_type": "effect",
+      "references": [
+        "effect.ring.binding",
+        "item.ring-of-soul-binding",
+        "procedure.epilogue.end-haunting"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Undoing the Soul Binding"
+    },
+    {
+      "id": "effect.shroom.01",
+      "path": "cards/reference/effect.shroom.01.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Double Size"
+    },
+    {
+      "id": "effect.shroom.02",
+      "path": "cards/reference/effect.shroom.02.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Six-Inch Stature"
+    },
+    {
+      "id": "effect.shroom.03",
+      "path": "cards/reference/effect.shroom.03.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Purple Skin"
+    },
+    {
+      "id": "effect.shroom.04",
+      "path": "cards/reference/effect.shroom.04.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Eyes in the Palms"
+    },
+    {
+      "id": "effect.shroom.05",
+      "path": "cards/reference/effect.shroom.05.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Ten-Foot Hair"
+    },
+    {
+      "id": "effect.shroom.06",
+      "path": "cards/reference/effect.shroom.06.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Sentient Critical Nose"
+    },
+    {
+      "id": "effect.shroom.07",
+      "path": "cards/reference/effect.shroom.07.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Random Ability Increase"
+    },
+    {
+      "id": "effect.shroom.08",
+      "path": "cards/reference/effect.shroom.08.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Luminous Enlarged Eyes"
+    },
+    {
+      "id": "effect.shroom.09",
+      "path": "cards/reference/effect.shroom.09.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Warm Fuzzy Assurance"
+    },
+    {
+      "id": "effect.shroom.10",
+      "path": "cards/reference/effect.shroom.10.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Transparent Body"
+    },
+    {
+      "id": "effect.shroom.11",
+      "path": "cards/reference/effect.shroom.11.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Weeping and Hysterical Laughter"
+    },
+    {
+      "id": "effect.shroom.12",
+      "path": "cards/reference/effect.shroom.12.md",
+      "record_type": "effect",
+      "references": [
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Vomit Worms and Maggots"
+    },
+    {
+      "id": "item-portrait-the-lady-of-the-wood",
+      "path": "cards/reference/item-portrait-the-lady-of-the-wood.md",
+      "record_type": "item",
+      "references": [
+        "actor-lady-of-the-wood",
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk"
+      ],
+      "source_pages": [
+        6,
+        7,
+        9
+      ],
+      "title": "The Lady of the Wood"
+    },
+    {
+      "id": "item-ring-of-soul-binding",
+      "path": "cards/reference/item-ring-of-soul-binding.md",
+      "record_type": "item",
+      "references": [
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk",
+        "effect-ring-of-soul-binding",
+        "knowledge-ring-theft-complication"
+      ],
+      "source_pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "title": "Ring of Soul-Binding"
+    },
+    {
+      "id": "item.fairy-silver-necklaces",
+      "path": "cards/reference/item.fairy-silver-necklaces.md",
+      "record_type": "item",
+      "references": [
+        "location.area19.princess-bedchamber"
+      ],
+      "source_pages": [
+        24
+      ],
+      "title": "Necklaces of Fairy Silver"
+    },
+    {
+      "id": "item.fur-coats",
+      "path": "cards/reference/item.fur-coats.md",
+      "record_type": "item",
+      "references": [
+        "location.area19.princess-bedchamber"
+      ],
+      "source_pages": [
+        24
+      ],
+      "title": "Fur Coats"
+    },
+    {
+      "id": "item.hoarfrost-sapphire-brooch",
+      "path": "cards/reference/item.hoarfrost-sapphire-brooch.md",
+      "record_type": "item",
+      "references": [
+        "location.area19.princess-bedchamber"
+      ],
+      "source_pages": [
+        24
+      ],
+      "title": "Hoarfrost Sapphire Brooch"
+    },
+    {
+      "id": "item.ice-jewels",
+      "path": "cards/reference/item.ice-jewels.md",
+      "record_type": "item",
+      "references": [
+        "location.area19.princess-bedchamber"
+      ],
+      "source_pages": [
+        24
+      ],
+      "title": "Ice-Jewels"
+    },
+    {
+      "id": "item.pouch-of-limitless-fungi",
+      "path": "cards/reference/item.pouch-of-limitless-fungi.md",
+      "record_type": "item",
+      "references": [
+        "effect.pouch.first-daily-mushroom",
+        "effect.pouch.inexhaustible",
+        "effect.pouch.repeat-mushroom-sickness",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Pouch of Limitless Fungi"
+    },
+    {
+      "id": "item.princess-brow-star",
+      "path": "cards/reference/item.princess-brow-star.md",
+      "record_type": "item",
+      "references": [
+        "actor.princess-snowfall-at-dusk"
+      ],
+      "source_pages": [
+        24
+      ],
+      "title": "Princess Snowfall-at-Dusk’s Brow Star"
+    },
+    {
+      "id": "item.ring-of-soul-binding",
+      "path": "cards/reference/item.ring-of-soul-binding.md",
+      "record_type": "item",
+      "references": [
+        "effect.ring.binding",
+        "effect.ring.communication",
+        "effect.ring.full-moon-union",
+        "effect.ring.ghost-haunting",
+        "effect.ring.planar-convergence",
+        "effect.ring.unbinding"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Ring of Soul-Binding"
+    },
+    {
+      "id": "item.scintillating-gowns",
+      "path": "cards/reference/item.scintillating-gowns.md",
+      "record_type": "item",
+      "references": [
+        "location.area19.princess-bedchamber"
+      ],
+      "source_pages": [
+        24
+      ],
+      "title": "Scintillating Gowns"
+    },
+    {
+      "id": "knowledge-adventure-premise",
+      "path": "cards/entities/knowledge-adventure-premise.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk",
+        "location-sir-chyde-tomb"
+      ],
+      "source_pages": [
+        5
+      ],
+      "title": "Adventure Premise"
+    },
+    {
+      "id": "knowledge-area-11-battle-mural",
+      "path": "cards/entities/knowledge-area-11-battle-mural.md",
+      "record_type": "knowledge",
+      "references": [
+        "knowledge-area-11-statue-weapons",
+        "location-area-11-statues-with-weapons",
+        "procedure-clear-area-11-mould",
+        "procedure-open-hall-of-hounds-doors"
+      ],
+      "source_pages": [
+        18
+      ],
+      "title": "Battle mural clue naming Chedr"
+    },
+    {
+      "id": "knowledge-area-11-statue-weapons",
+      "path": "cards/entities/knowledge-area-11-statue-weapons.md",
+      "record_type": "knowledge",
+      "references": [
+        "knowledge-area-11-battle-mural",
+        "location-area-11-statues-with-weapons"
+      ],
+      "source_pages": [
+        18
+      ],
+      "title": "Weapons held by the seven footmen"
+    },
+    {
+      "id": "knowledge-area-13-tomb-goods",
+      "path": "cards/entities/knowledge-area-13-tomb-goods.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor-ghost-of-sir-chyde",
+        "location-area-13-knights-tomb",
+        "situation-sir-chydes-ring-crushed",
+        "situation-sir-chydes-ring-removed"
+      ],
+      "source_pages": [
+        19
+      ],
+      "title": "Sir Chyde’s coffer, portrait, and candlesticks"
+    },
+    {
+      "id": "knowledge-centuries-passed",
+      "path": "cards/entities/knowledge-centuries-passed.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor-drune",
+        "actor-snowfall-at-dusk",
+        "location-sir-chyde-tomb",
+        "location-whything-stones"
+      ],
+      "source_pages": [
+        7
+      ],
+      "title": "Centuries After the Tomb Was Sealed"
+    },
+    {
+      "id": "knowledge-chapel-of-st-sedge-tapestry",
+      "path": "cards/entities/knowledge-chapel-of-st-sedge-tapestry.md",
+      "record_type": "knowledge",
+      "references": [
+        "location-area-09-chapel-of-st-sedge"
+      ],
+      "source_pages": [
+        17
+      ],
+      "title": "Chapel tapestry and concealed door"
+    },
+    {
+      "id": "knowledge-common-folklore-chyde-and-lady",
+      "path": "cards/entities/knowledge-common-folklore-chyde-and-lady.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor-lady-of-the-wood",
+        "actor-sir-chyde",
+        "situation-forbidden-love"
+      ],
+      "source_pages": [
+        9
+      ],
+      "title": "Common Folklore: Sir Chyde and the Lady"
+    },
+    {
+      "id": "knowledge-common-folklore-chyde-death",
+      "path": "cards/entities/knowledge-common-folklore-chyde-death.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor-lady-of-the-wood",
+        "actor-sir-chyde",
+        "location-high-wold",
+        "location-sir-chyde-tomb"
+      ],
+      "source_pages": [
+        9
+      ],
+      "title": "Common Folklore: Sir Chyde's Death and the Lady's Fate"
+    },
+    {
+      "id": "knowledge-common-folklore-cold-prince",
+      "path": "cards/entities/knowledge-common-folklore-cold-prince.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor-cold-prince",
+        "situation-cold-prince-defeat"
+      ],
+      "source_pages": [
+        9
+      ],
+      "title": "Common Folklore: The Cold Prince"
+    },
+    {
+      "id": "knowledge-dolmenwood-languages",
+      "path": "cards/entities/knowledge-dolmenwood-languages.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor-drune",
+        "actor-fairies",
+        "location-fairy"
+      ],
+      "source_pages": [
+        10
+      ],
+      "title": "Languages Used in Dolmenwood"
+    },
+    {
+      "id": "knowledge-dream-hook-deception",
+      "path": "cards/entities/knowledge-dream-hook-deception.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor-snowfall-at-dusk",
+        "item-ring-of-soul-binding",
+        "situation-hook-dreams-of-the-lady"
+      ],
+      "source_pages": [
+        8
+      ],
+      "title": "Truth Behind the Lady's Dreams"
+    },
+    {
+      "id": "knowledge-flaegr-poem",
+      "path": "cards/entities/knowledge-flaegr-poem.md",
+      "record_type": "knowledge",
+      "references": [
+        "location-area-10-abandoned-priests-quarters",
+        "procedure-open-hall-of-hounds-doors"
+      ],
+      "source_pages": [
+        17
+      ],
+      "title": "Pastoral poem naming Flaegr"
+    },
+    {
+      "id": "knowledge-freezing-mirror-properties",
+      "path": "cards/entities/knowledge-freezing-mirror-properties.md",
+      "record_type": "knowledge",
+      "references": [
+        "location-area-07-freezing-mirror"
+      ],
+      "source_pages": [
+        15
+      ],
+      "title": "Freezing mirror value and persistence"
+    },
+    {
+      "id": "knowledge-hall-of-guardians-mosaic-and-drag-marks",
+      "path": "cards/entities/knowledge-hall-of-guardians-mosaic-and-drag-marks.md",
+      "record_type": "knowledge",
+      "references": [
+        "location-area-05-hall-of-guardians",
+        "location-area-07-freezing-mirror",
+        "procedure-reveal-hall-of-guardians-mosaic"
+      ],
+      "source_pages": [
+        14
+      ],
+      "title": "Hall of Guardians mosaic and drag marks"
+    },
+    {
+      "id": "knowledge-priests-cache-contents",
+      "path": "cards/entities/knowledge-priests-cache-contents.md",
+      "record_type": "knowledge",
+      "references": [
+        "location-area-10-abandoned-priests-quarters",
+        "procedure-find-priests-cache",
+        "situation-priests-cache-poison-trap"
+      ],
+      "source_pages": [
+        17
+      ],
+      "title": "Contents of the priest’s hidden box"
+    },
+    {
+      "id": "knowledge-research-grave-goods",
+      "path": "cards/entities/knowledge-research-grave-goods.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor-butter-for-bones",
+        "item-portrait-the-lady-of-the-wood",
+        "item-ring-of-soul-binding",
+        "location-sir-chyde-tomb"
+      ],
+      "source_pages": [
+        9
+      ],
+      "title": "Research Fact: Notable Grave Goods"
+    },
+    {
+      "id": "knowledge-research-lady-identity",
+      "path": "cards/entities/knowledge-research-lady-identity.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor-lady-of-the-wood",
+        "actor-snowfall-at-dusk",
+        "situation-forbidden-love"
+      ],
+      "source_pages": [
+        9
+      ],
+      "title": "Research Fact: Identity of the Lady of the Wood"
+    },
+    {
+      "id": "knowledge-research-ring",
+      "path": "cards/entities/knowledge-research-ring.md",
+      "record_type": "knowledge",
+      "references": [
+        "effect-ring-of-soul-binding",
+        "item-ring-of-soul-binding"
+      ],
+      "source_pages": [
+        9
+      ],
+      "title": "Research Fact: Sir Chyde's Ring"
+    },
+    {
+      "id": "knowledge-research-tomb-sealing",
+      "path": "cards/entities/knowledge-research-tomb-sealing.md",
+      "record_type": "knowledge",
+      "references": [
+        "location-sir-chyde-tomb",
+        "situation-tomb-sealing"
+      ],
+      "source_pages": [
+        9
+      ],
+      "title": "Research Fact: Why the Tomb Was Sealed"
+    },
+    {
+      "id": "knowledge-ring-theft-complication",
+      "path": "cards/entities/knowledge-ring-theft-complication.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor-sir-chyde",
+        "item-ring-of-soul-binding",
+        "procedure-tomb-robbers-mission"
+      ],
+      "source_pages": [
+        8
+      ],
+      "title": "Complication of Stealing the Ring"
+    },
+    {
+      "id": "knowledge-sir-chyde-and-imprisoned-princess",
+      "path": "cards/entities/knowledge-sir-chyde-and-imprisoned-princess.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor-ghost-of-sir-chyde",
+        "location-area-06-blindfolded-statue",
+        "location-area-07-freezing-mirror",
+        "location-area-14-warded-pool",
+        "procedure-fulfill-sir-chydes-request"
+      ],
+      "source_pages": [
+        19
+      ],
+      "title": "Sir Chyde’s knowledge of Fairy"
+    },
+    {
+      "id": "knowledge-two-realms",
+      "path": "cards/entities/knowledge-two-realms.md",
+      "record_type": "knowledge",
+      "references": [
+        "location-dolmenwood",
+        "location-door-to-fairy",
+        "location-fairy"
+      ],
+      "source_pages": [
+        10
+      ],
+      "title": "The Mortal World and Fairy"
+    },
+    {
+      "id": "knowledge-warded-pool-warped-reality",
+      "path": "cards/entities/knowledge-warded-pool-warped-reality.md",
+      "record_type": "knowledge",
+      "references": [
+        "knowledge-area-13-tomb-goods",
+        "location-area-14-warded-pool"
+      ],
+      "source_pages": [
+        20
+      ],
+      "title": "Warped reality at the Warded Pool"
+    },
+    {
+      "id": "knowledge-whything-stone-runes",
+      "path": "cards/entities/knowledge-whything-stone-runes.md",
+      "record_type": "knowledge",
+      "references": [
+        "location-whything-stones"
+      ],
+      "source_pages": [
+        12
+      ],
+      "title": "Runes and Hidden Carvings at the Whything Stones"
+    },
+    {
+      "id": "knowledge.area17.awaiting-sir-chyde",
+      "path": "cards/entities/knowledge.area17.awaiting-sir-chyde.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor.frost-elf-cooks",
+        "actor.princess-snowfall-at-dusk",
+        "procedure.princess-plea.retrieve-ring"
+      ],
+      "source_pages": [
+        23
+      ],
+      "title": "The Feast Awaits Sir Chyde"
+    },
+    {
+      "id": "knowledge.dolmenwood-goblins",
+      "path": "cards/entities/knowledge.dolmenwood-goblins.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor.griddlegrim"
+      ],
+      "source_pages": [
+        22
+      ],
+      "title": "Dolmenwood Goblin Lore"
+    },
+    {
+      "id": "knowledge.dolmenwood-trolls",
+      "path": "cards/entities/knowledge.dolmenwood-trolls.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor.grimmlegridge"
+      ],
+      "source_pages": [
+        22
+      ],
+      "title": "Dolmenwood Troll Lore"
+    },
+    {
+      "id": "knowledge.epilogue.ban-persists",
+      "path": "cards/entities/knowledge.epilogue.ban-persists.md",
+      "record_type": "knowledge",
+      "references": [
+        "knowledge.princess.magical-ban",
+        "situation.epilogue.lovers-reunited"
+      ],
+      "source_pages": [
+        25
+      ],
+      "title": "Reunion Does Not Break the Princess’s Ban"
+    },
+    {
+      "id": "knowledge.epilogue.future-contact",
+      "path": "cards/entities/knowledge.epilogue.future-contact.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor.princess-snowfall-at-dusk",
+        "knowledge.epilogue.ban-persists"
+      ],
+      "source_pages": [
+        25
+      ],
+      "title": "Possible Future Plea from the Lovers"
+    },
+    {
+      "id": "knowledge.frigia-door.cold-prince",
+      "path": "cards/entities/knowledge.frigia-door.cold-prince.md",
+      "record_type": "knowledge",
+      "references": [
+        "location.frigia.doorway-from-dolmenwood"
+      ],
+      "source_pages": [
+        25
+      ],
+      "title": "The Cold Prince’s Interest in the Door"
+    },
+    {
+      "id": "knowledge.frigia-door.wards",
+      "path": "cards/entities/knowledge.frigia-door.wards.md",
+      "record_type": "knowledge",
+      "references": [
+        "location.frigia.doorway-from-dolmenwood",
+        "procedure.area15.dispel-candle-ward"
+      ],
+      "source_pages": [
+        25
+      ],
+      "title": "Wards Between the Tomb and Frigia"
+    },
+    {
+      "id": "knowledge.princess.magical-ban",
+      "path": "cards/entities/knowledge.princess.magical-ban.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor.princess-snowfall-at-dusk",
+        "item.ring-of-soul-binding",
+        "knowledge.epilogue.ban-persists",
+        "location.area15.wintry-glade"
+      ],
+      "source_pages": [
+        24
+      ],
+      "title": "The Princess’s Magical Ban"
+    },
+    {
+      "id": "knowledge.princess.sir-chyde",
+      "path": "cards/entities/knowledge.princess.sir-chyde.md",
+      "record_type": "knowledge",
+      "references": [
+        "actor.princess-snowfall-at-dusk",
+        "location.area15.warded-paths",
+        "procedure.princess-plea.retrieve-ring"
+      ],
+      "source_pages": [
+        24
+      ],
+      "title": "Princess Snowfall-at-Dusk’s Knowledge of Sir Chyde"
+    },
+    {
+      "id": "location-approaching-the-burial-mound",
+      "path": "cards/entities/location-approaching-the-burial-mound.md",
+      "record_type": "location",
+      "references": [
+        "location-sir-chyde-tomb",
+        "location-whything-stones",
+        "situation-twisted-trees-close-the-way"
+      ],
+      "source_pages": [
+        11
+      ],
+      "title": "Approaching the Burial Mound"
+    },
+    {
+      "id": "location-area-03-tomb-entrance",
+      "path": "cards/entities/location-area-03-tomb-entrance.md",
+      "record_type": "location",
+      "references": [
+        "procedure-examine-tomb-entrance-stairs",
+        "procedure-open-tomb-entrance-slab"
+      ],
+      "source_pages": [
+        13
+      ],
+      "title": "3. Tomb Entrance"
+    },
+    {
+      "id": "location-area-04-worm-hole",
+      "path": "cards/entities/location-area-04-worm-hole.md",
+      "record_type": "location",
+      "references": [
+        "actor-wormtongues",
+        "procedure-examine-worm-hole-slime",
+        "procedure-investigate-worm-hole"
+      ],
+      "source_pages": [
+        13
+      ],
+      "title": "4. Worm Hole"
+    },
+    {
+      "id": "location-area-05-hall-of-guardians",
+      "path": "cards/entities/location-area-05-hall-of-guardians.md",
+      "record_type": "location",
+      "references": [
+        "actor-religious-objects",
+        "knowledge-hall-of-guardians-mosaic-and-drag-marks",
+        "procedure-reveal-hall-of-guardians-mosaic",
+        "situation-religious-objects-animate"
+      ],
+      "source_pages": [
+        14
+      ],
+      "title": "5. Hall of Guardians"
+    },
+    {
+      "id": "location-area-06-blindfolded-statue",
+      "path": "cards/entities/location-area-06-blindfolded-statue.md",
+      "record_type": "location",
+      "references": [
+        "location-area-14-warded-pool",
+        "procedure-illuminate-stairs-to-area-14",
+        "procedure-remove-statue-blindfold"
+      ],
+      "source_pages": [
+        15
+      ],
+      "title": "6. Blindfolded Statue"
+    },
+    {
+      "id": "location-area-07-freezing-mirror",
+      "path": "cards/entities/location-area-07-freezing-mirror.md",
+      "record_type": "location",
+      "references": [
+        "knowledge-freezing-mirror-properties",
+        "location-area-05-hall-of-guardians",
+        "location-area-14-warded-pool",
+        "procedure-counter-freezing-mirror",
+        "procedure-illuminate-stairs-to-area-14",
+        "situation-freezing-mirror-effect"
+      ],
+      "source_pages": [
+        15
+      ],
+      "title": "7. Freezing Mirror"
+    },
+    {
+      "id": "location-area-08-family-crypt",
+      "path": "cards/entities/location-area-08-family-crypt.md",
+      "record_type": "location",
+      "references": [
+        "actor-floating-skeletons",
+        "procedure-inspect-family-crypt-fissure",
+        "situation-family-crypt-coffer-disturbance",
+        "situation-family-crypt-fissure-transit",
+        "situation-family-crypt-slime-contact",
+        "table-family-crypt-brass-plaques",
+        "table-family-crypt-coffer-contents"
+      ],
+      "source_pages": [
+        16
+      ],
+      "title": "8. Family Crypt"
+    },
+    {
+      "id": "location-area-09-chapel-of-st-sedge",
+      "path": "cards/entities/location-area-09-chapel-of-st-sedge.md",
+      "record_type": "location",
+      "references": [
+        "knowledge-chapel-of-st-sedge-tapestry",
+        "procedure-light-st-sedge-candle"
+      ],
+      "source_pages": [
+        17
+      ],
+      "title": "9. Chapel of St Sedge"
+    },
+    {
+      "id": "location-area-10-abandoned-priests-quarters",
+      "path": "cards/entities/location-area-10-abandoned-priests-quarters.md",
+      "record_type": "location",
+      "references": [
+        "actor-wormtongues",
+        "knowledge-flaegr-poem",
+        "knowledge-priests-cache-contents",
+        "procedure-find-priests-cache",
+        "procedure-use-priests-quarters-tunnel",
+        "situation-priests-cache-poison-trap",
+        "situation-wormtongues-disturbed"
+      ],
+      "source_pages": [
+        17
+      ],
+      "title": "10. Abandoned Priest’s Quarters"
+    },
+    {
+      "id": "location-area-11-statues-with-weapons",
+      "path": "cards/entities/location-area-11-statues-with-weapons.md",
+      "record_type": "location",
+      "references": [
+        "knowledge-area-11-battle-mural",
+        "knowledge-area-11-statue-weapons",
+        "procedure-clear-area-11-mould",
+        "situation-area-11-mould-spores"
+      ],
+      "source_pages": [
+        18
+      ],
+      "title": "11. Statues With Weapons"
+    },
+    {
+      "id": "location-area-12-hall-of-hounds",
+      "path": "cards/entities/location-area-12-hall-of-hounds.md",
+      "record_type": "location",
+      "references": [
+        "actor-stone-hounds",
+        "procedure-open-hall-of-hounds-doors",
+        "situation-hall-of-hounds-door-touch"
+      ],
+      "source_pages": [
+        18
+      ],
+      "title": "12. Hall of Hounds"
+    },
+    {
+      "id": "location-area-13-knights-tomb",
+      "path": "cards/entities/location-area-13-knights-tomb.md",
+      "record_type": "location",
+      "references": [
+        "actor-ghost-of-sir-chyde",
+        "knowledge-area-13-tomb-goods",
+        "knowledge-sir-chyde-and-imprisoned-princess",
+        "procedure-fulfill-sir-chydes-request",
+        "situation-sir-chydes-ring-crushed",
+        "situation-sir-chydes-ring-removed"
+      ],
+      "source_pages": [
+        19
+      ],
+      "title": "13. The Knight’s Tomb"
+    },
+    {
+      "id": "location-area-14-warded-pool",
+      "path": "cards/entities/location-area-14-warded-pool.md",
+      "record_type": "location",
+      "references": [
+        "knowledge-warded-pool-warped-reality",
+        "procedure-cross-candle-ward",
+        "procedure-dispel-candle-ward",
+        "procedure-return-through-candle-ward",
+        "situation-fairy-characters-sense-the-ward"
+      ],
+      "source_pages": [
+        20
+      ],
+      "title": "14. Warded Pool"
+    },
+    {
+      "id": "location-chapel-of-st-sedge",
+      "path": "cards/entities/location-chapel-of-st-sedge.md",
+      "record_type": "location",
+      "references": [
+        "actor-st-sedge",
+        "location-sir-chyde-tomb"
+      ],
+      "source_pages": [
+        7
+      ],
+      "title": "Chapel of St Sedge"
+    },
+    {
+      "id": "location-dolmenwood",
+      "path": "cards/entities/location-dolmenwood.md",
+      "record_type": "location",
+      "references": [
+        "location-fairy",
+        "procedure-place-adventure-in-dolmenwood"
+      ],
+      "source_pages": [
+        5,
+        10
+      ],
+      "title": "Dolmenwood"
+    },
+    {
+      "id": "location-door-to-fairy",
+      "path": "cards/entities/location-door-to-fairy.md",
+      "record_type": "location",
+      "references": [
+        "item-ring-of-soul-binding",
+        "location-fairy",
+        "location-sir-chyde-tomb"
+      ],
+      "source_pages": [
+        8
+      ],
+      "title": "Lower-Level Door to Fairy"
+    },
+    {
+      "id": "location-fairy",
+      "path": "cards/entities/location-fairy.md",
+      "record_type": "location",
+      "references": [
+        "actor-fairies",
+        "knowledge-two-realms",
+        "location-dolmenwood"
+      ],
+      "source_pages": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "title": "Fairy"
+    },
+    {
+      "id": "location-high-wold",
+      "path": "cards/entities/location-high-wold.md",
+      "record_type": "location",
+      "references": [
+        "actor-sir-chyde",
+        "situation-sir-chyde-death-and-burial"
+      ],
+      "source_pages": [
+        7,
+        9
+      ],
+      "title": "The High Wold"
+    },
+    {
+      "id": "location-iron-owls",
+      "path": "cards/entities/location-iron-owls.md",
+      "record_type": "location",
+      "references": [
+        "actor-drune",
+        "location-whything-stones",
+        "situation-touching-an-iron-owl"
+      ],
+      "source_pages": [
+        12
+      ],
+      "title": "Thirteen Iron Owls"
+    },
+    {
+      "id": "location-outside-the-mound",
+      "path": "cards/entities/location-outside-the-mound.md",
+      "record_type": "location",
+      "references": [
+        "location-sir-chyde-tomb",
+        "procedure-check-outside-mound-events",
+        "table-outside-mound-random-events"
+      ],
+      "source_pages": [
+        11
+      ],
+      "title": "Outside the Mound"
+    },
+    {
+      "id": "location-sir-chyde-tomb",
+      "path": "cards/entities/location-sir-chyde-tomb.md",
+      "record_type": "location",
+      "references": [
+        "location-chapel-of-st-sedge",
+        "location-whything-stones",
+        "situation-tomb-sealing"
+      ],
+      "source_pages": [
+        7,
+        8,
+        9,
+        11
+      ],
+      "title": "Sir Chyde's Tomb"
+    },
+    {
+      "id": "location-whything-stones",
+      "path": "cards/entities/location-whything-stones.md",
+      "record_type": "location",
+      "references": [
+        "actor-drune",
+        "knowledge-whything-stone-runes",
+        "situation-forbidden-love"
+      ],
+      "source_pages": [
+        6,
+        7,
+        12
+      ],
+      "title": "The Whything Stones"
+    },
+    {
+      "id": "location.area15.frozen-lake",
+      "path": "cards/entities/location.area15.frozen-lake.md",
+      "record_type": "location",
+      "references": [
+        "location.area15.white-marble-tower",
+        "location.area15.wintry-glade"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "Frozen Lake"
+    },
+    {
+      "id": "location.area15.hoar-clad-forest",
+      "path": "cards/entities/location.area15.hoar-clad-forest.md",
+      "record_type": "location",
+      "references": [
+        "actor.grimmlegridge",
+        "procedure.area15.wander-forest"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "Hoar-Clad Forest"
+    },
+    {
+      "id": "location.area15.purple-sky-crack",
+      "path": "cards/entities/location.area15.purple-sky-crack.md",
+      "record_type": "location",
+      "references": [
+        "location.area15.wintry-glade"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "Purple Crack in the Sky"
+    },
+    {
+      "id": "location.area15.warded-paths",
+      "path": "cards/entities/location.area15.warded-paths.md",
+      "record_type": "location",
+      "references": [
+        "procedure.area15.dispel-candle-ward",
+        "procedure.area15.pass-candle-ward"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "Paths into the Forest"
+    },
+    {
+      "id": "location.area15.white-marble-tower",
+      "path": "cards/entities/location.area15.white-marble-tower.md",
+      "record_type": "location",
+      "references": [
+        "location.area15.frozen-lake",
+        "location.area16.entrance-hall"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "White Marble Tower"
+    },
+    {
+      "id": "location.area15.wintry-glade",
+      "path": "cards/entities/location.area15.wintry-glade.md",
+      "record_type": "location",
+      "references": [
+        "location.area15.frozen-lake",
+        "location.area15.hoar-clad-forest",
+        "location.area15.purple-sky-crack",
+        "location.area15.white-marble-tower"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "Wintry Glade"
+    },
+    {
+      "id": "location.area16.entrance-hall",
+      "path": "cards/entities/location.area16.entrance-hall.md",
+      "record_type": "location",
+      "references": [
+        "actor.griddlegrim",
+        "actor.grimmlegridge",
+        "location.area17.fairy-kitchen",
+        "location.area18.wedding-feast"
+      ],
+      "source_pages": [
+        22
+      ],
+      "title": "Entrance Hall"
+    },
+    {
+      "id": "location.area17.fairy-kitchen",
+      "path": "cards/entities/location.area17.fairy-kitchen.md",
+      "record_type": "location",
+      "references": [
+        "actor.frost-elf-cooks",
+        "procedure.area17.raid-pantry"
+      ],
+      "source_pages": [
+        23
+      ],
+      "title": "Fairy Kitchen"
+    },
+    {
+      "id": "location.area18.wedding-feast",
+      "path": "cards/entities/location.area18.wedding-feast.md",
+      "record_type": "location",
+      "references": [
+        "actor.frost-elf-guards-and-knights",
+        "actor.frost-elf-nobles",
+        "procedure.area18.eat-fairy-feast"
+      ],
+      "source_pages": [
+        23
+      ],
+      "title": "Wedding Feast"
+    },
+    {
+      "id": "location.area19.princess-bedchamber",
+      "path": "cards/entities/location.area19.princess-bedchamber.md",
+      "record_type": "location",
+      "references": [
+        "actor.princess-snowfall-at-dusk",
+        "item.fairy-silver-necklaces",
+        "item.fur-coats",
+        "item.hoarfrost-sapphire-brooch",
+        "item.ice-jewels",
+        "item.scintillating-gowns"
+      ],
+      "source_pages": [
+        24
+      ],
+      "title": "The Princess’s Bedchamber"
+    },
+    {
+      "id": "location.frigia.doorway-from-dolmenwood",
+      "path": "cards/entities/location.frigia.doorway-from-dolmenwood.md",
+      "record_type": "location",
+      "references": [
+        "item.ring-of-soul-binding",
+        "knowledge.frigia-door.cold-prince",
+        "knowledge.frigia-door.wards"
+      ],
+      "source_pages": [
+        25
+      ],
+      "title": "A Door to Frigia"
+    },
+    {
+      "id": "procedure-adapt-adventure-to-other-settings",
+      "path": "cards/entities/procedure-adapt-adventure-to-other-settings.md",
+      "record_type": "procedure",
+      "references": [
+        "actor-cold-prince",
+        "location-whything-stones"
+      ],
+      "source_pages": [
+        5
+      ],
+      "title": "Adapt the Adventure to Another Setting"
+    },
+    {
+      "id": "procedure-check-outside-mound-events",
+      "path": "cards/entities/procedure-check-outside-mound-events.md",
+      "record_type": "procedure",
+      "references": [
+        "location-outside-the-mound",
+        "table-outside-mound-random-events"
+      ],
+      "source_pages": [
+        11
+      ],
+      "title": "Check Random Events Outside the Mound"
+    },
+    {
+      "id": "procedure-clear-area-11-mould",
+      "path": "cards/entities/procedure-clear-area-11-mould.md",
+      "record_type": "procedure",
+      "references": [
+        "knowledge-area-11-battle-mural",
+        "knowledge-area-11-statue-weapons",
+        "location-area-11-statues-with-weapons",
+        "situation-area-11-mould-spores"
+      ],
+      "source_pages": [
+        18
+      ],
+      "title": "Clear mould from the battle mural"
+    },
+    {
+      "id": "procedure-counter-freezing-mirror",
+      "path": "cards/entities/procedure-counter-freezing-mirror.md",
+      "record_type": "procedure",
+      "references": [
+        "location-area-07-freezing-mirror",
+        "situation-freezing-mirror-effect"
+      ],
+      "source_pages": [
+        15
+      ],
+      "title": "Bypass or reverse the freezing mirror"
+    },
+    {
+      "id": "procedure-cross-candle-ward",
+      "path": "cards/entities/procedure-cross-candle-ward.md",
+      "record_type": "procedure",
+      "references": [
+        "location-area-06-blindfolded-statue",
+        "location-area-07-freezing-mirror",
+        "location-area-14-warded-pool"
+      ],
+      "source_pages": [
+        20
+      ],
+      "title": "Pass through the candle ward into Fairy"
+    },
+    {
+      "id": "procedure-deeper-investigation",
+      "path": "cards/entities/procedure-deeper-investigation.md",
+      "record_type": "procedure",
+      "references": [
+        "knowledge-research-grave-goods",
+        "knowledge-research-lady-identity",
+        "knowledge-research-ring",
+        "knowledge-research-tomb-sealing"
+      ],
+      "source_pages": [
+        9
+      ],
+      "title": "Research the True Story"
+    },
+    {
+      "id": "procedure-dispel-candle-ward",
+      "path": "cards/entities/procedure-dispel-candle-ward.md",
+      "record_type": "procedure",
+      "references": [
+        "location-area-14-warded-pool"
+      ],
+      "source_pages": [
+        20
+      ],
+      "title": "Dispel the candle ward"
+    },
+    {
+      "id": "procedure-examine-tomb-entrance-stairs",
+      "path": "cards/entities/procedure-examine-tomb-entrance-stairs.md",
+      "record_type": "procedure",
+      "references": [
+        "location-area-03-tomb-entrance"
+      ],
+      "source_pages": [
+        13
+      ],
+      "title": "Examine the stairs into the mound"
+    },
+    {
+      "id": "procedure-examine-worm-hole-slime",
+      "path": "cards/entities/procedure-examine-worm-hole-slime.md",
+      "record_type": "procedure",
+      "references": [
+        "actor-wormtongues",
+        "location-area-04-worm-hole"
+      ],
+      "source_pages": [
+        13
+      ],
+      "title": "Examine the worm-hole slime trails"
+    },
+    {
+      "id": "procedure-find-priests-cache",
+      "path": "cards/entities/procedure-find-priests-cache.md",
+      "record_type": "procedure",
+      "references": [
+        "knowledge-priests-cache-contents",
+        "location-area-10-abandoned-priests-quarters",
+        "situation-priests-cache-poison-trap"
+      ],
+      "source_pages": [
+        17
+      ],
+      "title": "Find the cache beneath the loose flagstone"
+    },
+    {
+      "id": "procedure-follow-the-ladys-dreams",
+      "path": "cards/entities/procedure-follow-the-ladys-dreams.md",
+      "record_type": "procedure",
+      "references": [
+        "item-ring-of-soul-binding",
+        "location-door-to-fairy",
+        "location-sir-chyde-tomb",
+        "situation-hook-dreams-of-the-lady"
+      ],
+      "source_pages": [
+        8
+      ],
+      "title": "Follow the Lady's Dream Instructions"
+    },
+    {
+      "id": "procedure-fulfill-sir-chydes-request",
+      "path": "cards/entities/procedure-fulfill-sir-chydes-request.md",
+      "record_type": "procedure",
+      "references": [
+        "actor-ghost-of-sir-chyde",
+        "knowledge-sir-chyde-and-imprisoned-princess",
+        "location-area-13-knights-tomb",
+        "location-area-14-warded-pool",
+        "situation-sir-chydes-ring-removed"
+      ],
+      "source_pages": [
+        19
+      ],
+      "title": "Carry Sir Chyde’s ring toward his beloved"
+    },
+    {
+      "id": "procedure-illuminate-stairs-to-area-14",
+      "path": "cards/entities/procedure-illuminate-stairs-to-area-14.md",
+      "record_type": "procedure",
+      "references": [
+        "location-area-06-blindfolded-statue",
+        "location-area-07-freezing-mirror",
+        "location-area-14-warded-pool"
+      ],
+      "source_pages": [
+        15
+      ],
+      "title": "Illuminate the stairs to area 14"
+    },
+    {
+      "id": "procedure-inspect-family-crypt-fissure",
+      "path": "cards/entities/procedure-inspect-family-crypt-fissure.md",
+      "record_type": "procedure",
+      "references": [
+        "location-area-08-family-crypt",
+        "situation-family-crypt-fissure-transit"
+      ],
+      "source_pages": [
+        16
+      ],
+      "title": "Look into the family-crypt fissure"
+    },
+    {
+      "id": "procedure-investigate-the-inheritance",
+      "path": "cards/entities/procedure-investigate-the-inheritance.md",
+      "record_type": "procedure",
+      "references": [
+        "actor-brigford-the-wise",
+        "item-ring-of-soul-binding",
+        "location-door-to-fairy",
+        "location-sir-chyde-tomb",
+        "situation-hook-inheritance"
+      ],
+      "source_pages": [
+        8
+      ],
+      "title": "Investigate the Inherited Charter"
+    },
+    {
+      "id": "procedure-investigate-worm-hole",
+      "path": "cards/entities/procedure-investigate-worm-hole.md",
+      "record_type": "procedure",
+      "references": [
+        "actor-wormtongues",
+        "location-area-04-worm-hole",
+        "location-area-10-abandoned-priests-quarters"
+      ],
+      "source_pages": [
+        13
+      ],
+      "title": "Investigate or enter the worm hole"
+    },
+    {
+      "id": "procedure-light-st-sedge-candle",
+      "path": "cards/entities/procedure-light-st-sedge-candle.md",
+      "record_type": "procedure",
+      "references": [
+        "location-area-09-chapel-of-st-sedge"
+      ],
+      "source_pages": [
+        17
+      ],
+      "title": "Light St Sedge’s candle"
+    },
+    {
+      "id": "procedure-open-hall-of-hounds-doors",
+      "path": "cards/entities/procedure-open-hall-of-hounds-doors.md",
+      "record_type": "procedure",
+      "references": [
+        "knowledge-area-11-battle-mural",
+        "knowledge-flaegr-poem",
+        "location-area-12-hall-of-hounds"
+      ],
+      "source_pages": [
+        18
+      ],
+      "title": "Answer the Hall of Hounds riddle"
+    },
+    {
+      "id": "procedure-open-tomb-entrance-slab",
+      "path": "cards/entities/procedure-open-tomb-entrance-slab.md",
+      "record_type": "procedure",
+      "references": [
+        "location-area-03-tomb-entrance"
+      ],
+      "source_pages": [
+        13
+      ],
+      "title": "Open the tomb entrance slab"
+    },
+    {
+      "id": "procedure-place-adventure-in-dolmenwood",
+      "path": "cards/entities/procedure-place-adventure-in-dolmenwood.md",
+      "record_type": "procedure",
+      "references": [
+        "location-dolmenwood"
+      ],
+      "source_pages": [
+        5
+      ],
+      "title": "Place the Adventure in Dolmenwood"
+    },
+    {
+      "id": "procedure-remove-statue-blindfold",
+      "path": "cards/entities/procedure-remove-statue-blindfold.md",
+      "record_type": "procedure",
+      "references": [
+        "location-area-06-blindfolded-statue"
+      ],
+      "source_pages": [
+        15
+      ],
+      "title": "Remove the blindfold from the maiden statue"
+    },
+    {
+      "id": "procedure-return-through-candle-ward",
+      "path": "cards/entities/procedure-return-through-candle-ward.md",
+      "record_type": "procedure",
+      "references": [
+        "location-area-14-warded-pool",
+        "procedure-cross-candle-ward"
+      ],
+      "source_pages": [
+        20
+      ],
+      "title": "Return through the candle ward"
+    },
+    {
+      "id": "procedure-reveal-hall-of-guardians-mosaic",
+      "path": "cards/entities/procedure-reveal-hall-of-guardians-mosaic.md",
+      "record_type": "procedure",
+      "references": [
+        "knowledge-hall-of-guardians-mosaic-and-drag-marks",
+        "location-area-05-hall-of-guardians"
+      ],
+      "source_pages": [
+        14
+      ],
+      "title": "Reveal the Hall of Guardians mosaic"
+    },
+    {
+      "id": "procedure-tomb-robbers-mission",
+      "path": "cards/entities/procedure-tomb-robbers-mission.md",
+      "record_type": "procedure",
+      "references": [
+        "actor-wizard-patron",
+        "item-ring-of-soul-binding",
+        "knowledge-ring-theft-complication",
+        "location-sir-chyde-tomb"
+      ],
+      "source_pages": [
+        8
+      ],
+      "title": "Recover the Ring for the Wizard"
+    },
+    {
+      "id": "procedure-use-priests-quarters-tunnel",
+      "path": "cards/entities/procedure-use-priests-quarters-tunnel.md",
+      "record_type": "procedure",
+      "references": [
+        "actor-wormtongues",
+        "location-area-04-worm-hole",
+        "location-area-10-abandoned-priests-quarters"
+      ],
+      "source_pages": [
+        17
+      ],
+      "title": "Crawl through the priest’s-quarters tunnel"
+    },
+    {
+      "id": "procedure.area15.dispel-candle-ward",
+      "path": "cards/entities/procedure.area15.dispel-candle-ward.md",
+      "record_type": "procedure",
+      "references": [
+        "knowledge.frigia-door.wards",
+        "location.area15.warded-paths"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "Dispel the Ghostly Candle Ward"
+    },
+    {
+      "id": "procedure.area15.pass-candle-ward",
+      "path": "cards/entities/procedure.area15.pass-candle-ward.md",
+      "record_type": "procedure",
+      "references": [
+        "location.area15.warded-paths"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "Pass Through the Ghostly Candle Ward"
+    },
+    {
+      "id": "procedure.area15.wander-forest",
+      "path": "cards/entities/procedure.area15.wander-forest.md",
+      "record_type": "procedure",
+      "references": [
+        "location.area15.hoar-clad-forest"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "Wander in the Hoar-Clad Forest"
+    },
+    {
+      "id": "procedure.area16.gain-entry",
+      "path": "cards/entities/procedure.area16.gain-entry.md",
+      "record_type": "procedure",
+      "references": [
+        "actor.griddlegrim",
+        "item.pouch-of-limitless-fungi",
+        "table.pouch.random-shroom-effects"
+      ],
+      "source_pages": [
+        22
+      ],
+      "title": "Gain Entry to the Wedding"
+    },
+    {
+      "id": "procedure.area17.help-cooks",
+      "path": "cards/entities/procedure.area17.help-cooks.md",
+      "record_type": "procedure",
+      "references": [
+        "actor.frost-elf-cooks",
+        "location.area18.wedding-feast"
+      ],
+      "source_pages": [
+        23
+      ],
+      "title": "Help the Frost Elf Cooks"
+    },
+    {
+      "id": "procedure.area17.raid-pantry",
+      "path": "cards/entities/procedure.area17.raid-pantry.md",
+      "record_type": "procedure",
+      "references": [
+        "location.area17.fairy-kitchen"
+      ],
+      "source_pages": [
+        23
+      ],
+      "title": "Raid the Fairy Pantry"
+    },
+    {
+      "id": "procedure.area18.eat-fairy-feast",
+      "path": "cards/entities/procedure.area18.eat-fairy-feast.md",
+      "record_type": "procedure",
+      "references": [
+        "location.area18.wedding-feast"
+      ],
+      "source_pages": [
+        23
+      ],
+      "title": "Eat or Drink at the Fairy Feast"
+    },
+    {
+      "id": "procedure.area18.escort-uninvited-guests",
+      "path": "cards/entities/procedure.area18.escort-uninvited-guests.md",
+      "record_type": "procedure",
+      "references": [
+        "actor.frost-elf-guards-and-knights",
+        "actor.princess-snowfall-at-dusk",
+        "location.area19.princess-bedchamber"
+      ],
+      "source_pages": [
+        23
+      ],
+      "title": "Escort Uninvited Guests to the Princess"
+    },
+    {
+      "id": "procedure.epilogue.end-haunting",
+      "path": "cards/entities/procedure.epilogue.end-haunting.md",
+      "record_type": "procedure",
+      "references": [
+        "effect.ring.unbinding",
+        "situation.epilogue.ring-stolen"
+      ],
+      "source_pages": [
+        25
+      ],
+      "title": "End Sir Chyde’s Haunting"
+    },
+    {
+      "id": "procedure.princess-plea.retrieve-ring",
+      "path": "cards/entities/procedure.princess-plea.retrieve-ring.md",
+      "record_type": "procedure",
+      "references": [
+        "actor.princess-snowfall-at-dusk",
+        "item.ring-of-soul-binding",
+        "situation.epilogue.lovers-reunited"
+      ],
+      "source_pages": [
+        24
+      ],
+      "title": "Fulfil the Princess’s Plea"
+    },
+    {
+      "id": "rule-level-range-and-challenge",
+      "path": "cards/reference/rule-level-range-and-challenge.md",
+      "record_type": "rule",
+      "references": [],
+      "source_pages": [
+        5
+      ],
+      "title": "Character Levels and Encounter Approach"
+    },
+    {
+      "id": "rule-pure-iron",
+      "path": "cards/reference/rule-pure-iron.md",
+      "record_type": "rule",
+      "references": [
+        "actor-fairies"
+      ],
+      "source_pages": [
+        10
+      ],
+      "title": "Pure Iron Against Fairies"
+    },
+    {
+      "id": "rule-silver-sickness",
+      "path": "cards/reference/rule-silver-sickness.md",
+      "record_type": "rule",
+      "references": [
+        "actor-fairies",
+        "location-fairy"
+      ],
+      "source_pages": [
+        10
+      ],
+      "title": "Silver Sickness"
+    },
+    {
+      "id": "rule-supported-rulesets",
+      "path": "cards/reference/rule-supported-rulesets.md",
+      "record_type": "rule",
+      "references": [],
+      "source_pages": [
+        5
+      ],
+      "title": "Supported Rulesets"
+    },
+    {
+      "id": "situation-area-11-mould-spores",
+      "path": "cards/entities/situation-area-11-mould-spores.md",
+      "record_type": "situation",
+      "references": [
+        "location-area-11-statues-with-weapons",
+        "procedure-clear-area-11-mould"
+      ],
+      "source_pages": [
+        18
+      ],
+      "title": "Disturbed mould releases choking spores"
+    },
+    {
+      "id": "situation-cold-prince-campaign-arc",
+      "path": "cards/entities/situation-cold-prince-campaign-arc.md",
+      "record_type": "situation",
+      "references": [
+        "actor-cold-prince",
+        "situation-cold-prince-defeat"
+      ],
+      "source_pages": [
+        5
+      ],
+      "title": "Cold Prince Campaign Arc"
+    },
+    {
+      "id": "situation-cold-prince-defeat",
+      "path": "cards/entities/situation-cold-prince-defeat.md",
+      "record_type": "situation",
+      "references": [
+        "actor-cold-prince",
+        "location-fairy"
+      ],
+      "source_pages": [
+        6,
+        9
+      ],
+      "title": "Defeat and Exile of the Cold Prince"
+    },
+    {
+      "id": "situation-fairy-characters-sense-the-ward",
+      "path": "cards/entities/situation-fairy-characters-sense-the-ward.md",
+      "record_type": "situation",
+      "references": [
+        "knowledge-warded-pool-warped-reality",
+        "location-area-14-warded-pool"
+      ],
+      "source_pages": [
+        20
+      ],
+      "title": "Fairy characters sense the ageless realm"
+    },
+    {
+      "id": "situation-family-crypt-coffer-disturbance",
+      "path": "cards/entities/situation-family-crypt-coffer-disturbance.md",
+      "record_type": "situation",
+      "references": [
+        "actor-floating-skeletons",
+        "location-area-08-family-crypt"
+      ],
+      "source_pages": [
+        16
+      ],
+      "title": "The dancing skeletons defend the coffers"
+    },
+    {
+      "id": "situation-family-crypt-fissure-transit",
+      "path": "cards/entities/situation-family-crypt-fissure-transit.md",
+      "record_type": "situation",
+      "references": [
+        "location-area-08-family-crypt",
+        "procedure-inspect-family-crypt-fissure"
+      ],
+      "source_pages": [
+        16
+      ],
+      "title": "The fissure transports descendents into Fairy"
+    },
+    {
+      "id": "situation-family-crypt-slime-contact",
+      "path": "cards/entities/situation-family-crypt-slime-contact.md",
+      "record_type": "situation",
+      "references": [
+        "actor-floating-skeletons",
+        "location-area-08-family-crypt"
+      ],
+      "source_pages": [
+        16
+      ],
+      "title": "The slime vapour removes weight"
+    },
+    {
+      "id": "situation-forbidden-love",
+      "path": "cards/entities/situation-forbidden-love.md",
+      "record_type": "situation",
+      "references": [
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk",
+        "item-portrait-the-lady-of-the-wood",
+        "item-ring-of-soul-binding",
+        "location-whything-stones"
+      ],
+      "source_pages": [
+        6
+      ],
+      "title": "Forbidden Love of Mortal and Fairy"
+    },
+    {
+      "id": "situation-freezing-mirror-effect",
+      "path": "cards/entities/situation-freezing-mirror-effect.md",
+      "record_type": "situation",
+      "references": [
+        "location-area-07-freezing-mirror",
+        "procedure-counter-freezing-mirror"
+      ],
+      "source_pages": [
+        15
+      ],
+      "title": "The freezing mirror immobilizes passersby"
+    },
+    {
+      "id": "situation-hall-of-hounds-door-touch",
+      "path": "cards/entities/situation-hall-of-hounds-door-touch.md",
+      "record_type": "situation",
+      "references": [
+        "actor-stone-hounds",
+        "location-area-12-hall-of-hounds",
+        "procedure-open-hall-of-hounds-doors"
+      ],
+      "source_pages": [
+        18
+      ],
+      "title": "Unanswered door contact animates the hounds"
+    },
+    {
+      "id": "situation-hook-dreams-of-the-lady",
+      "path": "cards/entities/situation-hook-dreams-of-the-lady.md",
+      "record_type": "situation",
+      "references": [
+        "actor-snowfall-at-dusk",
+        "procedure-follow-the-ladys-dreams"
+      ],
+      "source_pages": [
+        8
+      ],
+      "title": "Hook: Dreams of the Lady"
+    },
+    {
+      "id": "situation-hook-inheritance",
+      "path": "cards/entities/situation-hook-inheritance.md",
+      "record_type": "situation",
+      "references": [
+        "actor-brigford-the-wise",
+        "location-sir-chyde-tomb",
+        "procedure-investigate-the-inheritance"
+      ],
+      "source_pages": [
+        8
+      ],
+      "title": "Hook: Inheritance"
+    },
+    {
+      "id": "situation-hook-tomb-robbers",
+      "path": "cards/entities/situation-hook-tomb-robbers.md",
+      "record_type": "situation",
+      "references": [
+        "actor-wizard-patron",
+        "location-sir-chyde-tomb",
+        "procedure-tomb-robbers-mission"
+      ],
+      "source_pages": [
+        8
+      ],
+      "title": "Hook: Tomb Robbers"
+    },
+    {
+      "id": "situation-perpetual-wedding-feast",
+      "path": "cards/entities/situation-perpetual-wedding-feast.md",
+      "record_type": "situation",
+      "references": [
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk"
+      ],
+      "source_pages": [
+        7
+      ],
+      "title": "Perpetual Wedding Feast"
+    },
+    {
+      "id": "situation-priests-cache-poison-trap",
+      "path": "cards/entities/situation-priests-cache-poison-trap.md",
+      "record_type": "situation",
+      "references": [
+        "knowledge-priests-cache-contents",
+        "location-area-10-abandoned-priests-quarters",
+        "procedure-find-priests-cache"
+      ],
+      "source_pages": [
+        17
+      ],
+      "title": "Poison needle on the hidden box"
+    },
+    {
+      "id": "situation-princess-imprisonment",
+      "path": "cards/entities/situation-princess-imprisonment.md",
+      "record_type": "situation",
+      "references": [
+        "actor-cold-prince",
+        "actor-sir-chyde",
+        "actor-snowfall-at-dusk",
+        "item-ring-of-soul-binding"
+      ],
+      "source_pages": [
+        6
+      ],
+      "title": "Princess Imprisoned"
+    },
+    {
+      "id": "situation-religious-objects-animate",
+      "path": "cards/entities/situation-religious-objects-animate.md",
+      "record_type": "situation",
+      "references": [
+        "actor-religious-objects",
+        "location-area-05-hall-of-guardians"
+      ],
+      "source_pages": [
+        14
+      ],
+      "title": "Religious objects attack non-Lawful intruders"
+    },
+    {
+      "id": "situation-sir-chyde-death-and-burial",
+      "path": "cards/entities/situation-sir-chyde-death-and-burial.md",
+      "record_type": "situation",
+      "references": [
+        "actor-sir-chyde",
+        "actor-tomb-priest",
+        "location-chapel-of-st-sedge",
+        "location-high-wold",
+        "location-sir-chyde-tomb"
+      ],
+      "source_pages": [
+        7
+      ],
+      "title": "Death and Burial of Sir Chyde"
+    },
+    {
+      "id": "situation-sir-chydes-ring-crushed",
+      "path": "cards/entities/situation-sir-chydes-ring-crushed.md",
+      "record_type": "situation",
+      "references": [
+        "actor-ghost-of-sir-chyde",
+        "knowledge-area-13-tomb-goods",
+        "location-area-13-knights-tomb"
+      ],
+      "source_pages": [
+        19
+      ],
+      "title": "Crushing the Ring of Soul-Binding"
+    },
+    {
+      "id": "situation-sir-chydes-ring-removed",
+      "path": "cards/entities/situation-sir-chydes-ring-removed.md",
+      "record_type": "situation",
+      "references": [
+        "actor-ghost-of-sir-chyde",
+        "knowledge-area-13-tomb-goods",
+        "location-area-13-knights-tomb"
+      ],
+      "source_pages": [
+        19
+      ],
+      "title": "Removing the Ring of Soul-Binding"
+    },
+    {
+      "id": "situation-tomb-sealing",
+      "path": "cards/entities/situation-tomb-sealing.md",
+      "record_type": "situation",
+      "references": [
+        "actor-tomb-priest",
+        "location-sir-chyde-tomb"
+      ],
+      "source_pages": [
+        7,
+        9
+      ],
+      "title": "Sealing of Sir Chyde's Tomb"
+    },
+    {
+      "id": "situation-touching-an-iron-owl",
+      "path": "cards/entities/situation-touching-an-iron-owl.md",
+      "record_type": "situation",
+      "references": [
+        "location-iron-owls"
+      ],
+      "source_pages": [
+        12
+      ],
+      "title": "Touching an Iron Owl"
+    },
+    {
+      "id": "situation-twisted-trees-close-the-way",
+      "path": "cards/entities/situation-twisted-trees-close-the-way.md",
+      "record_type": "situation",
+      "references": [
+        "location-approaching-the-burial-mound"
+      ],
+      "source_pages": [
+        11
+      ],
+      "title": "Twisted Trees Close Behind the Party"
+    },
+    {
+      "id": "situation-twitching-stag-skeleton-haze",
+      "path": "cards/entities/situation-twitching-stag-skeleton-haze.md",
+      "record_type": "situation",
+      "references": [
+        "location-whything-stones"
+      ],
+      "source_pages": [
+        12
+      ],
+      "title": "Twitching Stag Skeleton and Green Haze"
+    },
+    {
+      "id": "situation-wormtongues-disturbed",
+      "path": "cards/entities/situation-wormtongues-disturbed.md",
+      "record_type": "situation",
+      "references": [
+        "actor-wormtongues",
+        "location-area-10-abandoned-priests-quarters"
+      ],
+      "source_pages": [
+        17
+      ],
+      "title": "Noise rouses the wormtongues"
+    },
+    {
+      "id": "situation.area16.door-admission",
+      "path": "cards/entities/situation.area16.door-admission.md",
+      "record_type": "situation",
+      "references": [
+        "actor.griddlegrim",
+        "procedure.area16.gain-entry"
+      ],
+      "source_pages": [
+        22
+      ],
+      "title": "Entrance Hall Admission Check"
+    },
+    {
+      "id": "situation.area18.nobles-disturbed",
+      "path": "cards/entities/situation.area18.nobles-disturbed.md",
+      "record_type": "situation",
+      "references": [
+        "actor.frost-elf-guards-and-knights",
+        "actor.frost-elf-nobles"
+      ],
+      "source_pages": [
+        23
+      ],
+      "title": "Frost Elf Nobles Disturbed"
+    },
+    {
+      "id": "situation.epilogue.lovers-reunited",
+      "path": "cards/entities/situation.epilogue.lovers-reunited.md",
+      "record_type": "situation",
+      "references": [
+        "item.ring-of-soul-binding",
+        "knowledge.epilogue.ban-persists",
+        "procedure.princess-plea.retrieve-ring"
+      ],
+      "source_pages": [
+        25
+      ],
+      "title": "The Lovers Reunited"
+    },
+    {
+      "id": "situation.epilogue.ring-stolen",
+      "path": "cards/entities/situation.epilogue.ring-stolen.md",
+      "record_type": "situation",
+      "references": [
+        "effect.ring.ghost-haunting",
+        "item.ring-of-soul-binding",
+        "procedure.epilogue.end-haunting"
+      ],
+      "source_pages": [
+        25
+      ],
+      "title": "The Ring Stolen"
+    },
+    {
+      "id": "situation.fairy-prison.random-events",
+      "path": "cards/entities/situation.fairy-prison.random-events.md",
+      "record_type": "situation",
+      "references": [
+        "table.fairy-prison.random-events"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "Fairy Prison Random Event Check"
+    },
+    {
+      "id": "table-burial-mound-random-events",
+      "path": "cards/reference/table-burial-mound-random-events.md",
+      "record_type": "table",
+      "references": [
+        "actor-floating-skeletons",
+        "actor-wormtongues"
+      ],
+      "source_pages": [
+        14
+      ],
+      "title": "The Burial Mound — Random Events (1-in-6 Chance Every Two Turns)"
+    },
+    {
+      "id": "table-family-crypt-brass-plaques",
+      "path": "cards/reference/table-family-crypt-brass-plaques.md",
+      "record_type": "table",
+      "references": [
+        "location-area-08-family-crypt",
+        "table-family-crypt-coffer-contents"
+      ],
+      "source_pages": [
+        16
+      ],
+      "title": "Brass Plaques on Coffers"
+    },
+    {
+      "id": "table-family-crypt-coffer-contents",
+      "path": "cards/reference/table-family-crypt-coffer-contents.md",
+      "record_type": "table",
+      "references": [
+        "location-area-08-family-crypt",
+        "table-family-crypt-brass-plaques"
+      ],
+      "source_pages": [
+        16
+      ],
+      "title": "Inside the Coffers"
+    },
+    {
+      "id": "table-outside-mound-random-events",
+      "path": "cards/reference/table-outside-mound-random-events.md",
+      "record_type": "table",
+      "references": [
+        "actor-betrayal-toad",
+        "actor-ghostly-violet-eyed-owl",
+        "actor-goblin-merchants",
+        "location-outside-the-mound"
+      ],
+      "source_pages": [
+        11
+      ],
+      "title": "Outside the Mound Random Events (1-in-6 Chance Every Two Turns)"
+    },
+    {
+      "id": "table.fairy-prison.random-events",
+      "path": "cards/reference/table.fairy-prison.random-events.md",
+      "record_type": "table",
+      "references": [
+        "actor.dire-wolf-pack",
+        "actor.frost-elf-guards-and-knights",
+        "actor.goblin-sleigh-rider",
+        "actor.white-raven-messenger",
+        "situation.fairy-prison.random-events"
+      ],
+      "source_pages": [
+        21
+      ],
+      "title": "Random Events (1-in-6 Chance Every Two Turns)"
+    },
+    {
+      "id": "table.pouch.random-shroom-effects",
+      "path": "cards/reference/table.pouch.random-shroom-effects.md",
+      "record_type": "table",
+      "references": [
+        "effect.pouch.first-daily-mushroom",
+        "effect.shroom.01",
+        "effect.shroom.02",
+        "effect.shroom.03",
+        "effect.shroom.04",
+        "effect.shroom.05",
+        "effect.shroom.06",
+        "effect.shroom.07",
+        "effect.shroom.08",
+        "effect.shroom.09",
+        "effect.shroom.10",
+        "effect.shroom.11",
+        "effect.shroom.12",
+        "item.pouch-of-limitless-fungi"
+      ],
+      "source_pages": [
+        26
+      ],
+      "title": "Random Shroom Effects (1d12)"
+    },
+    {
+      "id": "winters-daughter.actor.area-04-wormtongues",
+      "path": "cards/entities/winters-daughter.actor.area-04-wormtongues.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.location.area-04-worm-hole",
+        "winters-daughter.situation.area-04-wormtongue-ambush"
+      ],
+      "source_pages": [
+        28
+      ],
+      "title": "Wormtongues in the worm hole"
+    },
+    {
+      "id": "winters-daughter.actor.area-05-floating-religious-objects",
+      "path": "cards/entities/winters-daughter.actor.area-05-floating-religious-objects.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.location.area-05-hall-of-guardians",
+        "winters-daughter.situation.area-05-guardian-attack"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Floating religious objects"
+    },
+    {
+      "id": "winters-daughter.actor.area-08-floating-skeletons",
+      "path": "cards/entities/winters-daughter.actor.area-08-floating-skeletons.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.location.area-08-family-crypt",
+        "winters-daughter.situation.area-08-dance-invitation"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Floating skeleton dancers"
+    },
+    {
+      "id": "winters-daughter.actor.area-10-wormtongues",
+      "path": "cards/entities/winters-daughter.actor.area-10-wormtongues.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.location.area-10-abandoned-priests-quarters",
+        "winters-daughter.situation.area-10-wormtongue-attack"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Wormtongues in the priest’s quarters"
+    },
+    {
+      "id": "winters-daughter.actor.area-12-stone-hounds",
+      "path": "cards/entities/winters-daughter.actor.area-12-stone-hounds.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.location.area-12-hall-of-hounds",
+        "winters-daughter.situation.area-12-stone-hound-attack"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Stone hounds"
+    },
+    {
+      "id": "winters-daughter.actor.area-13-sir-chyde",
+      "path": "cards/entities/winters-daughter.actor.area-13-sir-chyde.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.location.area-13-the-knights-tomb",
+        "winters-daughter.situation.area-13-sir-chydes-plea"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Sir Chyde"
+    },
+    {
+      "id": "winters-daughter.actor.area-16-griddlegrim",
+      "path": "cards/entities/winters-daughter.actor.area-16-griddlegrim.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.actor.area-16-grimmlegridge",
+        "winters-daughter.location.area-16-entrance-hall",
+        "winters-daughter.procedure.area-16-gain-entry-with-mushroom"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "Griddlegrim"
+    },
+    {
+      "id": "winters-daughter.actor.area-16-grimmlegridge",
+      "path": "cards/entities/winters-daughter.actor.area-16-grimmlegridge.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.actor.area-16-griddlegrim",
+        "winters-daughter.location.area-16-entrance-hall"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "Grimmlegridge"
+    },
+    {
+      "id": "winters-daughter.actor.area-17-frost-elf-cooks",
+      "path": "cards/entities/winters-daughter.actor.area-17-frost-elf-cooks.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.location.area-17-fairy-kitchen"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "Frost elf cooks"
+    },
+    {
+      "id": "winters-daughter.actor.area-18-frost-elf-knights",
+      "path": "cards/entities/winters-daughter.actor.area-18-frost-elf-knights.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.location.area-18-wedding-feast"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "Frost elf knights at the wedding feast"
+    },
+    {
+      "id": "winters-daughter.actor.area-18-frost-elf-nobles",
+      "path": "cards/entities/winters-daughter.actor.area-18-frost-elf-nobles.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.location.area-18-wedding-feast"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "Frost elf nobles at the wedding feast"
+    },
+    {
+      "id": "winters-daughter.actor.area-18-guards",
+      "path": "cards/entities/winters-daughter.actor.area-18-guards.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.location.area-18-wedding-feast"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "Wedding feast guards"
+    },
+    {
+      "id": "winters-daughter.actor.area-19-princess-snowfall-at-dusk",
+      "path": "cards/entities/winters-daughter.actor.area-19-princess-snowfall-at-dusk.md",
+      "record_type": "actor",
+      "references": [
+        "winters-daughter.location.area-19-the-princesss-bedchamber",
+        "winters-daughter.situation.area-19-princess-talks-to-strangers"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "Princess Snowfall-at-Dusk"
+    },
+    {
+      "id": "winters-daughter.knowledge.area-05-concealed-mosaic",
+      "path": "cards/entities/winters-daughter.knowledge.area-05-concealed-mosaic.md",
+      "record_type": "knowledge",
+      "references": [
+        "winters-daughter.location.area-05-hall-of-guardians"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Concealed floor mosaic"
+    },
+    {
+      "id": "winters-daughter.knowledge.area-05-door-inscription",
+      "path": "cards/entities/winters-daughter.knowledge.area-05-door-inscription.md",
+      "record_type": "knowledge",
+      "references": [
+        "winters-daughter.location.area-05-hall-of-guardians"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Hall of guardians door inscription"
+    },
+    {
+      "id": "winters-daughter.knowledge.area-09-concealed-west-door",
+      "path": "cards/entities/winters-daughter.knowledge.area-09-concealed-west-door.md",
+      "record_type": "knowledge",
+      "references": [
+        "winters-daughter.location.area-09-chapel-of-st-sedge"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Concealed west door in the chapel"
+    },
+    {
+      "id": "winters-daughter.knowledge.area-10-hidden-flagstone",
+      "path": "cards/entities/winters-daughter.knowledge.area-10-hidden-flagstone.md",
+      "record_type": "knowledge",
+      "references": [
+        "winters-daughter.location.area-10-abandoned-priests-quarters"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Hidden flagstone in the priest’s quarters"
+    },
+    {
+      "id": "winters-daughter.knowledge.area-11-partially-concealed-mural",
+      "path": "cards/entities/winters-daughter.knowledge.area-11-partially-concealed-mural.md",
+      "record_type": "knowledge",
+      "references": [
+        "winters-daughter.location.area-11-statues-with-weapons"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Partially concealed mural"
+    },
+    {
+      "id": "winters-daughter.knowledge.area-12-door-inscription-and-password",
+      "path": "cards/entities/winters-daughter.knowledge.area-12-door-inscription-and-password.md",
+      "record_type": "knowledge",
+      "references": [
+        "winters-daughter.location.area-12-hall-of-hounds",
+        "winters-daughter.procedure.area-12-bypass-stone-hounds"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Hall of hounds inscription and password"
+    },
+    {
+      "id": "winters-daughter.location.area-01-approaching-the-mound",
+      "path": "cards/entities/winters-daughter.location.area-01-approaching-the-mound.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.location.area-02-the-whything-stones"
+      ],
+      "source_pages": [
+        28
+      ],
+      "title": "1. Approaching the mound"
+    },
+    {
+      "id": "winters-daughter.location.area-02-the-whything-stones",
+      "path": "cards/entities/winters-daughter.location.area-02-the-whything-stones.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.location.area-01-approaching-the-mound"
+      ],
+      "source_pages": [
+        28
+      ],
+      "title": "2. The Whything Stones"
+    },
+    {
+      "id": "winters-daughter.location.area-03-tomb-entrance",
+      "path": "cards/entities/winters-daughter.location.area-03-tomb-entrance.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.location.area-05-hall-of-guardians",
+        "winters-daughter.procedure.area-03-open-tomb-entrance"
+      ],
+      "source_pages": [
+        28
+      ],
+      "title": "3. Tomb entrance"
+    },
+    {
+      "id": "winters-daughter.location.area-04-worm-hole",
+      "path": "cards/entities/winters-daughter.location.area-04-worm-hole.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.actor.area-04-wormtongues",
+        "winters-daughter.location.area-10-abandoned-priests-quarters",
+        "winters-daughter.procedure.area-04-crawl-to-area-10",
+        "winters-daughter.situation.area-04-wormtongue-ambush"
+      ],
+      "source_pages": [
+        28
+      ],
+      "title": "4. Worm hole"
+    },
+    {
+      "id": "winters-daughter.location.area-05-hall-of-guardians",
+      "path": "cards/entities/winters-daughter.location.area-05-hall-of-guardians.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.actor.area-05-floating-religious-objects",
+        "winters-daughter.knowledge.area-05-concealed-mosaic",
+        "winters-daughter.knowledge.area-05-door-inscription",
+        "winters-daughter.location.area-03-tomb-entrance",
+        "winters-daughter.situation.area-05-guardian-attack"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "5. Hall of guardians"
+    },
+    {
+      "id": "winters-daughter.location.area-06-blindfolded-statue",
+      "path": "cards/entities/winters-daughter.location.area-06-blindfolded-statue.md",
+      "record_type": "location",
+      "references": [],
+      "source_pages": [
+        29
+      ],
+      "title": "6. Blindfolded statue"
+    },
+    {
+      "id": "winters-daughter.location.area-07-freezing-mirror",
+      "path": "cards/entities/winters-daughter.location.area-07-freezing-mirror.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.situation.area-07-freezing-mirror"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "7. Freezing mirror"
+    },
+    {
+      "id": "winters-daughter.location.area-08-family-crypt",
+      "path": "cards/entities/winters-daughter.location.area-08-family-crypt.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.actor.area-08-floating-skeletons",
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake",
+        "winters-daughter.procedure.area-08-descend-to-area-15",
+        "winters-daughter.situation.area-08-dance-invitation"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "8. Family crypt"
+    },
+    {
+      "id": "winters-daughter.location.area-09-chapel-of-st-sedge",
+      "path": "cards/entities/winters-daughter.location.area-09-chapel-of-st-sedge.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.knowledge.area-09-concealed-west-door"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "9. Chapel of St Sedge"
+    },
+    {
+      "id": "winters-daughter.location.area-10-abandoned-priests-quarters",
+      "path": "cards/entities/winters-daughter.location.area-10-abandoned-priests-quarters.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.actor.area-10-wormtongues",
+        "winters-daughter.knowledge.area-10-hidden-flagstone",
+        "winters-daughter.location.area-04-worm-hole",
+        "winters-daughter.situation.area-10-wormtongue-attack"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "10. Abandoned priest’s quarters"
+    },
+    {
+      "id": "winters-daughter.location.area-11-statues-with-weapons",
+      "path": "cards/entities/winters-daughter.location.area-11-statues-with-weapons.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.knowledge.area-11-partially-concealed-mural"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "11. Statues with weapons"
+    },
+    {
+      "id": "winters-daughter.location.area-12-hall-of-hounds",
+      "path": "cards/entities/winters-daughter.location.area-12-hall-of-hounds.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.actor.area-12-stone-hounds",
+        "winters-daughter.knowledge.area-12-door-inscription-and-password",
+        "winters-daughter.procedure.area-12-bypass-stone-hounds",
+        "winters-daughter.situation.area-12-stone-hound-attack"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "12. Hall of hounds"
+    },
+    {
+      "id": "winters-daughter.location.area-13-the-knights-tomb",
+      "path": "cards/entities/winters-daughter.location.area-13-the-knights-tomb.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.actor.area-13-sir-chyde",
+        "winters-daughter.situation.area-13-sir-chydes-plea"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "13. The knight’s tomb"
+    },
+    {
+      "id": "winters-daughter.location.area-14-warded-pool",
+      "path": "cards/entities/winters-daughter.location.area-14-warded-pool.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake",
+        "winters-daughter.procedure.area-14-travel-to-area-15"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "14. Warded pool"
+    },
+    {
+      "id": "winters-daughter.location.area-15-tower-on-a-frozen-lake",
+      "path": "cards/entities/winters-daughter.location.area-15-tower-on-a-frozen-lake.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.location.area-14-warded-pool",
+        "winters-daughter.procedure.area-15-return-to-area-14",
+        "winters-daughter.situation.area-15-candle-ward-restriction"
+      ],
+      "source_pages": [
+        30
+      ],
+      "title": "15. Tower on a frozen lake"
+    },
+    {
+      "id": "winters-daughter.location.area-16-entrance-hall",
+      "path": "cards/entities/winters-daughter.location.area-16-entrance-hall.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.actor.area-16-griddlegrim",
+        "winters-daughter.actor.area-16-grimmlegridge",
+        "winters-daughter.location.area-17-fairy-kitchen",
+        "winters-daughter.procedure.area-16-gain-entry-with-mushroom"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "16. Entrance hall"
+    },
+    {
+      "id": "winters-daughter.location.area-17-fairy-kitchen",
+      "path": "cards/entities/winters-daughter.location.area-17-fairy-kitchen.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.actor.area-17-frost-elf-cooks",
+        "winters-daughter.location.area-16-entrance-hall"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "17. Fairy kitchen"
+    },
+    {
+      "id": "winters-daughter.location.area-18-wedding-feast",
+      "path": "cards/entities/winters-daughter.location.area-18-wedding-feast.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.actor.area-18-frost-elf-knights",
+        "winters-daughter.actor.area-18-frost-elf-nobles",
+        "winters-daughter.actor.area-18-guards"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "18. Wedding feast"
+    },
+    {
+      "id": "winters-daughter.location.area-19-the-princesss-bedchamber",
+      "path": "cards/entities/winters-daughter.location.area-19-the-princesss-bedchamber.md",
+      "record_type": "location",
+      "references": [
+        "winters-daughter.actor.area-19-princess-snowfall-at-dusk",
+        "winters-daughter.situation.area-19-princess-talks-to-strangers"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "19. The princess’s bedchamber"
+    },
+    {
+      "id": "winters-daughter.procedure.area-03-open-tomb-entrance",
+      "path": "cards/entities/winters-daughter.procedure.area-03-open-tomb-entrance.md",
+      "record_type": "procedure",
+      "references": [
+        "winters-daughter.location.area-03-tomb-entrance",
+        "winters-daughter.location.area-05-hall-of-guardians"
+      ],
+      "source_pages": [
+        28
+      ],
+      "title": "Open the tomb entrance"
+    },
+    {
+      "id": "winters-daughter.procedure.area-04-crawl-to-area-10",
+      "path": "cards/entities/winters-daughter.procedure.area-04-crawl-to-area-10.md",
+      "record_type": "procedure",
+      "references": [
+        "winters-daughter.location.area-04-worm-hole",
+        "winters-daughter.location.area-10-abandoned-priests-quarters"
+      ],
+      "source_pages": [
+        28
+      ],
+      "title": "Crawl from the worm hole to area 10"
+    },
+    {
+      "id": "winters-daughter.procedure.area-08-descend-to-area-15",
+      "path": "cards/entities/winters-daughter.procedure.area-08-descend-to-area-15.md",
+      "record_type": "procedure",
+      "references": [
+        "winters-daughter.location.area-08-family-crypt",
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Descend from the family crypt to area 15"
+    },
+    {
+      "id": "winters-daughter.procedure.area-12-bypass-stone-hounds",
+      "path": "cards/entities/winters-daughter.procedure.area-12-bypass-stone-hounds.md",
+      "record_type": "procedure",
+      "references": [
+        "winters-daughter.actor.area-12-stone-hounds",
+        "winters-daughter.knowledge.area-12-door-inscription-and-password",
+        "winters-daughter.location.area-12-hall-of-hounds"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Touch the hall doors without provoking the hounds"
+    },
+    {
+      "id": "winters-daughter.procedure.area-14-travel-to-area-15",
+      "path": "cards/entities/winters-daughter.procedure.area-14-travel-to-area-15.md",
+      "record_type": "procedure",
+      "references": [
+        "winters-daughter.location.area-14-warded-pool",
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Travel from the tomb to Fairy"
+    },
+    {
+      "id": "winters-daughter.procedure.area-15-return-to-area-14",
+      "path": "cards/entities/winters-daughter.procedure.area-15-return-to-area-14.md",
+      "record_type": "procedure",
+      "references": [
+        "winters-daughter.location.area-14-warded-pool",
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake"
+      ],
+      "source_pages": [
+        30
+      ],
+      "title": "Return from Fairy to the tomb"
+    },
+    {
+      "id": "winters-daughter.procedure.area-16-gain-entry-with-mushroom",
+      "path": "cards/entities/winters-daughter.procedure.area-16-gain-entry-with-mushroom.md",
+      "record_type": "procedure",
+      "references": [
+        "winters-daughter.actor.area-16-griddlegrim",
+        "winters-daughter.location.area-16-entrance-hall"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "Seek entry when not on the guest list"
+    },
+    {
+      "id": "winters-daughter.situation.area-04-wormtongue-ambush",
+      "path": "cards/entities/winters-daughter.situation.area-04-wormtongue-ambush.md",
+      "record_type": "situation",
+      "references": [
+        "winters-daughter.actor.area-04-wormtongues",
+        "winters-daughter.location.area-04-worm-hole"
+      ],
+      "source_pages": [
+        28
+      ],
+      "title": "Wormtongue ambush in area 4"
+    },
+    {
+      "id": "winters-daughter.situation.area-05-guardian-attack",
+      "path": "cards/entities/winters-daughter.situation.area-05-guardian-attack.md",
+      "record_type": "situation",
+      "references": [
+        "winters-daughter.actor.area-05-floating-religious-objects",
+        "winters-daughter.location.area-05-hall-of-guardians"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Hall guardian attack"
+    },
+    {
+      "id": "winters-daughter.situation.area-07-freezing-mirror",
+      "path": "cards/entities/winters-daughter.situation.area-07-freezing-mirror.md",
+      "record_type": "situation",
+      "references": [
+        "winters-daughter.location.area-07-freezing-mirror"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Freezing mirror paralysis"
+    },
+    {
+      "id": "winters-daughter.situation.area-08-dance-invitation",
+      "path": "cards/entities/winters-daughter.situation.area-08-dance-invitation.md",
+      "record_type": "situation",
+      "references": [
+        "winters-daughter.actor.area-08-floating-skeletons",
+        "winters-daughter.location.area-08-family-crypt"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Invitation to dance in the family crypt"
+    },
+    {
+      "id": "winters-daughter.situation.area-10-wormtongue-attack",
+      "path": "cards/entities/winters-daughter.situation.area-10-wormtongue-attack.md",
+      "record_type": "situation",
+      "references": [
+        "winters-daughter.actor.area-10-wormtongues",
+        "winters-daughter.location.area-10-abandoned-priests-quarters"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Wormtongue attack in area 10"
+    },
+    {
+      "id": "winters-daughter.situation.area-12-stone-hound-attack",
+      "path": "cards/entities/winters-daughter.situation.area-12-stone-hound-attack.md",
+      "record_type": "situation",
+      "references": [
+        "winters-daughter.actor.area-12-stone-hounds",
+        "winters-daughter.location.area-12-hall-of-hounds"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Stone hound attack"
+    },
+    {
+      "id": "winters-daughter.situation.area-13-sir-chydes-plea",
+      "path": "cards/entities/winters-daughter.situation.area-13-sir-chydes-plea.md",
+      "record_type": "situation",
+      "references": [
+        "winters-daughter.actor.area-13-sir-chyde",
+        "winters-daughter.location.area-13-the-knights-tomb"
+      ],
+      "source_pages": [
+        29
+      ],
+      "title": "Sir Chyde’s plea for help"
+    },
+    {
+      "id": "winters-daughter.situation.area-15-candle-ward-restriction",
+      "path": "cards/entities/winters-daughter.situation.area-15-candle-ward-restriction.md",
+      "record_type": "situation",
+      "references": [
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake"
+      ],
+      "source_pages": [
+        30
+      ],
+      "title": "Fairy prison ward restriction"
+    },
+    {
+      "id": "winters-daughter.situation.area-19-princess-talks-to-strangers",
+      "path": "cards/entities/winters-daughter.situation.area-19-princess-talks-to-strangers.md",
+      "record_type": "situation",
+      "references": [
+        "winters-daughter.actor.area-19-princess-snowfall-at-dusk",
+        "winters-daughter.location.area-19-the-princesss-bedchamber"
+      ],
+      "source_pages": [
+        31
+      ],
+      "title": "Princess Snowfall-at-Dusk meets strangers"
+    }
+  ],
+  "schema": "operational-module-index/v1",
+  "source_sha256": "75f903b106b1f3459676ad9d8ac255c7b943d2f8c9158a6e58e8655efd69b261",
+  "topology": [
+    {
+      "adjacent": [
+        "area-2"
+      ],
+      "id": "area-1",
+      "labels": [
+        "Approaching the mound"
+      ],
+      "source_pages": [
+        28
+      ]
+    },
+    {
+      "adjacent": [
+        "area-4",
+        "area-9"
+      ],
+      "id": "area-10",
+      "labels": [
+        "Abandoned priest’s quarters"
+      ],
+      "source_pages": [
+        28,
+        29
+      ]
+    },
+    {
+      "adjacent": [
+        "area-12",
+        "area-7"
+      ],
+      "id": "area-11",
+      "labels": [
+        "Statues with weapons"
+      ],
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "adjacent": [
+        "area-11",
+        "area-13",
+        "area-8",
+        "area-9"
+      ],
+      "id": "area-12",
+      "labels": [
+        "Hall of hounds"
+      ],
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "adjacent": [
+        "area-12"
+      ],
+      "id": "area-13",
+      "labels": [
+        "The knight’s tomb"
+      ],
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "adjacent": [
+        "area-15",
+        "area-6",
+        "area-7"
+      ],
+      "id": "area-14",
+      "labels": [
+        "Warded pool"
+      ],
+      "source_pages": [
+        29,
+        30
+      ]
+    },
+    {
+      "adjacent": [
+        "area-14",
+        "area-16",
+        "area-8"
+      ],
+      "id": "area-15",
+      "labels": [
+        "Tower on a frozen lake"
+      ],
+      "source_pages": [
+        29,
+        30
+      ]
+    },
+    {
+      "adjacent": [
+        "area-15",
+        "area-17",
+        "area-18"
+      ],
+      "id": "area-16",
+      "labels": [
+        "Entrance hall"
+      ],
+      "source_pages": [
+        31
+      ]
+    },
+    {
+      "adjacent": [
+        "area-16"
+      ],
+      "id": "area-17",
+      "labels": [
+        "Fairy kitchen"
+      ],
+      "source_pages": [
+        31
+      ]
+    },
+    {
+      "adjacent": [
+        "area-16",
+        "area-19"
+      ],
+      "id": "area-18",
+      "labels": [
+        "Wedding feast"
+      ],
+      "source_pages": [
+        31
+      ]
+    },
+    {
+      "adjacent": [
+        "area-18"
+      ],
+      "id": "area-19",
+      "labels": [
+        "The princess’s bedchamber"
+      ],
+      "source_pages": [
+        31
+      ]
+    },
+    {
+      "adjacent": [
+        "area-1",
+        "area-3"
+      ],
+      "id": "area-2",
+      "labels": [
+        "The Whything Stones"
+      ],
+      "source_pages": [
+        28
+      ]
+    },
+    {
+      "adjacent": [
+        "area-2",
+        "area-5"
+      ],
+      "id": "area-3",
+      "labels": [
+        "Tomb entrance"
+      ],
+      "source_pages": [
+        28
+      ]
+    },
+    {
+      "adjacent": [
+        "area-10"
+      ],
+      "id": "area-4",
+      "labels": [
+        "Worm hole"
+      ],
+      "source_pages": [
+        28
+      ]
+    },
+    {
+      "adjacent": [
+        "area-3",
+        "area-6",
+        "area-7",
+        "area-8"
+      ],
+      "id": "area-5",
+      "labels": [
+        "Hall of guardians"
+      ],
+      "source_pages": [
+        28,
+        29
+      ]
+    },
+    {
+      "adjacent": [
+        "area-14",
+        "area-5",
+        "area-9"
+      ],
+      "id": "area-6",
+      "labels": [
+        "Blindfolded statue"
+      ],
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "adjacent": [
+        "area-11",
+        "area-14",
+        "area-5"
+      ],
+      "id": "area-7",
+      "labels": [
+        "Freezing mirror"
+      ],
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "adjacent": [
+        "area-12",
+        "area-15",
+        "area-5"
+      ],
+      "id": "area-8",
+      "labels": [
+        "Family crypt"
+      ],
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "adjacent": [
+        "area-10",
+        "area-12",
+        "area-6"
+      ],
+      "id": "area-9",
+      "labels": [
+        "Chapel of St Sedge"
+      ],
+      "source_pages": [
+        29
+      ]
+    }
+  ]
+}

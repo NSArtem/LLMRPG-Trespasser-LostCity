@@ -1,0 +1,2790 @@
+{
+  "nodes": [
+    {
+      "id": "area-1",
+      "labels": [
+        "Approaching the mound"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-1",
+          "confidence": "high",
+          "label": "Approaching the mound",
+          "observation_id": "observation.map.v1.001.node.area-1",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            28
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        28
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-10",
+      "labels": [
+        "Abandoned priest’s quarters"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-10",
+          "confidence": "high",
+          "label": "Abandoned priest’s quarters",
+          "observation_id": "observation.map.v1.001.node.area-10",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            28,
+            29
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        28,
+        29
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-11",
+      "labels": [
+        "Statues with weapons"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-11",
+          "confidence": "high",
+          "label": "Statues with weapons",
+          "observation_id": "observation.map.v1.001.node.area-11",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            29
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        29
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-12",
+      "labels": [
+        "Hall of hounds"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-12",
+          "confidence": "high",
+          "label": "Hall of hounds",
+          "observation_id": "observation.map.v1.001.node.area-12",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            29
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        29
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-13",
+      "labels": [
+        "The knight’s tomb"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-13",
+          "confidence": "high",
+          "label": "The knight’s tomb",
+          "observation_id": "observation.map.v1.001.node.area-13",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            29
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        29
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-14",
+      "labels": [
+        "Warded pool"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-14",
+          "confidence": "high",
+          "label": "Warded pool",
+          "observation_id": "observation.map.v1.001.node.area-14",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            29,
+            30
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        29,
+        30
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-15",
+      "labels": [
+        "Tower on a frozen lake"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-15",
+          "confidence": "high",
+          "label": "Tower on a frozen lake",
+          "observation_id": "observation.map.v1.001.node.area-15",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            29,
+            30
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        29,
+        30
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-16",
+      "labels": [
+        "Entrance hall"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-16",
+          "confidence": "high",
+          "label": "Entrance hall",
+          "observation_id": "observation.map.v1.001.node.area-16",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            31
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        31
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-17",
+      "labels": [
+        "Fairy kitchen"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-17",
+          "confidence": "high",
+          "label": "Fairy kitchen",
+          "observation_id": "observation.map.v1.001.node.area-17",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            31
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        31
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-18",
+      "labels": [
+        "Wedding feast"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-18",
+          "confidence": "high",
+          "label": "Wedding feast",
+          "observation_id": "observation.map.v1.001.node.area-18",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            31
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        31
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-19",
+      "labels": [
+        "The princess’s bedchamber"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-19",
+          "confidence": "high",
+          "label": "The princess’s bedchamber",
+          "observation_id": "observation.map.v1.001.node.area-19",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            31
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        31
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-2",
+      "labels": [
+        "The Whything Stones"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-2",
+          "confidence": "high",
+          "label": "The Whything Stones",
+          "observation_id": "observation.map.v1.001.node.area-2",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            28
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        28
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-3",
+      "labels": [
+        "Tomb entrance"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-3",
+          "confidence": "high",
+          "label": "Tomb entrance",
+          "observation_id": "observation.map.v1.001.node.area-3",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            28
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        28
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-4",
+      "labels": [
+        "Worm hole"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-4",
+          "confidence": "high",
+          "label": "Worm hole",
+          "observation_id": "observation.map.v1.001.node.area-4",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            28
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        28
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-5",
+      "labels": [
+        "Hall of guardians"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-5",
+          "confidence": "high",
+          "label": "Hall of guardians",
+          "observation_id": "observation.map.v1.001.node.area-5",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            28,
+            29
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        28,
+        29
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-6",
+      "labels": [
+        "Blindfolded statue"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-6",
+          "confidence": "high",
+          "label": "Blindfolded statue",
+          "observation_id": "observation.map.v1.001.node.area-6",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            29
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        29
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-7",
+      "labels": [
+        "Freezing mirror"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-7",
+          "confidence": "high",
+          "label": "Freezing mirror",
+          "observation_id": "observation.map.v1.001.node.area-7",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            29
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        29
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-8",
+      "labels": [
+        "Family crypt"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-8",
+          "confidence": "high",
+          "label": "Family crypt",
+          "observation_id": "observation.map.v1.001.node.area-8",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            29
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        29
+      ],
+      "titles": []
+    },
+    {
+      "id": "area-9",
+      "labels": [
+        "Chapel of St Sedge"
+      ],
+      "observations": [
+        {
+          "concept_id": "area-9",
+          "confidence": "high",
+          "label": "Chapel of St Sedge",
+          "observation_id": "observation.map.v1.001.node.area-9",
+          "pack_id": "map.v1.001",
+          "source_pages": [
+            29
+          ],
+          "title": null
+        }
+      ],
+      "source_pages": [
+        29
+      ],
+      "titles": []
+    }
+  ],
+  "passages": [
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-1-area-2-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": [
+              "tangled forest"
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-1-area-2-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-1-area-2-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-1-area-2-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-1-area-2-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": "path"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-1-area-2-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-1-area-2-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [
+          "tangled forest"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "path",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-1",
+      "id": "edge-area-1-area-2",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-1-area-2-path"
+      ],
+      "source_pages": [
+        28
+      ],
+      "to": "area-2"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-4-area-10-worm-hole",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": [
+              "2-foot-wide rough opening",
+              "3 wormtongues lurking in the hole"
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-4-area-10-worm-hole",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": [
+              "requires crawling",
+              "wormtongues attack if disturbed by noise or light"
+            ]
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-4-area-10-worm-hole",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": "down"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-4-area-10-worm-hole",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": [
+              "acidic slime trails lead off into the woods",
+              "burrows into the earth beneath the mound"
+            ]
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-4-area-10-worm-hole",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": "worm hole"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-4-area-10-worm-hole",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-4-area-10-worm-hole",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [
+          "2-foot-wide rough opening",
+          "3 wormtongues lurking in the hole"
+        ],
+        "conditions": [
+          "requires crawling",
+          "wormtongues attack if disturbed by noise or light"
+        ],
+        "elevation": "down",
+        "features": [
+          "acidic slime trails lead off into the woods",
+          "burrows into the earth beneath the mound"
+        ],
+        "kind": "worm hole",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-10",
+      "id": "edge-area-10-area-4",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-4-area-10-worm-hole"
+      ],
+      "source_pages": [
+        28,
+        29
+      ],
+      "to": "area-4"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-10-concealed-door",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": [
+              "west door concealed by a tapestry"
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-10-concealed-door",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-10-concealed-door",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-10-concealed-door",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": [
+              "concealed doorway"
+            ]
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-10-concealed-door",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "doorway"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-10-concealed-door",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-10-concealed-door",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [
+          "west door concealed by a tapestry"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [
+          "concealed doorway"
+        ],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-10",
+      "id": "edge-area-10-area-9",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-9-area-10-concealed-door"
+      ],
+      "source_pages": [
+        29
+      ],
+      "to": "area-9"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-11-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-11-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-11-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-11-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-11-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "corridor"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-11-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-11-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-11",
+      "id": "edge-area-11-area-12",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-11-area-12-corridor"
+      ],
+      "source_pages": [
+        29
+      ],
+      "to": "area-12"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-11-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-11-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-11-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-11-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-11-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "corridor"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-11-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-11-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-11",
+      "id": "edge-area-11-area-7",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-7-area-11-corridor"
+      ],
+      "source_pages": [
+        29
+      ],
+      "to": "area-7"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-12-area-13-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-12-area-13-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-12-area-13-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-12-area-13-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-12-area-13-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "doorway"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-12-area-13-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-12-area-13-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-12",
+      "id": "edge-area-12-area-13",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-12-area-13-doorway"
+      ],
+      "source_pages": [
+        29
+      ],
+      "to": "area-13"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-12-guarded-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": [
+              "2 stone hounds guarding the doors",
+              "double doors inscribed “Call to the companions”"
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-12-guarded-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": [
+              "speaking the password “Flaegr and Chedr” before touching the doors avoids the stone hounds’ attack"
+            ]
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-12-guarded-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-12-guarded-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-12-guarded-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "doorway"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-12-guarded-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-12-guarded-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [
+          "2 stone hounds guarding the doors",
+          "double doors inscribed “Call to the companions”"
+        ],
+        "conditions": [
+          "speaking the password “Flaegr and Chedr” before touching the doors avoids the stone hounds’ attack"
+        ],
+        "elevation": "level",
+        "features": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-12",
+      "id": "edge-area-12-area-8",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-8-area-12-guarded-double-doors"
+      ],
+      "source_pages": [
+        29
+      ],
+      "to": "area-8"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "corridor"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-9-area-12-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-12",
+      "id": "edge-area-12-area-9",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-9-area-12-corridor"
+      ],
+      "source_pages": [
+        29
+      ],
+      "to": "area-9"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-14-area-15-transport-ward",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": [
+              "ghostly, floating votive-candle wards"
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-14-area-15-transport-ward",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": [
+              "from area 15, only those who originally came from the tomb can pass the wards"
+            ]
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-14-area-15-transport-ward",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": null
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-14-area-15-transport-ward",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": [
+              "passing through transports characters between the tomb and Fairy",
+              "two warded paths lead from the glade into the forest"
+            ]
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-14-area-15-transport-ward",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": "transport ward"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-14-area-15-transport-ward",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": "magical"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-14-area-15-transport-ward",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": "conditional"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [
+          "ghostly, floating votive-candle wards"
+        ],
+        "conditions": [
+          "from area 15, only those who originally came from the tomb can pass the wards"
+        ],
+        "features": [
+          "passing through transports characters between the tomb and Fairy",
+          "two warded paths lead from the glade into the forest"
+        ],
+        "kind": "transport ward",
+        "medium": "magical",
+        "traversal_direction": "conditional"
+      },
+      "from": "area-14",
+      "id": "edge-area-14-area-15",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-14-area-15-transport-ward"
+      ],
+      "source_pages": [
+        29,
+        30
+      ],
+      "to": "area-15"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "down"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": [
+              "ghostly, floating votive candles at the bottom of the stairs"
+            ]
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "stairway"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "down",
+        "features": [
+          "ghostly, floating votive candles at the bottom of the stairs"
+        ],
+        "kind": "stairway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-14",
+      "id": "edge-area-14-area-6",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-6-area-14-stair"
+      ],
+      "source_pages": [
+        29
+      ],
+      "to": "area-6"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "down"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": [
+              "ghostly, floating votive candles at the bottom of the stairs"
+            ]
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "stairway"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-7-area-14-stair",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "down",
+        "features": [
+          "ghostly, floating votive candles at the bottom of the stairs"
+        ],
+        "kind": "stairway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-14",
+      "id": "edge-area-14-area-7",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-7-area-14-stair"
+      ],
+      "source_pages": [
+        29
+      ],
+      "to": "area-7"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-15-area-16-entry",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              30,
+              31
+            ],
+            "value": [
+              "goblin doorman riding on the back of a troll"
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-15-area-16-entry",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              30,
+              31
+            ],
+            "value": [
+              "visitors not on the guest list may be allowed entry if they eat a mushroom from the goblin’s pouch"
+            ]
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-15-area-16-entry",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              30,
+              31
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-15-area-16-entry",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              30,
+              31
+            ],
+            "value": [
+              "the tower stands in the middle of a frozen lake"
+            ]
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-15-area-16-entry",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              30,
+              31
+            ],
+            "value": "tower doorway"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-15-area-16-entry",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              30,
+              31
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "medium",
+            "observation_id": "observation.map.v1.001.passage.passage-area-15-area-16-entry",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              30,
+              31
+            ],
+            "value": "conditional"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [
+          "goblin doorman riding on the back of a troll"
+        ],
+        "conditions": [
+          "visitors not on the guest list may be allowed entry if they eat a mushroom from the goblin’s pouch"
+        ],
+        "elevation": "level",
+        "features": [
+          "the tower stands in the middle of a frozen lake"
+        ],
+        "kind": "tower doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional"
+      },
+      "from": "area-15",
+      "id": "edge-area-15-area-16",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-15-area-16-entry"
+      ],
+      "source_pages": [
+        30,
+        31
+      ],
+      "to": "area-16"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-15-fissure",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-15-fissure",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": [
+              "requires descending into the fissure"
+            ]
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-15-fissure",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": "down"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-15-fissure",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": [
+              "a purple fissure is visible in the sky above area 15",
+              "sheets of slime drip from the ceiling into the fissure"
+            ]
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-15-fissure",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": "fissure"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-15-fissure",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": "magical"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-8-area-15-fissure",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29,
+              30
+            ],
+            "value": "to_from"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [
+          "requires descending into the fissure"
+        ],
+        "elevation": "down",
+        "features": [
+          "a purple fissure is visible in the sky above area 15",
+          "sheets of slime drip from the ceiling into the fissure"
+        ],
+        "kind": "fissure",
+        "medium": "magical",
+        "traversal_direction": "to_from"
+      },
+      "from": "area-15",
+      "id": "edge-area-15-area-8",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-8-area-15-fissure"
+      ],
+      "source_pages": [
+        29,
+        30
+      ],
+      "to": "area-8"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-17-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-17-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-17-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-17-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-17-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": "doorway"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-17-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-17-doorway",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-16",
+      "id": "edge-area-16-area-17",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-16-area-17-doorway"
+      ],
+      "source_pages": [
+        31
+      ],
+      "to": "area-17"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-18-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-18-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-18-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": "up"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-18-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-18-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": "stairway"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-18-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-16-area-18-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "up",
+        "features": [],
+        "kind": "stairway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-16",
+      "id": "edge-area-16-area-18",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-16-area-18-stairs"
+      ],
+      "source_pages": [
+        31
+      ],
+      "to": "area-18"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-18-area-19-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-18-area-19-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-18-area-19-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": "up"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-18-area-19-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-18-area-19-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": "stairway"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-18-area-19-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-18-area-19-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              31
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "up",
+        "features": [],
+        "kind": "stairway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-18",
+      "id": "edge-area-18-area-19",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-18-area-19-stairs"
+      ],
+      "source_pages": [
+        31
+      ],
+      "to": "area-19"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-2-area-3-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-2-area-3-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-2-area-3-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-2-area-3-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-2-area-3-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": "path"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-2-area-3-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-2-area-3-path",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "path",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-2",
+      "id": "edge-area-2-area-3",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-2-area-3-path"
+      ],
+      "source_pages": [
+        28
+      ],
+      "to": "area-3"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-3-area-5-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": [
+              "heavy granite slab overgrown with lichen and wild roses"
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-3-area-5-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": [
+              "the slab must be moved or broken to reveal the stairs"
+            ]
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-3-area-5-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": "down"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-3-area-5-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": [
+              "stairs descend into the dank, silent dark of the tomb"
+            ]
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-3-area-5-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": "stairway"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-3-area-5-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-3-area-5-stairs",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              28,
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [
+          "heavy granite slab overgrown with lichen and wild roses"
+        ],
+        "conditions": [
+          "the slab must be moved or broken to reveal the stairs"
+        ],
+        "elevation": "down",
+        "features": [
+          "stairs descend into the dank, silent dark of the tomb"
+        ],
+        "kind": "stairway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-3",
+      "id": "edge-area-3-area-5",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-3-area-5-stairs"
+      ],
+      "source_pages": [
+        28,
+        29
+      ],
+      "to": "area-5"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-6-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-6-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-6-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-6-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-6-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "corridor"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-6-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-6-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-5",
+      "id": "edge-area-5-area-6",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-5-area-6-corridor"
+      ],
+      "source_pages": [
+        29
+      ],
+      "to": "area-6"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-7-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-7-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-7-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-7-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-7-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "corridor"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-7-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-7-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-5",
+      "id": "edge-area-5-area-7",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-5-area-7-corridor"
+      ],
+      "source_pages": [
+        29
+      ],
+      "to": "area-7"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-8-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": [
+              "double doors inscribed “The Most Dear”"
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-8-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-8-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-8-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-8-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "doorway"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-8-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-5-area-8-double-doors",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [
+          "double doors inscribed “The Most Dear”"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-5",
+      "id": "edge-area-5-area-8",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-5-area-8-double-doors"
+      ],
+      "source_pages": [
+        29
+      ],
+      "to": "area-8"
+    },
+    {
+      "conflict_fields": [],
+      "facet_observations": {
+        "barriers": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-9-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "conditions": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-9-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "elevation": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-9-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "level"
+          }
+        ],
+        "features": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-9-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": []
+          }
+        ],
+        "kind": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-9-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "corridor"
+          }
+        ],
+        "medium": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-9-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "ground"
+          }
+        ],
+        "traversal_direction": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.map.v1.001.passage.passage-area-6-area-9-corridor",
+            "pack_id": "map.v1.001",
+            "source_pages": [
+              29
+            ],
+            "value": "both"
+          }
+        ]
+      },
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-6",
+      "id": "edge-area-6-area-9",
+      "observation_ids": [
+        "observation.map.v1.001.passage.passage-area-6-area-9-corridor"
+      ],
+      "source_pages": [
+        29
+      ],
+      "to": "area-9"
+    }
+  ]
+}

@@ -1,0 +1,1064 @@
+{
+  "pack_id": "content.004",
+  "records": [
+    {
+      "id": "winters-daughter.location.area-01-approaching-the-mound",
+      "record_type": "location",
+      "fields": {
+        "title": "1. Approaching the mound",
+        "description": "A tangled forest approach. Clanking metal can be heard from area 2."
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-02-the-whything-stones"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-02-the-whything-stones",
+      "record_type": "location",
+      "fields": {
+        "title": "2. The Whything Stones",
+        "description": "Rune-etched stones stand among branches hung with clanking iron owls. A twitching stag skeleton is coated in bright green slime that is evaporating."
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-01-approaching-the-mound"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-03-tomb-entrance",
+      "record_type": "location",
+      "fields": {
+        "title": "3. Tomb entrance",
+        "description": "A heavy granite slab, overgrown with lichen and wild roses, seals stairs that descend into the dank, silent dark of the tomb at area 5."
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-05-hall-of-guardians",
+        "winters-daughter.procedure.area-03-open-tomb-entrance"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.procedure.area-03-open-tomb-entrance",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Open the tomb entrance",
+        "trigger": "Characters choose to enter the tomb through the granite slab at area 3.",
+        "steps": [
+          "Move or break the heavy granite slab.",
+          "Use the revealed stairs to descend to area 5."
+        ]
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-03-tomb-entrance",
+        "winters-daughter.location.area-05-hall-of-guardians"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-04-worm-hole",
+      "record_type": "location",
+      "fields": {
+        "title": "4. Worm hole",
+        "description": "A rough, 2-foot-wide hole burrows into the earth beneath the mound. Three wormtongues lurk inside. Acidic slime trails run from the hole into the woods, and the passage descends to area 10."
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.actor.area-04-wormtongues",
+        "winters-daughter.situation.area-04-wormtongue-ambush",
+        "winters-daughter.procedure.area-04-crawl-to-area-10",
+        "winters-daughter.location.area-10-abandoned-priests-quarters"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-04-wormtongues",
+      "record_type": "actor",
+      "fields": {
+        "title": "Wormtongues in the worm hole",
+        "role": "Three lurking predators that guard the rough passage beneath the mound."
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-04-worm-hole",
+        "winters-daughter.situation.area-04-wormtongue-ambush"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.situation.area-04-wormtongue-ambush",
+      "record_type": "situation",
+      "fields": {
+        "title": "Wormtongue ambush in area 4",
+        "trigger": "Noise or light disturbs the three wormtongues in the hole.",
+        "outcome": "The wormtongues attack."
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-04-worm-hole",
+        "winters-daughter.actor.area-04-wormtongues"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.procedure.area-04-crawl-to-area-10",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Crawl from the worm hole to area 10",
+        "trigger": "Characters enter and descend the 2-foot-wide worm hole at area 4.",
+        "steps": [
+          "Crawl down the rough hole beneath the mound.",
+          "Emerge at area 10."
+        ]
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-04-worm-hole",
+        "winters-daughter.location.area-10-abandoned-priests-quarters"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-05-hall-of-guardians",
+      "record_type": "location",
+      "fields": {
+        "title": "5. Hall of guardians",
+        "description": "A musty, wet hall. Floating religious objects attack non-Lawful characters. Dust on the floor conceals a mosaic. Double doors bear the inscription “The Most Dear”."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.actor.area-05-floating-religious-objects",
+        "winters-daughter.situation.area-05-guardian-attack",
+        "winters-daughter.knowledge.area-05-concealed-mosaic",
+        "winters-daughter.knowledge.area-05-door-inscription",
+        "winters-daughter.location.area-03-tomb-entrance"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-05-floating-religious-objects",
+      "record_type": "actor",
+      "fields": {
+        "title": "Floating religious objects",
+        "role": "Animated guardians of area 5 that attack characters who are not Lawful."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-05-hall-of-guardians",
+        "winters-daughter.situation.area-05-guardian-attack"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.situation.area-05-guardian-attack",
+      "record_type": "situation",
+      "fields": {
+        "title": "Hall guardian attack",
+        "trigger": "A non-Lawful character enters or is present in the hall of guardians.",
+        "outcome": "The floating religious objects attack that character."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-05-hall-of-guardians",
+        "winters-daughter.actor.area-05-floating-religious-objects"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.knowledge.area-05-concealed-mosaic",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Concealed floor mosaic",
+        "text": "The dusty floor in area 5 conceals a mosaic."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-05-hall-of-guardians"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.knowledge.area-05-door-inscription",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Hall of guardians door inscription",
+        "text": "The double doors in area 5 are inscribed “The Most Dear”."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-05-hall-of-guardians"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-06-blindfolded-statue",
+      "record_type": "location",
+      "fields": {
+        "title": "6. Blindfolded statue",
+        "description": "A statue of Princess Snowfall-at-Dusk is blindfolded and posed with one finger at her lips."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-07-freezing-mirror",
+      "record_type": "location",
+      "fields": {
+        "title": "7. Freezing mirror",
+        "description": "A mirror that can freeze characters who pass in front of it."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.situation.area-07-freezing-mirror"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.situation.area-07-freezing-mirror",
+      "record_type": "situation",
+      "fields": {
+        "title": "Freezing mirror paralysis",
+        "trigger": "A character passes in front of the mirror in area 7.",
+        "outcome": "The character must save versus paralysis or be frozen still."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-07-freezing-mirror"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page does not state the duration of the frozen condition or how it ends.",
+          "source_pages": [
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "id": "winters-daughter.location.area-08-family-crypt",
+      "record_type": "location",
+      "fields": {
+        "title": "8. Family crypt",
+        "description": "Two floating skeletons dance in the crypt and welcome strangers to join them. Sheets of slime drip from the ceiling into a fissure that descends to area 15."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.actor.area-08-floating-skeletons",
+        "winters-daughter.situation.area-08-dance-invitation",
+        "winters-daughter.procedure.area-08-descend-to-area-15",
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-08-floating-skeletons",
+      "record_type": "actor",
+      "fields": {
+        "title": "Floating skeleton dancers",
+        "role": "Two dancing skeletons that welcome strangers into the family crypt and invite them to join."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-08-family-crypt",
+        "winters-daughter.situation.area-08-dance-invitation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.situation.area-08-dance-invitation",
+      "record_type": "situation",
+      "fields": {
+        "title": "Invitation to dance in the family crypt",
+        "trigger": "Strangers enter or encounter the two floating skeletons in area 8.",
+        "outcome": "The skeletons welcome the strangers to join their dance."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-08-family-crypt",
+        "winters-daughter.actor.area-08-floating-skeletons"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.procedure.area-08-descend-to-area-15",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Descend from the family crypt to area 15",
+        "trigger": "Characters enter the slime-fed fissure in area 8.",
+        "steps": [
+          "Descend into the fissure.",
+          "Arrive at area 15."
+        ]
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-08-family-crypt",
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-09-chapel-of-st-sedge",
+      "record_type": "location",
+      "fields": {
+        "title": "9. Chapel of St Sedge",
+        "description": "A chapel with decaying pews and a stone altar bearing a candle. A tapestry conceals the west door."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.knowledge.area-09-concealed-west-door"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.knowledge.area-09-concealed-west-door",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Concealed west door in the chapel",
+        "text": "A tapestry in the Chapel of St Sedge conceals the west door."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-09-chapel-of-st-sedge"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-10-abandoned-priests-quarters",
+      "record_type": "location",
+      "fields": {
+        "title": "10. Abandoned priest’s quarters",
+        "description": "Three wormtongues lurk in a hole and attack when disturbed by noise. The room contains rubble from a collapsed wall and a mouldy writing desk. A flagstone is hidden in the northeast corner."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.actor.area-10-wormtongues",
+        "winters-daughter.situation.area-10-wormtongue-attack",
+        "winters-daughter.knowledge.area-10-hidden-flagstone",
+        "winters-daughter.location.area-04-worm-hole"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-10-wormtongues",
+      "record_type": "actor",
+      "fields": {
+        "title": "Wormtongues in the priest’s quarters",
+        "role": "Three lurking predators in the hole at area 10."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-10-abandoned-priests-quarters",
+        "winters-daughter.situation.area-10-wormtongue-attack"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.situation.area-10-wormtongue-attack",
+      "record_type": "situation",
+      "fields": {
+        "title": "Wormtongue attack in area 10",
+        "trigger": "Noise disturbs the three wormtongues lurking in the hole.",
+        "outcome": "The wormtongues attack."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-10-abandoned-priests-quarters",
+        "winters-daughter.actor.area-10-wormtongues"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.knowledge.area-10-hidden-flagstone",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Hidden flagstone in the priest’s quarters",
+        "text": "A hidden flagstone is located in the northeast corner of area 10."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-10-abandoned-priests-quarters"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-11-statues-with-weapons",
+      "record_type": "location",
+      "fields": {
+        "title": "11. Statues with weapons",
+        "description": "Weapon-bearing statues stand among mould-patched walls. A mural is partially concealed."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.knowledge.area-11-partially-concealed-mural"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.knowledge.area-11-partially-concealed-mural",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Partially concealed mural",
+        "text": "A mural in area 11 is partially concealed on the mould-patched walls."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-11-statues-with-weapons"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-12-hall-of-hounds",
+      "record_type": "location",
+      "fields": {
+        "title": "12. Hall of hounds",
+        "description": "A hall with carved pillars and double doors inscribed “Call to the companions”. Two stone hounds attack if the door is touched without first speaking the password “Flaegr and Chedr”."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.actor.area-12-stone-hounds",
+        "winters-daughter.knowledge.area-12-door-inscription-and-password",
+        "winters-daughter.situation.area-12-stone-hound-attack",
+        "winters-daughter.procedure.area-12-bypass-stone-hounds"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-12-stone-hounds",
+      "record_type": "actor",
+      "fields": {
+        "title": "Stone hounds",
+        "role": "Two guardians of the double doors in area 12."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-12-hall-of-hounds",
+        "winters-daughter.situation.area-12-stone-hound-attack"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.knowledge.area-12-door-inscription-and-password",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Hall of hounds inscription and password",
+        "text": "The double doors are inscribed “Call to the companions”. The password that prevents the stone hounds from attacking is “Flaegr and Chedr”."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-12-hall-of-hounds",
+        "winters-daughter.procedure.area-12-bypass-stone-hounds"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.situation.area-12-stone-hound-attack",
+      "record_type": "situation",
+      "fields": {
+        "title": "Stone hound attack",
+        "trigger": "Someone touches the double doors without speaking “Flaegr and Chedr”.",
+        "outcome": "The two stone hounds attack."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-12-hall-of-hounds",
+        "winters-daughter.actor.area-12-stone-hounds"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.procedure.area-12-bypass-stone-hounds",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Touch the hall doors without provoking the hounds",
+        "trigger": "Characters intend to touch the double doors in area 12.",
+        "steps": [
+          "Speak the password “Flaegr and Chedr”.",
+          "Touch the doors after speaking the password."
+        ]
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-12-hall-of-hounds",
+        "winters-daughter.knowledge.area-12-door-inscription-and-password",
+        "winters-daughter.actor.area-12-stone-hounds"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-13-the-knights-tomb",
+      "record_type": "location",
+      "fields": {
+        "title": "13. The knight’s tomb",
+        "description": "The ghost of Sir Chyde asks the player characters for help. The tomb contains a stone coffer, a portrait of Princess Snowfall-at-Dusk, and tarnished silver candlesticks."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.actor.area-13-sir-chyde",
+        "winters-daughter.situation.area-13-sir-chydes-plea"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-13-sir-chyde",
+      "record_type": "actor",
+      "fields": {
+        "title": "Sir Chyde",
+        "role": "A ghost in the knight’s tomb who beseeches the player characters to help him."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-13-the-knights-tomb",
+        "winters-daughter.situation.area-13-sir-chydes-plea"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.situation.area-13-sir-chydes-plea",
+      "record_type": "situation",
+      "fields": {
+        "title": "Sir Chyde’s plea for help",
+        "trigger": "The player characters encounter Sir Chyde’s ghost in area 13.",
+        "outcome": "Sir Chyde beseeches them to help him."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-13-the-knights-tomb",
+        "winters-daughter.actor.area-13-sir-chyde"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-14-warded-pool",
+      "record_type": "location",
+      "fields": {
+        "title": "14. Warded pool",
+        "description": "Ghostly, floating votive candles wait at the bottom of the stairs. Passing through them transports characters to Fairy at area 15."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.procedure.area-14-travel-to-area-15",
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.procedure.area-14-travel-to-area-15",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Travel from the tomb to Fairy",
+        "trigger": "Characters pass through the ghostly floating votive candles at area 14.",
+        "steps": [
+          "Pass through the candle wards at the bottom of the stairs.",
+          "Be transported to Fairy at area 15."
+        ]
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-14-warded-pool",
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-15-tower-on-a-frozen-lake",
+      "record_type": "location",
+      "fields": {
+        "title": "15. Tower on a frozen lake",
+        "description": "A snow-clad glade lies in an ominous fir wood. A white marble tower with 3 floors stands in the middle of a frozen lake beneath a purple fissure in the sky. Ghostly floating votive candles ward the forest paths; passing through them transports eligible characters to the tomb at area 14."
+      },
+      "source_pages": [
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.situation.area-15-candle-ward-restriction",
+        "winters-daughter.procedure.area-15-return-to-area-14",
+        "winters-daughter.location.area-14-warded-pool"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.situation.area-15-candle-ward-restriction",
+      "record_type": "situation",
+      "fields": {
+        "title": "Fairy prison ward restriction",
+        "trigger": "A character who did not originally come from the tomb attempts to pass through the ghostly votive-candle wards.",
+        "outcome": "That character cannot pass the wards."
+      },
+      "source_pages": [
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.procedure.area-15-return-to-area-14",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Return from Fairy to the tomb",
+        "trigger": "A character who originally came from the tomb passes through the ghostly floating votive-candle wards at area 15.",
+        "steps": [
+          "Pass through the candle wards along the forest paths.",
+          "Be transported to the tomb at area 14."
+        ]
+      },
+      "source_pages": [
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake",
+        "winters-daughter.location.area-14-warded-pool"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-16-entrance-hall",
+      "record_type": "location",
+      "fields": {
+        "title": "16. Entrance hall",
+        "description": "Griddlegrim, a goblin doorman, rides on the back of the troll Grimmlegridge. The hall smells of cooking from area 17 and is decorated with garlands and rows of cosy boots and coats. Visitors not on the guest list may be admitted if they eat a mushroom from Griddlegrim’s pouch."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.actor.area-16-griddlegrim",
+        "winters-daughter.actor.area-16-grimmlegridge",
+        "winters-daughter.procedure.area-16-gain-entry-with-mushroom",
+        "winters-daughter.location.area-17-fairy-kitchen"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-16-griddlegrim",
+      "record_type": "actor",
+      "fields": {
+        "title": "Griddlegrim",
+        "role": "Goblin doorman at the tower entrance, riding on Grimmlegridge and carrying a pouch of mushrooms that can be offered to unlisted visitors."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-16-entrance-hall",
+        "winters-daughter.actor.area-16-grimmlegridge",
+        "winters-daughter.procedure.area-16-gain-entry-with-mushroom"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-16-grimmlegridge",
+      "record_type": "actor",
+      "fields": {
+        "title": "Grimmlegridge",
+        "role": "A troll who carries the goblin doorman Griddlegrim on his back in the entrance hall."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-16-entrance-hall",
+        "winters-daughter.actor.area-16-griddlegrim"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.procedure.area-16-gain-entry-with-mushroom",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Seek entry when not on the guest list",
+        "trigger": "A visitor who is not on the guest list seeks entry through area 16.",
+        "steps": [
+          "Accept a mushroom from the goblin doorman’s pouch.",
+          "Eat the mushroom.",
+          "The visitor may then be allowed entry."
+        ]
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-16-entrance-hall",
+        "winters-daughter.actor.area-16-griddlegrim"
+      ],
+      "uncertainties": [
+        {
+          "description": "The wording says the visitor may be allowed entry; it does not state that eating the mushroom guarantees admission or what other effect the mushroom has.",
+          "source_pages": [
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "id": "winters-daughter.location.area-17-fairy-kitchen",
+      "record_type": "location",
+      "fields": {
+        "title": "17. Fairy kitchen",
+        "description": "Two frost elf cooks bustle around baking. The pantry is stuffed with fairy delicacies."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.actor.area-17-frost-elf-cooks",
+        "winters-daughter.location.area-16-entrance-hall"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-17-frost-elf-cooks",
+      "record_type": "actor",
+      "fields": {
+        "title": "Frost elf cooks",
+        "role": "Two cooks bustling around the fairy kitchen and baking."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-17-fairy-kitchen"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-18-wedding-feast",
+      "record_type": "location",
+      "fields": {
+        "title": "18. Wedding feast",
+        "description": "Five frost elf knights and 7 frost elf nobles sit at a feast. A table is covered with luxurious provender, 4 guards stand at the room’s edges, and the atmosphere is subdued."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.actor.area-18-frost-elf-knights",
+        "winters-daughter.actor.area-18-frost-elf-nobles",
+        "winters-daughter.actor.area-18-guards"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-18-frost-elf-knights",
+      "record_type": "actor",
+      "fields": {
+        "title": "Frost elf knights at the wedding feast",
+        "role": "Five frost elf knights seated at the feast in area 18."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-18-wedding-feast"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-18-frost-elf-nobles",
+      "record_type": "actor",
+      "fields": {
+        "title": "Frost elf nobles at the wedding feast",
+        "role": "Seven frost elf nobles seated at the feast in area 18."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-18-wedding-feast"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-18-guards",
+      "record_type": "actor",
+      "fields": {
+        "title": "Wedding feast guards",
+        "role": "Four guards positioned at the edges of the wedding feast room."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-18-wedding-feast"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.location.area-19-the-princesss-bedchamber",
+      "record_type": "location",
+      "fields": {
+        "title": "19. The princess’s bedchamber",
+        "description": "Princess Snowfall-at-Dusk is here and is excited to talk with strangers, especially mortals. A canopy bed is veiled in snow dust, and jewellery boxes sit on the dressing table."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.actor.area-19-princess-snowfall-at-dusk",
+        "winters-daughter.situation.area-19-princess-talks-to-strangers"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.actor.area-19-princess-snowfall-at-dusk",
+      "record_type": "actor",
+      "fields": {
+        "title": "Princess Snowfall-at-Dusk",
+        "role": "The princess in area 19, eager to speak with strangers and especially interested in mortals."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-19-the-princesss-bedchamber",
+        "winters-daughter.situation.area-19-princess-talks-to-strangers"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "winters-daughter.situation.area-19-princess-talks-to-strangers",
+      "record_type": "situation",
+      "fields": {
+        "title": "Princess Snowfall-at-Dusk meets strangers",
+        "trigger": "Strangers, especially mortals, encounter the princess in her bedchamber.",
+        "outcome": "She is excited to talk with them."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "winters-daughter.location.area-19-the-princesss-bedchamber",
+        "winters-daughter.actor.area-19-princess-snowfall-at-dusk"
+      ],
+      "uncertainties": []
+    }
+  ],
+  "schema": "module-content-evidence/v1",
+  "source_sha256": "75f903b106b1f3459676ad9d8ac255c7b943d2f8c9158a6e58e8655efd69b261",
+  "task": "content",
+  "task_coverage": [
+    {
+      "notes": "",
+      "pdf_page": 28,
+      "record_ids": [
+        "winters-daughter.location.area-01-approaching-the-mound",
+        "winters-daughter.location.area-02-the-whything-stones",
+        "winters-daughter.location.area-03-tomb-entrance",
+        "winters-daughter.procedure.area-03-open-tomb-entrance",
+        "winters-daughter.location.area-04-worm-hole",
+        "winters-daughter.actor.area-04-wormtongues",
+        "winters-daughter.situation.area-04-wormtongue-ambush",
+        "winters-daughter.procedure.area-04-crawl-to-area-10"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 29,
+      "record_ids": [
+        "winters-daughter.location.area-05-hall-of-guardians",
+        "winters-daughter.actor.area-05-floating-religious-objects",
+        "winters-daughter.situation.area-05-guardian-attack",
+        "winters-daughter.knowledge.area-05-concealed-mosaic",
+        "winters-daughter.knowledge.area-05-door-inscription",
+        "winters-daughter.location.area-06-blindfolded-statue",
+        "winters-daughter.location.area-07-freezing-mirror",
+        "winters-daughter.situation.area-07-freezing-mirror",
+        "winters-daughter.location.area-08-family-crypt",
+        "winters-daughter.actor.area-08-floating-skeletons",
+        "winters-daughter.situation.area-08-dance-invitation",
+        "winters-daughter.procedure.area-08-descend-to-area-15",
+        "winters-daughter.location.area-09-chapel-of-st-sedge",
+        "winters-daughter.knowledge.area-09-concealed-west-door",
+        "winters-daughter.location.area-10-abandoned-priests-quarters",
+        "winters-daughter.actor.area-10-wormtongues",
+        "winters-daughter.situation.area-10-wormtongue-attack",
+        "winters-daughter.knowledge.area-10-hidden-flagstone",
+        "winters-daughter.location.area-11-statues-with-weapons",
+        "winters-daughter.knowledge.area-11-partially-concealed-mural",
+        "winters-daughter.location.area-12-hall-of-hounds",
+        "winters-daughter.actor.area-12-stone-hounds",
+        "winters-daughter.knowledge.area-12-door-inscription-and-password",
+        "winters-daughter.situation.area-12-stone-hound-attack",
+        "winters-daughter.procedure.area-12-bypass-stone-hounds",
+        "winters-daughter.location.area-13-the-knights-tomb",
+        "winters-daughter.actor.area-13-sir-chyde",
+        "winters-daughter.situation.area-13-sir-chydes-plea",
+        "winters-daughter.location.area-14-warded-pool",
+        "winters-daughter.procedure.area-14-travel-to-area-15"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 30,
+      "record_ids": [
+        "winters-daughter.location.area-15-tower-on-a-frozen-lake",
+        "winters-daughter.situation.area-15-candle-ward-restriction",
+        "winters-daughter.procedure.area-15-return-to-area-14"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 31,
+      "record_ids": [
+        "winters-daughter.location.area-16-entrance-hall",
+        "winters-daughter.actor.area-16-griddlegrim",
+        "winters-daughter.actor.area-16-grimmlegridge",
+        "winters-daughter.procedure.area-16-gain-entry-with-mushroom",
+        "winters-daughter.location.area-17-fairy-kitchen",
+        "winters-daughter.actor.area-17-frost-elf-cooks",
+        "winters-daughter.location.area-18-wedding-feast",
+        "winters-daughter.actor.area-18-frost-elf-knights",
+        "winters-daughter.actor.area-18-frost-elf-nobles",
+        "winters-daughter.actor.area-18-guards",
+        "winters-daughter.location.area-19-the-princesss-bedchamber",
+        "winters-daughter.actor.area-19-princess-snowfall-at-dusk",
+        "winters-daughter.situation.area-19-princess-talks-to-strangers"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    }
+  ]
+}

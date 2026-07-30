@@ -1,0 +1,647 @@
+{
+  "nodes": [
+    {
+      "confidence": "high",
+      "id": "area-1",
+      "label": "Approaching the mound",
+      "source_pages": [
+        28
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-2",
+      "label": "The Whything Stones",
+      "source_pages": [
+        28
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-3",
+      "label": "Tomb entrance",
+      "source_pages": [
+        28
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-4",
+      "label": "Worm hole",
+      "source_pages": [
+        28
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-5",
+      "label": "Hall of guardians",
+      "source_pages": [
+        28,
+        29
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-6",
+      "label": "Blindfolded statue",
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-7",
+      "label": "Freezing mirror",
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-8",
+      "label": "Family crypt",
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-9",
+      "label": "Chapel of St Sedge",
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-10",
+      "label": "Abandoned priest’s quarters",
+      "source_pages": [
+        28,
+        29
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-11",
+      "label": "Statues with weapons",
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-12",
+      "label": "Hall of hounds",
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-13",
+      "label": "The knight’s tomb",
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-14",
+      "label": "Warded pool",
+      "source_pages": [
+        29,
+        30
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-15",
+      "label": "Tower on a frozen lake",
+      "source_pages": [
+        29,
+        30
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-16",
+      "label": "Entrance hall",
+      "source_pages": [
+        31
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-17",
+      "label": "Fairy kitchen",
+      "source_pages": [
+        31
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-18",
+      "label": "Wedding feast",
+      "source_pages": [
+        31
+      ]
+    },
+    {
+      "confidence": "high",
+      "id": "area-19",
+      "label": "The princess’s bedchamber",
+      "source_pages": [
+        31
+      ]
+    }
+  ],
+  "pack_id": "map.v1.001",
+  "passages": [
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "tangled forest"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "path",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-1",
+      "id": "passage-area-1-area-2-path",
+      "source_pages": [
+        28
+      ],
+      "to": "area-2"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "path",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-2",
+      "id": "passage-area-2-area-3-path",
+      "source_pages": [
+        28
+      ],
+      "to": "area-3"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "heavy granite slab overgrown with lichen and wild roses"
+        ],
+        "conditions": [
+          "the slab must be moved or broken to reveal the stairs"
+        ],
+        "elevation": "down",
+        "features": [
+          "stairs descend into the dank, silent dark of the tomb"
+        ],
+        "kind": "stairway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-3",
+      "id": "passage-area-3-area-5-stairs",
+      "source_pages": [
+        28,
+        29
+      ],
+      "to": "area-5"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "2-foot-wide rough opening",
+          "3 wormtongues lurking in the hole"
+        ],
+        "conditions": [
+          "requires crawling",
+          "wormtongues attack if disturbed by noise or light"
+        ],
+        "elevation": "down",
+        "features": [
+          "burrows into the earth beneath the mound",
+          "acidic slime trails lead off into the woods"
+        ],
+        "kind": "worm hole",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-4",
+      "id": "passage-area-4-area-10-worm-hole",
+      "source_pages": [
+        28,
+        29
+      ],
+      "to": "area-10"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-5",
+      "id": "passage-area-5-area-6-corridor",
+      "source_pages": [
+        29
+      ],
+      "to": "area-6"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-5",
+      "id": "passage-area-5-area-7-corridor",
+      "source_pages": [
+        29
+      ],
+      "to": "area-7"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "double doors inscribed “The Most Dear”"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-5",
+      "id": "passage-area-5-area-8-double-doors",
+      "source_pages": [
+        29
+      ],
+      "to": "area-8"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-6",
+      "id": "passage-area-6-area-9-corridor",
+      "source_pages": [
+        29
+      ],
+      "to": "area-9"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-7",
+      "id": "passage-area-7-area-11-corridor",
+      "source_pages": [
+        29
+      ],
+      "to": "area-11"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "west door concealed by a tapestry"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [
+          "concealed doorway"
+        ],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-9",
+      "id": "passage-area-9-area-10-concealed-door",
+      "source_pages": [
+        29
+      ],
+      "to": "area-10"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-9",
+      "id": "passage-area-9-area-12-corridor",
+      "source_pages": [
+        29
+      ],
+      "to": "area-12"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-11",
+      "id": "passage-area-11-area-12-corridor",
+      "source_pages": [
+        29
+      ],
+      "to": "area-12"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "double doors inscribed “Call to the companions”",
+          "2 stone hounds guarding the doors"
+        ],
+        "conditions": [
+          "speaking the password “Flaegr and Chedr” before touching the doors avoids the stone hounds’ attack"
+        ],
+        "elevation": "level",
+        "features": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-8",
+      "id": "passage-area-8-area-12-guarded-double-doors",
+      "source_pages": [
+        29
+      ],
+      "to": "area-12"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-12",
+      "id": "passage-area-12-area-13-doorway",
+      "source_pages": [
+        29
+      ],
+      "to": "area-13"
+    },
+    {
+      "confidence": "medium",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "down",
+        "features": [
+          "ghostly, floating votive candles at the bottom of the stairs"
+        ],
+        "kind": "stairway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-6",
+      "id": "passage-area-6-area-14-stair",
+      "source_pages": [
+        29
+      ],
+      "to": "area-14"
+    },
+    {
+      "confidence": "medium",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "down",
+        "features": [
+          "ghostly, floating votive candles at the bottom of the stairs"
+        ],
+        "kind": "stairway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-7",
+      "id": "passage-area-7-area-14-stair",
+      "source_pages": [
+        29
+      ],
+      "to": "area-14"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "conditions": [
+          "requires descending into the fissure"
+        ],
+        "elevation": "down",
+        "features": [
+          "sheets of slime drip from the ceiling into the fissure",
+          "a purple fissure is visible in the sky above area 15"
+        ],
+        "kind": "fissure",
+        "medium": "magical",
+        "traversal_direction": "from_to"
+      },
+      "from": "area-8",
+      "id": "passage-area-8-area-15-fissure",
+      "source_pages": [
+        29,
+        30
+      ],
+      "to": "area-15"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "ghostly, floating votive-candle wards"
+        ],
+        "conditions": [
+          "from area 15, only those who originally came from the tomb can pass the wards"
+        ],
+        "elevation": null,
+        "features": [
+          "passing through transports characters between the tomb and Fairy",
+          "two warded paths lead from the glade into the forest"
+        ],
+        "kind": "transport ward",
+        "medium": "magical",
+        "traversal_direction": "conditional"
+      },
+      "from": "area-14",
+      "id": "passage-area-14-area-15-transport-ward",
+      "source_pages": [
+        29,
+        30
+      ],
+      "to": "area-15"
+    },
+    {
+      "confidence": "medium",
+      "facets": {
+        "barriers": [
+          "goblin doorman riding on the back of a troll"
+        ],
+        "conditions": [
+          "visitors not on the guest list may be allowed entry if they eat a mushroom from the goblin’s pouch"
+        ],
+        "elevation": "level",
+        "features": [
+          "the tower stands in the middle of a frozen lake"
+        ],
+        "kind": "tower doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional"
+      },
+      "from": "area-15",
+      "id": "passage-area-15-area-16-entry",
+      "source_pages": [
+        30,
+        31
+      ],
+      "to": "area-16"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-16",
+      "id": "passage-area-16-area-17-doorway",
+      "source_pages": [
+        31
+      ],
+      "to": "area-17"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "up",
+        "features": [],
+        "kind": "stairway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-16",
+      "id": "passage-area-16-area-18-stairs",
+      "source_pages": [
+        31
+      ],
+      "to": "area-18"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "conditions": [],
+        "elevation": "up",
+        "features": [],
+        "kind": "stairway",
+        "medium": "ground",
+        "traversal_direction": "both"
+      },
+      "from": "area-18",
+      "id": "passage-area-18-area-19-stairs",
+      "source_pages": [
+        31
+      ],
+      "to": "area-19"
+    }
+  ],
+  "schema": "module-map-evidence/v1",
+  "source_sha256": "75f903b106b1f3459676ad9d8ac255c7b943d2f8c9158a6e58e8655efd69b261",
+  "uncertainties": [
+    {
+      "description": "The main map and lower-level inset show paired stairs, but do not explicitly label which lower-level stair corresponds to the stair reached from area 6.",
+      "source_pages": [
+        29
+      ],
+      "target_id": "passage-area-6-area-14-stair"
+    },
+    {
+      "description": "The main map and lower-level inset show paired stairs, but do not explicitly label which lower-level stair corresponds to the stair reached from area 7.",
+      "source_pages": [
+        29
+      ],
+      "target_id": "passage-area-7-area-14-stair"
+    },
+    {
+      "description": "No return route from area 15 through the purple sky fissure is shown or stated.",
+      "source_pages": [
+        29,
+        30
+      ],
+      "target_id": "passage-area-8-area-15-fissure"
+    },
+    {
+      "description": "The text says a visitor not on the guest list may be allowed entry after eating a mushroom, so the outcome is not guaranteed.",
+      "source_pages": [
+        31
+      ],
+      "target_id": "passage-area-15-area-16-entry"
+    }
+  ]
+}

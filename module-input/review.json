@@ -1,0 +1,164 @@
+{
+  "accepted_uncertainties": [
+    {
+      "uncertainty_id": "uncertainty.content.001.actor-brigford-the-wise.001",
+      "source_pages": [
+        8
+      ],
+      "rationale": "Source states directly, \"(The referee may decide how accurate this genealogical information is.)\" (p8). The ambiguity is authorial, not an extraction error, so the record's uncertainty is accepted as-is."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.001.actor-drune.001",
+      "source_pages": [
+        12
+      ],
+      "rationale": "Source frames human sacrifice explicitly as \"rumours\" feared common folk repeat about the Drune (p12), not a confirmed fact about the Drune themselves. The record correctly preserves this as rumor."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.001.knowledge-common-folklore-chyde-and-lady.001",
+      "source_pages": [
+        9
+      ],
+      "rationale": "The betrothal account sits under the page's own \"Common Folklore\" heading, introduced as a tale \"known among the common folk of Dolmenwood, and may be heard by PCs\" (p9), explicitly distinguished from the \"Deeper Investigation\" section's confirmed facts. Treating it as unverified folklore matches the source's own framing."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.001.knowledge-common-folklore-chyde-death.001",
+      "source_pages": [
+        9
+      ],
+      "rationale": "Under \"Common Folklore\" (p9), the Lady's fate is hedged with \"Some say she died...\" and is directly contradicted by the confirmed referee background elsewhere (p19, p31) that the princess remains imprisoned in Fairy. The source itself sets up folklore vs. confirmed truth as separate, intentionally conflicting layers."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.001.knowledge-common-folklore-cold-prince.001",
+      "source_pages": [
+        9
+      ],
+      "rationale": "This entry is under the \"Common Folklore\" heading (p9), introduced as common-folk hearsay rather than referee-confirmed history, matching how the source itself frames the section."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.001.knowledge-whything-stone-runes.001",
+      "source_pages": [
+        12
+      ],
+      "rationale": "Source states the runes, \"if deciphered, appears to have some function in rituals of summoning\" (p12) -- a deliberately approximate identification, not a full mechanical rule. No further detail on the runes' function is given anywhere in the evidence pack."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.001.location-dolmenwood.001",
+      "source_pages": [
+        5
+      ],
+      "rationale": "Source states referees \"may locate this adventure in any hex outside of the Witching Ring, Chell\" and that \"the events of the adventure do not relate to any specific location within the forest\" (p5) -- the vagueness is an intentional design choice, not a missed detail."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.001.procedure-check-outside-mound-events.001",
+      "source_pages": [
+        11
+      ],
+      "rationale": "The \"Outside the Mound\" table (p11) gives a 1-in-6 chance every two turns for a random event, and lists four numbered entries, but never states the die or method (e.g. d4) used to choose among them once triggered. No other page in the pack supplies this rule."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.001.procedure-investigate-the-inheritance.001",
+      "source_pages": [
+        8
+      ],
+      "rationale": "Source states directly, \"(The referee may decide how accurate this genealogical information is.)\" (p8), so the genealogy's accuracy is intentionally left open by the text."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.001.procedure-tomb-robbers-mission.001",
+      "source_pages": [
+        8
+      ],
+      "rationale": "Source states the reward is \"5,000gp (or whatever the referee wishes)\" (p8), explicitly offering the amount as a default subject to referee substitution."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.001.situation-cold-prince-defeat.001",
+      "source_pages": [
+        9
+      ],
+      "rationale": "The yearly weakening of the Cold Prince's banishment appears under the page's \"Common Folklore\" heading (p9) among common-folk hearsay, not in a section the source marks as referee-confirmed background."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.001.situation-hook-inheritance.001",
+      "source_pages": [
+        8
+      ],
+      "rationale": "Source states the relative \"bequeath[s] some minor wealth to the PC (whatever the referee wishes)\" (p8), leaving amount and form to the table."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.002.knowledge-area-11-statue-weapons.001",
+      "source_pages": [
+        18
+      ],
+      "rationale": "Source describes the longsword's glamour as compelling wielders \"to attack the largest foe in battle\" (p18) without stating a saving throw against the effect or a tie-breaking method when multiple foes are equally large; no other page in the pack supplies these rules."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.002.situation-freezing-mirror-effect.001",
+      "source_pages": [
+        15
+      ],
+      "rationale": "Source lists remedies for the frozen condition (holy water, cure light wounds, sunlight) and separately notes the mirror's own magic fades after a month if removed (p15), but never states how long the frozen condition itself lasts if no remedy is applied."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.002.situation-sir-chydes-ring-removed.001",
+      "source_pages": [
+        19
+      ],
+      "rationale": "Source explicitly defers the daily haunting's detailed effects to \"see Epilogue, p23\" (p19), which lies outside this evidence pack's cited pages, so the effect cannot be further specified from the cited source."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.002.table-burial-mound-random-events.001",
+      "source_pages": [
+        14
+      ],
+      "rationale": "The Burial Mound random-event table (p14) gives a 1-in-6 chance every two turns and four numbered entries, but does not state the die or method used to choose among them, matching the same unspecified-selection gap as the Outside the Mound table on p11."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.004.winters-daughter.procedure.area-16-gain-entry-with-mushroom.001",
+      "source_pages": [
+        31
+      ],
+      "rationale": "Source states a visitor not on the guest list \"may be allowed entry\" after eating the mushroom (p31) -- explicitly non-guaranteed -- and states no other effect the mushroom has on the eater."
+    },
+    {
+      "uncertainty_id": "uncertainty.content.004.winters-daughter.situation.area-07-freezing-mirror.001",
+      "source_pages": [
+        29
+      ],
+      "rationale": "The map key text for area 7 on p29 repeats the paralysis trigger but states no duration or end condition for the frozen state, consistent with the same gap confirmed against the full room description on p15."
+    },
+    {
+      "uncertainty_id": "uncertainty.map.v1.001.001",
+      "source_pages": [
+        29
+      ],
+      "rationale": "Reviewed page-0029.png: the lower-level inset shows area 14 with two unlabeled exit arrows, and the main map only states \"stairs down to area 14\" separately for areas 6 and 7 (p15) without cross-referencing which inset arrow serves which room. The pairing cannot be determined from the cited source."
+    },
+    {
+      "uncertainty_id": "uncertainty.map.v1.001.002",
+      "source_pages": [
+        29
+      ],
+      "rationale": "Same as the area-6 stair pairing: page-0029.png's lower-level inset gives two unlabeled arrows out of area 14, and the source never states which one is reached from area 7."
+    },
+    {
+      "uncertainty_id": "uncertainty.map.v1.001.003",
+      "source_pages": [
+        29,
+        30
+      ],
+      "rationale": "Page 30 states passing through the tower's wards returns characters to area 14, and that those who did not originate from the tomb cannot pass the wards, but neither p29 nor p30 states or shows any route traveling back through the purple sky fissure from area 15 to area 8."
+    },
+    {
+      "uncertainty_id": "uncertainty.map.v1.001.004",
+      "source_pages": [
+        31
+      ],
+      "rationale": "Source states entry after eating the mushroom is something a visitor \"may be allowed\" (p31), an explicitly conditional outcome rather than a guaranteed passage."
+    }
+  ],
+  "aliases": [],
+  "notes": "",
+  "schema": "module-review-overlay/v1",
+  "source_sha256": "75f903b106b1f3459676ad9d8ac255c7b943d2f8c9158a6e58e8655efd69b261",
+  "values": []
+}
