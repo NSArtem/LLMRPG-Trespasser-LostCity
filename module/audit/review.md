@@ -1,0 +1,4274 @@
+# Review report
+
+- Overlay schema: `module-review-overlay/v3`
+- Overlay SHA-256: `2b2989825220528244f24aec05365c9d84a9f6ac5631477fceb5d2681c73d952`
+- Canonical ID declarations: 0
+- Alias operations: 0
+- Distinct decisions: 38
+- Canonical field operations: 59
+- Accepted uncertainties: 63
+- Reviewed topology composites: 0
+- Candidate groups: 695
+
+## Candidate groups
+
+- `duplicate-candidate.01521244e284` (medium, unresolved): `rule.acrobat-cat-power-falling`, `rule.acrobat-roast-the-oaf-retaliation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.01c36e21e4d9` (medium, unresolved): `item.avenging-angel-battle-standard`, `item.mevverwen-blowtubes`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34
+- `duplicate-candidate.023e1237faad` (medium, unresolved): `actor.red-temple`, `actor.white-temple`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 16, 40, 41
+- `duplicate-candidate.02e3da856b35` (medium, unresolved): `rule.barbarian-firewater-use`, `rule.barbarian-thews-use`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.030f8cf615ca` (medium, unresolved): `item.18a-bow-and-arrows`, `item.orb-of-indulgence`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25, 43
+- `duplicate-candidate.033437b4aa43` (medium, unresolved): `item.18a-ledge-rope`, `item.conidiospore-signet-ring`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.0371abbde213` (medium, unresolved): `effect.lamb-death-earth-tremor`, `effect.lamb-death-milestone`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 20
+- `duplicate-candidate.03d033854295` (medium, unresolved): `effect.barbarian-rage`, `effect.barbarian-rampage`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.0419dd2c7a25` (medium, unresolved): `item.disassembled-mummy-parts`, `item.slobberworm-eggs`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.042fc6094d18` (medium, topology-proposal): `area-5a-closet`, `location.5a-closet`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 22
+- `duplicate-candidate.045729e54efd` (medium, unresolved): `rule.acrobat-progression`, `rule.class-template-selection`
+  - Signals: shared-relationships
+  - Source pages: 49, 50
+- `duplicate-candidate.04afebc86ecd` (medium, unresolved): `effect.fighter-double-attack`, `effect.fighter-tricky`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 52
+- `duplicate-candidate.05731c0bd8f2` (medium, unresolved): `effect.davok-geased-thrall`, `effect.davok-stun-and-inertness`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 44
+- `duplicate-candidate.05a794038e11` (medium, unresolved): `effect.fighter-tricky`, `effect.fighter-very-tricky`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 52
+- `duplicate-candidate.06c56fadbce4` (medium, unresolved): `location.25e-crypt`, `location.29-stage`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.06d20ebe492a` (medium, topology-proposal): `area-38-shroud`, `location.38-shroud`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 35, 36
+- `duplicate-candidate.06d4e102e0ff` (medium, topology-proposal): `area-17-altar`, `location.17-altar`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 25
+- `duplicate-candidate.06da454ad95f` (medium, unresolved): `effect.lamb-movement-rates`, `effect.table-boat-speed-modifiers`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.07812245b998` (medium, topology-proposal): `location.24-crush-hallway`, `waypoint-24-crush-hallway`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 30, 31
+- `duplicate-candidate.07c6e3030f2e` (medium, unresolved): `item.bone-pellets`, `item.fine-wine`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.08a8e3398633` (medium, unresolved): `item.10-bone-pile-spear`, `item.silver-vein-bracelet`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.08f1760c9056` (medium, unresolved): `actor.lamb`, `actor.twelve-fingered-hand`
+  - Signals: shared-relationships
+  - Source pages: 16, 40, 41
+- `duplicate-candidate.09150bf64252` (medium, unresolved): `rule.monster-magic-dice-pool`, `rule.monster-spell-casting-and-recovery`
+  - Signals: direct-relationship, overlapping-source-context
+  - Source pages: 45
+- `duplicate-candidate.099ab9c39632` (medium, unresolved): `effect.barbarian-firewater`, `effect.barbarian-rampage`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.0a0b3ffce835` (medium, unresolved): `location.25c-crypt`, `location.25e-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.0a80c7b4b0da` (medium, unresolved): `effect.fighter-double-attack`, `effect.fighter-very-tricky`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 52
+- `duplicate-candidate.0b0adf42ef7e` (medium, unresolved): `rule.acrobat-dodge-defense`, `rule.acrobat-tricky-critical-attacks`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.0c0b2f2f101d` (medium, unresolved): `situation.bastoval-enters-after-lamb-death`, `situation.bastoval-ghostly-warning`
+  - Signals: shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.0c219bc12772` (medium, unresolved): `table.level-0-peasant-base-stats`, `table.peasant-personality`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 5
+- `duplicate-candidate.0c474fb83707` (medium, unresolved): `item.lotus-pipe`, `item.skull-of-davok`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 44
+- `duplicate-candidate.0c97d846fb5c` (medium, unresolved): `spell.polymorph`, `spell.sleep`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26, 46
+- `duplicate-candidate.0caf366b6b34` (medium, unresolved): `item.lotus-pipe`, `item.purple-lotus-powder`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 34, 48
+- `duplicate-candidate.0d0121db6d60` (medium, topology-proposal): `location.15-crack`, `waypoint-15-crack`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 24
+- `duplicate-candidate.0d4d72306075` (medium, unresolved): `procedure.search-bone-pile`, `procedure.use-sarcophagus-elevator`
+  - Signals: shared-relationships
+  - Source pages: 23, 24
+- `duplicate-candidate.0d9969a1926c` (high, distinct): `item.2-goats-hay`, `item.2-goats-wooden-bowl`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 21
+- `duplicate-candidate.0dafe0418ce9` (medium, unresolved): `effect.favored-by-vandoh`, `effect.throne-vision`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 22, 32, 37
+- `duplicate-candidate.0dcdbfec6b4f` (medium, unresolved): `effect.milky-pool-acid`, `effect.vandress-pink-slime-addiction`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.0ddb5b9b81e5` (medium, unresolved): `item.18a-armored-corpse-helmet`, `item.conidiospore-signet-ring`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.0de938c3524c` (high, distinct): `item.4-chests-immature-lambfruit`, `item.4-chests-masterwork-helmet`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 21
+- `duplicate-candidate.0e857a3c1f40` (medium, unresolved): `actor.jasper`, `actor.molina`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 28, 29, 30, 33
+- `duplicate-candidate.0e8ba08415bd` (medium, unresolved): `effect.46-daylight-access-checks`, `effect.lamb-movement-rates`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.0e993395f3d4` (medium, unresolved): `effect.cistern-carried-item-swim-penalty`, `effect.table-boat-speed-modifiers`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.0ef6abd23cff` (medium, unresolved): `spell.emergency-exit`, `spell.sleep`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26, 45, 46
+- `duplicate-candidate.0f6c523bf290` (medium, unresolved): `effect.lamb-death-earth-tremor`, `effect.lamb-under-rubble`
+  - Signals: shared-relationships
+  - Source pages: 20, 24
+- `duplicate-candidate.0f7d51fc33ad` (medium, topology-proposal): `area-25c-crypt`, `location.25c-crypt`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 32
+- `duplicate-candidate.0fada3b03475` (medium, unresolved): `effect.lamb-movement-rates`, `effect.noria-crushes-lamb`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.0fb2f813007b` (medium, topology-proposal): `area-25b-crypt`, `location.25b-crypt`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 32
+- `duplicate-candidate.10327f1401ae` (medium, unresolved): `location.25a-crypt`, `location.25c-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.10688f341bfe` (medium, unresolved): `procedure.open-5-landing-chest`, `procedure.starting-the-game`
+  - Signals: shared-relationships
+  - Source pages: 19, 22
+- `duplicate-candidate.106fbfd2d2c3` (medium, unresolved): `rule.acrobat-cat-power-falling`, `rule.acrobat-dodge-defense`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.10c55b08d739` (medium, unresolved): `item.harpoon`, `item.silver-shilavos`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34, 41
+- `duplicate-candidate.10cbd9699316` (medium, unresolved): `knowledge.44a-fresh-air-and-cistern-beyond`, `knowledge.white-temple-godling-response`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.113c36ffc6df` (medium, unresolved): `location.25-crypts`, `location.25e-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.1233e947e822` (medium, unresolved): `effect.barbarian-rage`, `effect.barbarian-thews`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.124dab715810` (medium, unresolved): `situation.distant-lamb-noises`, `situation.lamb-nearby-disgusting-noise`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 18
+- `duplicate-candidate.126305bc7d8d` (medium, unresolved): `rule.barbarian-firewater-use`, `rule.barbarian-rage-use`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.1287f66b378d` (medium, unresolved): `rule.alternate-level-up-timing`, `rule.treasure-milestone-leveling`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 54
+- `duplicate-candidate.13b0216becfe` (medium, unresolved): `rule.checks-and-saves`, `rule.level-0-ability-score-generation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 5
+- `duplicate-candidate.13b7ffe4c96b` (medium, unresolved): `item.conroy-ballista`, `item.little-gerdith-ballista-bolt`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.140636d3f3ab` (high, distinct): `item.18a-bow-and-arrows`, `item.18a-ledge-iron-spike`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.1441ed052150` (medium, unresolved): `effect.acrobat-roast-the-oaf`, `effect.acrobat-tricky`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.147fa073d656` (medium, unresolved): `situation.distant-lamb-noises`, `situation.starting-lamb-entry`
+  - Signals: shared-relationships
+  - Source pages: 18, 19
+- `duplicate-candidate.14faa5b3cd8c` (medium, unresolved): `rule.acrobat-nah-uses`, `rule.acrobat-tricky-critical-attacks`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.1513afcce2d5` (medium, unresolved): `effect.acrobat-dodge`, `effect.acrobat-tricky`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.151e01d57955` (medium, unresolved): `rule.class-template-selection`, `rule.thief-luck-mastery`
+  - Signals: shared-relationships
+  - Source pages: 49, 53
+- `duplicate-candidate.15f9a8c4c910` (medium, unresolved): `knowledge.44a-fresh-air-and-cistern-beyond`, `knowledge.noria-feeds-white-temple`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.16839ad7b748` (medium, unresolved): `situation.bastoval-enters-after-lamb-death`, `situation.lamb-nearby-disgusting-noise`
+  - Signals: shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.16d716e656f5` (medium, unresolved): `rule.fighter-stand-tough-use`, `rule.fighter-very-tricky-maneuvers`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 52
+- `duplicate-candidate.1773b6a89cae` (medium, unresolved): `knowledge.captain-conroy-fate`, `knowledge.ghoul-favor-ladder`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 29, 34
+- `duplicate-candidate.1846d7c4a4e7` (medium, unresolved): `procedure.resolve-wall-breach-arrivals`, `procedure.run-cistern-lamb-fight`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.18e68157b9bb` (medium, unresolved): `procedure.run-cistern-lamb-fight`, `procedure.swim-in-cistern`
+  - Signals: direct-relationship, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.194c88ce1641` (medium, unresolved): `table.level-0-peasant-base-stats`, `table.peasant-appearance`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 5
+- `duplicate-candidate.197ac67f56ea` (medium, topology-proposal): `area-44-cistern`, `location.44-cistern`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 40, 41
+- `duplicate-candidate.19ee772bd067` (medium, unresolved): `location.44-cistern`, `location.46-daylight`
+  - Signals: direct-relationship, distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.1b704634d6c6` (medium, unresolved): `rule.acrobat-cat-power-falling`, `rule.acrobat-progression`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.1c77e488b448` (medium, unresolved): `rule.acrobat-nah-uses`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 50
+- `duplicate-candidate.1c7fbddfced7` (medium, unresolved): `effect.throne-milestone`, `effect.throne-vision`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.1c86f9d2df2c` (medium, unresolved): `item.fine-wine`, `item.liquid-hole`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23, 43
+- `duplicate-candidate.1cb0da4720a6` (medium, unresolved): `knowledge.45-door-leads-to-kitchen-cellar`, `knowledge.noria-feeds-white-temple`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.1ce45492df95` (medium, unresolved): `location.25f-crypt`, `location.29-stage`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.1ced1724b4b8` (medium, unresolved): `effect.barbarian-loincloth-hp`, `effect.barbarian-rage`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.1e13be247bd9` (medium, topology-proposal): `area-33-fungus`, `location.33-fungus`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 34
+- `duplicate-candidate.1e1e9539592d` (medium, unresolved): `procedure.crush-lamb-with-noria`, `procedure.reach-46-daylight-stairs`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.1e537e45c279` (medium, unresolved): `knowledge.45-door-leads-to-kitchen-cellar`, `knowledge.the-lamb-secret`
+  - Signals: shared-relationships
+  - Source pages: 16, 41
+- `duplicate-candidate.1e60a03a55e2` (medium, unresolved): `location.46a-statue`, `location.46b-tower`
+  - Signals: direct-relationship, distinct-keyed-area, overlapping-source-context
+  - Source pages: 41
+- `duplicate-candidate.1f21c2eb34f2` (medium, unresolved): `knowledge.preferred-lamb-kill-at-8-pit`, `knowledge.white-temple-godling-response`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.1f5377874547` (medium, unresolved): `location.44-cistern`, `location.46a-statue`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.1f56392c7a22` (high, distinct): `item.2-goats-hay`, `item.2-goats-twine`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 21
+- `duplicate-candidate.205ba6c7d895` (medium, unresolved): `location.25b-crypt`, `location.25c-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.2085b32af897` (medium, unresolved): `procedure.crush-lamb-with-noria`, `procedure.fish-for-lamb`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.2156d2417965` (medium, unresolved): `rule.class-template-selection`, `rule.thief-opportunist-trigger`
+  - Signals: shared-relationships
+  - Source pages: 49, 53
+- `duplicate-candidate.21dff61d2be5` (medium, unresolved): `effect.barbarian-firewater`, `effect.barbarian-rage`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.227bb2f2f8e8` (medium, topology-proposal): `area-20-pools`, `location.20-pools`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 26
+- `duplicate-candidate.241709f89832` (medium, unresolved): `effect.fountain-entry-hallucination`, `effect.permanent-water-fear`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.250583a19828` (medium, unresolved): `location.25e-crypt`, `location.25f-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.250a606b279f` (medium, unresolved): `rule.acrobat-dodge-defense`, `rule.acrobat-progression`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.252eb8798ea9` (medium, unresolved): `item.harpoon`, `item.oil`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34, 41, 54
+- `duplicate-candidate.2619bc5fe419` (medium, unresolved): `effect.acrobat-cat-power`, `effect.acrobat-roast-the-oaf`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.2697211e70c2` (medium, unresolved): `location.8-pit`, `location.9-fountain`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.26bb0c819998` (medium, unresolved): `procedure.crush-lamb-with-noria`, `procedure.paddle-table-boat`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.26c908fba932` (medium, unresolved): `effect.liquid-hole-consumption`, `effect.liquid-hole-surface`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 43
+- `duplicate-candidate.27466f816346` (medium, unresolved): `actor.gerdith`, `actor.jasper`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 28, 29, 30, 32, 33
+- `duplicate-candidate.2758643e258b` (medium, unresolved): `spell.confusion`, `spell.haste`
+  - Signals: shared-relationships
+  - Source pages: 20, 26, 45, 46
+- `duplicate-candidate.27f01cd8dd43` (medium, unresolved): `item.oil`, `item.rowboat`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 41, 54
+- `duplicate-candidate.2851e8008f3e` (high, distinct): `item.18a-armored-corpse-helmet`, `item.18a-ledge-rope`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.2902ba233e13` (medium, unresolved): `actor.the-lamb`, `actor.twelve-fingered-hand`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 16, 18, 19, 20, 23, 26
+- `duplicate-candidate.2904a208cd70` (medium, unresolved): `situation.44-cistern-lamb-approach`, `situation.fighting-lamb-in-cistern`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.29d26e142458` (medium, topology-proposal): `area-25e-crypt`, `location.25e-crypt`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 32
+- `duplicate-candidate.2b09f0a79ba2` (medium, unresolved): `actor.apparatus`, `actor.spider-crab`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.2b5283ef7bda` (medium, unresolved): `situation.distant-lamb-noises`, `situation.lamb-blocks-bone-tunnel`
+  - Signals: shared-relationships
+  - Source pages: 18, 23
+- `duplicate-candidate.2b72c09b231d` (high, distinct): `item.5-landing-fire-striker`, `item.5-landing-lit-torch`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.2b78a40a5297` (medium, topology-proposal): `area-10-bone-pile`, `location.10-bone-pile`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 23
+- `duplicate-candidate.2b85d4b9dfdb` (medium, unresolved): `procedure.clear-blocked-crawl-tunnel`, `procedure.use-sarcophagus-elevator`
+  - Signals: shared-relationships
+  - Source pages: 23, 24
+- `duplicate-candidate.2ddb3cdd39e5` (medium, unresolved): `item.hook-hand`, `item.rope`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41, 54
+- `duplicate-candidate.2e675b398f9f` (medium, unresolved): `location.25a-crypt`, `location.25e-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.2efa8a1c9e2c` (medium, topology-proposal): `boundary-44a-wall`, `location.44a-wall`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 40
+- `duplicate-candidate.2f059e208942` (medium, unresolved): `location.25f-crypt`, `location.27-ballista`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.2fe8cf8e65cc` (medium, unresolved): `effect.liquid-boat-consumption`, `effect.liquid-boat-manifestation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 43
+- `duplicate-candidate.3002acf8ea13` (medium, unresolved): `spell.ignite`, `spell.polymorph`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 46
+- `duplicate-candidate.3019e6930823` (medium, unresolved): `rule.acrobat-progression`, `rule.acrobat-tricky-critical-attacks`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.301ae8fa4232` (medium, unresolved): `rule.class-template-selection`, `rule.thief-snag-awareness`
+  - Signals: shared-relationships
+  - Source pages: 49, 53
+- `duplicate-candidate.3067fc88c9e4` (medium, unresolved): `effect.first-lamb-fishing-success`, `effect.noria-crushes-lamb`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.30fba5f53925` (medium, unresolved): `rule.acrobat-progression`, `rule.acrobat-roast-the-oaf-retaliation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.31936d83b416` (medium, unresolved): `effect.throne-transformation`, `effect.throne-vision`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.3194909aa418` (medium, unresolved): `item.bottle-of-liquid-boat`, `item.golden-gorbels-pouch-50`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 38
+- `duplicate-candidate.31b60184273a` (medium, unresolved): `effect.pink-pool-compulsion`, `effect.pink-urine-language-loss`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.320508d331a3` (medium, unresolved): `item.red-mushroom-shield`, `item.toad-shavings`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34, 48
+- `duplicate-candidate.32803548d5f5` (medium, unresolved): `location.6-tumblers`, `location.9-fountain`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 22, 23
+- `duplicate-candidate.331638cd5bfd` (medium, unresolved): `effect.abacus-ceiling-collapse`, `effect.lamb-under-rubble`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24
+- `duplicate-candidate.334d5d76d2dd` (medium, unresolved): `item.18a-bow-and-arrows`, `item.conidiospore-signet-ring`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.337b92e1baaf` (medium, unresolved): `situation.abacus-ceiling-collapse`, `situation.lamb-nearby-disgusting-noise`
+  - Signals: shared-relationships
+  - Source pages: 18, 24
+- `duplicate-candidate.337e45bd48e3` (medium, unresolved): `item.liquid-hole`, `item.silver-vein-bracelet`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23, 43
+- `duplicate-candidate.33a01fc16d31` (medium, unresolved): `item.candelabra`, `item.tiny-green-mushroom`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33, 35
+- `duplicate-candidate.33e2d5dca2c9` (medium, unresolved): `rule.fighter-double-attack-turn`, `rule.fighter-stand-tough-use`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 52
+- `duplicate-candidate.33e5c3380131` (medium, unresolved): `effect.lamb-under-rubble`, `effect.pink-urine-ecstasy-and-longevity`
+  - Signals: shared-relationships
+  - Source pages: 24, 26
+- `duplicate-candidate.3413f797ea91` (medium, unresolved): `situation.lamb-death-echoes`, `situation.starting-lamb-entry`
+  - Signals: shared-relationships
+  - Source pages: 18, 19
+- `duplicate-candidate.345f4e462d9b` (medium, unresolved): `knowledge.the-raid`, `knowledge.white-temple-godling-response`
+  - Signals: shared-relationships
+  - Source pages: 16, 41
+- `duplicate-candidate.347cda5f44d8` (medium, unresolved): `item.hook-hand`, `item.oil`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41, 54
+- `duplicate-candidate.347ee4f6241e` (medium, unresolved): `effect.44-cistern-ammonia-warning`, `effect.44a-breach-attracts-threats`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.34a2915e3460` (high, distinct): `item.5-landing-fresh-torch`, `item.5-landing-lamp-oil`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.34bb3c4777cc` (medium, unresolved): `item.steel-pipe`, `item.toad-shavings`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34, 48
+- `duplicate-candidate.34d52fe973d1` (medium, unresolved): `effect.milky-pool-acid`, `effect.yellow-pool-liquid-light`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.35060379a86c` (medium, unresolved): `rule.thief-luck-mastery`, `rule.thief-opportunist-trigger`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.351d84ed73b7` (medium, unresolved): `rule.acrobat-multiclass-very-tricky`, `rule.acrobat-roast-the-oaf-retaliation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.35b7e0e442c6` (high, distinct): `procedure.open-44a-wall`, `procedure.resolve-wall-breach-arrivals`
+  - Signals: direct-relationship, keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.35ed20909222` (medium, unresolved): `item.invisibility-potion`, `item.oil-flasks`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.3635bc28cd80` (medium, topology-proposal): `boundary-east-of-43`, `location.43-spider-crab`
+  - Signals: compatible-operational-fields, keyed-area
+  - Source pages: 15, 28, 37, 38
+- `duplicate-candidate.36cd114e8852` (medium, unresolved): `effect.lamb-death-milestone`, `effect.pink-urine-ecstasy-and-longevity`
+  - Signals: shared-relationships
+  - Source pages: 20, 26
+- `duplicate-candidate.378242b9ce43` (high, distinct): `item.5-landing-iron-pole`, `item.5-landing-lamp-oil`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.386d3fc244db` (medium, unresolved): `effect.pink-pool-compulsion`, `effect.vandress-pink-slime-addiction`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.38b13b934101` (medium, topology-proposal): `area-1-bowls`, `location.1-bowls`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 19, 21
+- `duplicate-candidate.391ed594f61a` (medium, topology-proposal): `area-11-crab-mural`, `location.11-crab-mural`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 24
+- `duplicate-candidate.393f59cd33d0` (medium, unresolved): `rule.acrobat-cat-power-falling`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 50
+- `duplicate-candidate.39c8d46a59fc` (medium, unresolved): `situation.abacus-ceiling-collapse`, `situation.lamb-approaches`
+  - Signals: shared-relationships
+  - Source pages: 18, 24
+- `duplicate-candidate.39d8aab9a6a0` (medium, unresolved): `situation.ballista-alert-and-investigation`, `situation.ghoul-favor-negotiation`
+  - Signals: shared-relationships
+  - Source pages: 29, 32, 33
+- `duplicate-candidate.39e63e7f38f1` (medium, topology-proposal): `area-46-daylight`, `location.46-daylight`
+  - Signals: compatible-operational-fields, keyed-area
+  - Source pages: 15, 28, 40, 41
+- `duplicate-candidate.3a4fe390d910` (medium, unresolved): `item.18a-bow-and-arrows`, `item.conidiopore-sword`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.3a97ee852860` (medium, unresolved): `location.25-crypts`, `location.25f-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.3aa883e7c9b8` (medium, unresolved): `actor.apparatus`, `actor.available-ghouls`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.3b13b65cc916` (medium, unresolved): `effect.favored-by-vandoh`, `effect.throne-transformation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 22, 32, 37
+- `duplicate-candidate.3b9944dba728` (medium, unresolved): `item.conidiaspore-plate-mail`, `item.red-mushroom-shield`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34
+- `duplicate-candidate.3c04e326799b` (medium, unresolved): `situation.bastoval-enters-after-lamb-death`, `situation.lamb-approaches`
+  - Signals: shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.3c0a0efec492` (high, distinct): `item.10-bone-pile-rope`, `item.10-bone-pile-torch`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.3c77a91cf1a9` (medium, unresolved): `effect.fighter-stand-tough`, `effect.fighter-very-tricky`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 52
+- `duplicate-candidate.3cc5387dcaa1` (medium, unresolved): `rule.monster-spell-casting-and-recovery`, `rule.spell-dice-and-sum-notation`
+  - Signals: direct-relationship, overlapping-source-context
+  - Source pages: 45
+- `duplicate-candidate.3cfb6db1e460` (medium, topology-proposal): `area-19-priests`, `location.19-priests`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 26
+- `duplicate-candidate.3d9536c68783` (medium, unresolved): `effect.44-cistern-ammonia-warning`, `effect.cistern-carried-item-swim-penalty`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.3d963c026f1d` (medium, unresolved): `effect.pink-urine-ecstasy-and-longevity`, `effect.pink-urine-language-loss`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.3db1f9f0baac` (medium, topology-proposal): `area-27-ballista`, `location.27-ballista`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 32, 33
+- `duplicate-candidate.3dd9309ce185` (medium, unresolved): `effect.ancient-apparatus-stone`, `effect.anguish-pattern`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 37
+- `duplicate-candidate.3de406d3d628` (medium, topology-proposal): `area-16-mold`, `location.16-mold`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 25
+- `duplicate-candidate.3e5181a20cc3` (medium, unresolved): `effect.44-cistern-ammonia-warning`, `effect.noria-crushes-lamb`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.3f15f850b90b` (medium, unresolved): `rule.acrobat-roast-the-oaf-retaliation`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 50
+- `duplicate-candidate.3f3f03de2317` (medium, unresolved): `location.25-crypts`, `location.25g-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.3f567a8ed559` (medium, unresolved): `effect.acrobat-cat-power`, `effect.acrobat-dodge`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.3fb490f27f91` (medium, unresolved): `effect.noria-crushes-lamb`, `effect.table-boat-speed-modifiers`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.40fb16f0effb` (medium, unresolved): `effect.vandress-pink-slime-addiction`, `effect.yellow-pool-liquid-light`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.41bf5356edea` (medium, unresolved): `item.bone-pellets`, `item.silver-vein-bracelet`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.42057b707b19` (high, distinct): `item.2-goats-bells`, `item.2-goats-twine`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 21
+- `duplicate-candidate.42aa7fdda415` (medium, unresolved): `rule.thief-snag-awareness`, `rule.thief-snag-eligible-items`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.42b1cfe3c8df` (medium, topology-proposal): `location.9a-underwater-tunnel`, `waypoint-9a-underwater-tunnel`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 23, 40
+- `duplicate-candidate.42ce48001695` (medium, unresolved): `table.peasant-appearance`, `table.peasant-personality`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 5
+- `duplicate-candidate.4314c705d7f0` (medium, unresolved): `effect.barbarian-loincloth-hp`, `effect.barbarian-thews`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.43bcf4892ebb` (medium, unresolved): `situation.reassemble-seven-mummies`, `situation.throne-transformation`
+  - Signals: shared-relationships
+  - Source pages: 22, 32
+- `duplicate-candidate.4441161333f9` (medium, unresolved): `actor.apparatus`, `actor.lamb`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.4463bed8aaf7` (medium, unresolved): `item.avenging-angel-battle-standard`, `item.steel-pipe`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34
+- `duplicate-candidate.44f7beb2a330` (medium, unresolved): `location.25-crypts`, `location.41-sunken-shrine`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 32, 37
+- `duplicate-candidate.45195e7dc1c9` (medium, unresolved): `location.25g-crypt`, `location.26-secret-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.455d5758bc00` (medium, unresolved): `effect.lamb-resting-in-8-pit`, `effect.white-temple-forceful-response`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.45616442c989` (medium, topology-proposal): `area-30-coffer`, `location.30-coffer`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 33
+- `duplicate-candidate.45668a73c437` (medium, unresolved): `rule.acrobat-cat-power-falling`, `rule.class-template-selection`
+  - Signals: shared-relationships
+  - Source pages: 49, 50
+- `duplicate-candidate.457f6e2b90c8` (high, distinct): `item.5-landing-fresh-torch`, `item.5-landing-lit-torch`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.45c92a3de317` (medium, unresolved): `situation.bastoval-enters-after-lamb-death`, `situation.starting-lamb-entry`
+  - Signals: shared-relationships
+  - Source pages: 19, 20
+- `duplicate-candidate.4615b12d2fd0` (medium, unresolved): `rule.acrobat-multiclass-very-tricky`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 50
+- `duplicate-candidate.4699aa8235b1` (medium, unresolved): `item.10-bone-pile-spear`, `item.fine-wine`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.47868e21b5ac` (medium, unresolved): `rule.class-template-selection`, `rule.fighter-very-tricky-maneuvers`
+  - Signals: shared-relationships
+  - Source pages: 49, 52
+- `duplicate-candidate.48c3555e193c` (medium, unresolved): `location.25c-crypt`, `location.25f-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.490832138ba4` (medium, unresolved): `table.level-0-peasant-base-stats`, `table.peasant-demographic`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 5
+- `duplicate-candidate.4993cc720d4a` (medium, unresolved): `procedure.resolve-wall-breach-arrivals`, `procedure.swim-in-cistern`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.49f12f1685a8` (medium, unresolved): `area-5-landing`, `boundary-5-north-steel-doors`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 22
+- `duplicate-candidate.4ae6c5c25813` (medium, unresolved): `item.danjo-candles`, `item.danjo-chickens`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24
+- `duplicate-candidate.4afdf848af8a` (medium, unresolved): `effect.barbarian-firewater`, `effect.barbarian-loincloth-hp`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.4b1ab02b223f` (medium, unresolved): `location.25e-crypt`, `location.27-ballista`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.4b1ea2fd19e8` (medium, unresolved): `rule.acrobat-dodge-defense`, `rule.class-template-selection`
+  - Signals: shared-relationships
+  - Source pages: 49, 50
+- `duplicate-candidate.4b4eeec10fb0` (medium, unresolved): `location.20-pools`, `location.8-pit`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 23, 26
+- `duplicate-candidate.4b6fdb00c311` (medium, unresolved): `procedure.paddle-table-boat`, `procedure.resolve-wall-breach-arrivals`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.4bd0671c8362` (medium, unresolved): `rule.fighter-tricky-attack-rolls`, `rule.fighter-very-tricky-maneuvers`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 52
+- `duplicate-candidate.4c4c05581e9d` (medium, unresolved): `rule.optional-non-binary-demographic-results`, `rule.small-stature`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 5
+- `duplicate-candidate.4d4cd7c25ecb` (high, distinct): `location.15-crack`, `location.white-temple-plaza`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24
+- `duplicate-candidate.4db4d45160ef` (medium, topology-proposal): `area-3-vinegar`, `location.3-vinegar`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 21
+- `duplicate-candidate.4e3998e5bc01` (medium, unresolved): `effect.noria-crushes-lamb`, `effect.white-temple-forceful-response`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.4e580b484761` (medium, unresolved): `item.10-bone-pile-battered-shield`, `item.silver-vein-bracelet`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.4edc2d48858a` (medium, unresolved): `item.18a-ledge-iron-spike`, `item.orb-of-indulgence`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25, 43
+- `duplicate-candidate.4f2ab5936802` (medium, unresolved): `item.10-bone-pile-torch`, `item.silver-vein-bracelet`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.5005d6a8211e` (medium, unresolved): `item.crypt-staves`, `item.fine-purple-robe`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.505078eef351` (medium, unresolved): `rule.magic-dice-mishaps`, `rule.splittable-spells`
+  - Signals: direct-relationship, overlapping-source-context
+  - Source pages: 45
+- `duplicate-candidate.507e29fd8b5a` (high, distinct): `effect.45-door-knock-no-answer`, `effect.45-rowboat-speed`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.508c1d460596` (medium, unresolved): `location.44-cistern`, `location.44a-wall`
+  - Signals: direct-relationship, distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.508ccf05cb87` (medium, unresolved): `item.10-bone-pile-rope`, `item.bone-pellets`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.50d24fda4d68` (medium, unresolved): `rule.leveling-up`, `rule.thief-unmarked-package`
+  - Signals: shared-relationships
+  - Source pages: 12, 53
+- `duplicate-candidate.51093cdf5a3f` (medium, unresolved): `effect.barbarian-loincloth-hp`, `effect.barbarian-rampage`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.5129df7c0a68` (medium, unresolved): `rule.fighter-stand-tough-use`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 52
+- `duplicate-candidate.51f110a9f868` (medium, unresolved): `item.10-bone-pile-battered-shield`, `item.liquid-hole`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23, 43
+- `duplicate-candidate.525283bb3bfb` (medium, unresolved): `item.bone-pellets`, `item.liquid-hole`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23, 43
+- `duplicate-candidate.5283ae293cfc` (medium, unresolved): `item.18a-ledge-iron-spike`, `item.conidiospore-signet-ring`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.52911c91f0fc` (high, distinct): `item.2-goats-twine`, `item.2-goats-wooden-bowl`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 21
+- `duplicate-candidate.52bd7ae3ff5c` (medium, unresolved): `effect.thief-opportunist`, `effect.thief-preparation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.52cbd3e6d48e` (medium, unresolved): `item.4-chests-torch`, `item.skull-of-davok`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 44
+- `duplicate-candidate.52fb16802b4c` (medium, unresolved): `item.4-chests-masterwork-helmet`, `item.purple-lotus-powder`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 34, 48
+- `duplicate-candidate.535bdd321faa` (medium, unresolved): `effect.milky-pool-acid`, `effect.pink-pool-compulsion`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.53db959dd49a` (medium, unresolved): `rule.barbarian-rage-use`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 51
+- `duplicate-candidate.540a8528ecbd` (medium, unresolved): `rule.acrobat-multiclass-very-tricky`, `rule.acrobat-progression`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.54697b6bc835` (high, distinct): `item.10-bone-pile-battered-shield`, `item.10-bone-pile-torch`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.54ade0f8a77b` (medium, unresolved): `item.crysmere-blade`, `item.little-gerdith-ballista-bolt`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.5552d721e701` (medium, unresolved): `effect.44-cistern-ammonia-warning`, `effect.lamb-resting-in-8-pit`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.55ed676b30b7` (medium, unresolved): `effect.44a-breach-attracts-threats`, `effect.noria-no-human-escape`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.56abe1af2cbd` (medium, unresolved): `knowledge.45-door-leads-to-kitchen-cellar`, `knowledge.white-temple-godling-response`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.579a6ba8440d` (medium, unresolved): `effect.44a-breach-attracts-threats`, `effect.white-temple-forceful-response`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.57e9ef32b949` (medium, unresolved): `rule.acrobat-cat-power-falling`, `rule.acrobat-tricky-critical-attacks`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.582f720aeed4` (medium, unresolved): `situation.bastoval-enters-after-lamb-death`, `situation.lamb-blocks-bone-tunnel`
+  - Signals: shared-relationships
+  - Source pages: 20, 23
+- `duplicate-candidate.58e0ce3a89b5` (medium, unresolved): `effect.lantern-worm-eat-light`, `effect.lantern-worm-lantern`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 28
+- `duplicate-candidate.58f55a275d72` (medium, unresolved): `item.hooked-net`, `item.oil`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41, 54
+- `duplicate-candidate.59478bef0248` (medium, unresolved): `spell.desiccate`, `spell.emergency-exit`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26, 45
+- `duplicate-candidate.5983b4daf3e7` (medium, unresolved): `location.19-priests`, `location.20-pools`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.59a63ae05ca9` (medium, unresolved): `rule.acrobat-cat-power-falling`, `rule.acrobat-nah-uses`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.59b76e743011` (medium, unresolved): `location.22-mushroom`, `location.30-coffer`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 30, 33
+- `duplicate-candidate.59ef05f0826b` (high, distinct): `item.5a-broom`, `item.5a-gong-and-hammer`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.5a079462518c` (medium, unresolved): `item.18a-ledge-iron-spike`, `item.conidiopore-sword`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.5a4e71b26bfd` (medium, unresolved): `situation.lamb-blocks-bone-tunnel`, `situation.sarcophagus-dump`
+  - Signals: shared-relationships
+  - Source pages: 23, 24
+- `duplicate-candidate.5a9a98aa4707` (medium, unresolved): `item.10-bone-pile-spear`, `item.bone-pellets`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.5aefd803ec1c` (high, distinct): `item.5-landing-fire-striker`, `item.5-landing-iron-pole`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.5b450371498f` (medium, unresolved): `item.mevverwen-blowtubes`, `item.purple-lotus-powder`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 34, 48
+- `duplicate-candidate.5b58990ddeae` (medium, unresolved): `item.18a-ledge-iron-spike`, `item.masterwork-breastplate`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.5c5441c037b7` (medium, unresolved): `effect.favored-by-vandoh`, `effect.vandoh-possessed-hand`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 22, 32, 37
+- `duplicate-candidate.5d1f01d325ab` (medium, unresolved): `knowledge.the-lamb-secret`, `knowledge.the-raid`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 16
+- `duplicate-candidate.5d382b5a07bb` (medium, unresolved): `item.conroy-ballista`, `item.molina-jewelry`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.5e5fb4712ed9` (medium, unresolved): `table.indirect-encounters-second-floor`, `table.passive-encounters-second-floor`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 28
+- `duplicate-candidate.5e688228b8b9` (medium, unresolved): `rule.acrobat-multiclass-very-tricky`, `rule.acrobat-nah-uses`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.5f458e9dc3aa` (medium, unresolved): `knowledge.noria-feeds-white-temple`, `knowledge.the-lamb-secret`
+  - Signals: shared-relationships
+  - Source pages: 16, 40
+- `duplicate-candidate.5f7441ce5806` (medium, topology-proposal): `boundary-5-north-steel-doors`, `location.5-landing`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 22
+- `duplicate-candidate.5ffda91342a6` (medium, unresolved): `effect.first-lamb-fishing-success`, `effect.white-temple-forceful-response`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.5ffdf5eeba3e` (medium, unresolved): `rule.acrobat-roast-the-oaf-retaliation`, `rule.class-template-selection`
+  - Signals: shared-relationships
+  - Source pages: 49, 50
+- `duplicate-candidate.600d9164440c` (medium, unresolved): `rule.thief-opportunist-trigger`, `rule.thief-snag-awareness`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.61458c6ae56f` (medium, unresolved): `area-43-spider-crab`, `boundary-east-of-43`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 34, 35, 37
+- `duplicate-candidate.62a33ce75da8` (medium, unresolved): `situation.distant-lamb-noises`, `situation.lamb-death-echoes`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 18
+- `duplicate-candidate.63038e3c5cc6` (medium, unresolved): `item.conidiopore-sword`, `item.masterwork-breastplate`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.6338ecd5abea` (medium, unresolved): `rule.barbarian-rage-use`, `rule.class-template-selection`
+  - Signals: shared-relationships
+  - Source pages: 49, 51
+- `duplicate-candidate.634df6f647c4` (high, distinct): `item.5-landing-fire-striker`, `item.5-landing-fresh-torch`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.639bd742fcba` (medium, unresolved): `effect.noria-no-human-escape`, `effect.table-boat-speed-modifiers`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.63a2b5b41e17` (medium, unresolved): `situation.ghost-fence-effect-in-chewed-bones`, `situation.shawson-secret-door-ambush`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 35
+- `duplicate-candidate.64e75fe43742` (medium, unresolved): `item.abacus-of-vandoh`, `item.perpetually-screaming-head`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 36, 43, 54
+- `duplicate-candidate.650d9e490c6c` (medium, unresolved): `situation.44-cistern-lamb-approach`, `situation.44a-noisy-breach-response`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.651098526e73` (medium, unresolved): `spell.delay`, `spell.scry`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 20, 45, 46
+- `duplicate-candidate.655bad3707ec` (medium, unresolved): `effect.acrobat-nah`, `effect.acrobat-tricky`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.6563c3fb8404` (medium, unresolved): `effect.ancient-apparatus-stone`, `effect.favored-by-vandoh`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 22, 32, 37
+- `duplicate-candidate.66ce752afd21` (medium, unresolved): `effect.dying`, `effect.stabilized`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 10
+- `duplicate-candidate.66ef87e6ca0c` (high, distinct): `effect.44a-breach-attracts-threats`, `effect.44a-wall-opening-times`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.6751420464a4` (medium, unresolved): `spell.delay`, `spell.haste`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 20, 45, 46
+- `duplicate-candidate.6820e337c5fe` (medium, unresolved): `procedure.fish-for-lamb`, `procedure.reach-46-daylight-stairs`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.68700fea4244` (medium, unresolved): `effect.black-pool-smoke-vomiting`, `effect.milky-pool-acid`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.6925f83ed9f4` (medium, unresolved): `actor.vandress`, `actor.white-temple-clerics`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.692671bb08e2` (medium, unresolved): `rule.fighter-double-attack-turn`, `rule.fighter-very-tricky-maneuvers`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 52
+- `duplicate-candidate.6947f71808f5` (high, distinct): `item.18a-bow-and-arrows`, `item.18a-ledge-rope`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.69b0c55e6242` (high, distinct): `item.5-landing-iron-pole`, `item.5-landing-lit-torch`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.69f384bd26b4` (medium, unresolved): `item.conidiospore-signet-ring`, `item.masterwork-breastplate`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.6c3cf8eed564` (medium, unresolved): `effect.lamb-movement-rates`, `effect.white-temple-forceful-response`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.6c4617ed5532` (medium, unresolved): `location.25d-crypt`, `location.25e-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.6cae61e54b25` (medium, unresolved): `item.corpse-bit-miniatures`, `item.mouldering-character-sheets`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.6d4cd79b555b` (medium, unresolved): `rule.leveling-up`, `rule.thief-opportunist-trigger`
+  - Signals: shared-relationships
+  - Source pages: 12, 53
+- `duplicate-candidate.6e73fd42d1ad` (medium, topology-proposal): `area-2-goats`, `location.2-goats`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 21
+- `duplicate-candidate.6e93b936f706` (medium, unresolved): `rule.fighter-double-attack-turn`, `rule.fighter-tricky-attack-rolls`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 52
+- `duplicate-candidate.6f1ca6c5338e` (medium, unresolved): `item.danjo-bread`, `item.danjo-candles`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24
+- `duplicate-candidate.6f2ea0312028` (medium, unresolved): `rule.barbarian-firewater-use`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 51
+- `duplicate-candidate.6f34244fe78b` (medium, unresolved): `item.4-chests-torch`, `item.lotus-pipe`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21
+- `duplicate-candidate.6f68f7ed5ae4` (medium, unresolved): `item.4-chests-immature-lambfruit`, `item.purple-lotus-powder`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 34, 48
+- `duplicate-candidate.6f7876b15ff6` (medium, unresolved): `item.harpoon`, `item.hooked-net`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34, 41
+- `duplicate-candidate.6fb7bd5d5acc` (medium, unresolved): `effect.pink-pool-compulsion`, `effect.pink-urine-ecstasy-and-longevity`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.701b1bc9bd7b` (medium, unresolved): `effect.lamb-death-earth-tremor`, `effect.pink-urine-ecstasy-and-longevity`
+  - Signals: shared-relationships
+  - Source pages: 20, 26
+- `duplicate-candidate.70a43b0176eb` (medium, unresolved): `effect.44a-breach-attracts-threats`, `effect.lamb-resting-in-8-pit`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.70dbcd2c8e73` (medium, unresolved): `effect.44a-breach-attracts-threats`, `effect.first-lamb-fishing-success`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.70f4ce8fbdcf` (medium, unresolved): `situation.distant-lamb-noises`, `situation.lamb-approaches`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 18
+- `duplicate-candidate.7139ffd5560f` (medium, unresolved): `item.hook-hand`, `item.hooked-net`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.717fa39d4d6b` (medium, unresolved): `location.25c-crypt`, `location.25d-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.7220c465f894` (medium, unresolved): `actor.red-temple`, `actor.twelve-fingered-hand`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 16
+- `duplicate-candidate.72af553f2f58` (medium, unresolved): `item.4-chests-masterwork-helmet`, `item.skull-of-davok`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 44
+- `duplicate-candidate.73018e445b1c` (medium, unresolved): `location.46-daylight`, `location.46a-statue`
+  - Signals: direct-relationship, distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.735351c0dbc2` (medium, topology-proposal): `area-14a-shadrakul`, `location.14a-shadrakul`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 24
+- `duplicate-candidate.7389dcaefa79` (medium, unresolved): `effect.acrobat-dodge`, `effect.acrobat-roast-the-oaf`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.73ee977e4928` (medium, unresolved): `item.oil-flasks`, `item.tiny-green-mushroom`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33, 35
+- `duplicate-candidate.74a1a89e8a48` (medium, unresolved): `location.30-coffer`, `location.36-table`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 33, 35
+- `duplicate-candidate.74fbbc1f95e1` (high, distinct): `item.5-landing-lamp-oil`, `item.5-landing-lit-torch`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.7648a77ec9af` (medium, topology-proposal): `location.1c-third-intersection`, `waypoint-1c-third-intersection`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 21
+- `duplicate-candidate.765aba0dcbcc` (medium, unresolved): `rule.leveling-up`, `rule.thief-snag-eligible-items`
+  - Signals: shared-relationships
+  - Source pages: 12, 53
+- `duplicate-candidate.76606709516b` (medium, unresolved): `item.purple-lotus-powder`, `item.skull-of-davok`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 34, 44, 48
+- `duplicate-candidate.7773684870bd` (medium, unresolved): `effect.black-pool-smoke-vomiting`, `effect.yellow-pool-liquid-light`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.7942ebc7647a` (medium, unresolved): `item.danjo-candles`, `item.danjo-knife`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24
+- `duplicate-candidate.796a7c337ffd` (medium, unresolved): `effect.davok-flesh-absorption`, `effect.davok-stun-and-inertness`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 44
+- `duplicate-candidate.79d186396540` (medium, topology-proposal): `location.31-traverse`, `waypoint-31-traverse`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 33, 34
+- `duplicate-candidate.7aca3d157036` (medium, unresolved): `effect.fountain-water-binding`, `effect.permanent-water-fear`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.7b4d76436025` (medium, unresolved): `effect.black-pool-smoke-vomiting`, `effect.pink-pool-compulsion`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.7b5f9ce32452` (medium, unresolved): `item.disassembled-mummy-parts`, `item.mummified-stage-heads`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.7b6a018692cb` (medium, unresolved): `effect.cistern-carried-item-swim-penalty`, `effect.noria-no-human-escape`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.7bba0edd6424` (medium, unresolved): `situation.abacus-ceiling-collapse`, `situation.little-lambs-emerge`
+  - Signals: shared-relationships
+  - Source pages: 20, 24
+- `duplicate-candidate.7c5a464c0389` (medium, unresolved): `item.silver-platter`, `item.tiny-green-mushroom`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33, 35
+- `duplicate-candidate.7c9eecce683b` (medium, unresolved): `situation.lamb-blocks-bone-tunnel`, `situation.lamb-nearby-disgusting-noise`
+  - Signals: shared-relationships
+  - Source pages: 18, 23
+- `duplicate-candidate.7d1c5caff342` (medium, unresolved): `rule.class-template-selection`, `rule.fighter-double-attack-turn`
+  - Signals: shared-relationships
+  - Source pages: 49, 52
+- `duplicate-candidate.7daad25a2ff6` (medium, unresolved): `procedure.crush-lamb-with-noria`, `procedure.resolve-wall-breach-arrivals`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.7e264238b263` (medium, unresolved): `item.18a-ledge-rope`, `item.masterwork-breastplate`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.7ebf5e2e926e` (medium, unresolved): `item.crysmere-blade`, `item.molina-jewelry`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.7ec50e9ef093` (medium, unresolved): `actor.captain-conroy`, `actor.molina`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 28, 29, 33, 34
+- `duplicate-candidate.7f259f72891a` (medium, topology-proposal): `area-43-spider-crab`, `location.43-spider-crab`
+  - Signals: compatible-operational-fields, keyed-area
+  - Source pages: 15, 28, 34, 35, 37, 38
+- `duplicate-candidate.7f42fdd8fb4b` (medium, topology-proposal): `area-13-city-mural`, `location.13-city-mural`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 24
+- `duplicate-candidate.7fb24f68a37d` (medium, unresolved): `effect.davok-stun-and-inertness`, `effect.davok-warlock-transformation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 44
+- `duplicate-candidate.7fe48ed5e542` (medium, topology-proposal): `area-7-throne`, `location.7-throne`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 22
+- `duplicate-candidate.8091cd585397` (medium, topology-proposal): `area-25f-crypt`, `location.25f-crypt`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 32
+- `duplicate-candidate.814276491226` (medium, unresolved): `situation.lamb-blocks-bone-tunnel`, `situation.lamb-death-echoes`
+  - Signals: shared-relationships
+  - Source pages: 18, 23
+- `duplicate-candidate.818556de82ff` (medium, unresolved): `procedure.short-dungeon-heavy-door-exit`, `procedure.start-dungeon-at-heavy-door`
+  - Signals: keyed-area, overlapping-source-context
+  - Source pages: 54
+- `duplicate-candidate.818a0004b715` (medium, unresolved): `rule.thief-opportunist-trigger`, `rule.thief-unmarked-package`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.818bf1eb0421` (medium, unresolved): `actor.akina`, `actor.the-lamb`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 16, 18, 19, 20, 23, 26
+- `duplicate-candidate.82535c9a8e1d` (medium, unresolved): `location.25-crypts`, `location.27-ballista`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.826fb09646a8` (medium, unresolved): `area-5-landing`, `waypoint-5-6-corridor`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 22
+- `duplicate-candidate.8272504edf60` (medium, unresolved): `spell.haste`, `spell.polymorph`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 20, 46
+- `duplicate-candidate.82e222f7ab5e` (high, distinct): `item.18a-ledge-iron-spike`, `item.18a-ledge-rope`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.832aa0de9203` (medium, topology-proposal): `area-8-pit`, `location.8-pit`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 23
+- `duplicate-candidate.833f1894fb81` (medium, unresolved): `rule.fighter-tricky-attack-rolls`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 52
+- `duplicate-candidate.8340ac7b12ba` (medium, unresolved): `item.fine-wine`, `item.silver-vein-bracelet`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.8353d01a4bbc` (medium, unresolved): `location.21-heavy-doors`, `location.46b-tower`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 30, 41
+- `duplicate-candidate.8402b40d22ba` (high, distinct): `situation.41-apparatus-awakening`, `situation.41-vandoh-hand-possession`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 37
+- `duplicate-candidate.8457e5a0f25f` (medium, unresolved): `effect.davok-geased-thrall`, `effect.davok-warlock-transformation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 44
+- `duplicate-candidate.8483784358b2` (medium, unresolved): `situation.lamb-death-echoes`, `situation.lamb-nearby-disgusting-noise`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 18
+- `duplicate-candidate.8485bade4a8b` (medium, unresolved): `effect.cistern-carried-item-swim-penalty`, `effect.lamb-movement-rates`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.84de2423d6ac` (medium, unresolved): `location.25b-crypt`, `location.25f-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.84e3d0480b78` (medium, unresolved): `rule.acrobat-multiclass-very-tricky`, `rule.class-template-selection`
+  - Signals: shared-relationships
+  - Source pages: 49, 50
+- `duplicate-candidate.84ed9f7ef1c7` (medium, unresolved): `item.10-bone-pile-rope`, `item.silver-vein-bracelet`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.861c5a29f513` (medium, unresolved): `location.1-bowls`, `location.9-fountain`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 19, 21, 23
+- `duplicate-candidate.868f93560166` (medium, unresolved): `procedure.reach-46-daylight-stairs`, `procedure.run-cistern-lamb-fight`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.86b5a95d11ab` (medium, unresolved): `effect.throne-milestone`, `effect.throne-transformation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.86d96074875e` (medium, unresolved): `procedure.clear-blocked-crawl-tunnel`, `procedure.search-bone-pile`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.87043fe70803` (medium, unresolved): `procedure.paddle-table-boat`, `procedure.swim-in-cistern`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.87081871ec28` (medium, unresolved): `item.black-iron-spellbook`, `item.crystal-goblet`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24, 43
+- `duplicate-candidate.87334ec9684f` (medium, unresolved): `situation.ghoul-favor-negotiation`, `situation.ghoul-parley-at-heavy-doors`
+  - Signals: shared-relationships
+  - Source pages: 29, 30
+- `duplicate-candidate.874488562fe0` (medium, unresolved): `effect.davok-flesh-absorption`, `effect.davok-warlock-transformation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 44
+- `duplicate-candidate.878247b0a242` (medium, unresolved): `item.knucklebone-dice`, `item.mouldering-character-sheets`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.87ef95457fd6` (medium, unresolved): `effect.thief-luck`, `effect.thief-opportunist`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.880c8b6cf232` (medium, topology-proposal): `area-9-fountain`, `location.9-fountain`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 23
+- `duplicate-candidate.88127c17f69e` (medium, unresolved): `procedure.open-crypt-sarcophagus`, `procedure.reassemble-seven-mummies`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.885b224b89ad` (medium, unresolved): `situation.danjo-extortion-trade`, `situation.red-spider-exposure`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24
+- `duplicate-candidate.8884aa7feb7f` (medium, unresolved): `actor.available-ghouls`, `actor.lamb`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.88b467a4b753` (medium, unresolved): `table.bone-pile-search`, `table.language-mastery-abilities`
+  - Signals: keyed-area
+  - Source pages: 11, 23
+- `duplicate-candidate.8908ca765654` (high, distinct): `item.5-landing-fresh-torch`, `item.5-landing-iron-pole`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.89df8351d985` (medium, unresolved): `situation.bastoval-checks-on-lamb`, `situation.bastoval-enters-after-lamb-death`
+  - Signals: shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.8a5127c66e48` (medium, unresolved): `effect.davok-flesh-absorption`, `effect.davok-vermin-transport`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 44
+- `duplicate-candidate.8b9572a331bd` (medium, unresolved): `rule.acrobat-tricky-critical-attacks`, `rule.class-template-selection`
+  - Signals: shared-relationships
+  - Source pages: 49, 50
+- `duplicate-candidate.8bbf234f2ecf` (medium, unresolved): `effect.lamb-resting-in-8-pit`, `effect.noria-crushes-lamb`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.8c0b31d47eec` (medium, unresolved): `item.purple-lotus-powder`, `item.toad-shavings`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 34, 48
+- `duplicate-candidate.8cb57cce788b` (medium, unresolved): `actor.twelve-fingered-hand`, `actor.white-temple`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 16, 40, 41
+- `duplicate-candidate.8cdab786a0f0` (medium, unresolved): `situation.little-lambs-digging-nearby`, `situation.little-lambs-emerge`
+  - Signals: shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.8cebf480872e` (medium, unresolved): `rule.leveling-up`, `rule.thief-snag-awareness`
+  - Signals: shared-relationships
+  - Source pages: 12, 53
+- `duplicate-candidate.8d32b6d8d1f9` (medium, unresolved): `item.purple-lotus-powder`, `item.red-mushroom-shield`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 34, 48
+- `duplicate-candidate.8d529aeb0446` (medium, unresolved): `item.little-gerdith-ballista-bolt`, `item.molina-jewelry`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.8d9391cbfb5c` (medium, unresolved): `effect.lamb-movement-rates`, `effect.noria-no-human-escape`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.8dbe6ac7aa64` (medium, unresolved): `situation.abacus-ceiling-collapse`, `situation.starting-lamb-entry`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 19, 24
+- `duplicate-candidate.8e191cf7741c` (medium, unresolved): `effect.davok-vermin-transport`, `effect.davok-warlock-transformation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 44
+- `duplicate-candidate.8e330d4a820d` (medium, unresolved): `item.10-bone-pile-rope`, `item.liquid-hole`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23, 43
+- `duplicate-candidate.8e6d80ccecf6` (medium, unresolved): `boundary-5-north-steel-doors`, `waypoint-5-6-corridor`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 22
+- `duplicate-candidate.8eeea8fb74df` (medium, unresolved): `effect.cistern-carried-item-swim-penalty`, `effect.noria-crushes-lamb`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.8f5f54f47099` (medium, unresolved): `actor.bilosh`, `actor.father-bastoval`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.8fa891aac310` (medium, unresolved): `knowledge.noria-feeds-white-temple`, `knowledge.white-temple-godling-response`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.8ff33602dc82` (medium, topology-proposal): `area-29-stage`, `location.29-stage`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 33
+- `duplicate-candidate.9025e381b072` (medium, unresolved): `item.danjo-chickens`, `item.danjo-knife`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24
+- `duplicate-candidate.9067bc86c01c` (medium, topology-proposal): `area-24a`, `location.24a`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 37
+- `duplicate-candidate.90f47687c005` (medium, unresolved): `actor.gerdith`, `actor.molina`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 28, 29, 32, 33
+- `duplicate-candidate.913863807879` (high, distinct): `item.4-chests-masterwork-helmet`, `item.4-chests-torch`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 21
+- `duplicate-candidate.917abb4be1c4` (medium, unresolved): `actor.the-lamb`, `actor.white-temple`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 16, 18, 19, 20, 23, 26, 40, 41
+- `duplicate-candidate.91891c0be729` (medium, unresolved): `spell.cone-of-mutilation`, `spell.confusion`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26, 45
+- `duplicate-candidate.92cb70b35ac2` (medium, unresolved): `rule.acrobat-progression`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 50
+- `duplicate-candidate.93c1f06d07bb` (medium, unresolved): `rule.acrobat-dodge-defense`, `rule.acrobat-multiclass-very-tricky`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.93eeef07e85f` (medium, unresolved): `effect.ancient-tone`, `effect.anguish-pattern`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 37
+- `duplicate-candidate.94102f799e36` (medium, unresolved): `item.14a-soft-rugs`, `item.black-iron-spellbook`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24, 43
+- `duplicate-candidate.94da89c0d7cd` (medium, unresolved): `effect.davok-stun-and-inertness`, `effect.davok-vermin-transport`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 44
+- `duplicate-candidate.95944030aae2` (medium, unresolved): `item.conidiopore-sword`, `item.orb-of-indulgence`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25, 43
+- `duplicate-candidate.95f931cb6acb` (medium, unresolved): `situation.44a-noisy-breach-response`, `situation.fighting-lamb-in-cistern`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.9658ce56ca4e` (medium, unresolved): `effect.acrobat-cat-power`, `effect.acrobat-nah`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.96c3cfb9195f` (medium, unresolved): `item.10-bone-pile-rope`, `item.fine-wine`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.9738e97a22c7` (medium, unresolved): `rule.thief-snag-eligible-items`, `rule.thief-unmarked-package`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.975b07e12e7c` (medium, unresolved): `item.18a-ledge-rope`, `item.conidiopore-sword`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.97a1644eadfb` (medium, unresolved): `item.candelabra`, `item.silver-platter`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 35
+- `duplicate-candidate.97f01a4de286` (medium, topology-proposal): `area-26-secret-crypt`, `location.26-secret-crypt`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 32
+- `duplicate-candidate.97f4480b8a07` (medium, unresolved): `item.avenging-angel-battle-standard`, `item.toad-shavings`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34, 48
+- `duplicate-candidate.9873fd799d08` (medium, unresolved): `rule.leveling-up`, `rule.thief-luck-mastery`
+  - Signals: shared-relationships
+  - Source pages: 12, 53
+- `duplicate-candidate.991fd11189a3` (medium, unresolved): `effect.barbarian-rampage`, `effect.barbarian-thews`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.996008e1b27c` (medium, unresolved): `actor.captain-conroy`, `actor.gerdith`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 28, 29, 32, 33, 34
+- `duplicate-candidate.99a25e94eba8` (medium, unresolved): `rule.acrobat-nah-uses`, `rule.class-template-selection`
+  - Signals: shared-relationships
+  - Source pages: 49, 50
+- `duplicate-candidate.99dfc6536c4a` (medium, unresolved): `spell.confusion`, `spell.ignite`
+  - Signals: shared-relationships
+  - Source pages: 26, 45, 46
+- `duplicate-candidate.99e3d25f6faf` (medium, unresolved): `rule.acrobat-cat-power-falling`, `rule.acrobat-multiclass-very-tricky`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.9adefce2db9e` (medium, unresolved): `item.purple-lotus-powder`, `item.steel-pipe`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 34, 48
+- `duplicate-candidate.9b6d27eefdfb` (medium, unresolved): `location.25g-crypt`, `location.29-stage`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.9b939a22e14d` (medium, topology-proposal): `area-5-landing`, `location.5-landing`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 22
+- `duplicate-candidate.9bca67808a09` (medium, unresolved): `knowledge.ghoul-favor-ladder`, `knowledge.ghouls-second-floor`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 29
+- `duplicate-candidate.9bf43a9b0e1e` (medium, unresolved): `effect.acrobat-cat-power`, `effect.acrobat-tricky`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.9c9c13a23aed` (medium, unresolved): `rule.fighter-stand-tough-use`, `rule.fighter-tricky-attack-rolls`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 52
+- `duplicate-candidate.9d7764a5a9c8` (medium, unresolved): `item.disassembled-mummy-parts`, `item.hook-hand-prosthesis`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.9d791a1c7b0d` (medium, unresolved): `rule.fighter-double-attack-turn`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 52
+- `duplicate-candidate.9d90d19c5c2b` (medium, topology-proposal): `area-18-shaft`, `location.18-shaft`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 25
+- `duplicate-candidate.9df37f4acebc` (medium, unresolved): `location.28-games`, `location.29-stage`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.9dfbba5d2743` (medium, unresolved): `situation.lamb-nearby-disgusting-noise`, `situation.little-lambs-emerge`
+  - Signals: shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.9e6ac91bd5b4` (medium, unresolved): `location.44a-wall`, `location.46-daylight`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.9eab7d16301a` (medium, unresolved): `effect.davok-geased-thrall`, `effect.davok-vermin-transport`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 44
+- `duplicate-candidate.9eb5c470d2ef` (medium, unresolved): `situation.41-vandoh-hand-possession`, `situation.throne-transformation`
+  - Signals: shared-relationships
+  - Source pages: 22, 37
+- `duplicate-candidate.9f41a8cf2bfb` (medium, unresolved): `spell.confusion`, `spell.sleep`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26, 45, 46
+- `duplicate-candidate.9f6c9dee53f2` (medium, unresolved): `actor.luntz`, `actor.molina`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 28, 29, 30, 33
+- `duplicate-candidate.9f9d2f9ac85d` (medium, unresolved): `location.25a-crypt`, `location.25d-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.a051aace4b01` (medium, unresolved): `situation.lamb-approaches`, `situation.little-lambs-emerge`
+  - Signals: shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.a13540f86d49` (medium, unresolved): `effect.ancient-apparatus-stone`, `effect.vandoh-possessed-hand`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 37
+- `duplicate-candidate.a231c793e766` (medium, unresolved): `actor.available-ghouls`, `actor.spider-crab`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.a263e32b343e` (medium, unresolved): `situation.bastoval-enters-after-lamb-death`, `situation.little-lambs-emerge`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 20
+- `duplicate-candidate.a2d08ead19ab` (medium, unresolved): `effect.lantern-worm-lantern`, `effect.lantern-worm-stonemeld`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 28
+- `duplicate-candidate.a2e226597be2` (medium, unresolved): `actor.the-lamb`, `actor.vandress`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 16, 18, 19, 20, 23, 26
+- `duplicate-candidate.a32c01509c0c` (medium, topology-proposal): `area-39-stone-egg`, `location.39-stone-egg`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 35, 36
+- `duplicate-candidate.a3c2799b54f3` (medium, unresolved): `table.peasant-appearance`, `table.peasant-demographic`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 5
+- `duplicate-candidate.a3d41f2a872f` (medium, topology-proposal): `area-37-chewed-bones`, `location.37-chewed-bones`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 35, 36
+- `duplicate-candidate.a498de6a3122` (medium, unresolved): `effect.lamb-under-rubble`, `effect.little-lamb-emergence`
+  - Signals: shared-relationships
+  - Source pages: 20, 24
+- `duplicate-candidate.a4b8c36ba34c` (medium, unresolved): `item.10-bone-pile-battered-shield`, `item.bone-pellets`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.a4d342167fda` (medium, unresolved): `item.abacus-of-vandoh`, `item.silver-shilavos-600`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 36, 43, 54
+- `duplicate-candidate.a5aae942c973` (high, distinct): `item.2-goats-bells`, `item.2-goats-hay`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 21
+- `duplicate-candidate.a635f173ae37` (medium, unresolved): `rule.critical-hits-and-dodges`, `rule.weapons-and-armor`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 11
+- `duplicate-candidate.a69a6ca5ea04` (medium, unresolved): `location.25f-crypt`, `location.25g-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.a6aa7cfc6e8a` (medium, unresolved): `effect.lamb-movement-rates`, `effect.lamb-resting-in-8-pit`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.a6ac6593ef7b` (medium, unresolved): `item.mevverwen-blowtubes`, `item.toad-shavings`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34, 48
+- `duplicate-candidate.a6deb9b7baca` (medium, topology-proposal): `area-45-barrels`, `location.45-barrels`
+  - Signals: compatible-operational-fields, keyed-area
+  - Source pages: 15, 28, 40, 41
+- `duplicate-candidate.a75193754b8a` (medium, unresolved): `rule.checks-and-saves`, `rule.small-stature`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 5
+- `duplicate-candidate.a83e355041b5` (medium, unresolved): `procedure.fish-for-lamb`, `procedure.run-cistern-lamb-fight`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.a846afcb9c6c` (medium, unresolved): `effect.acrobat-tricky`, `effect.fighter-tricky`
+  - Signals: normalized-title
+  - Source pages: 50, 52
+- `duplicate-candidate.a93a7e82739e` (medium, topology-proposal): `boundary-21-heavy-doors`, `location.21-heavy-doors`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 30
+- `duplicate-candidate.a9a89115493a` (medium, unresolved): `item.crypt-staves`, `item.purple-moon-robes`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.a9ffde176bd8` (medium, unresolved): `effect.lantern-worm-eat-light`, `effect.lantern-worm-stonemeld`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 28
+- `duplicate-candidate.aa5e052986a6` (medium, unresolved): `table.peasant-demographic`, `table.peasant-personality`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 5
+- `duplicate-candidate.aa858804ac73` (medium, unresolved): `effect.fountain-entry-hallucination`, `effect.fountain-water-binding`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.aa881f0162e8` (medium, unresolved): `rule.barbarian-thews-use`, `rule.class-template-selection`
+  - Signals: shared-relationships
+  - Source pages: 49, 51
+- `duplicate-candidate.aab75219a7ce` (medium, unresolved): `effect.ghost-fence-chattering`, `effect.ghost-fence-lethal-formation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 36
+- `duplicate-candidate.abc3d78a031f` (medium, topology-proposal): `location.18a-ledge`, `waypoint-18a-ledge`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 25, 32
+- `duplicate-candidate.abd7ed5266fc` (medium, unresolved): `effect.thief-opportunist`, `effect.thief-snag`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.ac90dfaa6343` (medium, unresolved): `situation.throne-transformation`, `situation.tumbler-password-result`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.acabfe110f23` (medium, unresolved): `item.avenging-angel-battle-standard`, `item.red-mushroom-shield`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34
+- `duplicate-candidate.acefaf2271f5` (medium, unresolved): `item.conidiaspore-plate-mail`, `item.steel-pipe`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34
+- `duplicate-candidate.ad58a8c6e5df` (medium, unresolved): `item.10-bone-pile-torch`, `item.bone-pellets`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.adc219b20f45` (medium, unresolved): `item.harpoon`, `item.hook-hand`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34, 41
+- `duplicate-candidate.adffcef8ef2e` (high, distinct): `procedure.cross-crush-hallway`, `procedure.disarm-crush-hallway-trapdoors`
+  - Signals: direct-relationship, keyed-area, shared-relationships
+  - Source pages: 30, 31
+- `duplicate-candidate.aeef81c00acc` (medium, unresolved): `item.conidiaspore-plate-mail`, `item.mevverwen-blowtubes`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34
+- `duplicate-candidate.af49cfc37e8b` (medium, unresolved): `actor.jasper`, `actor.luntz`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 28, 29, 30
+- `duplicate-candidate.af79aab41fb1` (medium, unresolved): `actor.temple-of-true-power`, `actor.white-temple`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 16, 40, 41
+- `duplicate-candidate.b02f82637ca7` (medium, unresolved): `effect.thief-preparation`, `effect.thief-snag`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.b0d54fdb8271` (medium, unresolved): `situation.lamb-death-echoes`, `situation.little-lambs-emerge`
+  - Signals: shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.b10bbe03910e` (medium, unresolved): `item.fine-purple-robe`, `item.whelk-comb`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.b17f5486e4e1` (medium, unresolved): `rule.acrobat-multiclass-very-tricky`, `rule.acrobat-tricky-critical-attacks`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.b19990b4104d` (medium, unresolved): `situation.abacus-ceiling-collapse`, `situation.distant-lamb-noises`
+  - Signals: shared-relationships
+  - Source pages: 18, 24
+- `duplicate-candidate.b1e6f9c90dab` (medium, unresolved): `effect.first-lamb-fishing-success`, `effect.lamb-movement-rates`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.b2284c0be6cd` (medium, unresolved): `rule.thief-luck-mastery`, `rule.thief-snag-eligible-items`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.b2f33a7f2f27` (medium, unresolved): `class.level-0-peasants`, `class.peasant-profession`
+  - Signals: direct-relationship
+  - Source pages: 2, 5, 6
+- `duplicate-candidate.b34617c8501e` (medium, unresolved): `rule.fighter-very-tricky-maneuvers`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 52
+- `duplicate-candidate.b348ba81f45c` (medium, unresolved): `location.20-pools`, `location.9-fountain`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 23, 26
+- `duplicate-candidate.b34c843cdc94` (medium, topology-proposal): `area-25d-crypt`, `location.25d-crypt`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 32
+- `duplicate-candidate.b3e7eeac6cc0` (medium, unresolved): `procedure.fish-for-lamb`, `procedure.paddle-table-boat`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.b41ca33aa1e8` (high, distinct): `item.10-bone-pile-battered-shield`, `item.10-bone-pile-rope`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.b48e818a82bf` (medium, unresolved): `effect.little-lamb-emergence`, `effect.pink-urine-ecstasy-and-longevity`
+  - Signals: shared-relationships
+  - Source pages: 20, 26
+- `duplicate-candidate.b51af12fa1a9` (medium, unresolved): `rule.acrobat-roast-the-oaf-retaliation`, `rule.acrobat-tricky-critical-attacks`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.b56a30d28a1b` (medium, unresolved): `situation.starting-lamb-entry`, `situation.traditional-level-one-lock-in`
+  - Signals: keyed-area
+  - Source pages: 19, 54
+- `duplicate-candidate.b584a7588f4c` (medium, unresolved): `item.18a-bow-and-arrows`, `item.masterwork-breastplate`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.b595deb0947a` (medium, unresolved): `item.disassembled-mummy-parts`, `item.stage-props`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.b5fee020a46d` (medium, unresolved): `rule.thief-luck-mastery`, `rule.thief-snag-awareness`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.b5fef46f564a` (medium, unresolved): `item.avenging-angel-battle-standard`, `item.conidiaspore-plate-mail`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34
+- `duplicate-candidate.b6b47730cc6d` (medium, unresolved): `item.10-bone-pile-torch`, `item.fine-wine`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.b770419fc840` (medium, topology-proposal): `area-28-games`, `location.28-games`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 32, 33
+- `duplicate-candidate.b7d67f7b914b` (medium, unresolved): `effect.44a-breach-attracts-threats`, `effect.lamb-movement-rates`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.b7ff45238a97` (medium, unresolved): `actor.red-temple`, `actor.temple-of-true-power`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 16
+- `duplicate-candidate.b8f98077d711` (medium, unresolved): `spell.haste`, `spell.sleep`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 20, 26, 46
+- `duplicate-candidate.b908176cb6b2` (medium, unresolved): `actor.priest-of-the-pool`, `actor.vandress`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.b913c825b33f` (medium, unresolved): `situation.goblet-serpent-trap`, `situation.sarcophagus-dump`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24
+- `duplicate-candidate.b97d4906a5d2` (medium, unresolved): `procedure.crush-lamb-with-noria`, `procedure.run-cistern-lamb-fight`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.b98ee701c838` (medium, unresolved): `location.25a-crypt`, `location.25f-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.b9c23a4656b5` (medium, unresolved): `effect.fighter-double-attack`, `effect.fighter-stand-tough`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 52
+- `duplicate-candidate.ba261b58b1b4` (medium, topology-proposal): `area-22-mushroom`, `location.22-mushroom`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 30, 31
+- `duplicate-candidate.baa4deff5254` (medium, unresolved): `item.14a-soft-rugs`, `item.crystal-goblet`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24
+- `duplicate-candidate.bb09ff1c38b0` (medium, unresolved): `effect.slobberworm-reproduction`, `effect.slobberworm-slime`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 44
+- `duplicate-candidate.bb2a053d7b9a` (medium, unresolved): `effect.lamb-death-earth-tremor`, `effect.little-lamb-emergence`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 20
+- `duplicate-candidate.bb44c06f78f0` (medium, unresolved): `effect.favored-by-vandoh`, `effect.throne-milestone`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 22, 32, 37
+- `duplicate-candidate.bb53194ce385` (medium, unresolved): `item.10-bone-pile-rope`, `item.18a-ledge-rope`
+  - Signals: keyed-area
+  - Source pages: 23, 25
+- `duplicate-candidate.bb848b7301ec` (medium, unresolved): `location.25b-crypt`, `location.25e-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.bb8a1dee9c60` (medium, unresolved): `situation.distant-lamb-noises`, `situation.little-lambs-emerge`
+  - Signals: shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.bc0ba2a512aa` (medium, unresolved): `item.10-bone-pile-spear`, `item.liquid-hole`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23, 43
+- `duplicate-candidate.bc6c012eeff7` (high, distinct): `item.2-goats-bells`, `item.2-goats-wooden-bowl`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 21
+- `duplicate-candidate.bd31eaa3408d` (medium, unresolved): `item.oil`, `item.water-barrels`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41, 54
+- `duplicate-candidate.bd3f73a9b975` (medium, unresolved): `item.4-chests-immature-lambfruit`, `item.immature-lambfruit`
+  - Signals: normalized-title
+  - Source pages: 21, 48
+- `duplicate-candidate.bd9fffbacbb4` (medium, unresolved): `actor.gerdith`, `actor.luntz`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 28, 29, 30, 32, 33
+- `duplicate-candidate.bdb33a5a53a7` (medium, unresolved): `rule.thief-opportunist-trigger`, `rule.thief-snag-eligible-items`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.be43af311209` (medium, unresolved): `item.oil`, `item.rope`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41, 54
+- `duplicate-candidate.be7417153adb` (medium, unresolved): `effect.44-cistern-ammonia-warning`, `effect.first-lamb-fishing-success`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.be80dd9dd58e` (medium, unresolved): `actor.bilosh`, `actor.mino`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.bf452113c723` (medium, unresolved): `knowledge.the-lamb-secret`, `knowledge.white-temple-godling-response`
+  - Signals: shared-relationships
+  - Source pages: 16, 41
+- `duplicate-candidate.bfd62424865a` (medium, unresolved): `effect.44a-breach-attracts-threats`, `effect.table-boat-speed-modifiers`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.c034dde6e5e5` (medium, unresolved): `effect.purple-lotus-dependence`, `effect.purple-lotus-sleep-and-dreams`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 48
+- `duplicate-candidate.c04f764e790d` (high, distinct): `item.18a-armored-corpse-helmet`, `item.18a-bow-and-arrows`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.c0b23c415e6d` (medium, unresolved): `situation.ballista-alert-and-investigation`, `situation.ghoul-departure-after-ghost-fence`
+  - Signals: shared-relationships
+  - Source pages: 29, 32, 33
+- `duplicate-candidate.c1bf43910e14` (medium, topology-proposal): `area-14-sarcophagus`, `location.14-sarcophagus`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 24
+- `duplicate-candidate.c1df6ee200af` (medium, unresolved): `location.25b-crypt`, `location.25d-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.c1e94ece1c47` (medium, unresolved): `effect.davok-flesh-absorption`, `effect.davok-geased-thrall`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 44
+- `duplicate-candidate.c201ce8d6fac` (medium, unresolved): `rule.thief-snag-awareness`, `rule.thief-unmarked-package`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.c2c218382648` (medium, unresolved): `item.10-bone-pile-spear`, `item.12-abacus-wooden-pike`
+  - Signals: keyed-area
+  - Source pages: 23, 24
+- `duplicate-candidate.c3c777c4eb2d` (medium, unresolved): `situation.lamb-nearby-disgusting-noise`, `situation.starting-lamb-entry`
+  - Signals: shared-relationships
+  - Source pages: 18, 19
+- `duplicate-candidate.c3e59160ef19` (medium, unresolved): `effect.44a-breach-attracts-threats`, `effect.cistern-carried-item-swim-penalty`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.c45ad3b35f88` (medium, unresolved): `item.spear-with-shrunken-head`, `item.tattered-red-banner`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 35
+- `duplicate-candidate.c45f46021d6d` (medium, unresolved): `effect.ancient-tone`, `effect.vandoh-possessed-hand`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 37
+- `duplicate-candidate.c484e3c11585` (medium, unresolved): `rule.acrobat-tricky-critical-attacks`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 50
+- `duplicate-candidate.c4bac171b368` (medium, unresolved): `item.avenging-angel-battle-standard`, `item.purple-lotus-powder`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 34, 48
+- `duplicate-candidate.c4c2794d0d6e` (medium, unresolved): `item.4-chests-immature-lambfruit`, `item.skull-of-davok`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 44
+- `duplicate-candidate.c5418a70438f` (medium, topology-proposal): `area-6-tumblers`, `location.6-tumblers`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 22
+- `duplicate-candidate.c553fb7ca645` (medium, unresolved): `item.crypt-staves`, `item.whelk-comb`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.c58da9a04ccd` (medium, unresolved): `item.rowboat`, `item.water-barrels`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.c5a38bbe84c1` (medium, unresolved): `effect.lamb-death-milestone`, `effect.lamb-under-rubble`
+  - Signals: shared-relationships
+  - Source pages: 20, 24
+- `duplicate-candidate.c5d648845520` (medium, topology-proposal): `area-12-abacus-mural`, `location.12-abacus-mural`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 24
+- `duplicate-candidate.c62bae43f582` (medium, unresolved): `effect.immature-lambfruit`, `effect.precognition-possible-future`
+  - Signals: shared-relationships
+  - Source pages: 46, 48
+- `duplicate-candidate.c6ec7ba5c4fa` (medium, unresolved): `actor.shadrakul-skeleton`, `actor.skeletal-serpent`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24
+- `duplicate-candidate.c819e6147ea2` (medium, unresolved): `situation.ghoul-departure-after-ghost-fence`, `situation.ghoul-parley-at-heavy-doors`
+  - Signals: shared-relationships
+  - Source pages: 29, 30
+- `duplicate-candidate.c81be6c4447e` (medium, unresolved): `item.harpoon`, `item.rope`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34, 41, 54
+- `duplicate-candidate.c8c9fc386e51` (medium, unresolved): `spell.haste`, `spell.scry`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 20, 46
+- `duplicate-candidate.c9110df181cd` (medium, topology-proposal): `location.5-landing`, `waypoint-5-6-corridor`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 22
+- `duplicate-candidate.c98767c2e487` (medium, unresolved): `spell.confusion`, `spell.polymorph`
+  - Signals: shared-relationships
+  - Source pages: 26, 45, 46
+- `duplicate-candidate.c98c7ca48c4d` (medium, unresolved): `item.danjo-bread`, `item.danjo-knife`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24
+- `duplicate-candidate.c98d0de75253` (medium, unresolved): `situation.lamb-blocks-bone-tunnel`, `situation.little-lambs-emerge`
+  - Signals: shared-relationships
+  - Source pages: 20, 23
+- `duplicate-candidate.c9f8ebdc6764` (medium, unresolved): `knowledge.expected-dungeon-flow`, `knowledge.the-lamb-secret`
+  - Signals: shared-relationships
+  - Source pages: 16, 19
+- `duplicate-candidate.ca6be8625942` (medium, unresolved): `effect.44-cistern-ammonia-warning`, `effect.white-temple-forceful-response`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.ca70e1377781` (medium, unresolved): `effect.shawson-agony`, `effect.stone-egg-suffocation-transformation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 36
+- `duplicate-candidate.caa691309d3d` (medium, unresolved): `rule.level-0-ability-score-generation`, `rule.small-stature`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 5
+- `duplicate-candidate.cae296bc0479` (medium, unresolved): `situation.little-lambs-ceiling-ambush`, `situation.little-lambs-digging-nearby`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 18
+- `duplicate-candidate.cb66f9c8f704` (medium, unresolved): `situation.abacus-ceiling-collapse`, `situation.bastoval-enters-after-lamb-death`
+  - Signals: shared-relationships
+  - Source pages: 20, 24
+- `duplicate-candidate.cb6ba2c7948b` (medium, topology-proposal): `area-23-weak-floor`, `location.23-weak-floor`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 30, 31, 35
+- `duplicate-candidate.cb7f865d2b98` (medium, unresolved): `situation.lamb-approaches`, `situation.lamb-death-echoes`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 18
+- `duplicate-candidate.cc11be7272dd` (medium, unresolved): `actor.father-bastoval`, `actor.mino`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.cc3f3eb579b9` (medium, topology-proposal): `location.1a-first-intersection`, `waypoint-1a-first-intersection`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 21
+- `duplicate-candidate.ccf8160bed61` (medium, unresolved): `situation.lamb-approaches`, `situation.lamb-nearby-disgusting-noise`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 18
+- `duplicate-candidate.cd6aaaded4e6` (medium, unresolved): `item.perpetually-screaming-head`, `item.silver-shilavos-600`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 36
+- `duplicate-candidate.cdcacdac15fd` (medium, unresolved): `item.18a-armored-corpse-helmet`, `item.conidiopore-sword`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.ce0f5cc40cad` (medium, topology-proposal): `boundary-40-ghost-fence`, `location.40-ghost-fence`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 35, 36
+- `duplicate-candidate.ce12fb4577dc` (medium, topology-proposal): `area-24c`, `location.24c`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 37
+- `duplicate-candidate.cea3a92a357b` (high, distinct): `item.10-bone-pile-rope`, `item.10-bone-pile-spear`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.cf62a8c64efc` (medium, unresolved): `item.10-bone-pile-battered-shield`, `item.fine-wine`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.cf699c7ebcfd` (medium, unresolved): `situation.41-vandoh-hand-possession`, `situation.reassemble-seven-mummies`
+  - Signals: shared-relationships
+  - Source pages: 32, 37
+- `duplicate-candidate.d0826610a04e` (medium, unresolved): `situation.lamb-approaches`, `situation.starting-lamb-entry`
+  - Signals: shared-relationships
+  - Source pages: 18, 19
+- `duplicate-candidate.d116ac6cfe71` (medium, unresolved): `item.4-chests-masterwork-helmet`, `item.lotus-pipe`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 21
+- `duplicate-candidate.d1717ec1509d` (medium, unresolved): `location.1-bowls`, `location.8-pit`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 19, 21, 23
+- `duplicate-candidate.d1c38f2ba393` (medium, unresolved): `item.mevverwen-blowtubes`, `item.steel-pipe`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34
+- `duplicate-candidate.d1feb671a9aa` (medium, unresolved): `effect.black-pool-smoke-vomiting`, `effect.vandress-pink-slime-addiction`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.d2226864d3e7` (medium, unresolved): `situation.little-lambs-ceiling-ambush`, `situation.little-lambs-emerge`
+  - Signals: shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.d2450325957a` (medium, unresolved): `item.bottle-of-liquid-boat`, `item.hand-mirror-of-lies`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 38, 43, 54
+- `duplicate-candidate.d273c5cdf9e0` (medium, unresolved): `rule.class-template-selection`, `rule.fighter-stand-tough-use`
+  - Signals: shared-relationships
+  - Source pages: 49, 52
+- `duplicate-candidate.d27ddcc11ca0` (medium, unresolved): `item.hooked-net`, `item.rope`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41, 54
+- `duplicate-candidate.d28cb5ddf769` (medium, topology-proposal): `location.35-tricky-hallway`, `waypoint-35-tricky-hallway`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 34, 35
+- `duplicate-candidate.d3041c8f2f81` (high, distinct): `item.10-bone-pile-spear`, `item.10-bone-pile-torch`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.d31d2366c2d8` (medium, unresolved): `effect.44-cistern-ammonia-warning`, `effect.table-boat-speed-modifiers`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.d370229a0127` (medium, unresolved): `effect.ancient-apparatus-stone`, `effect.ancient-tone`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 37
+- `duplicate-candidate.d37d9f3f9073` (medium, unresolved): `situation.bastoval-enters-after-lamb-death`, `situation.distant-lamb-noises`
+  - Signals: shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.d3fef386886c` (medium, unresolved): `effect.barbarian-firewater`, `effect.drunkenness`
+  - Signals: direct-relationship, overlapping-source-context
+  - Source pages: 51
+- `duplicate-candidate.d4b25b168eb8` (high, distinct): `item.10-bone-pile-battered-shield`, `item.10-bone-pile-spear`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 23
+- `duplicate-candidate.d4c8c0432d6f` (medium, unresolved): `actor.lamb`, `actor.spider-crab`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.d6200bca12dd` (medium, unresolved): `item.conidiospore-signet-ring`, `item.orb-of-indulgence`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25, 43
+- `duplicate-candidate.d64e8b5cedfe` (medium, unresolved): `rule.acrobat-dodge-defense`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 50
+- `duplicate-candidate.d6a5d664b001` (medium, topology-proposal): `area-34-cache`, `location.34-cache`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 34
+- `duplicate-candidate.d6b3aa16d4b0` (medium, unresolved): `rule.acrobat-nah-uses`, `rule.acrobat-roast-the-oaf-retaliation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.d87523ad8628` (medium, unresolved): `table.active-encounters-second-floor`, `table.passive-encounters-second-floor`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 28
+- `duplicate-candidate.d895e937beb9` (medium, unresolved): `item.4-chests-immature-lambfruit`, `item.lotus-pipe`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21
+- `duplicate-candidate.d90ed2686b2a` (medium, unresolved): `effect.44-cistern-ammonia-warning`, `effect.lamb-movement-rates`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.da0126a13b2c` (medium, unresolved): `location.25e-crypt`, `location.25g-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.daa99f4f8786` (medium, unresolved): `spell.desiccate`, `spell.sleep`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26, 46
+- `duplicate-candidate.db6a303749df` (medium, unresolved): `location.25g-crypt`, `location.27-ballista`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.dc56665ab9ed` (medium, unresolved): `location.27-ballista`, `location.29-stage`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.dc9d43eaf376` (medium, unresolved): `item.10-bone-pile-torch`, `item.12-abacus-wooden-pike`
+  - Signals: keyed-area
+  - Source pages: 23, 24
+- `duplicate-candidate.dce767cd039a` (medium, unresolved): `procedure.crush-lamb-with-noria`, `procedure.swim-in-cistern`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.dd0c2c89fe12` (medium, unresolved): `rule.class-template-selection`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 49
+- `duplicate-candidate.dd1ada89488d` (medium, unresolved): `table.active-encounters-second-floor`, `table.indirect-encounters-second-floor`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 28
+- `duplicate-candidate.dd5000d8f8a2` (medium, unresolved): `location.46-daylight`, `location.46b-tower`
+  - Signals: direct-relationship, distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.dd66b56d2eee` (medium, unresolved): `effect.barbarian-firewater`, `effect.barbarian-thews`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.dde61a394480` (medium, topology-proposal): `area-24b`, `location.24b`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 37
+- `duplicate-candidate.de8bd11b46fe` (medium, unresolved): `item.mevverwen-blowtubes`, `item.red-mushroom-shield`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34
+- `duplicate-candidate.de9a416fdd6f` (medium, unresolved): `situation.bastoval-checks-on-lamb`, `situation.bastoval-ghostly-warning`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 18
+- `duplicate-candidate.dea91db5d1fb` (medium, topology-proposal): `area-32-isopods`, `location.32-isopods`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 34
+- `duplicate-candidate.df51b83a3f74` (medium, unresolved): `situation.little-lambs-emerge`, `situation.starting-lamb-entry`
+  - Signals: shared-relationships
+  - Source pages: 19, 20
+- `duplicate-candidate.df552e5bf38c` (medium, unresolved): `item.18a-armored-corpse-helmet`, `item.orb-of-indulgence`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25, 43
+- `duplicate-candidate.df6a8e27b90f` (medium, unresolved): `rule.class-template-selection`, `rule.thief-snag-eligible-items`
+  - Signals: shared-relationships
+  - Source pages: 49, 53
+- `duplicate-candidate.df7dbfa72abe` (medium, unresolved): `effect.44a-breach-attracts-threats`, `effect.noria-crushes-lamb`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.df9aa62188fc` (medium, unresolved): `location.25-crypts`, `location.29-stage`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.e005924d7a83` (medium, unresolved): `procedure.block-46a-trapdoor-with-statue`, `procedure.reach-46-daylight-stairs`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.e0bd005c9c3c` (medium, unresolved): `item.mummified-stage-heads`, `item.stage-props`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.e1a9bfe817a1` (medium, unresolved): `situation.bastoval-enters-after-lamb-death`, `situation.lamb-death-echoes`
+  - Signals: shared-relationships
+  - Source pages: 18, 20
+- `duplicate-candidate.e211091b0fe3` (medium, unresolved): `rule.barbarian-thews-use`, `rule.leveling-up`
+  - Signals: shared-relationships
+  - Source pages: 12, 51
+- `duplicate-candidate.e26db1d9aa1a` (medium, unresolved): `item.18a-armored-corpse-helmet`, `item.masterwork-breastplate`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.e2c963147e08` (medium, unresolved): `rule.class-template-selection`, `rule.thief-unmarked-package`
+  - Signals: shared-relationships
+  - Source pages: 49, 53
+- `duplicate-candidate.e386e204e171` (medium, unresolved): `item.masterwork-breastplate`, `item.orb-of-indulgence`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25, 43
+- `duplicate-candidate.e3d19543914f` (medium, unresolved): `knowledge.expected-dungeon-flow`, `knowledge.tumbler-password`
+  - Signals: shared-relationships
+  - Source pages: 19, 22, 23
+- `duplicate-candidate.e3ffffe15428` (medium, topology-proposal): `area-36-table`, `location.36-table`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 35
+- `duplicate-candidate.e422b3cce23e` (high, distinct): `item.18a-armored-corpse-helmet`, `item.18a-ledge-iron-spike`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.e4717acc7bc9` (medium, unresolved): `rule.monster-spell-casting-and-recovery`, `rule.splittable-spells`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 45
+- `duplicate-candidate.e49f0cd14dd1` (medium, topology-proposal): `area-25a-crypt`, `location.25a-crypt`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 32
+- `duplicate-candidate.e4b6bbc6b82c` (medium, unresolved): `knowledge.captain-conroy-fate`, `knowledge.ghouls-second-floor`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 29, 34
+- `duplicate-candidate.e5d7b1c279bc` (medium, unresolved): `rule.acrobat-nah-uses`, `rule.acrobat-progression`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.e5e2441fa9cd` (medium, unresolved): `effect.anguish-pattern`, `effect.vandoh-possessed-hand`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 37
+- `duplicate-candidate.e642ccbc3b05` (medium, unresolved): `procedure.paddle-table-boat`, `procedure.run-cistern-lamb-fight`
+  - Signals: direct-relationship, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.e6573dcc5985` (medium, unresolved): `location.25d-crypt`, `location.25f-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.e690666c70ea` (medium, unresolved): `item.conidiaspore-plate-mail`, `item.purple-lotus-powder`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 34, 48
+- `duplicate-candidate.e6dea8ceae08` (medium, unresolved): `effect.acrobat-dodge`, `effect.acrobat-nah`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.e6f02f7cc421` (medium, unresolved): `procedure.collapse-abacus-mural`, `procedure.open-5-landing-chest`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 22, 24
+- `duplicate-candidate.e80eff051e45` (medium, unresolved): `procedure.reach-46-daylight-stairs`, `procedure.resolve-wall-breach-arrivals`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.e82147397ddf` (medium, unresolved): `effect.first-lamb-fishing-success`, `effect.lamb-resting-in-8-pit`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 41
+- `duplicate-candidate.e87acbe4ea47` (medium, unresolved): `item.conidiaspore-plate-mail`, `item.toad-shavings`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34, 48
+- `duplicate-candidate.e88ac097caf5` (medium, unresolved): `situation.ballista-alert-and-investigation`, `situation.reassemble-seven-mummies`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 32, 33
+- `duplicate-candidate.e891c917b70a` (medium, unresolved): `spell.ignite`, `spell.sleep`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26, 46
+- `duplicate-candidate.e8943db234f6` (medium, unresolved): `situation.lamb-approaches`, `situation.lamb-blocks-bone-tunnel`
+  - Signals: shared-relationships
+  - Source pages: 18, 23
+- `duplicate-candidate.e90e1fc019e6` (medium, unresolved): `procedure.collapse-abacus-mural`, `procedure.starting-the-game`
+  - Signals: shared-relationships
+  - Source pages: 19, 24
+- `duplicate-candidate.e92080ca7c2b` (medium, unresolved): `effect.acrobat-nah`, `effect.acrobat-roast-the-oaf`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.e933689e94d0` (medium, unresolved): `item.conroy-ballista`, `item.crysmere-blade`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.e94625f37057` (medium, unresolved): `location.25a-crypt`, `location.25b-crypt`
+  - Signals: distinct-keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 32
+- `duplicate-candidate.e9a0a11b50b3` (medium, unresolved): `effect.noria-crushes-lamb`, `effect.noria-no-human-escape`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.ea2b4282d8bd` (medium, unresolved): `item.invisibility-potion`, `item.tiny-green-mushroom`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33, 35
+- `duplicate-candidate.ea6018491dc1` (medium, topology-proposal): `area-42-sunken-gallery`, `location.42-sunken-gallery`
+  - Signals: compatible-operational-fields, keyed-area
+  - Source pages: 15, 28, 31, 35, 37, 38
+- `duplicate-candidate.eaf0698d0655` (medium, unresolved): `rule.level-advancement`, `rule.mastery-points`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 49
+- `duplicate-candidate.ebf440c9d809` (medium, topology-proposal): `location.1b-second-intersection`, `waypoint-1b-second-intersection`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 21
+- `duplicate-candidate.eda24de298d7` (medium, unresolved): `item.10-bone-pile-battered-shield`, `item.12-abacus-wooden-pike`
+  - Signals: keyed-area
+  - Source pages: 23, 24
+- `duplicate-candidate.edd034fcd16b` (medium, topology-proposal): `area-25g-crypt`, `location.25g-crypt`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 31, 32
+- `duplicate-candidate.ee7160d8865a` (medium, unresolved): `rule.acrobat-dodge-defense`, `rule.acrobat-nah-uses`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.eeccb028ede6` (medium, unresolved): `location.1-bowls`, `location.20-pools`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 19, 21, 26
+- `duplicate-candidate.eefe22d02f2c` (high, distinct): `item.4-chests-immature-lambfruit`, `item.4-chests-torch`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 21
+- `duplicate-candidate.eefe23e71462` (medium, unresolved): `effect.44-cistern-ammonia-warning`, `effect.noria-no-human-escape`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 40
+- `duplicate-candidate.ef2a6d6e0690` (medium, unresolved): `item.10-bone-pile-rope`, `item.12-abacus-wooden-pike`
+  - Signals: keyed-area
+  - Source pages: 23, 24
+- `duplicate-candidate.efafa65c3654` (medium, unresolved): `procedure.fish-for-lamb`, `procedure.swim-in-cistern`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.efc55c843874` (medium, unresolved): `rule.magic-dice-mishaps`, `rule.monster-spell-casting-and-recovery`
+  - Signals: direct-relationship, overlapping-source-context
+  - Source pages: 45
+- `duplicate-candidate.efcaa28f99e9` (medium, unresolved): `location.22-mushroom`, `location.24-crush-hallway`
+  - Signals: distinct-keyed-area, shared-relationships
+  - Source pages: 30, 31
+- `duplicate-candidate.efeb73d3cafc` (medium, unresolved): `procedure.fish-for-lamb`, `procedure.resolve-wall-breach-arrivals`
+  - Signals: shared-relationships
+  - Source pages: 40, 41
+- `duplicate-candidate.f037c3b7b4f5` (medium, unresolved): `effect.thief-luck`, `effect.thief-preparation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.f041cf79a704` (medium, unresolved): `procedure.reverse-dungeon-from-cistern`, `procedure.swim-in-cistern`
+  - Signals: keyed-area
+  - Source pages: 40, 54
+- `duplicate-candidate.f0b5339be11f` (medium, unresolved): `situation.ghoul-departure-after-ghost-fence`, `situation.ghoul-favor-negotiation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 29
+- `duplicate-candidate.f27a0b422c80` (medium, unresolved): `item.17-altar-white-candle`, `item.silver-plate-dageurrotype`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.f38348cc6a76` (medium, unresolved): `knowledge.45-door-leads-to-kitchen-cellar`, `knowledge.the-raid`
+  - Signals: shared-relationships
+  - Source pages: 16, 41
+- `duplicate-candidate.f3a81272544b` (medium, unresolved): `procedure.open-heavy-doors`, `procedure.short-dungeon-heavy-door-exit`
+  - Signals: keyed-area
+  - Source pages: 30, 54
+- `duplicate-candidate.f40c9fc91e77` (medium, unresolved): `rule.acrobat-dodge-defense`, `rule.acrobat-roast-the-oaf-retaliation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 50
+- `duplicate-candidate.f43bd7fe608b` (medium, unresolved): `effect.pink-pool-compulsion`, `effect.yellow-pool-liquid-light`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 26
+- `duplicate-candidate.f4bd3ce607db` (medium, unresolved): `rule.class-template-selection`, `rule.fighter-tricky-attack-rolls`
+  - Signals: shared-relationships
+  - Source pages: 49, 52
+- `duplicate-candidate.f565dcb0130f` (medium, unresolved): `effect.dehydrated`, `effect.starvation`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 12
+- `duplicate-candidate.f589110d4a9d` (medium, unresolved): `situation.abacus-ceiling-collapse`, `situation.lamb-death-echoes`
+  - Signals: shared-relationships
+  - Source pages: 18, 24
+- `duplicate-candidate.f5a5f0568eb3` (medium, unresolved): `item.18a-ledge-rope`, `item.orb-of-indulgence`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25, 43
+- `duplicate-candidate.f617f992cc19` (medium, unresolved): `spell.haste`, `spell.ignite`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 20, 46
+- `duplicate-candidate.f633c403c9d4` (medium, unresolved): `effect.thief-luck`, `effect.thief-snag`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.f639f589e5bd` (medium, unresolved): `procedure.open-heavy-doors`, `procedure.start-dungeon-at-heavy-door`
+  - Signals: keyed-area
+  - Source pages: 30, 54
+- `duplicate-candidate.f64efd3004dc` (medium, unresolved): `item.10-bone-pile-torch`, `item.liquid-hole`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 23, 43
+- `duplicate-candidate.f65a4a02100f` (medium, unresolved): `rule.thief-luck-mastery`, `rule.thief-unmarked-package`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 53
+- `duplicate-candidate.f74973440e95` (medium, unresolved): `item.danjo-bread`, `item.danjo-chickens`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 24
+- `duplicate-candidate.f771a3aac652` (medium, unresolved): `knowledge.noria-feeds-white-temple`, `knowledge.the-raid`
+  - Signals: shared-relationships
+  - Source pages: 16, 40
+- `duplicate-candidate.f8277d8b7d2d` (medium, unresolved): `effect.anguish-pattern`, `effect.favored-by-vandoh`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 22, 32, 37
+- `duplicate-candidate.f84633e894b7` (medium, unresolved): `effect.fighter-stand-tough`, `effect.fighter-tricky`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 52
+- `duplicate-candidate.f8e67d2e2bdc` (medium, topology-proposal): `area-41-sunken-shrine`, `location.41-sunken-shrine`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 28, 37
+- `duplicate-candidate.f9ca6e383cfb` (medium, unresolved): `situation.lamb-blocks-bone-tunnel`, `situation.starting-lamb-entry`
+  - Signals: shared-relationships
+  - Source pages: 19, 23
+- `duplicate-candidate.f9d8ca7c5801` (medium, unresolved): `actor.lamb`, `actor.white-temple`
+  - Signals: direct-relationship, overlapping-source-context, shared-relationships
+  - Source pages: 16, 40, 41
+- `duplicate-candidate.fa4400711b85` (medium, unresolved): `rule.barbarian-rage-use`, `rule.barbarian-thews-use`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 51
+- `duplicate-candidate.facda579892d` (high, distinct): `item.5-landing-fire-striker`, `item.5-landing-lamp-oil`
+  - Signals: keyed-area, overlapping-source-context, shared-relationships
+  - Source pages: 22
+- `duplicate-candidate.fb1cce88766f` (medium, unresolved): `effect.ancient-tone`, `effect.favored-by-vandoh`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 22, 32, 37
+- `duplicate-candidate.fb9500953df7` (medium, unresolved): `item.golden-gorbels-pouch-50`, `item.hand-mirror-of-lies`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 38, 43, 54
+- `duplicate-candidate.fbe553ac5cbb` (medium, unresolved): `item.4-chests-torch`, `item.purple-lotus-powder`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 21, 34, 48
+- `duplicate-candidate.fc01fa9574ef` (medium, unresolved): `actor.lamb`, `actor.the-lamb`
+  - Signals: normalized-title, shared-relationships
+  - Source pages: 16, 18, 19, 20, 23, 26, 40, 41
+- `duplicate-candidate.fc5721139f92` (medium, unresolved): `situation.abacus-ceiling-collapse`, `situation.lamb-blocks-bone-tunnel`
+  - Signals: shared-relationships
+  - Source pages: 23, 24
+- `duplicate-candidate.fca7bbfeda92` (medium, unresolved): `item.corpse-bit-miniatures`, `item.knucklebone-dice`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 33
+- `duplicate-candidate.fd0d816e1db8` (medium, unresolved): `effect.crush-hallway-ceiling`, `effect.crush-hallway-trapdoor-fall`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 31
+- `duplicate-candidate.fde01ba18614` (medium, unresolved): `location.14-sarcophagus`, `location.14a-shadrakul`
+  - Signals: direct-relationship, distinct-keyed-area, overlapping-source-context
+  - Source pages: 24
+- `duplicate-candidate.fe198b4bd4f5` (medium, unresolved): `effect.lamb-death-milestone`, `effect.little-lamb-emergence`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 20
+- `duplicate-candidate.fef87668ba23` (medium, unresolved): `item.conidiopore-sword`, `item.conidiospore-signet-ring`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 25
+- `duplicate-candidate.ff47230f9f21` (medium, unresolved): `item.red-mushroom-shield`, `item.steel-pipe`
+  - Signals: overlapping-source-context, shared-relationships
+  - Source pages: 34
+- `duplicate-candidate.ffa92f96b0cc` (medium, topology-proposal): `area-4-chests`, `location.4-chests`
+  - Signals: compatible-operational-fields, keyed-area, overlapping-source-context
+  - Source pages: 15, 18, 21
+- `duplicate-candidate.ffe8b1388cfa` (medium, unresolved): `rule.barbarian-firewater-use`, `rule.class-template-selection`
+  - Signals: shared-relationships
+  - Source pages: 49, 51
+
+## Canonical IDs
+
+- `actor.module-lair-of-the-lamb.akina` ← `actor.akina`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.ancient-apparatus-of-anguish` ← `actor.ancient-apparatus-of-anguish`
+  - Source pages: 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.available-ghouls` ← `actor.available-ghouls`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.bilosh` ← `actor.bilosh`
+  - Source pages: 18, 20
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.captain-conroy` ← `actor.captain-conroy`
+  - Source pages: 29, 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.danjo` ← `actor.danjo`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.father-bastoval` ← `actor.father-bastoval`
+  - Source pages: 18, 20
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.friendly-rat` ← `actor.friendly-rat`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.gerdith` ← `actor.gerdith`
+  - Source pages: 28, 29, 32, 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.jasper` ← `actor.jasper`
+  - Source pages: 28, 29, 30
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.lantern-worm` ← `actor.lantern-worm`
+  - Source pages: 28
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.live-goat` ← `actor.live-goat`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.luntz` ← `actor.luntz`
+  - Source pages: 28, 29, 30
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.malenna` ← `actor.malenna`
+  - Source pages: 28
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.mino` ← `actor.mino`
+  - Source pages: 18, 20
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.molina` ← `actor.molina`
+  - Source pages: 28, 29, 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.priest-of-the-pool` ← `actor.priest-of-the-pool`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.robed-skeleton` ← `actor.shadrakul-skeleton`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.shawson` ← `actor.shawson`
+  - Source pages: 29, 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.shawson-the-ghoul` ← `actor.shawson-the-ghoul`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.skeletal-serpent` ← `actor.skeletal-serpent`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.spider-crab` ← `actor.spider-crab-high-priestess`
+  - Source pages: 38
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.spider-crab-at-31-traverse` ← `actor.spider-crab-at-traverse`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.the-apparatus` ← `actor.apparatus`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.the-lamb-25359288` ← `actor.lamb`
+  - Source pages: 40, 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.the-lamb-c0865d75` ← `actor.the-lamb`
+  - Source pages: 16, 18, 19, 20, 23, 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.the-little-lambs` ← `actor.little-lambs`
+  - Source pages: 18, 20
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.the-red-temple` ← `actor.red-temple`
+  - Source pages: 16
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.the-spider-crab` ← `actor.spider-crab`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.the-temple-of-true-power` ← `actor.temple-of-true-power`
+  - Source pages: 16
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.the-twelve-fingered-hand` ← `actor.twelve-fingered-hand`
+  - Source pages: 16
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.the-white-temple` ← `actor.white-temple`
+  - Source pages: 16, 40, 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.three-armored-isopods` ← `actor.armored-isopods`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.townsfolk` ← `actor.townsfolk-traditional-entry`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.vandress` ← `actor.vandress`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.white-temple-clerics` ← `actor.white-temple-clerics`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `class.acrobat` ← `class.acrobat`
+  - Source pages: 12, 49, 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `class.barbarian` ← `class.barbarian`
+  - Source pages: 12, 49, 51
+  - Rationale: Applied the deterministic canonical ID policy.
+- `class.cleric` ← `class.cleric`
+  - Source pages: 49
+  - Rationale: Applied the deterministic canonical ID policy.
+- `class.fighter` ← `class.fighter`
+  - Source pages: 12, 49, 52
+  - Rationale: Applied the deterministic canonical ID policy.
+- `class.knight` ← `class.knight`
+  - Source pages: 49
+  - Rationale: Applied the deterministic canonical ID policy.
+- `class.level-0-peasants` ← `class.level-0-peasants`
+  - Source pages: 2, 5
+  - Rationale: Applied the deterministic canonical ID policy.
+- `class.level-ups` ← `class.level-ups`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `class.peasant-profession` ← `class.peasant-profession`
+  - Source pages: 6
+  - Rationale: Applied the deterministic canonical ID policy.
+- `class.tactician` ← `class.tactician`
+  - Source pages: 49
+  - Rationale: Applied the deterministic canonical ID policy.
+- `class.thief` ← `class.thief`
+  - Source pages: 12, 49, 53
+  - Rationale: Applied the deterministic canonical ID policy.
+- `class.warlock` ← `class.warlock`
+  - Source pages: 49
+  - Rationale: Applied the deterministic canonical ID policy.
+- `class.wizard` ← `class.wizard`
+  - Source pages: 49
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.44-cistern-ammonia-warning` ← `effect.44-cistern-ammonia-warning`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.44a-breach-attracts-threats` ← `effect.44a-breach-attracts-threats`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.44a-wall-opening-times` ← `effect.44a-wall-opening-times`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.45-door-knock-no-answer` ← `effect.45-door-knock-no-answer`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.45-rowboat-speed` ← `effect.45-rowboat-speed`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.46-daylight-access-checks` ← `effect.46-daylight-access-checks`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.46a-statue-blocks-trapdoor` ← `effect.46a-statue-blocks-trapdoor`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.abacus-ceiling-collapse` ← `effect.abacus-ceiling-collapse`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.abacus-of-vandoh-answers` ← `effect.abacus-of-vandoh-answers`
+  - Source pages: 43
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.acrobat-cat-power` ← `effect.acrobat-cat-power`
+  - Source pages: 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.acrobat-dodge` ← `effect.acrobat-dodge`
+  - Source pages: 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.acrobat-nah` ← `effect.acrobat-nah`
+  - Source pages: 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.acrobat-roast-the-oaf` ← `effect.acrobat-roast-the-oaf`
+  - Source pages: 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.acrobat-tricky` ← `effect.acrobat-tricky`
+  - Source pages: 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.agony` ← `effect.agony`
+  - Source pages: 28, 30
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.ancient-apparatus-stone` ← `effect.ancient-apparatus-stone`
+  - Source pages: 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.ancient-tone` ← `effect.ancient-tone`
+  - Source pages: 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.anguish-pattern` ← `effect.anguish-pattern`
+  - Source pages: 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.armored-isopod-defense-curl` ← `effect.armored-isopod-defense-curl`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.ballista-bolt-damage` ← `effect.ballista-bolt-damage`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.ballista-ghouls-alerted` ← `effect.ballista-ghouls-alerted`
+  - Source pages: 32, 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.barbarian-firewater` ← `effect.barbarian-firewater`
+  - Source pages: 51
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.barbarian-loincloth-hp` ← `effect.barbarian-loincloth-hp`
+  - Source pages: 51
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.barbarian-rage` ← `effect.barbarian-rage`
+  - Source pages: 51
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.barbarian-rampage` ← `effect.barbarian-rampage`
+  - Source pages: 51
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.barbarian-thews` ← `effect.barbarian-thews`
+  - Source pages: 51
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.bastoval-nemesis-level` ← `effect.bastoval-nemesis-level`
+  - Source pages: 20
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.black-iron-spellbook-instruction` ← `effect.black-iron-spellbook-instruction`
+  - Source pages: 43
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.black-pool-smoke-vomiting` ← `effect.black-pool-smoke-vomiting`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.cistern-carried-item-swim-penalty` ← `effect.cistern-carried-item-swim-penalty`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.confusion-random-action` ← `effect.confusion-random-action`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.crush-hallway-ceiling` ← `effect.crush-hallway-ceiling`
+  - Source pages: 31
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.crush-hallway-trapdoor-fall` ← `effect.crush-hallway-trapdoor-fall`
+  - Source pages: 31
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.davok-flesh-absorption` ← `effect.davok-flesh-absorption`
+  - Source pages: 44
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.davok-geased-thrall` ← `effect.davok-geased-thrall`
+  - Source pages: 44
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.davok-stun-and-inertness` ← `effect.davok-stun-and-inertness`
+  - Source pages: 44
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.davok-vermin-transport` ← `effect.davok-vermin-transport`
+  - Source pages: 44
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.davok-warlock-transformation` ← `effect.davok-warlock-transformation`
+  - Source pages: 44
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.dehydrated` ← `effect.dehydrated`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.delay-an-effect` ← `effect.delay-an-effect`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.dessicate-liquid-or-animal` ← `effect.dessicate-liquid-or-animal`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.drunkenness` ← `effect.drunkenness`
+  - Source pages: 51
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.dying` ← `effect.dying`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.emergency-exit-teleportation` ← `effect.emergency-exit-teleportation`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.escape-milestone` ← `effect.escape-milestone`
+  - Source pages: 30, 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.favored-by-shendormu` ← `effect.favored-by-shendormu`
+  - Source pages: 30, 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.favored-by-vandoh` ← `effect.favored-by-vandoh`
+  - Source pages: 22, 32, 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.fighter-double-attack` ← `effect.fighter-double-attack`
+  - Source pages: 52
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.fighter-stand-tough` ← `effect.fighter-stand-tough`
+  - Source pages: 52
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.fighter-tricky` ← `effect.fighter-tricky`
+  - Source pages: 52
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.fighter-very-tricky` ← `effect.fighter-very-tricky`
+  - Source pages: 52
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.first-lamb-fishing-success` ← `effect.first-lamb-fishing-success`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.fountain-entry-hallucination` ← `effect.fountain-entry-hallucination`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.fountain-water-binding` ← `effect.fountain-water-binding`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.geas-mutual-quest-binding` ← `effect.geas-mutual-quest-binding`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.ghost-fence-chattering` ← `effect.ghost-fence-chattering`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.ghost-fence-lethal-formation` ← `effect.ghost-fence-lethal-formation`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.ghost-fence-teeth-chattering` ← `effect.ghost-fence-teeth-chattering`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.green-angel-knighthood-invitation` ← `effect.green-angel-knighthood-invitation`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.hand-mirror-of-lies-display` ← `effect.hand-mirror-of-lies-display`
+  - Source pages: 43
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.haste-double-speed-and-aging` ← `effect.haste-double-speed-and-aging`
+  - Source pages: 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.ignite-damage-and-fire` ← `effect.ignite-damage-and-fire`
+  - Source pages: 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.immature-lambfruit` ← `effect.immature-lambfruit`
+  - Source pages: 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.lamb-death-earth-tremor` ← `effect.lamb-death-earth-tremor`
+  - Source pages: 20
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.lamb-death-milestone` ← `effect.lamb-death-milestone`
+  - Source pages: 20
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.lamb-movement-rates` ← `effect.lamb-movement-rates`
+  - Source pages: 40, 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.lamb-resting-in-8-pit` ← `effect.lamb-resting-in-8-pit`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.lamb-under-rubble` ← `effect.lamb-under-rubble`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.lantern-worm-eat-light` ← `effect.lantern-worm-eat-light`
+  - Source pages: 28
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.lantern-worm-lantern` ← `effect.lantern-worm-lantern`
+  - Source pages: 28
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.lantern-worm-stonemeld` ← `effect.lantern-worm-stonemeld`
+  - Source pages: 28
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.liquid-boat-consumption` ← `effect.liquid-boat-consumption`
+  - Source pages: 43
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.liquid-boat-manifestation` ← `effect.liquid-boat-manifestation`
+  - Source pages: 43
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.liquid-hole-consumption` ← `effect.liquid-hole-consumption`
+  - Source pages: 43
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.liquid-hole-surface` ← `effect.liquid-hole-surface`
+  - Source pages: 43
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.little-lamb-emergence` ← `effect.little-lamb-emergence`
+  - Source pages: 20
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.mature-lambfruit` ← `effect.mature-lambfruit`
+  - Source pages: 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.mevverwen-memory-loss` ← `effect.mevverwen-memory-loss`
+  - Source pages: 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.milky-pool-acid` ← `effect.milky-pool-acid`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.nascent-lambfruit` ← `effect.nascent-lambfruit`
+  - Source pages: 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.noria-crushes-lamb` ← `effect.noria-crushes-lamb`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.noria-no-human-escape` ← `effect.noria-no-human-escape`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.oil-layer-burning` ← `effect.oil-layer-burning`
+  - Source pages: 31
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.orb-of-indulgence-forgiveness` ← `effect.orb-of-indulgence-forgiveness`
+  - Source pages: 43
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.permanent-water-fear` ← `effect.permanent-water-fear`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.pink-pool-compulsion` ← `effect.pink-pool-compulsion`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.pink-urine-ecstasy-and-longevity` ← `effect.pink-urine-ecstasy-and-longevity`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.pink-urine-language-loss` ← `effect.pink-urine-language-loss`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.polymorph-transformation` ← `effect.polymorph-transformation`
+  - Source pages: 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.polypore-nonviolence` ← `effect.polypore-nonviolence`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.precognition-possible-future` ← `effect.precognition-possible-future`
+  - Source pages: 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.purple-lotus-dependence` ← `effect.purple-lotus-dependence`
+  - Source pages: 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.purple-lotus-sleep-and-dreams` ← `effect.purple-lotus-sleep-and-dreams`
+  - Source pages: 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.red-spider-bite` ← `effect.red-spider-bite`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.sarcophagus-rope-severing` ← `effect.sarcophagus-rope-severing`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.scry-astral-projection` ← `effect.scry-astral-projection`
+  - Source pages: 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.selective-mummified-head-message` ← `effect.selective-mummified-head-message`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.shawson-agony` ← `effect.shawson-agony`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.shendormus-favor` ← `effect.shendormus-favor`
+  - Source pages: 47
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.shroud-soul-severance` ← `effect.shroud-soul-severance`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.skeletal-serpent-bite` ← `effect.skeletal-serpent-bite`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.sleep-deep-sleep` ← `effect.sleep-deep-sleep`
+  - Source pages: 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.slobberworm-eggs-hatch` ← `effect.slobberworm-eggs-hatch`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.slobberworm-reproduction` ← `effect.slobberworm-reproduction`
+  - Source pages: 44
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.slobberworm-slime` ← `effect.slobberworm-slime`
+  - Source pages: 44
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.spider-crab-grab` ← `effect.spider-crab-grab`
+  - Source pages: 38
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.stabilized` ← `effect.stabilized`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.starvation` ← `effect.starvation`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.stone-egg-suffocation-transformation` ← `effect.stone-egg-suffocation-transformation`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.sunken-gallery-poison` ← `effect.sunken-gallery-poison`
+  - Source pages: 38
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.table-boat-speed-modifiers` ← `effect.table-boat-speed-modifiers`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.thief-luck` ← `effect.thief-luck`
+  - Source pages: 53
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.thief-opportunist` ← `effect.thief-opportunist`
+  - Source pages: 53
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.thief-preparation` ← `effect.thief-preparation`
+  - Source pages: 53
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.thief-snag` ← `effect.thief-snag`
+  - Source pages: 53
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.throne-milestone` ← `effect.throne-milestone`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.throne-transformation` ← `effect.throne-transformation`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.throne-vision` ← `effect.throne-vision`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.toad-shavings-intoxication` ← `effect.toad-shavings-intoxication`
+  - Source pages: 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.tricky-hallway-fall` ← `effect.tricky-hallway-fall`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.tumbler-acid-spray` ← `effect.tumbler-acid-spray`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.vandoh-possessed-hand` ← `effect.vandoh-possessed-hand`
+  - Source pages: 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.vandohs-favor` ← `effect.vandohs-favor`
+  - Source pages: 47
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.vandress-pink-slime-addiction` ← `effect.vandress-pink-slime-addiction`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.wave-of-mutilation-slashing-damage` ← `effect.wave-of-mutilation-slashing-damage`
+  - Source pages: 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.weak-floor-collapse` ← `effect.weak-floor-collapse`
+  - Source pages: 30
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.white-temple-forceful-response` ← `effect.white-temple-forceful-response`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.yellow-mold-poison` ← `effect.yellow-mold-poison`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `effect.yellow-pool-liquid-light` ← `effect.yellow-pool-liquid-light`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.10-foot-wooden-pike` ← `item.12-abacus-wooden-pike`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.30-foot-rope-at-18a-ledge` ← `item.18a-ledge-rope`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.30-foot-rope-from-the-bone-pile` ← `item.10-bone-pile-rope`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.30-traverse-rope-and-iron-spikes` ← `item.traverse-rope-and-spikes`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.6-foot-iron-torch-holder-pole` ← `item.5-landing-iron-pole`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.600-silver-shilavos` ← `item.silver-shilavos-600`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.abacus-of-vandoh` ← `item.abacus-of-vandoh`
+  - Source pages: 36, 43, 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.ammunition` ← `item.ammunition`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.armored-isopod-shell` ← `item.armored-isopod-shell`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.backpack` ← `item.backpack`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.battered-shield` ← `item.10-bone-pile-battered-shield`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.battle-standard-of-the-house-of-the-avenging-angel` ← `item.avenging-angel-battle-standard`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.black-iron-spellbook` ← `item.black-iron-spellbook`
+  - Source pages: 24, 43
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.block-and-tackle` ← `item.18-shaft-block-and-tackle`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.blowtubes-of-mevverwen` ← `item.mevverwen-blowtubes`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.bone-pellets` ← `item.bone-pellets`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.bottle-of-fine-wine` ← `item.fine-wine`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.bottle-of-liquid-boat` ← `item.bottle-of-liquid-boat`
+  - Source pages: 38
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.bottle-of-liquid-hole` ← `item.liquid-hole`
+  - Source pages: 23, 43
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.bow-and-arrows` ← `item.18a-bow-and-arrows`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.broom` ← `item.5a-broom`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.burlap-sack` ← `item.burlap-sack`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.candelabra` ← `item.candelabra`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.candle` ← `item.candle`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.conidiaspore-plate-mail` ← `item.conidiaspore-plate-mail`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.conroy-wheeled-ballista` ← `item.conroy-ballista`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.corpse-bit-miniatures` ← `item.corpse-bit-miniatures`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.crypt-staves` ← `item.crypt-staves`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.crysmere-blade-of-charcorra` ← `item.crysmere-blade-of-charcorra`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.crysmere-blade-of-far-charcorra` ← `item.crysmere-blade`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.danjos-bread` ← `item.danjo-bread`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.danjos-candles` ← `item.danjo-candles`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.danjos-chickens` ← `item.danjo-chickens`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.danjos-knife` ← `item.danjo-knife`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.delicate-crystal-goblet` ← `item.crystal-goblet`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.eight-soft-rugs` ← `item.14a-soft-rugs`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.elfpack` ← `item.elfpack`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.empty-wine-bottle` ← `item.3-vinegar-empty-wine-bottle`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.empty-wooden-bowl` ← `item.2-goats-wooden-bowl`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.fine-purple-robe` ← `item.fine-purple-robe`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.fire-striker` ← `item.5-landing-fire-striker`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.five-costumed-mummified-heads` ← `item.mummified-stage-heads`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.flasks-of-oil` ← `item.oil-flasks`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.fresh-torch` ← `item.5-landing-fresh-torch`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.goat-bells` ← `item.2-goats-bells`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.golden-sensory-deprivation-helmet` ← `item.golden-sensory-deprivation-helmet`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.gong-and-hammer` ← `item.5a-gong-and-hammer`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.grappling-hook` ← `item.grappling-hook`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.hand-mirror-of-lies` ← `item.hand-mirror-of-lies`
+  - Source pages: 38, 43, 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.harpoon` ← `item.harpoon`
+  - Source pages: 34, 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.helmet-beyond-the-portcullis` ← `item.18a-armored-corpse-helmet`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.hook-hand` ← `item.hook-hand`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.hook-hand-prosthesis` ← `item.hook-hand-prosthesis`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.hooked-net` ← `item.hooked-net`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.hooked-net-and-50s` ← `item.hooked-net-and-coins`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.immature-lambfruit-3b06dcb6` ← `item.immature-lambfruit`
+  - Source pages: 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.immature-lambfruit-area-4` ← `item.4-chests-immature-lambfruit`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.improvised-weapon` ← `item.improvised-weapon`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.invisibility-potion` ← `item.invisibility-potion`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.iron-spike` ← `item.18a-ledge-iron-spike`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.jewelled-crab-bracer` ← `item.jewelled-crab-bracer`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.knuckle-bone-dice` ← `item.knucklebone-dice`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.large-jelly-like-eggs` ← `item.slobberworm-eggs`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.liquid-boat` ← `item.liquid-boat`
+  - Source pages: 43
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.liquid-light` ← `item.liquid-light`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.lit-torch-at-5-landing` ← `item.5-landing-lit-torch`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.little-gerdith-ballista-bolt` ← `item.little-gerdith-ballista-bolt`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.lotus-pipe` ← `item.lotus-pipe`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.magic-weapon` ← `item.magic-weapon`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.magnificent-steel-pipe` ← `item.steel-pipe`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.masterwork-breastplate` ← `item.masterwork-breastplate`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.masterwork-helmet` ← `item.4-chests-masterwork-helmet`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.masterwork-weapon` ← `item.masterwork-weapon`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.mature-lambfruit` ← `item.mature-lambfruit`
+  - Source pages: 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.mevverwen` ← `item.mevverwen`
+  - Source pages: 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.molinas-chalcedony-rings-and-topaz-pendants` ← `item.molina-jewelry`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.mouldering-character-sheets` ← `item.mouldering-character-sheets`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.nascent-lambfruit` ← `item.nascent-lambfruit`
+  - Source pages: 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.oil` ← `item.oil`
+  - Source pages: 41, 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.orb-of-indulgence` ← `item.orb-of-indulgence`
+  - Source pages: 25, 43
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.parts-of-seven-mummies` ← `item.disassembled-mummy-parts`
+  - Source pages: 32, 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.perpetually-screaming-head` ← `item.perpetually-screaming-head`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.pile-of-hay` ← `item.2-goats-hay`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.pouch-of-50-golden-gorbels` ← `item.golden-gorbels-pouch-50`
+  - Source pages: 38
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.purple-lotus-powder` ← `item.purple-lotus-powder`
+  - Source pages: 21, 34, 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.purple-moon-patterned-robes` ← `item.purple-moon-robes`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.ration` ← `item.ration`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.red-mushroom-rampant-shield` ← `item.red-mushroom-shield`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.regular-weapon` ← `item.regular-weapon`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.rope` ← `item.rope`
+  - Source pages: 41, 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.rowboat` ← `item.rowboat`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.ruby-ring-of-wisdom` ← `item.ruby-ring-of-wisdom`
+  - Source pages: 23, 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.short-lengths-of-twine` ← `item.2-goats-twine`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.signet-ring-with-conidiospore-insignia` ← `item.conidiospore-signet-ring`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.silver-bracelet-shaped-like-veins` ← `item.silver-vein-bracelet`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.silver-plate-dageurrotype` ← `item.silver-plate-dageurrotype`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.silver-platter` ← `item.silver-platter`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.six-silver-shilavos` ← `item.silver-shilavos`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.skull-of-davok` ← `item.skull-of-davok`
+  - Source pages: 21, 44
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.slobberworms` ← `item.slobberworms`
+  - Source pages: 44
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.spear` ← `item.10-bone-pile-spear`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.spear-with-a-shrunken-head` ← `item.spear-with-shrunken-head`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.stage-furniture-and-mock-horse` ← `item.stage-props`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.statue-of-vandoh` ← `item.statue-of-vandoh`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.stone-idol-of-vandoh` ← `item.stone-idol-of-vandoh`
+  - Source pages: 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.sword-with-conidiopore-insignia` ← `item.conidiopore-sword`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.tattered-red-banner` ← `item.tattered-red-banner`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.tiny-green-mushroom` ← `item.tiny-green-mushroom`
+  - Source pages: 33, 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.toad-shavings` ← `item.toad-shavings`
+  - Source pages: 34, 48
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.torch` ← `item.torch`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.torch-from-4-chests` ← `item.4-chests-torch`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.torch-from-the-bone-pile` ← `item.10-bone-pile-torch`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.trumpet` ← `item.trumpet`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.two-handed-weapon` ← `item.two-handed-weapon`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.unused-torch-at-14-sarcophagus` ← `item.14-sarcophagus-torch`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.vial-of-lamp-oil` ← `item.5-landing-lamp-oil`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.whelk-comb` ← `item.whelk-comb`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.white-candle` ← `item.17-altar-white-candle`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `item.module-lair-of-the-lamb.white-temple-water-barrels` ← `item.water-barrels`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.21-heavy-door-as-the-halfway-point` ← `knowledge.heavy-door-halfway-point`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.44-cistern-well-access` ← `knowledge.cistern-at-bottom-of-well`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.akinas-knowledge` ← `knowledge.akina-knows-basics`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.captain-conroys-fate-and-last-order` ← `knowledge.captain-conroy-fate`
+  - Source pages: 29, 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.destination-beyond-the-door-at-45-barrels` ← `knowledge.45-door-leads-to-kitchen-cellar`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.expected-dungeon-flow` ← `knowledge.expected-dungeon-flow`
+  - Source pages: 19
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.fresh-air-and-the-cistern-beyond-44a` ← `knowledge.44a-fresh-air-and-cistern-beyond`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.ghoul-favors-and-rewards` ← `knowledge.ghoul-favor-ladder`
+  - Source pages: 29
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb` ← `knowledge.preferred-lamb-kill-at-8-pit`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.the-ghouls-of-the-second-floor` ← `knowledge.ghouls-second-floor`
+  - Source pages: 29
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.the-lamb` ← `knowledge.the-lamb-secret`
+  - Source pages: 16
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.the-noria-feeds-the-white-temple` ← `knowledge.noria-feeds-white-temple`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.the-raid` ← `knowledge.the-raid`
+  - Source pages: 16
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.the-scribes-scroll` ← `knowledge.42-scribe-scroll`
+  - Source pages: 38
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.tumbler-password` ← `knowledge.tumbler-password`
+  - Source pages: 22, 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.white-temple-cleanup-schedule` ← `knowledge.white-temple-cleanup-schedule`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria` ← `knowledge.white-temple-godling-response`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.1-bowls` ← `location.1-bowls`
+  - Source pages: 19, 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.10-bone-pile` ← `location.10-bone-pile`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.11-crab-mural` ← `location.11-crab-mural`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.12-abacus-mural` ← `location.12-abacus-mural`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.13-city-mural` ← `location.13-city-mural`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.14-sarcophagus` ← `location.14-sarcophagus`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.14a-shadrakul` ← `location.14a-shadrakul`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.15-crack` ← `location.15-crack`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.16-mold` ← `location.16-mold`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.17-altar` ← `location.17-altar`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.18-shaft` ← `location.18-shaft`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.18a-ledge` ← `location.18a-ledge`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.19-priests` ← `location.19-priests`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.1a-first-intersection` ← `location.1a-first-intersection`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.1b-second-intersection` ← `location.1b-second-intersection`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.1c-third-intersection` ← `location.1c-third-intersection`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.2-goats` ← `location.2-goats`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.20-pools` ← `location.20-pools`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.21-heavy-doors` ← `location.21-heavy-doors`
+  - Source pages: 30
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.22-mushroom` ← `location.22-mushroom`
+  - Source pages: 30
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.23-weak-floor` ← `location.23-weak-floor`
+  - Source pages: 30
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.24-crush-hallway` ← `location.24-crush-hallway`
+  - Source pages: 31
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.24a` ← `location.24a`
+  - Source pages: 31
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.24b` ← `location.24b`
+  - Source pages: 31
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.24c` ← `location.24c`
+  - Source pages: 31
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.25-crypt` ← `location.25-crypts`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.25a-crypt` ← `location.25a-crypt`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.25b-crypt` ← `location.25b-crypt`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.25c-crypt` ← `location.25c-crypt`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.25d-crypt` ← `location.25d-crypt`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.25e-crypt` ← `location.25e-crypt`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.25f-crypt` ← `location.25f-crypt`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.25g-crypt` ← `location.25g-crypt`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.26-secret-crypt` ← `location.26-secret-crypt`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.27-ballista` ← `location.27-ballista`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.28-games` ← `location.28-games`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.29-stage` ← `location.29-stage`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.3-vinegar` ← `location.3-vinegar`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.30-coffer` ← `location.30-coffer`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.31-traverse` ← `location.31-traverse`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.32-isopods` ← `location.32-isopods`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.33-fungus` ← `location.33-fungus`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.34-cache` ← `location.34-cache`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.35-tricky-hallway` ← `location.35-tricky-hallway`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.36-table` ← `location.36-table`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.37-chewed-bones` ← `location.37-chewed-bones`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.4-chests` ← `location.4-chests`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.44-cistern` ← `location.44-cistern`
+  - Source pages: 40, 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.44a-wall` ← `location.44a-wall`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.45-barrels` ← `location.45-barrels`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.46-daylight` ← `location.46-daylight`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.46a-statue` ← `location.46a-statue`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.46b-tower` ← `location.46b-tower`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.5-landing` ← `location.5-landing`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.5a-closet` ← `location.5a-closet`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.6-tumblers` ← `location.6-tumblers`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.7-throne` ← `location.7-throne`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.8-pit` ← `location.8-pit`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.9-fountain` ← `location.9-fountain`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.9a-underwater-tunnel` ← `location.9a-underwater-tunnel`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-1-bowls` ← `area-1-bowls`
+  - Source pages: 15, 18, 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-10-bone-pile` ← `area-10-bone-pile`
+  - Source pages: 15, 18, 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-11-crab-mural` ← `area-11-crab-mural`
+  - Source pages: 15, 18, 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-12-abacus-mural` ← `area-12-abacus-mural`
+  - Source pages: 15, 18, 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-13-city-mural` ← `area-13-city-mural`
+  - Source pages: 15, 18, 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-14-sarcophagus` ← `area-14-sarcophagus`
+  - Source pages: 15, 18, 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-14a-shadrakul` ← `area-14a-shadrakul`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-16-mold` ← `area-16-mold`
+  - Source pages: 15, 18, 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-17-altar` ← `area-17-altar`
+  - Source pages: 15, 18, 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-18-shaft` ← `area-18-shaft`
+  - Source pages: 15, 18, 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-19-priests` ← `area-19-priests`
+  - Source pages: 15, 18, 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-2-goats` ← `area-2-goats`
+  - Source pages: 15, 18, 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-20-pools` ← `area-20-pools`
+  - Source pages: 15, 18, 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-22-mushroom` ← `area-22-mushroom`
+  - Source pages: 15, 28, 30, 31
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-23-weak-floor` ← `area-23-weak-floor`
+  - Source pages: 15, 28, 30, 31, 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-24a` ← `area-24a`
+  - Source pages: 15, 28, 31, 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-24b` ← `area-24b`
+  - Source pages: 15, 28, 31, 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-24c` ← `area-24c`
+  - Source pages: 15, 28, 31, 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-25a-crypt` ← `area-25a-crypt`
+  - Source pages: 15, 28, 31, 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-25b-crypt` ← `area-25b-crypt`
+  - Source pages: 15, 28, 31, 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-25c-crypt` ← `area-25c-crypt`
+  - Source pages: 15, 28, 31, 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-25d-crypt` ← `area-25d-crypt`
+  - Source pages: 15, 28, 31, 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-25e-crypt` ← `area-25e-crypt`
+  - Source pages: 15, 28, 31, 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-25f-crypt` ← `area-25f-crypt`
+  - Source pages: 15, 28, 31, 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-25g-crypt` ← `area-25g-crypt`
+  - Source pages: 15, 28, 31, 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-26-secret-crypt` ← `area-26-secret-crypt`
+  - Source pages: 15, 28, 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-27-ballista` ← `area-27-ballista`
+  - Source pages: 15, 28, 32, 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-28-games` ← `area-28-games`
+  - Source pages: 15, 28, 31, 32, 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-29-stage` ← `area-29-stage`
+  - Source pages: 15, 28, 31, 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-3-vinegar` ← `area-3-vinegar`
+  - Source pages: 15, 18, 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-30-coffer` ← `area-30-coffer`
+  - Source pages: 15, 28, 31, 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-32-isopods` ← `area-32-isopods`
+  - Source pages: 15, 28, 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-33-fungus` ← `area-33-fungus`
+  - Source pages: 15, 28, 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-34-cache` ← `area-34-cache`
+  - Source pages: 15, 28, 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-36-table` ← `area-36-table`
+  - Source pages: 15, 28, 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-37-chewed-bones` ← `area-37-chewed-bones`
+  - Source pages: 15, 28, 35, 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-38-shroud` ← `area-38-shroud`
+  - Source pages: 15, 28, 35, 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-39-stone-egg` ← `area-39-stone-egg`
+  - Source pages: 15, 28, 35, 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-4-chests` ← `area-4-chests`
+  - Source pages: 15, 18, 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-41-sunken-shrine` ← `area-41-sunken-shrine`
+  - Source pages: 15, 28, 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-42-sunken-gallery` ← `area-42-sunken-gallery`
+  - Source pages: 15, 28, 31, 35, 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-43-spider-crab` ← `area-43-spider-crab`
+  - Source pages: 15, 28, 34, 35, 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-44-cistern` ← `area-44-cistern`
+  - Source pages: 15, 28, 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-45-barrels` ← `area-45-barrels`
+  - Source pages: 15, 28, 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-46-daylight` ← `area-46-daylight`
+  - Source pages: 15, 28, 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-5-landing` ← `area-5-landing`
+  - Source pages: 15, 18, 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-5a-closet` ← `area-5a-closet`
+  - Source pages: 15, 18, 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-6-tumblers` ← `area-6-tumblers`
+  - Source pages: 15, 18, 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-7-throne` ← `area-7-throne`
+  - Source pages: 15, 18, 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-8-pit` ← `area-8-pit`
+  - Source pages: 15, 18, 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-9-fountain` ← `area-9-fountain`
+  - Source pages: 15, 18, 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-99-not-written-yet` ← `area-99-not-written-yet`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.area-white-temple-plaza` ← `area-white-temple-plaza`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.boundary-21-heavy-doors` ← `boundary-21-heavy-doors`
+  - Source pages: 15, 28, 30
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.boundary-40-ghost-fence` ← `boundary-40-ghost-fence`
+  - Source pages: 15, 28, 35, 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.boundary-44a-wall` ← `boundary-44a-wall`
+  - Source pages: 15, 28, 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.boundary-5-north-steel-doors` ← `boundary-5-north-steel-doors`
+  - Source pages: 15, 18, 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.boundary-east-of-43` ← `boundary-east-of-43`
+  - Source pages: 15, 28, 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.dungeon-features` ← `location.dungeon-features`
+  - Source pages: 19
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.ghost-fence` ← `location.40-ghost-fence`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.plaza-beside-the-white-temple` ← `location.white-temple-plaza`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.shroud` ← `location.38-shroud`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.spider-crab` ← `location.43-spider-crab`
+  - Source pages: 38
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.stone-egg` ← `location.39-stone-egg`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.sunken-gallery` ← `location.42-sunken-gallery`
+  - Source pages: 38
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.sunken-shrine` ← `location.41-sunken-shrine`
+  - Source pages: 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.the-free-city-of-lon-barago` ← `location.free-city-of-lon-barago`
+  - Source pages: 16
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.waypoint-15-crack` ← `waypoint-15-crack`
+  - Source pages: 15, 18, 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.waypoint-18a-ledge` ← `waypoint-18a-ledge`
+  - Source pages: 15, 18, 25, 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.waypoint-1a-first-intersection` ← `waypoint-1a-first-intersection`
+  - Source pages: 15, 18, 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.waypoint-1b-second-intersection` ← `waypoint-1b-second-intersection`
+  - Source pages: 15, 18, 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.waypoint-1c-third-intersection` ← `waypoint-1c-third-intersection`
+  - Source pages: 15, 18, 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.waypoint-24-crush-hallway` ← `waypoint-24-crush-hallway`
+  - Source pages: 15, 28, 30, 31
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.waypoint-31-traverse` ← `waypoint-31-traverse`
+  - Source pages: 15, 28, 31, 33, 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.waypoint-35-tricky-hallway` ← `waypoint-35-tricky-hallway`
+  - Source pages: 15, 28, 34, 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.waypoint-35a-trapdoor-pit` ← `waypoint-35a-trapdoor-pit`
+  - Source pages: 15, 28, 35, 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.waypoint-5-6-corridor` ← `waypoint-5-6-corridor`
+  - Source pages: 15, 18, 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.waypoint-9a-underwater-tunnel` ← `waypoint-9a-underwater-tunnel`
+  - Source pages: 15, 18, 23, 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `place.module-lair-of-the-lamb.white-temple` ← `location.white-temple`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.block-the-46a-trapdoor-with-vandohs-statue` ← `procedure.block-46a-trapdoor-with-statue`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.calculate-human-swim-speed-in-44-cistern` ← `procedure.swim-in-cistern`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.calculate-makeshift-table-boat-speed` ← `procedure.paddle-table-boat`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.clearing-the-blocked-bone-pile-tunnel` ← `procedure.clear-blocked-crawl-tunnel`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.collapsing-12-abacus-mural` ← `procedure.collapse-abacus-mural`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.cross-24-crush-hallway` ← `procedure.cross-crush-hallway`
+  - Source pages: 31
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria` ← `procedure.crush-lamb-with-noria`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.disarm-the-trap-doors-in-24-crush-hallway` ← `procedure.disarm-crush-hallway-trapdoors`
+  - Source pages: 30
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.disrupt-the-ghost-fence` ← `procedure.40-disrupt-ghost-fence`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.ending-the-fountain-haunting` ← `procedure.end-fountain-haunting`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.fish-for-the-lamb` ← `procedure.fish-for-lamb`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.gerdiths-investigation` ← `procedure.gerdith-investigation`
+  - Source pages: 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.handle-a-sunken-gallery-coffer` ← `procedure.42-handle-coffer`
+  - Source pages: 38
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.looting-the-corpse-beyond-the-portcullis` ← `procedure.loot-armored-corpse`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.move-a-crypt-sarcophagus-lid` ← `procedure.open-crypt-sarcophagus`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.open-21-heavy-doors` ← `procedure.open-heavy-doors`
+  - Source pages: 30
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.open-the-secret-door-in-32-isopods` ← `procedure.open-isopod-secret-door`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.open-the-stone-egg` ← `procedure.39-open-stone-egg`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.open-the-wall-at-44a` ← `procedure.open-44a-wall`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.opening-the-iron-banded-chest-at-5-landing` ← `procedure.open-5-landing-chest`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.operate-the-shroud-guillotine` ← `procedure.38-winched-guillotine-cycle`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.operating-the-tumbler-password-system` ← `procedure.operate-tumblers`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.reach-the-elevated-stairs-at-46-daylight` ← `procedure.reach-46-daylight-stairs`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.reassemble-and-return-the-seven-mummies` ← `procedure.reassemble-seven-mummies`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.resolve-arrivals-after-the-44a-breach` ← `procedure.resolve-wall-breach-arrivals`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.row-the-boat-at-45-barrels` ← `procedure.row-45-rowboat`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.run-a-fight-with-the-lamb-in-the-cistern` ← `procedure.run-cistern-lamb-fight`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.run-the-dungeon-backwards-from-44-cistern` ← `procedure.reverse-dungeon-from-cistern`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.searching-10-bone-pile` ← `procedure.search-bone-pile`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.short-dungeon-exit-at-21-heavy-door` ← `procedure.short-dungeon-heavy-door-exit`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.start-at-21-heavy-door` ← `procedure.start-dungeon-at-heavy-door`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.starting-the-game` ← `procedure.starting-the-game`
+  - Source pages: 19
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.toggle-the-secret-door-in-37-chewed-bones` ← `procedure.toggle-chewed-bones-secret-door`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.trading-with-danjo` ← `procedure.trade-with-danjo`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.traditional-level-1-entrance` ← `procedure.traditional-level-one-entry`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.using-the-sarcophagus-trapdoor` ← `procedure.use-sarcophagus-elevator`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `procedure.module-lair-of-the-lamb.white-temple-cleanup` ← `procedure.white-temple-cleanup`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.acrobat-cat-power-falling` ← `rule.acrobat-cat-power-falling`
+  - Source pages: 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.acrobat-dodge-defense` ← `rule.acrobat-dodge-defense`
+  - Source pages: 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.acrobat-multiclass-very-tricky` ← `rule.acrobat-multiclass-very-tricky`
+  - Source pages: 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.acrobat-nah-uses` ← `rule.acrobat-nah-uses`
+  - Source pages: 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.acrobat-progression` ← `rule.acrobat-progression`
+  - Source pages: 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.acrobat-roast-the-oaf-retaliation` ← `rule.acrobat-roast-the-oaf-retaliation`
+  - Source pages: 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.acrobat-tricky-critical-attacks` ← `rule.acrobat-tricky-critical-attacks`
+  - Source pages: 50
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.alternate-level-up-timing` ← `rule.alternate-level-up-timing`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.armor` ← `rule.armor`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.attacking-and-defending` ← `rule.attacking-and-defending`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.barbarian-firewater-use` ← `rule.barbarian-firewater-use`
+  - Source pages: 51
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.barbarian-rage-use` ← `rule.barbarian-rage-use`
+  - Source pages: 51
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.barbarian-thews-use` ← `rule.barbarian-thews-use`
+  - Source pages: 51
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.character-control` ← `rule.character-control`
+  - Source pages: 19
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.checks-and-saves` ← `rule.checks-and-saves`
+  - Source pages: 5
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.class-template-selection` ← `rule.class-template-selection`
+  - Source pages: 49
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.climbable-walls-and-darkness` ← `rule.climbable-walls-and-darkness`
+  - Source pages: 19
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.combat-maneuvers` ← `rule.combat-maneuvers`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.critical-hits-and-dodges` ← `rule.critical-hits-and-dodges`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dark-door-wisdom-check` ← `rule.dark-door-wisdom-check`
+  - Source pages: 19
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dehydration` ← `rule.dehydration`
+  - Source pages: 19
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.disposition` ← `rule.disposition`
+  - Source pages: 9
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dm-allow-combat-bypass` ← `rule.dm-allow-combat-bypass`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dm-do-not-hint-missed-secrets` ← `rule.dm-do-not-hint-missed-secrets`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dm-do-not-impose-morality` ← `rule.dm-do-not-impose-morality`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dm-frame-meaningful-options` ← `rule.dm-frame-meaningful-options`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dm-give-more-information` ← `rule.dm-give-more-information`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dm-keep-time-measures` ← `rule.dm-keep-time-measures`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dm-let-choices-and-luck-matter` ← `rule.dm-let-choices-and-luck-matter`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dm-never-fudge-or-retune-mid-encounter` ← `rule.dm-never-fudge-or-retune-mid-encounter`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dm-never-reveal-missed-content-after-session` ← `rule.dm-never-reveal-missed-content-after-session`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dm-reward-attentive-investigative-play` ← `rule.dm-reward-attentive-investigative-play`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dm-telegraph-danger-and-provide-options` ← `rule.dm-telegraph-danger-and-provide-options`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dm-treat-dungeon-as-whole-obstacle` ← `rule.dm-treat-dungeon-as-whole-obstacle`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.doors` ← `rule.doors`
+  - Source pages: 8
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.dying` ← `rule.dying`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.exploration-time` ← `rule.exploration-time`
+  - Source pages: 8
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.fighter-double-attack-turn` ← `rule.fighter-double-attack-turn`
+  - Source pages: 52
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.fighter-stand-tough-use` ← `rule.fighter-stand-tough-use`
+  - Source pages: 52
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.fighter-tricky-attack-rolls` ← `rule.fighter-tricky-attack-rolls`
+  - Source pages: 52
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.fighter-very-tricky-maneuvers` ← `rule.fighter-very-tricky-maneuvers`
+  - Source pages: 52
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.food-and-water` ← `rule.food-and-water`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.glog-dm-authority` ← `rule.glog-dm-authority`
+  - Source pages: 2
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.glog-modular-ruleset` ← `rule.glog-modular-ruleset`
+  - Source pages: 2
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.healing` ← `rule.healing`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.hirelings` ← `rule.hirelings`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.improvised-ropes` ← `rule.improvised-ropes`
+  - Source pages: 19
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.improvised-weapons` ← `rule.improvised-weapons`
+  - Source pages: 19
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.initiative` ← `rule.initiative`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.inventory-and-ammunition` ← `rule.inventory-and-ammunition`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.investigation-and-searching` ← `rule.investigation-and-searching`
+  - Source pages: 8
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.languages` ← `rule.languages`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.level-0-ability-score-generation` ← `rule.level-0-ability-score-generation`
+  - Source pages: 5
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.level-advancement` ← `rule.level-advancement`
+  - Source pages: 49
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.level-zero-no-starting-tools` ← `rule.level-zero-no-starting-tools`
+  - Source pages: 2
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.leveling-up` ← `rule.leveling-up`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.light` ← `rule.light`
+  - Source pages: 8
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.loyalty` ← `rule.loyalty`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.magic-dice-mishaps` ← `rule.magic-dice-mishaps`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.mapping` ← `rule.mapping`
+  - Source pages: 8
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.mastery-points` ← `rule.mastery-points`
+  - Source pages: 49
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.money` ← `rule.money`
+  - Source pages: 12
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.monster-magic-dice-pool` ← `rule.monster-magic-dice-pool`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.monster-spell-casting-and-recovery` ← `rule.monster-spell-casting-and-recovery`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.morale` ← `rule.morale`
+  - Source pages: 9
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.movement` ← `rule.movement`
+  - Source pages: 8
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.noise` ← `rule.noise`
+  - Source pages: 8
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.optional-non-binary-demographic-results` ← `rule.optional-non-binary-demographic-results`
+  - Source pages: 5
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.player-balance-time-and-investigation` ← `rule.player-balance-time-and-investigation`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.player-information-as-resource` ← `rule.player-information-as-resource`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.player-optional-secrets-improve-survival` ← `rule.player-optional-secrets-improve-survival`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.player-patterns-and-mundane-tools` ← `rule.player-patterns-and-mundane-tools`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.player-plan-or-avoid-battles` ← `rule.player-plan-or-avoid-battles`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.player-social-play-without-stats` ← `rule.player-social-play-without-stats`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.player-use-dungeon-interconnections` ← `rule.player-use-dungeon-interconnections`
+  - Source pages: 3
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.pursuit` ← `rule.pursuit`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.races-unlocked-through-play` ← `rule.races-unlocked-through-play`
+  - Source pages: 49
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.random-encounter-checks` ← `rule.random-encounter-checks`
+  - Source pages: 13
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.recon-die` ← `rule.recon-die`
+  - Source pages: 13
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.saves` ← `rule.saves`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.setting-the-stage` ← `rule.setting-the-stage`
+  - Source pages: 13
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.shendormus-favor-progression` ← `rule.shendormus-favor-progression`
+  - Source pages: 47
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.skills` ← `rule.skills`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.small-stature` ← `rule.small-stature`
+  - Source pages: 5
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.spell-dice-and-sum-notation` ← `rule.spell-dice-and-sum-notation`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.spell-level-threshold` ← `rule.spell-level-threshold`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.spells-as-bound-spirits` ← `rule.spells-as-bound-spirits`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.splittable-spells` ← `rule.splittable-spells`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.starting-gear-and-carrying` ← `rule.starting-gear-and-carrying`
+  - Source pages: 19
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.stat-blocks` ← `rule.stat-blocks`
+  - Source pages: 9
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.stat-checks` ← `rule.stat-checks`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.stealth` ← `rule.stealth`
+  - Source pages: 8
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.swimming` ← `rule.swimming`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.thief-luck-mastery` ← `rule.thief-luck-mastery`
+  - Source pages: 53
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.thief-opportunist-trigger` ← `rule.thief-opportunist-trigger`
+  - Source pages: 53
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.thief-snag-awareness` ← `rule.thief-snag-awareness`
+  - Source pages: 53
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.thief-snag-eligible-items` ← `rule.thief-snag-eligible-items`
+  - Source pages: 53
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.thief-unmarked-package` ← `rule.thief-unmarked-package`
+  - Source pages: 53
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.torch-durations` ← `rule.torch-durations`
+  - Source pages: 19
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.treasure-milestone-leveling` ← `rule.treasure-milestone-leveling`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.vandohs-favor-progression` ← `rule.vandohs-favor-progression`
+  - Source pages: 47
+  - Rationale: Applied the deterministic canonical ID policy.
+- `rule.weapons-and-armor` ← `rule.weapons-and-armor`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.24-crush-hallway-trap` ← `situation.crush-hallway-trap`
+  - Source pages: 31
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.35-tricky-hallway-trap-door` ← `situation.tricky-hallway-trap`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.akinas-rescue-bargain` ← `situation.akina-rescue-bargain`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.ancient-apparatus-awakening` ← `situation.41-apparatus-awakening`
+  - Source pages: 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.bastoval-checks-on-the-lamb` ← `situation.bastoval-checks-on-lamb`
+  - Source pages: 18
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.bastovals-ghostly-warning` ← `situation.bastoval-ghostly-warning`
+  - Source pages: 18
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.blue-polypore-aura-of-nonviolence` ← `situation.polypore-nonviolence`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.collapse-of-12-abacus-mural` ← `situation.abacus-ceiling-collapse`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.collapse-of-23-weak-floor` ← `situation.weak-floor-collapse`
+  - Source pages: 30
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.crossing-the-ghost-fence` ← `situation.40-ghost-fence-barrier`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.danjos-extortion-and-trade` ← `situation.danjo-extortion-trade`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.distant-grunting-and-gnawing` ← `situation.distant-lamb-noises`
+  - Source pages: 18
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.echoes-of-the-lamb` ← `situation.lamb-death-echoes`
+  - Source pages: 18
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.father-bastoval-enters-the-dungeon` ← `situation.bastoval-enters-after-lamb-death`
+  - Source pages: 20
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.fighting-the-lamb` ← `situation.fighting-lamb-in-cistern`
+  - Source pages: 41
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.gerdith-and-molina-investigate-an-alert` ← `situation.ballista-alert-and-investigation`
+  - Source pages: 32, 33
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.ghost-fence-effect-reaches-37-chewed-bones` ← `situation.ghost-fence-effect-in-chewed-bones`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.ghouls-leave-after-the-ghost-fence-falls` ← `situation.ghoul-departure-after-ghost-fence`
+  - Source pages: 29
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.goblet-and-skeletal-serpent-trap` ← `situation.goblet-serpent-trap`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.jasper-and-luntz-at-21-heavy-doors` ← `situation.ghoul-parley-at-heavy-doors`
+  - Source pages: 30
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.little-lambs-digging-nearby` ← `situation.little-lambs-digging-nearby`
+  - Source pages: 18
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.little-lambs-emerge-from-the-corpse` ← `situation.little-lambs-emerge`
+  - Source pages: 20
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.looting-the-armored-corpse` ← `situation.loot-armored-corpse`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.more-tremors` ← `situation.more-tremors`
+  - Source pages: 18
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.negotiating-favors-with-the-ghouls` ← `situation.ghoul-favor-negotiation`
+  - Source pages: 29
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.noisy-breach-at-44a` ← `situation.44a-noisy-breach-response`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.poison-coffer-discharge` ← `situation.42-poison-coffer-discharge`
+  - Source pages: 38
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.priests-awaken-and-attack` ← `situation.priests-awaken-and-attack`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.reassemble-the-seven-mummies` ← `situation.reassemble-seven-mummies`
+  - Source pages: 32
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.red-spider-exposure` ← `situation.red-spider-exposure`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.return-the-avenging-angel-battle-standard` ← `situation.return-avenging-angel-standard`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.sarcophagus-trapdoor` ← `situation.sarcophagus-dump`
+  - Source pages: 24
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.shawson-ambushes-the-secret-opening` ← `situation.shawson-secret-door-ambush`
+  - Source pages: 35
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.sitting-on-the-throne` ← `situation.throne-transformation`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.soul-severing-guillotine-cycle` ← `situation.38-guillotine-soul-severing`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.spider-crab-in-the-pool` ← `situation.43-spider-crab-pool`
+  - Source pages: 38
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.spider-crab-watches-the-traverse` ← `situation.spider-crab-watches-traverse`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.the-haunting-of-9-fountain` ← `situation.fountain-haunting`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.the-lamb-approaches` ← `situation.lamb-approaches`
+  - Source pages: 18
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern` ← `situation.44-cistern-lamb-approach`
+  - Source pages: 40
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.the-lamb-blocks-the-bone-pile-tunnel` ← `situation.lamb-blocks-bone-tunnel`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls` ← `situation.starting-lamb-entry`
+  - Source pages: 19
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.the-lamb-is-nearby` ← `situation.lamb-nearby-disgusting-noise`
+  - Source pages: 18
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.the-skull-of-davok-escapes` ← `situation.skull-of-davok-escapes`
+  - Source pages: 21
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.the-stone-egg-opens` ← `situation.39-stone-egg-opening`
+  - Source pages: 36
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.three-armored-isopods-foraging` ← `situation.armored-isopod-encounter`
+  - Source pages: 34
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.three-little-lambs-on-the-ceiling` ← `situation.little-lambs-ceiling-ambush`
+  - Source pages: 18
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.traditional-level-1-lock-in` ← `situation.traditional-level-one-lock-in`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.tumbler-password-check` ← `situation.tumbler-password-result`
+  - Source pages: 22
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.vandoh-possesses-a-left-hand` ← `situation.41-vandoh-hand-possession`
+  - Source pages: 37
+  - Rationale: Applied the deterministic canonical ID policy.
+- `situation.module-lair-of-the-lamb.yellow-mold-chest` ← `situation.yellow-mold-chest`
+  - Source pages: 25
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.cone-of-mutilation` ← `spell.cone-of-mutilation`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.confusion` ← `spell.confusion`
+  - Source pages: 26, 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.delay` ← `spell.delay`
+  - Source pages: 20, 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.desiccate` ← `spell.desiccate`
+  - Source pages: 26
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.dessicate` ← `spell.dessicate`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.emergency-exit` ← `spell.emergency-exit`
+  - Source pages: 26, 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.geas` ← `spell.geas`
+  - Source pages: 45
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.haste` ← `spell.haste`
+  - Source pages: 20, 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.ignite` ← `spell.ignite`
+  - Source pages: 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.polymorph` ← `spell.polymorph`
+  - Source pages: 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.precognition` ← `spell.precognition`
+  - Source pages: 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.scry` ← `spell.scry`
+  - Source pages: 20, 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.sleep` ← `spell.sleep`
+  - Source pages: 26, 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `spell.wave-of-mutilation` ← `spell.wave-of-mutilation`
+  - Source pages: 46
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.active-encounters-second-floor` ← `table.active-encounters-second-floor`
+  - Source pages: 28
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.attack-dcs-by-armor` ← `table.attack-dcs-by-armor`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.bone-pile-search` ← `table.bone-pile-search`
+  - Source pages: 23
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.critical-results` ← `table.critical-results`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.dispositions` ← `table.dispositions`
+  - Source pages: 9
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.dying-check-outcomes` ← `table.dying-check-outcomes`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.encounter-die` ← `table.encounter-die`
+  - Source pages: 13
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.encounters-lamb-alive` ← `table.encounters-lamb-alive`
+  - Source pages: 18
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.encounters-lamb-dead` ← `table.encounters-lamb-dead`
+  - Source pages: 18
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.indirect-encounters-second-floor` ← `table.indirect-encounters-second-floor`
+  - Source pages: 28
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.key-items-light-sources` ← `table.key-items-light-sources`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.key-items-rope` ← `table.key-items-rope`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.language-mastery-abilities` ← `table.language-mastery-abilities`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.level-0-peasant-base-stats` ← `table.level-0-peasant-base-stats`
+  - Source pages: 5
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.level-advancement` ← `table.level-advancement`
+  - Source pages: 49
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.morale-checks` ← `table.morale-checks`
+  - Source pages: 9
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.passive-encounters-second-floor` ← `table.passive-encounters-second-floor`
+  - Source pages: 28
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.peasant-appearance` ← `table.peasant-appearance`
+  - Source pages: 5
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.peasant-demographic` ← `table.peasant-demographic`
+  - Source pages: 5
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.peasant-personality` ← `table.peasant-personality`
+  - Source pages: 5
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.peasant-profession` ← `table.peasant-profession`
+  - Source pages: 6
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.pursuit-modifiers` ← `table.pursuit-modifiers`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.rest-healing` ← `table.rest-healing`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.save-types` ← `table.save-types`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.swimming-by-armor` ← `table.swimming-by-armor`
+  - Source pages: 10
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.treasures-and-milestones` ← `table.treasures-and-milestones`
+  - Source pages: 54
+  - Rationale: Applied the deterministic canonical ID policy.
+- `table.weapon-damage` ← `table.weapon-damage`
+  - Source pages: 11
+  - Rationale: Applied the deterministic canonical ID policy.
+
+## Confirmed aliases
+
+No reviewed aliases.
+
+## Rejected merges
+
+- `duplicate-candidate.0d9969a1926c`: `item.2-goats-hay` / `item.2-goats-wooden-bowl`
+  - Source pages: 21
+  - Rationale: The source lists a pile of hay and an empty wooden bowl as separate contents of 2 GOATS.
+- `duplicate-candidate.0de938c3524c`: `item.4-chests-immature-lambfruit` / `item.4-chests-masterwork-helmet`
+  - Source pages: 21
+  - Rationale: The source lists an immature Lambfruit on the table and a masterwork helmet in a wooden chest as separate objects in 4 CHESTS.
+- `duplicate-candidate.140636d3f3ab`: `item.18a-bow-and-arrows` / `item.18a-ledge-iron-spike`
+  - Source pages: 25
+  - Rationale: The source separately describes the corpse's bow and arrows and the iron spikes fixed to the 18A ledge.
+- `duplicate-candidate.1f56392c7a22`: `item.2-goats-hay` / `item.2-goats-twine`
+  - Source pages: 21
+  - Rationale: The hay pile and the short lengths of twine tying the goats are separate listed contents of 2 GOATS.
+- `duplicate-candidate.2851e8008f3e`: `item.18a-armored-corpse-helmet` / `item.18a-ledge-rope`
+  - Source pages: 25
+  - Rationale: The helmet on the armored corpse and the 30-foot rope at 18A LEDGE are separately listed objects.
+- `duplicate-candidate.2b72c09b231d`: `item.5-landing-fire-striker` / `item.5-landing-lit-torch`
+  - Source pages: 22
+  - Rationale: The fire striker rests on the chest while the lit torch is atop the metal pole; the source treats them as separate objects.
+- `duplicate-candidate.34a2915e3460`: `item.5-landing-fresh-torch` / `item.5-landing-lamp-oil`
+  - Source pages: 22
+  - Rationale: The chest at 5 LANDING contains a fresh torch and a vial of lamp oil as separate contents.
+- `duplicate-candidate.35b7e0e442c6`: `procedure.open-44a-wall` / `procedure.resolve-wall-breach-arrivals`
+  - Source pages: 40
+  - Rationale: Opening the wall is the construction procedure; resolving the ghouls, apparatus, crab, and Lamb arrivals is a separate consequence procedure.
+- `duplicate-candidate.378242b9ce43`: `item.5-landing-iron-pole` / `item.5-landing-lamp-oil`
+  - Source pages: 22
+  - Rationale: The six-foot iron pole is the torch holder beside the door, while lamp oil is stored in the iron-banded chest.
+- `duplicate-candidate.3c0a0efec492`: `item.10-bone-pile-rope` / `item.10-bone-pile-torch`
+  - Source pages: 23
+  - Rationale: The bone pile search results separately identify a 30-foot rope and a torch.
+- `duplicate-candidate.42057b707b19`: `item.2-goats-bells` / `item.2-goats-twine`
+  - Source pages: 21
+  - Rationale: The goats' bells and the short lengths of twine are separate listed features of 2 GOATS.
+- `duplicate-candidate.457f6e2b90c8`: `item.5-landing-fresh-torch` / `item.5-landing-lit-torch`
+  - Source pages: 22
+  - Rationale: The fresh torch is inside the chest, whereas the lit torch is already burning on the metal pole.
+- `duplicate-candidate.4d4cd7c25ecb`: `location.15-crack` / `location.white-temple-plaza`
+  - Source pages: 24
+  - Rationale: 15 CRACK is a spider-filled passage ending at a fist-sized opening; the plaza beside the White Temple is the separate exterior destination visible through it.
+- `duplicate-candidate.507e29fd8b5a`: `effect.45-door-knock-no-answer` / `effect.45-rowboat-speed`
+  - Source pages: 41
+  - Rationale: The locked kitchen-cellar door's unanswered knock and the rowboat's 20-foot rowing speed are unrelated effects described in separate parts of 45 BARRELS.
+- `duplicate-candidate.52911c91f0fc`: `item.2-goats-twine` / `item.2-goats-wooden-bowl`
+  - Source pages: 21
+  - Rationale: The twine tying the goats and the empty wooden bowl are separately listed contents of 2 GOATS.
+- `duplicate-candidate.54697b6bc835`: `item.10-bone-pile-battered-shield` / `item.10-bone-pile-torch`
+  - Source pages: 23
+  - Rationale: The battered shield and torch are separate results and objects in the Bone Pile Search table.
+- `duplicate-candidate.59ef05f0826b`: `item.5a-broom` / `item.5a-gong-and-hammer`
+  - Source pages: 22
+  - Rationale: The broom and the gong with hammer are separately listed contents of 5A CLOSET.
+- `duplicate-candidate.5aefd803ec1c`: `item.5-landing-fire-striker` / `item.5-landing-iron-pole`
+  - Source pages: 22
+  - Rationale: The fire striker sits on the chest, while the iron pole supports the lit torch; they are separate objects.
+- `duplicate-candidate.634df6f647c4`: `item.5-landing-fire-striker` / `item.5-landing-fresh-torch`
+  - Source pages: 22
+  - Rationale: The fire striker is atop the chest and the fresh torch is inside it; the source lists both separately.
+- `duplicate-candidate.66ef87e6ca0c`: `effect.44a-breach-attracts-threats` / `effect.44a-wall-opening-times`
+  - Source pages: 40
+  - Rationale: The six- and ten-minute opening times and the noisy breach's 5+1d4-minute threat arrivals are separate effects of the wall breach.
+- `duplicate-candidate.6947f71808f5`: `item.18a-bow-and-arrows` / `item.18a-ledge-rope`
+  - Source pages: 25
+  - Rationale: The bow and arrows carried by the armored corpse are distinct from the rope fixed at the ledge.
+- `duplicate-candidate.69b0c55e6242`: `item.5-landing-iron-pole` / `item.5-landing-lit-torch`
+  - Source pages: 22
+  - Rationale: The iron pole is the removable torch holder, while the lit torch is the light source resting on it.
+- `duplicate-candidate.74fbbc1f95e1`: `item.5-landing-lamp-oil` / `item.5-landing-lit-torch`
+  - Source pages: 22
+  - Rationale: The lamp-oil vial is inside the chest and the lit torch is on the pole; they are distinct light-related objects.
+- `duplicate-candidate.82e222f7ab5e`: `item.18a-ledge-iron-spike` / `item.18a-ledge-rope`
+  - Source pages: 25
+  - Rationale: The iron spikes and the rope are separate components of the ledge's traversal setup.
+- `duplicate-candidate.8402b40d22ba`: `situation.41-apparatus-awakening` / `situation.41-vandoh-hand-possession`
+  - Source pages: 37
+  - Rationale: The apparatus awakens two rounds after entry, while the Vandoh statue possesses the first speaker's hand; the source describes separate situations.
+- `duplicate-candidate.8908ca765654`: `item.5-landing-fresh-torch` / `item.5-landing-iron-pole`
+  - Source pages: 22
+  - Rationale: The fresh torch is stored in the chest and the iron pole is a separate removable torch holder.
+- `duplicate-candidate.913863807879`: `item.4-chests-masterwork-helmet` / `item.4-chests-torch`
+  - Source pages: 21
+  - Rationale: The masterwork helmet and torch are separate contents of the wooden chest in 4 CHESTS.
+- `duplicate-candidate.a5aae942c973`: `item.2-goats-bells` / `item.2-goats-hay`
+  - Source pages: 21
+  - Rationale: The bells worn by the goats and the pile of hay are separately listed contents of 2 GOATS.
+- `duplicate-candidate.adffcef8ef2e`: `procedure.cross-crush-hallway` / `procedure.disarm-crush-hallway-trapdoors`
+  - Source pages: 30, 31
+  - Rationale: Crossing the 90-foot crush hallway and disarming its three spring trapdoors are distinct procedures with different approaches and outcomes.
+- `duplicate-candidate.b41ca33aa1e8`: `item.10-bone-pile-battered-shield` / `item.10-bone-pile-rope`
+  - Source pages: 23
+  - Rationale: The battered shield and the rope are separate objects in the Bone Pile Search results.
+- `duplicate-candidate.bc6c012eeff7`: `item.2-goats-bells` / `item.2-goats-wooden-bowl`
+  - Source pages: 21
+  - Rationale: The bells worn by the goats and the empty wooden bowl are separate listed contents of 2 GOATS.
+- `duplicate-candidate.c04f764e790d`: `item.18a-armored-corpse-helmet` / `item.18a-bow-and-arrows`
+  - Source pages: 25
+  - Rationale: The corpse's helmet and bow with arrows are distinct pieces of equipment listed separately.
+- `duplicate-candidate.cea3a92a357b`: `item.10-bone-pile-rope` / `item.10-bone-pile-spear`
+  - Source pages: 23
+  - Rationale: The Bone Pile Search table separately yields a rope and a spear with a shrunken head.
+- `duplicate-candidate.d3041c8f2f81`: `item.10-bone-pile-spear` / `item.10-bone-pile-torch`
+  - Source pages: 23
+  - Rationale: The spear and torch are distinct objects in the Bone Pile Search results.
+- `duplicate-candidate.d4b25b168eb8`: `item.10-bone-pile-battered-shield` / `item.10-bone-pile-spear`
+  - Source pages: 23
+  - Rationale: The battered shield and the spear are separately listed Bone Pile Search results.
+- `duplicate-candidate.e422b3cce23e`: `item.18a-armored-corpse-helmet` / `item.18a-ledge-iron-spike`
+  - Source pages: 25
+  - Rationale: The helmet worn by the armored corpse and the iron spikes fixed to the ledge are distinct objects.
+- `duplicate-candidate.eefe22d02f2c`: `item.4-chests-immature-lambfruit` / `item.4-chests-torch`
+  - Source pages: 21
+  - Rationale: The immature Lambfruit and torch are separately listed contents of 4 CHESTS.
+- `duplicate-candidate.facda579892d`: `item.5-landing-fire-striker` / `item.5-landing-lamp-oil`
+  - Source pages: 22
+  - Rationale: The fire striker on the chest and the lamp-oil vial inside it are separate objects.
+
+

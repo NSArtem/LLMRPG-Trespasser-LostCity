@@ -1,0 +1,4457 @@
+{
+  "schema": "module-content-evidence/v3",
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda",
+  "pack_id": "content.005",
+  "task": "content",
+  "records": [
+    {
+      "id": "location.dungeon-features",
+      "record_type": "location",
+      "fields": {
+        "title": "Dungeon Features",
+        "first_impression": "A pitch-black dungeon of rough-hewn stone.",
+        "contents": [
+          "Rough-hewn stone walls."
+        ],
+        "hazards": [
+          "The dungeon is pitch black."
+        ],
+        "topology_node": null
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "location.1-bowls",
+      "record_type": "location",
+      "fields": {
+        "title": "1 BOWLS",
+        "keyed_area": "1",
+        "first_impression": "Three enormous stone bowls occupy the pitch-black room; each bowl contains bound human captives.",
+        "contents": [
+          "Three enormous stone bowls.",
+          "Each bowl contains 4 human sacrifices, bound hand and foot."
+        ],
+        "occupants": [
+          "12 human sacrifices, bound hand and foot."
+        ],
+        "triggers": [
+          "The game begins here with the Lamb lumbering into the room."
+        ],
+        "actor_references": [
+          "actor.the-lamb"
+        ],
+        "situation_references": [
+          "situation.starting-lamb-entry"
+        ],
+        "procedure_references": [
+          "procedure.starting-the-game"
+        ]
+      },
+      "source_pages": [
+        19,
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.the-lamb",
+        "situation.starting-lamb-entry",
+        "procedure.starting-the-game"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.1a-first-intersection",
+      "record_type": "location",
+      "fields": {
+        "title": "1A FIRST INTERSECTION",
+        "keyed_area": "1A",
+        "first_impression": "A barnyard smell comes from the east."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "location.1b-second-intersection",
+      "record_type": "location",
+      "fields": {
+        "title": "1B SECOND INTERSECTION",
+        "keyed_area": "1B",
+        "first_impression": "A barnyard smell comes from the north, faint light comes from the east, and a vinegar smell comes from the south."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "location.1c-third-intersection",
+      "record_type": "location",
+      "fields": {
+        "title": "1C THIRD INTERSECTION",
+        "keyed_area": "1C",
+        "first_impression": "A vinegar smell comes from the west."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "location.2-goats",
+      "record_type": "location",
+      "fields": {
+        "title": "2 GOATS",
+        "keyed_area": "2",
+        "first_impression": "Three dead goats and one live, dehydrated goat are tied with short twine; all wear bells. A hay pile and an empty wooden bowl are nearby.",
+        "contents": [
+          "Three dead goats.",
+          "One live goat, dehydrated and friendly.",
+          "Short lengths of twine tying the goats.",
+          "Bells worn by all four goats.",
+          "Pile of hay.",
+          "Wooden bowl, empty."
+        ],
+        "occupants": [
+          "One live, dehydrated, friendly goat."
+        ],
+        "resources": [
+          "Short lengths of twine.",
+          "Goat bells.",
+          "Pile of hay.",
+          "Empty wooden bowl."
+        ],
+        "actor_references": [
+          "actor.live-goat"
+        ]
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.live-goat"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.3-vinegar",
+      "record_type": "location",
+      "fields": {
+        "title": "3 VINEGAR",
+        "keyed_area": "3",
+        "first_impression": "One stone trough is half-filled with reeking vinegar; another empty trough smells of stale milk.",
+        "contents": [
+          "Stone trough half-filled with vinegar.",
+          "Empty stone trough that stinks of stale milk."
+        ],
+        "discoverable": [
+          {
+            "information": "An empty wine bottle is in the vinegar trough.",
+            "condition": "Investigate the reeking liquid."
+          }
+        ],
+        "resources": [
+          "Empty wine bottle."
+        ]
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "location.4-chests",
+      "record_type": "location",
+      "fields": {
+        "title": "4 CHESTS",
+        "keyed_area": "4",
+        "first_impression": "A locked wooden door protects a room containing a wooden table, a wooden chest, and a lead-and-iron chest chained to the floor.",
+        "contents": [
+          "Locked wooden entrance door.",
+          "Wooden table holding 1 immature Lambfruit.",
+          "Wooden chest.",
+          "Lead-and-iron chest bolted to the floor and bound with two linchpinned chains."
+        ],
+        "discoverable": [
+          {
+            "information": "The wooden chest contains a masterwork helmet, 1 torch, 2 doses of purple lotus powder, and a lotus pipe.",
+            "condition": "Open the wooden chest."
+          },
+          {
+            "information": "The lead-and-iron chest contains only the Skull of Davok.",
+            "condition": "Remove both linchpins and open the lead-and-iron chest."
+          }
+        ],
+        "hazards": [
+          "Removing the first linchpin causes headaches.",
+          "Removing the second linchpin causes nosebleeds."
+        ],
+        "triggers": [
+          "Opening the lead-and-iron chest allows the Skull of Davok to escape."
+        ],
+        "situation_references": [
+          "situation.skull-of-davok-escapes"
+        ]
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.skull-of-davok-escapes"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.5-landing",
+      "record_type": "location",
+      "fields": {
+        "title": "5 LANDING",
+        "keyed_area": "5",
+        "first_impression": "Heavy steel doors are locked from the far side, with ascending stairs barely visible behind them. A lit torch stands to the left; a sturdy table and locked iron-banded chest stand to the right. A horrible stench comes from the east.",
+        "contents": [
+          "Heavy steel doors locked from the other side.",
+          "Ascending stairs barely visible behind the doors.",
+          "Lit torch atop a metal pole.",
+          "Sturdy table.",
+          "Locked iron-banded chest.",
+          "Fire striker atop the chest."
+        ],
+        "discoverable": [
+          {
+            "information": "The chest contains a fresh torch and a vial of lamp oil.",
+            "condition": "Open the locked iron-banded chest."
+          }
+        ],
+        "resources": [
+          "Lit torch with about 1 hour of burn time remaining.",
+          "Removable 6-foot iron torch-holder pole.",
+          "Fire striker.",
+          "Fresh torch.",
+          "Vial of lamp oil."
+        ],
+        "hazards": [
+          "Methods forceful enough to open the chest break the vial of lamp oil."
+        ],
+        "procedure_references": [
+          "procedure.open-5-landing-chest"
+        ]
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure.open-5-landing-chest"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.5a-closet",
+      "record_type": "location",
+      "fields": {
+        "title": "5A CLOSET",
+        "keyed_area": "5A",
+        "first_impression": "A small closet contains a broom, a gong, and a hammer.",
+        "contents": [
+          "Broom.",
+          "Gong.",
+          "Hammer."
+        ],
+        "resources": [
+          "Broom.",
+          "Gong and hammer."
+        ]
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "location.6-tumblers",
+      "record_type": "location",
+      "fields": {
+        "title": "6 TUMBLERS",
+        "keyed_area": "6",
+        "first_impression": "A fish-with-hands statue holds four numbered rotating disks. A recessed doorway on the far wall cannot be forced open; a wall lever and a tiny pool of milky liquid are nearby.",
+        "contents": [
+          "Statue of a fish with hands.",
+          "Four rotating disks, each showing a number from 1 to 8.",
+          "Recessed doorway impossible to force open.",
+          "Wall lever.",
+          "Tiny pool of milky acid."
+        ],
+        "discoverable": [
+          {
+            "information": "A quartet of small acid nozzles is set in the ceiling.",
+            "condition": "Investigate the ceiling."
+          }
+        ],
+        "hidden": [
+          "The room is a password-entry system.",
+          "The password is 1-2-1-2."
+        ],
+        "hazards": [
+          "An incorrect entry produces a horrible grinding noise every time and sprays milky acid once."
+        ],
+        "triggers": [
+          "Pulling the lever checks the four-digit tumbler setting."
+        ],
+        "situation_references": [
+          "situation.tumbler-password-result"
+        ],
+        "procedure_references": [
+          "procedure.operate-tumblers"
+        ],
+        "knowledge_references": [
+          "knowledge.tumbler-password"
+        ]
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.tumbler-password-result",
+        "procedure.operate-tumblers",
+        "knowledge.tumbler-password"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.7-throne",
+      "record_type": "location",
+      "fields": {
+        "title": "7 THRONE",
+        "keyed_area": "7",
+        "first_impression": "A throne of sheep bones and unfired clay stands beside a golden sensory-deprivation helmet.",
+        "contents": [
+          "Throne of sheep bones and unfired clay.",
+          "Golden sensory-deprivation helmet worth 700s."
+        ],
+        "hidden": [
+          "The throne works only once per year.",
+          "Anyone with a lobster claw is Favored by Vandoh.",
+          "Sitting on the throne is a Milestone."
+        ],
+        "triggers": [
+          "Sitting on the throne requires a Charisma Save and causes a transformation and vision."
+        ],
+        "situation_references": [
+          "situation.throne-transformation"
+        ]
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.throne-transformation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.8-pit",
+      "record_type": "location",
+      "fields": {
+        "title": "8 PIT",
+        "keyed_area": "8",
+        "first_impression": "A slimy pit, 40 feet deep and 30 feet across, has smooth stone walls, knee-deep mud at the bottom, and a strong ammonia-and-feces smell.",
+        "contents": [
+          "Slimy pit 40 feet deep and 30 feet across.",
+          "Knee-deep mud at the bottom.",
+          "Smooth stone walls."
+        ],
+        "hidden": [
+          "This is where the Lamb sleeps.",
+          "Akina cleans the Lamb of parasites and eats its vomit."
+        ],
+        "hazards": [
+          "The pit is impossible to climb."
+        ],
+        "occupants": [
+          "Akina lives in the pit.",
+          "The Lamb is present 0% of the time on the first visit and 2-in-6 on subsequent visits."
+        ],
+        "actor_references": [
+          "actor.akina",
+          "actor.the-lamb"
+        ],
+        "situation_references": [
+          "situation.akina-rescue-bargain"
+        ],
+        "knowledge_references": [
+          "knowledge.akina-knows-basics"
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.akina",
+        "actor.the-lamb",
+        "situation.akina-rescue-bargain",
+        "knowledge.akina-knows-basics"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.9-fountain",
+      "record_type": "location",
+      "fields": {
+        "title": "9 FOUNTAIN",
+        "keyed_area": "9",
+        "first_impression": "A 30-foot-deep slimy pool surrounds a dripping fountain shaped like a fish with hands. Its water falls in the regular rhythm “drip . . . drip drip . . . drip . . . drip drip.”",
+        "contents": [
+          "Slimy pool, 30 feet deep.",
+          "Dripping fountain shaped like a fish with hands.",
+          "Water dripping in a 1-2-1-2 pattern."
+        ],
+        "discoverable": [
+          {
+            "information": "An armored skeleton lies in the shallows.",
+            "condition": "Investigate the pool."
+          }
+        ],
+        "hidden": [
+          "The location is haunted.",
+          "The first person to touch the water is supernaturally shoved in and held beneath the surface."
+        ],
+        "hazards": [
+          "The first entrant hallucinates drowning for 1 round.",
+          "The first person to touch the water is pulled in with no save and cannot bring any body part out of the water."
+        ],
+        "occupants": [
+          "The Lamb is present 100% of the time on the first visit and 2-in-6 on subsequent visits."
+        ],
+        "actor_references": [
+          "actor.the-lamb"
+        ],
+        "situation_references": [
+          "situation.fountain-haunting"
+        ],
+        "procedure_references": [
+          "procedure.end-fountain-haunting"
+        ],
+        "knowledge_references": [
+          "knowledge.tumbler-password"
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.the-lamb",
+        "situation.fountain-haunting",
+        "procedure.end-fountain-haunting",
+        "knowledge.tumbler-password"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.9a-underwater-tunnel",
+      "record_type": "location",
+      "fields": {
+        "title": "9A UNDERWATER TUNNEL",
+        "keyed_area": "9A",
+        "first_impression": "An underwater tunnel leads away from the fountain pool.",
+        "contents": [
+          "Connects to 44 CISTERN.",
+          "A person can swim the tunnel in 5 minutes."
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "location.10-bone-pile",
+      "record_type": "location",
+      "fields": {
+        "title": "10 BONE PILE",
+        "keyed_area": "10",
+        "first_impression": "A pile contains 255 bone pellets, each holding about 100 pounds of compressed bone fragments only slightly smoothed by digestion.",
+        "contents": [
+          "255 bone pellets, each about 100 pounds."
+        ],
+        "discoverable": [
+          {
+            "information": "A small crawl tunnel leads to 14 SARCOPHAGUS.",
+            "condition": "Spend any amount of time searching the pile."
+          }
+        ],
+        "hidden": [
+          "After 3 encounters with the Lamb, it becomes cunning and begins blocking the crawl tunnel with bones."
+        ],
+        "resources": [
+          "One d20 search result per man-hour, using the Bone Pile Search table."
+        ],
+        "triggers": [
+          "After 3 encounters with the Lamb, the Lamb begins blocking the crawl tunnel."
+        ],
+        "situation_references": [
+          "situation.lamb-blocks-bone-tunnel"
+        ],
+        "procedure_references": [
+          "procedure.search-bone-pile",
+          "procedure.clear-blocked-crawl-tunnel"
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.lamb-blocks-bone-tunnel",
+        "procedure.search-bone-pile",
+        "procedure.clear-blocked-crawl-tunnel",
+        "table.bone-pile-search"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.11-crab-mural",
+      "record_type": "location",
+      "fields": {
+        "title": "11 CRAB MURAL",
+        "keyed_area": "11",
+        "first_impression": "A mural shows a crab being groomed in a woman’s lap. A friendly rat is present, and a wooden door to the east is locked.",
+        "contents": [
+          "Crab-grooming mural.",
+          "Locked wooden door to the east."
+        ],
+        "occupants": [
+          "A friendly rat."
+        ],
+        "actor_references": [
+          "actor.friendly-rat"
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.friendly-rat"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.12-abacus-mural",
+      "record_type": "location",
+      "fields": {
+        "title": "12 ABACUS MURAL",
+        "keyed_area": "12",
+        "first_impression": "A mural shows an impossible abacus with Vandoh, a polygon-headed man, calculating inside it. The sagging roof is held up by a 10-foot wooden pike.",
+        "contents": [
+          "Mural of an impossible abacus.",
+          "Image of Vandoh performing a calculation.",
+          "10-foot wooden pike supporting the sagging roof."
+        ],
+        "hazards": [
+          "Removing the pike collapses the ceiling; a person grabbing it and running must pass a Movement check to avoid dying."
+        ],
+        "triggers": [
+          "Removing the supporting pike causes the ceiling to collapse and makes the room impassable."
+        ],
+        "situation_references": [
+          "situation.abacus-ceiling-collapse"
+        ],
+        "procedure_references": [
+          "procedure.collapse-abacus-mural"
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.abacus-ceiling-collapse",
+        "procedure.collapse-abacus-mural"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.13-city-mural",
+      "record_type": "location",
+      "fields": {
+        "title": "13 CITY MURAL",
+        "keyed_area": "13",
+        "first_impression": "A mural depicts a city under the waves. A huge spiderweb-filled crack runs along the south wall with a faint breeze coming through it; a moldy, badly damaged locked door blocks the east passage.",
+        "contents": [
+          "Mural of a city under the waves.",
+          "Huge spiderweb-filled crack along the south wall.",
+          "Moldy, locked, badly damaged eastern door."
+        ],
+        "discoverable": [
+          {
+            "information": "The damaged eastern door can be quietly wrenched off its hinges.",
+            "condition": "Examine or try to manipulate the badly damaged door."
+          }
+        ],
+        "hidden": [
+          "The Lamb previously damaged the eastern door by ramming it in a fit of madness."
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "location.14-sarcophagus",
+      "record_type": "location",
+      "fields": {
+        "title": "14 SARCOPHAGUS",
+        "keyed_area": "14",
+        "first_impression": "An unused wall torch hangs beside an obvious northward crawl tunnel and an empty sarcophagus inscribed “Shadrakul, who will not meet her apprentice in this life.” The lid edges are bladed.",
+        "contents": [
+          "Unused torch on the wall.",
+          "Obvious crawl tunnel north to 10 BONE PILE.",
+          "Sarcophagus with bladed lid edges.",
+          "Inscription: “Shadrakul, who will not meet her apprentice in this life.”"
+        ],
+        "discoverable": [
+          {
+            "information": "A seam runs along the middle of the sarcophagus bottom.",
+            "condition": "Clear dust from the empty sarcophagus."
+          },
+          {
+            "information": "The bottom is metal and sounds hollow.",
+            "condition": "Clear dust and inspect or tap the sarcophagus bottom."
+          }
+        ],
+        "hidden": [
+          "Replacing the lid over an occupant opens the sarcophagus bottom and dumps the occupant into 14A SHADRAKUL.",
+          "Removing the lid again closes the bottom."
+        ],
+        "hazards": [
+          "The bladed lid edges are sharp enough to cut ropes and sever ropes when the trap operates."
+        ],
+        "triggers": [
+          "Lifting or replacing the lid produces mechanical sounds from below.",
+          "Replacing the lid while someone is inside activates the trapdoor."
+        ],
+        "situation_references": [
+          "situation.sarcophagus-dump"
+        ],
+        "procedure_references": [
+          "procedure.use-sarcophagus-elevator"
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.sarcophagus-dump",
+        "procedure.use-sarcophagus-elevator",
+        "location.14a-shadrakul"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.14a-shadrakul",
+      "record_type": "location",
+      "fields": {
+        "title": "14A SHADRAKUL",
+        "keyed_area": "14A",
+        "first_impression": "A 10-foot drop lands on eight soft rugs; a robed skeleton sits against the wall holding a black iron spellbook and a precariously balanced crystal goblet.",
+        "contents": [
+          "Eight soft rugs worth 400s.",
+          "Robed skeleton against the wall.",
+          "Black iron spellbook.",
+          "Delicate crystal goblet worth 800s."
+        ],
+        "hidden": [
+          "Once the black iron spellbook is held, the trapdoor locks in the open position.",
+          "A skeletal serpent is concealed with the skeleton."
+        ],
+        "hazards": [
+          "The slightest touch causes the crystal goblet to tumble and break.",
+          "Approaching the skeleton triggers a skeletal serpent attack."
+        ],
+        "occupants": [
+          "A robed skeleton.",
+          "A hidden skeletal serpent guardian."
+        ],
+        "actor_references": [
+          "actor.shadrakul-skeleton",
+          "actor.skeletal-serpent"
+        ],
+        "situation_references": [
+          "situation.goblet-serpent-trap"
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.shadrakul-skeleton",
+        "actor.skeletal-serpent",
+        "situation.goblet-serpent-trap",
+        "location.14-sarcophagus"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.15-crack",
+      "record_type": "location",
+      "fields": {
+        "title": "15 CRACK",
+        "keyed_area": "15",
+        "first_impression": "A very tight crack swarms with hundreds of tiny red spiders. A voice arguing about chicken quality can be heard, and daylight is visible at the far end.",
+        "contents": [
+          "Hundreds of tiny red spiders.",
+          "Fist-sized opening overlooking the plaza beside the White Temple."
+        ],
+        "hazards": [
+          "Each minute of exposure has a 50% chance of a spider bite.",
+          "A first bite causes wheezing and muteness for 1 hour; a second bite causes instant death with no Save."
+        ],
+        "occupants": [
+          "Danjo, a chicken vendor, sits outside the far opening."
+        ],
+        "actor_references": [
+          "actor.danjo"
+        ],
+        "situation_references": [
+          "situation.red-spider-exposure",
+          "situation.danjo-extortion-trade"
+        ],
+        "procedure_references": [
+          "procedure.trade-with-danjo"
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.danjo",
+        "situation.red-spider-exposure",
+        "situation.danjo-extortion-trade",
+        "procedure.trade-with-danjo"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.16-mold",
+      "record_type": "location",
+      "fields": {
+        "title": "16 MOLD",
+        "keyed_area": "16",
+        "first_impression": "A moldy shape in the center of the room resembles a curled corpse hidden beneath thick fungus.",
+        "contents": [
+          "A corpse-shaped mass covered in thick mold."
+        ],
+        "hidden": [
+          "The shape is only mold, not a corpse."
+        ]
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "location.17-altar",
+      "record_type": "location",
+      "fields": {
+        "title": "17 ALTAR",
+        "keyed_area": "17",
+        "first_impression": "A yellow-rotted wooden chest stands near an altar holding a sheep skull amid faded flowers.",
+        "contents": [
+          "Rotten wooden chest.",
+          "Rotten, worthless books inside the chest.",
+          "Silver-plate dageurrotype worth 50s inside the chest.",
+          "Altar with a sheep skull and faded flowers."
+        ],
+        "discoverable": [
+          {
+            "information": "A concealed drawer in the altar contains one white candle.",
+            "condition": "Investigate the altar."
+          }
+        ],
+        "hazards": [
+          "Carelessly opening the chest exposes the opener to yellow mold poison for 1d6 damage."
+        ],
+        "triggers": [
+          "Carelessly opening the chest triggers yellow mold exposure."
+        ],
+        "situation_references": [
+          "situation.yellow-mold-chest"
+        ]
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.yellow-mold-chest"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.18-shaft",
+      "record_type": "location",
+      "fields": {
+        "title": "18 SHAFT",
+        "keyed_area": "18",
+        "first_impression": "A 7-foot-high heap of broken beams and bricks, apparently a shattered gazebo but actually a fallen elevator, sits amid loops of soft rotten rope. A shaft rises 60 feet, with a visible ledge 40 feet up.",
+        "contents": [
+          "Fallen elevator wreckage, 7 feet high.",
+          "Broken beams and loose bricks.",
+          "Loops of soft, rotten rope.",
+          "High shaft terminating 60 feet above.",
+          "Visible ledge 40 feet above."
+        ],
+        "discoverable": [
+          {
+            "information": "A block and tackle is hidden in the wreckage.",
+            "condition": "Search the wreckage."
+          }
+        ],
+        "resources": [
+          "Block and tackle."
+        ]
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "location.18a-ledge",
+      "record_type": "location",
+      "fields": {
+        "title": "18A LEDGE",
+        "keyed_area": "18A",
+        "first_impression": "A 30-foot rope and an iron spike lie before a sealed portcullis. Ten feet beyond the bars is an armored corpse.",
+        "contents": [
+          "30-foot rope.",
+          "Iron spike.",
+          "Sealed portcullis.",
+          "Armored corpse 10 feet beyond the portcullis."
+        ],
+        "resources": [
+          "The corpse can be pulled to the portcullis and looted for a sword, bow and arrows, signet ring, Orb of Indulgence, masterwork breastplate, and helmet."
+        ],
+        "hazards": [
+          "The masterwork breastplate and helmet are too large to pass through the portcullis."
+        ],
+        "procedure_references": [
+          "procedure.loot-armored-corpse"
+        ],
+        "situation_references": [
+          "situation.loot-armored-corpse"
+        ]
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure.loot-armored-corpse",
+        "situation.loot-armored-corpse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.the-lamb",
+      "record_type": "actor",
+      "fields": {
+        "title": "The Lamb",
+        "appearance": "A gigantic, hairless, obese cow-like creature with no obvious head; its neck ends in a drooping cowl of wrinkled flesh, from which it can extend a bloody horse-skull head with sunken eyes and a black tongue. It weighs about 2500 lbs, drags its belly, and reeks of blood and ammonia.",
+        "role": "The dungeon’s central predator, guarding and roaming between its pit and fountain.",
+        "behavior": [
+          "Mostly remains in 8 PIT and 9 FOUNTAIN.",
+          "Its sight and hearing are slightly worse than an average human’s.",
+          "It is not smart but is clever, learns from mistakes, and adopts better tactics with exposure.",
+          "If it finishes eating or loses track of the party, it heads to 9 FOUNTAIN for a bath."
+        ],
+        "capabilities": [
+          "Lvl 6; Def chain; Bite/Crush 1d8/1d18; Move slow; Climb slug; Str 9; Int 3; Dis hungry.",
+          "Immune to acid.",
+          "Torches and lanterns make it hesitate, but only a large fire scares it away.",
+          "If people try to run past it in a hallway or room, it makes both attacks.",
+          "Can climb out of 8 PIT in 2 rounds.",
+          "Carries 52 Nascent Lambfruit and 6 Immature Lambfruit."
+        ],
+        "reactions": [
+          {
+            "stimulus": "It is wounded or scared.",
+            "response": "It calls “Father! Father!” in increasingly loud tones; it can say nothing else."
+          },
+          {
+            "stimulus": "People hide from it during the opening encounter.",
+            "response": "It devours one restrained human at random over 10 minutes and is not very alert while eating."
+          },
+          {
+            "stimulus": "People flee noisily during the opening encounter.",
+            "response": "It attacks."
+          },
+          {
+            "stimulus": "People leave slowly and quietly during the opening encounter.",
+            "response": "It does not notice them."
+          },
+          {
+            "stimulus": "It has experienced 3 encounters with the party near 10 BONE PILE.",
+            "response": "It becomes cunning and begins blocking the crawl tunnel with bones."
+          }
+        ],
+        "location_references": [
+          "location.1-bowls",
+          "location.8-pit",
+          "location.9-fountain",
+          "location.10-bone-pile"
+        ],
+        "situation_references": [
+          "situation.starting-lamb-entry",
+          "situation.lamb-approaches",
+          "situation.lamb-nearby-disgusting-noise",
+          "situation.distant-lamb-noises",
+          "situation.lamb-blocks-bone-tunnel"
+        ],
+        "starting_state": [
+          "Lumbering into 1 BOWLS as the game begins."
+        ]
+      },
+      "source_pages": [
+        18,
+        19,
+        20,
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.1-bowls",
+        "location.8-pit",
+        "location.9-fountain",
+        "location.10-bone-pile",
+        "situation.starting-lamb-entry",
+        "situation.lamb-approaches",
+        "situation.lamb-nearby-disgusting-noise",
+        "situation.distant-lamb-noises",
+        "situation.lamb-blocks-bone-tunnel"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.little-lambs",
+      "record_type": "actor",
+      "fields": {
+        "title": "The Little Lambs",
+        "role": "Three offspring that emerge from the Lamb’s corpse and hunt as ceiling-climbing predators.",
+        "behavior": [
+          "If the Lamb is killed but its corpse is not utterly destroyed, they wait quietly and then chew out of the corpse.",
+          "They will not swim out to the cistern.",
+          "They have a 2-in-6 chance to ambush from the ceiling and grapple only during the surprise round."
+        ],
+        "capabilities": [
+          "Lvl 2; Def chain; Bite 1d8; Move human; Climb as slug; Str 5; Int 3; Dis hungry.",
+          "Immune to acid.",
+          "Will not approach within 10 feet of burning oil because of bright light and fire."
+        ],
+        "reactions": [
+          {
+            "stimulus": "Bright light, fire, or burning oil is nearby.",
+            "response": "They avoid approaching within 10 feet of burning oil."
+          }
+        ],
+        "situation_references": [
+          "situation.little-lambs-emerge",
+          "situation.little-lambs-ceiling-ambush",
+          "situation.little-lambs-digging-nearby"
+        ]
+      },
+      "source_pages": [
+        18,
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.little-lambs-emerge",
+        "situation.little-lambs-ceiling-ambush",
+        "situation.little-lambs-digging-nearby"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.father-bastoval",
+      "record_type": "actor",
+      "fields": {
+        "title": "Father Bastoval",
+        "role": "The Lamb’s father and a Nemesis who enters the dungeon with two elderly bodyguards after the Lamb is killed.",
+        "behavior": [
+          "Two hours after the Lamb is killed, he enters the dungeon with his bodyguards to check on it.",
+          "If the Lamb is dead, he hunts the Lamb’s murderers."
+        ],
+        "capabilities": [
+          "Lvl 3; Def chain; Warfork 1d8; Dis wrathful.",
+          "Spells: delay, haste, scry.",
+          "As a Nemesis, each time he kills a PC he gains a level and is thereafter introduced as “Bastoval, Slayer of X”."
+        ],
+        "relationships": [
+          {
+            "target_id": "actor.mino",
+            "relationship": "Bodyguard accompanying Bastoval."
+          },
+          {
+            "target_id": "actor.bilosh",
+            "relationship": "Bodyguard accompanying Bastoval."
+          }
+        ],
+        "situation_references": [
+          "situation.bastoval-enters-after-lamb-death",
+          "situation.bastoval-checks-on-lamb",
+          "situation.bastoval-ghostly-warning"
+        ]
+      },
+      "source_pages": [
+        18,
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.mino",
+        "actor.bilosh",
+        "situation.bastoval-enters-after-lamb-death",
+        "situation.bastoval-checks-on-lamb",
+        "situation.bastoval-ghostly-warning"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.mino",
+      "record_type": "actor",
+      "fields": {
+        "title": "Mino",
+        "role": "One of Father Bastoval’s elderly bodyguards.",
+        "capabilities": [
+          "Lvl 1; Def plate; Mace 1d6.",
+          "Carries a bow that deals 1d6 damage."
+        ],
+        "relationships": [
+          {
+            "target_id": "actor.father-bastoval",
+            "relationship": "Bodyguard serving and accompanying Father Bastoval."
+          },
+          {
+            "target_id": "actor.bilosh",
+            "relationship": "The other member of the elderly bodyguard pair."
+          }
+        ],
+        "situation_references": [
+          "situation.bastoval-enters-after-lamb-death",
+          "situation.bastoval-checks-on-lamb"
+        ]
+      },
+      "source_pages": [
+        18,
+        20
+      ],
+      "confidence": "medium",
+      "references": [
+        "actor.father-bastoval",
+        "actor.bilosh",
+        "situation.bastoval-enters-after-lamb-death",
+        "situation.bastoval-checks-on-lamb"
+      ],
+      "uncertainties": [
+        {
+          "description": "The heading reads “Milo/Bilosh,” while the equipment sentence says “Mino has a bow.” This record uses Mino from the equipment sentence.",
+          "source_pages": [
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "actor.bilosh",
+      "record_type": "actor",
+      "fields": {
+        "title": "Bilosh",
+        "role": "One of Father Bastoval’s elderly bodyguards.",
+        "capabilities": [
+          "Lvl 1; Def plate; Mace 1d6.",
+          "Carries a net."
+        ],
+        "relationships": [
+          {
+            "target_id": "actor.father-bastoval",
+            "relationship": "Bodyguard serving and accompanying Father Bastoval."
+          },
+          {
+            "target_id": "actor.mino",
+            "relationship": "The other member of the elderly bodyguard pair."
+          }
+        ],
+        "situation_references": [
+          "situation.bastoval-enters-after-lamb-death",
+          "situation.bastoval-checks-on-lamb"
+        ]
+      },
+      "source_pages": [
+        18,
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.father-bastoval",
+        "actor.mino",
+        "situation.bastoval-enters-after-lamb-death",
+        "situation.bastoval-checks-on-lamb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.live-goat",
+      "record_type": "actor",
+      "fields": {
+        "title": "Live Goat",
+        "appearance": "A live goat tied with short twine and wearing a bell.",
+        "role": "A friendly, dehydrated animal in 2 GOATS.",
+        "behavior": [
+          "Friendly."
+        ],
+        "location_references": [
+          "location.2-goats"
+        ],
+        "starting_state": [
+          "Dehydrated and tied with short twine."
+        ]
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.2-goats"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.akina",
+      "record_type": "actor",
+      "fields": {
+        "title": "Akina",
+        "appearance": "A woman in rags living at the bottom of the pit.",
+        "role": "A sane, desperate, intelligent captive who bargains for rescue and can explain the local cult and monster.",
+        "goals": [
+          "Escape 8 PIT."
+        ],
+        "behavior": [
+          "Offers the Ruby Ring of Wisdom in exchange for rescue.",
+          "Cleans parasites from the Lamb and eats its vomit."
+        ],
+        "capabilities": [
+          "Carries the Ruby Ring of Wisdom, worth 1000s.",
+          "Can tell the basics about the White Temple, Vandoh, and the Lamb."
+        ],
+        "location_references": [
+          "location.8-pit"
+        ],
+        "situation_references": [
+          "situation.akina-rescue-bargain"
+        ],
+        "knowledge_references": [
+          "knowledge.akina-knows-basics"
+        ],
+        "starting_state": [
+          "Living in 8 PIT; sane, desperate, intelligent, and wearing rags."
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.8-pit",
+        "situation.akina-rescue-bargain",
+        "knowledge.akina-knows-basics"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.friendly-rat",
+      "record_type": "actor",
+      "fields": {
+        "title": "Friendly Rat",
+        "role": "A friendly rat encountered in 11 CRAB MURAL.",
+        "behavior": [
+          "Friendly."
+        ],
+        "location_references": [
+          "location.11-crab-mural"
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.11-crab-mural"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.shadrakul-skeleton",
+      "record_type": "actor",
+      "fields": {
+        "title": "Robed Skeleton",
+        "appearance": "A robed skeleton seated against the wall, holding out a black iron spellbook and balancing a crystal goblet on its knee.",
+        "role": "A dead figure in 14A SHADRAKUL that presents the spellbook and anchors a serpent-and-goblet trap.",
+        "behavior": [
+          "Offers a black iron spellbook.",
+          "Clutches a delicate crystal goblet close to its body."
+        ],
+        "location_references": [
+          "location.14a-shadrakul"
+        ],
+        "situation_references": [
+          "situation.goblet-serpent-trap"
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.14a-shadrakul",
+        "situation.goblet-serpent-trap"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.skeletal-serpent",
+      "record_type": "actor",
+      "fields": {
+        "title": "Skeletal Serpent",
+        "role": "A concealed guardian that lunges from the robed skeleton when anyone approaches.",
+        "behavior": [
+          "Lunges out and attacks anyone who approaches the skeleton."
+        ],
+        "capabilities": [
+          "Lvl 1; Def chain; Bite: save or die; Dis guardian."
+        ],
+        "location_references": [
+          "location.14a-shadrakul"
+        ],
+        "situation_references": [
+          "situation.goblet-serpent-trap"
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.14a-shadrakul",
+        "situation.goblet-serpent-trap"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.danjo",
+      "record_type": "actor",
+      "fields": {
+        "title": "Danjo",
+        "appearance": "A chicken vendor seated in the plaza beside the White Temple, visible through the fist-sized opening at the end of 15 CRACK.",
+        "role": "An extortionate outside contact and merchant who can sell or fetch mundane goods.",
+        "goals": [
+          "Extract as much payment or leverage as possible from the party."
+        ],
+        "behavior": [
+          "Threatens to tell the temple guards unless given a reason not to.",
+          "After the extortion issue is handled, sells mundane items at the highest price he can obtain, never below 20 times market value.",
+          "Will run across town to purchase requested goods, taking 1-3 hours depending on the item."
+        ],
+        "reactions": [
+          {
+            "stimulus": "The party first contacts him through the crack.",
+            "response": "He extorts them by threatening to inform the temple guards."
+          }
+        ],
+        "location_references": [
+          "location.15-crack"
+        ],
+        "situation_references": [
+          "situation.danjo-extortion-trade"
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.15-crack",
+        "situation.danjo-extortion-trade"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.lamb-approaches",
+      "record_type": "situation",
+      "fields": {
+        "title": "The Lamb Approaches",
+        "perceived": "The Lamb approaches, full of bile and loathing.",
+        "activation": {
+          "type": "random",
+          "condition": "Selected on the Lamb Alive active encounter table (1-6)."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "outcomes": [
+          "The Lamb approaches, full of bile and loathing."
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.the-lamb",
+            "role": "Encounter subject."
+          }
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.the-lamb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.lamb-nearby-disgusting-noise",
+      "record_type": "situation",
+      "fields": {
+        "title": "The Lamb Is Nearby",
+        "perceived": "Disgusting, noisy activity is heard from an adjacent room: regurgitating a bone pellet, banging its head against a wall in self-loathing, or dragging its genitals across the ground.",
+        "activation": {
+          "type": "random",
+          "condition": "Selected on the Lamb Alive passive encounter table (1-6)."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "outcomes": [
+          "Disgusting, noisy activity is heard from an adjacent room: regurgitating a bone pellet, banging its head against a wall in self-loathing, or dragging its genitals across the ground."
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.the-lamb",
+            "role": "Encounter subject."
+          }
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.the-lamb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.distant-lamb-noises",
+      "record_type": "situation",
+      "fields": {
+        "title": "Distant Grunting and Gnawing",
+        "perceived": "Distant grunting and gnawing can be heard.",
+        "activation": {
+          "type": "random",
+          "condition": "Selected on the Lamb Alive indirect encounter table (1-6)."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "outcomes": [
+          "Distant grunting and gnawing can be heard."
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.the-lamb",
+            "role": "Encounter subject."
+          }
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.the-lamb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.little-lambs-ceiling-ambush",
+      "record_type": "situation",
+      "fields": {
+        "title": "Three Little Lambs on the Ceiling",
+        "perceived": "Three Little Lambs crawl on the ceiling, then drop down to run faster.",
+        "activation": {
+          "type": "random",
+          "condition": "Selected on the Lamb Dead active encounter table (1-3)."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "outcomes": [
+          "Three Little Lambs crawl on the ceiling, then drop down to run faster."
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.little-lambs",
+            "role": "Encounter subject."
+          }
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.little-lambs"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.bastoval-checks-on-lamb",
+      "record_type": "situation",
+      "fields": {
+        "title": "Bastoval Checks on the Lamb",
+        "perceived": "Father Bastoval leads Mino and Bilosh through the dungeon to check on the Lamb.",
+        "activation": {
+          "type": "random",
+          "condition": "Selected on the Lamb Dead active encounter table (4-6)."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "outcomes": [
+          "Father Bastoval leads Mino and Bilosh through the dungeon to check on the Lamb."
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.father-bastoval",
+            "role": "Encounter subject."
+          },
+          {
+            "actor_id": "actor.mino",
+            "role": "Encounter subject."
+          },
+          {
+            "actor_id": "actor.bilosh",
+            "role": "Encounter subject."
+          }
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.father-bastoval",
+        "actor.mino",
+        "actor.bilosh"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.little-lambs-digging-nearby",
+      "record_type": "situation",
+      "fields": {
+        "title": "Little Lambs Digging Nearby",
+        "perceived": "The Three Little Lambs can be heard digging loudly inside a nearby wall.",
+        "activation": {
+          "type": "random",
+          "condition": "Selected on the Lamb Dead passive encounter table (1-3)."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "outcomes": [
+          "The Three Little Lambs can be heard digging loudly inside a nearby wall."
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.little-lambs",
+            "role": "Encounter subject."
+          }
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.little-lambs"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.bastoval-ghostly-warning",
+      "record_type": "situation",
+      "fields": {
+        "title": "Bastoval’s Ghostly Warning",
+        "perceived": "A ghostly image of Bastoval appears and says, “So that’s where you are.”",
+        "activation": {
+          "type": "random",
+          "condition": "Selected on the Lamb Dead passive encounter table (4-6)."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "outcomes": [
+          "Father Bastoval arrives in 1d6 rounds."
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.father-bastoval",
+            "role": "Encounter subject."
+          }
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.father-bastoval"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.lamb-death-echoes",
+      "record_type": "situation",
+      "fields": {
+        "title": "Echoes of the Lamb",
+        "perceived": "Faraway echoes of the Lamb’s voice continue crying “Father! Father!”",
+        "activation": {
+          "type": "random",
+          "condition": "Selected on the Lamb Dead indirect encounter table (1-3)."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "outcomes": [
+          "Faraway echoes of the Lamb’s voice continue crying “Father! Father!”"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.the-lamb",
+            "role": "Encounter subject."
+          }
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.the-lamb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.more-tremors",
+      "record_type": "situation",
+      "fields": {
+        "title": "More Tremors",
+        "perceived": "More tremors are felt.",
+        "activation": {
+          "type": "random",
+          "condition": "Selected on the Lamb Dead indirect encounter table (4-6)."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "outcomes": [
+          "More tremors are felt."
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.starting-lamb-entry",
+      "record_type": "situation",
+      "fields": {
+        "title": "The Lamb Enters 1 BOWLS",
+        "perceived": "In pitch darkness, the Lamb is lumbering into the room.",
+        "activation": {
+          "type": "keyed",
+          "condition": "The game begins in 1 BOWLS."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.1-bowls"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.the-lamb",
+            "role": "Immediate predator entering the starting room."
+          }
+        ],
+        "stakes": [
+          "A restrained human may be devoured.",
+          "Noisy flight can provoke an attack.",
+          "The free characters begin dehydrated, naked, and poorly equipped."
+        ],
+        "approaches": [
+          "Hide from the Lamb.",
+          "Flee noisily.",
+          "Leave slowly and quietly."
+        ],
+        "outcomes": [
+          "If the PCs hide, the Lamb devours one restrained human at random over 10 minutes and is not very alert during that time.",
+          "If the PCs flee noisily, the Lamb attacks; finding the door in the dark requires a Wisdom check.",
+          "If the PCs leave slowly and quietly, they are not noticed.",
+          "After eating or losing track of the party, the Lamb goes to 9 FOUNTAIN for a bath."
+        ],
+        "completion": [
+          "The party leaves the room or the Lamb loses track of them."
+        ]
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [
+        "location.1-bowls",
+        "actor.the-lamb",
+        "procedure.starting-the-game",
+        "rule.dark-door-wisdom-check"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.little-lambs-emerge",
+      "record_type": "situation",
+      "fields": {
+        "title": "Little Lambs Emerge from the Corpse",
+        "perceived": "After a quiet delay, three Little Lambs chew their way out of the Lamb’s corpse.",
+        "activation": {
+          "type": "triggered",
+          "condition": "The Lamb is killed and its corpse is not utterly destroyed."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "participants": [
+          {
+            "actor_id": "actor.little-lambs",
+            "role": "New predators emerging from the corpse."
+          }
+        ],
+        "stakes": [
+          "Three new hostile creatures enter the dungeon."
+        ],
+        "outcomes": [
+          "Three Little Lambs become active after waiting quietly inside the corpse."
+        ],
+        "completion": [
+          "All three Little Lambs have emerged, or the corpse is utterly destroyed before they emerge."
+        ]
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.the-lamb",
+        "actor.little-lambs",
+        "effect.little-lamb-emergence"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.bastoval-enters-after-lamb-death",
+      "record_type": "situation",
+      "fields": {
+        "title": "Father Bastoval Enters the Dungeon",
+        "perceived": "Father Bastoval enters with two elderly bodyguards to check on the Lamb.",
+        "activation": {
+          "type": "timed",
+          "condition": "Two hours after the Lamb is killed."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "participants": [
+          {
+            "actor_id": "actor.father-bastoval",
+            "role": "Leader checking on the Lamb."
+          },
+          {
+            "actor_id": "actor.mino",
+            "role": "Elderly bodyguard."
+          },
+          {
+            "actor_id": "actor.bilosh",
+            "role": "Elderly bodyguard."
+          }
+        ],
+        "stakes": [
+          "If the Lamb is dead, Bastoval hunts its killers."
+        ],
+        "outcomes": [
+          "Bastoval and his bodyguards check on the Lamb.",
+          "If the Lamb is dead, they hunt the Lamb’s murderers."
+        ]
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.father-bastoval",
+        "actor.mino",
+        "actor.bilosh",
+        "actor.the-lamb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.skull-of-davok-escapes",
+      "record_type": "situation",
+      "fields": {
+        "title": "The Skull of Davok Escapes",
+        "perceived": "When the lead-and-iron chest is opened, the Skull of Davok escapes.",
+        "activation": {
+          "type": "keyed",
+          "condition": "Open the lead-and-iron chest in 4 CHESTS after removing both linchpins."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.4-chests"
+        ],
+        "stakes": [
+          "A contained supernatural skull is released."
+        ],
+        "outcomes": [
+          "The Skull of Davok escapes the chest."
+        ]
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.4-chests",
+        "item.skull-of-davok"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.tumbler-password-result",
+      "record_type": "situation",
+      "fields": {
+        "title": "Tumbler Password Check",
+        "perceived": "Pulling the lever makes the mechanism evaluate the four numbered disks.",
+        "activation": {
+          "type": "chosen",
+          "condition": "Set the four tumblers and pull the lever in 6 TUMBLERS."
+        },
+        "repeat": {
+          "mode": "repeatable",
+          "condition": "The acid sprays only once; the grinding noise occurs on every incorrect attempt."
+        },
+        "location_references": [
+          "location.6-tumblers"
+        ],
+        "procedure_references": [
+          "procedure.operate-tumblers"
+        ],
+        "knowledge_references": [
+          "knowledge.tumbler-password"
+        ],
+        "stakes": [
+          "An incorrect code triggers noise and acid.",
+          "The correct code opens access to 7 THRONE."
+        ],
+        "approaches": [
+          "Enter 1-2-1-2 and pull the lever.",
+          "Try another four-digit setting."
+        ],
+        "outcomes": [
+          "Correct setting: the door to 7 THRONE opens.",
+          "Incorrect setting: a horrible grinding noise occurs every time and milky acid sprays once, dealing 1d6 diminishing damage each turn until rinsed off."
+        ]
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.6-tumblers",
+        "procedure.operate-tumblers",
+        "knowledge.tumbler-password",
+        "effect.tumbler-acid-spray",
+        "location.7-throne"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.throne-transformation",
+      "record_type": "situation",
+      "fields": {
+        "title": "Sitting on the Throne",
+        "perceived": "The seated character undergoes a bodily transformation and receives a vision of a purple book wrapped in fine copper chains.",
+        "activation": {
+          "type": "chosen",
+          "condition": "A character sits on the throne in 7 THRONE."
+        },
+        "repeat": {
+          "mode": "once",
+          "condition": "The throne works only once per year."
+        },
+        "location_references": [
+          "location.7-throne"
+        ],
+        "stakes": [
+          "The character risks permanent obesity and a weaker claw, but may gain a stronger claw."
+        ],
+        "approaches": [
+          "Sit on the throne and make a Charisma Save.",
+          "Avoid using the throne."
+        ],
+        "outcomes": [
+          "Success: the right hand becomes a large lobster claw dealing 1d8.",
+          "Failure: gain 3 Inventory Slots of fat and the right hand becomes a small lobster claw dealing 1d6.",
+          "Regardless of result, receive a vision of a purple book wrapped in fine copper chains.",
+          "Anyone with a lobster claw is Favored by Vandoh.",
+          "Sitting on the throne counts as a Milestone."
+        ],
+        "completion": [
+          "Resolve the Charisma Save and all resulting changes."
+        ]
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.7-throne",
+        "effect.throne-transformation",
+        "effect.throne-vision",
+        "effect.favored-by-vandoh",
+        "effect.throne-milestone"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.akina-rescue-bargain",
+      "record_type": "situation",
+      "fields": {
+        "title": "Akina’s Rescue Bargain",
+        "perceived": "Akina, a ragged captive in the pit, offers a valuable ruby ring in exchange for rescue.",
+        "activation": {
+          "type": "keyed",
+          "condition": "The party communicates with Akina in 8 PIT."
+        },
+        "repeat": {
+          "mode": "repeatable",
+          "condition": "Until Akina is rescued or the offer is otherwise resolved."
+        },
+        "location_references": [
+          "location.8-pit"
+        ],
+        "knowledge_references": [
+          "knowledge.akina-knows-basics"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.akina",
+            "role": "Captive offering payment and information."
+          }
+        ],
+        "stakes": [
+          "Akina’s freedom.",
+          "The Ruby Ring of Wisdom worth 1000s.",
+          "Access to basic information about the White Temple, Vandoh, and the Lamb."
+        ],
+        "approaches": [
+          "Agree to rescue Akina.",
+          "Ask Akina about the White Temple, Vandoh, or the Lamb."
+        ],
+        "outcomes": [
+          "Akina offers the Ruby Ring of Wisdom in exchange for rescue.",
+          "Akina can provide basic information about the White Temple, Vandoh, and the Lamb."
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.8-pit",
+        "actor.akina",
+        "knowledge.akina-knows-basics",
+        "item.ruby-ring-of-wisdom"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.fountain-haunting",
+      "record_type": "situation",
+      "fields": {
+        "title": "The Haunting of 9 FOUNTAIN",
+        "perceived": "The first entrant collapses, gasps, and flops for 1 round while hallucinating that heavy armor is holding them underwater. The first person to touch the water is then shoved in without a save as a man’s death-gasps fill the air.",
+        "activation": {
+          "type": "keyed",
+          "condition": "The first person enters 9 FOUNTAIN; separately, the first person touches its water."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.9-fountain"
+        ],
+        "procedure_references": [
+          "procedure.end-fountain-haunting"
+        ],
+        "stakes": [
+          "A victim can be supernaturally held underwater.",
+          "Destroying the skeleton can permanently curse the destroyer with fear of water."
+        ],
+        "approaches": [
+          "Remove the armored skeleton and pray over it.",
+          "Destroy the armored skeleton."
+        ],
+        "outcomes": [
+          "The first entrant hallucinates drowning for 1 round.",
+          "The first person to touch the water is shoved in with no save and cannot get any part of their body out of the water; others experience normal water.",
+          "Removing the skeleton and sincerely praying over it ends the haunting.",
+          "Destroying the skeleton ends the haunting, but the destroyer must make a Charisma Save or become permanently afraid of water."
+        ],
+        "completion": [
+          "The armored skeleton is removed and sincerely prayed over, or destroyed."
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.9-fountain",
+        "procedure.end-fountain-haunting",
+        "effect.fountain-entry-hallucination",
+        "effect.fountain-water-binding",
+        "effect.permanent-water-fear"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.lamb-blocks-bone-tunnel",
+      "record_type": "situation",
+      "fields": {
+        "title": "The Lamb Blocks the Bone-Pile Tunnel",
+        "perceived": "Bones begin filling the small crawl tunnel between 10 BONE PILE and 14 SARCOPHAGUS.",
+        "activation": {
+          "type": "triggered",
+          "condition": "After 3 encounters with the Lamb."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.10-bone-pile",
+          "location.14-sarcophagus"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.the-lamb",
+            "role": "Blocks the tunnel after becoming cunning."
+          }
+        ],
+        "stakes": [
+          "The dungeon loop can be obstructed."
+        ],
+        "outcomes": [
+          "The Lamb begins blocking the crawl tunnel with bones.",
+          "A blocked tunnel takes 10 minutes to clear by hand."
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.10-bone-pile",
+        "location.14-sarcophagus",
+        "actor.the-lamb",
+        "procedure.clear-blocked-crawl-tunnel"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.abacus-ceiling-collapse",
+      "record_type": "situation",
+      "fields": {
+        "title": "Collapse of 12 ABACUS MURAL",
+        "perceived": "The sagging ceiling falls when its supporting pike is removed.",
+        "activation": {
+          "type": "triggered",
+          "condition": "Remove the 10-foot wooden pike supporting the roof."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.12-abacus-mural"
+        ],
+        "procedure_references": [
+          "procedure.collapse-abacus-mural"
+        ],
+        "stakes": [
+          "A character can die while removing the pike.",
+          "The room becomes impassable.",
+          "The Lamb can be injured and temporarily trapped."
+        ],
+        "outcomes": [
+          "Grabbing the pike and running requires a Movement check to avoid dying.",
+          "The room becomes impassable.",
+          "If the Lamb is beneath the collapse, it takes 3d6 damage, digs out in 30 minutes toward the north side, and is helpless for 1 round while emerging."
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.12-abacus-mural",
+        "procedure.collapse-abacus-mural",
+        "actor.the-lamb",
+        "effect.abacus-ceiling-collapse",
+        "effect.lamb-under-rubble"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.sarcophagus-dump",
+      "record_type": "situation",
+      "fields": {
+        "title": "Sarcophagus Trapdoor",
+        "perceived": "Mechanical sounds come from beneath the sarcophagus; with the lid replaced, its bottom swings open and drops the occupant 10 feet into 14A SHADRAKUL.",
+        "activation": {
+          "type": "keyed",
+          "condition": "A person enters the sarcophagus and the lid is replaced."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "location_references": [
+          "location.14-sarcophagus",
+          "location.14a-shadrakul"
+        ],
+        "procedure_references": [
+          "procedure.use-sarcophagus-elevator"
+        ],
+        "stakes": [
+          "The occupant falls 10 feet.",
+          "Ropes crossing the bladed lid are severed."
+        ],
+        "outcomes": [
+          "The bottom swings open and dumps the occupant into 14A SHADRAKUL.",
+          "The bladed lid edges sever ropes.",
+          "Removing the lid again swings the bottom shut."
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.14-sarcophagus",
+        "location.14a-shadrakul",
+        "procedure.use-sarcophagus-elevator",
+        "effect.sarcophagus-rope-severing"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.goblet-serpent-trap",
+      "record_type": "situation",
+      "fields": {
+        "title": "Goblet and Skeletal Serpent Trap",
+        "perceived": "The delicate goblet begins to topple at the slightest touch, and a skeletal serpent lunges from the robed skeleton when anyone approaches.",
+        "activation": {
+          "type": "keyed",
+          "condition": "Touch the goblet or approach the robed skeleton in 14A SHADRAKUL."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.14a-shadrakul"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.shadrakul-skeleton",
+            "role": "Holds the spellbook and precarious goblet."
+          },
+          {
+            "actor_id": "actor.skeletal-serpent",
+            "role": "Hidden guardian that attacks."
+          }
+        ],
+        "stakes": [
+          "The crystal goblet worth 800s can break.",
+          "The serpent’s bite requires a save or causes death."
+        ],
+        "approaches": [
+          "Try to secure the goblet without touching or jostling it.",
+          "Approach the skeleton to take the spellbook."
+        ],
+        "outcomes": [
+          "The slightest touch makes the goblet fall and break.",
+          "Approaching the skeleton triggers a skeletal serpent attack."
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.14a-shadrakul",
+        "actor.shadrakul-skeleton",
+        "actor.skeletal-serpent",
+        "effect.skeletal-serpent-bite",
+        "item.crystal-goblet",
+        "item.black-iron-spellbook"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.red-spider-exposure",
+      "record_type": "situation",
+      "fields": {
+        "title": "Red Spider Exposure",
+        "perceived": "Hundreds of tiny red spiders crawl through the cramped passage.",
+        "activation": {
+          "type": "timed",
+          "condition": "For every minute spent exposed in 15 CRACK."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "location_references": [
+          "location.15-crack"
+        ],
+        "stakes": [
+          "A bite can cause temporary wheezing and muteness; a second bite is instantly fatal."
+        ],
+        "outcomes": [
+          "Each minute has a 50% chance of a bite.",
+          "A first bite causes wheezing and muteness for 1 hour.",
+          "A second bite causes instant death with no Save."
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.15-crack",
+        "effect.red-spider-bite"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.danjo-extortion-trade",
+      "record_type": "situation",
+      "fields": {
+        "title": "Danjo’s Extortion and Trade",
+        "perceived": "The chicken vendor outside the crack demands a reason not to report the party to the temple guards, then offers goods at extreme prices.",
+        "activation": {
+          "type": "keyed",
+          "condition": "The party talks to Danjo through the opening in 15 CRACK."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "location_references": [
+          "location.15-crack"
+        ],
+        "procedure_references": [
+          "procedure.trade-with-danjo"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.danjo",
+            "role": "Extortionist merchant and outside runner."
+          }
+        ],
+        "stakes": [
+          "Danjo may alert the temple guards.",
+          "Mundane goods cost at least 20 times market value.",
+          "Special purchases take 1-3 hours."
+        ],
+        "approaches": [
+          "Give Danjo a reason or payment not to inform the guards.",
+          "Buy candles, chickens, bread, or a knife.",
+          "Ask him to purchase another item across town."
+        ],
+        "outcomes": [
+          "Once the extortion is resolved, Danjo sells mundane items at no less than 20 times market value.",
+          "He can fetch other items in 1-3 hours.",
+          "Conversation time is real time: 1 in-game minute equals 1 minute at the table."
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.15-crack",
+        "actor.danjo",
+        "procedure.trade-with-danjo"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.yellow-mold-chest",
+      "record_type": "situation",
+      "fields": {
+        "title": "Yellow Mold Chest",
+        "perceived": "Opening the sagging, yellow-rotted chest carelessly releases yellow mold exposure.",
+        "activation": {
+          "type": "keyed",
+          "condition": "Open the wooden chest in 17 ALTAR carelessly."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "location_references": [
+          "location.17-altar"
+        ],
+        "stakes": [
+          "The opener may take poison damage."
+        ],
+        "approaches": [
+          "Open the chest carefully.",
+          "Open it carelessly."
+        ],
+        "outcomes": [
+          "Careless opening exposes the opener to yellow mold poison for 1d6 damage.",
+          "The chest contains rotten worthless books and a 50s silver-plate dageurrotype."
+        ]
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.17-altar",
+        "effect.yellow-mold-poison",
+        "item.silver-plate-dageurrotype"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.loot-armored-corpse",
+      "record_type": "situation",
+      "fields": {
+        "title": "Looting the Armored Corpse",
+        "perceived": "An armored corpse lies 10 feet beyond a sealed portcullis, close enough to pull toward the bars but too large to pass through.",
+        "activation": {
+          "type": "chosen",
+          "condition": "Attempt to retrieve the corpse or its equipment through the portcullis at 18A LEDGE."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.18a-ledge"
+        ],
+        "procedure_references": [
+          "procedure.loot-armored-corpse"
+        ],
+        "stakes": [
+          "The party can recover valuable equipment, but the breastplate and helmet cannot fit through the bars."
+        ],
+        "approaches": [
+          "Pull the corpse to the portcullis and remove items that fit."
+        ],
+        "outcomes": [
+          "The sword, bow and arrows, signet ring, and Orb of Indulgence can be looted.",
+          "The masterwork breastplate and helmet are too large to pass through the portcullis."
+        ]
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.18a-ledge",
+        "procedure.loot-armored-corpse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.starting-the-game",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Starting the Game",
+        "trigger": "Begin play in 1 BOWLS.",
+        "steps": [
+          "State that the room is pitch black.",
+          "Apply dehydration to everyone: -4 to all rolls until they drink water; without water they die in 24 hours.",
+          "Begin everyone naked and possessing nothing, except one person has a knife.",
+          "Without a sack or backpack, limit each person to carrying two items.",
+          "Give each player control of 1 free character; their other characters remain restrained.",
+          "Have the Lamb lumber into the room.",
+          "Resolve hiding, noisy flight, or quiet departure as described by the opening situation."
+        ]
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [
+        "location.1-bowls",
+        "actor.the-lamb",
+        "situation.starting-lamb-entry",
+        "rule.dehydration",
+        "rule.starting-gear-and-carrying",
+        "rule.character-control"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.open-5-landing-chest",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Opening the Iron-Banded Chest at 5 LANDING",
+        "trigger": "The party attempts to open the locked iron-banded chest without an obvious key or normal method.",
+        "steps": [
+          "Use a sufficiently destructive method, such as dropping a sarcophagus lid on it, throwing it down 8 PIT, or getting the Lamb to trample it.",
+          "Open the broken chest.",
+          "The force used breaks the vial of lamp oil inside; the fresh torch remains."
+        ]
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.5-landing",
+        "location.8-pit",
+        "actor.the-lamb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.operate-tumblers",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Operating the Tumbler Password System",
+        "trigger": "A character sets the four rotating disks and pulls the lever in 6 TUMBLERS.",
+        "steps": [
+          "Set each disk to a number from 1 to 8.",
+          "Pull the lever.",
+          "If the setting is 1-2-1-2, open the door to 7 THRONE.",
+          "If the setting is incorrect, produce a horrible grinding noise every time and spray milky acid once; the acid deals 1d6 diminishing damage each turn until rinsed off."
+        ]
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.6-tumblers",
+        "location.7-throne",
+        "knowledge.tumbler-password",
+        "effect.tumbler-acid-spray"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.end-fountain-haunting",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Ending the Fountain Haunting",
+        "trigger": "The party attempts to end the haunting in 9 FOUNTAIN.",
+        "steps": [
+          "Locate the armored skeleton in the shallows by investigating the pool.",
+          "Either remove it from the water and pray over it sincerely, or destroy it.",
+          "If it is removed and prayed over, even the shortest sincere prayer ends the haunting.",
+          "If it is destroyed, the haunting ends, then the destroyer makes a Charisma Save; on a failure, the destroyer becomes permanently afraid of water."
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.9-fountain",
+        "situation.fountain-haunting",
+        "effect.permanent-water-fear"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.search-bone-pile",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Searching 10 BONE PILE",
+        "trigger": "A character spends time searching the bone-pellet pile.",
+        "steps": [
+          "For every man-hour spent searching, roll 1d20.",
+          "Consult the Bone Pile Search table for the result.",
+          "Any amount of searching also reveals the small crawl tunnel to 14 SARCOPHAGUS."
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.10-bone-pile",
+        "table.bone-pile-search",
+        "location.14-sarcophagus"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.clear-blocked-crawl-tunnel",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Clearing the Blocked Bone-Pile Tunnel",
+        "trigger": "The Lamb has blocked the crawl tunnel between 10 BONE PILE and 14 SARCOPHAGUS with bones.",
+        "steps": [
+          "Clear the blockage by hand for 10 minutes.",
+          "Reopen the crawl tunnel."
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.10-bone-pile",
+        "location.14-sarcophagus",
+        "situation.lamb-blocks-bone-tunnel"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.collapse-abacus-mural",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Collapsing 12 ABACUS MURAL",
+        "trigger": "A character removes the 10-foot wooden pike supporting the sagging roof.",
+        "steps": [
+          "Grab the pike and run.",
+          "Make a Movement check to avoid dying in the collapse.",
+          "Make the room impassable after the ceiling falls.",
+          "If the Lamb is under the collapse, deal 3d6 damage; it digs out in 30 minutes, probably on the north side, and is helpless for 1 round as it exits."
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.12-abacus-mural",
+        "actor.the-lamb",
+        "effect.abacus-ceiling-collapse",
+        "effect.lamb-under-rubble"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.use-sarcophagus-elevator",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Using the Sarcophagus Trapdoor",
+        "trigger": "A person enters the sarcophagus in 14 SARCOPHAGUS.",
+        "steps": [
+          "Replace the bladed lid.",
+          "The bottom swings open and drops the occupant 10 feet onto the rugs in 14A SHADRAKUL; ropes crossing the lid are severed.",
+          "Remove the lid again to swing the bottom shut.",
+          "If the black iron spellbook is held, the trapdoor locks open."
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.14-sarcophagus",
+        "location.14a-shadrakul",
+        "item.black-iron-spellbook",
+        "effect.sarcophagus-rope-severing"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.trade-with-danjo",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Trading with Danjo",
+        "trigger": "The party opens a conversation with Danjo through 15 CRACK.",
+        "steps": [
+          "Resolve Danjo’s threat to inform the temple guards by giving him a reason not to.",
+          "Afterward, buy available mundane goods—candles, chickens, bread, and a knife—at the highest price he can demand, never below 20 times market value.",
+          "For other goods, ask Danjo to run across town; delivery takes 1-3 hours depending on the item.",
+          "Conduct the conversation in real time: 1 in-game minute equals 1 minute at the table."
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.15-crack",
+        "actor.danjo",
+        "situation.danjo-extortion-trade"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.loot-armored-corpse",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Looting the Corpse Beyond the Portcullis",
+        "trigger": "The party reaches 18A LEDGE and tries to recover the armored corpse’s equipment.",
+        "steps": [
+          "Pull the corpse to the sealed portcullis.",
+          "Remove items that fit through the bars: sword, bow and arrows, signet ring, and Orb of Indulgence.",
+          "Leave the masterwork breastplate and helmet behind because they are too large to pass through the portcullis."
+        ]
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.18a-ledge"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.expected-dungeon-flow",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Expected Dungeon Flow",
+        "text": "The expected but not required sequence is: flee or hide, then return to free captives; lure the Lamb away from 9 FOUNTAIN and drink; follow the main path to 13 CITY MURAL, where the bashed-in door reinforces that locked doors can be broken; and escape through 21 HEAVY DOOR. Equipment such as light, rope, and weapons gates progress. The dungeon has one valuable but imperfect loop through a secret tunnel that the Lamb can eventually block. Deaths are expected, and the Lamb stopping to eat helps prevent a total party kill."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [
+        "location.9-fountain",
+        "location.13-city-mural",
+        "actor.the-lamb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.tumbler-password",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Tumbler Password",
+        "text": "The four-digit password for 6 TUMBLERS is 1-2-1-2. The same pattern is signaled by the regular drips at 9 FOUNTAIN."
+      },
+      "source_pages": [
+        22,
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.6-tumblers",
+        "location.9-fountain"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.akina-knows-basics",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Akina’s Knowledge",
+        "text": "Akina can tell the party the basics about the White Temple, Vandoh, and the Lamb; the source does not provide those explanations on this page."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "medium",
+      "references": [
+        "actor.akina",
+        "location.8-pit"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page states only that Akina knows the basics; it does not print the specific information she would reveal.",
+          "source_pages": [
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rule.climbable-walls-and-darkness",
+      "record_type": "rule",
+      "fields": {
+        "title": "Climbable Walls and Darkness",
+        "text": "The rough-hewn stone walls are climbable, and the dungeon is pitch black."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dehydration",
+      "record_type": "rule",
+      "fields": {
+        "title": "Starting Dehydration",
+        "text": "Everyone begins dehydrated and takes -4 to all rolls until drinking water. Without water, everyone is dead in 24 hours."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.starting-gear-and-carrying",
+      "record_type": "rule",
+      "fields": {
+        "title": "Starting Gear and Carrying Capacity",
+        "text": "Everyone begins naked and possessing nothing, except one person has a knife. Without a sack or backpack, each person can hold only two items."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.character-control",
+      "record_type": "rule",
+      "fields": {
+        "title": "Starting Character Control",
+        "text": "Each player controls 1 free character; that player’s other characters remain restrained."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dark-door-wisdom-check",
+      "record_type": "rule",
+      "fields": {
+        "title": "Finding the Door in Darkness",
+        "text": "If the PCs flee noisily from the opening room, finding the door in the dark requires a Wisdom check."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.torch-durations",
+      "record_type": "rule",
+      "fields": {
+        "title": "Track Torch Durations",
+        "text": "Torch durations must be followed; light is a precious constraint and should not be bypassed."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.improvised-weapons",
+      "record_type": "rule",
+      "fields": {
+        "title": "Improvised Weapons",
+        "text": "Improvised weapons are poor-quality (“shitty”) and should not let the party bypass the scenario’s weapon scarcity."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.improvised-ropes",
+      "record_type": "rule",
+      "fields": {
+        "title": "Improvised Ropes",
+        "text": "Improvised ropes have a 4-in-6 failure chance. Tell the players that chance before they use the rope."
+      },
+      "source_pages": [
+        19
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.lamb-death-earth-tremor",
+      "record_type": "effect",
+      "fields": {
+        "title": "Earth Tremor on the Lamb’s Death",
+        "text": "When the Lamb is killed, the earth trembles as Vandoh mourns his child."
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.the-lamb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.lamb-death-milestone",
+      "record_type": "effect",
+      "fields": {
+        "title": "Lamb-Kill Milestone",
+        "text": "Killing the Lamb counts as a Milestone."
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.the-lamb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.little-lamb-emergence",
+      "record_type": "effect",
+      "fields": {
+        "title": "Little Lamb Emergence",
+        "text": "If the Lamb is killed but its corpse is not utterly destroyed, three Little Lambs wait quietly and then chew their way out."
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.the-lamb",
+        "actor.little-lambs",
+        "situation.little-lambs-emerge"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.bastoval-nemesis-level",
+      "record_type": "effect",
+      "fields": {
+        "title": "Bastoval’s Nemesis Advancement",
+        "text": "Each time Father Bastoval kills a PC, he gains a level, and the GM thereafter introduces him as “Bastoval, Slayer of X”."
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.father-bastoval"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.tumbler-acid-spray",
+      "record_type": "effect",
+      "fields": {
+        "title": "Milky Acid Spray",
+        "text": "On an incorrect tumbler entry, milky acid sprays once and deals 1d6 diminishing damage each turn until rinsed off."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.6-tumblers",
+        "situation.tumbler-password-result"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.throne-transformation",
+      "record_type": "effect",
+      "fields": {
+        "title": "Throne Transformation",
+        "text": "A successful Charisma Save turns the right hand into a large lobster claw dealing 1d8. A failed save adds 3 Inventory Slots of fat and turns the right hand into a small lobster claw dealing 1d6."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.7-throne",
+        "situation.throne-transformation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.throne-vision",
+      "record_type": "effect",
+      "fields": {
+        "title": "Vision of the Chained Purple Book",
+        "text": "Regardless of the throne save result, the sitter sees a vision of a purple book wrapped in fine copper chains."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.7-throne",
+        "situation.throne-transformation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.favored-by-vandoh",
+      "record_type": "effect",
+      "fields": {
+        "title": "Favored by Vandoh",
+        "text": "Anyone with a lobster claw is Favored by Vandoh."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.7-throne",
+        "situation.throne-transformation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.throne-milestone",
+      "record_type": "effect",
+      "fields": {
+        "title": "Throne Milestone",
+        "text": "Sitting on the throne counts as a Milestone."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.7-throne",
+        "situation.throne-transformation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.fountain-entry-hallucination",
+      "record_type": "effect",
+      "fields": {
+        "title": "Drowning Hallucination",
+        "text": "The first person to enter 9 FOUNTAIN falls, gasps, and flops for 1 round while hallucinating that heavy armor traps them underwater."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.9-fountain",
+        "situation.fountain-haunting"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.fountain-water-binding",
+      "record_type": "effect",
+      "fields": {
+        "title": "Haunted Water Binding",
+        "text": "The first person to touch the fountain water is shoved in with no save. The water weighs that person down so no part of the body can exit, while a man’s death-gasps fill the air. The water behaves normally for everyone else."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.9-fountain",
+        "situation.fountain-haunting"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.permanent-water-fear",
+      "record_type": "effect",
+      "fields": {
+        "title": "Permanent Fear of Water",
+        "text": "If the armored skeleton is destroyed to end the haunting, the destroyer must make a Charisma Save; on a failure, the destroyer becomes permanently afraid of water."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.9-fountain",
+        "situation.fountain-haunting"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.abacus-ceiling-collapse",
+      "record_type": "effect",
+      "fields": {
+        "title": "Collapsed Abacus-Mural Room",
+        "text": "Removing the supporting pike collapses the ceiling. Grabbing the pike and running requires a Movement check to avoid dying, and the room becomes impassable."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.12-abacus-mural",
+        "situation.abacus-ceiling-collapse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.lamb-under-rubble",
+      "record_type": "effect",
+      "fields": {
+        "title": "Lamb Trapped by Collapse",
+        "text": "If the ceiling collapses on the Lamb, it takes 3d6 damage, digs out in 30 minutes—probably on the north side—and is helpless for 1 round as it exits. Digging can be heard by anyone investigating the rubble."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.the-lamb",
+        "location.12-abacus-mural",
+        "situation.abacus-ceiling-collapse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.sarcophagus-rope-severing",
+      "record_type": "effect",
+      "fields": {
+        "title": "Bladed Sarcophagus Rope-Cut",
+        "text": "The sarcophagus lid edges are sharp enough to cut ropes and sever ropes when the trapdoor dumps an occupant."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.14-sarcophagus",
+        "situation.sarcophagus-dump"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.skeletal-serpent-bite",
+      "record_type": "effect",
+      "fields": {
+        "title": "Skeletal Serpent Bite",
+        "text": "The skeletal serpent’s bite requires a save or causes death."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.skeletal-serpent",
+        "situation.goblet-serpent-trap"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.red-spider-bite",
+      "record_type": "effect",
+      "fields": {
+        "title": "Red Spider Bites",
+        "text": "Each minute in 15 CRACK has a 50% chance of a bite. A first bite causes wheezing and muteness for 1 hour; a second bite causes instant death with no Save."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.15-crack",
+        "situation.red-spider-exposure"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.yellow-mold-poison",
+      "record_type": "effect",
+      "fields": {
+        "title": "Yellow Mold Poison",
+        "text": "Carelessly opening the chest in 17 ALTAR exposes the opener to yellow mold poison for 1d6 damage."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.17-altar",
+        "situation.yellow-mold-chest"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.delay",
+      "record_type": "spell",
+      "fields": {
+        "title": "delay",
+        "text": "Father Bastoval has the spell delay; no spell mechanics are printed on this page."
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "medium",
+      "references": [
+        "actor.father-bastoval"
+      ],
+      "uncertainties": [
+        {
+          "description": "Only the spell name is listed; its rules text is not provided in this evidence pack.",
+          "source_pages": [
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spell.haste",
+      "record_type": "spell",
+      "fields": {
+        "title": "haste",
+        "text": "Father Bastoval has the spell haste; no spell mechanics are printed on this page."
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "medium",
+      "references": [
+        "actor.father-bastoval"
+      ],
+      "uncertainties": [
+        {
+          "description": "Only the spell name is listed; its rules text is not provided in this evidence pack.",
+          "source_pages": [
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spell.scry",
+      "record_type": "spell",
+      "fields": {
+        "title": "scry",
+        "text": "Father Bastoval has the spell scry; no spell mechanics are printed on this page."
+      },
+      "source_pages": [
+        20
+      ],
+      "confidence": "medium",
+      "references": [
+        "actor.father-bastoval"
+      ],
+      "uncertainties": [
+        {
+          "description": "Only the spell name is listed; its rules text is not provided in this evidence pack.",
+          "source_pages": [
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "table.encounters-lamb-alive",
+      "record_type": "table",
+      "fields": {
+        "title": "Encounter Table (Lamb Alive)",
+        "entries": [
+          {
+            "category": "Active Encounters",
+            "roll": "1-6",
+            "result": "The Lamb approaches, full of bile and loathing.",
+            "situation_id": "situation.lamb-approaches"
+          },
+          {
+            "category": "Passive Encounters",
+            "roll": "1-6",
+            "result": "The Lamb is in an adjacent room, doing something disgusting and noisy: regurgitating a bone pellet, banging its head against the wall in a fit of self-loathing, or dragging its genitals across the ground.",
+            "situation_id": "situation.lamb-nearby-disgusting-noise"
+          },
+          {
+            "category": "Indirect Encounters",
+            "roll": "1-6",
+            "result": "Distant grunting and gnawing.",
+            "situation_id": "situation.distant-lamb-noises"
+          }
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.lamb-approaches",
+        "situation.lamb-nearby-disgusting-noise",
+        "situation.distant-lamb-noises"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.encounters-lamb-dead",
+      "record_type": "table",
+      "fields": {
+        "title": "Encounter Table (Lamb Dead)",
+        "entries": [
+          {
+            "category": "Active Encounters",
+            "roll": "1-3",
+            "frequency": "Unique",
+            "result": "The Three Little Lambs, crawling on the ceiling. They drop down to run faster.",
+            "situation_id": "situation.little-lambs-ceiling-ambush"
+          },
+          {
+            "category": "Active Encounters",
+            "roll": "4-6",
+            "frequency": "Unique",
+            "result": "Bastoval (Clr 3) leads Mino and Bilosh (Ftr 1, Ftr 1) to check on the Lamb.",
+            "situation_id": "situation.bastoval-checks-on-lamb"
+          },
+          {
+            "category": "Passive Encounters",
+            "roll": "1-3",
+            "frequency": "Once only",
+            "result": "The Three Little Lambs, digging loudly inside a nearby wall.",
+            "situation_id": "situation.little-lambs-digging-nearby"
+          },
+          {
+            "category": "Passive Encounters",
+            "roll": "4-6",
+            "frequency": "Once only",
+            "result": "A ghostly image of Bastoval appears. “So that’s where you are,” he says. He will arrive in 1d6 rounds.",
+            "situation_id": "situation.bastoval-ghostly-warning"
+          },
+          {
+            "category": "Indirect Encounters",
+            "roll": "1-3",
+            "frequency": "Once only",
+            "result": "Echoes of the Lamb’s voice, far away, still crying out “Father! Father!”",
+            "situation_id": "situation.lamb-death-echoes"
+          },
+          {
+            "category": "Indirect Encounters",
+            "roll": "4-6",
+            "frequency": "Once only",
+            "result": "More tremors.",
+            "situation_id": "situation.more-tremors"
+          }
+        ]
+      },
+      "source_pages": [
+        18
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.little-lambs-ceiling-ambush",
+        "situation.bastoval-checks-on-lamb",
+        "situation.little-lambs-digging-nearby",
+        "situation.bastoval-ghostly-warning",
+        "situation.lamb-death-echoes",
+        "situation.more-tremors"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.bone-pile-search",
+      "record_type": "table",
+      "fields": {
+        "title": "10 BONE PILE Search Results",
+        "entries": [
+          {
+            "roll": "1-12",
+            "result": "Nothing."
+          },
+          {
+            "roll": "14",
+            "result": "Battered shield."
+          },
+          {
+            "roll": "15",
+            "result": "Spear."
+          },
+          {
+            "roll": "16",
+            "result": "Rope, 30 feet."
+          },
+          {
+            "roll": "17",
+            "result": "Torch."
+          },
+          {
+            "roll": "18",
+            "result": "Bottle of liquid hole (Appendix A)."
+          },
+          {
+            "roll": "19",
+            "result": "Silver bracelet shaped like veins, worth 100s."
+          },
+          {
+            "roll": "20",
+            "result": "Bottle of fine wine, worth 30s."
+          }
+        ]
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "medium",
+      "references": [
+        "location.10-bone-pile",
+        "procedure.search-bone-pile"
+      ],
+      "uncertainties": [
+        {
+          "description": "The printed d20 table has no entry for a roll of 13.",
+          "source_pages": [
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item.2-goats-twine",
+      "record_type": "item",
+      "fields": {
+        "title": "Short Lengths of Twine",
+        "text": "Short lengths of twine tie the goats in 2 GOATS."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.2-goats"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.2-goats-bells",
+      "record_type": "item",
+      "fields": {
+        "title": "Goat Bells",
+        "text": "All four goats in 2 GOATS wear bells."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.2-goats"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.2-goats-hay",
+      "record_type": "item",
+      "fields": {
+        "title": "Pile of Hay",
+        "text": "A pile of hay lies in 2 GOATS."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.2-goats"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.2-goats-wooden-bowl",
+      "record_type": "item",
+      "fields": {
+        "title": "Empty Wooden Bowl",
+        "text": "An empty wooden bowl is in 2 GOATS."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.2-goats"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.3-vinegar-empty-wine-bottle",
+      "record_type": "item",
+      "fields": {
+        "title": "Empty Wine Bottle",
+        "text": "An empty wine bottle is found by investigating the vinegar trough in 3 VINEGAR."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.3-vinegar"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.4-chests-immature-lambfruit",
+      "record_type": "item",
+      "fields": {
+        "title": "Immature Lambfruit",
+        "text": "One immature Lambfruit rests on the wooden table in 4 CHESTS; see Appendix D."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.4-chests"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.4-chests-masterwork-helmet",
+      "record_type": "item",
+      "fields": {
+        "title": "Masterwork Helmet",
+        "text": "A masterwork helmet with a smiling face and squinting eyes is inside the wooden chest in 4 CHESTS."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.4-chests"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.4-chests-torch",
+      "record_type": "item",
+      "fields": {
+        "title": "Torch from 4 CHESTS",
+        "text": "One torch is inside the wooden chest in 4 CHESTS."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.4-chests"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.purple-lotus-powder",
+      "record_type": "item",
+      "fields": {
+        "title": "Purple Lotus Powder",
+        "text": "A purple pouch in 4 CHESTS contains 2 doses of purple lotus powder; see Appendix D."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.4-chests"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.lotus-pipe",
+      "record_type": "item",
+      "fields": {
+        "title": "Lotus Pipe",
+        "text": "A lotus pipe in 4 CHESTS fits into the masterwork helmet and is worth 100s."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.4-chests",
+        "item.4-chests-masterwork-helmet"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.skull-of-davok",
+      "record_type": "item",
+      "fields": {
+        "title": "Skull of Davok",
+        "text": "The lead-and-iron chest in 4 CHESTS contains only the Skull of Davok, which escapes when the chest is opened; see Appendix A."
+      },
+      "source_pages": [
+        21
+      ],
+      "confidence": "high",
+      "references": [
+        "location.4-chests",
+        "situation.skull-of-davok-escapes"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.5-landing-lit-torch",
+      "record_type": "item",
+      "fields": {
+        "title": "Lit Torch at 5 LANDING",
+        "text": "A lit torch atop a metal pole can be picked up easily and will burn for another hour."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.5-landing"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.5-landing-iron-pole",
+      "record_type": "item",
+      "fields": {
+        "title": "6-Foot Iron Torch-Holder Pole",
+        "text": "The metal torch holder at 5 LANDING is a 6-foot iron pole that can be pried out with difficulty."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.5-landing"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.5-landing-fire-striker",
+      "record_type": "item",
+      "fields": {
+        "title": "Fire Striker",
+        "text": "A fire striker rests atop the locked chest at 5 LANDING."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.5-landing"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.5-landing-fresh-torch",
+      "record_type": "item",
+      "fields": {
+        "title": "Fresh Torch",
+        "text": "A fresh torch is inside the locked iron-banded chest at 5 LANDING."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.5-landing"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.5-landing-lamp-oil",
+      "record_type": "item",
+      "fields": {
+        "title": "Vial of Lamp Oil",
+        "text": "A vial of lamp oil is inside the locked chest at 5 LANDING; the listed destructive opening methods break it."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.5-landing",
+        "procedure.open-5-landing-chest"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.5a-broom",
+      "record_type": "item",
+      "fields": {
+        "title": "Broom",
+        "text": "A broom is in 5A CLOSET."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.5a-closet"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.5a-gong-and-hammer",
+      "record_type": "item",
+      "fields": {
+        "title": "Gong and Hammer",
+        "text": "A gong and hammer are in 5A CLOSET."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.5a-closet"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.golden-sensory-deprivation-helmet",
+      "record_type": "item",
+      "fields": {
+        "title": "Golden Sensory Deprivation Helmet",
+        "text": "A golden sensory-deprivation helmet worth 700s is in 7 THRONE."
+      },
+      "source_pages": [
+        22
+      ],
+      "confidence": "high",
+      "references": [
+        "location.7-throne"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.ruby-ring-of-wisdom",
+      "record_type": "item",
+      "fields": {
+        "title": "Ruby Ring of Wisdom",
+        "text": "Akina carries the Ruby Ring of Wisdom, worth 1000s, and offers it in exchange for rescue."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.akina",
+        "location.8-pit",
+        "situation.akina-rescue-bargain"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.bone-pellets",
+      "record_type": "item",
+      "fields": {
+        "title": "Bone Pellets",
+        "text": "10 BONE PILE contains 255 pellets, each holding about 100 pounds of compressed bone fragments only slightly smoothed by digestion."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.10-bone-pile"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.10-bone-pile-battered-shield",
+      "record_type": "item",
+      "fields": {
+        "title": "Battered Shield",
+        "text": "A roll of 14 on the Bone Pile Search table yields a battered shield."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.10-bone-pile",
+        "table.bone-pile-search"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.10-bone-pile-spear",
+      "record_type": "item",
+      "fields": {
+        "title": "Spear",
+        "text": "A roll of 15 on the Bone Pile Search table yields a spear."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.10-bone-pile",
+        "table.bone-pile-search"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.10-bone-pile-rope",
+      "record_type": "item",
+      "fields": {
+        "title": "30-Foot Rope from the Bone Pile",
+        "text": "A roll of 16 on the Bone Pile Search table yields a 30-foot rope."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.10-bone-pile",
+        "table.bone-pile-search"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.10-bone-pile-torch",
+      "record_type": "item",
+      "fields": {
+        "title": "Torch from the Bone Pile",
+        "text": "A roll of 17 on the Bone Pile Search table yields a torch."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.10-bone-pile",
+        "table.bone-pile-search"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.liquid-hole",
+      "record_type": "item",
+      "fields": {
+        "title": "Bottle of Liquid Hole",
+        "text": "A roll of 18 on the Bone Pile Search table yields a bottle of liquid hole; see Appendix A."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.10-bone-pile",
+        "table.bone-pile-search"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.silver-vein-bracelet",
+      "record_type": "item",
+      "fields": {
+        "title": "Silver Bracelet Shaped Like Veins",
+        "text": "A roll of 19 on the Bone Pile Search table yields a silver bracelet shaped like veins, worth 100s."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.10-bone-pile",
+        "table.bone-pile-search"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.fine-wine",
+      "record_type": "item",
+      "fields": {
+        "title": "Bottle of Fine Wine",
+        "text": "A roll of 20 on the Bone Pile Search table yields a bottle of fine wine worth 30s."
+      },
+      "source_pages": [
+        23
+      ],
+      "confidence": "high",
+      "references": [
+        "location.10-bone-pile",
+        "table.bone-pile-search"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.14-sarcophagus-torch",
+      "record_type": "item",
+      "fields": {
+        "title": "Unused Torch at 14 SARCOPHAGUS",
+        "text": "An unused torch hangs on the wall in 14 SARCOPHAGUS."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.14-sarcophagus"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.12-abacus-wooden-pike",
+      "record_type": "item",
+      "fields": {
+        "title": "10-Foot Wooden Pike",
+        "text": "A 10-foot wooden pike supports the sagging roof in 12 ABACUS MURAL; removing it collapses the ceiling."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.12-abacus-mural",
+        "procedure.collapse-abacus-mural"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.14a-soft-rugs",
+      "record_type": "item",
+      "fields": {
+        "title": "Eight Soft Rugs",
+        "text": "Eight soft rugs cushion the 10-foot fall into 14A SHADRAKUL and are worth 400s."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.14a-shadrakul"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.black-iron-spellbook",
+      "record_type": "item",
+      "fields": {
+        "title": "Black Iron Spellbook",
+        "text": "The robed skeleton in 14A SHADRAKUL offers a black iron spellbook; once it is held, the sarcophagus trapdoor locks open. See Appendix A."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.14a-shadrakul",
+        "actor.shadrakul-skeleton",
+        "procedure.use-sarcophagus-elevator"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.crystal-goblet",
+      "record_type": "item",
+      "fields": {
+        "title": "Delicate Crystal Goblet",
+        "text": "A delicate crystal goblet worth 800s is balanced on the skeleton’s knee; the slightest touch makes it tumble and break."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "location.14a-shadrakul",
+        "situation.goblet-serpent-trap"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.danjo-candles",
+      "record_type": "item",
+      "fields": {
+        "title": "Danjo’s Candles",
+        "text": "Danjo currently sells candles, never for less than 20 times market value."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.danjo",
+        "situation.danjo-extortion-trade"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.danjo-chickens",
+      "record_type": "item",
+      "fields": {
+        "title": "Danjo’s Chickens",
+        "text": "Danjo currently sells chickens, never for less than 20 times market value."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.danjo",
+        "situation.danjo-extortion-trade"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.danjo-bread",
+      "record_type": "item",
+      "fields": {
+        "title": "Danjo’s Bread",
+        "text": "Danjo currently sells bread, never for less than 20 times market value."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.danjo",
+        "situation.danjo-extortion-trade"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.danjo-knife",
+      "record_type": "item",
+      "fields": {
+        "title": "Danjo’s Knife",
+        "text": "Danjo currently sells a knife, never for less than 20 times market value."
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.danjo",
+        "situation.danjo-extortion-trade"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.silver-plate-dageurrotype",
+      "record_type": "item",
+      "fields": {
+        "title": "Silver-Plate Dageurrotype",
+        "text": "A silver-plate dageurrotype worth 50s shows a dozen strangely dressed men buried to their waists, facing the stars with mouths open."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.17-altar",
+        "situation.yellow-mold-chest"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.17-altar-white-candle",
+      "record_type": "item",
+      "fields": {
+        "title": "White Candle",
+        "text": "A hidden drawer in the altar at 17 ALTAR contains one white candle."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.17-altar"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.18-shaft-block-and-tackle",
+      "record_type": "item",
+      "fields": {
+        "title": "Block and Tackle",
+        "text": "Searching the fallen-elevator wreckage in 18 SHAFT reveals a block and tackle."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.18-shaft"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.18a-ledge-rope",
+      "record_type": "item",
+      "fields": {
+        "title": "30-Foot Rope at 18A LEDGE",
+        "text": "A 30-foot rope lies on 18A LEDGE."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.18a-ledge"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.18a-ledge-iron-spike",
+      "record_type": "item",
+      "fields": {
+        "title": "Iron Spike",
+        "text": "An iron spike lies on 18A LEDGE."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.18a-ledge"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.conidiopore-sword",
+      "record_type": "item",
+      "fields": {
+        "title": "Sword with Conidiopore Insignia",
+        "text": "The armored corpse beyond the portcullis carries a sword bearing a conidiopore insignia."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.18a-ledge",
+        "situation.loot-armored-corpse"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source spells the sword insignia “conidiopore,” while the signet-ring insignia is printed “conidiospore.”",
+          "source_pages": [
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item.18a-bow-and-arrows",
+      "record_type": "item",
+      "fields": {
+        "title": "Bow and Arrows",
+        "text": "The armored corpse beyond the portcullis carries a bow and arrows."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.18a-ledge",
+        "situation.loot-armored-corpse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.conidiospore-signet-ring",
+      "record_type": "item",
+      "fields": {
+        "title": "Signet Ring with Conidiospore Insignia",
+        "text": "The armored corpse beyond the portcullis carries a signet ring worth 50s with a conidiospore insignia."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.18a-ledge",
+        "situation.loot-armored-corpse"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source spells the signet-ring insignia “conidiospore,” while the sword insignia is printed “conidiopore.”",
+          "source_pages": [
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item.orb-of-indulgence",
+      "record_type": "item",
+      "fields": {
+        "title": "Orb of Indulgence",
+        "text": "The armored corpse beyond the portcullis carries an Orb of Indulgence worth 500s."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.18a-ledge",
+        "situation.loot-armored-corpse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.masterwork-breastplate",
+      "record_type": "item",
+      "fields": {
+        "title": "Masterwork Breastplate",
+        "text": "The armored corpse wears a masterwork breastplate that is too large to pass through the portcullis."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.18a-ledge",
+        "situation.loot-armored-corpse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.18a-armored-corpse-helmet",
+      "record_type": "item",
+      "fields": {
+        "title": "Helmet Beyond the Portcullis",
+        "text": "The armored corpse has a helmet that is too large to pass through the portcullis."
+      },
+      "source_pages": [
+        25
+      ],
+      "confidence": "high",
+      "references": [
+        "location.18a-ledge",
+        "situation.loot-armored-corpse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.white-temple-plaza",
+      "record_type": "location",
+      "fields": {
+        "title": "Plaza Beside the White Temple",
+        "first_impression": "A plaza beside the White Temple lies beyond the fist-sized opening at the end of 15 CRACK; a chicken vendor sits there and can be seen through the opening.",
+        "contents": [
+          "A fist-sized opening overlooking the plaza from 15 CRACK."
+        ],
+        "occupants": [
+          "Danjo, a chicken vendor."
+        ],
+        "actor_references": [
+          "actor.danjo"
+        ]
+      },
+      "source_pages": [
+        24
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.danjo"
+      ],
+      "uncertainties": []
+    }
+  ],
+  "task_coverage": [
+    {
+      "notes": "",
+      "pdf_page": 18,
+      "record_ids": [
+        "situation.lamb-approaches",
+        "situation.lamb-nearby-disgusting-noise",
+        "situation.distant-lamb-noises",
+        "situation.little-lambs-ceiling-ambush",
+        "situation.bastoval-checks-on-lamb",
+        "situation.little-lambs-digging-nearby",
+        "situation.bastoval-ghostly-warning",
+        "situation.lamb-death-echoes",
+        "situation.more-tremors",
+        "actor.the-lamb",
+        "actor.little-lambs",
+        "actor.father-bastoval",
+        "actor.mino",
+        "actor.bilosh"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 18,
+      "record_ids": [
+        "table.encounters-lamb-alive",
+        "table.encounters-lamb-dead"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    },
+    {
+      "notes": "",
+      "pdf_page": 19,
+      "record_ids": [
+        "location.dungeon-features",
+        "location.1-bowls",
+        "actor.the-lamb",
+        "situation.starting-lamb-entry",
+        "procedure.starting-the-game",
+        "knowledge.expected-dungeon-flow"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 19,
+      "record_ids": [
+        "rule.climbable-walls-and-darkness",
+        "rule.dehydration",
+        "rule.starting-gear-and-carrying",
+        "rule.character-control",
+        "rule.dark-door-wisdom-check",
+        "rule.torch-durations",
+        "rule.improvised-weapons",
+        "rule.improvised-ropes"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 20,
+      "record_ids": [
+        "actor.the-lamb",
+        "actor.little-lambs",
+        "actor.father-bastoval",
+        "actor.mino",
+        "actor.bilosh",
+        "situation.little-lambs-emerge",
+        "situation.bastoval-enters-after-lamb-death"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 20,
+      "record_ids": [
+        "effect.lamb-death-earth-tremor",
+        "effect.lamb-death-milestone",
+        "effect.little-lamb-emergence",
+        "effect.bastoval-nemesis-level"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 20,
+      "record_ids": [
+        "spell.delay",
+        "spell.haste",
+        "spell.scry"
+      ],
+      "status": "extracted",
+      "task": "spells"
+    },
+    {
+      "notes": "",
+      "pdf_page": 21,
+      "record_ids": [
+        "location.1-bowls",
+        "location.1a-first-intersection",
+        "location.1b-second-intersection",
+        "location.1c-third-intersection",
+        "location.2-goats",
+        "location.3-vinegar",
+        "location.4-chests",
+        "actor.live-goat",
+        "situation.skull-of-davok-escapes"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 21,
+      "record_ids": [
+        "item.2-goats-twine",
+        "item.2-goats-bells",
+        "item.2-goats-hay",
+        "item.2-goats-wooden-bowl",
+        "item.3-vinegar-empty-wine-bottle",
+        "item.4-chests-immature-lambfruit",
+        "item.4-chests-masterwork-helmet",
+        "item.4-chests-torch",
+        "item.purple-lotus-powder",
+        "item.lotus-pipe",
+        "item.skull-of-davok"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 22,
+      "record_ids": [
+        "location.5-landing",
+        "location.5a-closet",
+        "location.6-tumblers",
+        "location.7-throne",
+        "situation.tumbler-password-result",
+        "situation.throne-transformation",
+        "procedure.open-5-landing-chest",
+        "procedure.operate-tumblers",
+        "knowledge.tumbler-password"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 22,
+      "record_ids": [
+        "effect.tumbler-acid-spray",
+        "effect.throne-transformation",
+        "effect.throne-vision",
+        "effect.favored-by-vandoh",
+        "effect.throne-milestone"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 22,
+      "record_ids": [
+        "item.5-landing-lit-torch",
+        "item.5-landing-iron-pole",
+        "item.5-landing-fire-striker",
+        "item.5-landing-fresh-torch",
+        "item.5-landing-lamp-oil",
+        "item.5a-broom",
+        "item.5a-gong-and-hammer",
+        "item.golden-sensory-deprivation-helmet"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 23,
+      "record_ids": [
+        "location.8-pit",
+        "location.9-fountain",
+        "location.9a-underwater-tunnel",
+        "location.10-bone-pile",
+        "actor.akina",
+        "actor.the-lamb",
+        "situation.akina-rescue-bargain",
+        "situation.fountain-haunting",
+        "situation.lamb-blocks-bone-tunnel",
+        "procedure.end-fountain-haunting",
+        "procedure.search-bone-pile",
+        "procedure.clear-blocked-crawl-tunnel",
+        "knowledge.tumbler-password",
+        "knowledge.akina-knows-basics"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 23,
+      "record_ids": [
+        "effect.fountain-entry-hallucination",
+        "effect.fountain-water-binding",
+        "effect.permanent-water-fear"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 23,
+      "record_ids": [
+        "item.ruby-ring-of-wisdom",
+        "item.bone-pellets",
+        "item.10-bone-pile-battered-shield",
+        "item.10-bone-pile-spear",
+        "item.10-bone-pile-rope",
+        "item.10-bone-pile-torch",
+        "item.liquid-hole",
+        "item.silver-vein-bracelet",
+        "item.fine-wine"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 23,
+      "record_ids": [
+        "table.bone-pile-search"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    },
+    {
+      "notes": "",
+      "pdf_page": 24,
+      "record_ids": [
+        "location.11-crab-mural",
+        "location.12-abacus-mural",
+        "location.13-city-mural",
+        "location.14-sarcophagus",
+        "location.14a-shadrakul",
+        "location.15-crack",
+        "actor.friendly-rat",
+        "actor.shadrakul-skeleton",
+        "actor.skeletal-serpent",
+        "actor.danjo",
+        "situation.abacus-ceiling-collapse",
+        "situation.sarcophagus-dump",
+        "situation.goblet-serpent-trap",
+        "situation.red-spider-exposure",
+        "situation.danjo-extortion-trade",
+        "procedure.collapse-abacus-mural",
+        "procedure.use-sarcophagus-elevator",
+        "procedure.trade-with-danjo",
+        "location.white-temple-plaza"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 24,
+      "record_ids": [
+        "effect.abacus-ceiling-collapse",
+        "effect.lamb-under-rubble",
+        "effect.sarcophagus-rope-severing",
+        "effect.skeletal-serpent-bite",
+        "effect.red-spider-bite"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 24,
+      "record_ids": [
+        "item.14-sarcophagus-torch",
+        "item.12-abacus-wooden-pike",
+        "item.14a-soft-rugs",
+        "item.black-iron-spellbook",
+        "item.crystal-goblet",
+        "item.danjo-candles",
+        "item.danjo-chickens",
+        "item.danjo-bread",
+        "item.danjo-knife"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 25,
+      "record_ids": [
+        "location.16-mold",
+        "location.17-altar",
+        "location.18-shaft",
+        "location.18a-ledge",
+        "situation.yellow-mold-chest",
+        "situation.loot-armored-corpse",
+        "procedure.loot-armored-corpse"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 25,
+      "record_ids": [
+        "effect.yellow-mold-poison"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 25,
+      "record_ids": [
+        "item.silver-plate-dageurrotype",
+        "item.17-altar-white-candle",
+        "item.18-shaft-block-and-tackle",
+        "item.18a-ledge-rope",
+        "item.18a-ledge-iron-spike",
+        "item.conidiopore-sword",
+        "item.18a-bow-and-arrows",
+        "item.conidiospore-signet-ring",
+        "item.orb-of-indulgence",
+        "item.masterwork-breastplate",
+        "item.18a-armored-corpse-helmet"
+      ],
+      "status": "extracted",
+      "task": "items"
+    }
+  ]
+}

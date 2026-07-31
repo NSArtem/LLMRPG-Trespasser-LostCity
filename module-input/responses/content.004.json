@@ -1,0 +1,228 @@
+{
+  "schema": "module-content-evidence/v3",
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda",
+  "pack_id": "content.004",
+  "task": "content",
+  "records": [
+    {
+      "id": "location.free-city-of-lon-barago",
+      "record_type": "location",
+      "fields": {
+        "title": "The Free City of Lon Barago",
+        "first_impression": "The Jewel of the Plains, renowned for freedom and lawlessness. Three great temples hold power, and all three are corrupt and unsympathetic.",
+        "contents": [
+          "The White Temple",
+          "The Red Temple",
+          "The Temple of True Power"
+        ],
+        "actor_references": [
+          "actor.white-temple",
+          "actor.red-temple",
+          "actor.temple-of-true-power"
+        ]
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.white-temple",
+        "actor.red-temple",
+        "actor.temple-of-true-power"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.white-temple",
+      "record_type": "actor",
+      "fields": {
+        "title": "The White Temple",
+        "role": "One of the three great temples that hold power in Lon Barago; it worships Vandoh, Goddess of Wisdom, Patience, Self-Improvement, and the powers behind the sun.",
+        "behavior": [
+          "It is corrupt and unsympathetic."
+        ],
+        "location_references": [
+          "location.free-city-of-lon-barago"
+        ],
+        "knowledge_references": [
+          "knowledge.the-lamb-secret",
+          "knowledge.the-raid"
+        ]
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "location.free-city-of-lon-barago",
+        "knowledge.the-lamb-secret",
+        "knowledge.the-raid"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.red-temple",
+      "record_type": "actor",
+      "fields": {
+        "title": "The Red Temple",
+        "role": "One of the three great temples that hold power in Lon Barago; it worships Shendormu, God of Fungus, Mindlessness, and Community.",
+        "behavior": [
+          "It is corrupt and unsympathetic."
+        ],
+        "location_references": [
+          "location.free-city-of-lon-barago"
+        ],
+        "knowledge_references": [
+          "knowledge.the-raid"
+        ]
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "location.free-city-of-lon-barago",
+        "knowledge.the-raid"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.temple-of-true-power",
+      "record_type": "actor",
+      "fields": {
+        "title": "The Temple of True Power",
+        "role": "One of the three great temples that hold power in Lon Barago; its creed is that strength is holy and size is sacred.",
+        "behavior": [
+          "It is corrupt and unsympathetic."
+        ],
+        "location_references": [
+          "location.free-city-of-lon-barago"
+        ]
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "location.free-city-of-lon-barago"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.the-lamb",
+      "record_type": "actor",
+      "fields": {
+        "title": "The Lamb",
+        "role": "The figure the characters must elude during the first half of the adventure.",
+        "relationships": [
+          {
+            "target_id": "actor.white-temple",
+            "relationship": "The White Temple keeps the Lamb as one of its secrets."
+          }
+        ],
+        "knowledge_references": [
+          "knowledge.the-lamb-secret"
+        ]
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.white-temple",
+        "knowledge.the-lamb-secret"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.twelve-fingered-hand",
+      "record_type": "actor",
+      "fields": {
+        "title": "The Twelve-Fingered Hand",
+        "role": "A militia and brotherhood of knights.",
+        "goals": [
+          "Infiltrate the Red Temple through its crypts."
+        ],
+        "relationships": [
+          {
+            "target_id": "actor.white-temple",
+            "relationship": "Closely aligned with the White Temple."
+          },
+          {
+            "target_id": "actor.red-temple",
+            "relationship": "Attacked the Red Temple a decade ago."
+          }
+        ],
+        "starting_state": [
+          "The raid failed; many members were killed, many were entombed, and some are now ghouls."
+        ],
+        "knowledge_references": [
+          "knowledge.the-raid"
+        ]
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.white-temple",
+        "actor.red-temple",
+        "knowledge.the-raid"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.the-lamb-secret",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "The Lamb",
+        "text": "The White Temple keeps the Lamb as a secret. It is called the Lamb because it was born of a sheep, and it is a holy child of Vandoh. Eluding it comprises the first half of the adventure."
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.white-temple",
+        "actor.the-lamb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.the-raid",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "The Raid",
+        "text": "A decade ago, the Twelve-Fingered Hand, a militia and brotherhood of knights closely aligned with the White Temple, attacked the Red Temple and attempted to infiltrate through the crypts. The Hand failed; many were killed, many were entombed, and some are now ghouls."
+      },
+      "source_pages": [
+        16
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.twelve-fingered-hand",
+        "actor.white-temple",
+        "actor.red-temple"
+      ],
+      "uncertainties": []
+    }
+  ],
+  "task_coverage": [
+    {
+      "notes": "Extracted the city, its three ruling temples, the Lamb, the Twelve-Fingered Hand, and both secret accounts on the page.",
+      "pdf_page": 16,
+      "record_ids": [
+        "location.free-city-of-lon-barago",
+        "actor.white-temple",
+        "actor.red-temple",
+        "actor.temple-of-true-power",
+        "actor.the-lamb",
+        "actor.twelve-fingered-hand",
+        "knowledge.the-lamb-secret",
+        "knowledge.the-raid"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    }
+  ]
+}

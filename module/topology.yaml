@@ -1,0 +1,2878 @@
+{
+  "nodes": [
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-1-bowls",
+      "labels": [
+        "1 BOWLS"
+      ],
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-10-bone-pile",
+      "labels": [
+        "10 BONE PILE"
+      ],
+      "source_pages": [
+        15,
+        18,
+        23
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-11-crab-mural",
+      "labels": [
+        "11 CRAB MURAL"
+      ],
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-12-abacus-mural",
+      "labels": [
+        "12 ABACUS MURAL"
+      ],
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-13-city-mural",
+      "labels": [
+        "13 CITY MURAL"
+      ],
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-14-sarcophagus",
+      "labels": [
+        "14 SARCOPHAGUS"
+      ],
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-14a-shadrakul",
+      "labels": [
+        "14A SHADRAKUL"
+      ],
+      "source_pages": [
+        24
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-16-mold",
+      "labels": [
+        "16 MOLD"
+      ],
+      "source_pages": [
+        15,
+        18,
+        25
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-17-altar",
+      "labels": [
+        "17 ALTAR"
+      ],
+      "source_pages": [
+        15,
+        18,
+        25
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-18-shaft",
+      "labels": [
+        "18 SHAFT"
+      ],
+      "source_pages": [
+        15,
+        18,
+        25
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-19-priests",
+      "labels": [
+        "19 PRIESTS"
+      ],
+      "source_pages": [
+        15,
+        18,
+        26
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-2-goats",
+      "labels": [
+        "2 GOATS"
+      ],
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-20-pools",
+      "labels": [
+        "20 POOLS"
+      ],
+      "source_pages": [
+        15,
+        18,
+        26
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-22-mushroom",
+      "labels": [
+        "22 MUSHROOM"
+      ],
+      "source_pages": [
+        15,
+        28,
+        30,
+        31
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-23-weak-floor",
+      "labels": [
+        "23 WEAK FLOOR"
+      ],
+      "source_pages": [
+        15,
+        28,
+        30,
+        31,
+        35
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-24a",
+      "labels": [
+        "24A"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        37
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-24b",
+      "labels": [
+        "24B"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        37
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-24c",
+      "labels": [
+        "24C"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        37
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-25a-crypt",
+      "labels": [
+        "25A CRYPT"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-25b-crypt",
+      "labels": [
+        "25B CRYPT"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-25c-crypt",
+      "labels": [
+        "25C CRYPT"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-25d-crypt",
+      "labels": [
+        "25D CRYPT"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-25e-crypt",
+      "labels": [
+        "25E CRYPT"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-25f-crypt",
+      "labels": [
+        "25F CRYPT"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-25g-crypt",
+      "labels": [
+        "25G CRYPT"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-26-secret-crypt",
+      "labels": [
+        "26 SECRET CRYPT"
+      ],
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-27-ballista",
+      "labels": [
+        "27 BALLISTA"
+      ],
+      "source_pages": [
+        15,
+        28,
+        32,
+        33
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-28-games",
+      "labels": [
+        "28 GAMES"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        32,
+        33
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-29-stage",
+      "labels": [
+        "29 STAGE"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        33
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-3-vinegar",
+      "labels": [
+        "3 VINEGAR"
+      ],
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-30-coffer",
+      "labels": [
+        "30 COFFER"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        33
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-32-isopods",
+      "labels": [
+        "32 ISOPODS"
+      ],
+      "source_pages": [
+        15,
+        28,
+        34
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-33-fungus",
+      "labels": [
+        "33 FUNGUS"
+      ],
+      "source_pages": [
+        15,
+        28,
+        34
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-34-cache",
+      "labels": [
+        "34 CACHE"
+      ],
+      "source_pages": [
+        15,
+        28,
+        34
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-36-table",
+      "labels": [
+        "36 TABLE"
+      ],
+      "source_pages": [
+        15,
+        28,
+        35
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-37-chewed-bones",
+      "labels": [
+        "37 CHEWED BONES"
+      ],
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-38-shroud",
+      "labels": [
+        "38 SHROUD"
+      ],
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-39-stone-egg",
+      "labels": [
+        "39 STONE EGG"
+      ],
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-4-chests",
+      "labels": [
+        "4 CHESTS"
+      ],
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-41-sunken-shrine",
+      "labels": [
+        "41 SUNKEN SHRINE"
+      ],
+      "source_pages": [
+        15,
+        28,
+        37
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-42-sunken-gallery",
+      "labels": [
+        "42 SUNKEN GALLERY"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        35,
+        37
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-43-spider-crab",
+      "labels": [
+        "43 SPIDER CRAB"
+      ],
+      "source_pages": [
+        15,
+        28,
+        34,
+        35,
+        37
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-44-cistern",
+      "labels": [
+        "44 CISTERN"
+      ],
+      "source_pages": [
+        15,
+        28,
+        40
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-45-barrels",
+      "labels": [
+        "45 BARRELS"
+      ],
+      "source_pages": [
+        15,
+        28,
+        40
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-46-daylight",
+      "labels": [
+        "46 DAYLIGHT"
+      ],
+      "source_pages": [
+        15,
+        28,
+        40
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-5-landing",
+      "labels": [
+        "5 LANDING"
+      ],
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-5a-closet",
+      "labels": [
+        "5A CLOSET"
+      ],
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-6-tumblers",
+      "labels": [
+        "6 TUMBLERS"
+      ],
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-7-throne",
+      "labels": [
+        "7 THRONE"
+      ],
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-8-pit",
+      "labels": [
+        "8 PIT"
+      ],
+      "source_pages": [
+        15,
+        18,
+        23
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-9-fountain",
+      "labels": [
+        "9 FOUNTAIN"
+      ],
+      "source_pages": [
+        15,
+        18,
+        23
+      ],
+      "titles": []
+    },
+    {
+      "classification": "boundary",
+      "id": "place.module-lair-of-the-lamb.area-99-not-written-yet",
+      "labels": [
+        "99 NOT WRITTEN YET"
+      ],
+      "source_pages": [
+        36
+      ],
+      "titles": []
+    },
+    {
+      "classification": "place",
+      "id": "place.module-lair-of-the-lamb.area-white-temple-plaza",
+      "labels": [
+        "Plaza beside the White Temple"
+      ],
+      "source_pages": [
+        24
+      ],
+      "titles": []
+    },
+    {
+      "classification": "boundary",
+      "id": "place.module-lair-of-the-lamb.boundary-21-heavy-doors",
+      "labels": [
+        "21 HEAVY DOORS"
+      ],
+      "source_pages": [
+        15,
+        28,
+        30
+      ],
+      "titles": []
+    },
+    {
+      "classification": "boundary",
+      "id": "place.module-lair-of-the-lamb.boundary-40-ghost-fence",
+      "labels": [
+        "40 GHOST FENCE"
+      ],
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ],
+      "titles": []
+    },
+    {
+      "classification": "boundary",
+      "id": "place.module-lair-of-the-lamb.boundary-44a-wall",
+      "labels": [
+        "44A WALL"
+      ],
+      "source_pages": [
+        15,
+        28,
+        40
+      ],
+      "titles": []
+    },
+    {
+      "classification": "boundary",
+      "id": "place.module-lair-of-the-lamb.boundary-5-north-steel-doors",
+      "labels": [
+        "North steel doors and ascending stairs at 5 LANDING"
+      ],
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "titles": []
+    },
+    {
+      "classification": "boundary",
+      "id": "place.module-lair-of-the-lamb.boundary-east-of-43",
+      "labels": [
+        "Locked steel door east of 43 SPIDER CRAB"
+      ],
+      "source_pages": [
+        15,
+        28,
+        37
+      ],
+      "titles": []
+    },
+    {
+      "classification": "waypoint",
+      "id": "place.module-lair-of-the-lamb.waypoint-15-crack",
+      "labels": [
+        "15 CRACK"
+      ],
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "titles": []
+    },
+    {
+      "classification": "waypoint",
+      "id": "place.module-lair-of-the-lamb.waypoint-18a-ledge",
+      "labels": [
+        "18A LEDGE"
+      ],
+      "source_pages": [
+        15,
+        18,
+        25,
+        32
+      ],
+      "titles": []
+    },
+    {
+      "classification": "waypoint",
+      "id": "place.module-lair-of-the-lamb.waypoint-1a-first-intersection",
+      "labels": [
+        "1A FIRST INTERSECTION"
+      ],
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "titles": []
+    },
+    {
+      "classification": "waypoint",
+      "id": "place.module-lair-of-the-lamb.waypoint-1b-second-intersection",
+      "labels": [
+        "1B SECOND INTERSECTION"
+      ],
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "titles": []
+    },
+    {
+      "classification": "waypoint",
+      "id": "place.module-lair-of-the-lamb.waypoint-1c-third-intersection",
+      "labels": [
+        "1C THIRD INTERSECTION"
+      ],
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "titles": []
+    },
+    {
+      "classification": "waypoint",
+      "id": "place.module-lair-of-the-lamb.waypoint-24-crush-hallway",
+      "labels": [
+        "24 CRUSH HALLWAY"
+      ],
+      "source_pages": [
+        15,
+        28,
+        30,
+        31
+      ],
+      "titles": []
+    },
+    {
+      "classification": "waypoint",
+      "id": "place.module-lair-of-the-lamb.waypoint-31-traverse",
+      "labels": [
+        "31 TRAVERSE"
+      ],
+      "source_pages": [
+        15,
+        28,
+        31,
+        33,
+        34
+      ],
+      "titles": []
+    },
+    {
+      "classification": "waypoint",
+      "id": "place.module-lair-of-the-lamb.waypoint-35-tricky-hallway",
+      "labels": [
+        "35 TRICKY HALLWAY"
+      ],
+      "source_pages": [
+        15,
+        28,
+        34,
+        35
+      ],
+      "titles": []
+    },
+    {
+      "classification": "waypoint",
+      "id": "place.module-lair-of-the-lamb.waypoint-35a-trapdoor-pit",
+      "labels": [
+        "35A trapdoor pit"
+      ],
+      "source_pages": [
+        15,
+        28,
+        35,
+        37
+      ],
+      "titles": []
+    },
+    {
+      "classification": "waypoint",
+      "id": "place.module-lair-of-the-lamb.waypoint-5-6-corridor",
+      "labels": [
+        "Corridor between 5 LANDING and 6 TUMBLERS"
+      ],
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "titles": []
+    },
+    {
+      "classification": "waypoint",
+      "id": "place.module-lair-of-the-lamb.waypoint-9a-underwater-tunnel",
+      "labels": [
+        "9A UNDERWATER TUNNEL"
+      ],
+      "source_pages": [
+        15,
+        18,
+        23,
+        40
+      ],
+      "titles": []
+    }
+  ],
+  "passages": [
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-1-bowls",
+      "id": "edge-place.module-lair-of-the-lamb.area-1-bowls-place.module-lair-of-the-lamb.waypoint-1a-first-intersection",
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-1a-first-intersection"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "Bones if the Lamb blocks the tunnel after three encounters."
+        ],
+        "baseline_state": "open",
+        "conditions": [
+          "Searching 10 BONE PILE reveals the tunnel; if blocked with bones, clearing it by hand takes 10 minutes."
+        ],
+        "elevation": "level",
+        "features": [
+          "The tunnel is obvious from 14 SARCOPHAGUS but must be found by searching 10 BONE PILE."
+        ],
+        "hazards": [],
+        "kind": "small crawl-tunnel",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.area-10-bone-pile",
+      "id": "edge-place.module-lair-of-the-lamb.area-10-bone-pile-place.module-lair-of-the-lamb.area-14-sarcophagus",
+      "source_pages": [
+        15,
+        18,
+        23,
+        24
+      ],
+      "to": "place.module-lair-of-the-lamb.area-14-sarcophagus"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "wooden door shown on the map"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-10-bone-pile",
+      "id": "edge-place.module-lair-of-the-lamb.area-10-bone-pile-place.module-lair-of-the-lamb.area-8-pit",
+      "source_pages": [
+        15,
+        18,
+        23
+      ],
+      "to": "place.module-lair-of-the-lamb.area-8-pit"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [
+          "Traversal remains possible only while 12 ABACUS MURAL has not been rendered impassable by collapse."
+        ],
+        "elevation": "level",
+        "features": [
+          "Removing the support pike in 12 ABACUS MURAL collapses the ceiling and can make the room impassable."
+        ],
+        "hazards": [
+          "Ceiling collapse if the support pike is removed."
+        ],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-11-crab-mural",
+      "id": "edge-place.module-lair-of-the-lamb.area-11-crab-mural-place.module-lair-of-the-lamb.area-12-abacus-mural",
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "to": "place.module-lair-of-the-lamb.area-12-abacus-mural"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "locked wooden door"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The locked wooden door must be opened or bypassed."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-11-crab-mural",
+      "id": "edge-place.module-lair-of-the-lamb.area-11-crab-mural-place.module-lair-of-the-lamb.area-19-priests",
+      "source_pages": [
+        15,
+        18,
+        24,
+        26
+      ],
+      "to": "place.module-lair-of-the-lamb.area-19-priests"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-11-crab-mural",
+      "id": "edge-place.module-lair-of-the-lamb.area-11-crab-mural-place.module-lair-of-the-lamb.area-8-pit",
+      "source_pages": [
+        15,
+        18,
+        23,
+        24
+      ],
+      "to": "place.module-lair-of-the-lamb.area-8-pit"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [
+          "Traversal remains possible only while 12 ABACUS MURAL has not been rendered impassable by collapse."
+        ],
+        "elevation": "level",
+        "features": [
+          "Removing the support pike in 12 ABACUS MURAL collapses the ceiling and can make the room impassable."
+        ],
+        "hazards": [
+          "Ceiling collapse if the support pike is removed."
+        ],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-12-abacus-mural",
+      "id": "edge-place.module-lair-of-the-lamb.area-12-abacus-mural-place.module-lair-of-the-lamb.area-13-city-mural",
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "to": "place.module-lair-of-the-lamb.area-13-city-mural"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-13-city-mural",
+      "id": "edge-place.module-lair-of-the-lamb.area-13-city-mural-place.module-lair-of-the-lamb.area-14-sarcophagus",
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "to": "place.module-lair-of-the-lamb.area-14-sarcophagus"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "moldy locked wooden door"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The damaged door can be opened by lock bypass or quietly wrenched off its hinges."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-13-city-mural",
+      "id": "edge-place.module-lair-of-the-lamb.area-13-city-mural-place.module-lair-of-the-lamb.area-16-mold",
+      "source_pages": [
+        15,
+        18,
+        24,
+        25
+      ],
+      "to": "place.module-lair-of-the-lamb.area-16-mold"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "spiderwebs"
+        ],
+        "baseline_state": "open",
+        "conditions": [
+          "A person must squeeze through the narrow crack."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [
+          "Tiny red spider bites; a second bite causes instant death."
+        ],
+        "kind": "crack and crawlspace",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-13-city-mural",
+      "id": "edge-place.module-lair-of-the-lamb.area-13-city-mural-place.module-lair-of-the-lamb.waypoint-15-crack",
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-15-crack"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "sarcophagus lid and swinging metal bottom"
+        ],
+        "baseline_state": "concealed",
+        "conditions": [
+          "Enter the sarcophagus and have the lid replaced."
+        ],
+        "elevation": "down",
+        "features": [
+          "Replacing the lid makes the bottom swing open; removing the lid makes it swing shut; taking the spellbook locks the trapdoor open."
+        ],
+        "hazards": [
+          "10-foot fall",
+          "Bladed lid edges sever ropes."
+        ],
+        "kind": "sarcophagus trapdoor",
+        "medium": "air",
+        "traversal_direction": "from_to",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.area-14-sarcophagus",
+      "id": "edge-place.module-lair-of-the-lamb.area-14-sarcophagus-place.module-lair-of-the-lamb.area-14a-shadrakul",
+      "source_pages": [
+        24
+      ],
+      "to": "place.module-lair-of-the-lamb.area-14a-shadrakul"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "wooden door shown on the map"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-16-mold",
+      "id": "edge-place.module-lair-of-the-lamb.area-16-mold-place.module-lair-of-the-lamb.area-17-altar",
+      "source_pages": [
+        15,
+        18,
+        25
+      ],
+      "to": "place.module-lair-of-the-lamb.area-17-altar"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-16-mold",
+      "id": "edge-place.module-lair-of-the-lamb.area-16-mold-place.module-lair-of-the-lamb.area-18-shaft",
+      "source_pages": [
+        15,
+        18,
+        25
+      ],
+      "to": "place.module-lair-of-the-lamb.area-18-shaft"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [
+          "Reach the ledge by climbing or rigging the block and tackle found in the wreckage."
+        ],
+        "elevation": "up",
+        "features": [
+          "The ledge is 40 feet above the floor; the shaft ceiling is 60 feet above."
+        ],
+        "hazards": [
+          "A fall of up to 40 feet."
+        ],
+        "kind": "shaft climb",
+        "medium": "air",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-18-shaft",
+      "id": "edge-place.module-lair-of-the-lamb.area-18-shaft-place.module-lair-of-the-lamb.waypoint-18a-ledge",
+      "source_pages": [
+        15,
+        18,
+        25
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-18a-ledge"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "wooden door shown on the map"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-19-priests",
+      "id": "edge-place.module-lair-of-the-lamb.area-19-priests-place.module-lair-of-the-lamb.area-20-pools",
+      "source_pages": [
+        15,
+        18,
+        26
+      ],
+      "to": "place.module-lair-of-the-lamb.area-20-pools"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "east door held shut by two iron spikes"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "Remove or bypass the two iron spikes holding the east door shut."
+        ],
+        "elevation": "up",
+        "features": [],
+        "hazards": [],
+        "kind": "ascending stairway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-19-priests",
+      "id": "edge-place.module-lair-of-the-lamb.area-19-priests-place.module-lair-of-the-lamb.boundary-21-heavy-doors",
+      "source_pages": [
+        15,
+        18,
+        26,
+        28,
+        30
+      ],
+      "to": "place.module-lair-of-the-lamb.boundary-21-heavy-doors"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-2-goats",
+      "id": "edge-place.module-lair-of-the-lamb.area-2-goats-place.module-lair-of-the-lamb.waypoint-1a-first-intersection",
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-1a-first-intersection"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "locked north door"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The locked door must be opened or bypassed."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-22-mushroom",
+      "id": "edge-place.module-lair-of-the-lamb.area-22-mushroom-place.module-lair-of-the-lamb.area-23-weak-floor",
+      "source_pages": [
+        15,
+        28,
+        30,
+        31
+      ],
+      "to": "place.module-lair-of-the-lamb.area-23-weak-floor"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "defaced wooden door shown on the map"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [
+          "The words \"ASSHOLE STORAGE\" are carved into the door."
+        ],
+        "hazards": [],
+        "kind": "south doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-22-mushroom",
+      "id": "edge-place.module-lair-of-the-lamb.area-22-mushroom-place.module-lair-of-the-lamb.area-25a-crypt",
+      "source_pages": [
+        15,
+        28,
+        30,
+        31,
+        32
+      ],
+      "to": "place.module-lair-of-the-lamb.area-25a-crypt"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "10-foot heavy bar",
+          "chains"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "Two people can pry the bar aside for a narrow opening; heavy tools are needed to remove the chain for full opening."
+        ],
+        "elevation": "level",
+        "features": [
+          "With the bar pried aside, the doors open only enough for a human to squeeze through, not the Lamb; removing the chain permits full opening."
+        ],
+        "hazards": [],
+        "kind": "heavy iron doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-22-mushroom",
+      "id": "edge-place.module-lair-of-the-lamb.area-22-mushroom-place.module-lair-of-the-lamb.boundary-21-heavy-doors",
+      "source_pages": [
+        15,
+        28,
+        30
+      ],
+      "to": "place.module-lair-of-the-lamb.boundary-21-heavy-doors"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "huge cobweb partially blocking the path"
+        ],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "east path",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-22-mushroom",
+      "id": "edge-place.module-lair-of-the-lamb.area-22-mushroom-place.module-lair-of-the-lamb.waypoint-24-crush-hallway",
+      "source_pages": [
+        15,
+        28,
+        30,
+        31
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-24-crush-hallway"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "far door",
+          "unstable brick floor"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "Cross the unstable floor and open the far door; the door is effectively impossible to smash from the unstable floor unless weakened by acid or fire, while a ballista bolt opens it instantly."
+        ],
+        "elevation": "level",
+        "features": [
+          "Small items cause local collapses; beyond 10 feet from the south door, 40 pounds causes the entire floor to collapse."
+        ],
+        "hazards": [
+          "Total floor collapse beneath a load of 40 pounds beyond 10 feet from the south door."
+        ],
+        "kind": "room crossing and far doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-23-weak-floor",
+      "id": "edge-place.module-lair-of-the-lamb.area-23-weak-floor-place.module-lair-of-the-lamb.area-36-table",
+      "source_pages": [
+        15,
+        28,
+        30,
+        35
+      ],
+      "to": "place.module-lair-of-the-lamb.area-36-table"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "perfectly disguised trapdoor"
+        ],
+        "baseline_state": "armed",
+        "conditions": [
+          "A touch greater than a feather triggers the hallway; the corresponding switch in 22 MUSHROOM can disarm this trapdoor while held."
+        ],
+        "elevation": "up",
+        "features": [],
+        "hazards": [
+          "40-foot fall into 10-foot-deep water."
+        ],
+        "kind": "disguised spring trapdoor",
+        "medium": "air",
+        "traversal_direction": "to_from",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.area-24a",
+      "id": "edge-place.module-lair-of-the-lamb.area-24a-place.module-lair-of-the-lamb.waypoint-24-crush-hallway",
+      "source_pages": [
+        15,
+        28,
+        31
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-24-crush-hallway"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "rusted-shut portcullis"
+        ],
+        "baseline_state": "blocked",
+        "conditions": [],
+        "elevation": "level",
+        "features": [
+          "The portcullis permits sight into 42 SUNKEN GALLERY but not access."
+        ],
+        "hazards": [],
+        "kind": "portcullis opening",
+        "medium": "water",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-24b",
+      "id": "edge-place.module-lair-of-the-lamb.area-24b-place.module-lair-of-the-lamb.area-42-sunken-gallery",
+      "source_pages": [
+        15,
+        28,
+        31,
+        37
+      ],
+      "to": "place.module-lair-of-the-lamb.area-42-sunken-gallery"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "perfectly disguised trapdoor"
+        ],
+        "baseline_state": "armed",
+        "conditions": [
+          "A touch greater than a feather triggers the hallway; the corresponding switch in 22 MUSHROOM can disarm this trapdoor while held."
+        ],
+        "elevation": "up",
+        "features": [],
+        "hazards": [
+          "40-foot fall into 10-foot-deep water."
+        ],
+        "kind": "disguised spring trapdoor",
+        "medium": "air",
+        "traversal_direction": "to_from",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.area-24b",
+      "id": "edge-place.module-lair-of-the-lamb.area-24b-place.module-lair-of-the-lamb.waypoint-24-crush-hallway",
+      "source_pages": [
+        15,
+        28,
+        31,
+        37
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-24-crush-hallway"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "perfectly disguised trapdoor"
+        ],
+        "baseline_state": "armed",
+        "conditions": [
+          "A touch greater than a feather triggers the hallway; the corresponding switch in 22 MUSHROOM can disarm this trapdoor while held."
+        ],
+        "elevation": "up",
+        "features": [],
+        "hazards": [
+          "40-foot fall into oil-covered, 10-foot-deep water.",
+          "Broken glass on the bottom."
+        ],
+        "kind": "disguised spring trapdoor",
+        "medium": "air",
+        "traversal_direction": "to_from",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.area-24c",
+      "id": "edge-place.module-lair-of-the-lamb.area-24c-place.module-lair-of-the-lamb.waypoint-24-crush-hallway",
+      "source_pages": [
+        15,
+        28,
+        31
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-24-crush-hallway"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-25a-crypt",
+      "id": "edge-place.module-lair-of-the-lamb.area-25a-crypt-place.module-lair-of-the-lamb.area-25b-crypt",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "to": "place.module-lair-of-the-lamb.area-25b-crypt"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "door hidden behind the tiles on the south wall"
+        ],
+        "baseline_state": "concealed",
+        "conditions": [
+          "Strip or remove the south-wall tiles to reveal the door."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "secret doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.area-25a-crypt",
+      "id": "edge-place.module-lair-of-the-lamb.area-25a-crypt-place.module-lair-of-the-lamb.area-26-secret-crypt",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "to": "place.module-lair-of-the-lamb.area-26-secret-crypt"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-25b-crypt",
+      "id": "edge-place.module-lair-of-the-lamb.area-25b-crypt-place.module-lair-of-the-lamb.area-25c-crypt",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "to": "place.module-lair-of-the-lamb.area-25c-crypt"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "portcullis currently lowered"
+        ],
+        "baseline_state": "lowered",
+        "conditions": [
+          "Operate the winch 10 feet south of the portcullis."
+        ],
+        "elevation": "down",
+        "features": [],
+        "hazards": [],
+        "kind": "descending passage through a portcullis",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-25b-crypt",
+      "id": "edge-place.module-lair-of-the-lamb.area-25b-crypt-place.module-lair-of-the-lamb.area-25g-crypt",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "to": "place.module-lair-of-the-lamb.area-25g-crypt"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-25c-crypt",
+      "id": "edge-place.module-lair-of-the-lamb.area-25c-crypt-place.module-lair-of-the-lamb.area-25d-crypt",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "to": "place.module-lair-of-the-lamb.area-25d-crypt"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-25c-crypt",
+      "id": "edge-place.module-lair-of-the-lamb.area-25c-crypt-place.module-lair-of-the-lamb.area-25f-crypt",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "to": "place.module-lair-of-the-lamb.area-25f-crypt"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-25d-crypt",
+      "id": "edge-place.module-lair-of-the-lamb.area-25d-crypt-place.module-lair-of-the-lamb.area-25e-crypt",
+      "source_pages": [
+        15,
+        28,
+        32,
+        33
+      ],
+      "to": "place.module-lair-of-the-lamb.area-25e-crypt"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-25e-crypt",
+      "id": "edge-place.module-lair-of-the-lamb.area-25e-crypt-place.module-lair-of-the-lamb.area-25f-crypt",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "to": "place.module-lair-of-the-lamb.area-25f-crypt"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-25e-crypt",
+      "id": "edge-place.module-lair-of-the-lamb.area-25e-crypt-place.module-lair-of-the-lamb.area-27-ballista",
+      "source_pages": [
+        15,
+        28,
+        32,
+        33
+      ],
+      "to": "place.module-lair-of-the-lamb.area-27-ballista"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-25f-crypt",
+      "id": "edge-place.module-lair-of-the-lamb.area-25f-crypt-place.module-lair-of-the-lamb.area-25g-crypt",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "to": "place.module-lair-of-the-lamb.area-25g-crypt"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-25g-crypt",
+      "id": "edge-place.module-lair-of-the-lamb.area-25g-crypt-place.module-lair-of-the-lamb.area-26-secret-crypt",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "to": "place.module-lair-of-the-lamb.area-26-secret-crypt"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "sealed portcullis"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The wall winch in 26 SECRET CRYPT controls the portcullis."
+        ],
+        "elevation": "up",
+        "features": [
+          "An armored corpse lies 10 feet beyond the portcullis."
+        ],
+        "hazards": [],
+        "kind": "passage through a portcullis",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-26-secret-crypt",
+      "id": "edge-place.module-lair-of-the-lamb.area-26-secret-crypt-place.module-lair-of-the-lamb.waypoint-18a-ledge",
+      "source_pages": [
+        15,
+        18,
+        25,
+        32
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-18a-ledge"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-27-ballista",
+      "id": "edge-place.module-lair-of-the-lamb.area-27-ballista-place.module-lair-of-the-lamb.area-28-games",
+      "source_pages": [
+        15,
+        28,
+        32,
+        33
+      ],
+      "to": "place.module-lair-of-the-lamb.area-28-games"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-28-games",
+      "id": "edge-place.module-lair-of-the-lamb.area-28-games-place.module-lair-of-the-lamb.area-29-stage",
+      "source_pages": [
+        15,
+        28,
+        31,
+        33
+      ],
+      "to": "place.module-lair-of-the-lamb.area-29-stage"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-29-stage",
+      "id": "edge-place.module-lair-of-the-lamb.area-29-stage-place.module-lair-of-the-lamb.area-30-coffer",
+      "source_pages": [
+        15,
+        28,
+        31,
+        33
+      ],
+      "to": "place.module-lair-of-the-lamb.area-30-coffer"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-3-vinegar",
+      "id": "edge-place.module-lair-of-the-lamb.area-3-vinegar-place.module-lair-of-the-lamb.waypoint-1c-third-intersection",
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-1c-third-intersection"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "lowering ceiling",
+          "three perfectly disguised spring trapdoors"
+        ],
+        "baseline_state": "armed",
+        "conditions": [
+          "Cross by sprinting and jumping the trapdoors, disarm trapdoors with the three switches in 22 MUSHROOM, climb along the wall with spikes and ropes, or brace the ceiling with an uncrushable object."
+        ],
+        "elevation": "level",
+        "features": [
+          "The ceiling takes 10 seconds to fall 10 feet, rests for 10 seconds, then resets."
+        ],
+        "hazards": [
+          "Crushing ceiling",
+          "Three 40-foot falls through trapdoors."
+        ],
+        "kind": "90-foot crushing hallway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-30-coffer",
+      "id": "edge-place.module-lair-of-the-lamb.area-30-coffer-place.module-lair-of-the-lamb.waypoint-24-crush-hallway",
+      "source_pages": [
+        15,
+        28,
+        31,
+        33
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-24-crush-hallway"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "wooden door shown on the map"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-30-coffer",
+      "id": "edge-place.module-lair-of-the-lamb.area-30-coffer-place.module-lair-of-the-lamb.waypoint-31-traverse",
+      "source_pages": [
+        15,
+        28,
+        31,
+        33,
+        34
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-31-traverse"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "secret door in the east wall"
+        ],
+        "baseline_state": "concealed",
+        "conditions": [
+          "Press the switch at the back of the 5-foot-deep round hole in the north wall."
+        ],
+        "elevation": "level",
+        "features": [
+          "Wear on the floor suggests a doorway."
+        ],
+        "hazards": [],
+        "kind": "secret doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.area-32-isopods",
+      "id": "edge-place.module-lair-of-the-lamb.area-32-isopods-place.module-lair-of-the-lamb.area-33-fungus",
+      "source_pages": [
+        15,
+        28,
+        34
+      ],
+      "to": "place.module-lair-of-the-lamb.area-33-fungus"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "partially collapsed floor forming a broad pit"
+        ],
+        "baseline_state": "open",
+        "conditions": [
+          "Use the fixed rope or another method to cross the pit."
+        ],
+        "elevation": "level",
+        "features": [
+          "A 30-foot rope is tied between two iron spikes on the west wall."
+        ],
+        "hazards": [
+          "40-foot fall to water",
+          "Spider crab can reach 38 feet out of the water."
+        ],
+        "kind": "rope traverse across a broad pit",
+        "medium": "air",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-32-isopods",
+      "id": "edge-place.module-lair-of-the-lamb.area-32-isopods-place.module-lair-of-the-lamb.waypoint-31-traverse",
+      "source_pages": [
+        15,
+        28,
+        34
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-31-traverse"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "hallway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-32-isopods",
+      "id": "edge-place.module-lair-of-the-lamb.area-32-isopods-place.module-lair-of-the-lamb.waypoint-35-tricky-hallway",
+      "source_pages": [
+        15,
+        28,
+        34,
+        35
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-35-tricky-hallway"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "complex mass of fungus covering the north wall and door"
+        ],
+        "baseline_state": "concealed",
+        "conditions": [
+          "Excavate the fungus to reveal the door to 34 CACHE."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "concealed doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.area-33-fungus",
+      "id": "edge-place.module-lair-of-the-lamb.area-33-fungus-place.module-lair-of-the-lamb.area-34-cache",
+      "source_pages": [
+        15,
+        28,
+        34
+      ],
+      "to": "place.module-lair-of-the-lamb.area-34-cache"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-36-table",
+      "id": "edge-place.module-lair-of-the-lamb.area-36-table-place.module-lair-of-the-lamb.area-37-chewed-bones",
+      "source_pages": [
+        15,
+        28,
+        35
+      ],
+      "to": "place.module-lair-of-the-lamb.area-37-chewed-bones"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "hallway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-36-table",
+      "id": "edge-place.module-lair-of-the-lamb.area-36-table-place.module-lair-of-the-lamb.waypoint-35-tricky-hallway",
+      "source_pages": [
+        15,
+        28,
+        35
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-35-tricky-hallway"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "stack of 12 planks partially obscuring the doorway"
+        ],
+        "baseline_state": "partially blocked",
+        "conditions": [],
+        "elevation": "level",
+        "features": [
+          "The doorway appears to have been boarded up previously."
+        ],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-37-chewed-bones",
+      "id": "edge-place.module-lair-of-the-lamb.area-37-chewed-bones-place.module-lair-of-the-lamb.area-38-shroud",
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ],
+      "to": "place.module-lair-of-the-lamb.area-38-shroud"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "secret panel in the north wall, 8 feet above the ground"
+        ],
+        "baseline_state": "concealed",
+        "conditions": [
+          "Press both switches in the two 4-foot-deep wall holes simultaneously; climb 8 feet to the opening."
+        ],
+        "elevation": "up",
+        "features": [],
+        "hazards": [
+          "Shawson waits beside the opening and may drag the first climber into 39 STONE EGG."
+        ],
+        "kind": "2-foot by 2-foot secret panel",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.area-37-chewed-bones",
+      "id": "edge-place.module-lair-of-the-lamb.area-37-chewed-bones-place.module-lair-of-the-lamb.area-39-stone-egg",
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ],
+      "to": "place.module-lair-of-the-lamb.area-39-stone-egg"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "room opening",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-37-chewed-bones",
+      "id": "edge-place.module-lair-of-the-lamb.area-37-chewed-bones-place.module-lair-of-the-lamb.boundary-40-ghost-fence",
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ],
+      "to": "place.module-lair-of-the-lamb.boundary-40-ghost-fence"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "dormant",
+        "conditions": [
+          "Place a person's head in the bladeless guillotine and operate the winch until the unseen blade falls."
+        ],
+        "elevation": "down",
+        "features": [],
+        "hazards": [
+          "The person's soul is severed from the body and sent to room 99; the soulless body loses normal emotional and developmental capacities."
+        ],
+        "kind": "guillotine soul transport",
+        "medium": "magical",
+        "traversal_direction": "from_to",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.area-38-shroud",
+      "id": "edge-place.module-lair-of-the-lamb.area-38-shroud-place.module-lair-of-the-lamb.area-99-not-written-yet",
+      "source_pages": [
+        36
+      ],
+      "to": "place.module-lair-of-the-lamb.area-99-not-written-yet"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "locked wooden door"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The locked wooden door must be opened or bypassed."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-4-chests",
+      "id": "edge-place.module-lair-of-the-lamb.area-4-chests-place.module-lair-of-the-lamb.waypoint-1c-third-intersection",
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-1c-third-intersection"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "metal door shown on the map"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "flooded corridor and doorway",
+        "medium": "water",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-41-sunken-shrine",
+      "id": "edge-place.module-lair-of-the-lamb.area-41-sunken-shrine-place.module-lair-of-the-lamb.area-42-sunken-gallery",
+      "source_pages": [
+        15,
+        28,
+        37
+      ],
+      "to": "place.module-lair-of-the-lamb.area-42-sunken-gallery"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "metal door shown on the map"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "flooded corridor and doorway",
+        "medium": "water",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-42-sunken-gallery",
+      "id": "edge-place.module-lair-of-the-lamb.area-42-sunken-gallery-place.module-lair-of-the-lamb.area-43-spider-crab",
+      "source_pages": [
+        15,
+        28,
+        37
+      ],
+      "to": "place.module-lair-of-the-lamb.area-43-spider-crab"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [
+          "The bottom of the pit connects with 42 SUNKEN GALLERY."
+        ],
+        "hazards": [],
+        "kind": "pit-bottom opening",
+        "medium": "water",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-42-sunken-gallery",
+      "id": "edge-place.module-lair-of-the-lamb.area-42-sunken-gallery-place.module-lair-of-the-lamb.waypoint-35a-trapdoor-pit",
+      "source_pages": [
+        15,
+        28,
+        35,
+        37
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-35a-trapdoor-pit"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "locked steel door"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The locked steel door must be opened or bypassed; the destination beyond is not identified in this pack."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "flooded corridor and doorway",
+        "medium": "water",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-43-spider-crab",
+      "id": "edge-place.module-lair-of-the-lamb.area-43-spider-crab-place.module-lair-of-the-lamb.boundary-east-of-43",
+      "source_pages": [
+        15,
+        28,
+        37
+      ],
+      "to": "place.module-lair-of-the-lamb.boundary-east-of-43"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [
+          "Swim or use a makeshift boat."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "flooded corridor",
+        "medium": "water",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-44-cistern",
+      "id": "edge-place.module-lair-of-the-lamb.area-44-cistern-place.module-lair-of-the-lamb.area-45-barrels",
+      "source_pages": [
+        15,
+        28,
+        40
+      ],
+      "to": "place.module-lair-of-the-lamb.area-45-barrels"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [
+          "Swim or use a makeshift boat."
+        ],
+        "elevation": "level",
+        "features": [
+          "A thick pillar of dusty sunlight is visible in 46 DAYLIGHT from the cistern when line of sight is available."
+        ],
+        "hazards": [],
+        "kind": "flooded corridor",
+        "medium": "water",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-44-cistern",
+      "id": "edge-place.module-lair-of-the-lamb.area-44-cistern-place.module-lair-of-the-lamb.area-46-daylight",
+      "source_pages": [
+        15,
+        28,
+        40
+      ],
+      "to": "place.module-lair-of-the-lamb.area-46-daylight"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "modern brick wall"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "With suitable tools, make a man-sized opening in 6 minutes or a table-sized opening in 10 minutes."
+        ],
+        "elevation": "level",
+        "features": [
+          "Removing a loose brick reveals fresh air and a view into the cistern; breaking the wall is very noisy."
+        ],
+        "hazards": [
+          "Noise attracts available ghouls, the apparatus, the spider crab, and the Lamb in 5+1d4 minutes if able to reach the location."
+        ],
+        "kind": "breached brick wall",
+        "medium": "water",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.area-44-cistern",
+      "id": "edge-place.module-lair-of-the-lamb.area-44-cistern-place.module-lair-of-the-lamb.boundary-44a-wall",
+      "source_pages": [
+        15,
+        28,
+        40
+      ],
+      "to": "place.module-lair-of-the-lamb.boundary-44a-wall"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [
+          "Traversal requires swimming underwater."
+        ],
+        "features": [
+          "A person can swim the tunnel in about 5 minutes."
+        ],
+        "hazards": [
+          "Drowning risk during a five-minute swim."
+        ],
+        "kind": "underwater tunnel",
+        "medium": "water",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-44-cistern",
+      "id": "edge-place.module-lair-of-the-lamb.area-44-cistern-place.module-lair-of-the-lamb.waypoint-9a-underwater-tunnel",
+      "source_pages": [
+        15,
+        23,
+        40
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-9a-underwater-tunnel"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-5-landing",
+      "id": "edge-place.module-lair-of-the-lamb.area-5-landing-place.module-lair-of-the-lamb.area-8-pit",
+      "source_pages": [
+        15,
+        18,
+        22,
+        23
+      ],
+      "to": "place.module-lair-of-the-lamb.area-8-pit"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "heavy steel doors locked from the other side"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The doors must be opened from the far side or otherwise bypassed."
+        ],
+        "elevation": "up",
+        "features": [
+          "Ascending stairs are barely visible behind the doors."
+        ],
+        "hazards": [],
+        "kind": "doorway and ascending stairway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-5-landing",
+      "id": "edge-place.module-lair-of-the-lamb.area-5-landing-place.module-lair-of-the-lamb.boundary-5-north-steel-doors",
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "to": "place.module-lair-of-the-lamb.boundary-5-north-steel-doors"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-5-landing",
+      "id": "edge-place.module-lair-of-the-lamb.area-5-landing-place.module-lair-of-the-lamb.waypoint-1b-second-intersection",
+      "source_pages": [
+        15,
+        18,
+        21,
+        22
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-1b-second-intersection"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-5-landing",
+      "id": "edge-place.module-lair-of-the-lamb.area-5-landing-place.module-lair-of-the-lamb.waypoint-5-6-corridor",
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-5-6-corridor"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-5a-closet",
+      "id": "edge-place.module-lair-of-the-lamb.area-5a-closet-place.module-lair-of-the-lamb.waypoint-5-6-corridor",
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-5-6-corridor"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "door impossible to force open"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "Set the four tumblers to 1-2-1-2 and pull the lever."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [
+          "An incorrect setting produces grinding noise and, once, sprays milky acid."
+        ],
+        "kind": "recessed doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-6-tumblers",
+      "id": "edge-place.module-lair-of-the-lamb.area-6-tumblers-place.module-lair-of-the-lamb.area-7-throne",
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "to": "place.module-lair-of-the-lamb.area-7-throne"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-6-tumblers",
+      "id": "edge-place.module-lair-of-the-lamb.area-6-tumblers-place.module-lair-of-the-lamb.waypoint-5-6-corridor",
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-5-6-corridor"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "wooden door shown on the map"
+        ],
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-8-pit",
+      "id": "edge-place.module-lair-of-the-lamb.area-8-pit-place.module-lair-of-the-lamb.area-9-fountain",
+      "source_pages": [
+        15,
+        18,
+        23
+      ],
+      "to": "place.module-lair-of-the-lamb.area-9-fountain"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "concealed",
+        "conditions": [
+          "Enter the 30-foot-deep pool and locate the underwater tunnel."
+        ],
+        "elevation": "down",
+        "features": [],
+        "hazards": [
+          "Drowning risk during underwater traversal."
+        ],
+        "kind": "underwater opening",
+        "medium": "water",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.area-9-fountain",
+      "id": "edge-place.module-lair-of-the-lamb.area-9-fountain-place.module-lair-of-the-lamb.waypoint-9a-underwater-tunnel",
+      "source_pages": [
+        15,
+        18,
+        23,
+        40
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-9a-underwater-tunnel"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "opening only the size of a fist"
+        ],
+        "baseline_state": "blocked",
+        "conditions": [],
+        "elevation": "level",
+        "features": [
+          "Allows sight, speech, and exchange of small items with the chicken vendor in the plaza."
+        ],
+        "hazards": [],
+        "kind": "fist-sized opening",
+        "medium": "air",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.area-white-temple-plaza",
+      "id": "edge-place.module-lair-of-the-lamb.area-white-temple-plaza-place.module-lair-of-the-lamb.waypoint-15-crack",
+      "source_pages": [
+        24
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-15-crack"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "line of 30 severed heads separating the east and west sides"
+        ],
+        "baseline_state": "active",
+        "conditions": [
+          "Do not touch or pass over the heads while their formation is intact, or first disrupt the formation; then descend the stairs toward 44A WALL."
+        ],
+        "elevation": "down",
+        "features": [
+          "The effect ends while any head is moved out of formation and resumes when the formation is restored."
+        ],
+        "hazards": [
+          "If the heads are touched or someone passes over them, the nearest living thing dies with no save."
+        ],
+        "kind": "ghost-fence crossing and descending stairway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.boundary-40-ghost-fence",
+      "id": "edge-place.module-lair-of-the-lamb.boundary-40-ghost-fence-place.module-lair-of-the-lamb.boundary-44a-wall",
+      "source_pages": [
+        15,
+        28,
+        35,
+        36,
+        40
+      ],
+      "to": "place.module-lair-of-the-lamb.boundary-44a-wall"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.waypoint-1a-first-intersection",
+      "id": "edge-place.module-lair-of-the-lamb.waypoint-1a-first-intersection-place.module-lair-of-the-lamb.waypoint-1b-second-intersection",
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-1b-second-intersection"
+    },
+    {
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "place.module-lair-of-the-lamb.waypoint-1b-second-intersection",
+      "id": "edge-place.module-lair-of-the-lamb.waypoint-1b-second-intersection-place.module-lair-of-the-lamb.waypoint-1c-third-intersection",
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-1c-third-intersection"
+    },
+    {
+      "facets": {
+        "barriers": [
+          "trapdoor in the exact middle of the hallway"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "Depress the switch at the back of the 4-foot-deep round hole in the ceiling to open the trapdoor."
+        ],
+        "elevation": "down",
+        "features": [],
+        "hazards": [
+          "40-foot fall onto stacked furniture barely above the water."
+        ],
+        "kind": "trapdoor and pit",
+        "medium": "air",
+        "traversal_direction": "from_to",
+        "visibility": "hidden"
+      },
+      "from": "place.module-lair-of-the-lamb.waypoint-35-tricky-hallway",
+      "id": "edge-place.module-lair-of-the-lamb.waypoint-35-tricky-hallway-place.module-lair-of-the-lamb.waypoint-35a-trapdoor-pit",
+      "source_pages": [
+        15,
+        28,
+        35,
+        37
+      ],
+      "to": "place.module-lair-of-the-lamb.waypoint-35a-trapdoor-pit"
+    }
+  ]
+}

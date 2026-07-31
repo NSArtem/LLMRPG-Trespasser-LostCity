@@ -1,0 +1,633 @@
+# Module index
+
+## Places
+
+- [1 BOWLS](cards/places/place.module-lair-of-the-lamb.1-bowls.md) — `place.module-lair-of-the-lamb.1-bowls`
+- [10 BONE PILE](cards/places/place.module-lair-of-the-lamb.10-bone-pile.md) — `place.module-lair-of-the-lamb.10-bone-pile`
+- [11 CRAB MURAL](cards/places/place.module-lair-of-the-lamb.11-crab-mural.md) — `place.module-lair-of-the-lamb.11-crab-mural`
+- [12 ABACUS MURAL](cards/places/place.module-lair-of-the-lamb.12-abacus-mural.md) — `place.module-lair-of-the-lamb.12-abacus-mural`
+- [13 CITY MURAL](cards/places/place.module-lair-of-the-lamb.13-city-mural.md) — `place.module-lair-of-the-lamb.13-city-mural`
+- [14 SARCOPHAGUS](cards/places/place.module-lair-of-the-lamb.14-sarcophagus.md) — `place.module-lair-of-the-lamb.14-sarcophagus`
+- [14A SHADRAKUL](cards/places/place.module-lair-of-the-lamb.14a-shadrakul.md) — `place.module-lair-of-the-lamb.14a-shadrakul`
+- [15 CRACK](cards/places/place.module-lair-of-the-lamb.15-crack.md) — `place.module-lair-of-the-lamb.15-crack`
+- [16 MOLD](cards/places/place.module-lair-of-the-lamb.16-mold.md) — `place.module-lair-of-the-lamb.16-mold`
+- [17 ALTAR](cards/places/place.module-lair-of-the-lamb.17-altar.md) — `place.module-lair-of-the-lamb.17-altar`
+- [18 SHAFT](cards/places/place.module-lair-of-the-lamb.18-shaft.md) — `place.module-lair-of-the-lamb.18-shaft`
+- [18A LEDGE](cards/places/place.module-lair-of-the-lamb.18a-ledge.md) — `place.module-lair-of-the-lamb.18a-ledge`
+- [19 PRIESTS](cards/places/place.module-lair-of-the-lamb.19-priests.md) — `place.module-lair-of-the-lamb.19-priests`
+- [1A FIRST INTERSECTION](cards/places/place.module-lair-of-the-lamb.1a-first-intersection.md) — `place.module-lair-of-the-lamb.1a-first-intersection`
+- [1B SECOND INTERSECTION](cards/places/place.module-lair-of-the-lamb.1b-second-intersection.md) — `place.module-lair-of-the-lamb.1b-second-intersection`
+- [1C THIRD INTERSECTION](cards/places/place.module-lair-of-the-lamb.1c-third-intersection.md) — `place.module-lair-of-the-lamb.1c-third-intersection`
+- [2 GOATS](cards/places/place.module-lair-of-the-lamb.2-goats.md) — `place.module-lair-of-the-lamb.2-goats`
+- [20 POOLS](cards/places/place.module-lair-of-the-lamb.20-pools.md) — `place.module-lair-of-the-lamb.20-pools`
+- [21 HEAVY DOORS](cards/places/place.module-lair-of-the-lamb.21-heavy-doors.md) — `place.module-lair-of-the-lamb.21-heavy-doors`
+- [22 MUSHROOM](cards/places/place.module-lair-of-the-lamb.22-mushroom.md) — `place.module-lair-of-the-lamb.22-mushroom`
+- [23 WEAK FLOOR](cards/places/place.module-lair-of-the-lamb.23-weak-floor.md) — `place.module-lair-of-the-lamb.23-weak-floor`
+- [24 CRUSH HALLWAY](cards/places/place.module-lair-of-the-lamb.24-crush-hallway.md) — `place.module-lair-of-the-lamb.24-crush-hallway`
+- [24A](cards/places/place.module-lair-of-the-lamb.24a.md) — `place.module-lair-of-the-lamb.24a`
+- [24B](cards/places/place.module-lair-of-the-lamb.24b.md) — `place.module-lair-of-the-lamb.24b`
+- [24C](cards/places/place.module-lair-of-the-lamb.24c.md) — `place.module-lair-of-the-lamb.24c`
+- [25 CRYPT](cards/places/place.module-lair-of-the-lamb.25-crypt.md) — `place.module-lair-of-the-lamb.25-crypt`
+- [25A CRYPT](cards/places/place.module-lair-of-the-lamb.25a-crypt.md) — `place.module-lair-of-the-lamb.25a-crypt`
+- [25B CRYPT](cards/places/place.module-lair-of-the-lamb.25b-crypt.md) — `place.module-lair-of-the-lamb.25b-crypt`
+- [25C CRYPT](cards/places/place.module-lair-of-the-lamb.25c-crypt.md) — `place.module-lair-of-the-lamb.25c-crypt`
+- [25D CRYPT](cards/places/place.module-lair-of-the-lamb.25d-crypt.md) — `place.module-lair-of-the-lamb.25d-crypt`
+- [25E CRYPT](cards/places/place.module-lair-of-the-lamb.25e-crypt.md) — `place.module-lair-of-the-lamb.25e-crypt`
+- [25F CRYPT](cards/places/place.module-lair-of-the-lamb.25f-crypt.md) — `place.module-lair-of-the-lamb.25f-crypt`
+- [25G CRYPT](cards/places/place.module-lair-of-the-lamb.25g-crypt.md) — `place.module-lair-of-the-lamb.25g-crypt`
+- [26 SECRET CRYPT](cards/places/place.module-lair-of-the-lamb.26-secret-crypt.md) — `place.module-lair-of-the-lamb.26-secret-crypt`
+- [27 BALLISTA](cards/places/place.module-lair-of-the-lamb.27-ballista.md) — `place.module-lair-of-the-lamb.27-ballista`
+- [28 GAMES](cards/places/place.module-lair-of-the-lamb.28-games.md) — `place.module-lair-of-the-lamb.28-games`
+- [29 STAGE](cards/places/place.module-lair-of-the-lamb.29-stage.md) — `place.module-lair-of-the-lamb.29-stage`
+- [3 VINEGAR](cards/places/place.module-lair-of-the-lamb.3-vinegar.md) — `place.module-lair-of-the-lamb.3-vinegar`
+- [30 COFFER](cards/places/place.module-lair-of-the-lamb.30-coffer.md) — `place.module-lair-of-the-lamb.30-coffer`
+- [31 TRAVERSE](cards/places/place.module-lair-of-the-lamb.31-traverse.md) — `place.module-lair-of-the-lamb.31-traverse`
+- [32 ISOPODS](cards/places/place.module-lair-of-the-lamb.32-isopods.md) — `place.module-lair-of-the-lamb.32-isopods`
+- [33 FUNGUS](cards/places/place.module-lair-of-the-lamb.33-fungus.md) — `place.module-lair-of-the-lamb.33-fungus`
+- [34 CACHE](cards/places/place.module-lair-of-the-lamb.34-cache.md) — `place.module-lair-of-the-lamb.34-cache`
+- [35 TRICKY HALLWAY](cards/places/place.module-lair-of-the-lamb.35-tricky-hallway.md) — `place.module-lair-of-the-lamb.35-tricky-hallway`
+- [36 TABLE](cards/places/place.module-lair-of-the-lamb.36-table.md) — `place.module-lair-of-the-lamb.36-table`
+- [37 CHEWED BONES](cards/places/place.module-lair-of-the-lamb.37-chewed-bones.md) — `place.module-lair-of-the-lamb.37-chewed-bones`
+- [4 CHESTS](cards/places/place.module-lair-of-the-lamb.4-chests.md) — `place.module-lair-of-the-lamb.4-chests`
+- [44 CISTERN](cards/places/place.module-lair-of-the-lamb.44-cistern.md) — `place.module-lair-of-the-lamb.44-cistern`
+- [44A WALL](cards/places/place.module-lair-of-the-lamb.44a-wall.md) — `place.module-lair-of-the-lamb.44a-wall`
+- [45 BARRELS](cards/places/place.module-lair-of-the-lamb.45-barrels.md) — `place.module-lair-of-the-lamb.45-barrels`
+- [46 DAYLIGHT](cards/places/place.module-lair-of-the-lamb.46-daylight.md) — `place.module-lair-of-the-lamb.46-daylight`
+- [46A STATUE](cards/places/place.module-lair-of-the-lamb.46a-statue.md) — `place.module-lair-of-the-lamb.46a-statue`
+- [46B TOWER](cards/places/place.module-lair-of-the-lamb.46b-tower.md) — `place.module-lair-of-the-lamb.46b-tower`
+- [5 LANDING](cards/places/place.module-lair-of-the-lamb.5-landing.md) — `place.module-lair-of-the-lamb.5-landing`
+- [5A CLOSET](cards/places/place.module-lair-of-the-lamb.5a-closet.md) — `place.module-lair-of-the-lamb.5a-closet`
+- [6 TUMBLERS](cards/places/place.module-lair-of-the-lamb.6-tumblers.md) — `place.module-lair-of-the-lamb.6-tumblers`
+- [7 THRONE](cards/places/place.module-lair-of-the-lamb.7-throne.md) — `place.module-lair-of-the-lamb.7-throne`
+- [8 PIT](cards/places/place.module-lair-of-the-lamb.8-pit.md) — `place.module-lair-of-the-lamb.8-pit`
+- [9 FOUNTAIN](cards/places/place.module-lair-of-the-lamb.9-fountain.md) — `place.module-lair-of-the-lamb.9-fountain`
+- [9A UNDERWATER TUNNEL](cards/places/place.module-lair-of-the-lamb.9a-underwater-tunnel.md) — `place.module-lair-of-the-lamb.9a-underwater-tunnel`
+- [Dungeon Features](cards/places/place.module-lair-of-the-lamb.dungeon-features.md) — `place.module-lair-of-the-lamb.dungeon-features`
+- [Ghost Fence](cards/places/place.module-lair-of-the-lamb.ghost-fence.md) — `place.module-lair-of-the-lamb.ghost-fence`
+- [Plaza Beside the White Temple](cards/places/place.module-lair-of-the-lamb.plaza-beside-the-white-temple.md) — `place.module-lair-of-the-lamb.plaza-beside-the-white-temple`
+- [Shroud](cards/places/place.module-lair-of-the-lamb.shroud.md) — `place.module-lair-of-the-lamb.shroud`
+- [Spider Crab](cards/places/place.module-lair-of-the-lamb.spider-crab.md) — `place.module-lair-of-the-lamb.spider-crab`
+- [Stone Egg](cards/places/place.module-lair-of-the-lamb.stone-egg.md) — `place.module-lair-of-the-lamb.stone-egg`
+- [Sunken Gallery](cards/places/place.module-lair-of-the-lamb.sunken-gallery.md) — `place.module-lair-of-the-lamb.sunken-gallery`
+- [Sunken Shrine](cards/places/place.module-lair-of-the-lamb.sunken-shrine.md) — `place.module-lair-of-the-lamb.sunken-shrine`
+- [The Free City of Lon Barago](cards/places/place.module-lair-of-the-lamb.the-free-city-of-lon-barago.md) — `place.module-lair-of-the-lamb.the-free-city-of-lon-barago`
+- [White Temple](cards/places/place.module-lair-of-the-lamb.white-temple.md) — `place.module-lair-of-the-lamb.white-temple`
+
+## Actors
+
+- [Akina](cards/actors/actor.module-lair-of-the-lamb.akina.md) — `actor.module-lair-of-the-lamb.akina`
+- [Ancient Apparatus of Anguish](cards/actors/actor.module-lair-of-the-lamb.ancient-apparatus-of-anguish.md) — `actor.module-lair-of-the-lamb.ancient-apparatus-of-anguish`
+- [Available Ghouls](cards/actors/actor.module-lair-of-the-lamb.available-ghouls.md) — `actor.module-lair-of-the-lamb.available-ghouls`
+- [Bilosh](cards/actors/actor.module-lair-of-the-lamb.bilosh.md) — `actor.module-lair-of-the-lamb.bilosh`
+- [Captain Conroy](cards/actors/actor.module-lair-of-the-lamb.captain-conroy.md) — `actor.module-lair-of-the-lamb.captain-conroy`
+- [Danjo](cards/actors/actor.module-lair-of-the-lamb.danjo.md) — `actor.module-lair-of-the-lamb.danjo`
+- [Father Bastoval](cards/actors/actor.module-lair-of-the-lamb.father-bastoval.md) — `actor.module-lair-of-the-lamb.father-bastoval`
+- [Friendly Rat](cards/actors/actor.module-lair-of-the-lamb.friendly-rat.md) — `actor.module-lair-of-the-lamb.friendly-rat`
+- [Gerdith](cards/actors/actor.module-lair-of-the-lamb.gerdith.md) — `actor.module-lair-of-the-lamb.gerdith`
+- [Jasper](cards/actors/actor.module-lair-of-the-lamb.jasper.md) — `actor.module-lair-of-the-lamb.jasper`
+- [Lantern Worm](cards/actors/actor.module-lair-of-the-lamb.lantern-worm.md) — `actor.module-lair-of-the-lamb.lantern-worm`
+- [Live Goat](cards/actors/actor.module-lair-of-the-lamb.live-goat.md) — `actor.module-lair-of-the-lamb.live-goat`
+- [Luntz](cards/actors/actor.module-lair-of-the-lamb.luntz.md) — `actor.module-lair-of-the-lamb.luntz`
+- [Malenna](cards/actors/actor.module-lair-of-the-lamb.malenna.md) — `actor.module-lair-of-the-lamb.malenna`
+- [Mino](cards/actors/actor.module-lair-of-the-lamb.mino.md) — `actor.module-lair-of-the-lamb.mino`
+- [Molina](cards/actors/actor.module-lair-of-the-lamb.molina.md) — `actor.module-lair-of-the-lamb.molina`
+- [Priest of the Pool](cards/actors/actor.module-lair-of-the-lamb.priest-of-the-pool.md) — `actor.module-lair-of-the-lamb.priest-of-the-pool`
+- [Robed Skeleton](cards/actors/actor.module-lair-of-the-lamb.robed-skeleton.md) — `actor.module-lair-of-the-lamb.robed-skeleton`
+- [Shawson](cards/actors/actor.module-lair-of-the-lamb.shawson.md) — `actor.module-lair-of-the-lamb.shawson`
+- [Shawson the Ghoul](cards/actors/actor.module-lair-of-the-lamb.shawson-the-ghoul.md) — `actor.module-lair-of-the-lamb.shawson-the-ghoul`
+- [Skeletal Serpent](cards/actors/actor.module-lair-of-the-lamb.skeletal-serpent.md) — `actor.module-lair-of-the-lamb.skeletal-serpent`
+- [Spider Crab](cards/actors/actor.module-lair-of-the-lamb.spider-crab.md) — `actor.module-lair-of-the-lamb.spider-crab`
+- [Spider Crab at 31 TRAVERSE](cards/actors/actor.module-lair-of-the-lamb.spider-crab-at-31-traverse.md) — `actor.module-lair-of-the-lamb.spider-crab-at-31-traverse`
+- [The Apparatus](cards/actors/actor.module-lair-of-the-lamb.the-apparatus.md) — `actor.module-lair-of-the-lamb.the-apparatus`
+- [The Lamb](cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md) — `actor.module-lair-of-the-lamb.the-lamb-25359288`
+- [The Lamb](cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md) — `actor.module-lair-of-the-lamb.the-lamb-c0865d75`
+- [The Little Lambs](cards/actors/actor.module-lair-of-the-lamb.the-little-lambs.md) — `actor.module-lair-of-the-lamb.the-little-lambs`
+- [The Red Temple](cards/actors/actor.module-lair-of-the-lamb.the-red-temple.md) — `actor.module-lair-of-the-lamb.the-red-temple`
+- [The Spider Crab](cards/actors/actor.module-lair-of-the-lamb.the-spider-crab.md) — `actor.module-lair-of-the-lamb.the-spider-crab`
+- [The Temple of True Power](cards/actors/actor.module-lair-of-the-lamb.the-temple-of-true-power.md) — `actor.module-lair-of-the-lamb.the-temple-of-true-power`
+- [The Twelve-Fingered Hand](cards/actors/actor.module-lair-of-the-lamb.the-twelve-fingered-hand.md) — `actor.module-lair-of-the-lamb.the-twelve-fingered-hand`
+- [The White Temple](cards/actors/actor.module-lair-of-the-lamb.the-white-temple.md) — `actor.module-lair-of-the-lamb.the-white-temple`
+- [Three Armored Isopods](cards/actors/actor.module-lair-of-the-lamb.three-armored-isopods.md) — `actor.module-lair-of-the-lamb.three-armored-isopods`
+- [Townsfolk](cards/actors/actor.module-lair-of-the-lamb.townsfolk.md) — `actor.module-lair-of-the-lamb.townsfolk`
+- [Vandress](cards/actors/actor.module-lair-of-the-lamb.vandress.md) — `actor.module-lair-of-the-lamb.vandress`
+- [White Temple clerics](cards/actors/actor.module-lair-of-the-lamb.white-temple-clerics.md) — `actor.module-lair-of-the-lamb.white-temple-clerics`
+
+## Situations
+
+- [24 CRUSH HALLWAY Trap](cards/situations/situation.module-lair-of-the-lamb.24-crush-hallway-trap.md) — `situation.module-lair-of-the-lamb.24-crush-hallway-trap`
+- [35 TRICKY HALLWAY Trap Door](cards/situations/situation.module-lair-of-the-lamb.35-tricky-hallway-trap-door.md) — `situation.module-lair-of-the-lamb.35-tricky-hallway-trap-door`
+- [Akina’s Rescue Bargain](cards/situations/situation.module-lair-of-the-lamb.akinas-rescue-bargain.md) — `situation.module-lair-of-the-lamb.akinas-rescue-bargain`
+- [Ancient Apparatus Awakening](cards/situations/situation.module-lair-of-the-lamb.ancient-apparatus-awakening.md) — `situation.module-lair-of-the-lamb.ancient-apparatus-awakening`
+- [Bastoval Checks on the Lamb](cards/situations/situation.module-lair-of-the-lamb.bastoval-checks-on-the-lamb.md) — `situation.module-lair-of-the-lamb.bastoval-checks-on-the-lamb`
+- [Bastoval’s Ghostly Warning](cards/situations/situation.module-lair-of-the-lamb.bastovals-ghostly-warning.md) — `situation.module-lair-of-the-lamb.bastovals-ghostly-warning`
+- [Blue Polypore Aura of Nonviolence](cards/situations/situation.module-lair-of-the-lamb.blue-polypore-aura-of-nonviolence.md) — `situation.module-lair-of-the-lamb.blue-polypore-aura-of-nonviolence`
+- [Collapse of 12 ABACUS MURAL](cards/situations/situation.module-lair-of-the-lamb.collapse-of-12-abacus-mural.md) — `situation.module-lair-of-the-lamb.collapse-of-12-abacus-mural`
+- [Collapse of 23 WEAK FLOOR](cards/situations/situation.module-lair-of-the-lamb.collapse-of-23-weak-floor.md) — `situation.module-lair-of-the-lamb.collapse-of-23-weak-floor`
+- [Crossing the Ghost Fence](cards/situations/situation.module-lair-of-the-lamb.crossing-the-ghost-fence.md) — `situation.module-lair-of-the-lamb.crossing-the-ghost-fence`
+- [Danjo’s Extortion and Trade](cards/situations/situation.module-lair-of-the-lamb.danjos-extortion-and-trade.md) — `situation.module-lair-of-the-lamb.danjos-extortion-and-trade`
+- [Distant Grunting and Gnawing](cards/situations/situation.module-lair-of-the-lamb.distant-grunting-and-gnawing.md) — `situation.module-lair-of-the-lamb.distant-grunting-and-gnawing`
+- [Echoes of the Lamb](cards/situations/situation.module-lair-of-the-lamb.echoes-of-the-lamb.md) — `situation.module-lair-of-the-lamb.echoes-of-the-lamb`
+- [Father Bastoval Enters the Dungeon](cards/situations/situation.module-lair-of-the-lamb.father-bastoval-enters-the-dungeon.md) — `situation.module-lair-of-the-lamb.father-bastoval-enters-the-dungeon`
+- [FIGHTING THE LAMB](cards/situations/situation.module-lair-of-the-lamb.fighting-the-lamb.md) — `situation.module-lair-of-the-lamb.fighting-the-lamb`
+- [Gerdith and Molina Investigate an Alert](cards/situations/situation.module-lair-of-the-lamb.gerdith-and-molina-investigate-an-alert.md) — `situation.module-lair-of-the-lamb.gerdith-and-molina-investigate-an-alert`
+- [Ghost Fence Effect Reaches 37 CHEWED BONES](cards/situations/situation.module-lair-of-the-lamb.ghost-fence-effect-reaches-37-chewed-bones.md) — `situation.module-lair-of-the-lamb.ghost-fence-effect-reaches-37-chewed-bones`
+- [Ghouls Leave After the Ghost Fence Falls](cards/situations/situation.module-lair-of-the-lamb.ghouls-leave-after-the-ghost-fence-falls.md) — `situation.module-lair-of-the-lamb.ghouls-leave-after-the-ghost-fence-falls`
+- [Goblet and Skeletal Serpent Trap](cards/situations/situation.module-lair-of-the-lamb.goblet-and-skeletal-serpent-trap.md) — `situation.module-lair-of-the-lamb.goblet-and-skeletal-serpent-trap`
+- [Jasper and Luntz at 21 HEAVY DOORS](cards/situations/situation.module-lair-of-the-lamb.jasper-and-luntz-at-21-heavy-doors.md) — `situation.module-lair-of-the-lamb.jasper-and-luntz-at-21-heavy-doors`
+- [Little Lambs Digging Nearby](cards/situations/situation.module-lair-of-the-lamb.little-lambs-digging-nearby.md) — `situation.module-lair-of-the-lamb.little-lambs-digging-nearby`
+- [Little Lambs Emerge from the Corpse](cards/situations/situation.module-lair-of-the-lamb.little-lambs-emerge-from-the-corpse.md) — `situation.module-lair-of-the-lamb.little-lambs-emerge-from-the-corpse`
+- [Looting the Armored Corpse](cards/situations/situation.module-lair-of-the-lamb.looting-the-armored-corpse.md) — `situation.module-lair-of-the-lamb.looting-the-armored-corpse`
+- [More Tremors](cards/situations/situation.module-lair-of-the-lamb.more-tremors.md) — `situation.module-lair-of-the-lamb.more-tremors`
+- [Negotiating Favors with the Ghouls](cards/situations/situation.module-lair-of-the-lamb.negotiating-favors-with-the-ghouls.md) — `situation.module-lair-of-the-lamb.negotiating-favors-with-the-ghouls`
+- [Noisy Breach at 44A](cards/situations/situation.module-lair-of-the-lamb.noisy-breach-at-44a.md) — `situation.module-lair-of-the-lamb.noisy-breach-at-44a`
+- [Poison Coffer Discharge](cards/situations/situation.module-lair-of-the-lamb.poison-coffer-discharge.md) — `situation.module-lair-of-the-lamb.poison-coffer-discharge`
+- [Priests Awaken and Attack](cards/situations/situation.module-lair-of-the-lamb.priests-awaken-and-attack.md) — `situation.module-lair-of-the-lamb.priests-awaken-and-attack`
+- [Reassemble the Seven Mummies](cards/situations/situation.module-lair-of-the-lamb.reassemble-the-seven-mummies.md) — `situation.module-lair-of-the-lamb.reassemble-the-seven-mummies`
+- [Red Spider Exposure](cards/situations/situation.module-lair-of-the-lamb.red-spider-exposure.md) — `situation.module-lair-of-the-lamb.red-spider-exposure`
+- [Return the Avenging Angel Battle Standard](cards/situations/situation.module-lair-of-the-lamb.return-the-avenging-angel-battle-standard.md) — `situation.module-lair-of-the-lamb.return-the-avenging-angel-battle-standard`
+- [Sarcophagus Trapdoor](cards/situations/situation.module-lair-of-the-lamb.sarcophagus-trapdoor.md) — `situation.module-lair-of-the-lamb.sarcophagus-trapdoor`
+- [Shawson Ambushes the Secret Opening](cards/situations/situation.module-lair-of-the-lamb.shawson-ambushes-the-secret-opening.md) — `situation.module-lair-of-the-lamb.shawson-ambushes-the-secret-opening`
+- [Sitting on the Throne](cards/situations/situation.module-lair-of-the-lamb.sitting-on-the-throne.md) — `situation.module-lair-of-the-lamb.sitting-on-the-throne`
+- [Soul-Severing Guillotine Cycle](cards/situations/situation.module-lair-of-the-lamb.soul-severing-guillotine-cycle.md) — `situation.module-lair-of-the-lamb.soul-severing-guillotine-cycle`
+- [Spider Crab in the Pool](cards/situations/situation.module-lair-of-the-lamb.spider-crab-in-the-pool.md) — `situation.module-lair-of-the-lamb.spider-crab-in-the-pool`
+- [Spider Crab Watches the Traverse](cards/situations/situation.module-lair-of-the-lamb.spider-crab-watches-the-traverse.md) — `situation.module-lair-of-the-lamb.spider-crab-watches-the-traverse`
+- [The Haunting of 9 FOUNTAIN](cards/situations/situation.module-lair-of-the-lamb.the-haunting-of-9-fountain.md) — `situation.module-lair-of-the-lamb.the-haunting-of-9-fountain`
+- [The Lamb Approaches](cards/situations/situation.module-lair-of-the-lamb.the-lamb-approaches.md) — `situation.module-lair-of-the-lamb.the-lamb-approaches`
+- [The Lamb Approaches in 44 CISTERN](cards/situations/situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern.md) — `situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern`
+- [The Lamb Blocks the Bone-Pile Tunnel](cards/situations/situation.module-lair-of-the-lamb.the-lamb-blocks-the-bone-pile-tunnel.md) — `situation.module-lair-of-the-lamb.the-lamb-blocks-the-bone-pile-tunnel`
+- [The Lamb Enters 1 BOWLS](cards/situations/situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls.md) — `situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls`
+- [The Lamb Is Nearby](cards/situations/situation.module-lair-of-the-lamb.the-lamb-is-nearby.md) — `situation.module-lair-of-the-lamb.the-lamb-is-nearby`
+- [The Skull of Davok Escapes](cards/situations/situation.module-lair-of-the-lamb.the-skull-of-davok-escapes.md) — `situation.module-lair-of-the-lamb.the-skull-of-davok-escapes`
+- [The Stone Egg Opens](cards/situations/situation.module-lair-of-the-lamb.the-stone-egg-opens.md) — `situation.module-lair-of-the-lamb.the-stone-egg-opens`
+- [Three Armored Isopods Foraging](cards/situations/situation.module-lair-of-the-lamb.three-armored-isopods-foraging.md) — `situation.module-lair-of-the-lamb.three-armored-isopods-foraging`
+- [Three Little Lambs on the Ceiling](cards/situations/situation.module-lair-of-the-lamb.three-little-lambs-on-the-ceiling.md) — `situation.module-lair-of-the-lamb.three-little-lambs-on-the-ceiling`
+- [Traditional Level 1 Lock-In](cards/situations/situation.module-lair-of-the-lamb.traditional-level-1-lock-in.md) — `situation.module-lair-of-the-lamb.traditional-level-1-lock-in`
+- [Tumbler Password Check](cards/situations/situation.module-lair-of-the-lamb.tumbler-password-check.md) — `situation.module-lair-of-the-lamb.tumbler-password-check`
+- [Vandoh Possesses a Left Hand](cards/situations/situation.module-lair-of-the-lamb.vandoh-possesses-a-left-hand.md) — `situation.module-lair-of-the-lamb.vandoh-possesses-a-left-hand`
+- [Yellow Mold Chest](cards/situations/situation.module-lair-of-the-lamb.yellow-mold-chest.md) — `situation.module-lair-of-the-lamb.yellow-mold-chest`
+
+## Knowledge
+
+- [21 HEAVY DOOR as the Halfway Point](cards/knowledge/knowledge.module-lair-of-the-lamb.21-heavy-door-as-the-halfway-point.md) — `knowledge.module-lair-of-the-lamb.21-heavy-door-as-the-halfway-point`
+- [44 CISTERN Well Access](cards/knowledge/knowledge.module-lair-of-the-lamb.44-cistern-well-access.md) — `knowledge.module-lair-of-the-lamb.44-cistern-well-access`
+- [Akina’s Knowledge](cards/knowledge/knowledge.module-lair-of-the-lamb.akinas-knowledge.md) — `knowledge.module-lair-of-the-lamb.akinas-knowledge`
+- [Captain Conroy's Fate and Last Order](cards/knowledge/knowledge.module-lair-of-the-lamb.captain-conroys-fate-and-last-order.md) — `knowledge.module-lair-of-the-lamb.captain-conroys-fate-and-last-order`
+- [Destination Beyond the Door at 45 BARRELS](cards/knowledge/knowledge.module-lair-of-the-lamb.destination-beyond-the-door-at-45-barrels.md) — `knowledge.module-lair-of-the-lamb.destination-beyond-the-door-at-45-barrels`
+- [Expected Dungeon Flow](cards/knowledge/knowledge.module-lair-of-the-lamb.expected-dungeon-flow.md) — `knowledge.module-lair-of-the-lamb.expected-dungeon-flow`
+- [Fresh Air and the Cistern Beyond 44A](cards/knowledge/knowledge.module-lair-of-the-lamb.fresh-air-and-the-cistern-beyond-44a.md) — `knowledge.module-lair-of-the-lamb.fresh-air-and-the-cistern-beyond-44a`
+- [Ghoul Favors and Rewards](cards/knowledge/knowledge.module-lair-of-the-lamb.ghoul-favors-and-rewards.md) — `knowledge.module-lair-of-the-lamb.ghoul-favors-and-rewards`
+- [Preferred Opportunity to Kill the Lamb](cards/knowledge/knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb.md) — `knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb`
+- [The Ghouls of the Second Floor](cards/knowledge/knowledge.module-lair-of-the-lamb.the-ghouls-of-the-second-floor.md) — `knowledge.module-lair-of-the-lamb.the-ghouls-of-the-second-floor`
+- [The Lamb](cards/knowledge/knowledge.module-lair-of-the-lamb.the-lamb.md) — `knowledge.module-lair-of-the-lamb.the-lamb`
+- [The Noria Feeds the White Temple](cards/knowledge/knowledge.module-lair-of-the-lamb.the-noria-feeds-the-white-temple.md) — `knowledge.module-lair-of-the-lamb.the-noria-feeds-the-white-temple`
+- [The Raid](cards/knowledge/knowledge.module-lair-of-the-lamb.the-raid.md) — `knowledge.module-lair-of-the-lamb.the-raid`
+- [The Scribe's Scroll](cards/knowledge/knowledge.module-lair-of-the-lamb.the-scribes-scroll.md) — `knowledge.module-lair-of-the-lamb.the-scribes-scroll`
+- [Tumbler Password](cards/knowledge/knowledge.module-lair-of-the-lamb.tumbler-password.md) — `knowledge.module-lair-of-the-lamb.tumbler-password`
+- [White Temple Cleanup Schedule](cards/knowledge/knowledge.module-lair-of-the-lamb.white-temple-cleanup-schedule.md) — `knowledge.module-lair-of-the-lamb.white-temple-cleanup-schedule`
+- [White Temple Response to the Lamb's Death in the Noria](cards/knowledge/knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria.md) — `knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria`
+
+## Procedures
+
+- [Block the 46A Trapdoor with Vandoh's Statue](cards/procedures/procedure.module-lair-of-the-lamb.block-the-46a-trapdoor-with-vandohs-statue.md) — `procedure.module-lair-of-the-lamb.block-the-46a-trapdoor-with-vandohs-statue`
+- [Calculate Human Swim Speed in 44 CISTERN](cards/procedures/procedure.module-lair-of-the-lamb.calculate-human-swim-speed-in-44-cistern.md) — `procedure.module-lair-of-the-lamb.calculate-human-swim-speed-in-44-cistern`
+- [Calculate Makeshift Table-Boat Speed](cards/procedures/procedure.module-lair-of-the-lamb.calculate-makeshift-table-boat-speed.md) — `procedure.module-lair-of-the-lamb.calculate-makeshift-table-boat-speed`
+- [Clearing the Blocked Bone-Pile Tunnel](cards/procedures/procedure.module-lair-of-the-lamb.clearing-the-blocked-bone-pile-tunnel.md) — `procedure.module-lair-of-the-lamb.clearing-the-blocked-bone-pile-tunnel`
+- [Collapsing 12 ABACUS MURAL](cards/procedures/procedure.module-lair-of-the-lamb.collapsing-12-abacus-mural.md) — `procedure.module-lair-of-the-lamb.collapsing-12-abacus-mural`
+- [Cross 24 CRUSH HALLWAY](cards/procedures/procedure.module-lair-of-the-lamb.cross-24-crush-hallway.md) — `procedure.module-lair-of-the-lamb.cross-24-crush-hallway`
+- [Crush the Lamb with the Noria](cards/procedures/procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria.md) — `procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria`
+- [Disarm the Trap Doors in 24 CRUSH HALLWAY](cards/procedures/procedure.module-lair-of-the-lamb.disarm-the-trap-doors-in-24-crush-hallway.md) — `procedure.module-lair-of-the-lamb.disarm-the-trap-doors-in-24-crush-hallway`
+- [Disrupt the Ghost Fence](cards/procedures/procedure.module-lair-of-the-lamb.disrupt-the-ghost-fence.md) — `procedure.module-lair-of-the-lamb.disrupt-the-ghost-fence`
+- [Ending the Fountain Haunting](cards/procedures/procedure.module-lair-of-the-lamb.ending-the-fountain-haunting.md) — `procedure.module-lair-of-the-lamb.ending-the-fountain-haunting`
+- [Fish for the Lamb](cards/procedures/procedure.module-lair-of-the-lamb.fish-for-the-lamb.md) — `procedure.module-lair-of-the-lamb.fish-for-the-lamb`
+- [Gerdith's Investigation](cards/procedures/procedure.module-lair-of-the-lamb.gerdiths-investigation.md) — `procedure.module-lair-of-the-lamb.gerdiths-investigation`
+- [Handle a Sunken Gallery Coffer](cards/procedures/procedure.module-lair-of-the-lamb.handle-a-sunken-gallery-coffer.md) — `procedure.module-lair-of-the-lamb.handle-a-sunken-gallery-coffer`
+- [Looting the Corpse Beyond the Portcullis](cards/procedures/procedure.module-lair-of-the-lamb.looting-the-corpse-beyond-the-portcullis.md) — `procedure.module-lair-of-the-lamb.looting-the-corpse-beyond-the-portcullis`
+- [Move a Crypt Sarcophagus Lid](cards/procedures/procedure.module-lair-of-the-lamb.move-a-crypt-sarcophagus-lid.md) — `procedure.module-lair-of-the-lamb.move-a-crypt-sarcophagus-lid`
+- [Open 21 HEAVY DOORS](cards/procedures/procedure.module-lair-of-the-lamb.open-21-heavy-doors.md) — `procedure.module-lair-of-the-lamb.open-21-heavy-doors`
+- [Open the Secret Door in 32 ISOPODS](cards/procedures/procedure.module-lair-of-the-lamb.open-the-secret-door-in-32-isopods.md) — `procedure.module-lair-of-the-lamb.open-the-secret-door-in-32-isopods`
+- [Open the Stone Egg](cards/procedures/procedure.module-lair-of-the-lamb.open-the-stone-egg.md) — `procedure.module-lair-of-the-lamb.open-the-stone-egg`
+- [Open the Wall at 44A](cards/procedures/procedure.module-lair-of-the-lamb.open-the-wall-at-44a.md) — `procedure.module-lair-of-the-lamb.open-the-wall-at-44a`
+- [Opening the Iron-Banded Chest at 5 LANDING](cards/procedures/procedure.module-lair-of-the-lamb.opening-the-iron-banded-chest-at-5-landing.md) — `procedure.module-lair-of-the-lamb.opening-the-iron-banded-chest-at-5-landing`
+- [Operate the Shroud Guillotine](cards/procedures/procedure.module-lair-of-the-lamb.operate-the-shroud-guillotine.md) — `procedure.module-lair-of-the-lamb.operate-the-shroud-guillotine`
+- [Operating the Tumbler Password System](cards/procedures/procedure.module-lair-of-the-lamb.operating-the-tumbler-password-system.md) — `procedure.module-lair-of-the-lamb.operating-the-tumbler-password-system`
+- [Reach the Elevated Stairs at 46 DAYLIGHT](cards/procedures/procedure.module-lair-of-the-lamb.reach-the-elevated-stairs-at-46-daylight.md) — `procedure.module-lair-of-the-lamb.reach-the-elevated-stairs-at-46-daylight`
+- [Reassemble and Return the Seven Mummies](cards/procedures/procedure.module-lair-of-the-lamb.reassemble-and-return-the-seven-mummies.md) — `procedure.module-lair-of-the-lamb.reassemble-and-return-the-seven-mummies`
+- [Resolve Arrivals After the 44A Breach](cards/procedures/procedure.module-lair-of-the-lamb.resolve-arrivals-after-the-44a-breach.md) — `procedure.module-lair-of-the-lamb.resolve-arrivals-after-the-44a-breach`
+- [Row the Boat at 45 BARRELS](cards/procedures/procedure.module-lair-of-the-lamb.row-the-boat-at-45-barrels.md) — `procedure.module-lair-of-the-lamb.row-the-boat-at-45-barrels`
+- [Run a Fight with the Lamb in the Cistern](cards/procedures/procedure.module-lair-of-the-lamb.run-a-fight-with-the-lamb-in-the-cistern.md) — `procedure.module-lair-of-the-lamb.run-a-fight-with-the-lamb-in-the-cistern`
+- [Run the Dungeon Backwards from 44 CISTERN](cards/procedures/procedure.module-lair-of-the-lamb.run-the-dungeon-backwards-from-44-cistern.md) — `procedure.module-lair-of-the-lamb.run-the-dungeon-backwards-from-44-cistern`
+- [Searching 10 BONE PILE](cards/procedures/procedure.module-lair-of-the-lamb.searching-10-bone-pile.md) — `procedure.module-lair-of-the-lamb.searching-10-bone-pile`
+- [Short Dungeon Exit at 21 HEAVY DOOR](cards/procedures/procedure.module-lair-of-the-lamb.short-dungeon-exit-at-21-heavy-door.md) — `procedure.module-lair-of-the-lamb.short-dungeon-exit-at-21-heavy-door`
+- [Start at 21 HEAVY DOOR](cards/procedures/procedure.module-lair-of-the-lamb.start-at-21-heavy-door.md) — `procedure.module-lair-of-the-lamb.start-at-21-heavy-door`
+- [Starting the Game](cards/procedures/procedure.module-lair-of-the-lamb.starting-the-game.md) — `procedure.module-lair-of-the-lamb.starting-the-game`
+- [Toggle the Secret Door in 37 CHEWED BONES](cards/procedures/procedure.module-lair-of-the-lamb.toggle-the-secret-door-in-37-chewed-bones.md) — `procedure.module-lair-of-the-lamb.toggle-the-secret-door-in-37-chewed-bones`
+- [Trading with Danjo](cards/procedures/procedure.module-lair-of-the-lamb.trading-with-danjo.md) — `procedure.module-lair-of-the-lamb.trading-with-danjo`
+- [Traditional Level 1 Entrance](cards/procedures/procedure.module-lair-of-the-lamb.traditional-level-1-entrance.md) — `procedure.module-lair-of-the-lamb.traditional-level-1-entrance`
+- [Using the Sarcophagus Trapdoor](cards/procedures/procedure.module-lair-of-the-lamb.using-the-sarcophagus-trapdoor.md) — `procedure.module-lair-of-the-lamb.using-the-sarcophagus-trapdoor`
+- [White Temple Cleanup](cards/procedures/procedure.module-lair-of-the-lamb.white-temple-cleanup.md) — `procedure.module-lair-of-the-lamb.white-temple-cleanup`
+
+## Reference
+
+- [Acrobat](cards/reference/class.acrobat.md) — `class.acrobat`
+- [Barbarian](cards/reference/class.barbarian.md) — `class.barbarian`
+- [Cleric](cards/reference/class.cleric.md) — `class.cleric`
+- [Fighter](cards/reference/class.fighter.md) — `class.fighter`
+- [Knight](cards/reference/class.knight.md) — `class.knight`
+- [Level 0 Peasants](cards/reference/class.level-0-peasants.md) — `class.level-0-peasants`
+- [Level Ups](cards/reference/class.level-ups.md) — `class.level-ups`
+- [Profession](cards/reference/class.peasant-profession.md) — `class.peasant-profession`
+- [Tactician](cards/reference/class.tactician.md) — `class.tactician`
+- [Thief](cards/reference/class.thief.md) — `class.thief`
+- [Warlock](cards/reference/class.warlock.md) — `class.warlock`
+- [Wizard](cards/reference/class.wizard.md) — `class.wizard`
+- [The Lamb's Ammonia Warning](cards/reference/effect.44-cistern-ammonia-warning.md) — `effect.44-cistern-ammonia-warning`
+- [Noisy 44A Breach Attracts Threats](cards/reference/effect.44a-breach-attracts-threats.md) — `effect.44a-breach-attracts-threats`
+- [Timed Openings Through the 44A Wall](cards/reference/effect.44a-wall-opening-times.md) — `effect.44a-wall-opening-times`
+- [Knocking at the 45 BARRELS Door Gets No Answer](cards/reference/effect.45-door-knock-no-answer.md) — `effect.45-door-knock-no-answer`
+- [Rowboat Movement at 45 BARRELS](cards/reference/effect.45-rowboat-speed.md) — `effect.45-rowboat-speed`
+- [Reaching the Stairs at 46 DAYLIGHT](cards/reference/effect.46-daylight-access-checks.md) — `effect.46-daylight-access-checks`
+- [Vandoh's Statue Can Block the Trapdoor](cards/reference/effect.46a-statue-blocks-trapdoor.md) — `effect.46a-statue-blocks-trapdoor`
+- [Collapsed Abacus-Mural Room](cards/reference/effect.abacus-ceiling-collapse.md) — `effect.abacus-ceiling-collapse`
+- [Abacus of Vandoh Answers](cards/reference/effect.abacus-of-vandoh-answers.md) — `effect.abacus-of-vandoh-answers`
+- [Cat Power](cards/reference/effect.acrobat-cat-power.md) — `effect.acrobat-cat-power`
+- [Dodge](cards/reference/effect.acrobat-dodge.md) — `effect.acrobat-dodge`
+- [Nah](cards/reference/effect.acrobat-nah.md) — `effect.acrobat-nah`
+- [Roast the Oaf](cards/reference/effect.acrobat-roast-the-oaf.md) — `effect.acrobat-roast-the-oaf`
+- [Tricky](cards/reference/effect.acrobat-tricky.md) — `effect.acrobat-tricky`
+- [Agony](cards/reference/effect.agony.md) — `effect.agony`
+- [Stone](cards/reference/effect.ancient-apparatus-stone.md) — `effect.ancient-apparatus-stone`
+- [Ancient Tone](cards/reference/effect.ancient-tone.md) — `effect.ancient-tone`
+- [Anguish Pattern](cards/reference/effect.anguish-pattern.md) — `effect.anguish-pattern`
+- [Defense Curl](cards/reference/effect.armored-isopod-defense-curl.md) — `effect.armored-isopod-defense-curl`
+- [Ballista Bolt Damage](cards/reference/effect.ballista-bolt-damage.md) — `effect.ballista-bolt-damage`
+- [Gerdith Alerted by Noise or Light](cards/reference/effect.ballista-ghouls-alerted.md) — `effect.ballista-ghouls-alerted`
+- [Firewater](cards/reference/effect.barbarian-firewater.md) — `effect.barbarian-firewater`
+- [Loincloth HP](cards/reference/effect.barbarian-loincloth-hp.md) — `effect.barbarian-loincloth-hp`
+- [Rage](cards/reference/effect.barbarian-rage.md) — `effect.barbarian-rage`
+- [Rampage](cards/reference/effect.barbarian-rampage.md) — `effect.barbarian-rampage`
+- [Thews](cards/reference/effect.barbarian-thews.md) — `effect.barbarian-thews`
+- [Bastoval’s Nemesis Advancement](cards/reference/effect.bastoval-nemesis-level.md) — `effect.bastoval-nemesis-level`
+- [Black Iron Spellbook Instruction](cards/reference/effect.black-iron-spellbook-instruction.md) — `effect.black-iron-spellbook-instruction`
+- [Black Pool Smoke Vomiting](cards/reference/effect.black-pool-smoke-vomiting.md) — `effect.black-pool-smoke-vomiting`
+- [Carried Items Reduce Swim Speed](cards/reference/effect.cistern-carried-item-swim-penalty.md) — `effect.cistern-carried-item-swim-penalty`
+- [Confusion Random Action](cards/reference/effect.confusion-random-action.md) — `effect.confusion-random-action`
+- [Crush Hallway Ceiling Cycle](cards/reference/effect.crush-hallway-ceiling.md) — `effect.crush-hallway-ceiling`
+- [Crush Hallway Trap-Door Fall](cards/reference/effect.crush-hallway-trapdoor-fall.md) — `effect.crush-hallway-trapdoor-fall`
+- [Davok Flesh Absorption](cards/reference/effect.davok-flesh-absorption.md) — `effect.davok-flesh-absorption`
+- [Davok’s Geased Thrall](cards/reference/effect.davok-geased-thrall.md) — `effect.davok-geased-thrall`
+- [Davok Stun and Inertness](cards/reference/effect.davok-stun-and-inertness.md) — `effect.davok-stun-and-inertness`
+- [Davok Vermin Transport](cards/reference/effect.davok-vermin-transport.md) — `effect.davok-vermin-transport`
+- [Davok Warlock Transformation](cards/reference/effect.davok-warlock-transformation.md) — `effect.davok-warlock-transformation`
+- [Dehydrated](cards/reference/effect.dehydrated.md) — `effect.dehydrated`
+- [Delayed Effect](cards/reference/effect.delay-an-effect.md) — `effect.delay-an-effect`
+- [Dessicate Liquid or Animal](cards/reference/effect.dessicate-liquid-or-animal.md) — `effect.dessicate-liquid-or-animal`
+- [Drunkenness](cards/reference/effect.drunkenness.md) — `effect.drunkenness`
+- [Dying](cards/reference/effect.dying.md) — `effect.dying`
+- [Emergency Exit Teleportation](cards/reference/effect.emergency-exit-teleportation.md) — `effect.emergency-exit-teleportation`
+- [Escaping the Dungeon Is a Milestone](cards/reference/effect.escape-milestone.md) — `effect.escape-milestone`
+- [Favored by Shendormu](cards/reference/effect.favored-by-shendormu.md) — `effect.favored-by-shendormu`
+- [Favored by Vandoh](cards/reference/effect.favored-by-vandoh.md) — `effect.favored-by-vandoh`
+- [Double Attack](cards/reference/effect.fighter-double-attack.md) — `effect.fighter-double-attack`
+- [Stand Tough](cards/reference/effect.fighter-stand-tough.md) — `effect.fighter-stand-tough`
+- [Tricky](cards/reference/effect.fighter-tricky.md) — `effect.fighter-tricky`
+- [Very Tricky](cards/reference/effect.fighter-very-tricky.md) — `effect.fighter-very-tricky`
+- [First Lamb-Fishing Attempt Automatically Works](cards/reference/effect.first-lamb-fishing-success.md) — `effect.first-lamb-fishing-success`
+- [Drowning Hallucination](cards/reference/effect.fountain-entry-hallucination.md) — `effect.fountain-entry-hallucination`
+- [Haunted Water Binding](cards/reference/effect.fountain-water-binding.md) — `effect.fountain-water-binding`
+- [Geas Mutual Quest Binding](cards/reference/effect.geas-mutual-quest-binding.md) — `effect.geas-mutual-quest-binding`
+- [Ghost Fence Chattering](cards/reference/effect.ghost-fence-chattering.md) — `effect.ghost-fence-chattering`
+- [Ghost Fence Instant Death and Formation Dependence](cards/reference/effect.ghost-fence-lethal-formation.md) — `effect.ghost-fence-lethal-formation`
+- [Ghost Fence Teeth Chattering](cards/reference/effect.ghost-fence-teeth-chattering.md) — `effect.ghost-fence-teeth-chattering`
+- [Invitation to the Garrison of the Green Angel](cards/reference/effect.green-angel-knighthood-invitation.md) — `effect.green-angel-knighthood-invitation`
+- [Hand Mirror of Lies Display](cards/reference/effect.hand-mirror-of-lies-display.md) — `effect.hand-mirror-of-lies-display`
+- [Haste Double Speed and Aging](cards/reference/effect.haste-double-speed-and-aging.md) — `effect.haste-double-speed-and-aging`
+- [Ignite Damage and Fire](cards/reference/effect.ignite-damage-and-fire.md) — `effect.ignite-damage-and-fire`
+- [Immature Lambfruit Effects](cards/reference/effect.immature-lambfruit.md) — `effect.immature-lambfruit`
+- [Earth Tremor on the Lamb’s Death](cards/reference/effect.lamb-death-earth-tremor.md) — `effect.lamb-death-earth-tremor`
+- [Lamb-Kill Milestone](cards/reference/effect.lamb-death-milestone.md) — `effect.lamb-death-milestone`
+- [The Lamb's Movement Rates](cards/reference/effect.lamb-movement-rates.md) — `effect.lamb-movement-rates`
+- [Chance the Lamb Is Resting in 8 PIT](cards/reference/effect.lamb-resting-in-8-pit.md) — `effect.lamb-resting-in-8-pit`
+- [Lamb Trapped by Collapse](cards/reference/effect.lamb-under-rubble.md) — `effect.lamb-under-rubble`
+- [Eat Light](cards/reference/effect.lantern-worm-eat-light.md) — `effect.lantern-worm-eat-light`
+- [Lantern](cards/reference/effect.lantern-worm-lantern.md) — `effect.lantern-worm-lantern`
+- [Stonemeld](cards/reference/effect.lantern-worm-stonemeld.md) — `effect.lantern-worm-stonemeld`
+- [Liquid Boat Consumption](cards/reference/effect.liquid-boat-consumption.md) — `effect.liquid-boat-consumption`
+- [Liquid Boat Manifestation](cards/reference/effect.liquid-boat-manifestation.md) — `effect.liquid-boat-manifestation`
+- [Liquid Hole Consumption](cards/reference/effect.liquid-hole-consumption.md) — `effect.liquid-hole-consumption`
+- [Liquid Hole Surface Perforation](cards/reference/effect.liquid-hole-surface.md) — `effect.liquid-hole-surface`
+- [Little Lamb Emergence](cards/reference/effect.little-lamb-emergence.md) — `effect.little-lamb-emergence`
+- [Mature Lambfruit Effects](cards/reference/effect.mature-lambfruit.md) — `effect.mature-lambfruit`
+- [Mevverwen Memory Loss](cards/reference/effect.mevverwen-memory-loss.md) — `effect.mevverwen-memory-loss`
+- [Milky Pool Acid](cards/reference/effect.milky-pool-acid.md) — `effect.milky-pool-acid`
+- [Nascent Lambfruit Effects](cards/reference/effect.nascent-lambfruit.md) — `effect.nascent-lambfruit`
+- [The Noria Can Crush the Lamb](cards/reference/effect.noria-crushes-lamb.md) — `effect.noria-crushes-lamb`
+- [The Noria Is Not a Human Escape Route](cards/reference/effect.noria-no-human-escape.md) — `effect.noria-no-human-escape`
+- [24C Oil Layer Burns](cards/reference/effect.oil-layer-burning.md) — `effect.oil-layer-burning`
+- [Orb of Indulgence Forgiveness](cards/reference/effect.orb-of-indulgence-forgiveness.md) — `effect.orb-of-indulgence-forgiveness`
+- [Permanent Fear of Water](cards/reference/effect.permanent-water-fear.md) — `effect.permanent-water-fear`
+- [Pink Pool Compulsion](cards/reference/effect.pink-pool-compulsion.md) — `effect.pink-pool-compulsion`
+- [Pink Urine Ecstasy and Longevity](cards/reference/effect.pink-urine-ecstasy-and-longevity.md) — `effect.pink-urine-ecstasy-and-longevity`
+- [Pink Urine Language Loss](cards/reference/effect.pink-urine-language-loss.md) — `effect.pink-urine-language-loss`
+- [Polymorph Transformation](cards/reference/effect.polymorph-transformation.md) — `effect.polymorph-transformation`
+- [Blue Polypore Aura of Nonviolence](cards/reference/effect.polypore-nonviolence.md) — `effect.polypore-nonviolence`
+- [Precognition Possible Future](cards/reference/effect.precognition-possible-future.md) — `effect.precognition-possible-future`
+- [Purple Lotus Sleep Dependence](cards/reference/effect.purple-lotus-dependence.md) — `effect.purple-lotus-dependence`
+- [Purple Lotus Sleep and Dreams](cards/reference/effect.purple-lotus-sleep-and-dreams.md) — `effect.purple-lotus-sleep-and-dreams`
+- [Red Spider Bites](cards/reference/effect.red-spider-bite.md) — `effect.red-spider-bite`
+- [Bladed Sarcophagus Rope-Cut](cards/reference/effect.sarcophagus-rope-severing.md) — `effect.sarcophagus-rope-severing`
+- [Scry Astral Projection](cards/reference/effect.scry-astral-projection.md) — `effect.scry-astral-projection`
+- [Selective Mummified Head Message](cards/reference/effect.selective-mummified-head-message.md) — `effect.selective-mummified-head-message`
+- [Shawson's Agony](cards/reference/effect.shawson-agony.md) — `effect.shawson-agony`
+- [Shendormu’s Favor](cards/reference/effect.shendormus-favor.md) — `effect.shendormus-favor`
+- [Soul Severed by the Shroud Guillotine](cards/reference/effect.shroud-soul-severance.md) — `effect.shroud-soul-severance`
+- [Skeletal Serpent Bite](cards/reference/effect.skeletal-serpent-bite.md) — `effect.skeletal-serpent-bite`
+- [Sleep Deep Sleep](cards/reference/effect.sleep-deep-sleep.md) — `effect.sleep-deep-sleep`
+- [Slobberworm Eggs Hatch](cards/reference/effect.slobberworm-eggs-hatch.md) — `effect.slobberworm-eggs-hatch`
+- [Slobberworm Reproduction](cards/reference/effect.slobberworm-reproduction.md) — `effect.slobberworm-reproduction`
+- [Slobberworm Slime](cards/reference/effect.slobberworm-slime.md) — `effect.slobberworm-slime`
+- [Spider Crab Grab](cards/reference/effect.spider-crab-grab.md) — `effect.spider-crab-grab`
+- [Stabilized](cards/reference/effect.stabilized.md) — `effect.stabilized`
+- [Starvation](cards/reference/effect.starvation.md) — `effect.starvation`
+- [Stone Egg Entrapment and Screaming-Head Transformation](cards/reference/effect.stone-egg-suffocation-transformation.md) — `effect.stone-egg-suffocation-transformation`
+- [Sunken Gallery Poison Gas](cards/reference/effect.sunken-gallery-poison.md) — `effect.sunken-gallery-poison`
+- [Makeshift Table-Boat Speed Modifiers](cards/reference/effect.table-boat-speed-modifiers.md) — `effect.table-boat-speed-modifiers`
+- [“Luck”](cards/reference/effect.thief-luck.md) — `effect.thief-luck`
+- [Opportunist](cards/reference/effect.thief-opportunist.md) — `effect.thief-opportunist`
+- [Preparation](cards/reference/effect.thief-preparation.md) — `effect.thief-preparation`
+- [Snag](cards/reference/effect.thief-snag.md) — `effect.thief-snag`
+- [Throne Milestone](cards/reference/effect.throne-milestone.md) — `effect.throne-milestone`
+- [Throne Transformation](cards/reference/effect.throne-transformation.md) — `effect.throne-transformation`
+- [Vision of the Chained Purple Book](cards/reference/effect.throne-vision.md) — `effect.throne-vision`
+- [Toad Shavings Intoxication](cards/reference/effect.toad-shavings-intoxication.md) — `effect.toad-shavings-intoxication`
+- [35 TRICKY HALLWAY Fall](cards/reference/effect.tricky-hallway-fall.md) — `effect.tricky-hallway-fall`
+- [Milky Acid Spray](cards/reference/effect.tumbler-acid-spray.md) — `effect.tumbler-acid-spray`
+- [Vandoh's Possessed Left Hand](cards/reference/effect.vandoh-possessed-hand.md) — `effect.vandoh-possessed-hand`
+- [Vandoh’s Favor](cards/reference/effect.vandohs-favor.md) — `effect.vandohs-favor`
+- [Vandress's Pink Slime Addiction](cards/reference/effect.vandress-pink-slime-addiction.md) — `effect.vandress-pink-slime-addiction`
+- [Wave of Mutilation Slashing Damage](cards/reference/effect.wave-of-mutilation-slashing-damage.md) — `effect.wave-of-mutilation-slashing-damage`
+- [Weak Floor Collapse](cards/reference/effect.weak-floor-collapse.md) — `effect.weak-floor-collapse`
+- [White Temple Responds to Its Godling in the Fountain](cards/reference/effect.white-temple-forceful-response.md) — `effect.white-temple-forceful-response`
+- [Yellow Mold Poison](cards/reference/effect.yellow-mold-poison.md) — `effect.yellow-mold-poison`
+- [Yellow Pool Liquid Light](cards/reference/effect.yellow-pool-liquid-light.md) — `effect.yellow-pool-liquid-light`
+- [10-Foot Wooden Pike](cards/reference/item.module-lair-of-the-lamb.10-foot-wooden-pike.md) — `item.module-lair-of-the-lamb.10-foot-wooden-pike`
+- [30-Foot Rope at 18A LEDGE](cards/reference/item.module-lair-of-the-lamb.30-foot-rope-at-18a-ledge.md) — `item.module-lair-of-the-lamb.30-foot-rope-at-18a-ledge`
+- [30-Foot Rope from the Bone Pile](cards/reference/item.module-lair-of-the-lamb.30-foot-rope-from-the-bone-pile.md) — `item.module-lair-of-the-lamb.30-foot-rope-from-the-bone-pile`
+- [30' Traverse Rope and Iron Spikes](cards/reference/item.module-lair-of-the-lamb.30-traverse-rope-and-iron-spikes.md) — `item.module-lair-of-the-lamb.30-traverse-rope-and-iron-spikes`
+- [6-Foot Iron Torch-Holder Pole](cards/reference/item.module-lair-of-the-lamb.6-foot-iron-torch-holder-pole.md) — `item.module-lair-of-the-lamb.6-foot-iron-torch-holder-pole`
+- [600 Silver Shilavos](cards/reference/item.module-lair-of-the-lamb.600-silver-shilavos.md) — `item.module-lair-of-the-lamb.600-silver-shilavos`
+- [Abacus of Vandoh](cards/reference/item.module-lair-of-the-lamb.abacus-of-vandoh.md) — `item.module-lair-of-the-lamb.abacus-of-vandoh`
+- [Ammunition](cards/reference/item.module-lair-of-the-lamb.ammunition.md) — `item.module-lair-of-the-lamb.ammunition`
+- [Armored Isopod Shell](cards/reference/item.module-lair-of-the-lamb.armored-isopod-shell.md) — `item.module-lair-of-the-lamb.armored-isopod-shell`
+- [Backpack](cards/reference/item.module-lair-of-the-lamb.backpack.md) — `item.module-lair-of-the-lamb.backpack`
+- [Battered Shield](cards/reference/item.module-lair-of-the-lamb.battered-shield.md) — `item.module-lair-of-the-lamb.battered-shield`
+- [Battle Standard of the House of the Avenging Angel](cards/reference/item.module-lair-of-the-lamb.battle-standard-of-the-house-of-the-avenging-angel.md) — `item.module-lair-of-the-lamb.battle-standard-of-the-house-of-the-avenging-angel`
+- [Black Iron Spellbook](cards/reference/item.module-lair-of-the-lamb.black-iron-spellbook.md) — `item.module-lair-of-the-lamb.black-iron-spellbook`
+- [Block and Tackle](cards/reference/item.module-lair-of-the-lamb.block-and-tackle.md) — `item.module-lair-of-the-lamb.block-and-tackle`
+- [Blowtubes of Mevverwen](cards/reference/item.module-lair-of-the-lamb.blowtubes-of-mevverwen.md) — `item.module-lair-of-the-lamb.blowtubes-of-mevverwen`
+- [Bone Pellets](cards/reference/item.module-lair-of-the-lamb.bone-pellets.md) — `item.module-lair-of-the-lamb.bone-pellets`
+- [Bottle of Fine Wine](cards/reference/item.module-lair-of-the-lamb.bottle-of-fine-wine.md) — `item.module-lair-of-the-lamb.bottle-of-fine-wine`
+- [Bottle of Liquid Boat](cards/reference/item.module-lair-of-the-lamb.bottle-of-liquid-boat.md) — `item.module-lair-of-the-lamb.bottle-of-liquid-boat`
+- [Liquid Hole](cards/reference/item.module-lair-of-the-lamb.bottle-of-liquid-hole.md) — `item.module-lair-of-the-lamb.bottle-of-liquid-hole`
+- [Bow and Arrows](cards/reference/item.module-lair-of-the-lamb.bow-and-arrows.md) — `item.module-lair-of-the-lamb.bow-and-arrows`
+- [Broom](cards/reference/item.module-lair-of-the-lamb.broom.md) — `item.module-lair-of-the-lamb.broom`
+- [Burlap Sack](cards/reference/item.module-lair-of-the-lamb.burlap-sack.md) — `item.module-lair-of-the-lamb.burlap-sack`
+- [Candelabra](cards/reference/item.module-lair-of-the-lamb.candelabra.md) — `item.module-lair-of-the-lamb.candelabra`
+- [Candle](cards/reference/item.module-lair-of-the-lamb.candle.md) — `item.module-lair-of-the-lamb.candle`
+- [Conidiaspore Plate Mail](cards/reference/item.module-lair-of-the-lamb.conidiaspore-plate-mail.md) — `item.module-lair-of-the-lamb.conidiaspore-plate-mail`
+- [Conroy, Wheeled Ballista](cards/reference/item.module-lair-of-the-lamb.conroy-wheeled-ballista.md) — `item.module-lair-of-the-lamb.conroy-wheeled-ballista`
+- [Corpse-Bit Miniatures](cards/reference/item.module-lair-of-the-lamb.corpse-bit-miniatures.md) — `item.module-lair-of-the-lamb.corpse-bit-miniatures`
+- [Crypt Staves](cards/reference/item.module-lair-of-the-lamb.crypt-staves.md) — `item.module-lair-of-the-lamb.crypt-staves`
+- [Crysmere Blade of Charcorra](cards/reference/item.module-lair-of-the-lamb.crysmere-blade-of-charcorra.md) — `item.module-lair-of-the-lamb.crysmere-blade-of-charcorra`
+- [Crysmere Blade of Far Charcorra](cards/reference/item.module-lair-of-the-lamb.crysmere-blade-of-far-charcorra.md) — `item.module-lair-of-the-lamb.crysmere-blade-of-far-charcorra`
+- [Danjo’s Bread](cards/reference/item.module-lair-of-the-lamb.danjos-bread.md) — `item.module-lair-of-the-lamb.danjos-bread`
+- [Danjo’s Candles](cards/reference/item.module-lair-of-the-lamb.danjos-candles.md) — `item.module-lair-of-the-lamb.danjos-candles`
+- [Danjo’s Chickens](cards/reference/item.module-lair-of-the-lamb.danjos-chickens.md) — `item.module-lair-of-the-lamb.danjos-chickens`
+- [Danjo’s Knife](cards/reference/item.module-lair-of-the-lamb.danjos-knife.md) — `item.module-lair-of-the-lamb.danjos-knife`
+- [Delicate Crystal Goblet](cards/reference/item.module-lair-of-the-lamb.delicate-crystal-goblet.md) — `item.module-lair-of-the-lamb.delicate-crystal-goblet`
+- [Eight Soft Rugs](cards/reference/item.module-lair-of-the-lamb.eight-soft-rugs.md) — `item.module-lair-of-the-lamb.eight-soft-rugs`
+- [Elfpack](cards/reference/item.module-lair-of-the-lamb.elfpack.md) — `item.module-lair-of-the-lamb.elfpack`
+- [Empty Wine Bottle](cards/reference/item.module-lair-of-the-lamb.empty-wine-bottle.md) — `item.module-lair-of-the-lamb.empty-wine-bottle`
+- [Empty Wooden Bowl](cards/reference/item.module-lair-of-the-lamb.empty-wooden-bowl.md) — `item.module-lair-of-the-lamb.empty-wooden-bowl`
+- [Fine Purple Robe](cards/reference/item.module-lair-of-the-lamb.fine-purple-robe.md) — `item.module-lair-of-the-lamb.fine-purple-robe`
+- [Fire Striker](cards/reference/item.module-lair-of-the-lamb.fire-striker.md) — `item.module-lair-of-the-lamb.fire-striker`
+- [Five Costumed Mummified Heads](cards/reference/item.module-lair-of-the-lamb.five-costumed-mummified-heads.md) — `item.module-lair-of-the-lamb.five-costumed-mummified-heads`
+- [Flasks of Oil](cards/reference/item.module-lair-of-the-lamb.flasks-of-oil.md) — `item.module-lair-of-the-lamb.flasks-of-oil`
+- [Fresh Torch](cards/reference/item.module-lair-of-the-lamb.fresh-torch.md) — `item.module-lair-of-the-lamb.fresh-torch`
+- [Goat Bells](cards/reference/item.module-lair-of-the-lamb.goat-bells.md) — `item.module-lair-of-the-lamb.goat-bells`
+- [Golden Sensory Deprivation Helmet](cards/reference/item.module-lair-of-the-lamb.golden-sensory-deprivation-helmet.md) — `item.module-lair-of-the-lamb.golden-sensory-deprivation-helmet`
+- [Gong and Hammer](cards/reference/item.module-lair-of-the-lamb.gong-and-hammer.md) — `item.module-lair-of-the-lamb.gong-and-hammer`
+- [Grappling Hook](cards/reference/item.module-lair-of-the-lamb.grappling-hook.md) — `item.module-lair-of-the-lamb.grappling-hook`
+- [Hand Mirror of Lies](cards/reference/item.module-lair-of-the-lamb.hand-mirror-of-lies.md) — `item.module-lair-of-the-lamb.hand-mirror-of-lies`
+- [Harpoon](cards/reference/item.module-lair-of-the-lamb.harpoon.md) — `item.module-lair-of-the-lamb.harpoon`
+- [Helmet Beyond the Portcullis](cards/reference/item.module-lair-of-the-lamb.helmet-beyond-the-portcullis.md) — `item.module-lair-of-the-lamb.helmet-beyond-the-portcullis`
+- [Hook Hand](cards/reference/item.module-lair-of-the-lamb.hook-hand.md) — `item.module-lair-of-the-lamb.hook-hand`
+- [Hook-Hand Prosthesis](cards/reference/item.module-lair-of-the-lamb.hook-hand-prosthesis.md) — `item.module-lair-of-the-lamb.hook-hand-prosthesis`
+- [Hooked Net](cards/reference/item.module-lair-of-the-lamb.hooked-net.md) — `item.module-lair-of-the-lamb.hooked-net`
+- [Hooked Net and 50s](cards/reference/item.module-lair-of-the-lamb.hooked-net-and-50s.md) — `item.module-lair-of-the-lamb.hooked-net-and-50s`
+- [Immature Lambfruit](cards/reference/item.module-lair-of-the-lamb.immature-lambfruit-3b06dcb6.md) — `item.module-lair-of-the-lamb.immature-lambfruit-3b06dcb6`
+- [Immature Lambfruit](cards/reference/item.module-lair-of-the-lamb.immature-lambfruit-area-4.md) — `item.module-lair-of-the-lamb.immature-lambfruit-area-4`
+- [Improvised Weapon](cards/reference/item.module-lair-of-the-lamb.improvised-weapon.md) — `item.module-lair-of-the-lamb.improvised-weapon`
+- [Invisibility Potion](cards/reference/item.module-lair-of-the-lamb.invisibility-potion.md) — `item.module-lair-of-the-lamb.invisibility-potion`
+- [Iron Spike](cards/reference/item.module-lair-of-the-lamb.iron-spike.md) — `item.module-lair-of-the-lamb.iron-spike`
+- [Jewelled Crab Bracer](cards/reference/item.module-lair-of-the-lamb.jewelled-crab-bracer.md) — `item.module-lair-of-the-lamb.jewelled-crab-bracer`
+- [Knuckle-Bone Dice](cards/reference/item.module-lair-of-the-lamb.knuckle-bone-dice.md) — `item.module-lair-of-the-lamb.knuckle-bone-dice`
+- [Large Jelly-Like Eggs](cards/reference/item.module-lair-of-the-lamb.large-jelly-like-eggs.md) — `item.module-lair-of-the-lamb.large-jelly-like-eggs`
+- [Liquid Boat](cards/reference/item.module-lair-of-the-lamb.liquid-boat.md) — `item.module-lair-of-the-lamb.liquid-boat`
+- [Liquid Light](cards/reference/item.module-lair-of-the-lamb.liquid-light.md) — `item.module-lair-of-the-lamb.liquid-light`
+- [Lit Torch at 5 LANDING](cards/reference/item.module-lair-of-the-lamb.lit-torch-at-5-landing.md) — `item.module-lair-of-the-lamb.lit-torch-at-5-landing`
+- [Little Gerdith, Ballista Bolt](cards/reference/item.module-lair-of-the-lamb.little-gerdith-ballista-bolt.md) — `item.module-lair-of-the-lamb.little-gerdith-ballista-bolt`
+- [Lotus Pipe](cards/reference/item.module-lair-of-the-lamb.lotus-pipe.md) — `item.module-lair-of-the-lamb.lotus-pipe`
+- [Magic Weapon](cards/reference/item.module-lair-of-the-lamb.magic-weapon.md) — `item.module-lair-of-the-lamb.magic-weapon`
+- [Magnificent Steel Pipe](cards/reference/item.module-lair-of-the-lamb.magnificent-steel-pipe.md) — `item.module-lair-of-the-lamb.magnificent-steel-pipe`
+- [Masterwork Breastplate](cards/reference/item.module-lair-of-the-lamb.masterwork-breastplate.md) — `item.module-lair-of-the-lamb.masterwork-breastplate`
+- [Masterwork Helmet](cards/reference/item.module-lair-of-the-lamb.masterwork-helmet.md) — `item.module-lair-of-the-lamb.masterwork-helmet`
+- [Masterwork Weapon](cards/reference/item.module-lair-of-the-lamb.masterwork-weapon.md) — `item.module-lair-of-the-lamb.masterwork-weapon`
+- [Mature Lambfruit](cards/reference/item.module-lair-of-the-lamb.mature-lambfruit.md) — `item.module-lair-of-the-lamb.mature-lambfruit`
+- [Mevverwen](cards/reference/item.module-lair-of-the-lamb.mevverwen.md) — `item.module-lair-of-the-lamb.mevverwen`
+- [Molina's Chalcedony Rings and Topaz Pendants](cards/reference/item.module-lair-of-the-lamb.molinas-chalcedony-rings-and-topaz-pendants.md) — `item.module-lair-of-the-lamb.molinas-chalcedony-rings-and-topaz-pendants`
+- [Mouldering Character Sheets](cards/reference/item.module-lair-of-the-lamb.mouldering-character-sheets.md) — `item.module-lair-of-the-lamb.mouldering-character-sheets`
+- [Nascent Lambfruit](cards/reference/item.module-lair-of-the-lamb.nascent-lambfruit.md) — `item.module-lair-of-the-lamb.nascent-lambfruit`
+- [Oil](cards/reference/item.module-lair-of-the-lamb.oil.md) — `item.module-lair-of-the-lamb.oil`
+- [Orb of Indulgence](cards/reference/item.module-lair-of-the-lamb.orb-of-indulgence.md) — `item.module-lair-of-the-lamb.orb-of-indulgence`
+- [Parts of Seven Mummies](cards/reference/item.module-lair-of-the-lamb.parts-of-seven-mummies.md) — `item.module-lair-of-the-lamb.parts-of-seven-mummies`
+- [Perpetually Screaming Head](cards/reference/item.module-lair-of-the-lamb.perpetually-screaming-head.md) — `item.module-lair-of-the-lamb.perpetually-screaming-head`
+- [Pile of Hay](cards/reference/item.module-lair-of-the-lamb.pile-of-hay.md) — `item.module-lair-of-the-lamb.pile-of-hay`
+- [Pouch of 50 Golden Gorbels](cards/reference/item.module-lair-of-the-lamb.pouch-of-50-golden-gorbels.md) — `item.module-lair-of-the-lamb.pouch-of-50-golden-gorbels`
+- [Purple Lotus Powder](cards/reference/item.module-lair-of-the-lamb.purple-lotus-powder.md) — `item.module-lair-of-the-lamb.purple-lotus-powder`
+- [Purple Moon-Patterned Robes](cards/reference/item.module-lair-of-the-lamb.purple-moon-patterned-robes.md) — `item.module-lair-of-the-lamb.purple-moon-patterned-robes`
+- [Ration](cards/reference/item.module-lair-of-the-lamb.ration.md) — `item.module-lair-of-the-lamb.ration`
+- [Red Mushroom Rampant Shield](cards/reference/item.module-lair-of-the-lamb.red-mushroom-rampant-shield.md) — `item.module-lair-of-the-lamb.red-mushroom-rampant-shield`
+- [Regular Weapon](cards/reference/item.module-lair-of-the-lamb.regular-weapon.md) — `item.module-lair-of-the-lamb.regular-weapon`
+- [Rope](cards/reference/item.module-lair-of-the-lamb.rope.md) — `item.module-lair-of-the-lamb.rope`
+- [Rowboat](cards/reference/item.module-lair-of-the-lamb.rowboat.md) — `item.module-lair-of-the-lamb.rowboat`
+- [Ruby Ring of Wisdom](cards/reference/item.module-lair-of-the-lamb.ruby-ring-of-wisdom.md) — `item.module-lair-of-the-lamb.ruby-ring-of-wisdom`
+- [Short Lengths of Twine](cards/reference/item.module-lair-of-the-lamb.short-lengths-of-twine.md) — `item.module-lair-of-the-lamb.short-lengths-of-twine`
+- [Signet Ring with Conidiospore Insignia](cards/reference/item.module-lair-of-the-lamb.signet-ring-with-conidiospore-insignia.md) — `item.module-lair-of-the-lamb.signet-ring-with-conidiospore-insignia`
+- [Silver Bracelet Shaped Like Veins](cards/reference/item.module-lair-of-the-lamb.silver-bracelet-shaped-like-veins.md) — `item.module-lair-of-the-lamb.silver-bracelet-shaped-like-veins`
+- [Silver-Plate Dageurrotype](cards/reference/item.module-lair-of-the-lamb.silver-plate-dageurrotype.md) — `item.module-lair-of-the-lamb.silver-plate-dageurrotype`
+- [Silver Platter](cards/reference/item.module-lair-of-the-lamb.silver-platter.md) — `item.module-lair-of-the-lamb.silver-platter`
+- [Six Silver Shilavos](cards/reference/item.module-lair-of-the-lamb.six-silver-shilavos.md) — `item.module-lair-of-the-lamb.six-silver-shilavos`
+- [Skull of Davok](cards/reference/item.module-lair-of-the-lamb.skull-of-davok.md) — `item.module-lair-of-the-lamb.skull-of-davok`
+- [Slobberworms](cards/reference/item.module-lair-of-the-lamb.slobberworms.md) — `item.module-lair-of-the-lamb.slobberworms`
+- [Spear](cards/reference/item.module-lair-of-the-lamb.spear.md) — `item.module-lair-of-the-lamb.spear`
+- [Spear with a Shrunken Head](cards/reference/item.module-lair-of-the-lamb.spear-with-a-shrunken-head.md) — `item.module-lair-of-the-lamb.spear-with-a-shrunken-head`
+- [Stage Furniture and Mock Horse](cards/reference/item.module-lair-of-the-lamb.stage-furniture-and-mock-horse.md) — `item.module-lair-of-the-lamb.stage-furniture-and-mock-horse`
+- [Statue of Vandoh](cards/reference/item.module-lair-of-the-lamb.statue-of-vandoh.md) — `item.module-lair-of-the-lamb.statue-of-vandoh`
+- [Stone Idol of Vandoh](cards/reference/item.module-lair-of-the-lamb.stone-idol-of-vandoh.md) — `item.module-lair-of-the-lamb.stone-idol-of-vandoh`
+- [Sword with Conidiopore Insignia](cards/reference/item.module-lair-of-the-lamb.sword-with-conidiopore-insignia.md) — `item.module-lair-of-the-lamb.sword-with-conidiopore-insignia`
+- [Tattered Red Banner](cards/reference/item.module-lair-of-the-lamb.tattered-red-banner.md) — `item.module-lair-of-the-lamb.tattered-red-banner`
+- [Tiny Green Mushroom](cards/reference/item.module-lair-of-the-lamb.tiny-green-mushroom.md) — `item.module-lair-of-the-lamb.tiny-green-mushroom`
+- [Toad Shavings](cards/reference/item.module-lair-of-the-lamb.toad-shavings.md) — `item.module-lair-of-the-lamb.toad-shavings`
+- [Torch](cards/reference/item.module-lair-of-the-lamb.torch.md) — `item.module-lair-of-the-lamb.torch`
+- [Torch from 4 CHESTS](cards/reference/item.module-lair-of-the-lamb.torch-from-4-chests.md) — `item.module-lair-of-the-lamb.torch-from-4-chests`
+- [Torch from the Bone Pile](cards/reference/item.module-lair-of-the-lamb.torch-from-the-bone-pile.md) — `item.module-lair-of-the-lamb.torch-from-the-bone-pile`
+- [Trumpet](cards/reference/item.module-lair-of-the-lamb.trumpet.md) — `item.module-lair-of-the-lamb.trumpet`
+- [Two-Handed Weapon](cards/reference/item.module-lair-of-the-lamb.two-handed-weapon.md) — `item.module-lair-of-the-lamb.two-handed-weapon`
+- [Unused Torch at 14 SARCOPHAGUS](cards/reference/item.module-lair-of-the-lamb.unused-torch-at-14-sarcophagus.md) — `item.module-lair-of-the-lamb.unused-torch-at-14-sarcophagus`
+- [Vial of Lamp Oil](cards/reference/item.module-lair-of-the-lamb.vial-of-lamp-oil.md) — `item.module-lair-of-the-lamb.vial-of-lamp-oil`
+- [Whelk Comb](cards/reference/item.module-lair-of-the-lamb.whelk-comb.md) — `item.module-lair-of-the-lamb.whelk-comb`
+- [White Candle](cards/reference/item.module-lair-of-the-lamb.white-candle.md) — `item.module-lair-of-the-lamb.white-candle`
+- [White Temple Water Barrels](cards/reference/item.module-lair-of-the-lamb.white-temple-water-barrels.md) — `item.module-lair-of-the-lamb.white-temple-water-barrels`
+- [Cat Power Falling Distance](cards/reference/rule.acrobat-cat-power-falling.md) — `rule.acrobat-cat-power-falling`
+- [Dodge Defense Calculation](cards/reference/rule.acrobat-dodge-defense.md) — `rule.acrobat-dodge-defense`
+- [Acrobat and Fighter Multiclass: Very Tricky](cards/reference/rule.acrobat-multiclass-very-tricky.md) — `rule.acrobat-multiclass-very-tricky`
+- [Nah Uses](cards/reference/rule.acrobat-nah-uses.md) — `rule.acrobat-nah-uses`
+- [Acrobat Progression](cards/reference/rule.acrobat-progression.md) — `rule.acrobat-progression`
+- [Roast the Oaf Retaliation](cards/reference/rule.acrobat-roast-the-oaf-retaliation.md) — `rule.acrobat-roast-the-oaf-retaliation`
+- [Tricky Attack Results](cards/reference/rule.acrobat-tricky-critical-attacks.md) — `rule.acrobat-tricky-critical-attacks`
+- [Alternate Level-Up Timing](cards/reference/rule.alternate-level-up-timing.md) — `rule.alternate-level-up-timing`
+- [Armor](cards/reference/rule.armor.md) — `rule.armor`
+- [Attacking and Defending](cards/reference/rule.attacking-and-defending.md) — `rule.attacking-and-defending`
+- [Using Firewater](cards/reference/rule.barbarian-firewater-use.md) — `rule.barbarian-firewater-use`
+- [Entering and Ending Rage](cards/reference/rule.barbarian-rage-use.md) — `rule.barbarian-rage-use`
+- [Using Thews](cards/reference/rule.barbarian-thews-use.md) — `rule.barbarian-thews-use`
+- [Starting Character Control](cards/reference/rule.character-control.md) — `rule.character-control`
+- [Checks and Saves](cards/reference/rule.checks-and-saves.md) — `rule.checks-and-saves`
+- [Class Template Selection and Multiclassing](cards/reference/rule.class-template-selection.md) — `rule.class-template-selection`
+- [Climbable Walls and Darkness](cards/reference/rule.climbable-walls-and-darkness.md) — `rule.climbable-walls-and-darkness`
+- [Combat Maneuvers](cards/reference/rule.combat-maneuvers.md) — `rule.combat-maneuvers`
+- [Critical Hits and Dodges](cards/reference/rule.critical-hits-and-dodges.md) — `rule.critical-hits-and-dodges`
+- [Finding the Door in Darkness](cards/reference/rule.dark-door-wisdom-check.md) — `rule.dark-door-wisdom-check`
+- [Starting Dehydration](cards/reference/rule.dehydration.md) — `rule.dehydration`
+- [Disposition](cards/reference/rule.disposition.md) — `rule.disposition`
+- [Allow Combat to Be Skipped or Trivialized](cards/reference/rule.dm-allow-combat-bypass.md) — `rule.dm-allow-combat-bypass`
+- [Do Not Hint at Missed Secret Areas](cards/reference/rule.dm-do-not-hint-missed-secrets.md) — `rule.dm-do-not-hint-missed-secrets`
+- [Do Not Impose Morality](cards/reference/rule.dm-do-not-impose-morality.md) — `rule.dm-do-not-impose-morality`
+- [Frame Multiple Viable Options](cards/reference/rule.dm-frame-meaningful-options.md) — `rule.dm-frame-meaningful-options`
+- [Give More Information When in Doubt](cards/reference/rule.dm-give-more-information.md) — `rule.dm-give-more-information`
+- [Keep Time Measures](cards/reference/rule.dm-keep-time-measures.md) — `rule.dm-keep-time-measures`
+- [Let Choices and Luck Matter](cards/reference/rule.dm-let-choices-and-luck-matter.md) — `rule.dm-let-choices-and-luck-matter`
+- [Never Fudge or Retune Mid-Encounter](cards/reference/rule.dm-never-fudge-or-retune-mid-encounter.md) — `rule.dm-never-fudge-or-retune-mid-encounter`
+- [Do Not Reveal Missed Content after the Session](cards/reference/rule.dm-never-reveal-missed-content-after-session.md) — `rule.dm-never-reveal-missed-content-after-session`
+- [Reward Attentive and Investigative Play](cards/reference/rule.dm-reward-attentive-investigative-play.md) — `rule.dm-reward-attentive-investigative-play`
+- [Telegraph Danger and Provide Options](cards/reference/rule.dm-telegraph-danger-and-provide-options.md) — `rule.dm-telegraph-danger-and-provide-options`
+- [Treat the Whole Dungeon as the Obstacle](cards/reference/rule.dm-treat-dungeon-as-whole-obstacle.md) — `rule.dm-treat-dungeon-as-whole-obstacle`
+- [Doors](cards/reference/rule.doors.md) — `rule.doors`
+- [Dying](cards/reference/rule.dying.md) — `rule.dying`
+- [Exploration Time](cards/reference/rule.exploration-time.md) — `rule.exploration-time`
+- [Double Attack Turn](cards/reference/rule.fighter-double-attack-turn.md) — `rule.fighter-double-attack-turn`
+- [Using Stand Tough](cards/reference/rule.fighter-stand-tough-use.md) — `rule.fighter-stand-tough-use`
+- [Tricky Attack-Roll Results](cards/reference/rule.fighter-tricky-attack-rolls.md) — `rule.fighter-tricky-attack-rolls`
+- [Very Tricky Combat Maneuvers](cards/reference/rule.fighter-very-tricky-maneuvers.md) — `rule.fighter-very-tricky-maneuvers`
+- [Food and Water](cards/reference/rule.food-and-water.md) — `rule.food-and-water`
+- [DM Authority over the Rulebook](cards/reference/rule.glog-dm-authority.md) — `rule.glog-dm-authority`
+- [The GLOG Is Modular](cards/reference/rule.glog-modular-ruleset.md) — `rule.glog-modular-ruleset`
+- [Healing](cards/reference/rule.healing.md) — `rule.healing`
+- [Hirelings](cards/reference/rule.hirelings.md) — `rule.hirelings`
+- [Improvised Ropes](cards/reference/rule.improvised-ropes.md) — `rule.improvised-ropes`
+- [Improvised Weapons](cards/reference/rule.improvised-weapons.md) — `rule.improvised-weapons`
+- [Initiative](cards/reference/rule.initiative.md) — `rule.initiative`
+- [Inventory and Ammunition](cards/reference/rule.inventory-and-ammunition.md) — `rule.inventory-and-ammunition`
+- [Investigation and Searching](cards/reference/rule.investigation-and-searching.md) — `rule.investigation-and-searching`
+- [Languages](cards/reference/rule.languages.md) — `rule.languages`
+- [Level 0 Ability Score Generation](cards/reference/rule.level-0-ability-score-generation.md) — `rule.level-0-ability-score-generation`
+- [Level Advancement](cards/reference/rule.level-advancement.md) — `rule.level-advancement`
+- [No Initial Light Sources or Necessary Tools](cards/reference/rule.level-zero-no-starting-tools.md) — `rule.level-zero-no-starting-tools`
+- [Leveling Up](cards/reference/rule.leveling-up.md) — `rule.leveling-up`
+- [Light](cards/reference/rule.light.md) — `rule.light`
+- [Loyalty](cards/reference/rule.loyalty.md) — `rule.loyalty`
+- [Magic Dice Doubles and Triples](cards/reference/rule.magic-dice-mishaps.md) — `rule.magic-dice-mishaps`
+- [Mapping](cards/reference/rule.mapping.md) — `rule.mapping`
+- [Mastery Points](cards/reference/rule.mastery-points.md) — `rule.mastery-points`
+- [Money](cards/reference/rule.money.md) — `rule.money`
+- [Monster Magic Dice Pool](cards/reference/rule.monster-magic-dice-pool.md) — `rule.monster-magic-dice-pool`
+- [Monster Spell Casting and Magic Dice Recovery](cards/reference/rule.monster-spell-casting-and-recovery.md) — `rule.monster-spell-casting-and-recovery`
+- [Morale](cards/reference/rule.morale.md) — `rule.morale`
+- [Movement](cards/reference/rule.movement.md) — `rule.movement`
+- [Noise](cards/reference/rule.noise.md) — `rule.noise`
+- [Optional Non-Binary Demographic Results](cards/reference/rule.optional-non-binary-demographic-results.md) — `rule.optional-non-binary-demographic-results`
+- [Balance Time Pressure against Investigation](cards/reference/rule.player-balance-time-and-investigation.md) — `rule.player-balance-time-and-investigation`
+- [Information Is a Resource](cards/reference/rule.player-information-as-resource.md) — `rule.player-information-as-resource`
+- [Optional Secrets Improve Survival](cards/reference/rule.player-optional-secrets-improve-survival.md) — `rule.player-optional-secrets-improve-survival`
+- [Solve Puzzles with Patterns and Mundane Objects](cards/reference/rule.player-patterns-and-mundane-tools.md) — `rule.player-patterns-and-mundane-tools`
+- [Plan, Avoid, or Flee Battles](cards/reference/rule.player-plan-or-avoid-battles.md) — `rule.player-plan-or-avoid-battles`
+- [Social Play without Social Stats](cards/reference/rule.player-social-play-without-stats.md) — `rule.player-social-play-without-stats`
+- [Use the Dungeon's Interconnections](cards/reference/rule.player-use-dungeon-interconnections.md) — `rule.player-use-dungeon-interconnections`
+- [Pursuit](cards/reference/rule.pursuit.md) — `rule.pursuit`
+- [Races Must Be Unlocked Through Play](cards/reference/rule.races-unlocked-through-play.md) — `rule.races-unlocked-through-play`
+- [Random Encounter Checks](cards/reference/rule.random-encounter-checks.md) — `rule.random-encounter-checks`
+- [The Recon Die](cards/reference/rule.recon-die.md) — `rule.recon-die`
+- [Saves](cards/reference/rule.saves.md) — `rule.saves`
+- [Setting the Stage](cards/reference/rule.setting-the-stage.md) — `rule.setting-the-stage`
+- [Shendormu’s Favor Progression](cards/reference/rule.shendormus-favor-progression.md) — `rule.shendormus-favor-progression`
+- [Skills](cards/reference/rule.skills.md) — `rule.skills`
+- [Small Stature](cards/reference/rule.small-stature.md) — `rule.small-stature`
+- [Spell [dice] and [sum] Notation](cards/reference/rule.spell-dice-and-sum-notation.md) — `rule.spell-dice-and-sum-notation`
+- [Spell Level Threshold](cards/reference/rule.spell-level-threshold.md) — `rule.spell-level-threshold`
+- [Spells as Bound Spirits](cards/reference/rule.spells-as-bound-spirits.md) — `rule.spells-as-bound-spirits`
+- [Splittable Spells](cards/reference/rule.splittable-spells.md) — `rule.splittable-spells`
+- [Starting Gear and Carrying Capacity](cards/reference/rule.starting-gear-and-carrying.md) — `rule.starting-gear-and-carrying`
+- [Stat Blocks](cards/reference/rule.stat-blocks.md) — `rule.stat-blocks`
+- [Stat Checks](cards/reference/rule.stat-checks.md) — `rule.stat-checks`
+- [Stealth](cards/reference/rule.stealth.md) — `rule.stealth`
+- [Swimming](cards/reference/rule.swimming.md) — `rule.swimming`
+- [Spending Mastery with “Luck”](cards/reference/rule.thief-luck-mastery.md) — `rule.thief-luck-mastery`
+- [Opportunist Trigger](cards/reference/rule.thief-opportunist-trigger.md) — `rule.thief-opportunist-trigger`
+- [Snag Awareness and Repeated Attempts](cards/reference/rule.thief-snag-awareness.md) — `rule.thief-snag-awareness`
+- [Snag Item Eligibility](cards/reference/rule.thief-snag-eligible-items.md) — `rule.thief-snag-eligible-items`
+- [Unmarked Package Declaration](cards/reference/rule.thief-unmarked-package.md) — `rule.thief-unmarked-package`
+- [Track Torch Durations](cards/reference/rule.torch-durations.md) — `rule.torch-durations`
+- [Treasure and Milestone Level Ups](cards/reference/rule.treasure-milestone-leveling.md) — `rule.treasure-milestone-leveling`
+- [Vandoh’s Favor Progression](cards/reference/rule.vandohs-favor-progression.md) — `rule.vandohs-favor-progression`
+- [Weapons and Armor](cards/reference/rule.weapons-and-armor.md) — `rule.weapons-and-armor`
+- [cone of mutilation](cards/reference/spell.cone-of-mutilation.md) — `spell.cone-of-mutilation`
+- [Confusion](cards/reference/spell.confusion.md) — `spell.confusion`
+- [Delay](cards/reference/spell.delay.md) — `spell.delay`
+- [desiccate](cards/reference/spell.desiccate.md) — `spell.desiccate`
+- [Dessicate](cards/reference/spell.dessicate.md) — `spell.dessicate`
+- [Emergency Exit](cards/reference/spell.emergency-exit.md) — `spell.emergency-exit`
+- [Geas](cards/reference/spell.geas.md) — `spell.geas`
+- [Haste](cards/reference/spell.haste.md) — `spell.haste`
+- [Ignite](cards/reference/spell.ignite.md) — `spell.ignite`
+- [Polymorph](cards/reference/spell.polymorph.md) — `spell.polymorph`
+- [Precognition](cards/reference/spell.precognition.md) — `spell.precognition`
+- [Scry](cards/reference/spell.scry.md) — `spell.scry`
+- [Sleep](cards/reference/spell.sleep.md) — `spell.sleep`
+- [Wave of Mutilation](cards/reference/spell.wave-of-mutilation.md) — `spell.wave-of-mutilation`
+- [Active Encounters](cards/reference/table.active-encounters-second-floor.md) — `table.active-encounters-second-floor`
+- [Attack DC by Armor](cards/reference/table.attack-dcs-by-armor.md) — `table.attack-dcs-by-armor`
+- [10 BONE PILE Search Results](cards/reference/table.bone-pile-search.md) — `table.bone-pile-search`
+- [Critical Results](cards/reference/table.critical-results.md) — `table.critical-results`
+- [An Incomplete List of Dispositions](cards/reference/table.dispositions.md) — `table.dispositions`
+- [Dying Con Check Outcomes](cards/reference/table.dying-check-outcomes.md) — `table.dying-check-outcomes`
+- [The Encounter Die](cards/reference/table.encounter-die.md) — `table.encounter-die`
+- [Encounter Table (Lamb Alive)](cards/reference/table.encounters-lamb-alive.md) — `table.encounters-lamb-alive`
+- [Encounter Table (Lamb Dead)](cards/reference/table.encounters-lamb-dead.md) — `table.encounters-lamb-dead`
+- [Indirect Encounters](cards/reference/table.indirect-encounters-second-floor.md) — `table.indirect-encounters-second-floor`
+- [Key Items — Light Sources](cards/reference/table.key-items-light-sources.md) — `table.key-items-light-sources`
+- [Key Items — Rope](cards/reference/table.key-items-rope.md) — `table.key-items-rope`
+- [Language Abilities at 10 Points](cards/reference/table.language-mastery-abilities.md) — `table.language-mastery-abilities`
+- [Level 0 Peasant Base Stats](cards/reference/table.level-0-peasant-base-stats.md) — `table.level-0-peasant-base-stats`
+- [Level Advancement](cards/reference/table.level-advancement.md) — `table.level-advancement`
+- [The Two Types of Morale Checks](cards/reference/table.morale-checks.md) — `table.morale-checks`
+- [Passive Encounters](cards/reference/table.passive-encounters-second-floor.md) — `table.passive-encounters-second-floor`
+- [Peasant Appearance](cards/reference/table.peasant-appearance.md) — `table.peasant-appearance`
+- [Peasant Demographic](cards/reference/table.peasant-demographic.md) — `table.peasant-demographic`
+- [Peasant Personality](cards/reference/table.peasant-personality.md) — `table.peasant-personality`
+- [Peasant Profession](cards/reference/table.peasant-profession.md) — `table.peasant-profession`
+- [Pursuit Movement Modifiers](cards/reference/table.pursuit-modifiers.md) — `table.pursuit-modifiers`
+- [Rest Healing](cards/reference/table.rest-healing.md) — `table.rest-healing`
+- [Save Types](cards/reference/table.save-types.md) — `table.save-types`
+- [Swimming by Armor Worn](cards/reference/table.swimming-by-armor.md) — `table.swimming-by-armor`
+- [Treasures and Milestones](cards/reference/table.treasures-and-milestones.md) — `table.treasures-and-milestones`
+- [Weapon Damage](cards/reference/table.weapon-damage.md) — `table.weapon-damage`

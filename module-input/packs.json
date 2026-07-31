@@ -1,0 +1,673 @@
+{
+  "packs": [
+    {
+      "archive_path": "../_exchange/content.001.zip",
+      "ingested_response_sha256": "741c81892067b653f6cbcc0803fdd6d94f5e6f9782f93845adab308b30eba33c",
+      "pack_id": "content.001",
+      "pack_sha256": "3f4ba14bc90c55fd0dfeb8232e2ef45ea77b72f444655b65886e75dd9ff5f7e4",
+      "page_tasks": [
+        {
+          "context_reason": null,
+          "pdf_page": 2,
+          "tasks": [
+            "classes",
+            "rules"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 3,
+          "tasks": [
+            "rules"
+          ]
+        }
+      ],
+      "physical_pages": [
+        2,
+        3
+      ],
+      "response_path": "responses/content.001.json",
+      "task": "content",
+      "tasks": [
+        "classes",
+        "rules"
+      ],
+      "text_bytes": 8654
+    },
+    {
+      "archive_path": "../_exchange/content.002.zip",
+      "ingested_response_sha256": "94009bcd3974b773a14c41205d2c4eb97eecb879b9a67b0043ba59231db9715c",
+      "pack_id": "content.002",
+      "pack_sha256": "b14b96dd38bc457421c58e0aa8675293ef64940c48a642dd4107054eb0158ba5",
+      "page_tasks": [
+        {
+          "context_reason": null,
+          "pdf_page": 5,
+          "tasks": [
+            "classes",
+            "rules",
+            "tables"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 6,
+          "tasks": [
+            "classes",
+            "tables"
+          ]
+        }
+      ],
+      "physical_pages": [
+        5,
+        6
+      ],
+      "response_path": "responses/content.002.json",
+      "task": "content",
+      "tasks": [
+        "classes",
+        "rules",
+        "tables"
+      ],
+      "text_bytes": 6592
+    },
+    {
+      "archive_path": "../_exchange/content.003.zip",
+      "ingested_response_sha256": "ea72e94e6039864ca3796174643d5a00fc4daf1831106e8e713f1a9287beaa04",
+      "pack_id": "content.003",
+      "pack_sha256": "79453e9970647ef3d60c0ca17498f606e4bebe1bd3313c305ada0141a5495954",
+      "page_tasks": [
+        {
+          "context_reason": null,
+          "pdf_page": 8,
+          "tasks": [
+            "rules"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 9,
+          "tasks": [
+            "rules",
+            "tables"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 10,
+          "tasks": [
+            "effects",
+            "rules",
+            "tables"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 11,
+          "tasks": [
+            "items",
+            "rules",
+            "tables"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 12,
+          "tasks": [
+            "classes",
+            "effects",
+            "items",
+            "rules"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 13,
+          "tasks": [
+            "rules",
+            "tables"
+          ]
+        }
+      ],
+      "physical_pages": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "response_path": "responses/content.003.json",
+      "task": "content",
+      "tasks": [
+        "classes",
+        "effects",
+        "items",
+        "rules",
+        "tables"
+      ],
+      "text_bytes": 28915
+    },
+    {
+      "archive_path": "../_exchange/content.004.zip",
+      "ingested_response_sha256": "99dec51d12f1187ab4b0f29cf0d1431a54cfcdf2afdc3b05e2aae9c856fa9d20",
+      "pack_id": "content.004",
+      "pack_sha256": "167262b93bb62cd3a76db55e626bc6a1001632009b6a8efc254b58b163a0c4b2",
+      "page_tasks": [
+        {
+          "context_reason": null,
+          "pdf_page": 16,
+          "tasks": [
+            "adventure"
+          ]
+        }
+      ],
+      "physical_pages": [
+        16
+      ],
+      "response_path": "responses/content.004.json",
+      "task": "content",
+      "tasks": [
+        "adventure"
+      ],
+      "text_bytes": 1790
+    },
+    {
+      "archive_path": "../_exchange/content.005.zip",
+      "ingested_response_sha256": "fb6ea2478e4dc202dada6e626c0cf109583d955440cee76cbda078f97452221d",
+      "pack_id": "content.005",
+      "pack_sha256": "c67a8a318794f234c4e1604d078a822339ae8972086ad9205326b72777a8ef02",
+      "page_tasks": [
+        {
+          "context_reason": null,
+          "pdf_page": 18,
+          "tasks": [
+            "adventure",
+            "tables"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 19,
+          "tasks": [
+            "adventure",
+            "rules"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 20,
+          "tasks": [
+            "adventure",
+            "effects",
+            "spells"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 21,
+          "tasks": [
+            "adventure",
+            "items"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 22,
+          "tasks": [
+            "adventure",
+            "effects",
+            "items"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 23,
+          "tasks": [
+            "adventure",
+            "effects",
+            "items",
+            "tables"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 24,
+          "tasks": [
+            "adventure",
+            "effects",
+            "items"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 25,
+          "tasks": [
+            "adventure",
+            "effects",
+            "items"
+          ]
+        }
+      ],
+      "physical_pages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "response_path": "responses/content.005.json",
+      "task": "content",
+      "tasks": [
+        "adventure",
+        "effects",
+        "items",
+        "rules",
+        "spells",
+        "tables"
+      ],
+      "text_bytes": 26869
+    },
+    {
+      "archive_path": "../_exchange/content.006.zip",
+      "ingested_response_sha256": "9a5d6ddca23c820386ccbad20798bfee989244f3ea6d665e88127a0f864cda87",
+      "pack_id": "content.006",
+      "pack_sha256": "d6931770779a799f5516cd6255b6941626a777657912b4c7b82fa27ccfce7ceb",
+      "page_tasks": [
+        {
+          "context_reason": null,
+          "pdf_page": 26,
+          "tasks": [
+            "adventure",
+            "effects",
+            "spells"
+          ]
+        }
+      ],
+      "physical_pages": [
+        26
+      ],
+      "response_path": "responses/content.006.json",
+      "task": "content",
+      "tasks": [
+        "adventure",
+        "effects",
+        "spells"
+      ],
+      "text_bytes": 3655
+    },
+    {
+      "archive_path": "../_exchange/content.007.zip",
+      "ingested_response_sha256": "ab4191f30dffc11227ca806216fb6ba13558d92d2031e4c0073bd901c6642e28",
+      "pack_id": "content.007",
+      "pack_sha256": "20766dc101d1c569047d6d32e8478c4ddfa2d4631953b33d743b8277577b10c9",
+      "page_tasks": [
+        {
+          "context_reason": null,
+          "pdf_page": 28,
+          "tasks": [
+            "adventure",
+            "effects",
+            "tables"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 29,
+          "tasks": [
+            "adventure"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 30,
+          "tasks": [
+            "adventure",
+            "effects"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 31,
+          "tasks": [
+            "adventure",
+            "effects"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 32,
+          "tasks": [
+            "adventure",
+            "effects",
+            "items"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 33,
+          "tasks": [
+            "adventure",
+            "effects",
+            "items"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 34,
+          "tasks": [
+            "adventure",
+            "effects",
+            "items"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 35,
+          "tasks": [
+            "adventure",
+            "effects",
+            "items"
+          ]
+        }
+      ],
+      "physical_pages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "response_path": "responses/content.007.json",
+      "task": "content",
+      "tasks": [
+        "adventure",
+        "effects",
+        "items",
+        "tables"
+      ],
+      "text_bytes": 28203
+    },
+    {
+      "archive_path": "../_exchange/content.008.zip",
+      "ingested_response_sha256": "58855f90b0fb187a3c1963e100f8856bda9b9a87b9a3ccb632028415d3e5e7db",
+      "pack_id": "content.008",
+      "pack_sha256": "dc9b0d2e1bac2b6feb278c2cfd841653947a55806341d5fda4907c97f9d2eb35",
+      "page_tasks": [
+        {
+          "context_reason": null,
+          "pdf_page": 36,
+          "tasks": [
+            "adventure",
+            "effects",
+            "items"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 37,
+          "tasks": [
+            "adventure",
+            "effects",
+            "items"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 38,
+          "tasks": [
+            "adventure",
+            "effects",
+            "items"
+          ]
+        }
+      ],
+      "physical_pages": [
+        36,
+        37,
+        38
+      ],
+      "response_path": "responses/content.008.json",
+      "task": "content",
+      "tasks": [
+        "adventure",
+        "effects",
+        "items"
+      ],
+      "text_bytes": 10077
+    },
+    {
+      "archive_path": "../_exchange/content.009.zip",
+      "ingested_response_sha256": "483e3734ccf7eac74c3d1dd5a5054f60e5ca2bed72de87a2644efc5d91cd2a0a",
+      "pack_id": "content.009",
+      "pack_sha256": "f2f3dc61cce27068fc2688a58d3d4ed63a2ef797027783521179b2a46b0f4624",
+      "page_tasks": [
+        {
+          "context_reason": null,
+          "pdf_page": 40,
+          "tasks": [
+            "adventure",
+            "effects"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 41,
+          "tasks": [
+            "adventure",
+            "effects",
+            "items"
+          ]
+        }
+      ],
+      "physical_pages": [
+        40,
+        41
+      ],
+      "response_path": "responses/content.009.json",
+      "task": "content",
+      "tasks": [
+        "adventure",
+        "effects",
+        "items"
+      ],
+      "text_bytes": 6376
+    },
+    {
+      "archive_path": "../_exchange/content.010.zip",
+      "ingested_response_sha256": "51cdf982b3a182b65a71d46e38d3e73163098d88e132da8e300c3b8e6871fe83",
+      "pack_id": "content.010",
+      "pack_sha256": "c4fa031350262644725d3c0094e8e5fa4c0c34135cdc7af5cd9aab6e9c1608e4",
+      "page_tasks": [
+        {
+          "context_reason": null,
+          "pdf_page": 43,
+          "tasks": [
+            "effects",
+            "items"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 44,
+          "tasks": [
+            "effects",
+            "items"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 45,
+          "tasks": [
+            "effects",
+            "rules",
+            "spells"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 46,
+          "tasks": [
+            "effects",
+            "spells"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 47,
+          "tasks": [
+            "effects",
+            "rules"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 48,
+          "tasks": [
+            "effects",
+            "items"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 49,
+          "tasks": [
+            "classes",
+            "rules",
+            "tables"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 50,
+          "tasks": [
+            "classes",
+            "effects",
+            "rules"
+          ]
+        }
+      ],
+      "physical_pages": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "response_path": "responses/content.010.json",
+      "task": "content",
+      "tasks": [
+        "classes",
+        "effects",
+        "items",
+        "rules",
+        "spells",
+        "tables"
+      ],
+      "text_bytes": 20500
+    },
+    {
+      "archive_path": "../_exchange/content.011.zip",
+      "ingested_response_sha256": "08e256b6d6882b5da334e19e934f9b72f60d22da30633e8d205c473bc6d75d60",
+      "pack_id": "content.011",
+      "pack_sha256": "1d4536c95be2efaecf3a0c4bf402ef92887b7847495e68780a33b8744c7cf858",
+      "page_tasks": [
+        {
+          "context_reason": null,
+          "pdf_page": 51,
+          "tasks": [
+            "classes",
+            "effects",
+            "rules"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 52,
+          "tasks": [
+            "classes",
+            "effects",
+            "rules"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 53,
+          "tasks": [
+            "classes",
+            "effects",
+            "rules"
+          ]
+        },
+        {
+          "context_reason": null,
+          "pdf_page": 54,
+          "tasks": [
+            "adventure",
+            "classes",
+            "items",
+            "rules",
+            "tables"
+          ]
+        }
+      ],
+      "physical_pages": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "response_path": "responses/content.011.json",
+      "task": "content",
+      "tasks": [
+        "adventure",
+        "classes",
+        "effects",
+        "items",
+        "rules",
+        "tables"
+      ],
+      "text_bytes": 6196
+    },
+    {
+      "archive_path": "../_exchange/map.v2.001.zip",
+      "ingested_response_sha256": "df315c2e7ade01bcafb6836e9acf61f31c9e4adc920baf5ddfe84cc0e543e43a",
+      "pack_id": "map.v2.001",
+      "pack_sha256": "5ffcf142dff54d71e7ab07491e9ed99ef3fa5b83d2555566d912407b53f1791a",
+      "physical_pages": [
+        15,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        40
+      ],
+      "render_bytes": 14090485,
+      "response_path": "responses/map.v2.001.json",
+      "task": "maps"
+    }
+  ],
+  "schema": "module-pack-manifest/v1",
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda"
+}

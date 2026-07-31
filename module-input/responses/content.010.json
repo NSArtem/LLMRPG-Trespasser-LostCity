@@ -1,0 +1,1911 @@
+{
+  "schema": "module-content-evidence/v3",
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda",
+  "pack_id": "content.010",
+  "task": "content",
+  "records": [
+    {
+      "id": "item.abacus-of-vandoh",
+      "record_type": "item",
+      "fields": {
+        "title": "Abacus of Vandoh",
+        "text": "A maple, shale, and lapis-lazuli abacus that can perform addition, subtraction, multiplication, and certain types of square roots. Three times per day it answers a question whose answer is an integer from 2 through 9. The GM secretly rolls d100: 11–100 gives the honest answer, 2–9 gives that rolled number, and 1 or 10 gives no response. It cannot answer about things more than 100 feet away; it only understands obdurate physical things, cannot read minds or understand names, struggles to distinguish humans, and cannot understand questions longer than 12 words."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.abacus-of-vandoh-answers"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source does not define which square roots the abacus can perform.",
+          "source_pages": [
+            43
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effect.abacus-of-vandoh-answers",
+      "record_type": "effect",
+      "fields": {
+        "title": "Abacus of Vandoh Answers",
+        "text": "Up to three times per day, the abacus can answer a qualifying question with an integer from 2 through 9. A secret d100 roll determines the result: 11–100 answers honestly, 2–9 answers with the rolled number, and 1 or 10 produces no response. Questions are limited to obdurate physical things within 100 feet, may contain no more than 12 words, and cannot depend on names, mind-reading, or reliable distinction between humans."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "item.abacus-of-vandoh"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.black-iron-spellbook",
+      "record_type": "item",
+      "fields": {
+        "title": "Black Iron Spellbook",
+        "text": "A spellbook whose covers and pages are polished iron sheets, with letters formed by unpolished sections. A chain woven through its spine is intended to secure it to the owner’s waist. It is written in Cheoxic, permits a character to begin learning Cheoxic, contains the spells speak with dead and fear, and permits advancement as a Necromancer. Once the reader reaches Necromancer Level 1, the lich Shadrakul asks that character to become her apprentice."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.black-iron-spellbook-instruction"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.black-iron-spellbook-instruction",
+      "record_type": "effect",
+      "fields": {
+        "title": "Black Iron Spellbook Instruction",
+        "text": "Possession and study of the book permit a character to begin learning Cheoxic, provide the spells speak with dead and fear, and unlock leveling as a Necromancer. Reaching Necromancer Level 1 causes the lich Shadrakul to ask the character to become her apprentice."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "item.black-iron-spellbook"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.hand-mirror-of-lies",
+      "record_type": "item",
+      "fields": {
+        "title": "Hand Mirror of Lies",
+        "text": "A hand mirror shaped like the outline of a woman’s face, including ears and carefully styled hair. Its holder chooses what appears in the mirror; it can display anything the holder imagines, including an honest reflection."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.hand-mirror-of-lies-display"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.hand-mirror-of-lies-display",
+      "record_type": "effect",
+      "fields": {
+        "title": "Hand Mirror of Lies Display",
+        "text": "The holder chooses the image shown by the mirror. Any imagined image can be displayed, including a truthful reflection."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "item.hand-mirror-of-lies"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.liquid-boat",
+      "record_type": "item",
+      "fields": {
+        "title": "Liquid Boat",
+        "text": "A vial containing a full-size ship in liquid form; it smells like the ocean and tastes like tarred wood. One drop forms a toy boat, one quarter of the vial forms a rowboat for 4, one half forms a small sloop for 8, and the whole vial forms a full-size ship for 16. If space is insufficient, the result is a deformed nonsense boat. If consumed, the drinker becomes a self-aware boat that can communicate only by creaking."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.liquid-boat-manifestation",
+        "effect.liquid-boat-consumption"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.liquid-boat-manifestation",
+      "record_type": "effect",
+      "fields": {
+        "title": "Liquid Boat Manifestation",
+        "text": "Dispensed liquid becomes a boat according to quantity: a drop makes a toy boat; one quarter of the vial makes a 4-person rowboat; one half makes an 8-person small sloop; and the entire vial makes a full-size ship for 16. Insufficient space produces a deformed nonsense boat."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "item.liquid-boat"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.liquid-boat-consumption",
+      "record_type": "effect",
+      "fields": {
+        "title": "Liquid Boat Consumption",
+        "text": "A creature that consumes the liquid turns into a self-aware boat and can communicate only through creaking."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "item.liquid-boat"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.liquid-hole",
+      "record_type": "item",
+      "fields": {
+        "title": "Liquid Hole",
+        "text": "A vial of utterly black oil that bends light toward itself, produces a lensing effect in the surrounding air, and has no smell. Tasting it creates a large piercing-like hole in the tongue. Applied to a surface, it creates a hole up to 6 inches wide and 5 feet deep, never wider than half the object; created holes cannot intersect. Applied to a portcullis, it can make the bars resemble Swiss cheese without breaking them. Consuming it creates a hole in the abdomen and causes the consumer’s guts to fall out."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.liquid-hole-surface",
+        "effect.liquid-hole-consumption"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.liquid-hole-surface",
+      "record_type": "effect",
+      "fields": {
+        "title": "Liquid Hole Surface Perforation",
+        "text": "Applied to a surface, the oil creates a hole up to 6 inches wide and 5 feet deep. The hole cannot be wider than half the object, and separate holes cannot intersect; therefore perforating portcullis bars does not itself break them."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "item.liquid-hole"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.liquid-hole-consumption",
+      "record_type": "effect",
+      "fields": {
+        "title": "Liquid Hole Consumption",
+        "text": "Tasting the oil creates a large piercing-like hole in the tongue. Consuming it creates a hole in the abdomen and causes all of the consumer’s guts to fall out."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "item.liquid-hole"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.orb-of-indulgence",
+      "record_type": "item",
+      "fields": {
+        "title": "Orb of Indulgence",
+        "text": "A silver orb about 1 inch across. It immediately forgives the bearer’s next significant sin, after which the orb corrodes. Orbs are sold but tightly controlled; the source states that finding one makes resale to the Church the only ethical option. It is worth 500s. Rumors claim that golden orbs can forgive even mortal sins."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.orb-of-indulgence-forgiveness"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source does not define what qualifies as a significant sin, and golden orbs are presented only as rumor.",
+          "source_pages": [
+            43
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effect.orb-of-indulgence-forgiveness",
+      "record_type": "effect",
+      "fields": {
+        "title": "Orb of Indulgence Forgiveness",
+        "text": "The bearer’s next significant sin is immediately forgiven, and the silver orb then corrodes."
+      },
+      "source_pages": [
+        43
+      ],
+      "confidence": "high",
+      "references": [
+        "item.orb-of-indulgence"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source does not define the threshold for a significant sin.",
+          "source_pages": [
+            43
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item.skull-of-davok",
+      "record_type": "item",
+      "fields": {
+        "title": "Skull of Davok",
+        "text": "The remnant of the demon Davok, resembling a deformed elephant skull. Once released from its lead-lined chest, it tries once per round to absorb flesh from one person within 30 feet (Cha Save or die). After absorbing flesh it regrows much of its head and voice, demands to be carried out, and casts geas until obeyed. It can spend an hour calling a carpet of vermin to carry it at a crawl; if it wanders this way, add Davok to the Random Encounter Table in place of Atmospheric Encounters for rooms 1–20. It awakens when touched or when its name is called. In combat it casts ignite for 3d6 fire damage (Dex for half) and polymorph with 3 MD. Taking 10 damage in one round stuns it for 1 minute while it reconstructs itself; nothing in this dungeon can destroy it. Returning it to the lead-lined chest makes it inert. Once free it searches for its missing body parts, and its loyal thrall becomes a warlock in Davok’s service, forcibly if necessary. The rest of the party may join Davok or leave; if they leave, the new warlock becomes an allied NPC in Lon Barago."
+      },
+      "source_pages": [
+        44
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.davok-flesh-absorption",
+        "effect.davok-geased-thrall",
+        "effect.davok-stun-and-inertness",
+        "effect.davok-warlock-transformation",
+        "effect.davok-vermin-transport"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.davok-flesh-absorption",
+      "record_type": "effect",
+      "fields": {
+        "title": "Davok Flesh Absorption",
+        "text": "While free of the lead-lined chest, Davok attempts once per round to absorb flesh from one person within 30 feet; a Cha Save prevents death. A successful absorption regrows much of Davok’s head and restores a thick, viscous voice."
+      },
+      "source_pages": [
+        44
+      ],
+      "confidence": "high",
+      "references": [
+        "item.skull-of-davok"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.davok-geased-thrall",
+      "record_type": "effect",
+      "fields": {
+        "title": "Davok’s Geased Thrall",
+        "text": "Davok demands to be carried out of the dungeon and casts geas until someone complies. The geased thrall remains a playable PC but is utterly dedicated to serving Davok, will not tolerate words or actions against him, and calls Davok’s name when pressed. Once carried, Davok appears to sleep while searching the ether for fragments of his body."
+      },
+      "source_pages": [
+        44
+      ],
+      "confidence": "high",
+      "references": [
+        "item.skull-of-davok"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.davok-stun-and-inertness",
+      "record_type": "effect",
+      "fields": {
+        "title": "Davok Stun and Inertness",
+        "text": "Davok awakens if touched or if his name is called. If he takes 10 damage in a single round, he is stunned for 1 minute while reconstructing himself. Returning him to the lead-lined chest makes him inert again; the dungeon contains nothing capable of destroying him."
+      },
+      "source_pages": [
+        44
+      ],
+      "confidence": "high",
+      "references": [
+        "item.skull-of-davok"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.davok-warlock-transformation",
+      "record_type": "effect",
+      "fields": {
+        "title": "Davok Warlock Transformation",
+        "text": "Once Davok is free, his loyal thrall becomes a warlock in his service, by force if the thrall refuses. The rest of the party may also enter Davok’s service or depart; if they depart, the newly made warlock becomes an allied NPC in Lon Barago."
+      },
+      "source_pages": [
+        44
+      ],
+      "confidence": "high",
+      "references": [
+        "item.skull-of-davok"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.davok-vermin-transport",
+      "record_type": "effect",
+      "fields": {
+        "title": "Davok Vermin Transport",
+        "text": "With 1 hour of work, Davok can summon a carpet of vermin that carries the skull at a crawl. If he wanders the dungeon this way, he replaces Atmospheric Encounters on the Random Encounter Table for rooms 1–20."
+      },
+      "source_pages": [
+        44
+      ],
+      "confidence": "high",
+      "references": [
+        "item.skull-of-davok"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.slobberworms",
+      "record_type": "item",
+      "fields": {
+        "title": "Slobberworms",
+        "text": "Harmless, disgusting creatures resembling fat maggots the size of mice. When fed organic material, they produce flatus, more slobberworms, and a large amount of extremely slippery slime equivalent to grease whenever squeezed. They can eat anything a brave pig could eat, and with enough food their population can double every day."
+      },
+      "source_pages": [
+        44
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.slobberworm-slime",
+        "effect.slobberworm-reproduction"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.slobberworm-slime",
+      "record_type": "effect",
+      "fields": {
+        "title": "Slobberworm Slime",
+        "text": "A fed slobberworm produces a large amount of extremely slippery slime, functioning as grease, whenever it is squeezed."
+      },
+      "source_pages": [
+        44
+      ],
+      "confidence": "high",
+      "references": [
+        "item.slobberworms"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.slobberworm-reproduction",
+      "record_type": "effect",
+      "fields": {
+        "title": "Slobberworm Reproduction",
+        "text": "Fed organic material, slobberworms produce additional slobberworms; with enough food, their population can double each day."
+      },
+      "source_pages": [
+        44
+      ],
+      "confidence": "high",
+      "references": [
+        "item.slobberworms"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.spells-as-bound-spirits",
+      "record_type": "rule",
+      "fields": {
+        "title": "Spells as Bound Spirits",
+        "text": "Spells are spirits, angels, or demons temporarily trapped in a symbolic pattern, such as a brain or book, and then fired like bullets from a gun."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.monster-magic-dice-pool",
+      "record_type": "rule",
+      "fields": {
+        "title": "Monster Magic Dice Pool",
+        "text": "A spellcasting monster has the spells listed in its statblock and a number of d6 Magic Dice (MD) equal to the number of spells it knows. Those dice begin in the monster’s mana pool."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.monster-spell-casting-and-recovery",
+      "record_type": "rule",
+      "fields": {
+        "title": "Monster Spell Casting and Magic Dice Recovery",
+        "text": "To cast, a monster chooses a spell, a target, and how many MD to invest, then rolls those MD. Dice showing 1, 2, or 3 return to the mana pool for later turns; dice showing 4, 5, or 6 are expended until the next day."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [
+        "rule.monster-magic-dice-pool",
+        "rule.spell-dice-and-sum-notation",
+        "rule.magic-dice-mishaps"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.spell-dice-and-sum-notation",
+      "record_type": "rule",
+      "fields": {
+        "title": "Spell [dice] and [sum] Notation",
+        "text": "In spell descriptions, [dice] is the number of rolled MD and [sum] is the total rolled on those MD."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.magic-dice-mishaps",
+      "record_type": "rule",
+      "fields": {
+        "title": "Magic Dice Doubles and Triples",
+        "text": "Rolling doubles or triples on MD causes harm to the caster. The page points to GLOG: Wizards for full rules and offers a simplified option: doubles deal 1d6 damage and triples deal 3d6 damage."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.spell-level-threshold",
+      "record_type": "rule",
+      "fields": {
+        "title": "Spell Level Threshold",
+        "text": "A spell does not affect a target unless the rolled [sum] is at least equal to the target’s Level."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.splittable-spells",
+      "record_type": "rule",
+      "fields": {
+        "title": "Splittable Spells",
+        "text": "A spell with the Splittable tag may be cast multiple times against multiple targets. All invested MD are rolled together, and doubles and triples are still evaluated normally."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [
+        "rule.magic-dice-mishaps"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.confusion",
+      "record_type": "spell",
+      "fields": {
+        "title": "Confusion",
+        "text": "Range 30 feet; target 1 creature; duration [sum] rounds. Each round the target declares three potential actions that are fully distinct, sharing no objects or verbs. Roll 1d3; the target performs the corresponding action. A save negates the spell. Splittable."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.confusion-random-action",
+        "rule.splittable-spells"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.confusion-random-action",
+      "record_type": "effect",
+      "fields": {
+        "title": "Confusion Random Action",
+        "text": "For [sum] rounds, each round the affected creature must name three fully distinct potential actions with no shared objects or verbs, then performs one chosen randomly by 1d3. A successful save negates the effect."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [
+        "spell.confusion"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.delay",
+      "record_type": "spell",
+      "fields": {
+        "title": "Delay",
+        "text": "Range 30 feet; target 1 effect; duration [dice] rounds. Delays an effect—something happening to one object because of an interaction with another object or spell. It can delay incoming damage or prevent a sword from breaking until later. It may be cast as a reaction outside the caster’s turn and takes no time. The spell can create paradoxes, which the GM is encouraged to resolve in the way most painful to the caster."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.delay-an-effect"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.delay-an-effect",
+      "record_type": "effect",
+      "fields": {
+        "title": "Delayed Effect",
+        "text": "A targeted effect is postponed for [dice] rounds. The spell can be cast as a no-time reaction outside the caster’s turn. Any paradoxes are resolved by the GM, with the source encouraging painful consequences for the caster."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [
+        "spell.delay"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.dessicate",
+      "record_type": "spell",
+      "fields": {
+        "title": "Dessicate",
+        "text": "Range 30 feet; target object; duration 0. Evaporates 1 gallon of liquid, multiplied by 10 for every MD beyond the first. Alternatively, it deals [sum] damage to an animal foe, with a Cha Save for half. Drier targets take less or no damage; wetter targets, such as oozes, take more."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.dessicate-liquid-or-animal"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.dessicate-liquid-or-animal",
+      "record_type": "effect",
+      "fields": {
+        "title": "Dessicate Liquid or Animal",
+        "text": "The spell either evaporates 1 gallon of liquid, with a ×10 multiplier for each MD after the first, or deals [sum] damage to an animal foe. A Cha Save halves animal damage; dryness reduces or eliminates damage, while wetness can increase it."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [
+        "spell.dessicate"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.emergency-exit",
+      "record_type": "spell",
+      "fields": {
+        "title": "Emergency Exit",
+        "text": "Range 30 feet; target object; duration 0. Teleports the target to a random room in the dungeon, random street in the city, or random adjacent hex. A Cha Save negates the spell. Dungeon rooms are selected by room number."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.emergency-exit-teleportation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.emergency-exit-teleportation",
+      "record_type": "effect",
+      "fields": {
+        "title": "Emergency Exit Teleportation",
+        "text": "The target is teleported to a random dungeon room, city street, or adjacent hex. A successful Cha Save negates the effect; room numbers determine a random dungeon destination."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [
+        "spell.emergency-exit"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.geas",
+      "record_type": "spell",
+      "fields": {
+        "title": "Geas",
+        "text": "Range 30 feet; target person; duration [dice] weeks. The target is bound to complete a quest chosen by the caster, and the caster is bound to help with that quest. Neither may directly harm the other. The quest must have a decent chance of success. When it is completed, the caster is compelled to reward the target properly. A save negates the spell."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.geas-mutual-quest-binding"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.geas-mutual-quest-binding",
+      "record_type": "effect",
+      "fields": {
+        "title": "Geas Mutual Quest Binding",
+        "text": "For [dice] weeks, the target must pursue a caster-chosen quest with a decent chance of success, while the caster must help. Neither participant may directly harm the other. Completion compels the caster to provide a proper reward. A successful save negates the binding."
+      },
+      "source_pages": [
+        45
+      ],
+      "confidence": "high",
+      "references": [
+        "spell.geas"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.haste",
+      "record_type": "spell",
+      "fields": {
+        "title": "Haste",
+        "text": "Range 30 feet; target objects; duration 3 rounds. The target object or creature exists at double speed and ages 1d6 years. Human hair becomes permanently white. Creatures can make one extra attack each round. A save negates the spell. Splittable."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.haste-double-speed-and-aging",
+        "rule.splittable-spells"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.haste-double-speed-and-aging",
+      "record_type": "effect",
+      "fields": {
+        "title": "Haste Double Speed and Aging",
+        "text": "For 3 rounds, the target exists at double speed; a creature gains one extra attack per round. The target also ages 1d6 years, and human hair permanently turns white. A successful save negates the effect."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "spell.haste"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.ignite",
+      "record_type": "spell",
+      "fields": {
+        "title": "Ignite",
+        "text": "Range 30 feet; target object; duration 0. The target takes [sum] damage and catches fire. A Cha Save halves the damage and prevents ignition. Splittable."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.ignite-damage-and-fire",
+        "rule.splittable-spells"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ignite-damage-and-fire",
+      "record_type": "effect",
+      "fields": {
+        "title": "Ignite Damage and Fire",
+        "text": "The target takes [sum] damage and catches fire. A successful Cha Save halves the damage and prevents the target from catching fire."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "spell.ignite"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.polymorph",
+      "record_type": "spell",
+      "fields": {
+        "title": "Polymorph",
+        "text": "Range 30 feet; target creature; duration [sum] rounds. The target becomes a creature that may be small, big, dangerous, harmless, mobile, or slow. Choose one adjective for each MD invested. An adjective may be chosen twice to make the result very big or very dangerous; choosing slow three times can make it immobile. The default result is human-sized, able to defend itself, and about as mobile as a human, such as a goat. Investing 4 MD makes the transformation permanent. A save negates the spell. Splittable."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.polymorph-transformation",
+        "rule.splittable-spells"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.polymorph-transformation",
+      "record_type": "effect",
+      "fields": {
+        "title": "Polymorph Transformation",
+        "text": "For [sum] rounds, the target is transformed according to one chosen adjective per invested MD: small, big, dangerous, harmless, mobile, or slow. Repeating big or dangerous twice intensifies it to very big or very dangerous; slow chosen three times can make the creature immobile. Without selected changes, the form is human-sized, self-defending, and roughly human-mobile. Investing 4 MD makes the transformation permanent. A successful save negates it."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "spell.polymorph"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.precognition",
+      "record_type": "spell",
+      "fields": {
+        "title": "Precognition",
+        "text": "Range 0; target self; duration 0. The caster sees what will happen [dice] rounds into the future if following a specific course of action. Resolve this as a very quick solo game with the GM, using no dice and taking about 20 seconds, to explore that possible future."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.precognition-possible-future"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.precognition-possible-future",
+      "record_type": "effect",
+      "fields": {
+        "title": "Precognition Possible Future",
+        "text": "The caster previews [dice] rounds of a specific proposed course of action through a roughly 20-second, no-dice solo exchange with the GM. The preview explores a possible future rather than applying it."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "spell.precognition"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.scry",
+      "record_type": "spell",
+      "fields": {
+        "title": "Scry",
+        "text": "Range 10 feet; target point in space; duration 1 round. The caster astrally projects to a point designated by direction and distance. Each MD after the first may either make the astral form invisible or multiply the range by 10."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.scry-astral-projection"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.scry-astral-projection",
+      "record_type": "effect",
+      "fields": {
+        "title": "Scry Astral Projection",
+        "text": "For 1 round, the caster astrally projects to a point selected by direction and distance. Each MD beyond the first either makes the astral form invisible or increases the spell’s range by a factor of 10."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "spell.scry"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.sleep",
+      "record_type": "spell",
+      "fields": {
+        "title": "Sleep",
+        "text": "Range 30 feet; target creature; duration 0. The target must save or fall into a deep sleep. Noise does not wake the target, but a slap or kick does. Splittable."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.sleep-deep-sleep",
+        "rule.splittable-spells"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.sleep-deep-sleep",
+      "record_type": "effect",
+      "fields": {
+        "title": "Sleep Deep Sleep",
+        "text": "A failed save puts the target into deep sleep. Noise cannot wake the target, but a slap or kick can."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "spell.sleep"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "spell.wave-of-mutilation",
+      "record_type": "spell",
+      "fields": {
+        "title": "Wave of Mutilation",
+        "text": "Range 20 feet; target 20-foot cone; duration 0. All objects in the cone take [sum] slashing damage. A Dex Save halves the damage."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.wave-of-mutilation-slashing-damage"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.wave-of-mutilation-slashing-damage",
+      "record_type": "effect",
+      "fields": {
+        "title": "Wave of Mutilation Slashing Damage",
+        "text": "All objects in a 20-foot cone take [sum] slashing damage; a successful Dex Save halves that damage."
+      },
+      "source_pages": [
+        46
+      ],
+      "confidence": "high",
+      "references": [
+        "spell.wave-of-mutilation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.shendormus-favor",
+      "record_type": "effect",
+      "fields": {
+        "title": "Shendormu’s Favor",
+        "text": "The favored character immediately receives a vision of a huge green fungal sun as the only illumination, while the character’s body becomes spores and a thousand distinct emotions are felt at once. The character gains one and only one casting of control emotions, and their eyes permanently turn green. On the first morning after leaving the dungeon, only that character sees a green glow beckoning toward the Many-Layered Hall. There the character is recognized as favored and offered a priesthood and the ability to level as a cleric of Shendormu, without any obligation to accept."
+      },
+      "source_pages": [
+        47
+      ],
+      "confidence": "high",
+      "references": [
+        "rule.shendormus-favor-progression"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.shendormus-favor-progression",
+      "record_type": "rule",
+      "fields": {
+        "title": "Shendormu’s Favor Progression",
+        "text": "Favor from Shendormu grants exactly one use of control emotions and permanently turns the recipient’s eyes green. On the first morning after the recipient leaves the dungeon, a private green glow leads to the Many-Layered Hall, where the recipient is offered an optional priesthood and access to level as a cleric of Shendormu."
+      },
+      "source_pages": [
+        47
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.shendormus-favor"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.vandohs-favor",
+      "record_type": "effect",
+      "fields": {
+        "title": "Vandoh’s Favor",
+        "text": "The favored character is immediately transformed: a visible third eye with a white sclera and still whiter iris opens on the forehead, the world becomes translucent except for the apex of the White Temple, and the character feels drawn there. The character gains one and only one casting of clairvoyance. The third eye then vanishes, leaving a vertical forehead wrinkle. On the first morning after leaving the dungeon, an origami bird lands and becomes an inert letter from Vandoh’s priests. The letter explains that the character should have been recruited rather than offered to the Lamb and invites them to the White Temple for an optional priesthood and access to level as a cleric of Vandoh. The priests cannot locate the character and send many birds. Prompt arrival produces no hard feelings and impresses the priests; delay or failure to appear causes them to rescind the offer and become wrathful."
+      },
+      "source_pages": [
+        47
+      ],
+      "confidence": "high",
+      "references": [
+        "rule.vandohs-favor-progression"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.vandohs-favor-progression",
+      "record_type": "rule",
+      "fields": {
+        "title": "Vandoh’s Favor Progression",
+        "text": "Favor from Vandoh grants exactly one use of clairvoyance and leaves a vertical forehead wrinkle after a temporary visible third eye vanishes. On the first morning after leaving the dungeon, one of many origami-bird letters invites the recipient to the White Temple for an optional priesthood and access to level as a cleric of Vandoh. Prompt arrival preserves the offer and impresses the priests; delay or nonappearance makes them rescind it and become wrathful. The clerics have no way to identify the recipient’s location directly."
+      },
+      "source_pages": [
+        47
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.vandohs-favor"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.nascent-lambfruit",
+      "record_type": "item",
+      "fields": {
+        "title": "Nascent Lambfruit",
+        "text": "Dark green Lambfruit. The Lamb currently bears 52. Consuming it causes nausea, vomiting, and rampant paranoia about the future."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.nascent-lambfruit"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.nascent-lambfruit",
+      "record_type": "effect",
+      "fields": {
+        "title": "Nascent Lambfruit Effects",
+        "text": "The consumer suffers nausea, vomiting, and rampant paranoia about the future."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "item.nascent-lambfruit"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.immature-lambfruit",
+      "record_type": "item",
+      "fields": {
+        "title": "Immature Lambfruit",
+        "text": "Orange Lambfruit. The Lamb currently bears 6. Consuming it allows the user to see 6 seconds into the future, as with precognition, and requires a Con Save against nausea and vomiting."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.immature-lambfruit",
+        "spell.precognition"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.immature-lambfruit",
+      "record_type": "effect",
+      "fields": {
+        "title": "Immature Lambfruit Effects",
+        "text": "The consumer sees 6 seconds into the future as with precognition and must make a Con Save against nausea and vomiting."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "item.immature-lambfruit",
+        "spell.precognition"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.mature-lambfruit",
+      "record_type": "item",
+      "fields": {
+        "title": "Mature Lambfruit",
+        "text": "Bright red Lambfruit. The Lamb currently bears 0. Consuming one allows the user to see one major future event with relative clarity."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.mature-lambfruit"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.mature-lambfruit",
+      "record_type": "effect",
+      "fields": {
+        "title": "Mature Lambfruit Effects",
+        "text": "The consumer sees one major future event with relative clarity."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "item.mature-lambfruit"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source does not define the degree of clarity or how the major future event is selected.",
+          "source_pages": [
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item.mevverwen",
+      "record_type": "item",
+      "fields": {
+        "title": "Mevverwen",
+        "text": "A powder that can be blown into someone’s face from a range of 1 foot. The target forgets the previous 6 seconds with no save. Powder remains on the target’s face, though the target does not initially realize it."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.mevverwen-memory-loss"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.mevverwen-memory-loss",
+      "record_type": "effect",
+      "fields": {
+        "title": "Mevverwen Memory Loss",
+        "text": "A target within 1 foot who has the powder blown into their face forgets the last 6 seconds without a save. Powder remains visibly on the face, but the target does not initially notice it."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "item.mevverwen"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.toad-shavings",
+      "record_type": "item",
+      "fields": {
+        "title": "Toad Shavings",
+        "text": "A smoked drug. For 30 minutes, the user is so intoxicated that they cannot move independently or take actions, can speak with amphibians and reptiles, and experiences colors, patterns, and croaking noises as indescribably delightful."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.toad-shavings-intoxication"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.toad-shavings-intoxication",
+      "record_type": "effect",
+      "fields": {
+        "title": "Toad Shavings Intoxication",
+        "text": "For 30 minutes after smoking, the user cannot move on their own or take actions, can speak with amphibians and reptiles, and finds colors, patterns, and croaking noises indescribably delightful."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "item.toad-shavings"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.purple-lotus-powder",
+      "record_type": "item",
+      "fields": {
+        "title": "Purple Lotus Powder",
+        "text": "A smoked drug that causes 1d3 hours of sleep. On waking, the GM rapidly presents, in random order, a fun dream, a dream of something that happened, a scary dream, and a dream of something likely to happen; at least one should be semi-useful. A smoker thereafter cannot sleep without more purple lotus powder unless they have remained sleepless for 3 nights."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.purple-lotus-sleep-and-dreams",
+        "effect.purple-lotus-dependence"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.purple-lotus-sleep-and-dreams",
+      "record_type": "effect",
+      "fields": {
+        "title": "Purple Lotus Sleep and Dreams",
+        "text": "Smoking causes sleep for 1d3 hours. On waking, the GM rapidly narrates four dreams in random order: one fun, one about something that happened, one scary, and one about something likely to happen. At least one of the four should be semi-useful."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "item.purple-lotus-powder"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.purple-lotus-dependence",
+      "record_type": "effect",
+      "fields": {
+        "title": "Purple Lotus Sleep Dependence",
+        "text": "After smoking purple lotus powder, the character cannot sleep without smoking more until they have gone without sleep for 3 nights."
+      },
+      "source_pages": [
+        48
+      ],
+      "confidence": "high",
+      "references": [
+        "item.purple-lotus-powder"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.level-advancement",
+      "record_type": "table",
+      "fields": {
+        "title": "Level Advancement",
+        "entries": [
+          {
+            "Level": "Level 0",
+            "HP": "0",
+            "Atk": "0",
+            "Templates": "0",
+            "Mastery": "-"
+          },
+          {
+            "Level": "Level 1",
+            "HP": "Con",
+            "Atk": "1",
+            "Templates": "1",
+            "Mastery": "-"
+          },
+          {
+            "Level": "Level 2",
+            "HP": "Con + 2",
+            "Atk": "2",
+            "Templates": "2",
+            "Mastery": "-"
+          },
+          {
+            "Level": "Level 3",
+            "HP": "Con + 4",
+            "Atk": "3",
+            "Templates": "3",
+            "Mastery": "-"
+          },
+          {
+            "Level": "Level 4",
+            "HP": "Con + 6",
+            "Atk": "4",
+            "Templates": "4",
+            "Mastery": "-"
+          },
+          {
+            "Level": "+1 Level",
+            "HP": "-",
+            "Atk": "-",
+            "Templates": "-",
+            "Mastery": "+1 Mastery"
+          }
+        ]
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [
+        "rule.level-advancement",
+        "rule.mastery-points",
+        "rule.class-template-selection"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.level-advancement",
+      "record_type": "rule",
+      "fields": {
+        "title": "Level Advancement",
+        "text": "When a character gains a level, HP, Attack, Templates, and Mastery advance according to the Level Advancement table. The first four gained levels each grant one template; beginning with Level 5, each additional level grants 1 Mastery."
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [
+        "table.level-advancement"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.mastery-points",
+      "record_type": "rule",
+      "fields": {
+        "title": "Mastery Points",
+        "text": "A character gains the first Mastery Point at 5th level and one at every later level. A Mastery Point may alter an adjacent ally’s in-game d20 roll or damage roll after the dice land. It cannot affect magic dice, skill-up attempts, stat-up attempts, natural 1s or 20s, or the user’s own roll. It may turn a near miss into a success, reduce damage an ally takes, or increase damage an ally deals. Mastery Points replenish after a full night’s rest."
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [
+        "table.level-advancement"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.class-template-selection",
+      "record_type": "rule",
+      "fields": {
+        "title": "Class Template Selection and Multiclassing",
+        "text": "Whenever a character gains a template, they choose a class and gain the corresponding template. Lower templates in a class must be gained before higher ones. Multiclassing is unrestricted by selecting Template A from another class. A character may have no more than 4 templates, but beginning at Level 5 may swap templates out. Unless additional classes are unlocked through play, choices are limited to Acrobat, Barbarian, Fighter, and Thief. Wizard, Cleric, Warlock, Knight, Tactician, and races must be unlocked through play."
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat",
+        "class.barbarian",
+        "class.fighter",
+        "class.thief",
+        "class.wizard",
+        "class.cleric",
+        "class.warlock",
+        "class.knight",
+        "class.tactician"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "class.acrobat",
+      "record_type": "class",
+      "fields": {
+        "title": "Acrobat",
+        "text": "Anyone can become an Acrobat. Each Acrobat level grants +1 Move. Template A grants Dodge and Nah 1/day; Template B grants Tricky; Template C grants Cat Power and increases Nah to 2/day; Template D grants Roast the Oaf. Dodge gives +2 Defense per empty inventory slot, capped at 16 or 10 + Dex, whichever is lower, and does not stack with armor. Nah can declare once per day, or twice per day at Template C, that something physically dodgeable does not affect the Acrobat. Tricky makes a natural 20 attack deal double damage and grant a free combat maneuver; a natural 19 deals normal damage and grants a free combat maneuver. Cat Power treats falls as 20 feet shorter and causes cats to tend to like the Acrobat. Roast the Oaf lets the Acrobat force a larger enemy that misses with a melee attack to make another melee attack against a target in range, potentially itself. Two copies of Tricky from two Acrobat and two Fighter levels combine into Very Tricky."
+      },
+      "source_pages": [
+        49,
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.acrobat-dodge",
+        "effect.acrobat-nah",
+        "effect.acrobat-tricky",
+        "effect.acrobat-cat-power",
+        "effect.acrobat-roast-the-oaf",
+        "rule.acrobat-progression",
+        "rule.acrobat-multiclass-very-tricky"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "class.barbarian",
+      "record_type": "class",
+      "fields": {
+        "title": "Barbarian",
+        "text": "Anyone can become a Barbarian without first unlocking the class through play."
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "class.fighter",
+      "record_type": "class",
+      "fields": {
+        "title": "Fighter",
+        "text": "Anyone can become a Fighter without first unlocking the class through play."
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "class.thief",
+      "record_type": "class",
+      "fields": {
+        "title": "Thief",
+        "text": "Anyone can become a Thief without first unlocking the class through play."
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "class.wizard",
+      "record_type": "class",
+      "fields": {
+        "title": "Wizard",
+        "text": "Wizard is an additional class that must be unlocked through play before its templates may be selected."
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "class.cleric",
+      "record_type": "class",
+      "fields": {
+        "title": "Cleric",
+        "text": "Cleric is an additional class that must be unlocked through play before its templates may be selected."
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "class.warlock",
+      "record_type": "class",
+      "fields": {
+        "title": "Warlock",
+        "text": "Warlock is an additional class that must be unlocked through play before its templates may be selected."
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "class.knight",
+      "record_type": "class",
+      "fields": {
+        "title": "Knight",
+        "text": "Knight is an additional class that must be unlocked through play before its templates may be selected."
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "class.tactician",
+      "record_type": "class",
+      "fields": {
+        "title": "Tactician",
+        "text": "Tactician is an additional class that must be unlocked through play before its templates may be selected."
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.races-unlocked-through-play",
+      "record_type": "rule",
+      "fields": {
+        "title": "Races Must Be Unlocked Through Play",
+        "text": "Racial options, like the listed additional classes, must be unlocked through play."
+      },
+      "source_pages": [
+        49
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.acrobat-progression",
+      "record_type": "rule",
+      "fields": {
+        "title": "Acrobat Progression",
+        "text": "Each Acrobat level grants +1 Move. Template A grants Dodge and Nah 1/day; Template B grants Tricky; Template C grants Cat Power and Nah 2/day; Template D grants Roast the Oaf."
+      },
+      "source_pages": [
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat",
+        "effect.acrobat-dodge",
+        "effect.acrobat-nah",
+        "effect.acrobat-tricky",
+        "effect.acrobat-cat-power",
+        "effect.acrobat-roast-the-oaf"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.acrobat-dodge",
+      "record_type": "effect",
+      "fields": {
+        "title": "Dodge",
+        "text": "Each empty inventory slot grants +2 Defense, up to a maximum of 16 or 10 + Dex, whichever is lower. This benefit does not stack with armor."
+      },
+      "source_pages": [
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat",
+        "rule.acrobat-dodge-defense"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.acrobat-dodge-defense",
+      "record_type": "rule",
+      "fields": {
+        "title": "Dodge Defense Calculation",
+        "text": "For an Acrobat with Dodge, each empty inventory slot adds +2 Defense. Defense from Dodge is capped at the lower of 16 and 10 + Dex, and cannot stack with armor."
+      },
+      "source_pages": [
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat",
+        "effect.acrobat-dodge"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.acrobat-nah",
+      "record_type": "effect",
+      "fields": {
+        "title": "Nah",
+        "text": "The Acrobat may declare that something does not affect them, provided it is something they could physically dodge. Template A provides 1 use per day; Template C raises this to 2 uses per day."
+      },
+      "source_pages": [
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat",
+        "rule.acrobat-nah-uses"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.acrobat-nah-uses",
+      "record_type": "rule",
+      "fields": {
+        "title": "Nah Uses",
+        "text": "Nah may be used only against something the Acrobat could physically dodge. It is usable 1/day at Template A and 2/day at Template C."
+      },
+      "source_pages": [
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat",
+        "effect.acrobat-nah"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.acrobat-tricky",
+      "record_type": "effect",
+      "fields": {
+        "title": "Tricky",
+        "text": "On a natural 20 attack roll, the Acrobat deals double damage and attempts a free combat maneuver. On a natural 19 attack roll, the Acrobat deals normal damage and attempts a free combat maneuver."
+      },
+      "source_pages": [
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat",
+        "rule.acrobat-tricky-critical-attacks"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.acrobat-tricky-critical-attacks",
+      "record_type": "rule",
+      "fields": {
+        "title": "Tricky Attack Results",
+        "text": "A natural 20 attack with Tricky deals double damage and grants a free combat maneuver; a natural 19 deals normal damage and grants a free combat maneuver."
+      },
+      "source_pages": [
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat",
+        "effect.acrobat-tricky"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.acrobat-cat-power",
+      "record_type": "effect",
+      "fields": {
+        "title": "Cat Power",
+        "text": "The Acrobat treats falls as if they were 20 feet shorter. Cats tend to like the Acrobat."
+      },
+      "source_pages": [
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat",
+        "rule.acrobat-cat-power-falling"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.acrobat-cat-power-falling",
+      "record_type": "rule",
+      "fields": {
+        "title": "Cat Power Falling Distance",
+        "text": "For an Acrobat with Cat Power, reduce the effective length of every fall by 20 feet."
+      },
+      "source_pages": [
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat",
+        "effect.acrobat-cat-power"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.acrobat-roast-the-oaf",
+      "record_type": "effect",
+      "fields": {
+        "title": "Roast the Oaf",
+        "text": "Whenever a larger enemy misses the Acrobat with a melee attack, the Acrobat may force that enemy to make another melee attack against a target within range. The forced target may be the enemy itself."
+      },
+      "source_pages": [
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat",
+        "rule.acrobat-roast-the-oaf-retaliation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.acrobat-roast-the-oaf-retaliation",
+      "record_type": "rule",
+      "fields": {
+        "title": "Roast the Oaf Retaliation",
+        "text": "When a larger enemy misses the Acrobat with a melee attack, the Acrobat may force it to make another melee attack against any target in range, including itself."
+      },
+      "source_pages": [
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat",
+        "effect.acrobat-roast-the-oaf"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.acrobat-multiclass-very-tricky",
+      "record_type": "rule",
+      "fields": {
+        "title": "Acrobat and Fighter Multiclass: Very Tricky",
+        "text": "A character with two Acrobat levels and two Fighter levels has two copies of Tricky; those copies combine into Very Tricky."
+      },
+      "source_pages": [
+        50
+      ],
+      "confidence": "high",
+      "references": [
+        "class.acrobat"
+      ],
+      "uncertainties": [
+        {
+          "description": "This page names Very Tricky but does not define its resulting mechanics.",
+          "source_pages": [
+            50
+          ]
+        }
+      ]
+    }
+  ],
+  "task_coverage": [
+    {
+      "notes": "",
+      "pdf_page": 43,
+      "record_ids": [
+        "effect.abacus-of-vandoh-answers",
+        "effect.black-iron-spellbook-instruction",
+        "effect.hand-mirror-of-lies-display",
+        "effect.liquid-boat-manifestation",
+        "effect.liquid-boat-consumption",
+        "effect.liquid-hole-surface",
+        "effect.liquid-hole-consumption",
+        "effect.orb-of-indulgence-forgiveness"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 43,
+      "record_ids": [
+        "item.abacus-of-vandoh",
+        "item.black-iron-spellbook",
+        "item.hand-mirror-of-lies",
+        "item.liquid-boat",
+        "item.liquid-hole",
+        "item.orb-of-indulgence"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 44,
+      "record_ids": [
+        "effect.davok-flesh-absorption",
+        "effect.davok-geased-thrall",
+        "effect.davok-stun-and-inertness",
+        "effect.davok-warlock-transformation",
+        "effect.davok-vermin-transport",
+        "effect.slobberworm-slime",
+        "effect.slobberworm-reproduction"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 44,
+      "record_ids": [
+        "item.skull-of-davok",
+        "item.slobberworms"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 45,
+      "record_ids": [
+        "effect.confusion-random-action",
+        "effect.delay-an-effect",
+        "effect.dessicate-liquid-or-animal",
+        "effect.emergency-exit-teleportation",
+        "effect.geas-mutual-quest-binding"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 45,
+      "record_ids": [
+        "rule.spells-as-bound-spirits",
+        "rule.monster-magic-dice-pool",
+        "rule.monster-spell-casting-and-recovery",
+        "rule.spell-dice-and-sum-notation",
+        "rule.magic-dice-mishaps",
+        "rule.spell-level-threshold",
+        "rule.splittable-spells"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 45,
+      "record_ids": [
+        "spell.confusion",
+        "spell.delay",
+        "spell.dessicate",
+        "spell.emergency-exit",
+        "spell.geas"
+      ],
+      "status": "extracted",
+      "task": "spells"
+    },
+    {
+      "notes": "",
+      "pdf_page": 46,
+      "record_ids": [
+        "effect.haste-double-speed-and-aging",
+        "effect.ignite-damage-and-fire",
+        "effect.polymorph-transformation",
+        "effect.precognition-possible-future",
+        "effect.scry-astral-projection",
+        "effect.sleep-deep-sleep",
+        "effect.wave-of-mutilation-slashing-damage"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 46,
+      "record_ids": [
+        "spell.haste",
+        "spell.ignite",
+        "spell.polymorph",
+        "spell.precognition",
+        "spell.scry",
+        "spell.sleep",
+        "spell.wave-of-mutilation"
+      ],
+      "status": "extracted",
+      "task": "spells"
+    },
+    {
+      "notes": "",
+      "pdf_page": 47,
+      "record_ids": [
+        "effect.shendormus-favor",
+        "effect.vandohs-favor"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 47,
+      "record_ids": [
+        "rule.shendormus-favor-progression",
+        "rule.vandohs-favor-progression"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 48,
+      "record_ids": [
+        "effect.nascent-lambfruit",
+        "effect.immature-lambfruit",
+        "effect.mature-lambfruit",
+        "effect.mevverwen-memory-loss",
+        "effect.toad-shavings-intoxication",
+        "effect.purple-lotus-sleep-and-dreams",
+        "effect.purple-lotus-dependence"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 48,
+      "record_ids": [
+        "item.nascent-lambfruit",
+        "item.immature-lambfruit",
+        "item.mature-lambfruit",
+        "item.mevverwen",
+        "item.toad-shavings",
+        "item.purple-lotus-powder"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 49,
+      "record_ids": [
+        "class.acrobat",
+        "class.barbarian",
+        "class.fighter",
+        "class.thief",
+        "class.wizard",
+        "class.cleric",
+        "class.warlock",
+        "class.knight",
+        "class.tactician"
+      ],
+      "status": "extracted",
+      "task": "classes"
+    },
+    {
+      "notes": "",
+      "pdf_page": 49,
+      "record_ids": [
+        "rule.level-advancement",
+        "rule.mastery-points",
+        "rule.class-template-selection",
+        "rule.races-unlocked-through-play"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 49,
+      "record_ids": [
+        "table.level-advancement"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    },
+    {
+      "notes": "",
+      "pdf_page": 50,
+      "record_ids": [
+        "class.acrobat"
+      ],
+      "status": "extracted",
+      "task": "classes"
+    },
+    {
+      "notes": "",
+      "pdf_page": 50,
+      "record_ids": [
+        "effect.acrobat-dodge",
+        "effect.acrobat-nah",
+        "effect.acrobat-tricky",
+        "effect.acrobat-cat-power",
+        "effect.acrobat-roast-the-oaf"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 50,
+      "record_ids": [
+        "rule.acrobat-progression",
+        "rule.acrobat-dodge-defense",
+        "rule.acrobat-nah-uses",
+        "rule.acrobat-tricky-critical-attacks",
+        "rule.acrobat-cat-power-falling",
+        "rule.acrobat-roast-the-oaf-retaliation",
+        "rule.acrobat-multiclass-very-tricky"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    }
+  ]
+}

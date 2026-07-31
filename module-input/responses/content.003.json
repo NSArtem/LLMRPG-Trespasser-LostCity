@@ -1,0 +1,1356 @@
+{
+  "pack_id": "content.003",
+  "records": [
+    {
+      "id": "rule.exploration-time",
+      "record_type": "rule",
+      "fields": {
+        "title": "Exploration Time",
+        "text": "The DM tracks time because it controls light depletion and random encounters. An exploration turn is 10 minutes. Dungeoneering actions usually take 1 exploration turn, including searching a room or body, prying a torch sconce from a wall, and passing through a room for the first time. This pace assumes cautious dungeon movement: whispering, examining details, testing each step, and listening."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.investigation-and-searching",
+      "record_type": "rule",
+      "fields": {
+        "title": "Investigation and Searching",
+        "text": "Investigation means a player specifically examines a feature or interacts with an object, such as opening a drawer, and usually takes negligible time. Searching means the party spends 10 minutes examining a room more closely, such as sifting through a bone pile. Anything discoverable through Investigation can also be found by Searching."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.noise",
+      "record_type": "rule",
+      "fields": {
+        "title": "Noise",
+        "text": "Whenever something makes Noise, roll a random encounter. The Lamb hears the Noise on 2-in-6 and arrives in 1d6 rounds."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.light",
+      "record_type": "rule",
+      "fields": {
+        "title": "Light",
+        "text": "The dungeon is pitch black. Torches illuminate 30 feet and go out after two depletions; dropped torches can be recovered. Oil lamps illuminate 30 feet and go out after two depletions; dropping or throwing one creates a 10-foot-wide pool of fire for 3 rounds that deals 1d6 damage per round to anything remaining in contact with it. Candles illuminate 10 feet and last all day. Torches and lanterns deplete only on the regular Encounter Checks made every 30 minutes, not on checks caused by Noise. Light sources are extinguished if they fall in water."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.mapping",
+      "record_type": "rule",
+      "fields": {
+        "title": "Mapping",
+        "text": "Map squares are 10 feet across. The DM describes the dungeon and the players map it themselves on graph paper; most rooms are 30 feet by 30 feet."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.doors",
+      "record_type": "rule",
+      "fields": {
+        "title": "Doors",
+        "text": "At dungeon speed, characters are assumed to listen at doors before opening them; the DM reports audible activity behind a door. A wooden door can be kicked in with a successful Str check in negligible time, but doing so makes Noise; failure takes 10 minutes. Metal doors cannot be kicked in. Locked doors require the appropriate key or lockpicks plus a successful Locksmith roll. Portcullises have fist-sized gaps and are normally locked down so Strength cannot raise them; a nearby ratchet winch often raises them in 1 minute, and they drop in 1 second. A portcullis may instead be locked open. A barred door opens only from the barred side; each bar is a piece of lumber weighing more than 100 pounds, and moving one alone requires a Str check."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.movement",
+      "record_type": "rule",
+      "fields": {
+        "title": "Movement",
+        "text": "Difficult movement such as climbing, jumping, and fleeing uses a Move check, usually DC 16. A level 0 Peasant has Move 5. Falling deals 1d6 damage per 10 feet fallen. A character who intentionally jumps down can reduce the damage by 1d6 with a successful Dex check."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.stealth",
+      "record_type": "rule",
+      "fields": {
+        "title": "Stealth",
+        "text": "A Stealth check is a difficult Dex check with a baseline DC of 20. The baseline scenario is approaching someone facing away without being heard and silently cutting their throat; adjust the DC for easier or harder circumstances. Failure means the character is spotted. Stealth is distinct from hiding: anyone can hide by describing how to the DM."
+      },
+      "source_pages": [
+        8
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.stat-blocks",
+      "record_type": "rule",
+      "fields": {
+        "title": "Stat Blocks",
+        "text": "Lvl is the same as HD, and an enemy has 1d6 HP per HD. Def is the attack DC required to hit it. Atk gives the attack mode and damage, such as Claws 1d8. Move may be omitted when human-equivalent; escaping a slow pursuer is DC 12 and a fast pursuer is DC 20, and movement may instead name a comparable creature such as Climb spider. Unlisted stats default to 5 unless significantly different. A monster Int check can determine whether it behaves intelligently; failure makes it act like a dumb animal. Dis is disposition. If Dis is absent, the monster is average: it fights while it expects to win, then flees or surrenders."
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.disposition",
+      "record_type": "rule",
+      "fields": {
+        "title": "Disposition",
+        "text": "Disposition describes what a creature wants and how it tends to act. The listed categories are examples rather than an exhaustive vocabulary; a custom disposition such as chivalrous should be interpreted according to its ordinary meaning."
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "table.dispositions"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.dispositions",
+      "record_type": "table",
+      "fields": {
+        "title": "An Incomplete List of Dispositions",
+        "entries": [
+          {
+            "disposition": "Benevolent",
+            "behavior": "Helps without expecting anything in exchange."
+          },
+          {
+            "disposition": "Hungry",
+            "behavior": "Wants food and plans to eat the party."
+          },
+          {
+            "disposition": "Greedy",
+            "behavior": "Wants the party's gold and plans to kill them to get it."
+          },
+          {
+            "disposition": "Guardian",
+            "behavior": "Kills to protect something but does not chase far from what it guards."
+          },
+          {
+            "disposition": "Neutral",
+            "behavior": "Is not present to kill the party, but will do so if given a reason."
+          },
+          {
+            "disposition": "Scheming",
+            "behavior": "Tries to take advantage of the party before resorting to violence."
+          },
+          {
+            "disposition": "Tenacious",
+            "behavior": "Wants to kill the party and never flees or surrenders."
+          }
+        ]
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.morale",
+      "record_type": "rule",
+      "fields": {
+        "title": "Morale",
+        "text": "A monster that fears death flees rather than be destroyed; even elementals and undead recoil from annihilation. When morale calls for flight but escape is impossible, monsters attempt surrender. If the players appear not to take prisoners, they continue fighting. When uncertain whether a monster chooses intelligently, make an Int check for it. Chasing fleeing monsters uses the same Pursuit rules as player flight."
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [
+        "table.morale-checks"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.morale-checks",
+      "record_type": "table",
+      "fields": {
+        "title": "The Two Types of Morale Checks",
+        "entries": [
+          {
+            "check": "Oh Damn",
+            "trigger": "The monsters clearly start losing.",
+            "result": "They have a 50% chance of fleeing."
+          },
+          {
+            "check": "Oh Fuck",
+            "trigger": "The monsters have no chance to win.",
+            "result": "They automatically flee."
+          }
+        ]
+      },
+      "source_pages": [
+        9
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.pursuit",
+      "record_type": "rule",
+      "fields": {
+        "title": "Pursuit",
+        "text": "First choose the direction of flight. The slowest party member makes a Movement check, usually DC 16; the Lamb instead has Slow DC 12. The party may drop items or alter the environment to slow pursuit. On failure, the fight moves into the next room and the pursuer takes a standard action, usually an attack. On success, the party enters the next room and the pursuer arrives at the end of the round. If the pursuer does not know the route, it chooses a random direction and continues for 1d4 rooms, preferring rooms it has not searched. Running past an enemy lets it make all its normal attacks. Hungry or Greedy enemies may stop for safely accessible food or money unless they have another reason to continue."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "table.pursuit-modifiers"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.pursuit-modifiers",
+      "record_type": "table",
+      "fields": {
+        "title": "Pursuit Movement Modifiers",
+        "entries": [
+          {
+            "action": "Flip a bookcase over behind the party.",
+            "modifier": "+4 to the Movement check"
+          },
+          {
+            "action": "Throw a rope at the pursuer's legs.",
+            "modifier": "+2 to the Movement check"
+          },
+          {
+            "action": "Throw a scroll at the pursuer.",
+            "modifier": "+0 to the Movement check"
+          }
+        ]
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.initiative",
+      "record_type": "rule",
+      "fields": {
+        "title": "Initiative",
+        "text": "At the start of each round, everyone makes a Wisdom check. Characters who succeed act before the monsters; characters who fail act after the monsters."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.attacking-and-defending",
+      "record_type": "rule",
+      "fields": {
+        "title": "Attacking and Defending",
+        "text": "The attack DC depends on the target's armor. Level 0 peasants have Atk 0. If multiple PCs attack the same target simultaneously and roll simultaneously, each gains +1 to the attack roll for every attacker beyond the first. The DC to defend against an enemy equals 12 + the attacker's Level. A character's Def score is determined entirely by armor."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "table.attack-dcs-by-armor"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.attack-dcs-by-armor",
+      "record_type": "table",
+      "fields": {
+        "title": "Attack DC by Armor",
+        "entries": [
+          {
+            "armor": "None",
+            "attack_dc": 10
+          },
+          {
+            "armor": "Leather",
+            "attack_dc": 12
+          },
+          {
+            "armor": "Chain",
+            "attack_dc": 14
+          },
+          {
+            "armor": "Plate",
+            "attack_dc": 16
+          }
+        ]
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.armor",
+      "record_type": "rule",
+      "fields": {
+        "title": "Armor",
+        "text": "Each piece of armor gives +1 Defense. A piece of masterwork armor gives +2 Defense. A character cannot wear more than 3 pieces of armor."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.swimming",
+      "record_type": "rule",
+      "fields": {
+        "title": "Swimming",
+        "text": "A character wearing 0 or 1 piece of armor swims freely. With 2 pieces, swimming requires a Str check. With 3 pieces, the character sinks like a stone."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "table.swimming-by-armor"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.swimming-by-armor",
+      "record_type": "table",
+      "fields": {
+        "title": "Swimming by Armor Worn",
+        "entries": [
+          {
+            "armor_pieces": "0-1",
+            "result": "Swim freely."
+          },
+          {
+            "armor_pieces": 2,
+            "result": "Swim with a successful Str check."
+          },
+          {
+            "armor_pieces": 3,
+            "result": "Sink like a stone."
+          }
+        ]
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.dying",
+      "record_type": "effect",
+      "fields": {
+        "title": "Dying",
+        "text": "When a non-level-0 character takes damage beyond the amount remaining in HP, the excess becomes Lethal Damage; gaining any Lethal Damage makes the character fall unconscious and begin Dying. At 10 Lethal Damage, the character dies."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "rule.dying"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.stabilized",
+      "record_type": "effect",
+      "fields": {
+        "title": "Stabilized",
+        "text": "A Stabilized character wakes and can act normally, but remains at 0 HP and keeps all existing Lethal Damage."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "rule.dying"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dying",
+      "record_type": "rule",
+      "fields": {
+        "title": "Dying",
+        "text": "A level 0 character dies upon taking any damage. Other characters convert damage beyond HP into Lethal Damage, fall unconscious, and start Dying. At the end of each round, a Dying character makes a Con check at DC 15 + current Lethal Damage. Reaching 10 Lethal Damage causes death. An ally can spend an action to Stabilize the character with an Int check against the same DC. Any amount of magical healing also Stabilizes. Stabilization wakes the character and allows normal actions, but HP remains 0 and Lethal Damage is unchanged. Resting in town while safe and fed removes 1 Lethal Damage."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.dying",
+        "effect.stabilized",
+        "table.dying-check-outcomes"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.dying-check-outcomes",
+      "record_type": "table",
+      "fields": {
+        "title": "Dying Con Check Outcomes",
+        "entries": [
+          {
+            "outcome": "Critical Fail",
+            "result": "Instant death."
+          },
+          {
+            "outcome": "Fail",
+            "result": "Gain 1 Lethal Damage."
+          },
+          {
+            "outcome": "Success",
+            "result": "No change."
+          },
+          {
+            "outcome": "Critical Success",
+            "result": "Stabilize and wake up."
+          }
+        ]
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.healing",
+      "record_type": "rule",
+      "fields": {
+        "title": "Healing",
+        "text": "After a 10-minute rest, everyone recovers HP up to half maximum. After a 30-minute rest with one Ration, everyone recovers all HP; one Ration feeds the whole party. If combat interrupts the meal, no healing occurs before combat, but the party can resume the rest from where it stopped."
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [
+        "table.rest-healing"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.rest-healing",
+      "record_type": "table",
+      "fields": {
+        "title": "Rest Healing",
+        "entries": [
+          {
+            "rest": "10 minutes",
+            "requirement": "Rest",
+            "healing": "Recover HP up to half maximum."
+          },
+          {
+            "rest": "30 minutes",
+            "requirement": "Rest and consume 1 Ration for the whole party",
+            "healing": "Recover all HP."
+          }
+        ]
+      },
+      "source_pages": [
+        10
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.critical-hits-and-dodges",
+      "record_type": "rule",
+      "fields": {
+        "title": "Critical Hits and Dodges",
+        "text": "A PC critical hit deals double damage or regular damage plus a free combat maneuver. A PC critical dodge takes no damage and allows a free combat maneuver or attack. An enemy critical hit deals double damage and makes a random piece of the target's armor lose 1 Def. An enemy critical dodge grants the enemy a free attack and breaks the attacker's weapon, reducing its damage die by one step. A masterwork weapon must be broken twice before its die shrinks. Only magical foes can break magical arms and armor."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "table.critical-results",
+        "item.masterwork-weapon",
+        "item.magic-weapon"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.critical-results",
+      "record_type": "table",
+      "fields": {
+        "title": "Critical Results",
+        "entries": [
+          {
+            "event": "PC critical hit against an enemy",
+            "result": "Deal double damage, or regular damage plus a free combat maneuver."
+          },
+          {
+            "event": "PC critical dodge against an enemy's attack",
+            "result": "Take no damage and make a free combat maneuver or attack."
+          },
+          {
+            "event": "Enemy critical hit against a PC",
+            "result": "A random armor piece loses 1 Def and the attack deals double damage."
+          },
+          {
+            "event": "Enemy critical dodge against a PC",
+            "result": "The enemy makes a free attack and the PC's weapon breaks, reducing its damage die by one step."
+          }
+        ]
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.combat-maneuvers",
+      "record_type": "rule",
+      "fields": {
+        "title": "Combat Maneuvers",
+        "text": "Combat maneuvers include actions such as tripping and shoving. First the enemy makes a free attack against the acting character; skip this step when the maneuver is the free maneuver granted by a critical hit. Then make an opposed Str or Dex check against DC 11 + the enemy's chosen Str or Dex, using whichever stats fit the maneuver. Success performs the maneuver."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.weapons-and-armor",
+      "record_type": "rule",
+      "fields": {
+        "title": "Weapons and Armor",
+        "text": "Fists deal 1d3 damage. Improvised weapons attack at -2 and deal 1d6. Regular weapons deal 1d6. A two-handed weapon wielded by a character with Str 7 or more increases its damage die by one step. A magical weapon increases its damage die by one step. Damage dice increase from 1d6 to 1d8 to 1d10."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "item.improvised-weapon",
+        "item.regular-weapon",
+        "item.two-handed-weapon",
+        "item.magic-weapon",
+        "table.weapon-damage"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.improvised-weapon",
+      "record_type": "item",
+      "fields": {
+        "title": "Improvised Weapon",
+        "text": "Attacks at -2 and deals 1d6 damage."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.regular-weapon",
+      "record_type": "item",
+      "fields": {
+        "title": "Regular Weapon",
+        "text": "Deals 1d6 damage."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.two-handed-weapon",
+      "record_type": "item",
+      "fields": {
+        "title": "Two-Handed Weapon",
+        "text": "When wielded by a character with Str 7 or more, increase the weapon damage die by one step."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.magic-weapon",
+      "record_type": "item",
+      "fields": {
+        "title": "Magic Weapon",
+        "text": "Increase the weapon damage die by one step. Magical arms and armor can be broken only by magical foes."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.masterwork-weapon",
+      "record_type": "item",
+      "fields": {
+        "title": "Masterwork Weapon",
+        "text": "It must be broken twice before its damage die is reduced by one step."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "table.weapon-damage",
+      "record_type": "table",
+      "fields": {
+        "title": "Weapon Damage",
+        "entries": [
+          {
+            "weapon": "Fists",
+            "damage": "1d3"
+          },
+          {
+            "weapon": "Improvised weapon",
+            "attack_modifier": "-2",
+            "damage": "1d6"
+          },
+          {
+            "weapon": "Regular weapon",
+            "damage": "1d6"
+          },
+          {
+            "weapon": "Two-handed weapon",
+            "condition": "The wielder has Str 7 or more.",
+            "damage": "Increase the damage die by one step."
+          },
+          {
+            "weapon": "Magic weapon",
+            "damage": "Increase the damage die by one step."
+          }
+        ]
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.saves",
+      "record_type": "rule",
+      "fields": {
+        "title": "Saves",
+        "text": "Saves use Dex, Con, or Cha against DC 20. Cha applies to all magical effects and is the most common Save. If a failed Save nearly kills a character, that character permanently gains +4 to that type of Save and records the event in the Legendarium on the back of the character sheet. Each character has 4 Save Slots."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "table.save-types"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.save-types",
+      "record_type": "table",
+      "fields": {
+        "title": "Save Types",
+        "entries": [
+          {
+            "save_stat": "Dex",
+            "dc": 20,
+            "use": "One of the three stats used for Saves."
+          },
+          {
+            "save_stat": "Con",
+            "dc": 20,
+            "use": "One of the three stats used for Saves."
+          },
+          {
+            "save_stat": "Cha",
+            "dc": 20,
+            "use": "Used for all magical effects and is the most common Save."
+          }
+        ]
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.stat-checks",
+      "record_type": "rule",
+      "fields": {
+        "title": "Stat Checks",
+        "text": "Nearly all checks use DC 16. Roll 1d20, add the relevant stat, and meet or exceed the DC."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.skills",
+      "record_type": "rule",
+      "fields": {
+        "title": "Skills",
+        "text": "Anything improvable through practice or study can be a Skill; all professions and college majors qualify. There is no fixed Skill list or fixed list of Skill uses. Social, perception, stealth, and direct combat Skills do not exist. At the end of each session, each PC may choose a Skill used or encountered during the session and make an Int check. Broad exposure counts, but the same book or library cannot teach the same subject twice. Success raises the Skill by 1, to a normal maximum of 9; the 10th point requires a quest. A character has 4 Skill Slots shared by Skills and Languages."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.languages",
+      "record_type": "rule",
+      "fields": {
+        "title": "Languages",
+        "text": "Everyone begins with Common and no other language; nearly everyone, including goblins and morlocks, speaks some form of Common. Foreign languages are usually dead languages and are learned like Skills. A successful Language improvement grants 2 points instead of 1, but reaching 10 still requires a quest. Certain Languages grant an ability at 10 points."
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [
+        "table.language-mastery-abilities"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.language-mastery-abilities",
+      "record_type": "table",
+      "fields": {
+        "title": "Language Abilities at 10 Points",
+        "entries": [
+          {
+            "language": "Elvish",
+            "ability": "Encryption",
+            "effect": "The speaker cannot be understood except by designated people who also speak Elvish."
+          },
+          {
+            "language": "Cheoxic",
+            "ability": "Speak with Dead",
+            "effect": "The speaker can communicate even with mindless undead such as zombies."
+          },
+          {
+            "language": "Gospeltongue",
+            "ability": "Cannot Lie",
+            "effect": "The speaker cannot lie."
+          },
+          {
+            "language": "Dwarvish",
+            "ability": "Axiomatic",
+            "effect": "Speaking it functions as a calm emotions spell cast on the self."
+          }
+        ]
+      },
+      "source_pages": [
+        11
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.hirelings",
+      "record_type": "rule",
+      "fields": {
+        "title": "Hirelings",
+        "text": "Henchmen cost 1s per day or half a share of loot, whichever is higher. They have 10 inventory slots, willingly carry torches, accompany the party through the dungeon, and neither take risks nor fight. Mercenaries cost 10s per day or a full loot share, whichever is higher, and stay near their employer. They accept risks including combat provided they are not asked to take more risk than everyone else. Mercenaries do not take separate combat turns: an adjacent mercenary grants the employer attack and damage bonuses. A level 1 fighter grants +2 Attack and +2 Damage and has a 50% chance to die instead when the employer would take lethal physical damage. Local-tavern mercenaries are level 1 fighters by default. A level 2 fighter grants +3 Attack and +3 Damage and can take two hits before dying. A level 1 thief grants +1 Attack and +1 Damage and can be persuaded to pick locks and scout rooms. A level 0 mercenary grants +1 Attack and +1 Damage. Every mercenary after the first contributes only +1 Attack."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.loyalty",
+      "record_type": "rule",
+      "fields": {
+        "title": "Loyalty",
+        "text": "Each hireling begins with Loyalty 5. Asking for a dangerous task outside the hireling’s job description requires a Loyalty check and always reduces Loyalty by 1, whether accepted or not. Good treatment such as extra pay, extra safety, or respect raises Loyalty by 1 or 2. Mistreatment lowers it by 1, 1d4, or 1d6. At Loyalty 0, the hireling leaves at the earliest opportunity."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.money",
+      "record_type": "rule",
+      "fields": {
+        "title": "Money",
+        "text": "100 copper cuprek equals 10 silver shilavos equals 1 golden gorbel. When using gold as XP, 1 silver equals 1 XP."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.dehydrated",
+      "record_type": "effect",
+      "fields": {
+        "title": "Dehydrated",
+        "text": "After 1 day without water, a character is dehydrated and takes -4 to all d20 rolls. After 3 days without water, the character dies."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [
+        "rule.food-and-water"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.starvation",
+      "record_type": "effect",
+      "fields": {
+        "title": "Starvation",
+        "text": "Each day without food reduces maximum HP by 1, down to 0. Death from lack of food takes weeks."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [
+        "rule.food-and-water"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.food-and-water",
+      "record_type": "rule",
+      "fields": {
+        "title": "Food and Water",
+        "text": "After 1 day without water, a character becomes dehydrated and takes -4 to all d20 rolls; after 3 days without water, the character dies. Each day without food reduces maximum HP by 1, down to 0; death takes weeks."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.dehydrated",
+        "effect.starvation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.burlap-sack",
+      "record_type": "item",
+      "fields": {
+        "title": "Burlap Sack",
+        "text": "Provides +4 inventory slots."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.backpack",
+      "record_type": "item",
+      "fields": {
+        "title": "Backpack",
+        "text": "Provides +7 inventory slots."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.elfpack",
+      "record_type": "item",
+      "fields": {
+        "title": "Elfpack",
+        "text": "Provides +10 inventory slots."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.ration",
+      "record_type": "item",
+      "fields": {
+        "title": "Ration",
+        "text": "One ration is enough to feed the whole group."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.ammunition",
+      "record_type": "item",
+      "fields": {
+        "title": "Ammunition",
+        "text": "For a bow, mark one depletion after every encounter in which it is used. After three depletions, the ammunition is exhausted."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.inventory-and-ammunition",
+      "record_type": "rule",
+      "fields": {
+        "title": "Inventory and Ammunition",
+        "text": "Inventory slots equal Str plus the bonus from a container. A character without a container can carry only two things, one in each hand. A Burlap Sack gives +4 slots, a Backpack +7, and an Elfpack +10. One ration feeds the whole group. Bow ammunition is loosely tracked: mark one depletion after each encounter in which a bow is used; after three depletions, the character is out of ammunition."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [
+        "item.burlap-sack",
+        "item.backpack",
+        "item.elfpack",
+        "item.ration",
+        "item.ammunition"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "class.fighter",
+      "record_type": "class",
+      "fields": {
+        "title": "Fighter",
+        "text": "One of the classes available to choose when a character reaches first level."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "class.barbarian",
+      "record_type": "class",
+      "fields": {
+        "title": "Barbarian",
+        "text": "One of the classes available to choose when a character reaches first level."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "class.thief",
+      "record_type": "class",
+      "fields": {
+        "title": "Thief",
+        "text": "One of the classes available to choose when a character reaches first level."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "class.acrobat",
+      "record_type": "class",
+      "fields": {
+        "title": "Acrobat",
+        "text": "One of the classes available to choose when a character reaches first level."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.leveling-up",
+      "record_type": "rule",
+      "fields": {
+        "title": "Leveling Up",
+        "text": "A character levels whenever the party obtains a Treasure or reaches a Milestone, but not during combat. The lowest-level PC gains the level; break ties randomly. Every Treasure or Milestone also gives at least one person a Title chosen through discussion among the players and DM. At first level, HP becomes equal to Con, Atk becomes 1, and the player chooses a stat and rolls 1d6+1d4; if the roll exceeds that stat, it rises by 1. The character also chooses Fighter, Barbarian, Thief, or Acrobat. Additional classes are unlocked through play; see Appendix E."
+      },
+      "source_pages": [
+        12
+      ],
+      "confidence": "high",
+      "references": [
+        "class.fighter",
+        "class.barbarian",
+        "class.thief",
+        "class.acrobat"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.random-encounter-checks",
+      "record_type": "rule",
+      "fields": {
+        "title": "Random Encounter Checks",
+        "text": "Each area has a local Encounter Table that determines who may appear. Every 30 minutes, roll the yellow Encounter Die and blue Recon Die simultaneously. The Encounter Die determines whether the result is Active, Passive, Indirect, or Depletion. An Active Encounter forces engagement, usually through a hostile creature. A Passive Encounter allows the party to choose whether to engage. An Indirect Encounter cannot be directly engaged but may provide information or establish the mood of the location."
+      },
+      "source_pages": [
+        13
+      ],
+      "confidence": "high",
+      "references": [
+        "table.encounter-die"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.encounter-die",
+      "record_type": "table",
+      "fields": {
+        "title": "The Encounter Die",
+        "entries": [
+          {
+            "d6": "1",
+            "result": "Active Encounter"
+          },
+          {
+            "d6": "2",
+            "result": "Passive Encounter"
+          },
+          {
+            "d6": "3",
+            "result": "Indirect Encounter"
+          },
+          {
+            "d6": "4-6",
+            "result": "Depletion"
+          }
+        ]
+      },
+      "source_pages": [
+        13
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.recon-die",
+      "record_type": "rule",
+      "fields": {
+        "title": "The Recon Die",
+        "text": "The Recon Die is a blue d6 and succeeds on a 1. On an Active or Passive Encounter, success grants Surprise, allowing the party either to engage with surprise or avoid the encounter; the DM may also let the party overhear useful information. If no Active or Passive Encounter occurs, a successful Recon finds traces of a randomly rolled encounter, such as slime, hair, feces, graffiti, smells, or noises. With only candlelight, replace the Recon Die with an Ambush Die that surprises the party on a 1. With no light source, the party is ambushed on 1-2 on a d6."
+      },
+      "source_pages": [
+        13
+      ],
+      "confidence": "medium",
+      "references": [],
+      "uncertainties": [
+        {
+          "description": "The source sentence introducing the candlelight rule appears grammatically truncated after 'candle-light or'; the explicit candlelight and no-light mechanics are nevertheless readable.",
+          "source_pages": [
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rule.setting-the-stage",
+      "record_type": "rule",
+      "fields": {
+        "title": "Setting the Stage",
+        "text": "An encounter entry begins with a general encounter, such as 1d6 goblins. If a Unique encounter is killed, it never appears again in that area. A second sentence may give a specific scene; use it the first time the encounter is rolled unless the DM prefers an original setup. On later rolls, create a new scene or build from the prior one. Place enemies where their arrival makes the most sense; randomly choose among equally plausible origins. Encounter placement must respect established topology and changes: enemies cannot emerge from an impossible dead end, and collapsing 12 ABACUS MURAL can make the south side safe from the Lamb if the Lamb remains trapped to the north."
+      },
+      "source_pages": [
+        13
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    }
+  ],
+  "schema": "module-content-evidence/v3",
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda",
+  "task": "content",
+  "task_coverage": [
+    {
+      "notes": "",
+      "pdf_page": 8,
+      "record_ids": [
+        "rule.exploration-time",
+        "rule.investigation-and-searching",
+        "rule.noise",
+        "rule.light",
+        "rule.mapping",
+        "rule.doors",
+        "rule.movement",
+        "rule.stealth"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 9,
+      "record_ids": [
+        "rule.stat-blocks",
+        "rule.disposition",
+        "rule.morale"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 9,
+      "record_ids": [
+        "table.dispositions",
+        "table.morale-checks"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    },
+    {
+      "notes": "",
+      "pdf_page": 10,
+      "record_ids": [
+        "effect.dying",
+        "effect.stabilized"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 10,
+      "record_ids": [
+        "rule.pursuit",
+        "rule.initiative",
+        "rule.attacking-and-defending",
+        "rule.armor",
+        "rule.swimming",
+        "rule.dying",
+        "rule.healing"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 10,
+      "record_ids": [
+        "table.pursuit-modifiers",
+        "table.attack-dcs-by-armor",
+        "table.swimming-by-armor",
+        "table.dying-check-outcomes",
+        "table.rest-healing"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    },
+    {
+      "notes": "",
+      "pdf_page": 11,
+      "record_ids": [
+        "item.improvised-weapon",
+        "item.regular-weapon",
+        "item.two-handed-weapon",
+        "item.magic-weapon",
+        "item.masterwork-weapon"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 11,
+      "record_ids": [
+        "rule.critical-hits-and-dodges",
+        "rule.combat-maneuvers",
+        "rule.weapons-and-armor",
+        "rule.saves",
+        "rule.stat-checks",
+        "rule.skills",
+        "rule.languages"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 11,
+      "record_ids": [
+        "table.critical-results",
+        "table.weapon-damage",
+        "table.save-types",
+        "table.language-mastery-abilities"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    },
+    {
+      "notes": "",
+      "pdf_page": 12,
+      "record_ids": [
+        "class.fighter",
+        "class.barbarian",
+        "class.thief",
+        "class.acrobat"
+      ],
+      "status": "extracted",
+      "task": "classes"
+    },
+    {
+      "notes": "",
+      "pdf_page": 12,
+      "record_ids": [
+        "effect.dehydrated",
+        "effect.starvation"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 12,
+      "record_ids": [
+        "item.burlap-sack",
+        "item.backpack",
+        "item.elfpack",
+        "item.ration",
+        "item.ammunition"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 12,
+      "record_ids": [
+        "rule.hirelings",
+        "rule.loyalty",
+        "rule.money",
+        "rule.food-and-water",
+        "rule.inventory-and-ammunition",
+        "rule.leveling-up"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 13,
+      "record_ids": [
+        "rule.random-encounter-checks",
+        "rule.recon-die",
+        "rule.setting-the-stage"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 13,
+      "record_ids": [
+        "table.encounter-die"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    }
+  ]
+}

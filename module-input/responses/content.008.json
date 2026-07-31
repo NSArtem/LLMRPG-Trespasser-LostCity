@@ -1,0 +1,1619 @@
+{
+  "actor_record_template": {
+    "confidence": "low",
+    "fields": {
+      "appearance": "A source-supported observable description.",
+      "behavior": [
+        "A source-supported public behavior."
+      ],
+      "capabilities": [
+        "Exact source statistics and mechanics."
+      ],
+      "goals": [
+        "A source-supported goal."
+      ],
+      "hidden": [
+        "A source-supported secret order or motivation."
+      ],
+      "reactions": [
+        {
+          "response": "The source-supported response.",
+          "stimulus": "A source-supported provocation."
+        }
+      ],
+      "role": "What the source says this actor does here.",
+      "title": "Example Guard"
+    },
+    "id": "actor.example-guard",
+    "record_type": "actor",
+    "references": [],
+    "source_pages": [
+      36
+    ],
+    "uncertainties": []
+  },
+  "pack_id": "content.008",
+  "place_record_template": {
+    "confidence": "low",
+    "fields": {
+      "contents": [
+        "A visible source-supported feature."
+      ],
+      "discoverable": [
+        {
+          "condition": "Search the indicated feature.",
+          "information": "A source-supported concealed detail."
+        }
+      ],
+      "first_impression": "A source-supported player-safe impression.",
+      "hidden": [
+        "A source-supported GM-only fact."
+      ],
+      "title": "Example Room",
+      "topology_label": "1"
+    },
+    "id": "location.area-example",
+    "record_type": "location",
+    "references": [],
+    "source_pages": [
+      36
+    ],
+    "uncertainties": []
+  },
+  "records": [
+    {
+      "id": "location.38-shroud",
+      "record_type": "location",
+      "fields": {
+        "title": "Shroud",
+        "first_impression": "A stack of 12 planks partly obscures the doorway. Beyond it stands a huge shrouded object about 9 feet tall.",
+        "contents": [
+          "A stack of 12 planks partially obscures the doorway and appears to have boarded it up previously.",
+          "A huge shrouded object stands 9 feet tall."
+        ],
+        "discoverable": [
+          {
+            "information": "Removing the shroud reveals a guillotine with no blade and a winch on its side.",
+            "condition": "Remove the shroud."
+          },
+          {
+            "information": "Turning the winch sounds and feels like a blade is being raised; after about 12 seconds the unseen mechanism falls with a heavy thunk.",
+            "condition": "Turn the winch."
+          }
+        ],
+        "hidden": [
+          "The blade-less guillotine severs a victim's soul rather than the victim's head.",
+          "A severed soul is sent to room 99, which the source marks as not written yet."
+        ],
+        "triggers": [
+          "Turning the winch starts a roughly 12-second cycle that ends with a heavy thunk.",
+          "A person whose head is in the guillotine when the cycle completes has their soul severed."
+        ],
+        "hazards": [
+          "The guillotine can sever a person's soul without physically injuring the head or neck."
+        ],
+        "procedure_references": [
+          "procedure.38-winched-guillotine-cycle"
+        ],
+        "situation_references": [
+          "situation.38-guillotine-soul-severing"
+        ],
+        "keyed_area": "38"
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure.38-winched-guillotine-cycle",
+        "situation.38-guillotine-soul-severing",
+        "effect.shroud-soul-severance"
+      ],
+      "uncertainties": [
+        {
+          "description": "The destination is printed as room 99 followed by 'NOT WRITTEN YET', so no further destination details are available.",
+          "source_pages": [
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "id": "procedure.38-winched-guillotine-cycle",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Operate the Shroud Guillotine",
+        "trigger": "Someone turns the winch on the blade-less guillotine.",
+        "steps": [
+          "Turn the winch; it sounds and feels as though a blade is being raised.",
+          "Continue for about 12 seconds.",
+          "The unseen 'blade' falls with a heavy thunk.",
+          "If a person's head is in the guillotine at that moment, apply the soul-severance effect; the head and neck remain intact."
+        ]
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.38-shroud",
+        "situation.38-guillotine-soul-severing",
+        "effect.shroud-soul-severance"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.38-guillotine-soul-severing",
+      "record_type": "situation",
+      "fields": {
+        "title": "Soul-Severing Guillotine Cycle",
+        "perceived": "After about 12 seconds of winching, the guillotine falls with a heavy thunk. A victim's head and neck remain physically intact, but the victim thereafter seems empty.",
+        "activation": {
+          "type": "triggered",
+          "condition": "The guillotine cycle completes while someone has their head in it."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "location_references": [
+          "location.38-shroud"
+        ],
+        "procedure_references": [
+          "procedure.38-winched-guillotine-cycle"
+        ],
+        "stakes": [
+          "The victim's soul can be separated from the body.",
+          "A soulless victim can never level up again."
+        ],
+        "outcomes": [
+          "The soul is sent to room 99 while the head and neck remain intact.",
+          "The victim gains the source's soulless immunities, detection anomalies, and empty behavior."
+        ],
+        "completion": [
+          "The cycle ends when the guillotine falls with a heavy thunk."
+        ]
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.38-shroud",
+        "procedure.38-winched-guillotine-cycle",
+        "effect.shroud-soul-severance"
+      ],
+      "uncertainties": [
+        {
+          "description": "Room 99 is explicitly marked 'NOT WRITTEN YET', so the soul's experience or recovery there is unspecified.",
+          "source_pages": [
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effect.shroud-soul-severance",
+      "record_type": "effect",
+      "fields": {
+        "title": "Soul Severed by the Shroud Guillotine",
+        "text": "When the winched guillotine falls on someone whose head is in it, the victim's soul is severed and sent to room 99; the neck and head remain fully intact because there is no blade. A person without a soul is immune to mind reading, mind control, and emotions; does not detect as living, dead, or undead; sits down and stares at a wall whenever left alone; says they do not feel mindless but feel empty; and never levels up again."
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.38-shroud",
+        "situation.38-guillotine-soul-severing"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source provides no details for room 99 and marks it 'NOT WRITTEN YET'.",
+          "source_pages": [
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "id": "location.39-stone-egg",
+      "record_type": "location",
+      "fields": {
+        "title": "Stone Egg",
+        "first_impression": "A ravenous ghoul shares the room with a polished pinkish-brown stone egg about 3 feet tall, covered in grooves, whorls, and carved animals.",
+        "contents": [
+          "A polished pinkish-brown stone egg about 3 feet tall, covered with grooves, whorls, and carved animals.",
+          "The carvings depict an ape, elephant, bat, chicken, snake, octopus, rat, pyorn (giant bird), horse, and toad."
+        ],
+        "discoverable": [
+          {
+            "information": "Faint screaming can be heard from inside the Stone Egg.",
+            "condition": "Put an ear against the egg."
+          },
+          {
+            "information": "Each animal carving lights up when touched.",
+            "condition": "Touch an animal carving."
+          },
+          {
+            "information": "The egg unfolds like a flower when the chicken, snake, octopus, pyorn, and toad are touched simultaneously.",
+            "condition": "Experiment with the carvings or identify and touch all egg-laying animals at once."
+          },
+          {
+            "information": "Every five incorrect animal touches makes the glow of a touched animal dimmer; after four failed attempts the egg becomes inert for 24 hours.",
+            "condition": "Accumulate incorrect inputs while testing the carvings."
+          }
+        ],
+        "hidden": [
+          "The egg is Shawson the ghoul's prison.",
+          "Inside are 600 silver shilavos, the Abacus of Vandoh, a head that never stops screaming, and a headless skeleton.",
+          "Climbing inside causes the egg to zip shut and trap the entrant until suffocation; the corpse becomes a perpetually screaming head attached to a skeleton."
+        ],
+        "triggers": [
+          "Touching all five egg-laying animal carvings simultaneously opens the egg.",
+          "Each five incorrect animal touches advances the failure track; after four failed attempts the egg is inert for 24 hours.",
+          "Opening the egg fills the air with screaming and provokes an Encounter check.",
+          "Climbing inside the opened egg causes it to zip shut."
+        ],
+        "hazards": [
+          "The egg can trap and suffocate anyone who climbs inside."
+        ],
+        "resources": [
+          "600 silver shilavos.",
+          "The Abacus of Vandoh."
+        ],
+        "occupants": [
+          "Shawson the ghoul."
+        ],
+        "actor_references": [
+          "actor.shawson-the-ghoul"
+        ],
+        "procedure_references": [
+          "procedure.39-open-stone-egg"
+        ],
+        "situation_references": [
+          "situation.39-stone-egg-opening"
+        ],
+        "keyed_area": "39"
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.shawson-the-ghoul",
+        "procedure.39-open-stone-egg",
+        "situation.39-stone-egg-opening",
+        "effect.stone-egg-suffocation-transformation",
+        "item.silver-shilavos-600",
+        "item.abacus-of-vandoh",
+        "item.perpetually-screaming-head"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.shawson-the-ghoul",
+      "record_type": "actor",
+      "fields": {
+        "title": "Shawson the Ghoul",
+        "role": "A ravenous, insane ghoul imprisoned in the Stone Egg room.",
+        "goals": [
+          "Kill the person he currently calls his 'pretty little fish'."
+        ],
+        "behavior": [
+          "Calls his intended victim his 'pretty little fish' and calls everyone else a 'dirty filthy'."
+        ],
+        "capabilities": [
+          "Lvl 2; Def leather; Claw 1d6+agony.",
+          "Move as human; Int 5; Str 7; Dis hungry."
+        ],
+        "location_references": [
+          "location.39-stone-egg"
+        ],
+        "starting_state": [
+          "Ravenous and insane.",
+          "Trying to kill his 'pretty little fish'."
+        ]
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.39-stone-egg",
+        "effect.shawson-agony"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source does not identify which person Shawson means by his 'pretty little fish'.",
+          "source_pages": [
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effect.shawson-agony",
+      "record_type": "effect",
+      "fields": {
+        "title": "Shawson's Agony",
+        "text": "Shawson's claw attack is printed as 'Claw 1d6+agony'."
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "low",
+      "references": [
+        "actor.shawson-the-ghoul",
+        "location.39-stone-egg"
+      ],
+      "uncertainties": [
+        {
+          "description": "This page names the added 'agony' effect but does not define its mechanics.",
+          "source_pages": [
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "id": "procedure.39-open-stone-egg",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Open the Stone Egg",
+        "trigger": "Someone interacts with the Stone Egg's animal carvings.",
+        "steps": [
+          "Touching any animal carving makes it light up.",
+          "Touch the five egg-laying animals—chicken, snake, octopus, pyorn, and toad—simultaneously.",
+          "On the correct simultaneous input, the egg unfolds like a flower.",
+          "Each set of five incorrect animal touches makes the glow of a touched animal dimmer.",
+          "After four failed attempts, the egg becomes inert for 24 hours before it can be tried again."
+        ]
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.39-stone-egg",
+        "situation.39-stone-egg-opening"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.39-stone-egg-opening",
+      "record_type": "situation",
+      "fields": {
+        "title": "The Stone Egg Opens",
+        "perceived": "The carved stone egg unfolds like a flower and the sound of screaming fills the air.",
+        "activation": {
+          "type": "triggered",
+          "condition": "The chicken, snake, octopus, pyorn, and toad carvings are touched simultaneously."
+        },
+        "repeat": {
+          "mode": "repeatable",
+          "condition": "Attempts can continue until it opens, but four failed attempts make it inert for 24 hours."
+        },
+        "location_references": [
+          "location.39-stone-egg"
+        ],
+        "procedure_references": [
+          "procedure.39-open-stone-egg"
+        ],
+        "stakes": [
+          "The screaming provokes an Encounter check.",
+          "Anyone who climbs inside can be sealed in and suffocated."
+        ],
+        "approaches": [
+          "Identify and touch all five egg-laying animal carvings simultaneously."
+        ],
+        "outcomes": [
+          "The egg opens and exposes 600 silver shilavos, the Abacus of Vandoh, a perpetually screaming head, and a headless skeleton.",
+          "A person who climbs inside is trapped until suffocation and transformed into a perpetually screaming head attached to a skeleton."
+        ],
+        "completion": [
+          "The egg unfolds like a flower after the correct simultaneous input."
+        ]
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.39-stone-egg",
+        "procedure.39-open-stone-egg",
+        "effect.stone-egg-suffocation-transformation",
+        "item.silver-shilavos-600",
+        "item.abacus-of-vandoh",
+        "item.perpetually-screaming-head"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.stone-egg-suffocation-transformation",
+      "record_type": "effect",
+      "fields": {
+        "title": "Stone Egg Entrapment and Screaming-Head Transformation",
+        "text": "If anyone climbs inside the Stone Egg, it zips back up and traps that person until death by suffocation. At death, the victim becomes a perpetually screaming head attached to a skeleton."
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.39-stone-egg",
+        "situation.39-stone-egg-opening",
+        "item.perpetually-screaming-head"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.silver-shilavos-600",
+      "record_type": "item",
+      "fields": {
+        "title": "600 Silver Shilavos",
+        "text": "A cache of 600 silver shilavos is inside the opened Stone Egg."
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.39-stone-egg",
+        "situation.39-stone-egg-opening"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.abacus-of-vandoh",
+      "record_type": "item",
+      "fields": {
+        "title": "Abacus of Vandoh",
+        "text": "A Treasure called the Abacus of Vandoh is inside the opened Stone Egg; the source points to Appendix A for its full description."
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.39-stone-egg",
+        "situation.39-stone-egg-opening"
+      ],
+      "uncertainties": [
+        {
+          "description": "The item's Appendix A mechanics are not present on this page.",
+          "source_pages": [
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item.perpetually-screaming-head",
+      "record_type": "item",
+      "fields": {
+        "title": "Perpetually Screaming Head",
+        "text": "The opened Stone Egg contains a severed head that never stops screaming. A person killed by entrapment in the egg also becomes a perpetually screaming head attached to a skeleton."
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.39-stone-egg",
+        "situation.39-stone-egg-opening",
+        "effect.stone-egg-suffocation-transformation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.40-ghost-fence",
+      "record_type": "location",
+      "fields": {
+        "title": "Ghost Fence",
+        "first_impression": "A line of 30 rotten severed heads divides the east and west sides of the room. Above them, 30 hands hang from a rope stretched north to south.",
+        "contents": [
+          "Thirty severed heads arranged as a barrier, alternating the directions they face; their yellow eyes look wet and alive.",
+          "Thirty hands dangling directly above the heads from a 30-foot rope held by two iron spikes between the north and south walls.",
+          "The rope and hands are entirely non-magical."
+        ],
+        "discoverable": [
+          {
+            "information": "Moving any head out of the specific formation ends the fence's effects; returning the heads to formation restores them.",
+            "condition": "Move at least one head out of formation and observe the result."
+          },
+          {
+            "information": "The heads can be moved elsewhere and reassembled to recreate the effect.",
+            "condition": "Remove and later restore the heads in their specific formation."
+          }
+        ],
+        "hidden": [
+          "Touching the heads or passing over them kills the nearest living thing with no Save."
+        ],
+        "triggers": [
+          "The heads continuously stare at the nearest living or undead creature and make that target chatter its teeth.",
+          "Touching a head or passing over the formation triggers instant death for the nearest living thing.",
+          "Restoring the specific head formation reactivates the effects."
+        ],
+        "hazards": [
+          "The nearest targeted creature chatters its teeth uncontrollably.",
+          "Touching or crossing over the heads can kill the nearest living thing with no Save."
+        ],
+        "procedure_references": [
+          "procedure.40-disrupt-ghost-fence"
+        ],
+        "situation_references": [
+          "situation.40-ghost-fence-barrier"
+        ],
+        "keyed_area": "40"
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure.40-disrupt-ghost-fence",
+        "situation.40-ghost-fence-barrier",
+        "effect.ghost-fence-chattering",
+        "effect.ghost-fence-lethal-formation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.40-disrupt-ghost-fence",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Disrupt the Ghost Fence",
+        "trigger": "The party needs to pass or neutralize the severed-head formation.",
+        "steps": [
+          "Move at least one severed head out of its specific formation.",
+          "While the formation is broken, the fence's magical effects end.",
+          "Cross or move the heads as needed; the source suggests bowling with isopods as an easy way past.",
+          "If the heads are returned to their specific formation, the effects resume, even if the formation is rebuilt elsewhere."
+        ]
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.40-ghost-fence",
+        "situation.40-ghost-fence-barrier",
+        "effect.ghost-fence-lethal-formation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.40-ghost-fence-barrier",
+      "record_type": "situation",
+      "fields": {
+        "title": "Crossing the Ghost Fence",
+        "perceived": "The wet-eyed severed heads stare at the nearest creature and chatter their teeth; the watched creature's own teeth chatter uncontrollably.",
+        "activation": {
+          "type": "ongoing",
+          "condition": "The 30 heads remain in their specific formation."
+        },
+        "repeat": {
+          "mode": "repeatable",
+          "condition": "The effects resume whenever the formation is restored."
+        },
+        "location_references": [
+          "location.40-ghost-fence"
+        ],
+        "procedure_references": [
+          "procedure.40-disrupt-ghost-fence"
+        ],
+        "stakes": [
+          "Touching the heads or passing over them kills the nearest living thing with no Save."
+        ],
+        "approaches": [
+          "Move one or more heads out of formation.",
+          "Use isopods like bowling balls to get past the barrier; the source notes that many solutions exist."
+        ],
+        "outcomes": [
+          "Breaking the formation ends the effects.",
+          "Restoring the formation reactivates the effects, even at a different location."
+        ],
+        "completion": [
+          "The party crosses while the formation is disrupted, or permanently leaves the heads out of formation."
+        ]
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.40-ghost-fence",
+        "procedure.40-disrupt-ghost-fence",
+        "effect.ghost-fence-chattering",
+        "effect.ghost-fence-lethal-formation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ghost-fence-chattering",
+      "record_type": "effect",
+      "fields": {
+        "title": "Ghost Fence Chattering",
+        "text": "While the heads are in formation, they stare at the nearest creature, living or undead, and chatter their teeth. The creature they stare at also chatters its teeth uncontrollably."
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.40-ghost-fence",
+        "situation.40-ghost-fence-barrier"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ghost-fence-lethal-formation",
+      "record_type": "effect",
+      "fields": {
+        "title": "Ghost Fence Instant Death and Formation Dependence",
+        "text": "If the heads are touched or someone passes over them, the nearest living thing dies with no Save. Moving any head out of the specific formation ends the effect; returning the heads to formation restores it. The heads can be transported and set up elsewhere with the same effect."
+      },
+      "source_pages": [
+        36
+      ],
+      "confidence": "high",
+      "references": [
+        "location.40-ghost-fence",
+        "procedure.40-disrupt-ghost-fence",
+        "situation.40-ghost-fence-barrier"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.41-sunken-shrine",
+      "record_type": "location",
+      "fields": {
+        "title": "Sunken Shrine",
+        "first_impression": "A shrine chamber lies under 10 feet of water, with several submerged stone and metal forms visible below the surface.",
+        "contents": [
+          "Water 10 feet deep."
+        ],
+        "discoverable": [
+          {
+            "information": "Four stone pews, a rusted metal cage large enough to hold a person, a stone idol of Vandoh, and a quadrupedal statue lie beneath the water.",
+            "condition": "Look carefully into the water."
+          },
+          {
+            "information": "The Vandoh statue is a polished marble muscular male in a toga, rendered in polygons with time-smoothed vertices; its platonic-solid head seems to have a different number of sides each time it is counted.",
+            "condition": "Examine the stone idol of Vandoh."
+          }
+        ],
+        "hidden": [
+          "The quadrupedal statue is an ancient apparatus of anguish made of pinkish-brown stone, grooves, and whorls.",
+          "Four feet of water above the apparatus's head protects it from falling bricks.",
+          "Two rounds after someone enters, the apparatus attacks and tries to exit the pit.",
+          "The first person to speak or pray to the Vandoh statue has their left hand possessed."
+        ],
+        "triggers": [
+          "Two rounds after anyone enters the room, the ancient apparatus attempts to attack and leave the pit.",
+          "The first person to speak or pray to the Vandoh statue triggers left-hand possession."
+        ],
+        "hazards": [
+          "The submerged ancient apparatus attacks intruders with its slam and Ancient Tone."
+        ],
+        "occupants": [
+          "An ancient apparatus of anguish disguised externally as a quadrupedal statue."
+        ],
+        "actor_references": [
+          "actor.ancient-apparatus-of-anguish"
+        ],
+        "situation_references": [
+          "situation.41-apparatus-awakening",
+          "situation.41-vandoh-hand-possession"
+        ],
+        "keyed_area": "41"
+      },
+      "source_pages": [
+        37
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.ancient-apparatus-of-anguish",
+        "situation.41-apparatus-awakening",
+        "situation.41-vandoh-hand-possession",
+        "effect.ancient-apparatus-stone",
+        "effect.ancient-tone",
+        "effect.anguish-pattern",
+        "effect.vandoh-possessed-hand",
+        "effect.favored-by-vandoh"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.ancient-apparatus-of-anguish",
+      "record_type": "actor",
+      "fields": {
+        "title": "Ancient Apparatus of Anguish",
+        "appearance": "A quadrupedal statue without a clear head or face, made of pinkish-brown stone and covered in whorls and grooves.",
+        "role": "A submerged ancient killing apparatus that activates after intruders enter, attacks them, and tries to escape the shrine pit.",
+        "goals": [
+          "Attack people in the room.",
+          "Exit the pit and escape the room."
+        ],
+        "behavior": [
+          "Begins attacking two rounds after someone enters the room.",
+          "Its gaze makes skin-covered, large-dice-sized cubes of a fleshy target fall away without pain, leaving healthy skin over the wounds and a sudden numb sensation."
+        ],
+        "capabilities": [
+          "Lvl 4; Def none; Slam 1d6.",
+          "Amble slow; Climb spider; Int 3.",
+          "Stone — All non-bludgeoning damage is reduced to 1.",
+          "Ancient Tone — A fleshy target within 10 feet takes 1d6 damage; a Cha Save negates.",
+          "Anguish Pattern — Whenever this apparatus damages something with its tone, all ancient apparatuses within 30 feet, including itself, are healed for an equal amount.",
+          "Four feet of water above its head protects it from falling bricks."
+        ],
+        "reactions": [
+          {
+            "stimulus": "The apparatus loses half of its hit points.",
+            "response": "It begins bleeding, revealing that it is only a statue on the outside, and attempts to escape the room."
+          }
+        ],
+        "location_references": [
+          "location.41-sunken-shrine"
+        ],
+        "situation_references": [
+          "situation.41-apparatus-awakening"
+        ],
+        "hidden": [
+          "It is only a statue on the outside; it bleeds after losing half its hit points."
+        ]
+      },
+      "source_pages": [
+        37
+      ],
+      "confidence": "high",
+      "references": [
+        "location.41-sunken-shrine",
+        "situation.41-apparatus-awakening",
+        "effect.ancient-apparatus-stone",
+        "effect.ancient-tone",
+        "effect.anguish-pattern"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.41-apparatus-awakening",
+      "record_type": "situation",
+      "fields": {
+        "title": "Ancient Apparatus Awakening",
+        "perceived": "Two rounds after someone enters, the submerged quadrupedal statue begins attacking and tries to climb out of the pit. At half hit points it starts bleeding despite its stone exterior.",
+        "activation": {
+          "type": "timed",
+          "condition": "Two rounds after someone enters the Sunken Shrine, whether by falling or another route."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.41-sunken-shrine"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.ancient-apparatus-of-anguish",
+            "role": "Attacks intruders and attempts to escape."
+          }
+        ],
+        "actor_reactions": [
+          {
+            "actor_id": "actor.ancient-apparatus-of-anguish",
+            "reaction": "On losing half its hit points, it begins bleeding and attempts to escape the room."
+          }
+        ],
+        "stakes": [
+          "Intruders face slam and Ancient Tone damage.",
+          "An escaping apparatus may become a wandering monster."
+        ],
+        "outcomes": [
+          "If it escapes, it can be added to the wandering monster table."
+        ],
+        "possible_effects": [
+          {
+            "effect": "future-thread",
+            "description": "An escaped ancient apparatus can be added to the wandering monster table."
+          }
+        ]
+      },
+      "source_pages": [
+        37
+      ],
+      "confidence": "high",
+      "references": [
+        "location.41-sunken-shrine",
+        "actor.ancient-apparatus-of-anguish",
+        "effect.ancient-apparatus-stone",
+        "effect.ancient-tone",
+        "effect.anguish-pattern"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ancient-apparatus-stone",
+      "record_type": "effect",
+      "fields": {
+        "title": "Stone",
+        "text": "All non-bludgeoning damage dealt to the ancient apparatus of anguish is reduced to 1."
+      },
+      "source_pages": [
+        37
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.ancient-apparatus-of-anguish",
+        "location.41-sunken-shrine",
+        "situation.41-apparatus-awakening"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ancient-tone",
+      "record_type": "effect",
+      "fields": {
+        "title": "Ancient Tone",
+        "text": "A fleshy target within 10 feet takes 1d6 damage; a Cha Save negates. The apparatus's gaze makes parts of the target fall away as skin-covered cubes about the size of large dice. The resulting wounds are covered with healthy skin; there is no pain, only sudden numbness."
+      },
+      "source_pages": [
+        37
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.ancient-apparatus-of-anguish",
+        "location.41-sunken-shrine",
+        "situation.41-apparatus-awakening"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.anguish-pattern",
+      "record_type": "effect",
+      "fields": {
+        "title": "Anguish Pattern",
+        "text": "Whenever the apparatus damages something with its tone, every ancient apparatus within 30 feet, including this one, is healed for an amount equal to the damage dealt."
+      },
+      "source_pages": [
+        37
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.ancient-apparatus-of-anguish",
+        "location.41-sunken-shrine",
+        "situation.41-apparatus-awakening"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.41-vandoh-hand-possession",
+      "record_type": "situation",
+      "fields": {
+        "title": "Vandoh Possesses a Left Hand",
+        "perceived": "The first speaker or supplicant's left hand becomes rigid and holds up a number of fingers. It clenches with rage whenever a ghoul is encountered.",
+        "activation": {
+          "type": "triggered",
+          "condition": "The first person speaks or prays to the statue of Vandoh."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.41-sunken-shrine"
+        ],
+        "stakes": [
+          "A character's left hand is possessed and rigid."
+        ],
+        "outcomes": [
+          "The raised finger count equals the number of ghouls remaining in the dungeon.",
+          "The hand clenches with rage whenever a ghoul is encountered.",
+          "If all ghouls are killed, the character becomes Favored by Vandoh."
+        ],
+        "completion": [
+          "Killing all ghouls triggers the character becoming Favored by Vandoh."
+        ],
+        "possible_effects": [
+          {
+            "effect": "future-thread",
+            "description": "If all ghouls are killed, the possessed character becomes Favored by Vandoh as described in Appendix D."
+          }
+        ]
+      },
+      "source_pages": [
+        37
+      ],
+      "confidence": "high",
+      "references": [
+        "location.41-sunken-shrine",
+        "effect.vandoh-possessed-hand",
+        "effect.favored-by-vandoh"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.vandoh-possessed-hand",
+      "record_type": "effect",
+      "fields": {
+        "title": "Vandoh's Possessed Left Hand",
+        "text": "The first person to speak or pray to the statue has their left hand possessed. The hand is rigid and holds up a number of fingers equal to the number of ghouls remaining in the dungeon. Whenever a ghoul is encountered, the hand clenches with rage."
+      },
+      "source_pages": [
+        37
+      ],
+      "confidence": "high",
+      "references": [
+        "location.41-sunken-shrine",
+        "situation.41-vandoh-hand-possession"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.favored-by-vandoh",
+      "record_type": "effect",
+      "fields": {
+        "title": "Favored by Vandoh",
+        "text": "If all ghouls are killed, the character whose left hand was possessed becomes Favored by Vandoh; the source points to Appendix D for the full effect."
+      },
+      "source_pages": [
+        37
+      ],
+      "confidence": "high",
+      "references": [
+        "location.41-sunken-shrine",
+        "situation.41-vandoh-hand-possession"
+      ],
+      "uncertainties": [
+        {
+          "description": "The mechanics of Favored by Vandoh are not present on this page and are deferred to Appendix D.",
+          "source_pages": [
+            37
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item.stone-idol-of-vandoh",
+      "record_type": "item",
+      "fields": {
+        "title": "Stone Idol of Vandoh",
+        "text": "A stone idol of Vandoh rises from the water in 41 SUNKEN SHRINE. The first person to speak or pray to it has their left hand possessed; the hand holds up a number of fingers equal to the ghouls remaining in the dungeon and clenches when a ghoul is encountered."
+      },
+      "source_pages": [
+        37
+      ],
+      "confidence": "high",
+      "references": [
+        "location.41-sunken-shrine",
+        "situation.41-vandoh-hand-possession",
+        "effect.vandoh-possessed-hand"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.42-sunken-gallery",
+      "record_type": "location",
+      "fields": {
+        "title": "Sunken Gallery",
+        "first_impression": "A 40-foot-tall gallery lies under 10 feet of water. Six huge statues loom from the pool, each holding a stone coffer.",
+        "contents": [
+          "Six huge statues, each with an integral stone coffer that cannot be removed.",
+          "A proud king holds his coffer overhead and gazes at the shepherd.",
+          "A weary knight watches the crone.",
+          "A smiling shepherd with a sheep under one arm watches the scribe.",
+          "A beggar extends a plate toward the crone.",
+          "A crone bows to the king and holds her coffer behind her back.",
+          "A scribe watches the crone while clutching a scroll to his chest."
+        ],
+        "discoverable": [
+          {
+            "information": "The scribe's scroll reads: 'The sheep do not know the shepherd, but they follow nonetheless'.",
+            "condition": "Read the scroll clutched by the scribe statue."
+          }
+        ],
+        "hidden": [
+          "The king, knight, shepherd, beggar, and scribe coffers contain poisonous gas.",
+          "The crone's coffer contains the hand mirror of lies, a bottle of liquid boat, and a pouch of 50 golden gorbels worth 500s.",
+          "The room connects to 24 CRUSH HALLWAY and 25 TRICKY HALLWAY, but neither can be accessed unless its trap door is open."
+        ],
+        "triggers": [
+          "Opening a poison-filled coffer exposes anyone in front of it to a Dex save against poisoning and then releases gas that fills the room.",
+          "Open trap doors permit access to 24 CRUSH HALLWAY and 25 TRICKY HALLWAY."
+        ],
+        "hazards": [
+          "Five coffers contain poison gas that expands to fill the room and takes 10 minutes to settle."
+        ],
+        "resources": [
+          "The hand mirror of lies.",
+          "A bottle of liquid boat.",
+          "A pouch containing 50 golden gorbels, worth 500s."
+        ],
+        "procedure_references": [
+          "procedure.42-handle-coffer"
+        ],
+        "situation_references": [
+          "situation.42-poison-coffer-discharge"
+        ],
+        "knowledge_references": [
+          "knowledge.42-scribe-scroll"
+        ],
+        "keyed_area": "42"
+      },
+      "source_pages": [
+        38
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure.42-handle-coffer",
+        "situation.42-poison-coffer-discharge",
+        "knowledge.42-scribe-scroll",
+        "effect.sunken-gallery-poison",
+        "item.hand-mirror-of-lies",
+        "item.bottle-of-liquid-boat",
+        "item.golden-gorbels-pouch-50"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.42-scribe-scroll",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "The Scribe's Scroll",
+        "text": "The scroll clutched by the scribe statue reads: 'The sheep do not know the shepherd, but they follow nonetheless'."
+      },
+      "source_pages": [
+        38
+      ],
+      "confidence": "high",
+      "references": [
+        "location.42-sunken-gallery"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.42-handle-coffer",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Handle a Sunken Gallery Coffer",
+        "trigger": "Someone opens one of the statues' stone coffers.",
+        "steps": [
+          "Opening a poison-filled coffer forces anyone in front of it to make a Dex save or become poisoned for 1d6 damage per round until a Con check succeeds.",
+          "Opening with a hooked pole or from the side grants a +4 bonus to the Dex check.",
+          "After opening, the poison gas expands to fill the room.",
+          "Characters who flee immediately are not poisoned by the expanding gas.",
+          "The poison gas settles after 10 minutes."
+        ]
+      },
+      "source_pages": [
+        38
+      ],
+      "confidence": "high",
+      "references": [
+        "location.42-sunken-gallery",
+        "situation.42-poison-coffer-discharge",
+        "effect.sunken-gallery-poison"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source first calls the avoidance roll a Dex save and later calls the roll receiving the +4 bonus a Dex check.",
+          "source_pages": [
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "id": "situation.42-poison-coffer-discharge",
+      "record_type": "situation",
+      "fields": {
+        "title": "Poison Coffer Discharge",
+        "perceived": "A poison-filled coffer releases gas from its front and the cloud expands through the gallery.",
+        "activation": {
+          "type": "triggered",
+          "condition": "Any of the five poison-filled coffers is opened."
+        },
+        "repeat": {
+          "mode": "repeatable",
+          "condition": "The hazard can trigger from each poison-filled coffer."
+        },
+        "location_references": [
+          "location.42-sunken-gallery"
+        ],
+        "procedure_references": [
+          "procedure.42-handle-coffer"
+        ],
+        "stakes": [
+          "Anyone in front of the coffer risks ongoing poison damage.",
+          "The expanding gas can poison characters who do not flee immediately."
+        ],
+        "approaches": [
+          "Open the coffer with a hooked pole or from the side for a +4 bonus.",
+          "Flee immediately when the gas begins to fill the room."
+        ],
+        "outcomes": [
+          "A failed Dex save poisons a character for 1d6 damage per round until a Con check succeeds.",
+          "Immediate flight avoids poisoning from the room-filling cloud.",
+          "The gas settles after 10 minutes."
+        ],
+        "completion": [
+          "The gas settles 10 minutes after release."
+        ]
+      },
+      "source_pages": [
+        38
+      ],
+      "confidence": "high",
+      "references": [
+        "location.42-sunken-gallery",
+        "procedure.42-handle-coffer",
+        "effect.sunken-gallery-poison"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page uses both 'Dex save' and 'Dex check' for the same coffer-opening defense.",
+          "source_pages": [
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effect.sunken-gallery-poison",
+      "record_type": "effect",
+      "fields": {
+        "title": "Sunken Gallery Poison Gas",
+        "text": "When a poison-filled coffer is opened, anyone in front must make a Dex save or be poisoned for 1d6 damage per round until a Con check succeeds. A hooked pole or opening from the side grants +4 to the Dex check. The gas then fills the room; characters who flee immediately are not poisoned, and the gas takes 10 minutes to settle."
+      },
+      "source_pages": [
+        38
+      ],
+      "confidence": "high",
+      "references": [
+        "location.42-sunken-gallery",
+        "procedure.42-handle-coffer",
+        "situation.42-poison-coffer-discharge"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source alternates between the terms Dex save and Dex check for the avoidance roll.",
+          "source_pages": [
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item.hand-mirror-of-lies",
+      "record_type": "item",
+      "fields": {
+        "title": "Hand Mirror of Lies",
+        "text": "The crone's coffer contains the hand mirror of lies, a Treasure whose full description is in Appendix A."
+      },
+      "source_pages": [
+        38
+      ],
+      "confidence": "high",
+      "references": [
+        "location.42-sunken-gallery"
+      ],
+      "uncertainties": [
+        {
+          "description": "The item's Appendix A mechanics are not present on this page.",
+          "source_pages": [
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item.bottle-of-liquid-boat",
+      "record_type": "item",
+      "fields": {
+        "title": "Bottle of Liquid Boat",
+        "text": "The crone's coffer contains a bottle of liquid boat; the source points to Appendix A for its full description."
+      },
+      "source_pages": [
+        38
+      ],
+      "confidence": "high",
+      "references": [
+        "location.42-sunken-gallery"
+      ],
+      "uncertainties": [
+        {
+          "description": "The item's Appendix A mechanics are not present on this page.",
+          "source_pages": [
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item.golden-gorbels-pouch-50",
+      "record_type": "item",
+      "fields": {
+        "title": "Pouch of 50 Golden Gorbels",
+        "text": "The crone's coffer contains a pouch holding 50 golden gorbels, valued at 500s."
+      },
+      "source_pages": [
+        38
+      ],
+      "confidence": "high",
+      "references": [
+        "location.42-sunken-gallery"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.43-spider-crab",
+      "record_type": "location",
+      "fields": {
+        "title": "Spider Crab",
+        "first_impression": "A pool of unusually murky brown water lies 10 feet deep, with the floor above 40 feet above the water's surface.",
+        "contents": [
+          "Brown water 10 feet deep and much murkier than usual."
+        ],
+        "discoverable": [
+          {
+            "information": "A giant spider crab is watching from the water with its eyestalks near the surface.",
+            "condition": "Notice the eyestalks or otherwise detect the hidden crab."
+          }
+        ],
+        "hidden": [
+          "A giant undead spider crab hides in the water.",
+          "The crab is all that remains of a high priestess of Vandoh.",
+          "The crab can reach 38 feet out of the water, two feet short of the floor above.",
+          "If a large object is dropped into the pool, the crab eventually uses it as a platform to escape."
+        ],
+        "triggers": [
+          "The first time the crab notices that it has been noticed, it hides for a few seconds.",
+          "Anything dropped within its 38-foot reach causes it to lunge.",
+          "Dropping a large object such as a table or ballista into the pool eventually lets the crab stand on it and escape."
+        ],
+        "hazards": [
+          "The hidden giant undead spider crab lunges at anything that falls within reach."
+        ],
+        "occupants": [
+          "A giant undead spider crab, formerly a high priestess of Vandoh."
+        ],
+        "actor_references": [
+          "actor.spider-crab-high-priestess"
+        ],
+        "situation_references": [
+          "situation.43-spider-crab-pool"
+        ],
+        "keyed_area": "43"
+      },
+      "source_pages": [
+        38
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.spider-crab-high-priestess",
+        "situation.43-spider-crab-pool",
+        "effect.spider-crab-grab"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.spider-crab-high-priestess",
+      "record_type": "actor",
+      "fields": {
+        "title": "Spider Crab",
+        "appearance": "A giant undead spider crab that keeps its eyestalks above the murky water to watch the party.",
+        "role": "A hidden pool predator and the remains of a high priestess of Vandoh; if it escapes, it becomes a wandering monster.",
+        "goals": [
+          "Watch the party from hiding.",
+          "Lunge at anything that drops within reach.",
+          "Escape the pit when given a large object to stand on."
+        ],
+        "behavior": [
+          "Tries to keep its eyestalks above water while watching the party.",
+          "The first time it realizes it has been noticed, it tries to hide for a few seconds.",
+          "Eventually stands on any large object dropped in the pool and escapes."
+        ],
+        "capabilities": [
+          "Lvl 7; Def leather; Claw/claw 1d8/1d8+grab.",
+          "Move slow; Int 5; Dis fanatical.",
+          "Can reach 38 feet out of the water.",
+          "Can squeeze through a 10-foot hallway."
+        ],
+        "reactions": [
+          {
+            "stimulus": "It first notices that the party has noticed it.",
+            "response": "It tries to hide for a few seconds."
+          },
+          {
+            "stimulus": "Anything drops within its reach.",
+            "response": "It lunges at the falling object or creature."
+          },
+          {
+            "stimulus": "A large object such as a table or ballista is dropped into the pool.",
+            "response": "It eventually stands on the object and escapes the pit."
+          }
+        ],
+        "location_references": [
+          "location.43-spider-crab"
+        ],
+        "situation_references": [
+          "situation.43-spider-crab-pool"
+        ],
+        "hidden": [
+          "It is all that remains of a high priestess of Vandoh."
+        ],
+        "starting_state": [
+          "Hiding in the water and watching the party with its eyestalks above the surface."
+        ]
+      },
+      "source_pages": [
+        38
+      ],
+      "confidence": "high",
+      "references": [
+        "location.43-spider-crab",
+        "situation.43-spider-crab-pool",
+        "effect.spider-crab-grab"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.43-spider-crab-pool",
+      "record_type": "situation",
+      "fields": {
+        "title": "Spider Crab in the Pool",
+        "perceived": "Eyestalks watch from the murky water. When noticed, they dip away for a few seconds; anything falling close enough draws a sudden lunge from the pool.",
+        "activation": {
+          "type": "ongoing",
+          "condition": "The giant undead spider crab remains hidden in the pool while creatures or objects are within the room."
+        },
+        "repeat": {
+          "mode": "repeatable",
+          "condition": "The crab can lunge whenever something drops within its 38-foot reach."
+        },
+        "location_references": [
+          "location.43-spider-crab"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.spider-crab-high-priestess",
+            "role": "Watches from hiding, lunges at falling targets, and seeks a way out."
+          }
+        ],
+        "actor_reactions": [
+          {
+            "actor_id": "actor.spider-crab-high-priestess",
+            "reaction": "The first time it knows it has been seen, it hides for a few seconds."
+          },
+          {
+            "actor_id": "actor.spider-crab-high-priestess",
+            "reaction": "It lunges at anything dropped within its reach."
+          },
+          {
+            "actor_id": "actor.spider-crab-high-priestess",
+            "reaction": "It uses a large dropped object as a platform and eventually escapes."
+          }
+        ],
+        "stakes": [
+          "Anything falling within 38 feet of the surface can be attacked and grabbed.",
+          "A large dropped object can release the crab into the dungeon."
+        ],
+        "approaches": [
+          "Avoid dropping creatures or objects within the crab's reach.",
+          "Recognize that a large object in the pool will let the crab climb out."
+        ],
+        "outcomes": [
+          "The crab lunges at a falling target.",
+          "If a large object is dropped into the pool, the crab eventually escapes and is added to the wandering monster table."
+        ],
+        "completion": [
+          "The crab escapes the pit after gaining a large object to stand on."
+        ],
+        "possible_effects": [
+          {
+            "effect": "future-thread",
+            "description": "After escaping, the spider crab is added to the wandering monster table."
+          }
+        ]
+      },
+      "source_pages": [
+        38
+      ],
+      "confidence": "high",
+      "references": [
+        "location.43-spider-crab",
+        "actor.spider-crab-high-priestess",
+        "effect.spider-crab-grab"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.spider-crab-grab",
+      "record_type": "effect",
+      "fields": {
+        "title": "Spider Crab Grab",
+        "text": "The spider crab's attack line is printed as 'Claw/claw 1d8/1d8+grab', so its second claw attack adds a grab effect."
+      },
+      "source_pages": [
+        38
+      ],
+      "confidence": "medium",
+      "references": [
+        "actor.spider-crab-high-priestess",
+        "location.43-spider-crab",
+        "situation.43-spider-crab-pool"
+      ],
+      "uncertainties": [
+        {
+          "description": "This page names the grab rider but does not define its procedure, duration, escape condition, or other mechanics.",
+          "source_pages": [
+            38
+          ]
+        }
+      ]
+    }
+  ],
+  "schema": "module-content-evidence/v3",
+  "situation_record_template": {
+    "confidence": "low",
+    "fields": {
+      "activation": {
+        "condition": "The source-stated activation condition.",
+        "type": "triggered"
+      },
+      "approaches": [
+        "A likely source-supported approach."
+      ],
+      "completion": [
+        "The source-stated completion condition."
+      ],
+      "outcomes": [
+        "A source-supported possible outcome."
+      ],
+      "participants": [
+        {
+          "actor_id": "actor.example-guard",
+          "role": "Blocks the way."
+        }
+      ],
+      "perceived": "A player-safe description of what happens.",
+      "possible_effects": [
+        {
+          "description": "A source-supported later consequence.",
+          "effect": "future-thread"
+        }
+      ],
+      "repeat": {
+        "condition": null,
+        "mode": "once"
+      },
+      "stakes": [
+        "What the source says is at risk."
+      ],
+      "title": "Example Standoff"
+    },
+    "id": "situation.example-standoff",
+    "record_type": "situation",
+    "references": [
+      "actor.example-guard"
+    ],
+    "source_pages": [
+      36
+    ],
+    "uncertainties": []
+  },
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda",
+  "task": "content",
+  "task_coverage": [
+    {
+      "notes": "",
+      "pdf_page": 36,
+      "record_ids": [
+        "location.38-shroud",
+        "procedure.38-winched-guillotine-cycle",
+        "situation.38-guillotine-soul-severing",
+        "location.39-stone-egg",
+        "actor.shawson-the-ghoul",
+        "procedure.39-open-stone-egg",
+        "situation.39-stone-egg-opening",
+        "location.40-ghost-fence",
+        "procedure.40-disrupt-ghost-fence",
+        "situation.40-ghost-fence-barrier"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 36,
+      "record_ids": [
+        "effect.shroud-soul-severance",
+        "effect.shawson-agony",
+        "effect.stone-egg-suffocation-transformation",
+        "effect.ghost-fence-chattering",
+        "effect.ghost-fence-lethal-formation"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 36,
+      "record_ids": [
+        "item.silver-shilavos-600",
+        "item.abacus-of-vandoh",
+        "item.perpetually-screaming-head"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 37,
+      "record_ids": [
+        "location.41-sunken-shrine",
+        "actor.ancient-apparatus-of-anguish",
+        "situation.41-apparatus-awakening",
+        "situation.41-vandoh-hand-possession"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 37,
+      "record_ids": [
+        "effect.ancient-apparatus-stone",
+        "effect.ancient-tone",
+        "effect.anguish-pattern",
+        "effect.vandoh-possessed-hand",
+        "effect.favored-by-vandoh"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "The stone idol of Vandoh is recorded as an item-like room fixture because the source names it explicitly and describes its interactive effect.",
+      "pdf_page": 37,
+      "record_ids": [
+        "item.stone-idol-of-vandoh"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 38,
+      "record_ids": [
+        "location.42-sunken-gallery",
+        "knowledge.42-scribe-scroll",
+        "procedure.42-handle-coffer",
+        "situation.42-poison-coffer-discharge",
+        "location.43-spider-crab",
+        "actor.spider-crab-high-priestess",
+        "situation.43-spider-crab-pool"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 38,
+      "record_ids": [
+        "effect.sunken-gallery-poison",
+        "effect.spider-crab-grab"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 38,
+      "record_ids": [
+        "item.hand-mirror-of-lies",
+        "item.bottle-of-liquid-boat",
+        "item.golden-gorbels-pouch-50"
+      ],
+      "status": "extracted",
+      "task": "items"
+    }
+  ]
+}

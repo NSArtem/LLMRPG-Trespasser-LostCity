@@ -1,0 +1,584 @@
+{
+  "pages": [
+    {
+      "confidence": "high",
+      "exclusion_reason": "cover",
+      "notes": "Title and credits cover.",
+      "pdf_page": 1,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "GLOG introduction and Level 0 peasant character premise, with botanical art.",
+      "pdf_page": 2,
+      "tasks": [
+        "rules",
+        "classes",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Operational advice for players and DMs.",
+      "pdf_page": 3,
+      "tasks": [
+        "rules"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": "divider",
+      "notes": "Section divider: Salt of the Earth.",
+      "pdf_page": 4,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Level 0 peasant statistics, checks, saves, demographics, appearance, and personality tables.",
+      "pdf_page": 5,
+      "tasks": [
+        "rules",
+        "tables",
+        "classes"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "d100 profession table for Level 0 peasants.",
+      "pdf_page": 6,
+      "tasks": [
+        "tables",
+        "classes"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": "divider",
+      "notes": "Section divider: Learning to Crawl.",
+      "pdf_page": 7,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Exploration procedures for time, light, mapping, doors, movement, investigation, and stealth.",
+      "pdf_page": 8,
+      "tasks": [
+        "rules"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Combat fundamentals, stat blocks, dispositions, and morale procedures.",
+      "pdf_page": 9,
+      "tasks": [
+        "rules",
+        "tables"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Pursuit, initiative, attacks, armor, swimming, dying, healing, and damage outcomes.",
+      "pdf_page": 10,
+      "tasks": [
+        "rules",
+        "tables",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Combat maneuvers, weapon and armor values, saves, stat checks, skills, and languages.",
+      "pdf_page": 11,
+      "tasks": [
+        "rules",
+        "tables",
+        "items"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Hirelings, money, food and water, inventory, leveling, and class unlocks.",
+      "pdf_page": 12,
+      "tasks": [
+        "rules",
+        "items",
+        "classes",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Random encounter procedures, encounter die results, scene setting, and spot illustration.",
+      "pdf_page": 13,
+      "tasks": [
+        "rules",
+        "tables",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": "divider",
+      "notes": "Section divider: Background Info.",
+      "pdf_page": 14,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Overview maps of the Water area and dungeon Levels 1 and 2.",
+      "pdf_page": 15,
+      "tasks": [
+        "maps"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Setting lore, common knowledge, secrets, and the raid background.",
+      "pdf_page": 16,
+      "tasks": [
+        "adventure"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": "divider",
+      "notes": "Part divider: Lair of the Lamb.",
+      "pdf_page": 17,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Level 1 map with live/dead Lamb encounter tables.",
+      "pdf_page": 18,
+      "tasks": [
+        "adventure",
+        "maps",
+        "tables"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Dungeon features, overview, opening procedure, and Lamb illustration.",
+      "pdf_page": 19,
+      "tasks": [
+        "adventure",
+        "rules",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Lamb, Little Lambs, and Father Bastoval encounter and stat-block material.",
+      "pdf_page": 20,
+      "tasks": [
+        "adventure",
+        "spells",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Rooms 1–4, room map, chest treasure, and spot illustration.",
+      "pdf_page": 21,
+      "tasks": [
+        "adventure",
+        "maps",
+        "items",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Rooms 5–7 with landing, tumbler trap, throne puzzle, and rewards.",
+      "pdf_page": 22,
+      "tasks": [
+        "adventure",
+        "maps",
+        "items",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Rooms 8–10 with pit, fountain, underwater tunnel, bone pile, and a d20 loot table.",
+      "pdf_page": 23,
+      "tasks": [
+        "adventure",
+        "maps",
+        "tables",
+        "items",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Rooms 11–15 with murals, sarcophagus, secret, and encounter effects.",
+      "pdf_page": 24,
+      "tasks": [
+        "adventure",
+        "maps",
+        "items",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Rooms 16–18 with mold, altar, shaft, treasure, hazards, and insect art.",
+      "pdf_page": 25,
+      "tasks": [
+        "adventure",
+        "maps",
+        "items",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Rooms 19–20 with priests, spell references, magical pools, and sigil art.",
+      "pdf_page": 26,
+      "tasks": [
+        "adventure",
+        "maps",
+        "spells",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": "divider",
+      "notes": "Part divider: Gallery of the Ghouls.",
+      "pdf_page": 27,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Dungeon maps, encounter tables, and ghoul-related stat blocks.",
+      "pdf_page": 28,
+      "tasks": [
+        "adventure",
+        "maps",
+        "tables",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Ghoul factions, named NPCs, goals, behavior, and social outcomes.",
+      "pdf_page": 29,
+      "tasks": [
+        "adventure"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Rooms 21–23 with heavy doors, mushroom chamber, and weak-floor hazard.",
+      "pdf_page": 30,
+      "tasks": [
+        "adventure",
+        "maps",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Room 24 and side areas with flooded hazards and fungal wall art.",
+      "pdf_page": 31,
+      "tasks": [
+        "adventure",
+        "maps",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Crypt rooms 25A–G with sarcophagus contents, curses, treasure, and fungus art.",
+      "pdf_page": 32,
+      "tasks": [
+        "adventure",
+        "maps",
+        "items",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Rooms 27–30 with ballista, games, stage, coffer, treasure, and encounters.",
+      "pdf_page": 33,
+      "tasks": [
+        "adventure",
+        "maps",
+        "items",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Rooms 31–34 with traverse, isopods, fungus, cache, hazards, and armory items.",
+      "pdf_page": 34,
+      "tasks": [
+        "adventure",
+        "maps",
+        "items",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Rooms 35–37 with trapped hallway, banquet table, chewed bones, and loot.",
+      "pdf_page": 35,
+      "tasks": [
+        "adventure",
+        "maps",
+        "items",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Rooms 38–40 with shroud, stone egg, ghost fence, treasure, and stone art.",
+      "pdf_page": 36,
+      "tasks": [
+        "adventure",
+        "maps",
+        "items",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Rooms 41–43 with sunken shrine, gallery, spider crab, treasure, and hazards.",
+      "pdf_page": 37,
+      "tasks": [
+        "adventure",
+        "maps",
+        "items",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Continuation of the sunken gallery and spider crab, including trapped treasure and wall art.",
+      "pdf_page": 38,
+      "tasks": [
+        "adventure",
+        "items",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": "divider",
+      "notes": "Part divider: The Cistern.",
+      "pdf_page": 39,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Cistern map and rooms 44/44A with flooding, wall breach, and environmental hazards.",
+      "pdf_page": 40,
+      "tasks": [
+        "adventure",
+        "maps",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Fighting the Lamb and rooms 45–49 with barrels, traps, statue, exits, and spot art.",
+      "pdf_page": 41,
+      "tasks": [
+        "adventure",
+        "items",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": "divider",
+      "notes": "Section divider: Appendices.",
+      "pdf_page": 42,
+      "tasks": []
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Magic items appendix entries with item effects and botanical illustration.",
+      "pdf_page": 43,
+      "tasks": [
+        "items",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Magic items appendix continuation with cursed/demonic items and skull illustration.",
+      "pdf_page": 44,
+      "tasks": [
+        "items",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Spellcasting rules and spell entries from Confusion through Geas.",
+      "pdf_page": 45,
+      "tasks": [
+        "rules",
+        "spells",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Spell entries from Haste through Wave of Mutilation.",
+      "pdf_page": 46,
+      "tasks": [
+        "spells",
+        "effects"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Divine favor rules for Shendorm and Vandroh, with spot illustration.",
+      "pdf_page": 47,
+      "tasks": [
+        "rules",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Drug items, dosage forms, and mechanical effects, with flower illustration.",
+      "pdf_page": 48,
+      "tasks": [
+        "items",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Leveling and mastery table, class-selection rules, and illustration.",
+      "pdf_page": 49,
+      "tasks": [
+        "rules",
+        "tables",
+        "classes",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Acrobat class progression and abilities with character art.",
+      "pdf_page": 50,
+      "tasks": [
+        "rules",
+        "classes",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Barbarian class progression and abilities with character art.",
+      "pdf_page": 51,
+      "tasks": [
+        "rules",
+        "classes",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Fighter class progression and abilities with character art.",
+      "pdf_page": 52,
+      "tasks": [
+        "rules",
+        "classes",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Thief class progression and abilities with character art.",
+      "pdf_page": 53,
+      "tasks": [
+        "rules",
+        "classes",
+        "effects",
+        "illustrations"
+      ]
+    },
+    {
+      "confidence": "high",
+      "exclusion_reason": null,
+      "notes": "Level-up milestones, key-item table, and dungeon repopulation procedure.",
+      "pdf_page": 54,
+      "tasks": [
+        "adventure",
+        "rules",
+        "tables",
+        "items",
+        "classes"
+      ]
+    }
+  ],
+  "schema": "module-routing/v1",
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda"
+}

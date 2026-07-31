@@ -1,0 +1,859 @@
+{
+  "schema": "module-content-evidence/v3",
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda",
+  "pack_id": "content.002",
+  "task": "content",
+  "records": [
+    {
+      "id": "class.level-0-peasants",
+      "record_type": "class",
+      "fields": {
+        "title": "Level 0 Peasants",
+        "text": "The game begins with 12 level 0 peasants in a dungeon. Unless there are more than 6 players, each player controls multiple peasants. Each player chooses one controlled peasant as their PC; the remaining controlled peasants are hirelings."
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [
+        "rule.level-0-ability-score-generation",
+        "rule.checks-and-saves",
+        "table.level-0-peasant-base-stats",
+        "table.peasant-demographic",
+        "table.peasant-appearance",
+        "table.peasant-personality",
+        "class.peasant-profession"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.level-0-ability-score-generation",
+      "record_type": "rule",
+      "fields": {
+        "title": "Level 0 Ability Score Generation",
+        "text": "Generate Str, Dex, Con, Int, Wis, and Cha randomly in order. For each score, roll 3d6, divide the result by two, and round down. The average score is 5. The source states that there are four other stats."
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [
+        "class.level-0-peasants",
+        "table.level-0-peasant-base-stats"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.checks-and-saves",
+      "record_type": "rule",
+      "fields": {
+        "title": "Checks and Saves",
+        "text": "Nearly all checks are against DC 16: roll a d20, add the relevant stat, and meet or exceed the DC. Saves are an exception and use Dex, Con, or Cha against DC 20. Cha is used for all magical effects and is the most common Save."
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [
+        "class.level-0-peasants"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.small-stature",
+      "record_type": "rule",
+      "fields": {
+        "title": "Small Stature",
+        "text": "A child has Small Stature. Switch Str with the character's lowest ability score. Cramped spaces impose no penalty. The character does not have a Profession."
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [
+        "class.level-0-peasants",
+        "table.peasant-demographic",
+        "class.peasant-profession"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.optional-non-binary-demographic-results",
+      "record_type": "rule",
+      "fields": {
+        "title": "Optional Non-Binary Demographic Results",
+        "text": "To introduce non-binary genders, the source suggests replacing demographic results 7 and 13."
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "medium",
+      "references": [
+        "table.peasant-demographic"
+      ],
+      "uncertainties": [
+        {
+          "description": "The source does not specify the replacement labels, ages, or how the surrounding demographic roll ranges should be rewritten.",
+          "source_pages": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "table.level-0-peasant-base-stats",
+      "record_type": "table",
+      "fields": {
+        "title": "Level 0 Peasant Base Stats",
+        "entries": [
+          {
+            "stat": "HP",
+            "value": 0
+          },
+          {
+            "stat": "Move",
+            "value": 5
+          },
+          {
+            "stat": "Atk",
+            "value": 0
+          },
+          {
+            "stat": "Def",
+            "value": 0
+          }
+        ]
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [
+        "class.level-0-peasants",
+        "rule.level-0-ability-score-generation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.peasant-demographic",
+      "record_type": "table",
+      "fields": {
+        "title": "Peasant Demographic",
+        "entries": [
+          {
+            "roll": "1-2",
+            "result": "Boy",
+            "age": "1d8+6"
+          },
+          {
+            "roll": "3-4",
+            "result": "Girl",
+            "age": "1d8+6"
+          },
+          {
+            "roll": "5-12",
+            "result": "Man",
+            "age": "1d20+14"
+          },
+          {
+            "roll": "13-20",
+            "result": "Woman",
+            "age": "1d20+14"
+          }
+        ]
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [
+        "class.level-0-peasants",
+        "rule.small-stature",
+        "rule.optional-non-binary-demographic-results"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.peasant-appearance",
+      "record_type": "table",
+      "fields": {
+        "title": "Peasant Appearance",
+        "entries": [
+          {
+            "roll": 1,
+            "result": "Athletic"
+          },
+          {
+            "roll": 2,
+            "result": "Beautiful"
+          },
+          {
+            "roll": 3,
+            "result": "Boney"
+          },
+          {
+            "roll": 4,
+            "result": "Brawny"
+          },
+          {
+            "roll": 5,
+            "result": "Brutish"
+          },
+          {
+            "roll": 6,
+            "result": "Delicate"
+          },
+          {
+            "roll": 7,
+            "result": "Disfigured"
+          },
+          {
+            "roll": 8,
+            "result": "Gorgeous"
+          },
+          {
+            "roll": 9,
+            "result": "Grizzled"
+          },
+          {
+            "roll": 10,
+            "result": "Handsome"
+          },
+          {
+            "roll": 11,
+            "result": "Large"
+          },
+          {
+            "roll": 12,
+            "result": "Pale"
+          },
+          {
+            "roll": 13,
+            "result": "Petite"
+          },
+          {
+            "roll": 14,
+            "result": "Plump"
+          },
+          {
+            "roll": 15,
+            "result": "Short"
+          },
+          {
+            "roll": 16,
+            "result": "Slender"
+          },
+          {
+            "roll": 17,
+            "result": "Statuesque"
+          },
+          {
+            "roll": 18,
+            "result": "Swarthy"
+          },
+          {
+            "roll": 19,
+            "result": "Tall"
+          },
+          {
+            "roll": 20,
+            "result": "Willowy"
+          }
+        ]
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [
+        "class.level-0-peasants"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.peasant-personality",
+      "record_type": "table",
+      "fields": {
+        "title": "Peasant Personality",
+        "entries": [
+          {
+            "roll": 1,
+            "result": "Cautious"
+          },
+          {
+            "roll": 2,
+            "result": "Caring"
+          },
+          {
+            "roll": 3,
+            "result": "Cheerful"
+          },
+          {
+            "roll": 4,
+            "result": "Cynical"
+          },
+          {
+            "roll": 5,
+            "result": "Energetic"
+          },
+          {
+            "roll": 6,
+            "result": "Formal"
+          },
+          {
+            "roll": 7,
+            "result": "Gloomy"
+          },
+          {
+            "roll": 8,
+            "result": "Heartless"
+          },
+          {
+            "roll": 9,
+            "result": "Honorable"
+          },
+          {
+            "roll": 10,
+            "result": "Irate"
+          },
+          {
+            "roll": 11,
+            "result": "Jocular"
+          },
+          {
+            "roll": 12,
+            "result": "Militaristic"
+          },
+          {
+            "roll": 13,
+            "result": "Noble"
+          },
+          {
+            "roll": 14,
+            "result": "Passionate"
+          },
+          {
+            "roll": 15,
+            "result": "Proud"
+          },
+          {
+            "roll": 16,
+            "result": "Scheming"
+          },
+          {
+            "roll": 17,
+            "result": "Serene"
+          },
+          {
+            "roll": 18,
+            "result": "Smug"
+          },
+          {
+            "roll": 19,
+            "result": "Spacey"
+          },
+          {
+            "roll": 20,
+            "result": "Unhinged"
+          }
+        ]
+      },
+      "source_pages": [
+        5
+      ],
+      "confidence": "high",
+      "references": [
+        "class.level-0-peasants"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "class.peasant-profession",
+      "record_type": "class",
+      "fields": {
+        "title": "Profession",
+        "text": "Each peasant is defined by a profession. Roll a d20 for half of the peasants and a d100 for the other half. A peasant's profession counts as a Skill in which the character has 2 points."
+      },
+      "source_pages": [
+        6
+      ],
+      "confidence": "high",
+      "references": [
+        "class.level-0-peasants",
+        "rule.small-stature",
+        "table.peasant-profession"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.peasant-profession",
+      "record_type": "table",
+      "fields": {
+        "title": "Peasant Profession",
+        "entries": [
+          {
+            "roll": 1,
+            "result": "Charcoal Burner"
+          },
+          {
+            "roll": 2,
+            "result": "Beggar"
+          },
+          {
+            "roll": 3,
+            "result": "Burgler"
+          },
+          {
+            "roll": 4,
+            "result": "Deserter"
+          },
+          {
+            "roll": 5,
+            "result": "Drunkard"
+          },
+          {
+            "roll": 6,
+            "result": "Farmer, Onion"
+          },
+          {
+            "roll": 7,
+            "result": "Farmer, Chicken"
+          },
+          {
+            "roll": 8,
+            "result": "Farmer, Pumpkin"
+          },
+          {
+            "roll": 9,
+            "result": "Poacher"
+          },
+          {
+            "roll": 10,
+            "result": "Innkeeper"
+          },
+          {
+            "roll": 11,
+            "result": "Link Boy"
+          },
+          {
+            "roll": 12,
+            "result": "Lumberjack"
+          },
+          {
+            "roll": 13,
+            "result": "Monk/Nun"
+          },
+          {
+            "roll": 14,
+            "result": "Milkmaid"
+          },
+          {
+            "roll": 15,
+            "result": "Miller"
+          },
+          {
+            "roll": 16,
+            "result": "Miner"
+          },
+          {
+            "roll": 17,
+            "result": "Peasant"
+          },
+          {
+            "roll": 18,
+            "result": "Shepherd"
+          },
+          {
+            "roll": 19,
+            "result": "Swineherd"
+          },
+          {
+            "roll": 20,
+            "result": "Tanner"
+          },
+          {
+            "roll": 21,
+            "result": "Thug"
+          },
+          {
+            "roll": 22,
+            "result": "Actor"
+          },
+          {
+            "roll": 23,
+            "result": "Alchemist"
+          },
+          {
+            "roll": 24,
+            "result": "Animal Handler"
+          },
+          {
+            "roll": 25,
+            "result": "Architect"
+          },
+          {
+            "roll": 26,
+            "result": "Apothecary"
+          },
+          {
+            "roll": 27,
+            "result": "Armorer"
+          },
+          {
+            "roll": 28,
+            "result": "Ascetic"
+          },
+          {
+            "roll": 29,
+            "result": "Astrologer"
+          },
+          {
+            "roll": 30,
+            "result": "Astronomer"
+          },
+          {
+            "roll": 31,
+            "result": "Bandit"
+          },
+          {
+            "roll": 32,
+            "result": "Baker"
+          },
+          {
+            "roll": 33,
+            "result": "Banker"
+          },
+          {
+            "roll": 34,
+            "result": "Barber-Surgeon"
+          },
+          {
+            "roll": 35,
+            "result": "Bartender"
+          },
+          {
+            "roll": 36,
+            "result": "Black Marketeer"
+          },
+          {
+            "roll": 37,
+            "result": "Blacksmith"
+          },
+          {
+            "roll": 38,
+            "result": "Brewer"
+          },
+          {
+            "roll": 39,
+            "result": "Bureaucrat"
+          },
+          {
+            "roll": 40,
+            "result": "Butcher"
+          },
+          {
+            "roll": 41,
+            "result": "Butler"
+          },
+          {
+            "roll": 42,
+            "result": "Carpenter"
+          },
+          {
+            "roll": 43,
+            "result": "Cartwright"
+          },
+          {
+            "roll": 44,
+            "result": "Chandler"
+          },
+          {
+            "roll": 45,
+            "result": "Choirboy"
+          },
+          {
+            "roll": 46,
+            "result": "Clerk"
+          },
+          {
+            "roll": 47,
+            "result": "Cobbler"
+          },
+          {
+            "roll": 48,
+            "result": "Cook"
+          },
+          {
+            "roll": 49,
+            "result": "Cooper"
+          },
+          {
+            "roll": 50,
+            "result": "Cultist"
+          },
+          {
+            "roll": 51,
+            "result": "Dancer"
+          },
+          {
+            "roll": 52,
+            "result": "Drug Dealer"
+          },
+          {
+            "roll": 53,
+            "result": "Dyer"
+          },
+          {
+            "roll": 54,
+            "result": "Engineer"
+          },
+          {
+            "roll": 55,
+            "result": "Fanatic"
+          },
+          {
+            "roll": 56,
+            "result": "Fashion Designer"
+          },
+          {
+            "roll": 57,
+            "result": "Fisher"
+          },
+          {
+            "roll": 58,
+            "result": "Fool"
+          },
+          {
+            "roll": 59,
+            "result": "Gambler"
+          },
+          {
+            "roll": 60,
+            "result": "Gardener"
+          },
+          {
+            "roll": 61,
+            "result": "Geologist"
+          },
+          {
+            "roll": 62,
+            "result": "Glassblower"
+          },
+          {
+            "roll": 63,
+            "result": "Gongfarmer"
+          },
+          {
+            "roll": 64,
+            "result": "Graverobber"
+          },
+          {
+            "roll": 65,
+            "result": "Gypsy"
+          },
+          {
+            "roll": 66,
+            "result": "Hatter"
+          },
+          {
+            "roll": 67,
+            "result": "Herald"
+          },
+          {
+            "roll": 68,
+            "result": "Herbalist"
+          },
+          {
+            "roll": 69,
+            "result": "Jeweler"
+          },
+          {
+            "roll": 70,
+            "result": "Locksmith"
+          },
+          {
+            "roll": 71,
+            "result": "Mason"
+          },
+          {
+            "roll": 72,
+            "result": "Minstrel"
+          },
+          {
+            "roll": 73,
+            "result": "Mistress/Paramour"
+          },
+          {
+            "roll": 74,
+            "result": "Moneylender"
+          },
+          {
+            "roll": 75,
+            "result": "Painter"
+          },
+          {
+            "roll": 76,
+            "result": "Perfumer"
+          },
+          {
+            "roll": 77,
+            "result": "Philosopher"
+          },
+          {
+            "roll": 78,
+            "result": "Pickpocket"
+          },
+          {
+            "roll": 79,
+            "result": "Pissprophet"
+          },
+          {
+            "roll": 80,
+            "result": "Poacher"
+          },
+          {
+            "roll": 81,
+            "result": "Poet"
+          },
+          {
+            "roll": 82,
+            "result": "Porter"
+          },
+          {
+            "roll": 83,
+            "result": "Potter"
+          },
+          {
+            "roll": 84,
+            "result": "Prostitute"
+          },
+          {
+            "roll": 85,
+            "result": "Rag and Bone Man"
+          },
+          {
+            "roll": 86,
+            "result": "Rat Catcher"
+          },
+          {
+            "roll": 87,
+            "result": "Sailor"
+          },
+          {
+            "roll": 88,
+            "result": "Scribe"
+          },
+          {
+            "roll": 89,
+            "result": "Scullion"
+          },
+          {
+            "roll": 90,
+            "result": "Sculptor"
+          },
+          {
+            "roll": 91,
+            "result": "Servant"
+          },
+          {
+            "roll": 92,
+            "result": "Slaver"
+          },
+          {
+            "roll": 93,
+            "result": "Squire"
+          },
+          {
+            "roll": 94,
+            "result": "Stay-at-Home Parent"
+          },
+          {
+            "roll": 95,
+            "result": "Storyteller"
+          },
+          {
+            "roll": 96,
+            "result": "Tailor"
+          },
+          {
+            "roll": 97,
+            "result": "Tax Collector"
+          },
+          {
+            "roll": 98,
+            "result": "Torturer"
+          },
+          {
+            "roll": 99,
+            "result": "Weaponsmith"
+          },
+          {
+            "roll": 100,
+            "result": "Wet Nurse"
+          }
+        ]
+      },
+      "source_pages": [
+        6
+      ],
+      "confidence": "high",
+      "references": [
+        "class.peasant-profession"
+      ],
+      "uncertainties": []
+    }
+  ],
+  "task_coverage": [
+    {
+      "notes": "Extracted the Level 0 Peasants class setup.",
+      "pdf_page": 5,
+      "record_ids": [
+        "class.level-0-peasants"
+      ],
+      "status": "extracted",
+      "task": "classes"
+    },
+    {
+      "notes": "Extracted ability generation, checks and saves, Small Stature, and the optional non-binary demographic suggestion.",
+      "pdf_page": 5,
+      "record_ids": [
+        "rule.level-0-ability-score-generation",
+        "rule.checks-and-saves",
+        "rule.small-stature",
+        "rule.optional-non-binary-demographic-results"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "Extracted base stats and the demographic, appearance, and personality tables.",
+      "pdf_page": 5,
+      "record_ids": [
+        "table.level-0-peasant-base-stats",
+        "table.peasant-demographic",
+        "table.peasant-appearance",
+        "table.peasant-personality"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    },
+    {
+      "notes": "Extracted the profession assignment and Skill rule as class evidence.",
+      "pdf_page": 6,
+      "record_ids": [
+        "class.peasant-profession"
+      ],
+      "status": "extracted",
+      "task": "classes"
+    },
+    {
+      "notes": "Extracted all 100 profession results.",
+      "pdf_page": 6,
+      "record_ids": [
+        "table.peasant-profession"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    }
+  ]
+}

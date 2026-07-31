@@ -1,0 +1,1157 @@
+{
+  "schema": "module-content-evidence/v3",
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda",
+  "pack_id": "content.011",
+  "task": "content",
+  "records": [
+    {
+      "id": "class.barbarian",
+      "record_type": "class",
+      "fields": {
+        "title": "Barbarian",
+        "text": "Each level of Barbarian grants +2 Loincloth HP. Advancement grants Rage at A, Firewater at B, Thews 1/day at C, and Rampage plus Thews 2/day at D."
+      },
+      "source_pages": [
+        51
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.barbarian-loincloth-hp",
+      "record_type": "effect",
+      "fields": {
+        "title": "Loincloth HP",
+        "text": "While unarmored, the Barbarian's maximum HP increases by the character's Loincloth HP; each Barbarian level grants +2 Loincloth HP."
+      },
+      "source_pages": [
+        51
+      ],
+      "confidence": "high",
+      "references": [
+        "class.barbarian"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.barbarian-rage",
+      "record_type": "effect",
+      "fields": {
+        "title": "Rage",
+        "text": "While raging, the Barbarian gains +1 Attack and +1 Damage and is immune to pain and fear. The Barbarian cannot do anything defensive, curative, or cooperative; mostly only attacks in different ways are possible, and any spell cast must be damaging."
+      },
+      "source_pages": [
+        51
+      ],
+      "confidence": "high",
+      "references": [
+        "class.barbarian"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.barbarian-firewater",
+      "record_type": "effect",
+      "fields": {
+        "title": "Firewater",
+        "text": "After spending a turn drinking hard alcohol, the Barbarian heals 1d6+1 HP and gains 1 point of Drunkenness."
+      },
+      "source_pages": [
+        51
+      ],
+      "confidence": "high",
+      "references": [
+        "class.barbarian",
+        "effect.drunkenness"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.drunkenness",
+      "record_type": "effect",
+      "fields": {
+        "title": "Drunkenness",
+        "text": "Drunkenness expands the character's critical-fumble range by an amount equal to the character's Drunkenness points."
+      },
+      "source_pages": [
+        51
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.barbarian-thews",
+      "record_type": "effect",
+      "fields": {
+        "title": "Thews",
+        "text": "For one use, either treat Strength as 10 for one round, or make one attack with a +4 bonus that deals double damage on a hit. The attack bonus stacks with Rage."
+      },
+      "source_pages": [
+        51
+      ],
+      "confidence": "high",
+      "references": [
+        "class.barbarian",
+        "effect.barbarian-rage"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.barbarian-rampage",
+      "record_type": "effect",
+      "fields": {
+        "title": "Rampage",
+        "text": "The Barbarian's Rage bonuses improve to +2 Attack and +2 Damage."
+      },
+      "source_pages": [
+        51
+      ],
+      "confidence": "high",
+      "references": [
+        "class.barbarian",
+        "effect.barbarian-rage"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.barbarian-rage-use",
+      "record_type": "rule",
+      "fields": {
+        "title": "Entering and Ending Rage",
+        "text": "A Barbarian may enter Rage at any time. Rage ends when all enemies are destroyed or driven off. At the end of each turn, the Barbarian may attempt to end Rage early with a 2-in-6 chance of success."
+      },
+      "source_pages": [
+        51
+      ],
+      "confidence": "high",
+      "references": [
+        "class.barbarian",
+        "effect.barbarian-rage"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.barbarian-firewater-use",
+      "record_type": "rule",
+      "fields": {
+        "title": "Using Firewater",
+        "text": "Using Firewater takes one turn of drinking hard alcohol, then restores 1d6+1 HP and adds 1 point of Drunkenness."
+      },
+      "source_pages": [
+        51
+      ],
+      "confidence": "high",
+      "references": [
+        "class.barbarian",
+        "effect.barbarian-firewater",
+        "effect.drunkenness"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.barbarian-thews-use",
+      "record_type": "rule",
+      "fields": {
+        "title": "Using Thews",
+        "text": "At class rank C, Thews is usable once per day; at D, it is usable twice per day. Each use chooses either Strength 10 for one round or one +4 attack that deals double damage on a hit; the +4 stacks with Rage."
+      },
+      "source_pages": [
+        51
+      ],
+      "confidence": "high",
+      "references": [
+        "class.barbarian",
+        "effect.barbarian-thews",
+        "effect.barbarian-rage"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "class.fighter",
+      "record_type": "class",
+      "fields": {
+        "title": "Fighter",
+        "text": "Each level of Fighter grants +1 Attack. Advancement grants Stand Tough at A, Tricky at B, Very Tricky at C, and Double Attack at D."
+      },
+      "source_pages": [
+        52
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.fighter-stand-tough",
+      "record_type": "effect",
+      "fields": {
+        "title": "Stand Tough",
+        "text": "Sacrificing a worn piece of armor reduces incoming damage by 1d6; sacrificing a held shield reduces incoming damage by 1d12."
+      },
+      "source_pages": [
+        52
+      ],
+      "confidence": "high",
+      "references": [
+        "class.fighter"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.fighter-tricky",
+      "record_type": "effect",
+      "fields": {
+        "title": "Tricky",
+        "text": "A natural 20 attack roll deals double damage and allows a free combat maneuver. A natural 19 deals regular damage and allows a free combat maneuver."
+      },
+      "source_pages": [
+        52
+      ],
+      "confidence": "high",
+      "references": [
+        "class.fighter"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.fighter-very-tricky",
+      "record_type": "effect",
+      "fields": {
+        "title": "Very Tricky",
+        "text": "Tricky expands to attack rolls of 18 and 19. Free combat maneuvers triggered by an 18, 19, or 20 gain +4 to the attempt."
+      },
+      "source_pages": [
+        52
+      ],
+      "confidence": "high",
+      "references": [
+        "class.fighter",
+        "effect.fighter-tricky"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.fighter-double-attack",
+      "record_type": "effect",
+      "fields": {
+        "title": "Double Attack",
+        "text": "The Fighter can attack twice per turn on the Fighter's turn."
+      },
+      "source_pages": [
+        52
+      ],
+      "confidence": "high",
+      "references": [
+        "class.fighter"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.fighter-stand-tough-use",
+      "record_type": "rule",
+      "fields": {
+        "title": "Using Stand Tough",
+        "text": "After incoming damage, the Fighter may sacrifice either worn armor for 1d6 damage reduction or a held shield for 1d12 damage reduction. Stand Tough can be used once per combat."
+      },
+      "source_pages": [
+        52
+      ],
+      "confidence": "high",
+      "references": [
+        "class.fighter",
+        "effect.fighter-stand-tough"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.fighter-tricky-attack-rolls",
+      "record_type": "rule",
+      "fields": {
+        "title": "Tricky Attack-Roll Results",
+        "text": "On a natural 20 attack roll, resolve double damage and a free combat maneuver; on a natural 19, resolve regular damage and a free combat maneuver."
+      },
+      "source_pages": [
+        52
+      ],
+      "confidence": "high",
+      "references": [
+        "class.fighter",
+        "effect.fighter-tricky"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.fighter-very-tricky-maneuvers",
+      "record_type": "rule",
+      "fields": {
+        "title": "Very Tricky Combat Maneuvers",
+        "text": "Very Tricky causes natural 18 attack rolls to trigger Tricky as well. A free combat maneuver triggered by a natural 18, 19, or 20 receives +4 to its attempt."
+      },
+      "source_pages": [
+        52
+      ],
+      "confidence": "high",
+      "references": [
+        "class.fighter",
+        "effect.fighter-tricky",
+        "effect.fighter-very-tricky"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.fighter-double-attack-turn",
+      "record_type": "rule",
+      "fields": {
+        "title": "Double Attack Turn",
+        "text": "Double Attack permits two attacks per turn, made on the Fighter's own turn."
+      },
+      "source_pages": [
+        52
+      ],
+      "confidence": "high",
+      "references": [
+        "class.fighter",
+        "effect.fighter-double-attack"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "class.thief",
+      "record_type": "class",
+      "fields": {
+        "title": "Thief",
+        "text": "Each level of Thief grants +1 Mastery and +1 Stealth. Advancement grants “Luck” at A, Opportunist at B, Preparation at C, and Snag at D."
+      },
+      "source_pages": [
+        53
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.thief-luck",
+      "record_type": "effect",
+      "fields": {
+        "title": "“Luck”",
+        "text": "The Thief may spend Mastery points to benefit the Thief instead of being forced to help others."
+      },
+      "source_pages": [
+        53
+      ],
+      "confidence": "high",
+      "references": [
+        "class.thief"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.thief-opportunist",
+      "record_type": "effect",
+      "fields": {
+        "title": "Opportunist",
+        "text": "When the Thief has a situational bonus on an attack roll, such as surprise or elevation, the attack deals an additional +1d6 damage."
+      },
+      "source_pages": [
+        53
+      ],
+      "confidence": "high",
+      "references": [
+        "class.thief"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.thief-preparation",
+      "record_type": "effect",
+      "fields": {
+        "title": "Preparation",
+        "text": "In town, the Thief may obtain an Unmarked Package for 10s from an unspecified black market or shady alley. When opened or removed from the Thief's possession, it becomes a declared mundane item worth no more than 10s, representing prior foresight and effectively delivering the needed tool to the current location."
+      },
+      "source_pages": [
+        53
+      ],
+      "confidence": "high",
+      "references": [
+        "class.thief"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.thief-snag",
+      "record_type": "effect",
+      "fields": {
+        "title": "Snag",
+        "text": "After the Thief attacks an opponent, after an opponent attacks the Thief, or when the Thief walks past someone out of combat, the Thief may attempt to grab one eligible item from that target with a 2-in-6 chance of success."
+      },
+      "source_pages": [
+        53
+      ],
+      "confidence": "high",
+      "references": [
+        "class.thief"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.thief-luck-mastery",
+      "record_type": "rule",
+      "fields": {
+        "title": "Spending Mastery with “Luck”",
+        "text": "“Luck” allows Mastery points to benefit the Thief personally instead of requiring that they help someone else."
+      },
+      "source_pages": [
+        53
+      ],
+      "confidence": "high",
+      "references": [
+        "class.thief",
+        "effect.thief-luck"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.thief-opportunist-trigger",
+      "record_type": "rule",
+      "fields": {
+        "title": "Opportunist Trigger",
+        "text": "Any situational bonus on the Thief's attack roll, including surprise or elevation, adds +1d6 damage."
+      },
+      "source_pages": [
+        53
+      ],
+      "confidence": "high",
+      "references": [
+        "class.thief",
+        "effect.thief-opportunist"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.thief-unmarked-package",
+      "record_type": "rule",
+      "fields": {
+        "title": "Unmarked Package Declaration",
+        "text": "Preparation is used in town and costs 10s. The package's contents must be declared when the package is opened or leaves the Thief's possession, and the contents must be one mundane item worth no more than 10s."
+      },
+      "source_pages": [
+        53
+      ],
+      "confidence": "high",
+      "references": [
+        "class.thief",
+        "effect.thief-preparation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.thief-snag-eligible-items",
+      "record_type": "rule",
+      "fields": {
+        "title": "Snag Item Eligibility",
+        "text": "Snag cannot take held or tightly worn items, such as a sword or armor. It can take other items, including rings and objects in pockets or backpacks. If no item is specified, steal an item at random."
+      },
+      "source_pages": [
+        53
+      ],
+      "confidence": "high",
+      "references": [
+        "class.thief",
+        "effect.thief-snag"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.thief-snag-awareness",
+      "record_type": "rule",
+      "fields": {
+        "title": "Snag Awareness and Repeated Attempts",
+        "text": "Whether Snag succeeds or fails, the target is aware of the attempt. Out of combat, Snag may be attempted while walking past someone. After the first out-of-combat attempt against the same target, each additional attempt has a 50% chance of being noticed."
+      },
+      "source_pages": [
+        53
+      ],
+      "confidence": "high",
+      "references": [
+        "class.thief",
+        "effect.thief-snag"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "class.level-ups",
+      "record_type": "class",
+      "fields": {
+        "title": "Level Ups",
+        "text": "The dungeon contains 8 Treasures and Milestones used for advancement. As alternatives, level everyone when they escape the dungeon, or at the halfway point when they open 21 HEAVY DOOR."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [
+        "table.treasures-and-milestones"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.townsfolk-traditional-entry",
+      "record_type": "actor",
+      "fields": {
+        "title": "Townsfolk",
+        "role": "In the traditional Level 1 setup, they lock the characters inside through the iron door in 5 LANDING to keep the beast from escaping, then return in exactly 12 hours to open the door.",
+        "goals": [
+          "Keep the beast from escaping."
+        ],
+        "behavior": [
+          "Return in exactly 12 hours to open the iron door in 5 LANDING."
+        ],
+        "situation_references": [
+          "situation.traditional-level-one-lock-in"
+        ]
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.traditional-level-one-lock-in"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.traditional-level-one-lock-in",
+      "record_type": "situation",
+      "fields": {
+        "title": "Traditional Level 1 Lock-In",
+        "perceived": "Equipped Level 1 characters enter the dungeon through the iron door in 5 LANDING and are locked inside until the townsfolk return.",
+        "activation": {
+          "type": "chosen",
+          "condition": "The GM uses the more traditional variant for equipped Level 1 characters."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "participants": [
+          {
+            "actor_id": "actor.townsfolk-traditional-entry",
+            "role": "Lock the entrance to contain the beast and return to reopen it."
+          }
+        ],
+        "stakes": [
+          "The characters are locked in the dungeon until the entrance is reopened.",
+          "The townsfolk are trying to prevent the beast from escaping."
+        ],
+        "outcomes": [
+          "The townsfolk return and open the door after exactly 12 hours."
+        ],
+        "completion": [
+          "Exactly 12 hours pass and the townsfolk return to open the iron door."
+        ],
+        "procedure_references": [
+          "procedure.traditional-level-one-entry"
+        ]
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.townsfolk-traditional-entry",
+        "procedure.traditional-level-one-entry"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.short-dungeon-heavy-door-exit",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Short Dungeon Exit at 21 HEAVY DOOR",
+        "trigger": "When preparing a shorter dungeon for a one-shot.",
+        "steps": [
+          "Use 21 HEAVY DOOR as the dungeon exit."
+        ]
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.start-dungeon-at-heavy-door",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Start at 21 HEAVY DOOR",
+        "trigger": "When omitting rooms 1–20.",
+        "steps": [
+          "Ignore rooms 1–20.",
+          "Use 21 HEAVY DOOR as the first room of the dungeon."
+        ]
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.reverse-dungeon-from-cistern",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Run the Dungeon Backwards from 44 CISTERN",
+        "trigger": "When preparing the dungeon to be played backwards.",
+        "steps": [
+          "Have the characters enter through 44 CISTERN, which is at the bottom of a well.",
+          "Remove the underwater tunnel and the wall from 44 CISTERN so section 2 is accessible.",
+          "Add an ooze to 14 MOLD.",
+          "Add a candle golem to 5 LANDING."
+        ]
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [
+        "knowledge.cistern-at-bottom-of-well"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.traditional-level-one-entry",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Traditional Level 1 Entrance",
+        "trigger": "When running a more traditional game with equipped Level 1 characters.",
+        "steps": [
+          "Have the characters enter through the iron door in 5 LANDING.",
+          "The townsfolk lock the door to keep the beast from escaping.",
+          "The townsfolk return to open the door in exactly 12 hours; the characters remain locked in until then."
+        ]
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.townsfolk-traditional-entry",
+        "situation.traditional-level-one-lock-in"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.cistern-at-bottom-of-well",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "44 CISTERN Well Access",
+        "text": "44 CISTERN is at the bottom of a well and can be used as an entrance when running the dungeon backwards."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure.reverse-dungeon-from-cistern"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.heavy-door-halfway-point",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "21 HEAVY DOOR as the Halfway Point",
+        "text": "Opening 21 HEAVY DOOR is treated as the dungeon's halfway point for the suggested alternate level-up timing."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [
+        "rule.alternate-level-up-timing"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.ruby-ring-of-wisdom",
+      "record_type": "item",
+      "fields": {
+        "title": "Ruby Ring of Wisdom",
+        "text": "A Treasure located in 8 PIT and counted among the dungeon's 8 Treasures and Milestones."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.jewelled-crab-bracer",
+      "record_type": "item",
+      "fields": {
+        "title": "Jewelled Crab Bracer",
+        "text": "A Treasure located in 19 PRIESTS and counted among the dungeon's 8 Treasures and Milestones."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.crysmere-blade-of-charcorra",
+      "record_type": "item",
+      "fields": {
+        "title": "Crysmere Blade of Charcorra",
+        "text": "A Treasure located in 27 BALLISTA and counted among the dungeon's 8 Treasures and Milestones."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.abacus-of-vandoh",
+      "record_type": "item",
+      "fields": {
+        "title": "Abacus of Vandoh",
+        "text": "A Treasure located in 39 STONE EGG and counted among the dungeon's 8 Treasures and Milestones."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.hand-mirror-of-lies",
+      "record_type": "item",
+      "fields": {
+        "title": "Hand Mirror of Lies",
+        "text": "A Treasure located in 42 SUNKEN GALLERY and counted among the dungeon's 8 Treasures and Milestones."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.torch",
+      "record_type": "item",
+      "fields": {
+        "title": "Torch",
+        "text": "Key light sources include 1 torch in room 4, 1.5 torches in room 5, 1 torch in room 10, and 1 torch in room 14."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.oil",
+      "record_type": "item",
+      "fields": {
+        "title": "Oil",
+        "text": "Key light sources include 1 oil in room 5 and 2 oil each in rooms 24, 30, and 45."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.candle",
+      "record_type": "item",
+      "fields": {
+        "title": "Candle",
+        "text": "Room 17 contains 1 candle as a key light source."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.liquid-light",
+      "record_type": "item",
+      "fields": {
+        "title": "Liquid Light",
+        "text": "Room 20 contains Liquid Light as a key light source."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "item.rope",
+      "record_type": "item",
+      "fields": {
+        "title": "Rope",
+        "text": "Rooms 18A, 31, and 40 each contain 30' rope."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.treasure-milestone-leveling",
+      "record_type": "rule",
+      "fields": {
+        "title": "Treasure and Milestone Level Ups",
+        "text": "The dungeon presents 8 advancement objectives: three Milestones and five Treasures. The listed objectives are sitting on the throne in 7 THRONE; finding the Ruby Ring of Wisdom in 8 PIT; finding the Jewelled Crab Bracer in 19 PRIESTS; removing the bar from 21 HEAVY DOOR or killing the Lamb; finding the Crysmere Blade of Charcorra in 27 BALLISTA; finding the Abacus of Vandoh in 39 STONE EGG; finding the Hand Mirror of Lies in 42 SUNKEN GALLERY; and escaping through 46B TOWER."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [
+        "class.level-ups",
+        "table.treasures-and-milestones"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.alternate-level-up-timing",
+      "record_type": "rule",
+      "fields": {
+        "title": "Alternate Level-Up Timing",
+        "text": "Instead of the Treasure/Milestone system, level everyone when they escape the dungeon. Because escape may take multiple sessions, the GM may instead level everyone at the halfway point when they open 21 HEAVY DOOR."
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [
+        "class.level-ups",
+        "knowledge.heavy-door-halfway-point"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.treasures-and-milestones",
+      "record_type": "table",
+      "fields": {
+        "title": "Treasures and Milestones",
+        "entries": [
+          {
+            "type": "Milestone",
+            "entry": "Sitting on the throne in 7 THRONE."
+          },
+          {
+            "type": "Treasure",
+            "entry": "The Ruby Ring of Wisdom in 8 PIT."
+          },
+          {
+            "type": "Treasure",
+            "entry": "The Jewelled Crab Bracer in 19 PRIESTS."
+          },
+          {
+            "type": "Milestone",
+            "entry": "Removing the bar from 21 HEAVY DOOR (or killing the Lamb)."
+          },
+          {
+            "type": "Treasure",
+            "entry": "The Crysmere Blade of Charcorra in 27 BALLISTA."
+          },
+          {
+            "type": "Treasure",
+            "entry": "The Abacus of Vandoh in 39 STONE EGG."
+          },
+          {
+            "type": "Treasure",
+            "entry": "The Hand Mirror of Lies in 42 SUNKEN GALLERY."
+          },
+          {
+            "type": "Milestone",
+            "entry": "Escaping out 46B TOWER."
+          }
+        ]
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [
+        "item.ruby-ring-of-wisdom",
+        "item.jewelled-crab-bracer",
+        "item.crysmere-blade-of-charcorra",
+        "item.abacus-of-vandoh",
+        "item.hand-mirror-of-lies"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.key-items-light-sources",
+      "record_type": "table",
+      "fields": {
+        "title": "Key Items — Light Sources",
+        "entries": [
+          {
+            "room": "4",
+            "light_source": "1 torch"
+          },
+          {
+            "room": "5",
+            "light_source": "1.5 torches + 1 oil"
+          },
+          {
+            "room": "10",
+            "light_source": "1 torch"
+          },
+          {
+            "room": "14",
+            "light_source": "1 torch"
+          },
+          {
+            "room": "17",
+            "light_source": "1 candle"
+          },
+          {
+            "room": "20",
+            "light_source": "Liquid Light"
+          },
+          {
+            "room": "24",
+            "light_source": "2 oil"
+          },
+          {
+            "room": "30",
+            "light_source": "2 oil"
+          },
+          {
+            "room": "45",
+            "light_source": "2 oil"
+          }
+        ]
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [
+        "item.torch",
+        "item.oil",
+        "item.candle",
+        "item.liquid-light"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.key-items-rope",
+      "record_type": "table",
+      "fields": {
+        "title": "Key Items — Rope",
+        "entries": [
+          {
+            "room": "18A",
+            "rope": "30' rope"
+          },
+          {
+            "room": "31",
+            "rope": "30' rope"
+          },
+          {
+            "room": "40",
+            "rope": "30' rope"
+          }
+        ]
+      },
+      "source_pages": [
+        54
+      ],
+      "confidence": "high",
+      "references": [
+        "item.rope"
+      ],
+      "uncertainties": []
+    }
+  ],
+  "task_coverage": [
+    {
+      "notes": "",
+      "pdf_page": 51,
+      "record_ids": [
+        "class.barbarian"
+      ],
+      "status": "extracted",
+      "task": "classes"
+    },
+    {
+      "notes": "",
+      "pdf_page": 51,
+      "record_ids": [
+        "effect.barbarian-loincloth-hp",
+        "effect.barbarian-rage",
+        "effect.barbarian-firewater",
+        "effect.drunkenness",
+        "effect.barbarian-thews",
+        "effect.barbarian-rampage"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 51,
+      "record_ids": [
+        "rule.barbarian-rage-use",
+        "rule.barbarian-firewater-use",
+        "rule.barbarian-thews-use"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 52,
+      "record_ids": [
+        "class.fighter"
+      ],
+      "status": "extracted",
+      "task": "classes"
+    },
+    {
+      "notes": "",
+      "pdf_page": 52,
+      "record_ids": [
+        "effect.fighter-stand-tough",
+        "effect.fighter-tricky",
+        "effect.fighter-very-tricky",
+        "effect.fighter-double-attack"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 52,
+      "record_ids": [
+        "rule.fighter-stand-tough-use",
+        "rule.fighter-tricky-attack-rolls",
+        "rule.fighter-very-tricky-maneuvers",
+        "rule.fighter-double-attack-turn"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 53,
+      "record_ids": [
+        "class.thief"
+      ],
+      "status": "extracted",
+      "task": "classes"
+    },
+    {
+      "notes": "",
+      "pdf_page": 53,
+      "record_ids": [
+        "effect.thief-luck",
+        "effect.thief-opportunist",
+        "effect.thief-preparation",
+        "effect.thief-snag"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "",
+      "pdf_page": 53,
+      "record_ids": [
+        "rule.thief-luck-mastery",
+        "rule.thief-opportunist-trigger",
+        "rule.thief-unmarked-package",
+        "rule.thief-snag-eligible-items",
+        "rule.thief-snag-awareness"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 54,
+      "record_ids": [
+        "actor.townsfolk-traditional-entry",
+        "situation.traditional-level-one-lock-in",
+        "procedure.short-dungeon-heavy-door-exit",
+        "procedure.start-dungeon-at-heavy-door",
+        "procedure.reverse-dungeon-from-cistern",
+        "procedure.traditional-level-one-entry",
+        "knowledge.cistern-at-bottom-of-well",
+        "knowledge.heavy-door-halfway-point"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "",
+      "pdf_page": 54,
+      "record_ids": [
+        "class.level-ups"
+      ],
+      "status": "extracted",
+      "task": "classes"
+    },
+    {
+      "notes": "",
+      "pdf_page": 54,
+      "record_ids": [
+        "item.ruby-ring-of-wisdom",
+        "item.jewelled-crab-bracer",
+        "item.crysmere-blade-of-charcorra",
+        "item.abacus-of-vandoh",
+        "item.hand-mirror-of-lies",
+        "item.torch",
+        "item.oil",
+        "item.candle",
+        "item.liquid-light",
+        "item.rope"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "",
+      "pdf_page": 54,
+      "record_ids": [
+        "rule.treasure-milestone-leveling",
+        "rule.alternate-level-up-timing"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "",
+      "pdf_page": 54,
+      "record_ids": [
+        "table.treasures-and-milestones",
+        "table.key-items-light-sources",
+        "table.key-items-rope"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    }
+  ]
+}

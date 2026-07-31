@@ -1,0 +1,379 @@
+{
+  "schema": "module-content-evidence/v3",
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda",
+  "pack_id": "content.001",
+  "task": "content",
+  "records": [
+    {
+      "id": "class.level-0-peasants",
+      "record_type": "class",
+      "fields": {
+        "title": "Level 0 Peasants",
+        "text": "In this introductory adventure, every player controls multiple level 0 peasants. They have no special abilities and die in a single hit; the multiple peasants give players \"extra lives\" while they learn the system."
+      },
+      "source_pages": [
+        2
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.glog-modular-ruleset",
+      "record_type": "rule",
+      "fields": {
+        "title": "The GLOG Is Modular",
+        "text": "Treat the GLOG as a philosophy rather than a single unified ruleset: take the rules you like, discard the rules you do not, and assemble the game suited to your group from many sources."
+      },
+      "source_pages": [
+        2
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.glog-dm-authority",
+      "record_type": "rule",
+      "fields": {
+        "title": "DM Authority over the Rulebook",
+        "text": "The rulebook is never a higher authority than the DM. The \"True GLOG\" is the version the group builds for itself."
+      },
+      "source_pages": [
+        2
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.level-zero-no-starting-tools",
+      "record_type": "rule",
+      "fields": {
+        "title": "No Initial Light Sources or Necessary Tools",
+        "text": "Level 0 peasants are not initially provided with light sources or necessary tools, allowing mechanics, including the darkness rules, to be introduced one at a time."
+      },
+      "source_pages": [
+        2
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.player-plan-or-avoid-battles",
+      "record_type": "rule",
+      "fields": {
+        "title": "Plan, Avoid, or Flee Battles",
+        "text": "Players should spend more time choosing and planning battles than fighting them. Running away is often the right choice, and the most reliable ways to kill a monster do not rely on attack rolls."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.player-social-play-without-stats",
+      "record_type": "rule",
+      "fields": {
+        "title": "Social Play without Social Stats",
+        "text": "There are no social stats or abilities. To be effective, players must learn what creatures want, usually by asking them."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.player-optional-secrets-improve-survival",
+      "record_type": "rule",
+      "fields": {
+        "title": "Optional Secrets Improve Survival",
+        "text": "The adventure contains over a dozen secret doors and hidden treasures, ranging from obvious to cryptic. None are essential, but all improve the party's odds of survival."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.player-information-as-resource",
+      "record_type": "rule",
+      "fields": {
+        "title": "Information Is a Resource",
+        "text": "Information is used to find secrets, solve puzzles, and sidestep combats. Players acquire more information by asking questions about the environment and should try to ask a question in every room."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.player-patterns-and-mundane-tools",
+      "record_type": "rule",
+      "fields": {
+        "title": "Solve Puzzles with Patterns and Mundane Objects",
+        "text": "Many puzzles are solved by recognizing patterns or using mundane objects cleverly. Many have three or more solutions, and many problems can be solved with enough rope."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.player-use-dungeon-interconnections",
+      "record_type": "rule",
+      "fields": {
+        "title": "Use the Dungeon's Interconnections",
+        "text": "The dungeon's rooms are tightly interlinked through backtracking, loops, and mapping. A solution to a puzzle or combat may be found in a later room, and an encounter need not be handled in the room where it occurs."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.player-balance-time-and-investigation",
+      "record_type": "rule",
+      "fields": {
+        "title": "Balance Time Pressure against Investigation",
+        "text": "Time is the enemy: torches burn down, the party has no food or water, and every 30 minutes carries a risk of a Random Encounter. Survival also requires taking time to investigate suspicious phenomena, so players must balance these competing needs."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dm-treat-dungeon-as-whole-obstacle",
+      "record_type": "rule",
+      "fields": {
+        "title": "Treat the Whole Dungeon as the Obstacle",
+        "text": "Do not treat the dungeon as isolated rooms that each contain an encounter that must be resolved before continuing. The obstacle is the entire dungeon simultaneously, not only the current room."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dm-give-more-information",
+      "record_type": "rule",
+      "fields": {
+        "title": "Give More Information When in Doubt",
+        "text": "When in doubt, give the players more information rather than less."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dm-frame-meaningful-options",
+      "record_type": "rule",
+      "fields": {
+        "title": "Frame Multiple Viable Options",
+        "text": "Engagement increases when players receive meaningful decisions. Frame situations so the players have multiple viable options."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dm-telegraph-danger-and-provide-options",
+      "record_type": "rule",
+      "fields": {
+        "title": "Telegraph Danger and Provide Options",
+        "text": "Horrible threats must leave players either an option to choose another path or options to recover. Presenting a sagging floor and asking whether they enter is an option; an unannounced lethal hazard resolved only by a Dexterity check is mere chance and offers no meaningful choice."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dm-let-choices-and-luck-matter",
+      "record_type": "rule",
+      "fields": {
+        "title": "Let Choices and Luck Matter",
+        "text": "If a player makes a mistake or gets unlucky, allow the character to die rather than rescuing them and cheapening their choices. Conversely, allow lucky outcomes and good schemes that appear to \"cheat\" the game."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dm-allow-combat-bypass",
+      "record_type": "rule",
+      "fields": {
+        "title": "Allow Combat to Be Skipped or Trivialized",
+        "text": "If players find a way to skip or trivialize a combat, allow it. Combats are obstacles that may be manipulated as well as brute-forced, not mandatory encounters that must be consumed routinely."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dm-do-not-impose-morality",
+      "record_type": "rule",
+      "fields": {
+        "title": "Do Not Impose Morality",
+        "text": "Do not impose the DM's morality on the players. Their actions have consequences, but conscientious or humanistic behavior must remain a player-driven choice, even if they choose to be murderhobos."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dm-keep-time-measures",
+      "record_type": "rule",
+      "fields": {
+        "title": "Keep Time Measures",
+        "text": "Track time. Actions such as digging through bone piles may cost only time; searching for useful items therefore spends torchlight and accepts the risk of random encounters."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dm-never-fudge-or-retune-mid-encounter",
+      "record_type": "rule",
+      "fields": {
+        "title": "Never Fudge or Retune Mid-Encounter",
+        "text": "Never fudge the dice or alter a creature or trap during an encounter. If combat is too difficult, the PCs can flee using Pursuit; if it is too easy, wrap it up quickly and move on using Morale."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dm-do-not-hint-missed-secrets",
+      "record_type": "rule",
+      "fields": {
+        "title": "Do Not Hint at Missed Secret Areas",
+        "text": "Players will not find every secret area; resist the temptation to drop hints."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dm-reward-attentive-investigative-play",
+      "record_type": "rule",
+      "fields": {
+        "title": "Reward Attentive and Investigative Play",
+        "text": "Good play is not defined by strong character builds or thorough rules knowledge. It comes from being attentive, investigative, meticulous, scheming, and cowardly, except when a situation demands suicidal boldness."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "rule.dm-never-reveal-missed-content-after-session",
+      "record_type": "rule",
+      "fields": {
+        "title": "Do Not Reveal Missed Content after the Session",
+        "text": "After the session, never tell players about what they missed. The dungeon's secrets must be earned through play or remain undiscovered."
+      },
+      "source_pages": [
+        3
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    }
+  ],
+  "task_coverage": [
+    {
+      "notes": "Extracted the Level 0 Peasants class and its explicit mechanics.",
+      "pdf_page": 2,
+      "record_ids": [
+        "class.level-0-peasants"
+      ],
+      "status": "extracted",
+      "task": "classes"
+    },
+    {
+      "notes": "Extracted the GLOG's modular authority principles and the explicit lack of initial light sources and necessary tools.",
+      "pdf_page": 2,
+      "record_ids": [
+        "rule.glog-modular-ruleset",
+        "rule.glog-dm-authority",
+        "rule.level-zero-no-starting-tools"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    },
+    {
+      "notes": "Extracted every player-facing and DM-facing rule or play principle stated on the page.",
+      "pdf_page": 3,
+      "record_ids": [
+        "rule.player-plan-or-avoid-battles",
+        "rule.player-social-play-without-stats",
+        "rule.player-optional-secrets-improve-survival",
+        "rule.player-information-as-resource",
+        "rule.player-patterns-and-mundane-tools",
+        "rule.player-use-dungeon-interconnections",
+        "rule.player-balance-time-and-investigation",
+        "rule.dm-treat-dungeon-as-whole-obstacle",
+        "rule.dm-give-more-information",
+        "rule.dm-frame-meaningful-options",
+        "rule.dm-telegraph-danger-and-provide-options",
+        "rule.dm-let-choices-and-luck-matter",
+        "rule.dm-allow-combat-bypass",
+        "rule.dm-do-not-impose-morality",
+        "rule.dm-keep-time-measures",
+        "rule.dm-never-fudge-or-retune-mid-encounter",
+        "rule.dm-do-not-hint-missed-secrets",
+        "rule.dm-reward-attentive-investigative-play",
+        "rule.dm-never-reveal-missed-content-after-session"
+      ],
+      "status": "extracted",
+      "task": "rules"
+    }
+  ]
+}

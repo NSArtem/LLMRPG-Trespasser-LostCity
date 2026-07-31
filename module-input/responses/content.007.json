@@ -1,0 +1,3770 @@
+{
+  "pack_id": "content.007",
+  "records": [
+    {
+      "id": "table.active-encounters-second-floor",
+      "record_type": "table",
+      "fields": {
+        "title": "Active Encounters",
+        "entries": [
+          {
+            "roll": "1-2",
+            "result": "Unique. Jasper and Luntz (if alive)."
+          },
+          {
+            "roll": "3-4",
+            "result": "Unique. Gerdith and Molina (if alive)."
+          },
+          {
+            "roll": "5-6",
+            "result": "1d2 Lantern Worms. A single lantern worm, glossy like black rubber. You'll see its blinding searchlight long before you see the worm. 15' long."
+          }
+        ]
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.jasper",
+        "actor.luntz",
+        "actor.gerdith",
+        "actor.molina",
+        "actor.lantern-worm"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.passive-encounters-second-floor",
+      "record_type": "table",
+      "fields": {
+        "title": "Passive Encounters",
+        "entries": [
+          {
+            "roll": "1-2",
+            "result": "Unique. In an adjacent room, Jasper and Luntz preparing an earthworm as if it were a feast."
+          },
+          {
+            "roll": "3-4",
+            "result": "Unique. In an adjacent room, Gerdith and Malenna discussing advantages between cavalry vs archers vs infantry."
+          },
+          {
+            "roll": "5-6",
+            "result": "A coiled up lantern worm. Looks like a huge, taught, black rubber hose. Quiescent until touched or light is brought near."
+          }
+        ]
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.jasper",
+        "actor.luntz",
+        "actor.gerdith",
+        "actor.malenna",
+        "actor.lantern-worm"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "table.indirect-encounters-second-floor",
+      "record_type": "table",
+      "fields": {
+        "title": "Indirect Encounters",
+        "entries": [
+          {
+            "roll": "1-2",
+            "result": "Distant arguing (unless all ghouls dead)."
+          },
+          {
+            "roll": "3-4",
+            "result": "Gnawing on bones (unless all ghouls dead)."
+          },
+          {
+            "roll": "5-6",
+            "result": "Unique. Wetspot on the wall turns into a searchlight. If you do not avoid it, a lantern worm emerges."
+          }
+        ]
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.lantern-worm"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.lantern-worm",
+      "record_type": "actor",
+      "fields": {
+        "title": "Lantern Worm",
+        "appearance": "A 15' long creature, glossy like black rubber; when coiled it resembles a huge taut black rubber hose, and its searchlight is visible before the worm.",
+        "role": "A hungry roaming or quiescent dungeon predator that seeks and consumes light sources.",
+        "behavior": [
+          "A coiled lantern worm is quiescent until touched or until light is brought near.",
+          "It retreats after it has eaten all available light sources."
+        ],
+        "capabilities": [
+          "Lvl 4; Def leather; Slam 1d6; Crawl slow; Int 2; Dis hungry.",
+          "Eat Light: a targeted light source explodes and is destroyed; the worm eats the light and becomes brighter. The holder takes 1d6 fire damage unless a Wis Save negates it and is automatically blinded; everyone else is blinded on a failed Wis Save. A Con check each turn ends the blindness.",
+          "Lantern: sheds light in a narrow 60' cone. Whoever it looks at gets -4 to hit, also applying to adjacent people.",
+          "Stonemeld: can become a liquid and flow through stone, appearing as a wet dark stain."
+        ]
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.lantern-worm-eat-light",
+        "effect.lantern-worm-lantern",
+        "effect.lantern-worm-stonemeld"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.jasper",
+      "record_type": "actor",
+      "fields": {
+        "title": "Jasper",
+        "role": "One of the five trapped second-floor ghouls; he wanders with Luntz while pretending to be a gentleman and is associated with theater and politics.",
+        "goals": [
+          "Satisfy his hunger for human meat.",
+          "Gain the party's respect through a better performance than his own show in 29 STAGE."
+        ],
+        "behavior": [
+          "Wanders the halls with Luntz, pretending they are gentlemen returning from fine dining and entertainment.",
+          "At 21 HEAVY DOORS, speaks to the door as though it were a party host withholding the best brandy.",
+          "When hungry, openly talks about hunger and performs friendship unconvincingly."
+        ],
+        "capabilities": [
+          "Lvl 2; Def leather; Claw 1d6+agony; Move as human; Int 5; Str 7; Dis hungry.",
+          "Skilled in theater and politics."
+        ],
+        "reactions": [
+          {
+            "stimulus": "The party fumbles with 21 HEAVY DOORS.",
+            "response": "He and Luntz feign friendship while intending to eat the party at the first opportunity."
+          },
+          {
+            "stimulus": "The party offers dead bodies elsewhere as food.",
+            "response": "He and Luntz pretend to accept, then circle back and attack shortly afterward."
+          },
+          {
+            "stimulus": "The party leaves and later returns.",
+            "response": "He and Luntz are wandering the halls and can appear on the Random Encounter table."
+          }
+        ],
+        "hidden": [
+          "His friendly overture at 21 HEAVY DOORS is a poor deception intended to create an opportunity to eat the party."
+        ],
+        "location_references": [
+          "location.21-heavy-doors",
+          "location.29-stage"
+        ],
+        "situation_references": [
+          "situation.ghoul-parley-at-heavy-doors",
+          "situation.ghoul-favor-negotiation"
+        ]
+      },
+      "source_pages": [
+        28,
+        29,
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "location.21-heavy-doors",
+        "location.29-stage",
+        "situation.ghoul-parley-at-heavy-doors",
+        "situation.ghoul-favor-negotiation",
+        "effect.agony"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.luntz",
+      "record_type": "actor",
+      "fields": {
+        "title": "Luntz",
+        "role": "One of the five trapped second-floor ghouls; he wanders with Jasper while pretending to be a gentleman and is associated with cooking, butchery, and lewd jokes.",
+        "goals": [
+          "Satisfy his hunger for human meat."
+        ],
+        "behavior": [
+          "Wanders the halls with Jasper, pretending they are gentlemen returning from fine dining and entertainment.",
+          "When hungry, openly talks about hunger and performs friendship unconvincingly."
+        ],
+        "capabilities": [
+          "Lvl 2; Def leather; Claw 1d6+agony; Move as human; Int 5; Str 7; Dis hungry.",
+          "Skilled in cooking, butchery, and lewd jokes."
+        ],
+        "reactions": [
+          {
+            "stimulus": "The party fumbles with 21 HEAVY DOORS.",
+            "response": "He and Jasper feign friendship while intending to eat the party at the first opportunity."
+          },
+          {
+            "stimulus": "The party offers dead bodies elsewhere as food.",
+            "response": "He and Jasper pretend to accept, then circle back and attack shortly afterward."
+          },
+          {
+            "stimulus": "The party leaves and later returns.",
+            "response": "He and Jasper are wandering the halls and can appear on the Random Encounter table."
+          }
+        ],
+        "hidden": [
+          "His friendly overture at 21 HEAVY DOORS is a poor deception intended to create an opportunity to eat the party."
+        ],
+        "location_references": [
+          "location.21-heavy-doors"
+        ],
+        "situation_references": [
+          "situation.ghoul-parley-at-heavy-doors",
+          "situation.ghoul-favor-negotiation"
+        ]
+      },
+      "source_pages": [
+        28,
+        29,
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "location.21-heavy-doors",
+        "situation.ghoul-parley-at-heavy-doors",
+        "situation.ghoul-favor-negotiation",
+        "effect.agony"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.gerdith",
+      "record_type": "actor",
+      "fields": {
+        "title": "Gerdith",
+        "role": "An armored ghoul who keeps watch over the company ballista in 27 BALLISTA, patrols nearby rooms, and plays tactical miniature games.",
+        "goals": [
+          "Convince herself that she is still on patrol.",
+          "Eat intruders.",
+          "Gain respect through a miniature wargame in 28 GAMES."
+        ],
+        "behavior": [
+          "Marches constantly around 27 BALLISTA and denies that she is a ghoul.",
+          "Is alert to combat, a portcullis winch, a dropped sarcophagus lid, and light in the rooms she can see.",
+          "Once alerted, loudly orders Molina to accompany her while she investigates.",
+          "Runs on all fours and behaves intelligently and ravenously."
+        ],
+        "capabilities": [
+          "Lvl 2; Def plate; Halberd 1d8; Move as human; Int 5; Str 7; Dis hungry.",
+          "Skilled in military trivia and tactical board games.",
+          "Can hear all rooms between 25 CRYPT and 29 STAGE and can see to 29 STAGE and 25G CRYPT."
+        ],
+        "reactions": [
+          {
+            "stimulus": "Combat, a portcullis winch, a dropped sarcophagus lid, or torchlight entering a visible room alerts her.",
+            "response": "She orders Molina to accompany her and investigates."
+          }
+        ],
+        "relationships": [
+          {
+            "target_id": "actor.molina",
+            "relationship": "Fellow armored ghoul and ballista guard whom she commands during investigations."
+          },
+          {
+            "target_id": "actor.captain-conroy",
+            "relationship": "Former soldier under Captain Conroy; the ballista is named Conroy."
+          }
+        ],
+        "hidden": [
+          "She has not accepted that she is a ghoul.",
+          "Her strongest immediate desire is to eat intruders."
+        ],
+        "location_references": [
+          "location.27-ballista",
+          "location.28-games"
+        ],
+        "situation_references": [
+          "situation.ballista-alert-and-investigation",
+          "situation.ghoul-favor-negotiation"
+        ]
+      },
+      "source_pages": [
+        28,
+        29,
+        32,
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.molina",
+        "actor.captain-conroy",
+        "location.27-ballista",
+        "location.28-games",
+        "situation.ballista-alert-and-investigation",
+        "situation.ghoul-favor-negotiation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.molina",
+      "record_type": "actor",
+      "fields": {
+        "title": "Molina",
+        "role": "An armored ghoul who keeps watch over the company ballista in 27 BALLISTA and continually maintains it.",
+        "goals": [
+          "Satisfy her hunger.",
+          "Continue her duties as a siege engineer and ballista guard."
+        ],
+        "behavior": [
+          "Hums tunelessly while endlessly polishing the ballista.",
+          "Complains and cracks jokes when Gerdith orders her to investigate.",
+          "Runs on all fours and behaves intelligently and ravenously."
+        ],
+        "capabilities": [
+          "Lvl 2; Def plate; Halberd 1d8; Move as human; Int 5; Str 7; Dis hungry.",
+          "Skilled as a siege engineer and horse lover."
+        ],
+        "relationships": [
+          {
+            "target_id": "actor.gerdith",
+            "relationship": "Fellow armored ghoul and ballista guard; follows Gerdith on investigations while complaining."
+          }
+        ],
+        "location_references": [
+          "location.27-ballista"
+        ],
+        "situation_references": [
+          "situation.ballista-alert-and-investigation",
+          "situation.ghoul-favor-negotiation"
+        ]
+      },
+      "source_pages": [
+        28,
+        29,
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.gerdith",
+        "location.27-ballista",
+        "situation.ballista-alert-and-investigation",
+        "situation.ghoul-favor-negotiation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.malenna",
+      "record_type": "actor",
+      "fields": {
+        "title": "Malenna",
+        "role": "A name printed in one passive-encounter entry beside Gerdith, discussing cavalry, archers, and infantry."
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "low",
+      "references": [],
+      "uncertainties": [
+        {
+          "description": "The source elsewhere consistently names the second armored ghoul Molina; 'Malenna' may be a printed spelling variant or typo, but it is retained as a separate source observation.",
+          "source_pages": [
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "id": "actor.shawson",
+      "record_type": "actor",
+      "fields": {
+        "title": "Shawson",
+        "appearance": "A monstrous, completely feral ghoul; when briefly seen from 37 CHEWED BONES, only his yellow eyes are visible before he growls and retreats.",
+        "role": "A ghoul who lost his mind, was imprisoned by the other ghouls in 39 STONE EGG, and waits to ambush anyone opening the high secret passage from 37 CHEWED BONES.",
+        "goals": [
+          "Grab and eat the first person who climbs into the secret opening."
+        ],
+        "behavior": [
+          "Waits beside the opening after hearing the secret door open.",
+          "Growls and retreats into 39 STONE EGG if exposed by torchlight from a chair in 37 CHEWED BONES."
+        ],
+        "reactions": [
+          {
+            "stimulus": "The first person climbs into the opened secret passage from 37 CHEWED BONES.",
+            "response": "Shawson surprises them, grabs them, and drags them into 39 STONE EGG to eat them."
+          },
+          {
+            "stimulus": "Torchlight from a chair in the middle of 37 CHEWED BONES catches his eyes.",
+            "response": "He growls and retreats into 39 STONE EGG."
+          }
+        ],
+        "hidden": [
+          "The other ghouls conceal where they imprisoned him.",
+          "He is waiting immediately beside the secret opening after it opens."
+        ],
+        "location_references": [
+          "location.37-chewed-bones"
+        ],
+        "situation_references": [
+          "situation.shawson-secret-door-ambush"
+        ]
+      },
+      "source_pages": [
+        29,
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.37-chewed-bones",
+        "situation.shawson-secret-door-ambush"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.captain-conroy",
+      "record_type": "actor",
+      "fields": {
+        "title": "Captain Conroy",
+        "role": "The former captain of the trapped soldiers; he remained with the ghouls for their first year, then became the fungus-bound remains in 33 FUNGUS.",
+        "goals": [
+          "Escape ghoul hunger through Shendormu's intervention."
+        ],
+        "relationships": [
+          {
+            "target_id": "actor.gerdith",
+            "relationship": "Former commanding officer; Gerdith and the other ghouls miss him."
+          },
+          {
+            "target_id": "actor.molina",
+            "relationship": "Former commanding officer; Molina and the other ghouls miss him."
+          }
+        ],
+        "hidden": [
+          "After becoming a ghoul and being disgusted by his hunger, he prayed to Shendormu, who granted release by transforming him into the fungal remains in 33 FUNGUS.",
+          "His last order to his soldiers was to destroy themselves; some obeyed and those who did not became the surviving ghouls."
+        ],
+        "location_references": [
+          "location.33-fungus"
+        ],
+        "knowledge_references": [
+          "knowledge.captain-conroy-fate"
+        ]
+      },
+      "source_pages": [
+        29,
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.gerdith",
+        "actor.molina",
+        "location.33-fungus",
+        "knowledge.captain-conroy-fate"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.spider-crab-at-traverse",
+      "record_type": "actor",
+      "fields": {
+        "title": "Spider Crab at 31 TRAVERSE",
+        "appearance": "A pair of eyestalks can be seen protruding from the water 40' below the floor; they retract when the creature notices observers noticing them.",
+        "role": "A hidden predator below the traverse pit that watches for an opportunity.",
+        "behavior": [
+          "Retracts its eyestalks when it notices that it has been observed.",
+          "Watches for an opportunity from the water."
+        ],
+        "capabilities": [
+          "The water surface is 40' below floor level.",
+          "The spider crab can reach 38' out of the water."
+        ],
+        "location_references": [
+          "location.31-traverse"
+        ],
+        "situation_references": [
+          "situation.spider-crab-watches-traverse"
+        ]
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.31-traverse",
+        "situation.spider-crab-watches-traverse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.armored-isopods",
+      "record_type": "actor",
+      "fields": {
+        "title": "Three Armored Isopods",
+        "appearance": "Three armored isopods forage in the room.",
+        "role": "Non-aggressive metal-eating creatures in 32 ISOPODS.",
+        "behavior": [
+          "Ignore the party while foraging.",
+          "Roll into balls if poked.",
+          "Attempt to fight back if damaged.",
+          "Eat metal by licking it and later nibbling away the rust."
+        ],
+        "capabilities": [
+          "Lvl 1; Def plate; Bite 1d6; Move slow; Int 1; Dis leave me alone.",
+          "Defense Curl: while curled, an armored isopod cannot be damaged by anything less than a sledgehammer or another 2H bludgeon.",
+          "Their shells are only a few millimeters thick and are made from an extremely strong biometallic matrix."
+        ],
+        "reactions": [
+          {
+            "stimulus": "Poked.",
+            "response": "Rolls into a ball."
+          },
+          {
+            "stimulus": "Damaged.",
+            "response": "Attempts to fight back."
+          }
+        ],
+        "location_references": [
+          "location.32-isopods"
+        ],
+        "situation_references": [
+          "situation.armored-isopod-encounter"
+        ]
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.32-isopods",
+        "situation.armored-isopod-encounter",
+        "effect.armored-isopod-defense-curl"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.ghouls-second-floor",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "The Ghouls of the Second Floor",
+        "text": "Five ghouls are trapped between 21 HEAVY DOOR and 40 GHOST FENCE. Jasper and Luntz wander the halls playing at being gentlemen; Gerdith and Molina guard the ballista; Shawson is feral and imprisoned in 39 STONE EGG; Captain Conroy is absent after ascending to moldhood. The surviving ghouls were soldiers. Hunger can overwhelm them, but after consuming a large amount of meat they become lucid, conversant, compassionate, and remorseful. Fresh meat, respectful treatment, and military-style parlay can be used to befriend any of them except Shawson."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.jasper",
+        "actor.luntz",
+        "actor.gerdith",
+        "actor.molina",
+        "actor.shawson",
+        "actor.captain-conroy",
+        "location.21-heavy-doors"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.ghoul-favor-ladder",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Ghoul Favors and Rewards",
+        "text": "The ghouls first ask for human meat, lots of meat, destruction of the ghost fence in 40 GHOST FENCE, and humiliation of the spider crab in 31 TRAVERSE. If at least 3 are achieved, they also ask the party to beat Gerdith at a miniatures wargame in 28 GAMES, outperform Jasper at a show in 29 STAGE, and destroy the Lamb with cautious ghoul assistance. Each killed ghoul deducts one favor. At 4 favors they try very hard not to eat the party, requiring a Cha save to resist. At 5 favors the party's favorite ghoul joins. At 6 favors they reveal the door behind Captain Conroy in 33 FUNGUS and discuss their trauma. At 7 favors Gerdith gives her crysmere blade and they reveal Shawson's prison and magic item, though they will not help kill him."
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.ghoul-favor-negotiation",
+        "location.28-games",
+        "location.29-stage",
+        "location.31-traverse",
+        "location.33-fungus",
+        "actor.gerdith",
+        "actor.shawson",
+        "item.crysmere-blade"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "knowledge.captain-conroy-fate",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "Captain Conroy's Fate and Last Order",
+        "text": "Captain Conroy remained with the ghouls for their first year, then became the fungal remains in 33 FUNGUS. Disgusted by ghoul hunger, he prayed to Shendormu and received this release. His last order was that his soldiers destroy themselves; some obeyed, and those who did not became the surviving ghouls."
+      },
+      "source_pages": [
+        29,
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.captain-conroy",
+        "location.33-fungus"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.21-heavy-doors",
+      "record_type": "location",
+      "fields": {
+        "title": "21 HEAVY DOORS",
+        "keyed_area": "21 HEAVY DOORS",
+        "first_impression": "A pair of heavy iron doors is held closed by a 10' heavy bar and chains; chatter and laughter are audible from Jasper and Luntz on the far side.",
+        "contents": [
+          "A 10' heavy bar.",
+          "A set of chains."
+        ],
+        "hidden": [
+          "Removing the bar grants a Milestone only if the Lamb has not already been killed.",
+          "Jasper and Luntz intend to feign friendship and eat the party when they get an opportunity."
+        ],
+        "triggers": [
+          "Fumbling with the doors causes Jasper and Luntz to attempt an unconvincing friendly deception.",
+          "If the party leaves and returns later, Jasper and Luntz instead wander the halls and may appear as random encounters."
+        ],
+        "occupants": [
+          "Jasper and Luntz are on the far side when the doors are first approached."
+        ],
+        "actor_references": [
+          "actor.jasper",
+          "actor.luntz"
+        ],
+        "situation_references": [
+          "situation.ghoul-parley-at-heavy-doors"
+        ],
+        "procedure_references": [
+          "procedure.open-heavy-doors"
+        ]
+      },
+      "source_pages": [
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.jasper",
+        "actor.luntz",
+        "situation.ghoul-parley-at-heavy-doors",
+        "procedure.open-heavy-doors",
+        "effect.escape-milestone"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.22-mushroom",
+      "record_type": "location",
+      "fields": {
+        "title": "22 MUSHROOM",
+        "keyed_area": "22 MUSHROOM",
+        "first_impression": "A locked door stands to the north; the south door is carved with “ASSHOLE STORAGE”; a huge cobweb partly blocks the east route; a tiny green mushroom grows in exposed dirt in the southwest corner.",
+        "contents": [
+          "A locked door to the north.",
+          "A defaced south door bearing the words “ASSHOLE STORAGE”.",
+          "A huge cobweb partly blocking the path east to 24 CRUSH HALLWAY.",
+          "A tiny green mushroom growing in exposed dirt."
+        ],
+        "discoverable": [
+          {
+            "information": "A dagger, a sling, and an empty wineskin are buried beneath the mushroom.",
+            "condition": "Dig 10' beneath the mushroom."
+          },
+          {
+            "information": "Each of three wall holes contains a switch 3' deep that disarms one trap door in 24 CRUSH HALLWAY while continuously depressed.",
+            "condition": "Reach 3' into a wall hole and continually depress its switch."
+          }
+        ],
+        "hidden": [
+          "Eating the mushroom makes the eater Favored by Shendormu."
+        ],
+        "resources": [
+          "A tiny green mushroom.",
+          "A buried dagger, sling, and empty wineskin."
+        ],
+        "procedure_references": [
+          "procedure.disarm-crush-hallway-trapdoors"
+        ]
+      },
+      "source_pages": [
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "procedure.disarm-crush-hallway-trapdoors",
+        "effect.favored-by-shendormu"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.23-weak-floor",
+      "record_type": "location",
+      "fields": {
+        "title": "23 WEAK FLOOR",
+        "keyed_area": "23 WEAK FLOOR",
+        "first_impression": "The brick floor sags about 2' at the center, water drips from the ceiling, and a mummified head with sewn eyes and mouth lies exactly in the middle with something shiny in its teeth.",
+        "contents": [
+          "A mummified head with its eyes and mouth sewn shut.",
+          "A shiny object held in the head's teeth."
+        ],
+        "discoverable": [
+          {
+            "information": "The shiny objects are 10g coins and a note reading “now we're paid up, rat fuck”.",
+            "condition": "Inspect and retrieve the objects from the mummified head's teeth."
+          }
+        ],
+        "hidden": [
+          "Small thrown objects cause localized collapses.",
+          "More than 10' from the south door, 40 lbs is enough to collapse every remaining brick floor tile.",
+          "The far door is practically impossible to smash from an unstable climbing position unless first weakened by acid or fire; a ballista bolt opens it instantly."
+        ],
+        "hazards": [
+          "The weak brick floor can collapse completely under 40 lbs once more than 10' from the south door."
+        ],
+        "situation_references": [
+          "situation.weak-floor-collapse"
+        ]
+      },
+      "source_pages": [
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.weak-floor-collapse",
+        "effect.weak-floor-collapse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.24-crush-hallway",
+      "record_type": "location",
+      "fields": {
+        "title": "24 CRUSH HALLWAY",
+        "keyed_area": "24 CRUSH HALLWAY",
+        "first_impression": "A 90' hallway has thick splinters and wood shards spread around its east side.",
+        "contents": [
+          "Crushed furniture debris on the east side."
+        ],
+        "discoverable": [
+          {
+            "information": "Three perfectly disguised trap doors sound hollow.",
+            "condition": "Tap the floor to listen for hollow sections."
+          }
+        ],
+        "hidden": [
+          "Any contact heavier than a feather triggers the descending ceiling.",
+          "Each disguised trap door is driven by a hinge and strong spring."
+        ],
+        "triggers": [
+          "Entering the hallway or applying more than feather-light contact starts the ceiling's lowering cycle."
+        ],
+        "hazards": [
+          "The ceiling falls 10' in 10 seconds, rests for 10 seconds, then resets.",
+          "Three disguised spring trap doors drop victims 40' to water below."
+        ],
+        "situation_references": [
+          "situation.crush-hallway-trap"
+        ],
+        "procedure_references": [
+          "procedure.cross-crush-hallway",
+          "procedure.disarm-crush-hallway-trapdoors"
+        ]
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.crush-hallway-trap",
+        "procedure.cross-crush-hallway",
+        "procedure.disarm-crush-hallway-trapdoors",
+        "effect.crush-hallway-ceiling",
+        "effect.crush-hallway-trapdoor-fall"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.24a",
+      "record_type": "location",
+      "fields": {
+        "title": "24A",
+        "keyed_area": "24A",
+        "first_impression": "A chamber of water 10' deep contains a broken chair missing two legs.",
+        "contents": [
+          "Water, 10' deep.",
+          "A floating broken chair missing two legs."
+        ]
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "location.24b",
+      "record_type": "location",
+      "fields": {
+        "title": "24B",
+        "keyed_area": "24B",
+        "first_impression": "Water 10' deep lies before a rusted-shut portcullis through which 42 SUNKEN GALLERY can be seen but not entered.",
+        "contents": [
+          "Water, 10' deep.",
+          "A rusted-shut portcullis permitting sight but not access into 42 SUNKEN GALLERY."
+        ]
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [],
+      "uncertainties": []
+    },
+    {
+      "id": "location.24c",
+      "record_type": "location",
+      "fields": {
+        "title": "24C",
+        "keyed_area": "24C",
+        "first_impression": "Water 10' deep is covered by a layer of oil.",
+        "contents": [
+          "Water, 10' deep.",
+          "A surface layer of oil."
+        ],
+        "discoverable": [
+          {
+            "information": "Two flasks of oil and broken glass lie on the bottom.",
+            "condition": "Search the bottom of the 10'-deep water."
+          }
+        ],
+        "hazards": [
+          "The surface oil burns for 5 minutes if ignited."
+        ],
+        "resources": [
+          "Two flasks of oil on the bottom."
+        ]
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "effect.oil-layer-burning"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.25-crypts",
+      "record_type": "location",
+      "fields": {
+        "title": "25 CRYPT",
+        "keyed_area": "25 CRYPT",
+        "first_impression": "Each crypt contains a central stone sarcophagus and tiled wall patterns; heavy bootsteps and humming can be heard from 27 BALLISTA.",
+        "contents": [
+          "A stone sarcophagus in the center of each room.",
+          "Tiled patterns covering the walls from floor to ceiling."
+        ],
+        "hidden": [
+          "A light source entering 25E, 25F, or 25G is noticed by the ghouls in 27 BALLISTA.",
+          "Reassembling and returning all seven mummies, or close enough, makes the character who took the most initiative Favored by Vandoh.",
+          "The missing heads required to reassemble the mummies are in 29 STAGE."
+        ],
+        "triggers": [
+          "Combat, use of a portcullis winch, a dropped sarcophagus lid, or visible light can alert Gerdith."
+        ],
+        "resources": [
+          "Wall tiles that take 10 minutes per wall to strip."
+        ],
+        "situation_references": [
+          "situation.ballista-alert-and-investigation",
+          "situation.reassemble-seven-mummies"
+        ],
+        "procedure_references": [
+          "procedure.open-crypt-sarcophagus",
+          "procedure.reassemble-seven-mummies"
+        ]
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.ballista-alert-and-investigation",
+        "situation.reassemble-seven-mummies",
+        "procedure.open-crypt-sarcophagus",
+        "procedure.reassemble-seven-mummies",
+        "effect.favored-by-vandoh"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.25a-crypt",
+      "record_type": "location",
+      "fields": {
+        "title": "25A CRYPT",
+        "keyed_area": "25A CRYPT",
+        "first_impression": "A third-quarter-moon motif marks this crypt, where a stone sarcophagus rests in the center.",
+        "contents": [
+          "A third quarter moon motif.",
+          "A central stone sarcophagus."
+        ],
+        "discoverable": [
+          {
+            "information": "The sarcophagus contains 7 mummified left arms.",
+            "condition": "Open the stone sarcophagus."
+          },
+          {
+            "information": "The door to 26 SECRET CRYPT is behind the south-wall tiles.",
+            "condition": "Remove or investigate the tiles on the south wall."
+          }
+        ],
+        "hidden": [
+          "A door to 26 SECRET CRYPT is concealed behind the south-wall tiles."
+        ]
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "item.disassembled-mummy-parts"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.25b-crypt",
+      "record_type": "location",
+      "fields": {
+        "title": "25B CRYPT",
+        "keyed_area": "25B CRYPT",
+        "first_impression": "A waning-gibbous-moon motif marks this crypt; a stone sarcophagus rests in the center and the portcullis to the south is lowered.",
+        "contents": [
+          "A waning gibbous moon motif.",
+          "A central stone sarcophagus.",
+          "A lowered portcullis to the south.",
+          "A winch 10' south of the portcullis."
+        ],
+        "discoverable": [
+          {
+            "information": "The sarcophagus contains 7 mummified right arms, one with a hook-hand prosthesis.",
+            "condition": "Open the stone sarcophagus."
+          }
+        ]
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "item.disassembled-mummy-parts",
+        "item.hook-hand-prosthesis"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.25c-crypt",
+      "record_type": "location",
+      "fields": {
+        "title": "25C CRYPT",
+        "keyed_area": "25C CRYPT",
+        "first_impression": "A first-quarter-moon motif marks this crypt, where a stone sarcophagus rests in the center.",
+        "contents": [
+          "A first quarter moon motif.",
+          "A central stone sarcophagus."
+        ],
+        "discoverable": [
+          {
+            "information": "The sarcophagus contains a burlap sack holding 2 mummified heads.",
+            "condition": "Open the stone sarcophagus and inspect the sack."
+          }
+        ],
+        "hidden": [
+          "One character, and no other, sees and hears one head say “correct this juxtaposition”."
+        ]
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "item.disassembled-mummy-parts",
+        "effect.selective-mummified-head-message"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.25d-crypt",
+      "record_type": "location",
+      "fields": {
+        "title": "25D CRYPT",
+        "keyed_area": "25D CRYPT",
+        "first_impression": "A full-moon motif marks this crypt, where a stone sarcophagus rests in the center.",
+        "contents": [
+          "A full moon motif.",
+          "A central stone sarcophagus."
+        ],
+        "discoverable": [
+          {
+            "information": "The sarcophagus contains 7 mummified left legs.",
+            "condition": "Open the stone sarcophagus."
+          }
+        ]
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "item.disassembled-mummy-parts"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.25e-crypt",
+      "record_type": "location",
+      "fields": {
+        "title": "25E CRYPT",
+        "keyed_area": "25E CRYPT",
+        "first_impression": "A waxing-gibbous-moon motif marks this crypt, where a stone sarcophagus rests in the center.",
+        "contents": [
+          "A waxing gibbous moon motif.",
+          "A central stone sarcophagus."
+        ],
+        "discoverable": [
+          {
+            "information": "The sarcophagus contains 7 mummified torsos, a cluster of large jelly-like eggs, and a fist-sized hole where something burrowed in.",
+            "condition": "Open the stone sarcophagus."
+          }
+        ],
+        "hidden": [
+          "If kept near body heat or food, the eggs hatch into 1d6 slobberworms in 24 hours."
+        ],
+        "triggers": [
+          "Bringing a light source into the room causes the ghouls in 27 BALLISTA to notice it."
+        ],
+        "hazards": [
+          "The eggs can hatch into 1d6 slobberworms after 24 hours near body heat or food."
+        ]
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "item.disassembled-mummy-parts",
+        "item.slobberworm-eggs",
+        "effect.slobberworm-eggs-hatch",
+        "situation.ballista-alert-and-investigation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.25f-crypt",
+      "record_type": "location",
+      "fields": {
+        "title": "25F CRYPT",
+        "keyed_area": "25F CRYPT",
+        "first_impression": "A waxing-crescent-moon motif marks this crypt, where a stone sarcophagus rests in the center.",
+        "contents": [
+          "A waxing crescent moon motif.",
+          "A central stone sarcophagus."
+        ],
+        "discoverable": [
+          {
+            "information": "The sarcophagus contains 7 mummified right legs.",
+            "condition": "Open the stone sarcophagus."
+          }
+        ],
+        "triggers": [
+          "Bringing a light source into the room causes the ghouls in 27 BALLISTA to notice it."
+        ]
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "item.disassembled-mummy-parts",
+        "situation.ballista-alert-and-investigation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.25g-crypt",
+      "record_type": "location",
+      "fields": {
+        "title": "25G CRYPT",
+        "keyed_area": "25G CRYPT",
+        "first_impression": "A new-moon motif marks this crypt, where a stone sarcophagus rests in the center.",
+        "contents": [
+          "A new moon motif.",
+          "A central stone sarcophagus."
+        ],
+        "discoverable": [
+          {
+            "information": "The sarcophagus contains 5 broken staves, 2 intact staves, and 6 purple robes worth 50s each, embroidered with moonstones and orbital patterns.",
+            "condition": "Open the stone sarcophagus."
+          }
+        ],
+        "triggers": [
+          "Bringing a light source into the room causes the ghouls in 27 BALLISTA to notice it."
+        ],
+        "resources": [
+          "2 intact staves.",
+          "6 purple robes worth 50s each."
+        ]
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "item.crypt-staves",
+        "item.purple-moon-robes",
+        "situation.ballista-alert-and-investigation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.26-secret-crypt",
+      "record_type": "location",
+      "fields": {
+        "title": "26 SECRET CRYPT",
+        "keyed_area": "26 SECRET CRYPT",
+        "first_impression": "A waning-crescent-moon motif marks this crypt; a central sarcophagus, a wall winch, and a soldier's corpse in the western passage are visible.",
+        "contents": [
+          "A waning crescent moon motif.",
+          "A central stone sarcophagus.",
+          "A wall winch controlling the portcullis.",
+          "A soldier's corpse in the western passage."
+        ],
+        "discoverable": [
+          {
+            "information": "The sarcophagus contains a mummy wearing a fine purple robe worth 50s, with a stave and a whelk comb worth 100s.",
+            "condition": "Open the stone sarcophagus."
+          }
+        ],
+        "resources": [
+          "A fine purple robe worth 50s.",
+          "A stave.",
+          "A comb made from a whelk worth 100s."
+        ]
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "item.crypt-staves",
+        "item.fine-purple-robe",
+        "item.whelk-comb"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.27-ballista",
+      "record_type": "location",
+      "fields": {
+        "title": "27 BALLISTA",
+        "keyed_area": "27 BALLISTA",
+        "first_impression": "Two armored ghouls occupy the room with a 500-lb wheeled ballista; one marches on patrol while the other hums and polishes the weapon.",
+        "contents": [
+          "A wheeled ballista weighing 500 lbs.",
+          "One remaining bolt, named Little Gerdith; the ballista is named Conroy."
+        ],
+        "hidden": [
+          "Gerdith denies being a ghoul and wants to eat intruders.",
+          "Gerdith can hear all rooms between 25 CRYPT and 29 STAGE and see to 29 STAGE and 25G CRYPT."
+        ],
+        "triggers": [
+          "Combat, a portcullis winch, or a dropped sarcophagus lid alerts Gerdith.",
+          "Torchlight entering 29 STAGE or 25G CRYPT, and light in 25E or 25F, is noticed."
+        ],
+        "hazards": [
+          "The remaining ballista bolt deals 3d6 damage."
+        ],
+        "occupants": [
+          "Gerdith.",
+          "Molina."
+        ],
+        "actor_references": [
+          "actor.gerdith",
+          "actor.molina"
+        ],
+        "situation_references": [
+          "situation.ballista-alert-and-investigation"
+        ]
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.gerdith",
+        "actor.molina",
+        "situation.ballista-alert-and-investigation",
+        "item.conroy-ballista",
+        "item.little-gerdith-ballista-bolt",
+        "effect.ballista-bolt-damage"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.28-games",
+      "record_type": "location",
+      "fields": {
+        "title": "28 GAMES",
+        "keyed_area": "28 GAMES",
+        "first_impression": "A miniature battlefield landscape fills the room, with rug ravines, half-evaporated lakes cut into the floor, corpse-hair forests, and military formations of miniatures.",
+        "contents": [
+          "A miniature landscape of rug ravines, floor-cut lakes, and corpse-hair trees.",
+          "120 miniatures worth 1s each, mostly made from corpse bits.",
+          "16 dice made from knuckle bones."
+        ],
+        "discoverable": [
+          {
+            "information": "A stack of mouldering character sheets shows that all of the ghouls played fighters before preferring miniature wargaming.",
+            "condition": "Search the room."
+          }
+        ],
+        "resources": [
+          "120 miniatures worth 1s each.",
+          "16 knuckle-bone dice."
+        ]
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "item.corpse-bit-miniatures",
+        "item.knucklebone-dice",
+        "item.mouldering-character-sheets",
+        "knowledge.ghoul-favor-ladder"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.29-stage",
+      "record_type": "location",
+      "fields": {
+        "title": "29 STAGE",
+        "keyed_area": "29 STAGE",
+        "first_impression": "Two tables covered by a rug form a stage with two chairs, a corpse-and-wood mock horse in a ruined purple robe, and five costumed mummified heads facing one another.",
+        "contents": [
+          "Two tables shoved together and covered with a rug.",
+          "Two chairs.",
+          "A mock horse made from broken wood and corpse bits, wearing a ruined purple robe and a saddle worth 20s.",
+          "Five mummified heads costumed as a clown, king, priest, prostitute, and farmer; the first four face the farmer, who faces the audience."
+        ],
+        "triggers": [
+          "Bringing a light source into the room causes the ghouls in 27 BALLISTA to notice it."
+        ],
+        "resources": [
+          "A saddle worth 20s.",
+          "The five missing mummified heads needed for the crypt reconstruction."
+        ]
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "item.stage-props",
+        "item.mummified-stage-heads",
+        "situation.ballista-alert-and-investigation",
+        "knowledge.ghoul-favor-ladder"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.30-coffer",
+      "record_type": "location",
+      "fields": {
+        "title": "30 COFFER",
+        "keyed_area": "30 COFFER",
+        "first_impression": "A tiny unlocked coffer sits here with a tiny green mushroom growing from its top; heavy bootsteps and humming are audible from 27 BALLISTA.",
+        "contents": [
+          "An unlocked tiny coffer.",
+          "A tiny green mushroom growing from the coffer."
+        ],
+        "discoverable": [
+          {
+            "information": "The coffer contains an invisibility potion and 2 flasks of oil.",
+            "condition": "Open the unlocked coffer."
+          }
+        ],
+        "hidden": [
+          "Eating the mushroom makes the eater Favored by Shendormu.",
+          "None of the ghouls has seen this mushroom before."
+        ],
+        "resources": [
+          "An invisibility potion.",
+          "Two flasks of oil.",
+          "A tiny green mushroom."
+        ]
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "item.invisibility-potion",
+        "item.oil-flasks",
+        "item.tiny-green-mushroom",
+        "effect.favored-by-shendormu"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.31-traverse",
+      "record_type": "location",
+      "fields": {
+        "title": "31 TRAVERSE",
+        "keyed_area": "31 TRAVERSE",
+        "first_impression": "A broad pit interrupts the partially collapsed floor; a 30' rope is fixed across it between two iron spikes on the west wall.",
+        "contents": [
+          "A broad pit from a partial floor collapse.",
+          "A 30' rope tied between two iron spikes on the west wall."
+        ],
+        "discoverable": [
+          {
+            "information": "A pair of eyestalks protrudes from the water below and retracts when it notices observation.",
+            "condition": "Investigate the pit."
+          }
+        ],
+        "hidden": [
+          "The water surface is 40' below the floor.",
+          "The spider crab below can reach 38' out of the water and watches for an opportunity."
+        ],
+        "hazards": [
+          "A spider crab waits below the pit."
+        ],
+        "resources": [
+          "A 30' rope fixed to two iron spikes."
+        ],
+        "actor_references": [
+          "actor.spider-crab-at-traverse"
+        ],
+        "situation_references": [
+          "situation.spider-crab-watches-traverse"
+        ]
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.spider-crab-at-traverse",
+        "situation.spider-crab-watches-traverse",
+        "item.traverse-rope-and-spikes"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.32-isopods",
+      "record_type": "location",
+      "fields": {
+        "title": "32 ISOPODS",
+        "keyed_area": "32 ISOPODS",
+        "first_impression": "Three armored isopods forage in a room whose floor is worn unevenly near the east wall; a small round hole pierces the north wall.",
+        "contents": [
+          "Three foraging armored isopods.",
+          "Uneven floor wear near the east wall, as if marking a doorway.",
+          "A small round hole in the north wall, 5' deep."
+        ],
+        "discoverable": [
+          {
+            "information": "A switch at the back of the 5'-deep north-wall hole opens the secret door.",
+            "condition": "Reach to the back of the north-wall hole and operate the switch."
+          }
+        ],
+        "hidden": [
+          "The floor wear marks a secret doorway."
+        ],
+        "occupants": [
+          "Three armored isopods."
+        ],
+        "actor_references": [
+          "actor.armored-isopods"
+        ],
+        "situation_references": [
+          "situation.armored-isopod-encounter"
+        ],
+        "procedure_references": [
+          "procedure.open-isopod-secret-door"
+        ]
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.armored-isopods",
+        "situation.armored-isopod-encounter",
+        "procedure.open-isopod-secret-door",
+        "item.armored-isopod-shell"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.33-fungus",
+      "record_type": "location",
+      "fields": {
+        "title": "33 FUNGUS",
+        "keyed_area": "33 FUNGUS",
+        "first_impression": "Huge blue polypores cover the south wall; a complex chromatic fungal mass covers the north wall around a chair, visible legs, and a barely discernible skull; a harpoon and six silver shilavos stand along the east side.",
+        "contents": [
+          "Fat stacks of huge blue polypores on the south wall.",
+          "A chair and pair of legs beneath a north-wall mass of chromatic fungus, with the shape of a skull near the ceiling.",
+          "A harpoon leaning against the east wall.",
+          "Six silver shilavos arranged at the harpoon's foot to represent the ghouls."
+        ],
+        "discoverable": [
+          {
+            "information": "The fungal mass conceals the door to 34 CACHE.",
+            "condition": "Excavate the north-wall fungus."
+          },
+          {
+            "information": "The mass is Captain Conroy's remains.",
+            "condition": "Interpret or investigate the body-like fungal formation."
+          }
+        ],
+        "hidden": [
+          "The blue polypores emit an aura that prevents violence while intact.",
+          "The fungal remains are Captain Conroy, transformed after praying to Shendormu.",
+          "Captain Conroy's last order was that his soldiers destroy themselves."
+        ],
+        "hazards": [
+          "While the blue polypores remain intact, no violence is possible in the room; a damaged character gets a Cha Save to resist."
+        ],
+        "resources": [
+          "A harpoon.",
+          "Six silver shilavos."
+        ],
+        "actor_references": [
+          "actor.captain-conroy"
+        ],
+        "knowledge_references": [
+          "knowledge.captain-conroy-fate"
+        ]
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.captain-conroy",
+        "knowledge.captain-conroy-fate",
+        "effect.polypore-nonviolence",
+        "item.harpoon",
+        "item.silver-shilavos"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.34-cache",
+      "record_type": "location",
+      "fields": {
+        "title": "34 CACHE",
+        "keyed_area": "34 CACHE",
+        "first_impression": "A concealed cache holds armor, a shield, a red battle standard, a steel pipe, and bags and blowtubes of unusual substances.",
+        "contents": [
+          "A set of plate mail with conidiaspore insignia.",
+          "A shield bearing a red mushroom rampant.",
+          "A red silk battle standard of the house of the avenging angel, worth 200s.",
+          "A magnificent steel pipe worth 50s.",
+          "A small bag with 2 doses of purple lotus powder.",
+          "A small bag with 3 doses of toad shavings.",
+          "Two blowtubes of mevverwen."
+        ],
+        "hidden": [
+          "Returning the battle standard to the Garrison of the Green Angel earns an invitation to join them as a knight."
+        ],
+        "resources": [
+          "Plate mail.",
+          "Shield.",
+          "Battle standard worth 200s.",
+          "Steel pipe worth 50s.",
+          "2 doses of purple lotus powder.",
+          "3 doses of toad shavings.",
+          "Two blowtubes of mevverwen."
+        ]
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "item.conidiaspore-plate-mail",
+        "item.red-mushroom-shield",
+        "item.avenging-angel-battle-standard",
+        "item.steel-pipe",
+        "item.purple-lotus-powder",
+        "item.toad-shavings",
+        "item.mevverwen-blowtubes",
+        "effect.green-angel-knighthood-invitation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.35-tricky-hallway",
+      "record_type": "location",
+      "fields": {
+        "title": "35 TRICKY HALLWAY",
+        "keyed_area": "35 TRICKY HALLWAY",
+        "first_impression": "A small round hole, 4' deep, is centered in the ceiling; a chalk limerick about Clyde's drab clothes is written on the wall.",
+        "contents": [
+          "A 4'-deep round hole in the ceiling.",
+          "A chalk limerick ending with Clyde having “dyed”."
+        ],
+        "discoverable": [
+          {
+            "information": "A switch at the back of the ceiling hole opens a trap door in the hallway's exact center.",
+            "condition": "Reach 4' into the ceiling hole and depress the switch."
+          },
+          {
+            "information": "A rotten credenza drawer in the pit contains 50s and a hooked net.",
+            "condition": "Fall or descend to the water-level furniture pile and search the stacked furniture."
+          }
+        ],
+        "hidden": [
+          "The trap door drops victims 40' onto stacked furniture barely above the water.",
+          "The bottom of the pit connects with 42 SUNKEN GALLERY."
+        ],
+        "hazards": [
+          "A switch-controlled central trap door drops victims 40'."
+        ],
+        "resources": [
+          "50s.",
+          "A hooked net."
+        ],
+        "situation_references": [
+          "situation.tricky-hallway-trap"
+        ]
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.tricky-hallway-trap",
+        "effect.tricky-hallway-fall",
+        "item.hooked-net-and-coins"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.36-table",
+      "record_type": "location",
+      "fields": {
+        "title": "36 TABLE",
+        "keyed_area": "36 TABLE",
+        "first_impression": "A banquet table with five chairs holds a silver platter, a candelabra, and a tiny green mushroom growing from one plate.",
+        "contents": [
+          "A banquet table and five chairs.",
+          "A silver platter worth 50s.",
+          "A candelabra worth 20s.",
+          "A tiny green mushroom growing from a plate."
+        ],
+        "resources": [
+          "A silver platter worth 50s.",
+          "A candelabra worth 20s.",
+          "A tiny green mushroom."
+        ]
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "item.silver-platter",
+        "item.candelabra",
+        "item.tiny-green-mushroom"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.37-chewed-bones",
+      "record_type": "location",
+      "fields": {
+        "title": "37 CHEWED BONES",
+        "keyed_area": "37 CHEWED BONES",
+        "first_impression": "A mountain of gnawed bones fills the room, with a sack of more bones, a tattered red banner on the north wall, and two broken chair legs fixed through it into the wall.",
+        "contents": [
+          "Gnawed bones amounting to about 2 dozen human skeletons if reassembled.",
+          "Several spider-crab shell and claw fragments, none as large as the specimen in 43 SPIDER CRAB.",
+          "A burlap sack of more gnawed bones.",
+          "A tattered red banner on the north wall, supported by two broken chair legs inserted into wall holes."
+        ],
+        "discoverable": [
+          {
+            "information": "A spear with a shrunken head tied to it by the hair lies in the rubbish.",
+            "condition": "Search the bone rubbish."
+          },
+          {
+            "information": "Each chair-leg hole is 4' deep and contains a switch; both must be pressed together to toggle the secret door.",
+            "condition": "Remove both chair legs and inspect the holes."
+          },
+          {
+            "information": "Shawson's yellow eyes are visible before he growls and retreats.",
+            "condition": "Stand on a chair in the middle of the room while holding a torch."
+          }
+        ],
+        "hidden": [
+          "The closest person feels their teeth chattering from the heads in 40 GHOST FENCE as soon as the room is entered.",
+          "The remote effect extends into 38 SHROUD as far as the heads can see.",
+          "The secret door is a 2' by 2' north-wall panel 8' above the ground.",
+          "Shawson hears the door open and waits beside the opening to ambush the first climber."
+        ],
+        "triggers": [
+          "Entering the room causes the closest person to feel the ghost-fence heads' effect.",
+          "Pressing both hidden switches simultaneously opens the secret door; pressing both again closes it.",
+          "Opening the secret door prepares Shawson's ambush."
+        ],
+        "hazards": [
+          "Shawson waits to surprise, grab, and drag the first climber into 39 STONE EGG."
+        ],
+        "resources": [
+          "A spear with a shrunken head.",
+          "A tattered red banner."
+        ],
+        "actor_references": [
+          "actor.shawson"
+        ],
+        "situation_references": [
+          "situation.ghost-fence-effect-in-chewed-bones",
+          "situation.shawson-secret-door-ambush"
+        ],
+        "procedure_references": [
+          "procedure.toggle-chewed-bones-secret-door"
+        ]
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.shawson",
+        "situation.ghost-fence-effect-in-chewed-bones",
+        "situation.shawson-secret-door-ambush",
+        "procedure.toggle-chewed-bones-secret-door",
+        "effect.ghost-fence-teeth-chattering",
+        "item.spear-with-shrunken-head",
+        "item.tattered-red-banner"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.open-heavy-doors",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Open 21 HEAVY DOORS",
+        "trigger": "The party attempts to pass the barred and chained heavy iron doors.",
+        "steps": [
+          "Two people can pry the 10' bar aside, opening the doors just enough for a human to squeeze through; the Lamb cannot fit.",
+          "The chains cannot be removed without heavy tools.",
+          "Removing the chains allows the doors to open fully."
+        ]
+      },
+      "source_pages": [
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "location.21-heavy-doors",
+        "effect.escape-milestone"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.disarm-crush-hallway-trapdoors",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Disarm the Trap Doors in 24 CRUSH HALLWAY",
+        "trigger": "A character uses the three wall holes in 22 MUSHROOM.",
+        "steps": [
+          "Reach 3' into a wall hole to find its switch.",
+          "Continually depress the switch to disarm the corresponding trap door in 24 CRUSH HALLWAY.",
+          "Repeat with the other two holes to hold all three trap doors disabled."
+        ]
+      },
+      "source_pages": [
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "location.22-mushroom",
+        "location.24-crush-hallway"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.cross-crush-hallway",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Cross 24 CRUSH HALLWAY",
+        "trigger": "The party attempts to traverse the 90' crushing hallway.",
+        "steps": [
+          "A human can sprint across before the ceiling crushes without a Movement check, but Movement checks are required to jump the three disguised trap doors unless those doors are disabled.",
+          "Alternatively, throw an uncrushable object such as the metal cage, ballista, or a combination of sturdy objects into the hallway; those objects are not recoverable.",
+          "Alternatively, climb along the wall with iron spikes and ropes; this takes about an hour and causes a couple of encounter checks.",
+          "Alternatively, disable the trap doors from 22 MUSHROOM and then sprint across."
+        ]
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "location.24-crush-hallway",
+        "procedure.disarm-crush-hallway-trapdoors"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.open-crypt-sarcophagus",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Move a Crypt Sarcophagus Lid",
+        "trigger": "The party attempts to open or move a stone sarcophagus lid in 25 CRYPT.",
+        "steps": [
+          "One person can move a lid with a successful Str check.",
+          "Six people can gently set the lid on the floor or pick it up."
+        ]
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "location.25-crypts"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.reassemble-seven-mummies",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Reassemble and Return the Seven Mummies",
+        "trigger": "The party gathers the scattered mummy parts and missing heads from the crypts and 29 STAGE.",
+        "steps": [
+          "Collect the distributed arms, legs, torsos, and heads belonging to seven mummies.",
+          "Reassemble all seven mummies, or come close enough to a full reconstruction.",
+          "Return the reassembled mummies.",
+          "Identify the character who took the most initiative; that character becomes Favored by Vandoh."
+        ]
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "location.25-crypts",
+        "location.29-stage",
+        "item.disassembled-mummy-parts",
+        "item.mummified-stage-heads",
+        "effect.favored-by-vandoh"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.open-isopod-secret-door",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Open the Secret Door in 32 ISOPODS",
+        "trigger": "A character investigates the 5'-deep round hole in the north wall.",
+        "steps": [
+          "Reach to the back of the hole.",
+          "Operate the switch there to open the secret door marked by the worn floor near the east wall."
+        ]
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.32-isopods"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.toggle-chewed-bones-secret-door",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Toggle the Secret Door in 37 CHEWED BONES",
+        "trigger": "The party removes the two broken chair legs from the north-wall holes.",
+        "steps": [
+          "Reach 4' into each of the two holes to find a switch.",
+          "Press both switches simultaneously to open the 2' by 2' panel 8' above the floor.",
+          "Press both switches simultaneously again to close the door."
+        ]
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.37-chewed-bones",
+        "situation.shawson-secret-door-ambush"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.ghoul-favor-negotiation",
+      "record_type": "situation",
+      "fields": {
+        "title": "Negotiating Favors with the Ghouls",
+        "perceived": "Lucid ghouls bargain for meat, escape, humiliation of a rival creature, games, a performance, and the Lamb's destruction, treating the party better as more favors are completed.",
+        "activation": {
+          "type": "chosen",
+          "condition": "The party treats the non-feral ghouls respectfully, supplies enough fresh meat for lucidity, or begins military-style parlay."
+        },
+        "repeat": {
+          "mode": "repeatable",
+          "condition": "The party can complete additional favors and improve its standing; each ghoul killed reduces the total by one."
+        },
+        "participants": [
+          {
+            "actor_id": "actor.jasper",
+            "role": "Requests meat and can judge a stage performance."
+          },
+          {
+            "actor_id": "actor.luntz",
+            "role": "Participates in the ghoul bargain."
+          },
+          {
+            "actor_id": "actor.gerdith",
+            "role": "Can be challenged at the miniature wargame and gives the crysmere blade at seven favors."
+          },
+          {
+            "actor_id": "actor.molina",
+            "role": "Participates in the ghoul bargain."
+          }
+        ],
+        "stakes": [
+          "The party may be eaten while the ghouls remain hungry.",
+          "The party can gain information, a companion, the crysmere blade, and cautious help against the Lamb."
+        ],
+        "outcomes": [
+          "At 4 favors, the ghouls make a strong effort not to eat the party, with a Cha save to resist.",
+          "At 5 favors, the party's favorite ghoul joins the party.",
+          "At 6 favors, the ghouls reveal the door behind Captain Conroy in 33 FUNGUS and discuss their trauma.",
+          "At 7 favors, Gerdith gives the crysmere blade and the ghouls reveal Shawson's prison and magic item.",
+          "The ghouls may help kill the Lamb but will not take risks.",
+          "They will not help kill Shawson, though they do not condemn the party for doing so."
+        ],
+        "possible_effects": [
+          {
+            "effect": "reveal-knowledge",
+            "description": "The favor ladder and later secrets become available through successful bargaining.",
+            "target": "knowledge.ghoul-favor-ladder"
+          },
+          {
+            "effect": "future-thread",
+            "description": "At five favors, the party's favorite non-feral ghoul may join the party."
+          },
+          {
+            "effect": "future-thread",
+            "description": "The ghouls may assist against the Lamb without taking risks."
+          }
+        ],
+        "knowledge_references": [
+          "knowledge.ghoul-favor-ladder"
+        ]
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.jasper",
+        "actor.luntz",
+        "actor.gerdith",
+        "actor.molina",
+        "knowledge.ghoul-favor-ladder",
+        "item.crysmere-blade"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.ghoul-departure-after-ghost-fence",
+      "record_type": "situation",
+      "fields": {
+        "title": "Ghouls Leave After the Ghost Fence Falls",
+        "perceived": "After the ghost fence is destroyed, the surviving ghouls prepare to collect belongings, revisit their home, and say farewell to Captain Conroy before leaving.",
+        "activation": {
+          "type": "triggered",
+          "condition": "40 GHOST FENCE is destroyed."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "participants": [
+          {
+            "actor_id": "actor.jasper",
+            "role": "One of the surviving ghouls who may depart."
+          },
+          {
+            "actor_id": "actor.luntz",
+            "role": "One of the surviving ghouls who may depart."
+          },
+          {
+            "actor_id": "actor.gerdith",
+            "role": "One of the surviving ghouls who may depart."
+          },
+          {
+            "actor_id": "actor.molina",
+            "role": "One of the surviving ghouls who may depart."
+          }
+        ],
+        "outcomes": [
+          "The ghouls leave the dungeon within 12 hours.",
+          "If the party promises to return and help kill the Lamb, they may remain for as long as 24 hours.",
+          "The party may encounter them later as NPCs."
+        ],
+        "completion": [
+          "The surviving ghouls depart after their final preparations, no later than the applicable 12- or 24-hour window."
+        ],
+        "possible_effects": [
+          {
+            "effect": "future-thread",
+            "description": "The party may meet the departed ghouls again as NPCs."
+          }
+        ]
+      },
+      "source_pages": [
+        29
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.jasper",
+        "actor.luntz",
+        "actor.gerdith",
+        "actor.molina",
+        "actor.captain-conroy"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.ghoul-parley-at-heavy-doors",
+      "record_type": "situation",
+      "fields": {
+        "title": "Jasper and Luntz at 21 HEAVY DOORS",
+        "perceived": "Chatter and laughter come from beyond the barred doors; Jasper addresses the door like a party host and the two ghouls openly complain of hunger while attempting friendliness.",
+        "activation": {
+          "type": "triggered",
+          "condition": "The party approaches or fumbles with 21 HEAVY DOORS."
+        },
+        "repeat": {
+          "mode": "once",
+          "condition": "If the party leaves, Jasper and Luntz later move into the random-encounter rotation instead of resetting this scene."
+        },
+        "location_references": [
+          "location.21-heavy-doors"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.jasper",
+            "role": "Leads the theatrical, unconvincing friendly overture."
+          },
+          {
+            "actor_id": "actor.luntz",
+            "role": "Supports the overture and shares the intent to eat the party."
+          }
+        ],
+        "actor_reactions": [
+          {
+            "actor_id": "actor.jasper",
+            "reaction": "Pretends friendship while looking for an opportunity to eat the party."
+          },
+          {
+            "actor_id": "actor.luntz",
+            "reaction": "Pretends friendship while looking for an opportunity to eat the party."
+          }
+        ],
+        "stakes": [
+          "The party risks a deceptive ghoul attack while trying to pass the doors."
+        ],
+        "approaches": [
+          "Pry the bar and squeeze through.",
+          "Use heavy tools to remove the chains.",
+          "Offer the ghouls dead bodies elsewhere."
+        ],
+        "outcomes": [
+          "If offered bodies elsewhere, the ghouls pretend to agree, circle back, and attack shortly afterward.",
+          "If the party leaves, the pair later wander the halls and can appear as random encounters."
+        ],
+        "possible_effects": [
+          {
+            "effect": "future-thread",
+            "description": "Jasper and Luntz can become later wandering encounters if the party leaves."
+          }
+        ]
+      },
+      "source_pages": [
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "location.21-heavy-doors",
+        "actor.jasper",
+        "actor.luntz",
+        "procedure.open-heavy-doors"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.weak-floor-collapse",
+      "record_type": "situation",
+      "fields": {
+        "title": "Collapse of 23 WEAK FLOOR",
+        "perceived": "The sagging brick floor gives way in small patches when light objects land on it and can suddenly collapse completely under greater weight.",
+        "activation": {
+          "type": "triggered",
+          "condition": "Small objects cause local collapse; more than 10' from the south door, 40 lbs is enough to collapse the whole floor."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.23-weak-floor"
+        ],
+        "stakes": [
+          "Anyone on the brick floor may fall when the entire surface collapses.",
+          "The unstable footing prevents effective force against the far door."
+        ],
+        "approaches": [
+          "Test the floor with thrown objects.",
+          "Weaken the far door with acid or fire before attempting to break it.",
+          "Use a ballista bolt to open the far door instantly."
+        ],
+        "outcomes": [
+          "Every remaining brick floor tile falls away after the threshold is exceeded.",
+          "The far door opens instantly if struck by a ballista bolt."
+        ]
+      },
+      "source_pages": [
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "location.23-weak-floor",
+        "effect.weak-floor-collapse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.crush-hallway-trap",
+      "record_type": "situation",
+      "fields": {
+        "title": "24 CRUSH HALLWAY Trap",
+        "perceived": "After someone enters the 90' hall, the ceiling begins descending toward the floor; hidden floor panels can spring open beneath runners.",
+        "activation": {
+          "type": "triggered",
+          "condition": "Any touch greater than a feather in the hallway triggers the ceiling; stepping on a trap door triggers that floor panel."
+        },
+        "repeat": {
+          "mode": "repeatable",
+          "condition": "The ceiling falls, rests, and resets; trap doors remain active unless their remote switches are held."
+        },
+        "location_references": [
+          "location.24-crush-hallway"
+        ],
+        "procedure_references": [
+          "procedure.cross-crush-hallway",
+          "procedure.disarm-crush-hallway-trapdoors"
+        ],
+        "stakes": [
+          "Entrants can be crushed by the ceiling.",
+          "Runners can fall 40' through one of three disguised trap doors into the water chambers."
+        ],
+        "outcomes": [
+          "A human can sprint the length without a Movement check for the ceiling.",
+          "Movement checks are needed to jump the three trap doors unless disabled.",
+          "The ceiling takes 10 seconds to fall 10', rests for 10 seconds, then resets."
+        ]
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "location.24-crush-hallway",
+        "procedure.cross-crush-hallway",
+        "procedure.disarm-crush-hallway-trapdoors",
+        "effect.crush-hallway-ceiling",
+        "effect.crush-hallway-trapdoor-fall"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.ballista-alert-and-investigation",
+      "record_type": "situation",
+      "fields": {
+        "title": "Gerdith and Molina Investigate an Alert",
+        "perceived": "Heavy bootsteps and humming are audible from 27 BALLISTA; after an alert, Gerdith loudly orders Molina to accompany her and the two armored ghouls move to investigate.",
+        "activation": {
+          "type": "triggered",
+          "condition": "Combat, a portcullis winch, a dropped sarcophagus lid, or visible light in 25E, 25F, 25G, or 29 STAGE alerts Gerdith."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "location_references": [
+          "location.25-crypts",
+          "location.27-ballista",
+          "location.29-stage"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.gerdith",
+            "role": "Detects the disturbance, commands the response, and leads the investigation."
+          },
+          {
+            "actor_id": "actor.molina",
+            "role": "Accompanies Gerdith while complaining and joking."
+          }
+        ],
+        "actor_reactions": [
+          {
+            "actor_id": "actor.gerdith",
+            "reaction": "Loudly orders Molina to accompany her and investigates."
+          },
+          {
+            "actor_id": "actor.molina",
+            "reaction": "Complains, cracks jokes, and accompanies Gerdith."
+          }
+        ],
+        "stakes": [
+          "Exploration of the crypts and stage can draw two intelligent, ravenous armored ghouls."
+        ],
+        "outcomes": [
+          "Gerdith and Molina investigate together."
+        ],
+        "possible_effects": [
+          {
+            "effect": "actor-state",
+            "description": "The disturbance alerts Gerdith.",
+            "target": "actor.gerdith"
+          },
+          {
+            "effect": "schedule-procedure",
+            "description": "Gerdith initiates an investigation with Molina.",
+            "target": "procedure.gerdith-investigation"
+          }
+        ]
+      },
+      "source_pages": [
+        32,
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.25-crypts",
+        "location.27-ballista",
+        "location.29-stage",
+        "actor.gerdith",
+        "actor.molina",
+        "procedure.gerdith-investigation",
+        "effect.ballista-ghouls-alerted"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.gerdith-investigation",
+      "record_type": "procedure",
+      "fields": {
+        "title": "Gerdith's Investigation",
+        "trigger": "Gerdith is alerted by noise, a winch, a dropped sarcophagus lid, combat, or visible light.",
+        "steps": [
+          "Gerdith loudly orders Molina to accompany her.",
+          "Molina complains and cracks jokes.",
+          "Both armored ghouls move to investigate intelligently and ravenously."
+        ]
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.gerdith",
+        "actor.molina",
+        "situation.ballista-alert-and-investigation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.reassemble-seven-mummies",
+      "record_type": "situation",
+      "fields": {
+        "title": "Reassemble the Seven Mummies",
+        "perceived": "Moon-marked crypts contain grouped mummy limbs and torsos, while five costumed heads appear on the stage and two more heads rest in a sack.",
+        "activation": {
+          "type": "chosen",
+          "condition": "The party decides to collect, reassemble, and return all seven mummies or a sufficiently close reconstruction."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.25-crypts",
+          "location.29-stage"
+        ],
+        "procedure_references": [
+          "procedure.reassemble-seven-mummies"
+        ],
+        "stakes": [
+          "The scattered remains and missing heads must be matched and returned."
+        ],
+        "outcomes": [
+          "The character who took the most initiative becomes Favored by Vandoh."
+        ],
+        "completion": [
+          "All seven mummies are reassembled and returned, or the reconstruction is close enough."
+        ],
+        "possible_effects": [
+          {
+            "effect": "future-thread",
+            "description": "The most proactive character becomes Favored by Vandoh."
+          }
+        ]
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "location.25-crypts",
+        "location.29-stage",
+        "procedure.reassemble-seven-mummies",
+        "effect.favored-by-vandoh",
+        "item.disassembled-mummy-parts",
+        "item.mummified-stage-heads"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.spider-crab-watches-traverse",
+      "record_type": "situation",
+      "fields": {
+        "title": "Spider Crab Watches the Traverse",
+        "perceived": "Investigating the pit reveals eyestalks above the water; they retract as soon as the observer notices them.",
+        "activation": {
+          "type": "ongoing",
+          "condition": "Characters approach or cross the pit in 31 TRAVERSE while the spider crab waits below."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "location_references": [
+          "location.31-traverse"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.spider-crab-at-traverse",
+            "role": "Watches from the water for an opportunity."
+          }
+        ],
+        "actor_reactions": [
+          {
+            "actor_id": "actor.spider-crab-at-traverse",
+            "reaction": "Retracts its eyestalks when it notices it has been observed."
+          }
+        ],
+        "stakes": [
+          "The crab can reach 38' upward while the water is 40' below the floor."
+        ]
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.31-traverse",
+        "actor.spider-crab-at-traverse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.armored-isopod-encounter",
+      "record_type": "situation",
+      "fields": {
+        "title": "Three Armored Isopods Foraging",
+        "perceived": "Three armored isopods forage calmly and ignore the party.",
+        "activation": {
+          "type": "keyed",
+          "condition": "The party enters 32 ISOPODS."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "location_references": [
+          "location.32-isopods"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.armored-isopods",
+            "role": "Forage, curl defensively, and retaliate only if harmed."
+          }
+        ],
+        "actor_reactions": [
+          {
+            "actor_id": "actor.armored-isopods",
+            "reaction": "Ignore the party if left alone, curl if poked, and fight back if damaged."
+          }
+        ],
+        "stakes": [
+          "Provoking the isopods can trigger a fight against creatures protected by Defense Curl."
+        ],
+        "outcomes": [
+          "Unprovoked isopods continue foraging and ignore the party.",
+          "Poked isopods curl into balls.",
+          "Damaged isopods fight back."
+        ]
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.32-isopods",
+        "actor.armored-isopods",
+        "effect.armored-isopod-defense-curl"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.polypore-nonviolence",
+      "record_type": "situation",
+      "fields": {
+        "title": "Blue Polypore Aura of Nonviolence",
+        "perceived": "Attempts at violence in 33 FUNGUS are suppressed while the huge blue polypores remain intact.",
+        "activation": {
+          "type": "ongoing",
+          "condition": "The blue polypores on the south wall remain intact."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "location_references": [
+          "location.33-fungus"
+        ],
+        "stakes": [
+          "No violence is possible in the room while the aura remains in force."
+        ],
+        "outcomes": [
+          "A character who takes any damage, even a pinprick or self-inflicted damage, receives a Cha Save to resist the aura."
+        ],
+        "completion": [
+          "The situation ends when the polypores are no longer intact."
+        ]
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.33-fungus",
+        "effect.polypore-nonviolence"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.return-avenging-angel-standard",
+      "record_type": "situation",
+      "fields": {
+        "title": "Return the Avenging Angel Battle Standard",
+        "perceived": "The red silk battle standard bears the identity of the house of the avenging angel.",
+        "activation": {
+          "type": "chosen",
+          "condition": "Someone returns the standard from 34 CACHE to the Garrison of the Green Angel."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.34-cache"
+        ],
+        "stakes": [
+          "The standard can be exchanged for recognition by the Garrison of the Green Angel."
+        ],
+        "outcomes": [
+          "The person returning it is invited to join the garrison as a knight."
+        ],
+        "possible_effects": [
+          {
+            "effect": "future-thread",
+            "description": "The returning character is invited to become a knight of the Garrison of the Green Angel."
+          }
+        ]
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.34-cache",
+        "item.avenging-angel-battle-standard",
+        "effect.green-angel-knighthood-invitation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.tricky-hallway-trap",
+      "record_type": "situation",
+      "fields": {
+        "title": "35 TRICKY HALLWAY Trap Door",
+        "perceived": "Depressing the hidden ceiling switch causes a trap door to open in the hallway's exact center.",
+        "activation": {
+          "type": "triggered",
+          "condition": "The switch at the back of the 4'-deep ceiling hole is depressed."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "location_references": [
+          "location.35-tricky-hallway"
+        ],
+        "stakes": [
+          "Anyone on the trap door falls 40' onto stacked furniture above the water."
+        ],
+        "outcomes": [
+          "A victim lands on the furniture pile.",
+          "The pit connects to 42 SUNKEN GALLERY.",
+          "Searching the furniture can yield 50s and a hooked net."
+        ]
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.35-tricky-hallway",
+        "effect.tricky-hallway-fall",
+        "item.hooked-net-and-coins"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.ghost-fence-effect-in-chewed-bones",
+      "record_type": "situation",
+      "fields": {
+        "title": "Ghost Fence Effect Reaches 37 CHEWED BONES",
+        "perceived": "On entering, the person closest to the heads in 40 GHOST FENCE feels their teeth chattering.",
+        "activation": {
+          "type": "triggered",
+          "condition": "The party enters 37 CHEWED BONES; the closest person to the heads is affected."
+        },
+        "repeat": {
+          "mode": "repeatable"
+        },
+        "location_references": [
+          "location.37-chewed-bones"
+        ],
+        "stakes": [
+          "A remote effect from 40 GHOST FENCE reaches through 37 CHEWED BONES and into 38 SHROUD as far as the heads can see."
+        ]
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.37-chewed-bones",
+        "effect.ghost-fence-teeth-chattering"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "situation.shawson-secret-door-ambush",
+      "record_type": "situation",
+      "fields": {
+        "title": "Shawson Ambushes the Secret Opening",
+        "perceived": "When the high secret panel opens, the first climber entering it is seized from the other side; torchlight can reveal a brief glimpse of yellow eyes before a growl.",
+        "activation": {
+          "type": "triggered",
+          "condition": "Both hidden switches open the secret door from 37 CHEWED BONES to 39 STONE EGG."
+        },
+        "repeat": {
+          "mode": "repeatable",
+          "condition": "Shawson can wait again after retreating while the passage remains relevant."
+        },
+        "location_references": [
+          "location.37-chewed-bones"
+        ],
+        "procedure_references": [
+          "procedure.toggle-chewed-bones-secret-door"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.shawson",
+            "role": "Waits beside the opening, surprises the first climber, and drags the victim into 39 STONE EGG."
+          }
+        ],
+        "actor_reactions": [
+          {
+            "actor_id": "actor.shawson",
+            "reaction": "Grabs and drags the first climber into 39 STONE EGG to eat them."
+          },
+          {
+            "actor_id": "actor.shawson",
+            "reaction": "Growls and retreats if torchlight from a chair reveals his eyes."
+          }
+        ],
+        "stakes": [
+          "The first climber can be isolated in 39 STONE EGG with a feral ghoul."
+        ],
+        "outcomes": [
+          "Shawson surprises and drags the first climber into 39 STONE EGG.",
+          "A torch-bearing observer on a central chair glimpses Shawson's yellow eyes and causes him to retreat."
+        ]
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.37-chewed-bones",
+        "procedure.toggle-chewed-bones-secret-door",
+        "actor.shawson"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.agony",
+      "record_type": "effect",
+      "fields": {
+        "title": "Agony",
+        "text": "Jasper and Luntz's ghoul claw attacks deal 1d6+agony."
+      },
+      "source_pages": [
+        28,
+        30
+      ],
+      "confidence": "low",
+      "references": [
+        "actor.jasper",
+        "actor.luntz"
+      ],
+      "uncertainties": [
+        {
+          "description": "These pages name 'agony' in the damage expression but do not define its mechanics.",
+          "source_pages": [
+            28,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effect.lantern-worm-eat-light",
+      "record_type": "effect",
+      "fields": {
+        "title": "Eat Light",
+        "text": "A targeted light source explodes and is destroyed. The lantern worm consumes the light and becomes brighter. The holder takes 1d6 fire damage unless a Wis Save negates it and is automatically blinded. Everyone else is blinded on a failed Wis Save. Each blinded character makes a Con check each turn to end the blindness."
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.lantern-worm"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.lantern-worm-lantern",
+      "record_type": "effect",
+      "fields": {
+        "title": "Lantern",
+        "text": "The lantern worm sheds light in a narrow 60' cone. Whoever it looks at receives -4 to hit, and the penalty also applies to adjacent people."
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.lantern-worm"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.lantern-worm-stonemeld",
+      "record_type": "effect",
+      "fields": {
+        "title": "Stonemeld",
+        "text": "The lantern worm can become liquid and flow through stone, where it resembles a wet dark stain."
+      },
+      "source_pages": [
+        28
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.lantern-worm"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.escape-milestone",
+      "record_type": "effect",
+      "fields": {
+        "title": "Escaped from the Lamb Milestone",
+        "text": "Removing the heavy bar from 21 HEAVY DOORS grants a Milestone because the party has escaped from the Lamb, unless the Lamb has already been killed."
+      },
+      "source_pages": [
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "location.21-heavy-doors",
+        "procedure.open-heavy-doors"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.favored-by-shendormu",
+      "record_type": "effect",
+      "fields": {
+        "title": "Favored by Shendormu",
+        "text": "Eating the tiny green mushroom in 22 MUSHROOM or on the coffer in 30 COFFER makes the eater Favored by Shendormu; Appendix C contains the referenced rules."
+      },
+      "source_pages": [
+        30,
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.22-mushroom",
+        "location.30-coffer",
+        "item.tiny-green-mushroom"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.weak-floor-collapse",
+      "record_type": "effect",
+      "fields": {
+        "title": "Weak Floor Collapse",
+        "text": "Small objects thrown into 23 WEAK FLOOR cause small collapses. More than 10' from the south door, 40 lbs is enough to make every remaining brick floor tile fall away."
+      },
+      "source_pages": [
+        30
+      ],
+      "confidence": "high",
+      "references": [
+        "location.23-weak-floor",
+        "situation.weak-floor-collapse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.crush-hallway-ceiling",
+      "record_type": "effect",
+      "fields": {
+        "title": "Crush Hallway Ceiling Cycle",
+        "text": "Any touch greater than a feather triggers the ceiling in 24 CRUSH HALLWAY. It takes 10 seconds to fall 10', rests for 10 seconds, then resets."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "location.24-crush-hallway",
+        "situation.crush-hallway-trap"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.crush-hallway-trapdoor-fall",
+      "record_type": "effect",
+      "fields": {
+        "title": "Crush Hallway Trap-Door Fall",
+        "text": "Each of the three disguised spring trap doors in 24 CRUSH HALLWAY drops a victim 40' to the water below."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "location.24-crush-hallway",
+        "situation.crush-hallway-trap"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.oil-layer-burning",
+      "record_type": "effect",
+      "fields": {
+        "title": "24C Oil Layer Burns",
+        "text": "If the oil covering the water in 24C is ignited, it burns for 5 minutes."
+      },
+      "source_pages": [
+        31
+      ],
+      "confidence": "high",
+      "references": [
+        "location.24c"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ballista-ghouls-alerted",
+      "record_type": "effect",
+      "fields": {
+        "title": "Gerdith Alerted by Noise or Light",
+        "text": "Combat, a portcullis winch, a dropped sarcophagus lid, or torchlight in the rooms Gerdith can see alerts her. Light entering 25E, 25F, 25G, or 29 STAGE is noticed by the ghouls in 27 BALLISTA."
+      },
+      "source_pages": [
+        32,
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.gerdith",
+        "actor.molina",
+        "situation.ballista-alert-and-investigation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.favored-by-vandoh",
+      "record_type": "effect",
+      "fields": {
+        "title": "Favored by Vandoh",
+        "text": "If all seven mummies are reassembled and returned, or close enough, the character who took the most initiative becomes Favored by Vandoh; Appendix C contains the referenced rules."
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "situation.reassemble-seven-mummies",
+        "procedure.reassemble-seven-mummies"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.slobberworm-eggs-hatch",
+      "record_type": "effect",
+      "fields": {
+        "title": "Slobberworm Eggs Hatch",
+        "text": "If the large jelly-like eggs from 25E are kept near body heat or food, they hatch into 1d6 slobberworms in 24 hours."
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "location.25e-crypt",
+        "item.slobberworm-eggs"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ballista-bolt-damage",
+      "record_type": "effect",
+      "fields": {
+        "title": "Ballista Bolt Damage",
+        "text": "The last ballista bolt in 27 BALLISTA deals 3d6 damage."
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.27-ballista",
+        "item.little-gerdith-ballista-bolt"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.polypore-nonviolence",
+      "record_type": "effect",
+      "fields": {
+        "title": "Blue Polypore Aura of Nonviolence",
+        "text": "While the blue polypores in 33 FUNGUS remain intact, no violence is possible in the room. A character who takes any damage, even a pinprick or self-inflicted damage, gets a Cha Save to resist the effect."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.33-fungus",
+        "situation.polypore-nonviolence"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.armored-isopod-defense-curl",
+      "record_type": "effect",
+      "fields": {
+        "title": "Defense Curl",
+        "text": "While curled up, an armored isopod cannot be damaged by anything less than a sledgehammer or another 2H bludgeon."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.armored-isopods",
+        "situation.armored-isopod-encounter"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.green-angel-knighthood-invitation",
+      "record_type": "effect",
+      "fields": {
+        "title": "Invitation to the Garrison of the Green Angel",
+        "text": "Anyone who returns the red silk battle standard to the Garrison of the Green Angel is invited to join them as a knight."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "item.avenging-angel-battle-standard",
+        "situation.return-avenging-angel-standard"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.tricky-hallway-fall",
+      "record_type": "effect",
+      "fields": {
+        "title": "35 TRICKY HALLWAY Fall",
+        "text": "A person who falls through the central trap door drops 40' and lands on stacked furniture barely above the water."
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.35-tricky-hallway",
+        "situation.tricky-hallway-trap"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.ghost-fence-teeth-chattering",
+      "record_type": "effect",
+      "fields": {
+        "title": "Ghost Fence Teeth Chattering",
+        "text": "Upon entry to 37 CHEWED BONES, the person closest to the heads in 40 GHOST FENCE feels their teeth chattering. The effect extends into 38 SHROUD as far as the heads can see."
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.37-chewed-bones",
+        "situation.ghost-fence-effect-in-chewed-bones"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.disassembled-mummy-parts",
+      "record_type": "item",
+      "fields": {
+        "title": "Parts of Seven Mummies",
+        "text": "The crypts hold 7 mummified left arms in 25A, 7 right arms in 25B, 2 heads in 25C, 7 left legs in 25D, 7 torsos in 25E, and 7 right legs in 25F. Five additional costumed heads are in 29 STAGE. These parts can be reassembled and returned for the Vandoh favor outcome."
+      },
+      "source_pages": [
+        32,
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.25a-crypt",
+        "location.25b-crypt",
+        "location.25c-crypt",
+        "location.25d-crypt",
+        "location.25e-crypt",
+        "location.25f-crypt",
+        "location.29-stage",
+        "procedure.reassemble-seven-mummies"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.hook-hand-prosthesis",
+      "record_type": "item",
+      "fields": {
+        "title": "Hook-Hand Prosthesis",
+        "text": "One of the seven mummified right arms in 25B has a hook-hand prosthesis."
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "location.25b-crypt"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.slobberworm-eggs",
+      "record_type": "item",
+      "fields": {
+        "title": "Large Jelly-Like Eggs",
+        "text": "A cluster of large jelly-like eggs lies with the torsos in 25E. If kept near body heat or food, it hatches into 1d6 slobberworms in 24 hours."
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "location.25e-crypt",
+        "effect.slobberworm-eggs-hatch"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.crypt-staves",
+      "record_type": "item",
+      "fields": {
+        "title": "Crypt Staves",
+        "text": "25G contains 5 broken staves and 2 intact staves. The mummy in 26 SECRET CRYPT also carries a stave."
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "location.25g-crypt",
+        "location.26-secret-crypt"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.purple-moon-robes",
+      "record_type": "item",
+      "fields": {
+        "title": "Purple Moon-Patterned Robes",
+        "text": "25G contains 6 purple robes worth 50s each, embroidered with moonstones and orbital patterns."
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "location.25g-crypt"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.fine-purple-robe",
+      "record_type": "item",
+      "fields": {
+        "title": "Fine Purple Robe",
+        "text": "The mummy in 26 SECRET CRYPT wears a fine purple robe worth 50s."
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "location.26-secret-crypt"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.whelk-comb",
+      "record_type": "item",
+      "fields": {
+        "title": "Whelk Comb",
+        "text": "A comb made from a whelk, worth 100s, is with the mummy in 26 SECRET CRYPT."
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "location.26-secret-crypt"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.conroy-ballista",
+      "record_type": "item",
+      "fields": {
+        "title": "Conroy, Wheeled Ballista",
+        "text": "A wheeled ballista in 27 BALLISTA weighs 500 lbs and is named Conroy."
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.27-ballista"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.little-gerdith-ballista-bolt",
+      "record_type": "item",
+      "fields": {
+        "title": "Little Gerdith, Ballista Bolt",
+        "text": "The ballista's one remaining bolt is named Little Gerdith and deals 3d6 damage."
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.27-ballista",
+        "effect.ballista-bolt-damage"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.molina-jewelry",
+      "record_type": "item",
+      "fields": {
+        "title": "Molina's Chalcedony Rings and Topaz Pendants",
+        "text": "Molina wears 6 chalcedony rings worth 50s each and 2 topaz pendants worth 100s each."
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.molina",
+        "location.27-ballista"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.crysmere-blade",
+      "record_type": "item",
+      "fields": {
+        "title": "Crysmere Blade of Far Charcorra",
+        "text": "Gerdith carries a Treasure: a crysmere blade of far Charcorra, clear as a black mirror. It is made from rare clays baked in a kiln for decades and functions as a masterwork sword."
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.gerdith",
+        "location.27-ballista",
+        "knowledge.ghoul-favor-ladder"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.corpse-bit-miniatures",
+      "record_type": "item",
+      "fields": {
+        "title": "Corpse-Bit Miniatures",
+        "text": "120 miniatures worth 1s each stand in military formations in 28 GAMES; most are made from bits of corpses."
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.28-games"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.knucklebone-dice",
+      "record_type": "item",
+      "fields": {
+        "title": "Knuckle-Bone Dice",
+        "text": "28 GAMES contains 16 dice made from knuckle bones."
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.28-games"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.mouldering-character-sheets",
+      "record_type": "item",
+      "fields": {
+        "title": "Mouldering Character Sheets",
+        "text": "A stack of mouldering character sheets can be found by searching 28 GAMES. They show the ghouls briefly tried roleplaying before preferring miniature wargaming; every ghoul played a fighter."
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.28-games"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.stage-props",
+      "record_type": "item",
+      "fields": {
+        "title": "Stage Furniture and Mock Horse",
+        "text": "29 STAGE uses two rug-covered tables, two chairs, and a mock horse made from broken wood and corpse bits. The horse wears a ruined purple robe and has a saddle worth 20s."
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.29-stage"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.mummified-stage-heads",
+      "record_type": "item",
+      "fields": {
+        "title": "Five Costumed Mummified Heads",
+        "text": "Five mummified heads on 29 STAGE are costumed as a clown, king, priest, prostitute, and farmer. The first four face the farmer, who faces the audience. They are the missing heads for the seven-mummy reconstruction."
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.29-stage",
+        "procedure.reassemble-seven-mummies"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.invisibility-potion",
+      "record_type": "item",
+      "fields": {
+        "title": "Invisibility Potion",
+        "text": "An invisibility potion is held in the unlocked tiny coffer in 30 COFFER."
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.30-coffer"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.oil-flasks",
+      "record_type": "item",
+      "fields": {
+        "title": "Flasks of Oil",
+        "text": "The unlocked coffer in 30 COFFER contains 2 flasks of oil."
+      },
+      "source_pages": [
+        33
+      ],
+      "confidence": "high",
+      "references": [
+        "location.30-coffer"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.tiny-green-mushroom",
+      "record_type": "item",
+      "fields": {
+        "title": "Tiny Green Mushroom",
+        "text": "A tiny green mushroom grows from the coffer in 30 COFFER, and another grows on a plate in 36 TABLE. The specimen in 30 explicitly makes an eater Favored by Shendormu; page 35 only identifies the specimen in 36 and points to Appendix A."
+      },
+      "source_pages": [
+        33,
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.30-coffer",
+        "location.36-table",
+        "effect.favored-by-shendormu"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.traverse-rope-and-spikes",
+      "record_type": "item",
+      "fields": {
+        "title": "30' Traverse Rope and Iron Spikes",
+        "text": "A 30' rope is hung on the west wall of 31 TRAVERSE and tied to an iron spike at each end. Using it lets a character cross the pit without a roll."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.31-traverse"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.armored-isopod-shell",
+      "record_type": "item",
+      "fields": {
+        "title": "Armored Isopod Shell",
+        "text": "An armored isopod's shell is only a few millimeters thick and is made from an extremely strong biometallic matrix, described as a counterpart to spider silk."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.armored-isopods",
+        "location.32-isopods"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.harpoon",
+      "record_type": "item",
+      "fields": {
+        "title": "Harpoon",
+        "text": "A harpoon leans against the east wall in 33 FUNGUS."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.33-fungus"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.silver-shilavos",
+      "record_type": "item",
+      "fields": {
+        "title": "Six Silver Shilavos",
+        "text": "Six silver shilavos are arranged at the foot of the harpoon in 33 FUNGUS to represent the ghouls."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.33-fungus"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.conidiaspore-plate-mail",
+      "record_type": "item",
+      "fields": {
+        "title": "Conidiaspore Plate Mail",
+        "text": "A set of plate mail bearing conidiaspore insignia is stored in 34 CACHE."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.34-cache"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.red-mushroom-shield",
+      "record_type": "item",
+      "fields": {
+        "title": "Red Mushroom Rampant Shield",
+        "text": "A shield bearing a red mushroom rampant is stored in 34 CACHE."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.34-cache"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.avenging-angel-battle-standard",
+      "record_type": "item",
+      "fields": {
+        "title": "Battle Standard of the House of the Avenging Angel",
+        "text": "A red silk battle standard worth 200s is stored in 34 CACHE. Returning it to the Garrison of the Green Angel earns an invitation to join as a knight."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.34-cache",
+        "situation.return-avenging-angel-standard",
+        "effect.green-angel-knighthood-invitation"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.steel-pipe",
+      "record_type": "item",
+      "fields": {
+        "title": "Magnificent Steel Pipe",
+        "text": "A magnificent steel pipe worth 50s is stored in 34 CACHE."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.34-cache"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.purple-lotus-powder",
+      "record_type": "item",
+      "fields": {
+        "title": "Purple Lotus Powder",
+        "text": "A small bag in 34 CACHE contains 2 doses of purple lotus powder; Appendix D is referenced."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.34-cache"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.toad-shavings",
+      "record_type": "item",
+      "fields": {
+        "title": "Toad Shavings",
+        "text": "A small bag in 34 CACHE contains 3 doses of toad shavings; Appendix D is referenced."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.34-cache"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.mevverwen-blowtubes",
+      "record_type": "item",
+      "fields": {
+        "title": "Blowtubes of Mevverwen",
+        "text": "34 CACHE contains 2 blowtubes of mevverwen; Appendix D is referenced."
+      },
+      "source_pages": [
+        34
+      ],
+      "confidence": "high",
+      "references": [
+        "location.34-cache"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.hooked-net-and-coins",
+      "record_type": "item",
+      "fields": {
+        "title": "Hooked Net and 50s",
+        "text": "A drawer in a rotten credenza on the furniture pile below 35 TRICKY HALLWAY contains 50s and a hooked net."
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.35-tricky-hallway"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.silver-platter",
+      "record_type": "item",
+      "fields": {
+        "title": "Silver Platter",
+        "text": "A silver platter worth 50s sits on the banquet table in 36 TABLE."
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.36-table"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.candelabra",
+      "record_type": "item",
+      "fields": {
+        "title": "Candelabra",
+        "text": "A candelabra worth 20s sits on the banquet table in 36 TABLE."
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.36-table"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.spear-with-shrunken-head",
+      "record_type": "item",
+      "fields": {
+        "title": "Spear with a Shrunken Head",
+        "text": "Searching the rubbish in 37 CHEWED BONES yields a spear with a shrunken head tied to it by its hair."
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.37-chewed-bones"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "item.tattered-red-banner",
+      "record_type": "item",
+      "fields": {
+        "title": "Tattered Red Banner",
+        "text": "A tattered red banner hangs on the north wall of 37 CHEWED BONES between two broken chair legs inserted into deep wall holes."
+      },
+      "source_pages": [
+        35
+      ],
+      "confidence": "high",
+      "references": [
+        "location.37-chewed-bones"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.selective-mummified-head-message",
+      "record_type": "effect",
+      "fields": {
+        "title": "Selective Mummified Head Message",
+        "text": "In 25C CRYPT, one character, and no other, sees and hears one of the two mummified heads say “correct this juxtaposition”."
+      },
+      "source_pages": [
+        32
+      ],
+      "confidence": "high",
+      "references": [
+        "location.25c-crypt",
+        "item.disassembled-mummy-parts"
+      ],
+      "uncertainties": []
+    }
+  ],
+  "schema": "module-content-evidence/v3",
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda",
+  "task": "content",
+  "task_coverage": [
+    {
+      "notes": "Extracted 6 routed adventure records.",
+      "pdf_page": 28,
+      "record_ids": [
+        "actor.gerdith",
+        "actor.jasper",
+        "actor.lantern-worm",
+        "actor.luntz",
+        "actor.malenna",
+        "actor.molina"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted 4 routed effects records.",
+      "pdf_page": 28,
+      "record_ids": [
+        "effect.agony",
+        "effect.lantern-worm-eat-light",
+        "effect.lantern-worm-lantern",
+        "effect.lantern-worm-stonemeld"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "Extracted 3 routed tables records.",
+      "pdf_page": 28,
+      "record_ids": [
+        "table.active-encounters-second-floor",
+        "table.indirect-encounters-second-floor",
+        "table.passive-encounters-second-floor"
+      ],
+      "status": "extracted",
+      "task": "tables"
+    },
+    {
+      "notes": "Extracted 11 routed adventure records.",
+      "pdf_page": 29,
+      "record_ids": [
+        "actor.captain-conroy",
+        "actor.gerdith",
+        "actor.jasper",
+        "actor.luntz",
+        "actor.molina",
+        "actor.shawson",
+        "knowledge.captain-conroy-fate",
+        "knowledge.ghoul-favor-ladder",
+        "knowledge.ghouls-second-floor",
+        "situation.ghoul-departure-after-ghost-fence",
+        "situation.ghoul-favor-negotiation"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted 9 routed adventure records.",
+      "pdf_page": 30,
+      "record_ids": [
+        "actor.jasper",
+        "actor.luntz",
+        "location.21-heavy-doors",
+        "location.22-mushroom",
+        "location.23-weak-floor",
+        "procedure.disarm-crush-hallway-trapdoors",
+        "procedure.open-heavy-doors",
+        "situation.ghoul-parley-at-heavy-doors",
+        "situation.weak-floor-collapse"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted 4 routed effects records.",
+      "pdf_page": 30,
+      "record_ids": [
+        "effect.agony",
+        "effect.escape-milestone",
+        "effect.favored-by-shendormu",
+        "effect.weak-floor-collapse"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "Extracted 6 routed adventure records.",
+      "pdf_page": 31,
+      "record_ids": [
+        "location.24-crush-hallway",
+        "location.24a",
+        "location.24b",
+        "location.24c",
+        "procedure.cross-crush-hallway",
+        "situation.crush-hallway-trap"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted 3 routed effects records.",
+      "pdf_page": 31,
+      "record_ids": [
+        "effect.crush-hallway-ceiling",
+        "effect.crush-hallway-trapdoor-fall",
+        "effect.oil-layer-burning"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "Extracted 14 routed adventure records.",
+      "pdf_page": 32,
+      "record_ids": [
+        "actor.gerdith",
+        "location.25-crypts",
+        "location.25a-crypt",
+        "location.25b-crypt",
+        "location.25c-crypt",
+        "location.25d-crypt",
+        "location.25e-crypt",
+        "location.25f-crypt",
+        "location.25g-crypt",
+        "location.26-secret-crypt",
+        "procedure.open-crypt-sarcophagus",
+        "procedure.reassemble-seven-mummies",
+        "situation.ballista-alert-and-investigation",
+        "situation.reassemble-seven-mummies"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted 4 routed effects records.",
+      "pdf_page": 32,
+      "record_ids": [
+        "effect.ballista-ghouls-alerted",
+        "effect.favored-by-vandoh",
+        "effect.selective-mummified-head-message",
+        "effect.slobberworm-eggs-hatch"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "Extracted 7 routed items records.",
+      "pdf_page": 32,
+      "record_ids": [
+        "item.crypt-staves",
+        "item.disassembled-mummy-parts",
+        "item.fine-purple-robe",
+        "item.hook-hand-prosthesis",
+        "item.purple-moon-robes",
+        "item.slobberworm-eggs",
+        "item.whelk-comb"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "Extracted 8 routed adventure records.",
+      "pdf_page": 33,
+      "record_ids": [
+        "actor.gerdith",
+        "actor.molina",
+        "location.27-ballista",
+        "location.28-games",
+        "location.29-stage",
+        "location.30-coffer",
+        "procedure.gerdith-investigation",
+        "situation.ballista-alert-and-investigation"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted 3 routed effects records.",
+      "pdf_page": 33,
+      "record_ids": [
+        "effect.ballista-bolt-damage",
+        "effect.ballista-ghouls-alerted",
+        "effect.favored-by-shendormu"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "Extracted 13 routed items records.",
+      "pdf_page": 33,
+      "record_ids": [
+        "item.conroy-ballista",
+        "item.corpse-bit-miniatures",
+        "item.crysmere-blade",
+        "item.disassembled-mummy-parts",
+        "item.invisibility-potion",
+        "item.knucklebone-dice",
+        "item.little-gerdith-ballista-bolt",
+        "item.molina-jewelry",
+        "item.mouldering-character-sheets",
+        "item.mummified-stage-heads",
+        "item.oil-flasks",
+        "item.stage-props",
+        "item.tiny-green-mushroom"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "Extracted 13 routed adventure records.",
+      "pdf_page": 34,
+      "record_ids": [
+        "actor.armored-isopods",
+        "actor.captain-conroy",
+        "actor.spider-crab-at-traverse",
+        "knowledge.captain-conroy-fate",
+        "location.31-traverse",
+        "location.32-isopods",
+        "location.33-fungus",
+        "location.34-cache",
+        "procedure.open-isopod-secret-door",
+        "situation.armored-isopod-encounter",
+        "situation.polypore-nonviolence",
+        "situation.return-avenging-angel-standard",
+        "situation.spider-crab-watches-traverse"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted 3 routed effects records.",
+      "pdf_page": 34,
+      "record_ids": [
+        "effect.armored-isopod-defense-curl",
+        "effect.green-angel-knighthood-invitation",
+        "effect.polypore-nonviolence"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "Extracted 11 routed items records.",
+      "pdf_page": 34,
+      "record_ids": [
+        "item.armored-isopod-shell",
+        "item.avenging-angel-battle-standard",
+        "item.conidiaspore-plate-mail",
+        "item.harpoon",
+        "item.mevverwen-blowtubes",
+        "item.purple-lotus-powder",
+        "item.red-mushroom-shield",
+        "item.silver-shilavos",
+        "item.steel-pipe",
+        "item.toad-shavings",
+        "item.traverse-rope-and-spikes"
+      ],
+      "status": "extracted",
+      "task": "items"
+    },
+    {
+      "notes": "Extracted 8 routed adventure records.",
+      "pdf_page": 35,
+      "record_ids": [
+        "actor.shawson",
+        "location.35-tricky-hallway",
+        "location.36-table",
+        "location.37-chewed-bones",
+        "procedure.toggle-chewed-bones-secret-door",
+        "situation.ghost-fence-effect-in-chewed-bones",
+        "situation.shawson-secret-door-ambush",
+        "situation.tricky-hallway-trap"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted 2 routed effects records.",
+      "pdf_page": 35,
+      "record_ids": [
+        "effect.ghost-fence-teeth-chattering",
+        "effect.tricky-hallway-fall"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "Extracted 6 routed items records.",
+      "pdf_page": 35,
+      "record_ids": [
+        "item.candelabra",
+        "item.hooked-net-and-coins",
+        "item.silver-platter",
+        "item.spear-with-shrunken-head",
+        "item.tattered-red-banner",
+        "item.tiny-green-mushroom"
+      ],
+      "status": "extracted",
+      "task": "items"
+    }
+  ]
+}

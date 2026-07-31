@@ -1,0 +1,2912 @@
+{
+  "nodes": [
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-1-bowls",
+      "label": "1 BOWLS",
+      "source_pages": [
+        15,
+        18,
+        21
+      ]
+    },
+    {
+      "classification": "waypoint",
+      "confidence": "high",
+      "id": "waypoint-1a-first-intersection",
+      "label": "1A FIRST INTERSECTION",
+      "source_pages": [
+        15,
+        18,
+        21
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-2-goats",
+      "label": "2 GOATS",
+      "source_pages": [
+        15,
+        18,
+        21
+      ]
+    },
+    {
+      "classification": "waypoint",
+      "confidence": "high",
+      "id": "waypoint-1b-second-intersection",
+      "label": "1B SECOND INTERSECTION",
+      "source_pages": [
+        15,
+        18,
+        21
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-3-vinegar",
+      "label": "3 VINEGAR",
+      "source_pages": [
+        15,
+        18,
+        21
+      ]
+    },
+    {
+      "classification": "waypoint",
+      "confidence": "high",
+      "id": "waypoint-1c-third-intersection",
+      "label": "1C THIRD INTERSECTION",
+      "source_pages": [
+        15,
+        18,
+        21
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-4-chests",
+      "label": "4 CHESTS",
+      "source_pages": [
+        15,
+        18,
+        21
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-5-landing",
+      "label": "5 LANDING",
+      "source_pages": [
+        15,
+        18,
+        22
+      ]
+    },
+    {
+      "classification": "waypoint",
+      "confidence": "high",
+      "id": "waypoint-5-6-corridor",
+      "label": "Corridor between 5 LANDING and 6 TUMBLERS",
+      "source_pages": [
+        15,
+        18,
+        22
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-5a-closet",
+      "label": "5A CLOSET",
+      "source_pages": [
+        15,
+        18,
+        22
+      ]
+    },
+    {
+      "classification": "boundary",
+      "confidence": "high",
+      "id": "boundary-5-north-steel-doors",
+      "label": "North steel doors and ascending stairs at 5 LANDING",
+      "source_pages": [
+        15,
+        18,
+        22
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-6-tumblers",
+      "label": "6 TUMBLERS",
+      "source_pages": [
+        15,
+        18,
+        22
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-7-throne",
+      "label": "7 THRONE",
+      "source_pages": [
+        15,
+        18,
+        22
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-8-pit",
+      "label": "8 PIT",
+      "source_pages": [
+        15,
+        18,
+        23
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-9-fountain",
+      "label": "9 FOUNTAIN",
+      "source_pages": [
+        15,
+        18,
+        23
+      ]
+    },
+    {
+      "classification": "waypoint",
+      "confidence": "high",
+      "id": "waypoint-9a-underwater-tunnel",
+      "label": "9A UNDERWATER TUNNEL",
+      "source_pages": [
+        15,
+        18,
+        23,
+        40
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-10-bone-pile",
+      "label": "10 BONE PILE",
+      "source_pages": [
+        15,
+        18,
+        23
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-11-crab-mural",
+      "label": "11 CRAB MURAL",
+      "source_pages": [
+        15,
+        18,
+        24
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-12-abacus-mural",
+      "label": "12 ABACUS MURAL",
+      "source_pages": [
+        15,
+        18,
+        24
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-13-city-mural",
+      "label": "13 CITY MURAL",
+      "source_pages": [
+        15,
+        18,
+        24
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-14-sarcophagus",
+      "label": "14 SARCOPHAGUS",
+      "source_pages": [
+        15,
+        18,
+        24
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-14a-shadrakul",
+      "label": "14A SHADRAKUL",
+      "source_pages": [
+        24
+      ]
+    },
+    {
+      "classification": "waypoint",
+      "confidence": "high",
+      "id": "waypoint-15-crack",
+      "label": "15 CRACK",
+      "source_pages": [
+        15,
+        18,
+        24
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "medium",
+      "id": "area-white-temple-plaza",
+      "label": "Plaza beside the White Temple",
+      "source_pages": [
+        24
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-16-mold",
+      "label": "16 MOLD",
+      "source_pages": [
+        15,
+        18,
+        25
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-17-altar",
+      "label": "17 ALTAR",
+      "source_pages": [
+        15,
+        18,
+        25
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-18-shaft",
+      "label": "18 SHAFT",
+      "source_pages": [
+        15,
+        18,
+        25
+      ]
+    },
+    {
+      "classification": "waypoint",
+      "confidence": "high",
+      "id": "waypoint-18a-ledge",
+      "label": "18A LEDGE",
+      "source_pages": [
+        15,
+        18,
+        25,
+        32
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-19-priests",
+      "label": "19 PRIESTS",
+      "source_pages": [
+        15,
+        18,
+        26
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-20-pools",
+      "label": "20 POOLS",
+      "source_pages": [
+        15,
+        18,
+        26
+      ]
+    },
+    {
+      "classification": "boundary",
+      "confidence": "high",
+      "id": "boundary-21-heavy-doors",
+      "label": "21 HEAVY DOORS",
+      "source_pages": [
+        15,
+        28,
+        30
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-22-mushroom",
+      "label": "22 MUSHROOM",
+      "source_pages": [
+        15,
+        28,
+        30,
+        31
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-23-weak-floor",
+      "label": "23 WEAK FLOOR",
+      "source_pages": [
+        15,
+        28,
+        30,
+        31,
+        35
+      ]
+    },
+    {
+      "classification": "waypoint",
+      "confidence": "high",
+      "id": "waypoint-24-crush-hallway",
+      "label": "24 CRUSH HALLWAY",
+      "source_pages": [
+        15,
+        28,
+        30,
+        31
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-24a",
+      "label": "24A",
+      "source_pages": [
+        15,
+        28,
+        31,
+        37
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-24b",
+      "label": "24B",
+      "source_pages": [
+        15,
+        28,
+        31,
+        37
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-24c",
+      "label": "24C",
+      "source_pages": [
+        15,
+        28,
+        31,
+        37
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-25a-crypt",
+      "label": "25A CRYPT",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-25b-crypt",
+      "label": "25B CRYPT",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-25c-crypt",
+      "label": "25C CRYPT",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-25d-crypt",
+      "label": "25D CRYPT",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-25e-crypt",
+      "label": "25E CRYPT",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-25f-crypt",
+      "label": "25F CRYPT",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-25g-crypt",
+      "label": "25G CRYPT",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-26-secret-crypt",
+      "label": "26 SECRET CRYPT",
+      "source_pages": [
+        15,
+        28,
+        32
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-27-ballista",
+      "label": "27 BALLISTA",
+      "source_pages": [
+        15,
+        28,
+        32,
+        33
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-28-games",
+      "label": "28 GAMES",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-29-stage",
+      "label": "29 STAGE",
+      "source_pages": [
+        15,
+        28,
+        31,
+        33
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-30-coffer",
+      "label": "30 COFFER",
+      "source_pages": [
+        15,
+        28,
+        31,
+        33
+      ]
+    },
+    {
+      "classification": "waypoint",
+      "confidence": "high",
+      "id": "waypoint-31-traverse",
+      "label": "31 TRAVERSE",
+      "source_pages": [
+        15,
+        28,
+        31,
+        33,
+        34
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-32-isopods",
+      "label": "32 ISOPODS",
+      "source_pages": [
+        15,
+        28,
+        34
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-33-fungus",
+      "label": "33 FUNGUS",
+      "source_pages": [
+        15,
+        28,
+        34
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-34-cache",
+      "label": "34 CACHE",
+      "source_pages": [
+        15,
+        28,
+        34
+      ]
+    },
+    {
+      "classification": "waypoint",
+      "confidence": "high",
+      "id": "waypoint-35-tricky-hallway",
+      "label": "35 TRICKY HALLWAY",
+      "source_pages": [
+        15,
+        28,
+        34,
+        35
+      ]
+    },
+    {
+      "classification": "waypoint",
+      "confidence": "medium",
+      "id": "waypoint-35a-trapdoor-pit",
+      "label": "35A trapdoor pit",
+      "source_pages": [
+        15,
+        28,
+        35,
+        37
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-36-table",
+      "label": "36 TABLE",
+      "source_pages": [
+        15,
+        28,
+        35
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-37-chewed-bones",
+      "label": "37 CHEWED BONES",
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-38-shroud",
+      "label": "38 SHROUD",
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-39-stone-egg",
+      "label": "39 STONE EGG",
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ]
+    },
+    {
+      "classification": "boundary",
+      "confidence": "high",
+      "id": "boundary-40-ghost-fence",
+      "label": "40 GHOST FENCE",
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-41-sunken-shrine",
+      "label": "41 SUNKEN SHRINE",
+      "source_pages": [
+        15,
+        28,
+        37
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-42-sunken-gallery",
+      "label": "42 SUNKEN GALLERY",
+      "source_pages": [
+        15,
+        28,
+        31,
+        35,
+        37
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-43-spider-crab",
+      "label": "43 SPIDER CRAB",
+      "source_pages": [
+        15,
+        28,
+        34,
+        35,
+        37
+      ]
+    },
+    {
+      "classification": "boundary",
+      "confidence": "medium",
+      "id": "boundary-east-of-43",
+      "label": "Locked steel door east of 43 SPIDER CRAB",
+      "source_pages": [
+        15,
+        28,
+        37
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-44-cistern",
+      "label": "44 CISTERN",
+      "source_pages": [
+        15,
+        28,
+        40
+      ]
+    },
+    {
+      "classification": "boundary",
+      "confidence": "high",
+      "id": "boundary-44a-wall",
+      "label": "44A WALL",
+      "source_pages": [
+        15,
+        28,
+        40
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-45-barrels",
+      "label": "45 BARRELS",
+      "source_pages": [
+        15,
+        28,
+        40
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-46-daylight",
+      "label": "46 DAYLIGHT",
+      "source_pages": [
+        15,
+        28,
+        40
+      ]
+    },
+    {
+      "classification": "place",
+      "confidence": "high",
+      "id": "area-99-not-written-yet",
+      "label": "99 NOT WRITTEN YET",
+      "source_pages": [
+        36
+      ]
+    }
+  ],
+  "pack_id": "map.v2.001",
+  "passages": [
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-1-bowls",
+      "id": "passage-1-bowls-to-1a",
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "to": "waypoint-1a-first-intersection"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "waypoint-1a-first-intersection",
+      "id": "passage-1a-to-2-goats",
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "to": "area-2-goats"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "waypoint-1a-first-intersection",
+      "id": "passage-1a-to-1b",
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "to": "waypoint-1b-second-intersection"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "waypoint-1b-second-intersection",
+      "id": "passage-1b-to-5-landing",
+      "source_pages": [
+        15,
+        18,
+        21,
+        22
+      ],
+      "to": "area-5-landing"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "waypoint-1b-second-intersection",
+      "id": "passage-1b-to-1c",
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "to": "waypoint-1c-third-intersection"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "waypoint-1c-third-intersection",
+      "id": "passage-1c-to-3-vinegar",
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "to": "area-3-vinegar"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "locked wooden door"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The locked wooden door must be opened or bypassed."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "waypoint-1c-third-intersection",
+      "id": "passage-1c-to-4-chests",
+      "source_pages": [
+        15,
+        18,
+        21
+      ],
+      "to": "area-4-chests"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-5-landing",
+      "id": "passage-5-to-8-pit",
+      "source_pages": [
+        15,
+        18,
+        22,
+        23
+      ],
+      "to": "area-8-pit"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-5-landing",
+      "id": "passage-5-to-5-6-corridor",
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "to": "waypoint-5-6-corridor"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "waypoint-5-6-corridor",
+      "id": "passage-5-6-corridor-to-6",
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "to": "area-6-tumblers"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "waypoint-5-6-corridor",
+      "id": "passage-5-6-corridor-to-5a",
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "to": "area-5a-closet"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "heavy steel doors locked from the other side"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The doors must be opened from the far side or otherwise bypassed."
+        ],
+        "elevation": "up",
+        "features": [
+          "Ascending stairs are barely visible behind the doors."
+        ],
+        "hazards": [],
+        "kind": "doorway and ascending stairway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-5-landing",
+      "id": "passage-5-to-north-steel-doors",
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "to": "boundary-5-north-steel-doors"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "door impossible to force open"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "Set the four tumblers to 1-2-1-2 and pull the lever."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [
+          "An incorrect setting produces grinding noise and, once, sprays milky acid."
+        ],
+        "kind": "recessed doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-6-tumblers",
+      "id": "passage-6-to-7-throne",
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "to": "area-7-throne"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "wooden door shown on the map"
+        ],
+        "baseline_state": null,
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-8-pit",
+      "id": "passage-8-to-9-fountain",
+      "source_pages": [
+        15,
+        18,
+        23
+      ],
+      "to": "area-9-fountain"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "wooden door shown on the map"
+        ],
+        "baseline_state": null,
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-8-pit",
+      "id": "passage-8-to-10-bone-pile",
+      "source_pages": [
+        15,
+        18,
+        23
+      ],
+      "to": "area-10-bone-pile"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-8-pit",
+      "id": "passage-8-to-11-crab-mural",
+      "source_pages": [
+        15,
+        18,
+        23,
+        24
+      ],
+      "to": "area-11-crab-mural"
+    },
+    {
+      "confidence": "medium",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "concealed",
+        "conditions": [
+          "Enter the 30-foot-deep pool and locate the underwater tunnel."
+        ],
+        "elevation": "down",
+        "features": [],
+        "hazards": [
+          "Drowning risk during underwater traversal."
+        ],
+        "kind": "underwater opening",
+        "medium": "water",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "area-9-fountain",
+      "id": "passage-9-to-9a-underwater-tunnel",
+      "source_pages": [
+        15,
+        18,
+        23,
+        40
+      ],
+      "to": "waypoint-9a-underwater-tunnel"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [
+          "Traversal requires swimming underwater."
+        ],
+        "elevation": null,
+        "features": [
+          "A person can swim the tunnel in about 5 minutes."
+        ],
+        "hazards": [
+          "Drowning risk during a five-minute swim."
+        ],
+        "kind": "underwater tunnel",
+        "medium": "water",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "waypoint-9a-underwater-tunnel",
+      "id": "passage-9a-to-44-cistern",
+      "source_pages": [
+        15,
+        23,
+        40
+      ],
+      "to": "area-44-cistern"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "Bones if the Lamb blocks the tunnel after three encounters."
+        ],
+        "baseline_state": "open",
+        "conditions": [
+          "Searching 10 BONE PILE reveals the tunnel; if blocked with bones, clearing it by hand takes 10 minutes."
+        ],
+        "elevation": "level",
+        "features": [
+          "The tunnel is obvious from 14 SARCOPHAGUS but must be found by searching 10 BONE PILE."
+        ],
+        "hazards": [],
+        "kind": "small crawl-tunnel",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "area-10-bone-pile",
+      "id": "passage-10-to-14-sarcophagus",
+      "source_pages": [
+        15,
+        18,
+        23,
+        24
+      ],
+      "to": "area-14-sarcophagus"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [
+          "Traversal remains possible only while 12 ABACUS MURAL has not been rendered impassable by collapse."
+        ],
+        "elevation": "level",
+        "features": [
+          "Removing the support pike in 12 ABACUS MURAL collapses the ceiling and can make the room impassable."
+        ],
+        "hazards": [
+          "Ceiling collapse if the support pike is removed."
+        ],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-11-crab-mural",
+      "id": "passage-11-to-12-abacus-mural",
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "to": "area-12-abacus-mural"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "locked wooden door"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The locked wooden door must be opened or bypassed."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-11-crab-mural",
+      "id": "passage-11-to-19-priests",
+      "source_pages": [
+        15,
+        18,
+        24,
+        26
+      ],
+      "to": "area-19-priests"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [
+          "Traversal remains possible only while 12 ABACUS MURAL has not been rendered impassable by collapse."
+        ],
+        "elevation": "level",
+        "features": [
+          "Removing the support pike in 12 ABACUS MURAL collapses the ceiling and can make the room impassable."
+        ],
+        "hazards": [
+          "Ceiling collapse if the support pike is removed."
+        ],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-12-abacus-mural",
+      "id": "passage-12-to-13-city-mural",
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "to": "area-13-city-mural"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-13-city-mural",
+      "id": "passage-13-to-14-sarcophagus",
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "to": "area-14-sarcophagus"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "spiderwebs"
+        ],
+        "baseline_state": "open",
+        "conditions": [
+          "A person must squeeze through the narrow crack."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [
+          "Tiny red spider bites; a second bite causes instant death."
+        ],
+        "kind": "crack and crawlspace",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-13-city-mural",
+      "id": "passage-13-to-15-crack",
+      "source_pages": [
+        15,
+        18,
+        24
+      ],
+      "to": "waypoint-15-crack"
+    },
+    {
+      "confidence": "medium",
+      "facets": {
+        "barriers": [
+          "opening only the size of a fist"
+        ],
+        "baseline_state": "blocked",
+        "conditions": [],
+        "elevation": "level",
+        "features": [
+          "Allows sight, speech, and exchange of small items with the chicken vendor in the plaza."
+        ],
+        "hazards": [],
+        "kind": "fist-sized opening",
+        "medium": "air",
+        "traversal_direction": null,
+        "visibility": "visible"
+      },
+      "from": "waypoint-15-crack",
+      "id": "passage-15-crack-to-white-temple-plaza",
+      "source_pages": [
+        24
+      ],
+      "to": "area-white-temple-plaza"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "moldy locked wooden door"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The damaged door can be opened by lock bypass or quietly wrenched off its hinges."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-13-city-mural",
+      "id": "passage-13-to-16-mold",
+      "source_pages": [
+        15,
+        18,
+        24,
+        25
+      ],
+      "to": "area-16-mold"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "wooden door shown on the map"
+        ],
+        "baseline_state": null,
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-16-mold",
+      "id": "passage-16-to-17-altar",
+      "source_pages": [
+        15,
+        18,
+        25
+      ],
+      "to": "area-17-altar"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-16-mold",
+      "id": "passage-16-to-18-shaft",
+      "source_pages": [
+        15,
+        18,
+        25
+      ],
+      "to": "area-18-shaft"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [
+          "Reach the ledge by climbing or rigging the block and tackle found in the wreckage."
+        ],
+        "elevation": "up",
+        "features": [
+          "The ledge is 40 feet above the floor; the shaft ceiling is 60 feet above."
+        ],
+        "hazards": [
+          "A fall of up to 40 feet."
+        ],
+        "kind": "shaft climb",
+        "medium": "air",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-18-shaft",
+      "id": "passage-18-shaft-to-18a-ledge",
+      "source_pages": [
+        15,
+        18,
+        25
+      ],
+      "to": "waypoint-18a-ledge"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "sealed portcullis"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The wall winch in 26 SECRET CRYPT controls the portcullis."
+        ],
+        "elevation": "down",
+        "features": [
+          "An armored corpse lies 10 feet beyond the portcullis."
+        ],
+        "hazards": [],
+        "kind": "passage through a portcullis",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "waypoint-18a-ledge",
+      "id": "passage-18a-ledge-to-26-secret-crypt",
+      "source_pages": [
+        15,
+        18,
+        25,
+        32
+      ],
+      "to": "area-26-secret-crypt"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "wooden door shown on the map"
+        ],
+        "baseline_state": null,
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-19-priests",
+      "id": "passage-19-to-20-pools",
+      "source_pages": [
+        15,
+        18,
+        26
+      ],
+      "to": "area-20-pools"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "east door held shut by two iron spikes"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "Remove or bypass the two iron spikes holding the east door shut."
+        ],
+        "elevation": "up",
+        "features": [],
+        "hazards": [],
+        "kind": "ascending stairway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-19-priests",
+      "id": "passage-19-to-21-heavy-doors",
+      "source_pages": [
+        15,
+        18,
+        26,
+        28,
+        30
+      ],
+      "to": "boundary-21-heavy-doors"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "sarcophagus lid and swinging metal bottom"
+        ],
+        "baseline_state": "concealed",
+        "conditions": [
+          "Enter the sarcophagus and have the lid replaced."
+        ],
+        "elevation": "down",
+        "features": [
+          "Replacing the lid makes the bottom swing open; removing the lid makes it swing shut; taking the spellbook locks the trapdoor open."
+        ],
+        "hazards": [
+          "10-foot fall",
+          "Bladed lid edges sever ropes."
+        ],
+        "kind": "sarcophagus trapdoor",
+        "medium": "air",
+        "traversal_direction": "from_to",
+        "visibility": "hidden"
+      },
+      "from": "area-14-sarcophagus",
+      "id": "passage-14-to-14a-shadrakul",
+      "source_pages": [
+        24
+      ],
+      "to": "area-14a-shadrakul"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "10-foot heavy bar",
+          "chains"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "Two people can pry the bar aside for a narrow opening; heavy tools are needed to remove the chain for full opening."
+        ],
+        "elevation": "level",
+        "features": [
+          "With the bar pried aside, the doors open only enough for a human to squeeze through, not the Lamb; removing the chain permits full opening."
+        ],
+        "hazards": [],
+        "kind": "heavy iron doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "boundary-21-heavy-doors",
+      "id": "passage-21-heavy-doors-to-22-mushroom",
+      "source_pages": [
+        15,
+        28,
+        30
+      ],
+      "to": "area-22-mushroom"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "locked north door"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The locked door must be opened or bypassed."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-22-mushroom",
+      "id": "passage-22-mushroom-to-23-weak-floor",
+      "source_pages": [
+        15,
+        28,
+        30,
+        31
+      ],
+      "to": "area-23-weak-floor"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "huge cobweb partially blocking the path"
+        ],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "east path",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-22-mushroom",
+      "id": "passage-22-mushroom-to-24-crush-hallway",
+      "source_pages": [
+        15,
+        28,
+        30,
+        31
+      ],
+      "to": "waypoint-24-crush-hallway"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "defaced wooden door shown on the map"
+        ],
+        "baseline_state": null,
+        "conditions": [],
+        "elevation": "level",
+        "features": [
+          "The words \"ASSHOLE STORAGE\" are carved into the door."
+        ],
+        "hazards": [],
+        "kind": "south doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-22-mushroom",
+      "id": "passage-22-mushroom-to-25a-crypt",
+      "source_pages": [
+        15,
+        28,
+        30,
+        31,
+        32
+      ],
+      "to": "area-25a-crypt"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "unstable brick floor",
+          "far door"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "Cross the unstable floor and open the far door; the door is effectively impossible to smash from the unstable floor unless weakened by acid or fire, while a ballista bolt opens it instantly."
+        ],
+        "elevation": "level",
+        "features": [
+          "Small items cause local collapses; beyond 10 feet from the south door, 40 pounds causes the entire floor to collapse."
+        ],
+        "hazards": [
+          "Total floor collapse beneath a load of 40 pounds beyond 10 feet from the south door."
+        ],
+        "kind": "room crossing and far doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-23-weak-floor",
+      "id": "passage-23-weak-floor-to-36-table",
+      "source_pages": [
+        15,
+        28,
+        30,
+        35
+      ],
+      "to": "area-36-table"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "perfectly disguised trapdoor"
+        ],
+        "baseline_state": "armed",
+        "conditions": [
+          "A touch greater than a feather triggers the hallway; the corresponding switch in 22 MUSHROOM can disarm this trapdoor while held."
+        ],
+        "elevation": "down",
+        "features": [],
+        "hazards": [
+          "40-foot fall into 10-foot-deep water."
+        ],
+        "kind": "disguised spring trapdoor",
+        "medium": "air",
+        "traversal_direction": "from_to",
+        "visibility": "hidden"
+      },
+      "from": "waypoint-24-crush-hallway",
+      "id": "passage-24-crush-hallway-to-24a",
+      "source_pages": [
+        15,
+        28,
+        31
+      ],
+      "to": "area-24a"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "perfectly disguised trapdoor"
+        ],
+        "baseline_state": "armed",
+        "conditions": [
+          "A touch greater than a feather triggers the hallway; the corresponding switch in 22 MUSHROOM can disarm this trapdoor while held."
+        ],
+        "elevation": "down",
+        "features": [],
+        "hazards": [
+          "40-foot fall into 10-foot-deep water."
+        ],
+        "kind": "disguised spring trapdoor",
+        "medium": "air",
+        "traversal_direction": "from_to",
+        "visibility": "hidden"
+      },
+      "from": "waypoint-24-crush-hallway",
+      "id": "passage-24-crush-hallway-to-24b",
+      "source_pages": [
+        15,
+        28,
+        31,
+        37
+      ],
+      "to": "area-24b"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "perfectly disguised trapdoor"
+        ],
+        "baseline_state": "armed",
+        "conditions": [
+          "A touch greater than a feather triggers the hallway; the corresponding switch in 22 MUSHROOM can disarm this trapdoor while held."
+        ],
+        "elevation": "down",
+        "features": [],
+        "hazards": [
+          "40-foot fall into oil-covered, 10-foot-deep water.",
+          "Broken glass on the bottom."
+        ],
+        "kind": "disguised spring trapdoor",
+        "medium": "air",
+        "traversal_direction": "from_to",
+        "visibility": "hidden"
+      },
+      "from": "waypoint-24-crush-hallway",
+      "id": "passage-24-crush-hallway-to-24c",
+      "source_pages": [
+        15,
+        28,
+        31
+      ],
+      "to": "area-24c"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "rusted-shut portcullis"
+        ],
+        "baseline_state": "blocked",
+        "conditions": [],
+        "elevation": "level",
+        "features": [
+          "The portcullis permits sight into 42 SUNKEN GALLERY but not access."
+        ],
+        "hazards": [],
+        "kind": "portcullis opening",
+        "medium": "water",
+        "traversal_direction": null,
+        "visibility": "visible"
+      },
+      "from": "area-24b",
+      "id": "passage-24b-to-42-sunken-gallery",
+      "source_pages": [
+        15,
+        28,
+        31,
+        37
+      ],
+      "to": "area-42-sunken-gallery"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "lowering ceiling",
+          "three perfectly disguised spring trapdoors"
+        ],
+        "baseline_state": "armed",
+        "conditions": [
+          "Cross by sprinting and jumping the trapdoors, disarm trapdoors with the three switches in 22 MUSHROOM, climb along the wall with spikes and ropes, or brace the ceiling with an uncrushable object."
+        ],
+        "elevation": "level",
+        "features": [
+          "The ceiling takes 10 seconds to fall 10 feet, rests for 10 seconds, then resets."
+        ],
+        "hazards": [
+          "Crushing ceiling",
+          "Three 40-foot falls through trapdoors."
+        ],
+        "kind": "90-foot crushing hallway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "waypoint-24-crush-hallway",
+      "id": "passage-24-crush-hallway-to-30-coffer",
+      "source_pages": [
+        15,
+        28,
+        31,
+        33
+      ],
+      "to": "area-30-coffer"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "wooden door shown on the map"
+        ],
+        "baseline_state": null,
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-30-coffer",
+      "id": "passage-30-coffer-to-31-traverse",
+      "source_pages": [
+        15,
+        28,
+        31,
+        33,
+        34
+      ],
+      "to": "waypoint-31-traverse"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "partially collapsed floor forming a broad pit"
+        ],
+        "baseline_state": "open",
+        "conditions": [
+          "Use the fixed rope or another method to cross the pit."
+        ],
+        "elevation": "level",
+        "features": [
+          "A 30-foot rope is tied between two iron spikes on the west wall."
+        ],
+        "hazards": [
+          "40-foot fall to water",
+          "Spider crab can reach 38 feet out of the water."
+        ],
+        "kind": "rope traverse across a broad pit",
+        "medium": "air",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "waypoint-31-traverse",
+      "id": "passage-31-traverse-to-32-isopods",
+      "source_pages": [
+        15,
+        28,
+        34
+      ],
+      "to": "area-32-isopods"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-30-coffer",
+      "id": "passage-30-coffer-to-29-stage",
+      "source_pages": [
+        15,
+        28,
+        31,
+        33
+      ],
+      "to": "area-29-stage"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-29-stage",
+      "id": "passage-29-stage-to-28-games",
+      "source_pages": [
+        15,
+        28,
+        31,
+        33
+      ],
+      "to": "area-28-games"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-28-games",
+      "id": "passage-28-games-to-27-ballista",
+      "source_pages": [
+        15,
+        28,
+        32,
+        33
+      ],
+      "to": "area-27-ballista"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "secret door in the east wall"
+        ],
+        "baseline_state": "concealed",
+        "conditions": [
+          "Press the switch at the back of the 5-foot-deep round hole in the north wall."
+        ],
+        "elevation": "level",
+        "features": [
+          "Wear on the floor suggests a doorway."
+        ],
+        "hazards": [],
+        "kind": "secret doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "area-32-isopods",
+      "id": "passage-32-isopods-to-33-fungus",
+      "source_pages": [
+        15,
+        28,
+        34
+      ],
+      "to": "area-33-fungus"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "complex mass of fungus covering the north wall and door"
+        ],
+        "baseline_state": "concealed",
+        "conditions": [
+          "Excavate the fungus to reveal the door to 34 CACHE."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "concealed doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "area-33-fungus",
+      "id": "passage-33-fungus-to-34-cache",
+      "source_pages": [
+        15,
+        28,
+        34
+      ],
+      "to": "area-34-cache"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "hallway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-32-isopods",
+      "id": "passage-32-isopods-to-35-tricky-hallway",
+      "source_pages": [
+        15,
+        28,
+        34,
+        35
+      ],
+      "to": "waypoint-35-tricky-hallway"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "hallway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "waypoint-35-tricky-hallway",
+      "id": "passage-35-tricky-hallway-to-36-table",
+      "source_pages": [
+        15,
+        28,
+        35
+      ],
+      "to": "area-36-table"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "trapdoor in the exact middle of the hallway"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "Depress the switch at the back of the 4-foot-deep round hole in the ceiling to open the trapdoor."
+        ],
+        "elevation": "down",
+        "features": [],
+        "hazards": [
+          "40-foot fall onto stacked furniture barely above the water."
+        ],
+        "kind": "trapdoor and pit",
+        "medium": "air",
+        "traversal_direction": "from_to",
+        "visibility": "hidden"
+      },
+      "from": "waypoint-35-tricky-hallway",
+      "id": "passage-35-tricky-hallway-to-35a",
+      "source_pages": [
+        15,
+        28,
+        35,
+        37
+      ],
+      "to": "waypoint-35a-trapdoor-pit"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [
+          "The bottom of the pit connects with 42 SUNKEN GALLERY."
+        ],
+        "hazards": [],
+        "kind": "pit-bottom opening",
+        "medium": "water",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "waypoint-35a-trapdoor-pit",
+      "id": "passage-35a-to-42-sunken-gallery",
+      "source_pages": [
+        15,
+        28,
+        35,
+        37
+      ],
+      "to": "area-42-sunken-gallery"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-36-table",
+      "id": "passage-36-table-to-37-chewed-bones",
+      "source_pages": [
+        15,
+        28,
+        35
+      ],
+      "to": "area-37-chewed-bones"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "stack of 12 planks partially obscuring the doorway"
+        ],
+        "baseline_state": "partially blocked",
+        "conditions": [],
+        "elevation": "level",
+        "features": [
+          "The doorway appears to have been boarded up previously."
+        ],
+        "hazards": [],
+        "kind": "doorway",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-37-chewed-bones",
+      "id": "passage-37-chewed-bones-to-38-shroud",
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ],
+      "to": "area-38-shroud"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "secret panel in the north wall, 8 feet above the ground"
+        ],
+        "baseline_state": "concealed",
+        "conditions": [
+          "Press both switches in the two 4-foot-deep wall holes simultaneously; climb 8 feet to the opening."
+        ],
+        "elevation": "up",
+        "features": [],
+        "hazards": [
+          "Shawson waits beside the opening and may drag the first climber into 39 STONE EGG."
+        ],
+        "kind": "2-foot by 2-foot secret panel",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "area-37-chewed-bones",
+      "id": "passage-37-chewed-bones-to-39-stone-egg",
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ],
+      "to": "area-39-stone-egg"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "room opening",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-37-chewed-bones",
+      "id": "passage-37-chewed-bones-to-40-ghost-fence",
+      "source_pages": [
+        15,
+        28,
+        35,
+        36
+      ],
+      "to": "boundary-40-ghost-fence"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "line of 30 severed heads separating the east and west sides"
+        ],
+        "baseline_state": "active",
+        "conditions": [
+          "Do not touch or pass over the heads while their formation is intact, or first disrupt the formation; then descend the stairs toward 44A WALL."
+        ],
+        "elevation": "down",
+        "features": [
+          "The effect ends while any head is moved out of formation and resumes when the formation is restored."
+        ],
+        "hazards": [
+          "If the heads are touched or someone passes over them, the nearest living thing dies with no save."
+        ],
+        "kind": "ghost-fence crossing and descending stairway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "boundary-40-ghost-fence",
+      "id": "passage-40-ghost-fence-to-44a-wall",
+      "source_pages": [
+        15,
+        28,
+        35,
+        36,
+        40
+      ],
+      "to": "boundary-44a-wall"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-25a-crypt",
+      "id": "passage-25a-to-25b",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "to": "area-25b-crypt"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-25b-crypt",
+      "id": "passage-25b-to-25c",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "to": "area-25c-crypt"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-25c-crypt",
+      "id": "passage-25c-to-25d",
+      "source_pages": [
+        15,
+        28,
+        31,
+        32
+      ],
+      "to": "area-25d-crypt"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "door hidden behind the tiles on the south wall"
+        ],
+        "baseline_state": "concealed",
+        "conditions": [
+          "Strip or remove the south-wall tiles to reveal the door."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "secret doorway",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "area-25a-crypt",
+      "id": "passage-25a-to-26-secret-crypt",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "to": "area-26-secret-crypt"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "portcullis currently lowered"
+        ],
+        "baseline_state": "lowered",
+        "conditions": [
+          "Operate the winch 10 feet south of the portcullis."
+        ],
+        "elevation": "down",
+        "features": [],
+        "hazards": [],
+        "kind": "descending passage through a portcullis",
+        "medium": "ground",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-25b-crypt",
+      "id": "passage-25b-to-25g",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "to": "area-25g-crypt"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-25c-crypt",
+      "id": "passage-25c-to-25f",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "to": "area-25f-crypt"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-25d-crypt",
+      "id": "passage-25d-to-25e",
+      "source_pages": [
+        15,
+        28,
+        32,
+        33
+      ],
+      "to": "area-25e-crypt"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-26-secret-crypt",
+      "id": "passage-26-secret-crypt-to-25g",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "to": "area-25g-crypt"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-25g-crypt",
+      "id": "passage-25g-to-25f",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "to": "area-25f-crypt"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-25f-crypt",
+      "id": "passage-25f-to-25e",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "to": "area-25e-crypt"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "corridor",
+        "medium": "ground",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-25e-crypt",
+      "id": "passage-25e-to-27-ballista",
+      "source_pages": [
+        15,
+        28,
+        32,
+        33
+      ],
+      "to": "area-27-ballista"
+    },
+    {
+      "confidence": "medium",
+      "facets": {
+        "barriers": [
+          "metal door shown on the map"
+        ],
+        "baseline_state": null,
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "flooded corridor and doorway",
+        "medium": "water",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-41-sunken-shrine",
+      "id": "passage-41-sunken-shrine-to-42-sunken-gallery",
+      "source_pages": [
+        15,
+        28,
+        37
+      ],
+      "to": "area-42-sunken-gallery"
+    },
+    {
+      "confidence": "medium",
+      "facets": {
+        "barriers": [
+          "metal door shown on the map"
+        ],
+        "baseline_state": null,
+        "conditions": [],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "flooded corridor and doorway",
+        "medium": "water",
+        "traversal_direction": "both",
+        "visibility": "visible"
+      },
+      "from": "area-42-sunken-gallery",
+      "id": "passage-42-sunken-gallery-to-43-spider-crab",
+      "source_pages": [
+        15,
+        28,
+        37
+      ],
+      "to": "area-43-spider-crab"
+    },
+    {
+      "confidence": "medium",
+      "facets": {
+        "barriers": [
+          "locked steel door"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "The locked steel door must be opened or bypassed; the destination beyond is not identified in this pack."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "flooded corridor and doorway",
+        "medium": "water",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-43-spider-crab",
+      "id": "passage-43-spider-crab-to-east-boundary",
+      "source_pages": [
+        15,
+        28,
+        37
+      ],
+      "to": "boundary-east-of-43"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [
+          "modern brick wall"
+        ],
+        "baseline_state": "closed",
+        "conditions": [
+          "With suitable tools, make a man-sized opening in 6 minutes or a table-sized opening in 10 minutes."
+        ],
+        "elevation": "level",
+        "features": [
+          "Removing a loose brick reveals fresh air and a view into the cistern; breaking the wall is very noisy."
+        ],
+        "hazards": [
+          "Noise attracts available ghouls, the apparatus, the spider crab, and the Lamb in 5+1d4 minutes if able to reach the location."
+        ],
+        "kind": "breached brick wall",
+        "medium": "water",
+        "traversal_direction": "conditional",
+        "visibility": "hidden"
+      },
+      "from": "boundary-44a-wall",
+      "id": "passage-44a-wall-to-44-cistern",
+      "source_pages": [
+        15,
+        28,
+        40
+      ],
+      "to": "area-44-cistern"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [
+          "Swim or use a makeshift boat."
+        ],
+        "elevation": "level",
+        "features": [],
+        "hazards": [],
+        "kind": "flooded corridor",
+        "medium": "water",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-44-cistern",
+      "id": "passage-44-cistern-to-45-barrels",
+      "source_pages": [
+        15,
+        28,
+        40
+      ],
+      "to": "area-45-barrels"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "open",
+        "conditions": [
+          "Swim or use a makeshift boat."
+        ],
+        "elevation": "level",
+        "features": [
+          "A thick pillar of dusty sunlight is visible in 46 DAYLIGHT from the cistern when line of sight is available."
+        ],
+        "hazards": [],
+        "kind": "flooded corridor",
+        "medium": "water",
+        "traversal_direction": "conditional",
+        "visibility": "visible"
+      },
+      "from": "area-44-cistern",
+      "id": "passage-44-cistern-to-46-daylight",
+      "source_pages": [
+        15,
+        28,
+        40
+      ],
+      "to": "area-46-daylight"
+    },
+    {
+      "confidence": "high",
+      "facets": {
+        "barriers": [],
+        "baseline_state": "dormant",
+        "conditions": [
+          "Place a person's head in the bladeless guillotine and operate the winch until the unseen blade falls."
+        ],
+        "elevation": "down",
+        "features": [],
+        "hazards": [
+          "The person's soul is severed from the body and sent to room 99; the soulless body loses normal emotional and developmental capacities."
+        ],
+        "kind": "guillotine soul transport",
+        "medium": "magical",
+        "traversal_direction": "from_to",
+        "visibility": "hidden"
+      },
+      "from": "area-38-shroud",
+      "id": "passage-38-shroud-to-99-not-written-yet",
+      "source_pages": [
+        36
+      ],
+      "to": "area-99-not-written-yet"
+    }
+  ],
+  "schema": "module-map-evidence/v2",
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda",
+  "uncertainties": [
+    {
+      "description": "The map labels a vertical connection as 35A, while page 35 describes the trapdoor pit without a separate 35A heading. The node label and waypoint classification therefore combine the map label with that description.",
+      "source_pages": [
+        15,
+        35,
+        37
+      ],
+      "target_id": "waypoint-35a-trapdoor-pit"
+    },
+    {
+      "description": "The exact position and vertical profile of the entrance from 9 FOUNTAIN into 9A UNDERWATER TUNNEL are not stated in text; the map marks a concealed connection and the fountain pool is 30 feet deep.",
+      "source_pages": [
+        15,
+        18,
+        23,
+        40
+      ],
+      "target_id": "passage-9-to-9a-underwater-tunnel"
+    },
+    {
+      "description": "The source states that 9A UNDERWATER TUNNEL connects to 44 CISTERN and takes about five minutes to swim, but does not state whether the tunnel rises, falls, or remains level.",
+      "source_pages": [
+        23,
+        40
+      ],
+      "target_id": "passage-9a-to-44-cistern"
+    },
+    {
+      "description": "The maps show a metal-door symbol between 41 SUNKEN SHRINE and 42 SUNKEN GALLERY, but the supplied room text does not identify its exact subtype or default state.",
+      "source_pages": [
+        15,
+        28,
+        37
+      ],
+      "target_id": "passage-41-sunken-shrine-to-42-sunken-gallery"
+    },
+    {
+      "description": "The maps show a metal-door symbol between 42 SUNKEN GALLERY and 43 SPIDER CRAB, but the supplied room text does not identify its exact subtype or default state.",
+      "source_pages": [
+        15,
+        28,
+        37
+      ],
+      "target_id": "passage-42-sunken-gallery-to-43-spider-crab"
+    },
+    {
+      "description": "The map shows a locked steel door east of 43 SPIDER CRAB, but the destination beyond that boundary is not identified on any supplied page.",
+      "source_pages": [
+        15,
+        28,
+        37
+      ],
+      "target_id": "boundary-east-of-43"
+    },
+    {
+      "description": "Page 24 shows that 15 CRACK reaches a fist-sized opening overlooking the plaza and supports sight, speech, and exchange of small items, but it does not support person-sized traversal into the plaza.",
+      "source_pages": [
+        24
+      ],
+      "target_id": "passage-15-crack-to-white-temple-plaza"
+    },
+    {
+      "description": "Page 32 repeats the heading 25F CRYPT for two different moon phases, while the map distinctly labels rooms 25C and 25F. The node labels follow the map.",
+      "source_pages": [
+        15,
+        28,
+        32
+      ],
+      "target_id": "area-25c-crypt"
+    },
+    {
+      "description": "The ascending stairs behind the north steel doors at 5 LANDING are visible, but their destination is not named in this pack.",
+      "source_pages": [
+        15,
+        18,
+        22
+      ],
+      "target_id": "boundary-5-north-steel-doors"
+    }
+  ]
+}

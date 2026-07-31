@@ -1,0 +1,876 @@
+{
+  "actor_record_template": {
+    "confidence": "low",
+    "fields": {
+      "appearance": "A source-supported observable description.",
+      "behavior": [
+        "A source-supported public behavior."
+      ],
+      "capabilities": [
+        "Exact source statistics and mechanics."
+      ],
+      "goals": [
+        "A source-supported goal."
+      ],
+      "hidden": [
+        "A source-supported secret order or motivation."
+      ],
+      "reactions": [
+        {
+          "response": "The source-supported response.",
+          "stimulus": "A source-supported provocation."
+        }
+      ],
+      "role": "What the source says this actor does here.",
+      "title": "Example Guard"
+    },
+    "id": "actor.example-guard",
+    "record_type": "actor",
+    "references": [],
+    "source_pages": [
+      26
+    ],
+    "uncertainties": []
+  },
+  "pack_id": "content.006",
+  "place_record_template": {
+    "confidence": "low",
+    "fields": {
+      "contents": [
+        "A visible source-supported feature."
+      ],
+      "discoverable": [
+        {
+          "condition": "Search the indicated feature.",
+          "information": "A source-supported concealed detail."
+        }
+      ],
+      "first_impression": "A source-supported player-safe impression.",
+      "hidden": [
+        "A source-supported GM-only fact."
+      ],
+      "title": "Example Room",
+      "topology_label": "1"
+    },
+    "id": "location.area-example",
+    "record_type": "location",
+    "references": [],
+    "source_pages": [
+      26
+    ],
+    "uncertainties": []
+  },
+  "records": [
+    {
+      "id": "location.19-priests",
+      "record_type": "location",
+      "fields": {
+        "title": "19 PRIESTS",
+        "first_impression": "Three perfectly round pools of pink liquid are set into the floor, each about 1 foot deep in the middle. Three old people in loincloths lie one per pool, smiling in their sleep, twitching, and groaning; one wears a jeweled crab bracer. Two iron spikes hold the east door shut.",
+        "contents": [
+          "Three perfectly round pools of pink liquid, each about 1 foot deep in the middle.",
+          "Three old people in loincloths, one in each pool, apparently asleep and occasionally twitching and groaning.",
+          "A jeweled crab bracer worth 600s, worn by one sleeper.",
+          "Two iron spikes holding the east door shut."
+        ],
+        "hidden": [
+          "The sleepers are retired priests of Vandoh, and immersion in the Lamb's psychotropic urine is their reward.",
+          "They will remain in the urine, writhing in ecstasy, until they die hundreds of years from now.",
+          "The urine has robbed these three priests of all language except the words ‘lamb’, ‘blasphemy’, and ‘magenta’."
+        ],
+        "triggers": [
+          "Touching any one of the priests causes that priest to scream verbally and psychically, awakening all four priests, including Vandress in area 20, who then attack."
+        ],
+        "hazards": [
+          "Tasting the pink liquid causes a compulsion to taste more, lie down in it, and do everything possible to return to it; there is No Save.",
+          "Touching a priest awakens all four priests and triggers their attack."
+        ],
+        "resources": [
+          "Jeweled crab bracer worth 600s.",
+          "Two iron spikes securing the east door."
+        ],
+        "occupants": [
+          "Three Priests of the Pool, one in each pink pool."
+        ],
+        "actor_references": [
+          "actor.priest-of-the-pool"
+        ],
+        "situation_references": [
+          "situation.priests-awaken-and-attack"
+        ],
+        "keyed_area": "19"
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.priest-of-the-pool",
+        "situation.priests-awaken-and-attack",
+        "effect.pink-pool-compulsion",
+        "effect.pink-urine-ecstasy-and-longevity",
+        "effect.pink-urine-language-loss"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.20-pools",
+      "record_type": "location",
+      "fields": {
+        "title": "20 POOLS",
+        "first_impression": "Four irregular pools, one each of pink, yellow, milky, and black liquid, occupy the room. A woman with lobster claws and a third eye is in the pink pool.",
+        "contents": [
+          "Four irregular pools of different colors: pink, yellow, milky, and black.",
+          "A woman with lobster claws and a third eye in the pink pool."
+        ],
+        "hidden": [
+          "The pools are repositories for the more exotic types of waste produced by the Lamb.",
+          "The pink pool is identical to the pink pools in area 19."
+        ],
+        "hazards": [
+          "The pink pool causes the same compulsion as the pink pools in area 19.",
+          "The milky pool is acid (1d6 diminishing).",
+          "Drinking from the black pool causes 1d6 rounds of vomiting heavier-than-air black smoke."
+        ],
+        "resources": [
+          "Yellow liquid light shines as brightly as daylight for 3 rounds when shaken or splashed; it works once."
+        ],
+        "occupants": [
+          "Vandress, the eldest priestess, in the pink pool."
+        ],
+        "actor_references": [
+          "actor.vandress",
+          "actor.the-lamb"
+        ],
+        "situation_references": [
+          "situation.priests-awaken-and-attack"
+        ],
+        "keyed_area": "20"
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.vandress",
+        "actor.the-lamb",
+        "situation.priests-awaken-and-attack",
+        "effect.pink-pool-compulsion",
+        "effect.yellow-pool-liquid-light",
+        "effect.milky-pool-acid",
+        "effect.black-pool-smoke-vomiting",
+        "effect.vandress-pink-slime-addiction"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "location.white-temple",
+      "record_type": "location",
+      "fields": {
+        "title": "White Temple",
+        "first_impression": "A temple located above the pool complex.",
+        "hidden": [
+          "Vandress has no way to contact the White Temple from below.",
+          "Clerics from the temple come down 3 days after a feeding to clean up."
+        ],
+        "actor_references": [
+          "actor.white-temple-clerics"
+        ],
+        "procedure_references": [
+          "procedure.white-temple-cleanup"
+        ],
+        "knowledge_references": [
+          "knowledge.white-temple-cleanup-schedule"
+        ],
+        "topology_node": null
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "medium",
+      "references": [
+        "actor.white-temple-clerics",
+        "procedure.white-temple-cleanup",
+        "knowledge.white-temple-cleanup-schedule"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page gives no physical description, route, or exact position for the White Temple beyond saying it is above.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "actor.priest-of-the-pool",
+      "record_type": "actor",
+      "fields": {
+        "title": "Priest of the Pool",
+        "appearance": "An old person wearing only a loincloth, smiling in sleep, occasionally twitching and groaning in a shallow pink pool.",
+        "role": "One of three retired priests of Vandoh immersed in the pink pools of area 19; the three attack together with Vandress when any priest is touched.",
+        "behavior": [
+          "When touched, the priest screams verbally and psychically.",
+          "When any priest's scream awakens them, all three attack with Vandress.",
+          "The three priests can speak only the words ‘lamb’, ‘blasphemy’, and ‘magenta’."
+        ],
+        "capabilities": [
+          "Lvl 1; Def none; Fists 1d3; Int 3; Dis guardian.",
+          "Each of the three priests knows a different spell: sleep, desiccate, or emergency exit."
+        ],
+        "reactions": [
+          {
+            "stimulus": "Any one of the priests is touched.",
+            "response": "The touched priest screams verbally and psychically; all four priests, including Vandress, awaken and attack."
+          }
+        ],
+        "hidden": [
+          "Immersion in the Lamb's psychotropic urine is the priests' reward, and they will remain there in ecstasy until they die hundreds of years from now."
+        ],
+        "starting_state": [
+          "One priest lies asleep in each of the three pink pools in area 19, smiling, twitching, and groaning."
+        ],
+        "location_references": [
+          "location.19-priests"
+        ],
+        "situation_references": [
+          "situation.priests-awaken-and-attack"
+        ]
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "location.19-priests",
+        "situation.priests-awaken-and-attack",
+        "spell.sleep",
+        "spell.desiccate",
+        "spell.emergency-exit",
+        "effect.pink-urine-ecstasy-and-longevity",
+        "effect.pink-urine-language-loss"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page does not identify which individual priest knows each of the three listed spells.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "actor.vandress",
+      "record_type": "actor",
+      "fields": {
+        "title": "Vandress",
+        "appearance": "A woman with lobster claws and a third eye.",
+        "role": "The eldest priestess, immersed in the pink pool in area 20; unlike her peers, she retains full mental capacity and can parlay or pursue the party.",
+        "goals": [
+          "Gather information from the party.",
+          "Drive the party off.",
+          "Find the Lamb.",
+          "Hunt the party with the Lamb's assistance."
+        ],
+        "behavior": [
+          "She is smart enough to parlay if the need arises.",
+          "She prefers to gather information and drive the party off before finding the Lamb and hunting the party with its assistance.",
+          "If any priest is touched, she awakens with the other priests and attacks."
+        ],
+        "capabilities": [
+          "Lvl 2; Def none; Claw 1d8; Int 7; Dis scheming.",
+          "Spells: confusion, cone of mutilation.",
+          "Retains her full mental capacity."
+        ],
+        "reactions": [
+          {
+            "stimulus": "The need arises to avoid or delay a direct confrontation.",
+            "response": "Vandress may parlay."
+          },
+          {
+            "stimulus": "Any priest is touched.",
+            "response": "Vandress awakens and attacks with the other three priests."
+          }
+        ],
+        "relationships": [
+          {
+            "target_id": "actor.the-lamb",
+            "relationship": "She intends to find the Lamb and use its assistance to hunt the party."
+          }
+        ],
+        "knowledge_references": [
+          "knowledge.white-temple-cleanup-schedule"
+        ],
+        "location_references": [
+          "location.20-pools"
+        ],
+        "situation_references": [
+          "situation.priests-awaken-and-attack"
+        ],
+        "hidden": [
+          "She has no way to contact the White Temple above.",
+          "She is hopelessly addicted to the pink slime and cannot go longer than 1 hour without submerging herself in it."
+        ],
+        "starting_state": [
+          "Vandress is in the pink pool in area 20."
+        ]
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.the-lamb",
+        "location.20-pools",
+        "situation.priests-awaken-and-attack",
+        "knowledge.white-temple-cleanup-schedule",
+        "spell.confusion",
+        "spell.cone-of-mutilation",
+        "effect.vandress-pink-slime-addiction"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "actor.the-lamb",
+      "record_type": "actor",
+      "fields": {
+        "title": "the Lamb",
+        "role": "The creature whose exotic waste is stored in the pools of area 20 and whose assistance Vandress intends to seek when hunting the party.",
+        "capabilities": [
+          "Produces the exotic types of waste stored in the four pools of area 20."
+        ],
+        "relationships": [
+          {
+            "target_id": "actor.vandress",
+            "relationship": "Vandress intends to find the Lamb and hunt the party with its assistance."
+          }
+        ],
+        "location_references": [
+          "location.20-pools"
+        ]
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "medium",
+      "references": [
+        "actor.vandress",
+        "location.20-pools"
+      ],
+      "uncertainties": [
+        {
+          "description": "This page does not state the Lamb's current location, appearance, statistics, or whether it will agree to help Vandress.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "actor.white-temple-clerics",
+      "record_type": "actor",
+      "fields": {
+        "title": "White Temple clerics",
+        "role": "Clerics who come down from the White Temple 3 days after a feeding to clean up."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "location.white-temple",
+        "procedure.white-temple-cleanup",
+        "knowledge.white-temple-cleanup-schedule"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page gives no number, names, statistics, route, or details of what their cleanup involves.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "situation.priests-awaken-and-attack",
+      "record_type": "situation",
+      "fields": {
+        "title": "Priests Awaken and Attack",
+        "perceived": "When any priest is touched, that priest screams aloud and psychically. All four priests, including Vandress in the next area, awaken and attack.",
+        "activation": {
+          "type": "triggered",
+          "condition": "Any one of the priests is touched."
+        },
+        "repeat": {
+          "mode": "once"
+        },
+        "location_references": [
+          "location.19-priests",
+          "location.20-pools"
+        ],
+        "participants": [
+          {
+            "actor_id": "actor.priest-of-the-pool",
+            "role": "The touched priest screams; all three Priests of the Pool awaken and attack."
+          },
+          {
+            "actor_id": "actor.vandress",
+            "role": "Awakens in area 20 and attacks with the other priests."
+          }
+        ],
+        "actor_reactions": [
+          {
+            "actor_id": "actor.priest-of-the-pool",
+            "reaction": "The touched priest screams verbally and psychically, and all three attack once awakened."
+          },
+          {
+            "actor_id": "actor.vandress",
+            "reaction": "Awakens and attacks."
+          }
+        ],
+        "stakes": [
+          "The party faces all four priests at once."
+        ],
+        "outcomes": [
+          "All four priests awaken and attack."
+        ],
+        "possible_effects": [
+          {
+            "effect": "actor-state",
+            "description": "All three Priests of the Pool awaken and attack.",
+            "target": "actor.priest-of-the-pool"
+          },
+          {
+            "effect": "actor-state",
+            "description": "Vandress awakens and attacks.",
+            "target": "actor.vandress"
+          }
+        ]
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "location.19-priests",
+        "location.20-pools",
+        "actor.priest-of-the-pool",
+        "actor.vandress"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "procedure.white-temple-cleanup",
+      "record_type": "procedure",
+      "fields": {
+        "title": "White Temple Cleanup",
+        "trigger": "3 days after a feeding.",
+        "steps": [
+          "Clerics from the White Temple come down to clean up."
+        ]
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.white-temple-clerics",
+        "location.white-temple",
+        "knowledge.white-temple-cleanup-schedule"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page does not specify the clerics' route, destination, number, or cleanup actions.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge.white-temple-cleanup-schedule",
+      "record_type": "knowledge",
+      "fields": {
+        "title": "White Temple Cleanup Schedule",
+        "text": "Vandress knows that clerics from the White Temple will come down 3 days after a feeding to clean up, although she has no way to contact the temple above."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.vandress",
+        "actor.white-temple-clerics",
+        "location.white-temple",
+        "procedure.white-temple-cleanup"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page does not state when the most recent feeding occurred.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effect.pink-pool-compulsion",
+      "record_type": "effect",
+      "fields": {
+        "title": "Pink Pool Compulsion",
+        "text": "Anyone tasting a pink pool is compelled to taste more and eventually lie down in it. No Save. Anyone who tastes it is compelled to do everything in their power to return. If forcibly removed, the effect lasts 10 minutes before fading from a compulsion to lingering dissatisfaction with all of life's other pleasures."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "location.19-priests",
+        "location.20-pools"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.yellow-pool-liquid-light",
+      "record_type": "effect",
+      "fields": {
+        "title": "Yellow Pool Liquid Light",
+        "text": "When the yellow pool's liquid light is shaken or splashed, it shines as brightly as daylight for 3 rounds. It works once."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "location.20-pools"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.milky-pool-acid",
+      "record_type": "effect",
+      "fields": {
+        "title": "Milky Pool Acid",
+        "text": "The milky pool is acid (1d6 diminishing)."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "location.20-pools"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page gives the mechanic as ‘1d6 diminishing’ but does not define the diminishing procedure.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effect.black-pool-smoke-vomiting",
+      "record_type": "effect",
+      "fields": {
+        "title": "Black Pool Smoke Vomiting",
+        "text": "Drinking from the black pool causes the drinker to spend 1d6 rounds vomiting a heavier-than-air black smoke."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "location.20-pools"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "effect.pink-urine-ecstasy-and-longevity",
+      "record_type": "effect",
+      "fields": {
+        "title": "Pink Urine Ecstasy and Longevity",
+        "text": "The Lamb's psychotropic urine keeps the three retired priests writhing in ecstasy and allows them to remain there until they die hundreds of years from now."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "location.19-priests",
+        "actor.priest-of-the-pool",
+        "actor.the-lamb"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page states this outcome for the retired priests but does not establish whether the longevity applies to other creatures.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effect.pink-urine-language-loss",
+      "record_type": "effect",
+      "fields": {
+        "title": "Pink Urine Language Loss",
+        "text": "The urine has robbed the three Priests of the Pool of all language except the words ‘lamb’, ‘blasphemy’, and ‘magenta’."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "location.19-priests",
+        "actor.priest-of-the-pool"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page does not say whether the language loss can be reversed or whether it affects anyone other than these three priests.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effect.vandress-pink-slime-addiction",
+      "record_type": "effect",
+      "fields": {
+        "title": "Vandress's Pink Slime Addiction",
+        "text": "Vandress is hopelessly, pathetically addicted to the pink slime and cannot go longer than 1 hour without submerging herself in it."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.vandress",
+        "location.20-pools"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page does not specify the consequence if Vandress remains out of the pink slime for more than 1 hour.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spell.sleep",
+      "record_type": "spell",
+      "fields": {
+        "title": "sleep",
+        "text": "One of the three Priests of the Pool knows sleep; each priest knows a different spell from sleep, desiccate, and emergency exit."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.priest-of-the-pool"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page does not identify which individual priest knows sleep or provide the spell's mechanics.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spell.desiccate",
+      "record_type": "spell",
+      "fields": {
+        "title": "desiccate",
+        "text": "One of the three Priests of the Pool knows desiccate; each priest knows a different spell from sleep, desiccate, and emergency exit."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.priest-of-the-pool"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page does not identify which individual priest knows desiccate or provide the spell's mechanics.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spell.emergency-exit",
+      "record_type": "spell",
+      "fields": {
+        "title": "emergency exit",
+        "text": "One of the three Priests of the Pool knows emergency exit; each priest knows a different spell from sleep, desiccate, and emergency exit."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.priest-of-the-pool"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page does not identify which individual priest knows emergency exit or provide the spell's mechanics.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spell.confusion",
+      "record_type": "spell",
+      "fields": {
+        "title": "confusion",
+        "text": "Vandress knows confusion."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.vandress"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page lists the spell but does not provide its mechanics.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spell.cone-of-mutilation",
+      "record_type": "spell",
+      "fields": {
+        "title": "cone of mutilation",
+        "text": "Vandress knows cone of mutilation."
+      },
+      "source_pages": [
+        26
+      ],
+      "confidence": "high",
+      "references": [
+        "actor.vandress"
+      ],
+      "uncertainties": [
+        {
+          "description": "The page lists the spell but does not provide its mechanics.",
+          "source_pages": [
+            26
+          ]
+        }
+      ]
+    }
+  ],
+  "schema": "module-content-evidence/v3",
+  "situation_record_template": {
+    "confidence": "low",
+    "fields": {
+      "activation": {
+        "condition": "The source-stated activation condition.",
+        "type": "triggered"
+      },
+      "approaches": [
+        "A likely source-supported approach."
+      ],
+      "completion": [
+        "The source-stated completion condition."
+      ],
+      "outcomes": [
+        "A source-supported possible outcome."
+      ],
+      "participants": [
+        {
+          "actor_id": "actor.example-guard",
+          "role": "Blocks the way."
+        }
+      ],
+      "perceived": "A player-safe description of what happens.",
+      "possible_effects": [
+        {
+          "description": "A source-supported later consequence.",
+          "effect": "future-thread"
+        }
+      ],
+      "repeat": {
+        "condition": null,
+        "mode": "once"
+      },
+      "stakes": [
+        "What the source says is at risk."
+      ],
+      "title": "Example Standoff"
+    },
+    "id": "situation.example-standoff",
+    "record_type": "situation",
+    "references": [
+      "actor.example-guard"
+    ],
+    "source_pages": [
+      26
+    ],
+    "uncertainties": []
+  },
+  "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda",
+  "task": "content",
+  "task_coverage": [
+    {
+      "notes": "Extracted keyed locations, referenced off-page location, actors, the priest awakening encounter, the White Temple cleanup procedure, and Vandress's related knowledge.",
+      "pdf_page": 26,
+      "record_ids": [
+        "location.19-priests",
+        "location.20-pools",
+        "location.white-temple",
+        "actor.priest-of-the-pool",
+        "actor.vandress",
+        "actor.the-lamb",
+        "actor.white-temple-clerics",
+        "situation.priests-awaken-and-attack",
+        "procedure.white-temple-cleanup",
+        "knowledge.white-temple-cleanup-schedule"
+      ],
+      "status": "extracted",
+      "task": "adventure"
+    },
+    {
+      "notes": "Extracted the pink-pool compulsion, pool-specific effects, the priests' urine effects, and Vandress's pink-slime addiction.",
+      "pdf_page": 26,
+      "record_ids": [
+        "effect.pink-pool-compulsion",
+        "effect.yellow-pool-liquid-light",
+        "effect.milky-pool-acid",
+        "effect.black-pool-smoke-vomiting",
+        "effect.pink-urine-ecstasy-and-longevity",
+        "effect.pink-urine-language-loss",
+        "effect.vandress-pink-slime-addiction"
+      ],
+      "status": "extracted",
+      "task": "effects"
+    },
+    {
+      "notes": "Extracted every spell name listed for the Priests of the Pool and Vandress; the page does not provide spell mechanics.",
+      "pdf_page": 26,
+      "record_ids": [
+        "spell.sleep",
+        "spell.desiccate",
+        "spell.emergency-exit",
+        "spell.confusion",
+        "spell.cone-of-mutilation"
+      ],
+      "status": "extracted",
+      "task": "spells"
+    }
+  ]
+}
