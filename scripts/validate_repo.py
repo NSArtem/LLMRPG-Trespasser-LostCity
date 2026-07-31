@@ -22,7 +22,6 @@ REQUIRED_FILES = (
     "README.md",
     "MANIFEST.md",
     "CURRENT.md",
-    "CHANGELOG.md",
     ".gitignore",
     "chatgpt-project/SETUP_AND_PROMPTS.md",
     "campaign/premises.md",
@@ -1451,8 +1450,6 @@ def check_legacy_journal_references(
     """Не допускает рабочие ссылки на прежнюю календарную структуру."""
     for path, text in texts.items():
         if path.suffix.lower() != ".md":
-            continue
-        if display(path) == "CHANGELOG.md":
             continue
         for line_number, line in enumerate(text.splitlines(), start=1):
             if LEGACY_SESSION_RE.search(line):
