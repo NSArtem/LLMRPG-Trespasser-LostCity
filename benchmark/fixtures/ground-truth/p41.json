@@ -1,0 +1,1047 @@
+[
+  {
+    "confidence": "high",
+    "fields": {
+      "behavior": [
+        "When someone enters the center of 44 CISTERN, it starts swimming toward them.",
+        "One round after beginning its approach, it urinates in anticipation and fills the air with an ammonia stink.",
+        "On the following round, it loses patience and begins swimming on the surface.",
+        "When noisy wall-breaking vibrations reach it, it arrives in 5+1d4 minutes and waits on the cistern bottom near the mouth of the underwater tunnel.",
+        "It rests in 8 PIT 2-in-6 of the time."
+      ],
+      "capabilities": [
+        "Swims 10 feet per round.",
+        "Climbs the slick walls at 46 DAYLIGHT as fast as a human can."
+      ],
+      "hidden": [
+        "The author recommends attacking it in 8 PIT when it is resting there, using fire and sharp things while it struggles to climb out.",
+        "The White Temple regards it as their godling."
+      ],
+      "knowledge_references": [
+        "knowledge.preferred-lamb-kill-at-8-pit",
+        "knowledge.white-temple-godling-response"
+      ],
+      "location_references": [
+        "location.44-cistern",
+        "location.46-daylight"
+      ],
+      "reactions": [
+        {
+          "response": "The Lamb starts swimming toward that person.",
+          "stimulus": "A person enters the central 50-foot-by-50-foot area of 44 CISTERN."
+        },
+        {
+          "response": "It urinates in anticipation, filling the air with the stink of ammonia.",
+          "stimulus": "One round passes after the Lamb starts approaching."
+        },
+        {
+          "response": "It loses patience and swims on the surface.",
+          "stimulus": "Another round passes after the ammonia warning."
+        },
+        {
+          "response": "It arrives in 5+1d4 minutes, then waits on the bottom near the underwater tunnel mouth.",
+          "stimulus": "The wall at 44A is broken down noisily."
+        },
+        {
+          "response": "The attempt works automatically.",
+          "stimulus": "The party fishes for it with the hook hand and acceptable bait for the first time."
+        }
+      ],
+      "role": "The creature that hunts entrants in the cistern and can be fought, lured, ensnared, or killed.",
+      "situation_references": [
+        "situation.44a-noisy-breach-response",
+        "situation.44-cistern-lamb-approach",
+        "situation.fighting-lamb-in-cistern"
+      ],
+      "title": "The Lamb"
+    },
+    "id": "actor.lamb",
+    "record_type": "actor",
+    "references": [
+      "location.44a-wall",
+      "location.44-cistern",
+      "location.46-daylight",
+      "actor.white-temple",
+      "situation.44a-noisy-breach-response",
+      "situation.44-cistern-lamb-approach",
+      "situation.fighting-lamb-in-cistern",
+      "knowledge.preferred-lamb-kill-at-8-pit",
+      "knowledge.white-temple-godling-response",
+      "effect.lamb-movement-rates",
+      "effect.lamb-resting-in-8-pit"
+    ],
+    "source_pages": [
+      40,
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "hidden": [
+        "The Temple's expected response to the Lamb's body entering its drinking fountain is swift and forceful."
+      ],
+      "knowledge_references": [
+        "knowledge.noria-feeds-white-temple",
+        "knowledge.white-temple-godling-response"
+      ],
+      "location_references": [
+        "location.44-cistern",
+        "location.45-barrels",
+        "location.46b-tower"
+      ],
+      "reactions": [
+        {
+          "response": "A swift and forceful response can be expected.",
+          "stimulus": "The Lamb is dragged up by the noria and viscerally ejected into the White Temple's drinking fountain."
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "The White Temple regards the Lamb as its godling.",
+          "target_id": "actor.lamb"
+        }
+      ],
+      "role": "The organization above the cistern that receives water from the noria and may retaliate if its godling is expelled into its drinking fountain.",
+      "title": "The White Temple"
+    },
+    "id": "actor.white-temple",
+    "record_type": "actor",
+    "references": [
+      "actor.lamb",
+      "location.44-cistern",
+      "location.45-barrels",
+      "location.46b-tower",
+      "knowledge.noria-feeds-white-temple",
+      "knowledge.white-temple-godling-response",
+      "effect.white-temple-forceful-response"
+    ],
+    "source_pages": [
+      40,
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "No one answers when the party knocks at the locked steel door above 45 BARRELS.",
+      "title": "Knocking at the 45 BARRELS Door Gets No Answer"
+    },
+    "id": "effect.45-door-knock-no-answer",
+    "record_type": "effect",
+    "references": [
+      "location.45-barrels",
+      "knowledge.45-door-leads-to-kitchen-cellar"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "One person can row the boat at 20 feet per round.",
+      "title": "Rowboat Movement at 45 BARRELS"
+    },
+    "id": "effect.45-rowboat-speed",
+    "record_type": "effect",
+    "references": [
+      "location.45-barrels",
+      "item.rowboat",
+      "procedure.row-45-rowboat"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Reaching the stone stairs 20 feet overhead requires either a successful grappling-hook Attack roll against AC 15 or two Movement checks to climb the slick walls, one check for each 10 feet.",
+      "title": "Reaching the Stairs at 46 DAYLIGHT"
+    },
+    "id": "effect.46-daylight-access-checks",
+    "record_type": "effect",
+    "references": [
+      "location.46-daylight",
+      "item.grappling-hook",
+      "procedure.reach-46-daylight-stairs"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": [
+      {
+        "description": "The route text uses '46A TRUMPET (not on map)' and '46B FREEDOM', while the keyed headings are '46A STATUE' and '46B TOWER'; the trumpet and the route to freedom are both described under 46B TOWER.",
+        "source_pages": [
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The statue of Vandoh in 46A can be toppled to block the trapdoor.",
+      "title": "Vandoh's Statue Can Block the Trapdoor"
+    },
+    "id": "effect.46a-statue-blocks-trapdoor",
+    "record_type": "effect",
+    "references": [
+      "location.46a-statue",
+      "item.statue-of-vandoh",
+      "procedure.block-46a-trapdoor-with-statue"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Reaching freedom outside the dungeon counts as a Milestone.",
+      "title": "Escaping the Dungeon Is a Milestone"
+    },
+    "id": "effect.escape-milestone",
+    "record_type": "effect",
+    "references": [
+      "location.46b-tower"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "When the party first tries to fish for the Lamb using the hook hand and acceptable bait, the attempt works automatically.",
+      "title": "First Lamb-Fishing Attempt Automatically Works"
+    },
+    "id": "effect.first-lamb-fishing-success",
+    "record_type": "effect",
+    "references": [
+      "actor.lamb",
+      "situation.fighting-lamb-in-cistern",
+      "procedure.fish-for-lamb",
+      "item.hook-hand"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The Lamb swims 10 feet per round and can climb the slick walls at 46 DAYLIGHT as fast as a human can.",
+      "title": "The Lamb's Movement Rates"
+    },
+    "id": "effect.lamb-movement-rates",
+    "record_type": "effect",
+    "references": [
+      "actor.lamb",
+      "location.44-cistern",
+      "location.46-daylight"
+    ],
+    "source_pages": [
+      40,
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The Lamb is resting in 8 PIT 2-in-6 of the time, creating the recommended opportunity to attack it with fire and sharp things while it struggles to climb out.",
+      "title": "Chance the Lamb Is Resting in 8 PIT"
+    },
+    "id": "effect.lamb-resting-in-8-pit",
+    "record_type": "effect",
+    "references": [
+      "actor.lamb",
+      "knowledge.preferred-lamb-kill-at-8-pit",
+      "situation.fighting-lamb-in-cistern"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "If the Lamb is ensnared in the noria, the waterwheel drags it along and crushes it against the slotted ceiling.",
+      "title": "The Noria Can Crush the Lamb"
+    },
+    "id": "effect.noria-crushes-lamb",
+    "record_type": "effect",
+    "references": [
+      "location.44-cistern",
+      "actor.lamb",
+      "situation.fighting-lamb-in-cistern",
+      "procedure.crush-lamb-with-noria"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "If the Lamb is viscerally ejected into the White Temple's drinking fountain, a swift and forceful response from the White Temple can be expected.",
+      "title": "White Temple Responds to Its Godling in the Fountain"
+    },
+    "id": "effect.white-temple-forceful-response",
+    "record_type": "effect",
+    "references": [
+      "actor.lamb",
+      "actor.white-temple",
+      "procedure.crush-lamb-with-noria",
+      "knowledge.white-temple-godling-response"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "A grappling hook can reach the elevated stairs at 46 DAYLIGHT with a successful Attack roll against AC 15.",
+      "title": "Grappling Hook"
+    },
+    "id": "item.grappling-hook",
+    "record_type": "item",
+    "references": [
+      "location.46-daylight",
+      "procedure.reach-46-daylight-stairs",
+      "effect.46-daylight-access-checks"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Harpoons are one of the suggested tools that can be combined with other tactics to kill the Lamb in the cistern.",
+      "title": "Harpoon"
+    },
+    "id": "item.harpoon",
+    "record_type": "item",
+    "references": [
+      "location.44-cistern",
+      "situation.fighting-lamb-in-cistern",
+      "procedure.run-cistern-lamb-fight"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The hook hand can be used with acceptable bait to fish for the Lamb; the first such attempt works automatically.",
+      "title": "Hook Hand"
+    },
+    "id": "item.hook-hand",
+    "record_type": "item",
+    "references": [
+      "actor.lamb",
+      "situation.fighting-lamb-in-cistern",
+      "procedure.fish-for-lamb",
+      "effect.first-lamb-fishing-success"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Hooked nets are one of the suggested tools that can be combined with other tactics to kill the Lamb in the cistern.",
+      "title": "Hooked Net"
+    },
+    "id": "item.hooked-net",
+    "record_type": "item",
+    "references": [
+      "location.44-cistern",
+      "situation.fighting-lamb-in-cistern",
+      "procedure.run-cistern-lamb-fight"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Burning oil is a suggested weapon against the Lamb in the cistern. The rowboat at 45 BARRELS contains 2 flasks of oil.",
+      "title": "Oil"
+    },
+    "id": "item.oil",
+    "record_type": "item",
+    "references": [
+      "location.44-cistern",
+      "location.45-barrels",
+      "situation.fighting-lamb-in-cistern",
+      "item.rowboat"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Ropes are one of the suggested tools that can be combined with other tactics to kill the Lamb in the cistern.",
+      "title": "Rope"
+    },
+    "id": "item.rope",
+    "record_type": "item",
+    "references": [
+      "location.44-cistern",
+      "situation.fighting-lamb-in-cistern",
+      "procedure.run-cistern-lamb-fight"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The rowboat at 45 BARRELS contains 2 flasks of oil. One person can row it at 20 feet per round.",
+      "title": "Rowboat"
+    },
+    "id": "item.rowboat",
+    "record_type": "item",
+    "references": [
+      "location.45-barrels",
+      "item.oil",
+      "procedure.row-45-rowboat",
+      "effect.45-rowboat-speed"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The statue in 46A can be toppled to block the trapdoor.",
+      "title": "Statue of Vandoh"
+    },
+    "id": "item.statue-of-vandoh",
+    "record_type": "item",
+    "references": [
+      "location.46a-statue",
+      "procedure.block-46a-trapdoor-with-statue",
+      "effect.46a-statue-blocks-trapdoor"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "A trumpet is present at the top of the White Temple tower in 46B TOWER.",
+      "title": "Trumpet"
+    },
+    "id": "item.trumpet",
+    "record_type": "item",
+    "references": [
+      "location.46b-tower"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": [
+      {
+        "description": "The route text uses '46A TRUMPET (not on map)' and '46B FREEDOM', while the keyed headings are '46A STATUE' and '46B TOWER'; the trumpet and the route to freedom are both described under 46B TOWER.",
+        "source_pages": [
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "There are 16 barrels containing water at 45 BARRELS, each stamped with the insignia of the White Temple.",
+      "title": "White Temple Water Barrels"
+    },
+    "id": "item.water-barrels",
+    "record_type": "item",
+    "references": [
+      "location.45-barrels",
+      "actor.white-temple"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The locked steel door above the stairs leads to the White Temple's kitchen cellar, and no one answers when the party knocks.",
+      "title": "Destination Beyond the Door at 45 BARRELS"
+    },
+    "id": "knowledge.45-door-leads-to-kitchen-cellar",
+    "record_type": "knowledge",
+    "references": [
+      "location.45-barrels",
+      "actor.white-temple",
+      "effect.45-door-knock-no-answer"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "medium",
+    "fields": {
+      "text": "The recommended tactic is to return to 8 PIT when the Lamb is resting there, which occurs 2-in-6 of the time, and attack it with fire and sharp things while it struggles to climb out.",
+      "title": "Preferred Opportunity to Kill the Lamb"
+    },
+    "id": "knowledge.preferred-lamb-kill-at-8-pit",
+    "record_type": "knowledge",
+    "references": [
+      "actor.lamb",
+      "situation.fighting-lamb-in-cistern",
+      "effect.lamb-resting-in-8-pit"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The Lamb is the White Temple's godling. If the noria viscerally ejects it into the Temple's drinking fountain, a swift and forceful response can be expected.",
+      "title": "White Temple Response to the Lamb's Death in the Noria"
+    },
+    "id": "knowledge.white-temple-godling-response",
+    "record_type": "knowledge",
+    "references": [
+      "actor.lamb",
+      "actor.white-temple",
+      "location.44-cistern",
+      "procedure.crush-lamb-with-noria",
+      "effect.white-temple-forceful-response"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "actor_references": [
+        "actor.lamb"
+      ],
+      "contents": [
+        "Water 10 feet deep.",
+        "Sixteen huge water-stained pillars, each about 5 feet in diameter.",
+        "A 60-foot-tall noria of stout lumber near the south wall, extending into the ceiling and constantly spilling water."
+      ],
+      "discoverable": [
+        {
+          "condition": "Enter the central 50-foot-by-50-foot part of the room.",
+          "information": "A glow of sunlight is visible from the north."
+        },
+        {
+          "condition": "Gain line of sight to 46 DAYLIGHT.",
+          "information": "A thick pillar of dusty light fills 46 DAYLIGHT."
+        },
+        {
+          "condition": "Closely observe the noria and where it enters the ceiling.",
+          "information": "The noria carries water up to the White Temple and dumps it into a trough; there is no human-sized space to escape through the mechanism."
+        }
+      ],
+      "first_impression": "Ten-foot-deep water fills a vast chamber crowded by sixteen huge, water-stained pillars. A towering wooden waterwheel near the south wall splashes and creaks loudly.",
+      "hazards": [
+        "Deep water slows swimmers who carry items.",
+        "The Lamb can pursue swimmers at 10 feet per round.",
+        "The moving noria can crush the Lamb against the slotted ceiling if it is ensnared."
+      ],
+      "hidden": [
+        "As soon as someone enters the central 50-foot-by-50-foot area, the Lamb begins swimming toward them."
+      ],
+      "keyed_area": "44",
+      "knowledge_references": [
+        "knowledge.noria-feeds-white-temple",
+        "knowledge.white-temple-godling-response"
+      ],
+      "procedure_references": [
+        "procedure.swim-in-cistern",
+        "procedure.paddle-table-boat",
+        "procedure.run-cistern-lamb-fight",
+        "procedure.fish-for-lamb",
+        "procedure.crush-lamb-with-noria"
+      ],
+      "resources": [
+        "A table can serve as a makeshift boat.",
+        "Planks or similar objects can serve as paddles.",
+        "The noria can be used as an environmental weapon against the Lamb.",
+        "Harpoons, hooked nets, ropes, and burning oil are suggested tools for fighting the Lamb here."
+      ],
+      "situation_references": [
+        "situation.44-cistern-lamb-approach",
+        "situation.fighting-lamb-in-cistern"
+      ],
+      "title": "44 CISTERN",
+      "triggers": [
+        "Entering the central 50-foot-by-50-foot area starts the Lamb's approach sequence."
+      ]
+    },
+    "id": "location.44-cistern",
+    "record_type": "location",
+    "references": [
+      "location.44a-wall",
+      "location.46-daylight",
+      "actor.lamb",
+      "situation.44-cistern-lamb-approach",
+      "situation.fighting-lamb-in-cistern",
+      "procedure.swim-in-cistern",
+      "procedure.paddle-table-boat",
+      "procedure.run-cistern-lamb-fight",
+      "procedure.fish-for-lamb",
+      "procedure.crush-lamb-with-noria",
+      "knowledge.noria-feeds-white-temple",
+      "knowledge.white-temple-godling-response",
+      "effect.44-cistern-ammonia-warning",
+      "effect.cistern-carried-item-swim-penalty",
+      "effect.table-boat-speed-modifiers",
+      "effect.first-lamb-fishing-success",
+      "effect.noria-crushes-lamb",
+      "effect.noria-no-human-escape",
+      "effect.lamb-movement-rates"
+    ],
+    "source_pages": [
+      40,
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "contents": [
+        "Sixteen barrels containing water, stamped with the insignia of the White Temple.",
+        "A rowboat containing 2 flasks of oil.",
+        "Stairs ascending to a locked steel door."
+      ],
+      "first_impression": "Sixteen water barrels stamped with the White Temple insignia stand here beside a rowboat. Stairs ascend to a locked steel door.",
+      "hidden": [
+        "The locked steel door leads to the White Temple's kitchen cellar.",
+        "No one answers a knock at the locked steel door."
+      ],
+      "keyed_area": "45",
+      "knowledge_references": [
+        "knowledge.45-door-leads-to-kitchen-cellar"
+      ],
+      "procedure_references": [
+        "procedure.row-45-rowboat"
+      ],
+      "resources": [
+        "The rowboat can be rowed by 1 person at 20 feet per round.",
+        "The rowboat contains 2 flasks of oil.",
+        "The barrels contain water."
+      ],
+      "title": "45 BARRELS"
+    },
+    "id": "location.45-barrels",
+    "record_type": "location",
+    "references": [
+      "item.water-barrels",
+      "item.rowboat",
+      "item.oil",
+      "procedure.row-45-rowboat",
+      "knowledge.45-door-leads-to-kitchen-cellar",
+      "effect.45-rowboat-speed",
+      "effect.45-door-knock-no-answer"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "actor_references": [
+        "actor.lamb"
+      ],
+      "contents": [
+        "Barely submerged rubble made from broken stairs.",
+        "Space for 1 man to stand.",
+        "Stone stairs 20 feet above the rubble."
+      ],
+      "first_impression": "Barely submerged rubble from broken stairs provides room for one person to stand beneath stone stairs suspended 20 feet overhead.",
+      "hazards": [
+        "The surrounding walls are slick and require two Movement checks to climb, one for each 10 feet."
+      ],
+      "hidden": [
+        "The elevated stairs rise 60 feet to a wooden trapdoor; the printed destination is internally inconsistent."
+      ],
+      "keyed_area": "46",
+      "procedure_references": [
+        "procedure.reach-46-daylight-stairs"
+      ],
+      "title": "46 DAYLIGHT"
+    },
+    "id": "location.46-daylight",
+    "record_type": "location",
+    "references": [
+      "location.46a-statue",
+      "location.46b-tower",
+      "actor.lamb",
+      "item.grappling-hook",
+      "procedure.reach-46-daylight-stairs",
+      "effect.46-daylight-access-checks",
+      "effect.lamb-movement-rates"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": [
+      {
+        "description": "The route text uses '46A TRUMPET (not on map)' and '46B FREEDOM', while the keyed headings are '46A STATUE' and '46B TOWER'; the trumpet and the route to freedom are both described under 46B TOWER.",
+        "source_pages": [
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "contents": [
+        "A statue of Vandoh.",
+        "Two locked steel doors.",
+        "Stairs going up 40 feet to 46B FREEDOM."
+      ],
+      "first_impression": "A circular room 30 feet in diameter contains a statue of Vandoh and two locked steel doors.",
+      "keyed_area": "46A",
+      "procedure_references": [
+        "procedure.block-46a-trapdoor-with-statue"
+      ],
+      "resources": [
+        "The statue can be toppled to block the trapdoor."
+      ],
+      "title": "46A STATUE"
+    },
+    "id": "location.46a-statue",
+    "record_type": "location",
+    "references": [
+      "location.46-daylight",
+      "location.46b-tower",
+      "item.statue-of-vandoh",
+      "procedure.block-46a-trapdoor-with-statue",
+      "effect.46a-statue-blocks-trapdoor"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": [
+      {
+        "description": "The route text uses '46A TRUMPET (not on map)' and '46B FREEDOM', while the keyed headings are '46A STATUE' and '46B TOWER'; the trumpet and the route to freedom are both described under 46B TOWER.",
+        "source_pages": [
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "contents": [
+        "A trumpet.",
+        "A 40-foot drop to the ground and freedom."
+      ],
+      "first_impression": "The top of one of the White Temple's towers holds a trumpet. The ground—and freedom—is 40 feet below.",
+      "keyed_area": "46B",
+      "resources": [
+        "The trumpet can be taken from the tower top."
+      ],
+      "title": "46B TOWER"
+    },
+    "id": "location.46b-tower",
+    "record_type": "location",
+    "references": [
+      "location.46a-statue",
+      "item.trumpet",
+      "effect.escape-milestone"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": [
+      {
+        "description": "The route text uses '46A TRUMPET (not on map)' and '46B FREEDOM', while the keyed headings are '46A STATUE' and '46B TOWER'; the trumpet and the route to freedom are both described under 46B TOWER.",
+        "source_pages": [
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "steps": [
+        "Topple the statue of Vandoh so it blocks the trapdoor."
+      ],
+      "title": "Block the 46A Trapdoor with Vandoh's Statue",
+      "trigger": "The party wants to prevent the trapdoor at 46A from opening."
+    },
+    "id": "procedure.block-46a-trapdoor-with-statue",
+    "record_type": "procedure",
+    "references": [
+      "location.46a-statue",
+      "item.statue-of-vandoh",
+      "effect.46a-statue-blocks-trapdoor"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "steps": [
+        "Allow the Lamb to be dragged along with the waterwheel.",
+        "The waterwheel crushes the Lamb against the slotted ceiling.",
+        "If the Lamb is ejected into the White Temple's drinking fountain, expect a swift and forceful response from the Temple."
+      ],
+      "title": "Crush the Lamb with the Noria",
+      "trigger": "The party manages to ensnare the Lamb in the noria."
+    },
+    "id": "procedure.crush-lamb-with-noria",
+    "record_type": "procedure",
+    "references": [
+      "location.44-cistern",
+      "actor.lamb",
+      "actor.white-temple",
+      "situation.fighting-lamb-in-cistern",
+      "knowledge.white-temple-godling-response",
+      "effect.noria-crushes-lamb",
+      "effect.white-temple-forceful-response"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "steps": [
+        "Accept the hook hand and bait as a valid fishing setup.",
+        "Let the first attempt work automatically."
+      ],
+      "title": "Fish for the Lamb",
+      "trigger": "The party tries to fish for the Lamb using the hook hand and acceptable bait."
+    },
+    "id": "procedure.fish-for-lamb",
+    "record_type": "procedure",
+    "references": [
+      "location.44-cistern",
+      "actor.lamb",
+      "situation.fighting-lamb-in-cistern",
+      "item.hook-hand",
+      "effect.first-lamb-fishing-success"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "steps": [
+        "Choose either a grappling-hook attempt or a climb up the slick walls.",
+        "For a grappling hook, make an Attack roll against AC 15; success reaches the stairs.",
+        "For a climb, make two Movement checks, one for each 10 feet of the ascent.",
+        "After reaching the stairs, ascend 60 feet to the wooden trapdoor."
+      ],
+      "title": "Reach the Elevated Stairs at 46 DAYLIGHT",
+      "trigger": "A character tries to reach the stone stairs 20 feet above the rubble."
+    },
+    "id": "procedure.reach-46-daylight-stairs",
+    "record_type": "procedure",
+    "references": [
+      "location.46-daylight",
+      "location.46a-statue",
+      "location.46b-tower",
+      "actor.lamb",
+      "item.grappling-hook",
+      "effect.46-daylight-access-checks"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": [
+      {
+        "description": "The route text uses '46A TRUMPET (not on map)' and '46B FREEDOM', while the keyed headings are '46A STATUE' and '46B TOWER'; the trumpet and the route to freedom are both described under 46B TOWER.",
+        "source_pages": [
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "steps": [
+        "Move the rowboat at 20 feet per round while 1 person rows it."
+      ],
+      "title": "Row the Boat at 45 BARRELS",
+      "trigger": "One person rows the rowboat found at 45 BARRELS."
+    },
+    "id": "procedure.row-45-rowboat",
+    "record_type": "procedure",
+    "references": [
+      "location.45-barrels",
+      "item.rowboat",
+      "effect.45-rowboat-speed"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "medium",
+    "fields": {
+      "steps": [
+        "Use a battlemap for the cistern fight.",
+        "Track as many as 3 groups of people paddling or swimming.",
+        "Allow environmental plans using combinations of harpoons, hooked nets, ropes, burning oil, the hook hand, bait, and the noria.",
+        "Apply the separate swimming and boat-speed procedures while resolving movement."
+      ],
+      "title": "Run a Fight with the Lamb in the Cistern",
+      "trigger": "The party insists on fighting the Lamb in 44 CISTERN."
+    },
+    "id": "procedure.run-cistern-lamb-fight",
+    "record_type": "procedure",
+    "references": [
+      "location.44-cistern",
+      "actor.lamb",
+      "situation.fighting-lamb-in-cistern",
+      "procedure.swim-in-cistern",
+      "procedure.paddle-table-boat",
+      "procedure.fish-for-lamb",
+      "procedure.crush-lamb-with-noria"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "activation": {
+        "condition": "The party chooses to fight the Lamb in the cistern instead of attacking it while it rests in 8 PIT.",
+        "type": "chosen"
+      },
+      "approaches": [
+        "Use harpoons, hooked nets, ropes, and burning oil in combination.",
+        "Fish for the Lamb with the hook hand and acceptable bait.",
+        "Ensnare the Lamb in the noria so the waterwheel drags and crushes it."
+      ],
+      "completion": [
+        "The Lamb is killed in the cistern."
+      ],
+      "knowledge_references": [
+        "knowledge.preferred-lamb-kill-at-8-pit",
+        "knowledge.white-temple-godling-response"
+      ],
+      "location_references": [
+        "location.44-cistern"
+      ],
+      "outcomes": [
+        "The first acceptable hook-hand fishing attempt works automatically.",
+        "An ensnared Lamb can be dragged by the noria and crushed against the slotted ceiling.",
+        "A Lamb ejected into the White Temple's drinking fountain can bring a swift, forceful response."
+      ],
+      "participants": [
+        {
+          "actor_id": "actor.lamb",
+          "role": "Primary enemy in the arena."
+        }
+      ],
+      "perceived": "The cistern becomes a difficult moving battle across deep water, boats, swimmers, pillars, and the operating noria.",
+      "possible_effects": [
+        {
+          "condition": "The party gets the Lamb ensnared in the noria.",
+          "description": "The noria can crush and kill the ensnared Lamb against the slotted ceiling.",
+          "effect": "actor-state",
+          "target": "actor.lamb"
+        },
+        {
+          "description": "The White Temple may respond swiftly and forcefully if its godling is ejected into its drinking fountain.",
+          "effect": "future-thread"
+        }
+      ],
+      "procedure_references": [
+        "procedure.run-cistern-lamb-fight",
+        "procedure.fish-for-lamb",
+        "procedure.crush-lamb-with-noria"
+      ],
+      "stakes": [
+        "The party must kill or survive the Lamb while movement is constrained by deep water.",
+        "Using the noria to kill the Lamb can provoke the White Temple."
+      ],
+      "title": "FIGHTING THE LAMB"
+    },
+    "id": "situation.fighting-lamb-in-cistern",
+    "record_type": "situation",
+    "references": [
+      "location.44-cistern",
+      "actor.lamb",
+      "actor.white-temple",
+      "procedure.run-cistern-lamb-fight",
+      "procedure.fish-for-lamb",
+      "procedure.crush-lamb-with-noria",
+      "knowledge.preferred-lamb-kill-at-8-pit",
+      "knowledge.white-temple-godling-response",
+      "item.harpoon",
+      "item.hooked-net",
+      "item.rope",
+      "item.oil",
+      "item.hook-hand",
+      "effect.first-lamb-fishing-success",
+      "effect.noria-crushes-lamb",
+      "effect.white-temple-forceful-response",
+      "effect.lamb-resting-in-8-pit"
+    ],
+    "source_pages": [
+      41
+    ],
+    "uncertainties": []
+  }
+]

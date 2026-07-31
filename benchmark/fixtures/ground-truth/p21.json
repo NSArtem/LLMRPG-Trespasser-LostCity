@@ -1,0 +1,431 @@
+[
+  {
+    "confidence": "high",
+    "fields": {
+      "appearance": "A live goat tied with short twine and wearing a bell.",
+      "behavior": [
+        "Friendly."
+      ],
+      "location_references": [
+        "location.2-goats"
+      ],
+      "role": "A friendly, dehydrated animal in 2 GOATS.",
+      "starting_state": [
+        "Dehydrated and tied with short twine."
+      ],
+      "title": "Live Goat"
+    },
+    "id": "actor.live-goat",
+    "record_type": "actor",
+    "references": [
+      "location.2-goats"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "All four goats in 2 GOATS wear bells.",
+      "title": "Goat Bells"
+    },
+    "id": "item.2-goats-bells",
+    "record_type": "item",
+    "references": [
+      "location.2-goats"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "A pile of hay lies in 2 GOATS.",
+      "title": "Pile of Hay"
+    },
+    "id": "item.2-goats-hay",
+    "record_type": "item",
+    "references": [
+      "location.2-goats"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Short lengths of twine tie the goats in 2 GOATS.",
+      "title": "Short Lengths of Twine"
+    },
+    "id": "item.2-goats-twine",
+    "record_type": "item",
+    "references": [
+      "location.2-goats"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "An empty wooden bowl is in 2 GOATS.",
+      "title": "Empty Wooden Bowl"
+    },
+    "id": "item.2-goats-wooden-bowl",
+    "record_type": "item",
+    "references": [
+      "location.2-goats"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "An empty wine bottle is found by investigating the vinegar trough in 3 VINEGAR.",
+      "title": "Empty Wine Bottle"
+    },
+    "id": "item.3-vinegar-empty-wine-bottle",
+    "record_type": "item",
+    "references": [
+      "location.3-vinegar"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "One immature Lambfruit rests on the wooden table in 4 CHESTS; see Appendix D.",
+      "title": "Immature Lambfruit"
+    },
+    "id": "item.4-chests-immature-lambfruit",
+    "record_type": "item",
+    "references": [
+      "location.4-chests"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "A masterwork helmet with a smiling face and squinting eyes is inside the wooden chest in 4 CHESTS.",
+      "title": "Masterwork Helmet"
+    },
+    "id": "item.4-chests-masterwork-helmet",
+    "record_type": "item",
+    "references": [
+      "location.4-chests"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "One torch is inside the wooden chest in 4 CHESTS.",
+      "title": "Torch from 4 CHESTS"
+    },
+    "id": "item.4-chests-torch",
+    "record_type": "item",
+    "references": [
+      "location.4-chests"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "A lotus pipe in 4 CHESTS fits into the masterwork helmet and is worth 100s.",
+      "title": "Lotus Pipe"
+    },
+    "id": "item.lotus-pipe",
+    "record_type": "item",
+    "references": [
+      "location.4-chests",
+      "item.4-chests-masterwork-helmet"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "A purple pouch in 4 CHESTS contains 2 doses of purple lotus powder; see Appendix D.",
+      "title": "Purple Lotus Powder"
+    },
+    "id": "item.purple-lotus-powder",
+    "record_type": "item",
+    "references": [
+      "location.4-chests"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The lead-and-iron chest in 4 CHESTS contains only the Skull of Davok, which escapes when the chest is opened; see Appendix A.",
+      "title": "Skull of Davok"
+    },
+    "id": "item.skull-of-davok",
+    "record_type": "item",
+    "references": [
+      "location.4-chests",
+      "situation.skull-of-davok-escapes"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "actor_references": [
+        "actor.the-lamb"
+      ],
+      "contents": [
+        "Three enormous stone bowls.",
+        "Each bowl contains 4 human sacrifices, bound hand and foot."
+      ],
+      "first_impression": "Three enormous stone bowls occupy the pitch-black room; each bowl contains bound human captives.",
+      "keyed_area": "1",
+      "occupants": [
+        "12 human sacrifices, bound hand and foot."
+      ],
+      "procedure_references": [
+        "procedure.starting-the-game"
+      ],
+      "situation_references": [
+        "situation.starting-lamb-entry"
+      ],
+      "title": "1 BOWLS",
+      "triggers": [
+        "The game begins here with the Lamb lumbering into the room."
+      ]
+    },
+    "id": "location.1-bowls",
+    "record_type": "location",
+    "references": [
+      "actor.the-lamb",
+      "situation.starting-lamb-entry",
+      "procedure.starting-the-game"
+    ],
+    "source_pages": [
+      19,
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "first_impression": "A barnyard smell comes from the east.",
+      "keyed_area": "1A",
+      "title": "1A FIRST INTERSECTION"
+    },
+    "id": "location.1a-first-intersection",
+    "record_type": "location",
+    "references": [],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "first_impression": "A barnyard smell comes from the north, faint light comes from the east, and a vinegar smell comes from the south.",
+      "keyed_area": "1B",
+      "title": "1B SECOND INTERSECTION"
+    },
+    "id": "location.1b-second-intersection",
+    "record_type": "location",
+    "references": [],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "first_impression": "A vinegar smell comes from the west.",
+      "keyed_area": "1C",
+      "title": "1C THIRD INTERSECTION"
+    },
+    "id": "location.1c-third-intersection",
+    "record_type": "location",
+    "references": [],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "actor_references": [
+        "actor.live-goat"
+      ],
+      "contents": [
+        "Three dead goats.",
+        "One live goat, dehydrated and friendly.",
+        "Short lengths of twine tying the goats.",
+        "Bells worn by all four goats.",
+        "Pile of hay.",
+        "Wooden bowl, empty."
+      ],
+      "first_impression": "Three dead goats and one live, dehydrated goat are tied with short twine; all wear bells. A hay pile and an empty wooden bowl are nearby.",
+      "keyed_area": "2",
+      "occupants": [
+        "One live, dehydrated, friendly goat."
+      ],
+      "resources": [
+        "Short lengths of twine.",
+        "Goat bells.",
+        "Pile of hay.",
+        "Empty wooden bowl."
+      ],
+      "title": "2 GOATS"
+    },
+    "id": "location.2-goats",
+    "record_type": "location",
+    "references": [
+      "actor.live-goat"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "contents": [
+        "Stone trough half-filled with vinegar.",
+        "Empty stone trough that stinks of stale milk."
+      ],
+      "discoverable": [
+        {
+          "condition": "Investigate the reeking liquid.",
+          "information": "An empty wine bottle is in the vinegar trough."
+        }
+      ],
+      "first_impression": "One stone trough is half-filled with reeking vinegar; another empty trough smells of stale milk.",
+      "keyed_area": "3",
+      "resources": [
+        "Empty wine bottle."
+      ],
+      "title": "3 VINEGAR"
+    },
+    "id": "location.3-vinegar",
+    "record_type": "location",
+    "references": [],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "contents": [
+        "Locked wooden entrance door.",
+        "Wooden table holding 1 immature Lambfruit.",
+        "Wooden chest.",
+        "Lead-and-iron chest bolted to the floor and bound with two linchpinned chains."
+      ],
+      "discoverable": [
+        {
+          "condition": "Open the wooden chest.",
+          "information": "The wooden chest contains a masterwork helmet, 1 torch, 2 doses of purple lotus powder, and a lotus pipe."
+        },
+        {
+          "condition": "Remove both linchpins and open the lead-and-iron chest.",
+          "information": "The lead-and-iron chest contains only the Skull of Davok."
+        }
+      ],
+      "first_impression": "A locked wooden door protects a room containing a wooden table, a wooden chest, and a lead-and-iron chest chained to the floor.",
+      "hazards": [
+        "Removing the first linchpin causes headaches.",
+        "Removing the second linchpin causes nosebleeds."
+      ],
+      "keyed_area": "4",
+      "situation_references": [
+        "situation.skull-of-davok-escapes"
+      ],
+      "title": "4 CHESTS",
+      "triggers": [
+        "Opening the lead-and-iron chest allows the Skull of Davok to escape."
+      ]
+    },
+    "id": "location.4-chests",
+    "record_type": "location",
+    "references": [
+      "situation.skull-of-davok-escapes"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "activation": {
+        "condition": "Open the lead-and-iron chest in 4 CHESTS after removing both linchpins.",
+        "type": "keyed"
+      },
+      "location_references": [
+        "location.4-chests"
+      ],
+      "outcomes": [
+        "The Skull of Davok escapes the chest."
+      ],
+      "perceived": "When the lead-and-iron chest is opened, the Skull of Davok escapes.",
+      "repeat": {
+        "mode": "once"
+      },
+      "stakes": [
+        "A contained supernatural skull is released."
+      ],
+      "title": "The Skull of Davok Escapes"
+    },
+    "id": "situation.skull-of-davok-escapes",
+    "record_type": "situation",
+    "references": [
+      "location.4-chests",
+      "item.skull-of-davok"
+    ],
+    "source_pages": [
+      21
+    ],
+    "uncertainties": []
+  }
+]

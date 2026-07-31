@@ -1,0 +1,58 @@
+Combat
+Combat is often a failure state. By the time the DM asks you to
+punishment is ahead.
+Stat Blocks
+Lvl is the same as HD. An enemy has 1d6 HP per HD.
+Def tells you the DC required to hit the damn thing.
+Atk is usually labled like Claws 1d8. It tells you both the mode
+Move is sometimes omitted, if its the same as a human. The
+pursuer is 20. Move is also sometimes described by listing a comparable
+Stats like Str and Int aren't usually listed unless they're significantly
+Note that when the DM is trying to figure out if a monster behaves
+Failure means that they act like a dumb animal.
+Dis stands for disposition. If it's not listed, assume that the
+fight seems lost, then flee or surrender. They'll attack you if they
+An Incomplete Lists of Dispositions
+Benevolent It will help you without any expectation or exchange.
+Hungry It wants food and is planning to eat you. (e.g.
+Greedy It wants your gold, and is planning to kill you
+Guardian It will kill to protect something. It will not chase
+Neutral It's not here to kill you, but it absolutely will
+Scheming It will try to take advantage of you before it
+Tenacious It wants to kill you and it will never flee or surrender.
+This list is not exhaustive. If you meet a knight and it says "Dis
+act.
+Morale
+If a monster fears death, it will flee rather than be destroyed.
+The Two Types of Morale Checks
+Oh Damn When the monsters clearly start losing, they have
+Oh Fuck When the monsters have no chance to win, they
+If the monsters can't flee, they'll attempt surrender.
+If the players don't seem like they take prisoners, they'll keep
+If you need help figuring out which of these options a monster
+behave intelligently or stupidly.
+If the party chases fleeing monsters, use the same Pursuit rules
+9
+
+roll initiative, your poor judgment is behind you and your
+of attack and the damage.
+DC to escape a slow pursuer is 12. The DC to escape a fast
+creature (Climb spider).
+different from 5, which is the default for all stats.
+intelligently, they can resolve it with an Int check.
+monster is average. Average monsters will fight until the
+think they can win.
+Ie.g. nobody, probably)
+tiger)
+to get it. (e.g. bandits)
+you far from whatever it is guarding. (e.g. golem)
+if you give it a reason. (e.g. average human)
+resorts to violence. (e.g. rival adventurers)
+(e.g. zombie)
+chivalrous" you should be able to figure out how they'll
+Even elementals and undead recoil from annihilation.
+a 50% chance of fleeing.
+automatically flee.
+fighting.
+would choose, make an Int check for them to see if they
+that the party uses.

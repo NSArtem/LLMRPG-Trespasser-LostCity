@@ -1,0 +1,70 @@
+Random Encounters
+Every area has a local Encounter Table, which determines
+who will cross you path. But to determine when this
+happens, you need to roll Encounter Checks.
+Every 30 minutes, roll an Encounter Check by rolling your
+Encounter Die and your Recon Die simultaneously. I
+recommend using a cereal bowl.
+The Encounter Die
+The Encounter Die is a yellow d6. Your type of encounter is
+based on what it shows.
+1 Active Encounter
+2 Passive Encounter
+3 Indirect Encounter
+4-6 Depletion
+An Active Encounter is one that forces the party to engage.
+In a dungeon, this is usually a hostile creature that wants to
+kill you.
+A Passive Encounter is one that gives you the option of
+engaging. In a dungeon, this is usually a non-hostile
+creature, or a hostile creature that isn't immediately
+threatening.
+An Indirect Encounter is one that you can't directly engage
+with. You might still be able to gain from information from
+it, or it might just show you the mood of the location.
+13
+
+The Recon Die
+The Recon Die is a blue d6. If you roll a 1 on your Recon Die
+then you get an advantage.
+If your Recon succeeds on an Active or Passive Encounter,
+you gain Surprise. You can choose to engage (with the
+element of surprise) or avoid the encounter altogether.
+You might catch them talking to themselves and overhear
+something useful (DM's discretion).
+If your Recon succeeds and there is no Active or Passive
+Encounter to be had, you find Footprints. These don't have
+to be literal footprints--they could be slime, hair, feces,
+graffiti, smells, or noises. The foot - You find traces of a
+random encounter. Your DM will roll a random encounter
+and describe the evidence of its passing (footprints, smells,
+noises, slime, hair).
+If your only illumination is candle-light or, you lose your
+Recon Die and instead gain an Ambush Die, which causes
+you to be surprised on a 1. If you have no light source, you
+are ambushed on 1-2 on the d6.
+Setting the Stage
+The first sentence gives you a general encounter, such as
+"1d6 goblins". If an encounter labeled as "Unique" is killed,
+you will never encounter that monster again in this area.
+The second sentence gives you a specific encounter, such as
+"A piglet wearing a hat is tortured by 5 goblins, who believe
+it to be a human baby."
+The first time you roll that encounter, I recommend using
+the specific encounter (unless you prefer to come up with
+your own).
+The subsequent times that encounter is rolled, it's up to you
+to come up with the encounter. You can either come up
+with something novel, or build off the previous one.
+When the encounter occurs, place the enemies wherever
+makes the most sense. If multiple places are tied for this
+(e.g. three doors lead into this room and all lead to places
+where goblins could have emerged from), then pick one
+randomly.
+Try not to overthink this, but at the same time, make sense.
+Five goblins cannot come from the dead-end room that the
+party just emerged from (unless there is a secret door in
+there). If 12 ABACUS MURAL has been collapsed, then a
+party S of the collapse is probably safe from the Lamb
+(assuming the Lamb is trapped on the N side of the
+collapse).

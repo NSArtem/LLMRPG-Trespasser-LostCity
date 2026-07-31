@@ -1,0 +1,84 @@
+[
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Each area has a local Encounter Table that determines who may appear. Every 30 minutes, roll the yellow Encounter Die and blue Recon Die simultaneously. The Encounter Die determines whether the result is Active, Passive, Indirect, or Depletion. An Active Encounter forces engagement, usually through a hostile creature. A Passive Encounter allows the party to choose whether to engage. An Indirect Encounter cannot be directly engaged but may provide information or establish the mood of the location.",
+      "title": "Random Encounter Checks"
+    },
+    "id": "rule.random-encounter-checks",
+    "record_type": "rule",
+    "references": [
+      "table.encounter-die"
+    ],
+    "source_pages": [
+      13
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "medium",
+    "fields": {
+      "text": "The Recon Die is a blue d6 and succeeds on a 1. On an Active or Passive Encounter, success grants Surprise, allowing the party either to engage with surprise or avoid the encounter; the DM may also let the party overhear useful information. If no Active or Passive Encounter occurs, a successful Recon finds traces of a randomly rolled encounter, such as slime, hair, feces, graffiti, smells, or noises. With only candlelight, replace the Recon Die with an Ambush Die that surprises the party on a 1. With no light source, the party is ambushed on 1-2 on a d6.",
+      "title": "The Recon Die"
+    },
+    "id": "rule.recon-die",
+    "record_type": "rule",
+    "references": [],
+    "source_pages": [
+      13
+    ],
+    "uncertainties": [
+      {
+        "description": "The source sentence introducing the candlelight rule appears grammatically truncated after 'candle-light or'; the explicit candlelight and no-light mechanics are nevertheless readable.",
+        "source_pages": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "An encounter entry begins with a general encounter, such as 1d6 goblins. If a Unique encounter is killed, it never appears again in that area. A second sentence may give a specific scene; use it the first time the encounter is rolled unless the DM prefers an original setup. On later rolls, create a new scene or build from the prior one. Place enemies where their arrival makes the most sense; randomly choose among equally plausible origins. Encounter placement must respect established topology and changes: enemies cannot emerge from an impossible dead end, and collapsing 12 ABACUS MURAL can make the south side safe from the Lamb if the Lamb remains trapped to the north.",
+      "title": "Setting the Stage"
+    },
+    "id": "rule.setting-the-stage",
+    "record_type": "rule",
+    "references": [],
+    "source_pages": [
+      13
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "entries": [
+        {
+          "d6": "1",
+          "result": "Active Encounter"
+        },
+        {
+          "d6": "2",
+          "result": "Passive Encounter"
+        },
+        {
+          "d6": "3",
+          "result": "Indirect Encounter"
+        },
+        {
+          "d6": "4-6",
+          "result": "Depletion"
+        }
+      ],
+      "title": "The Encounter Die"
+    },
+    "id": "table.encounter-die",
+    "record_type": "table",
+    "references": [],
+    "source_pages": [
+      13
+    ],
+    "uncertainties": []
+  }
+]

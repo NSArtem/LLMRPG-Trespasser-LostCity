@@ -1,0 +1,230 @@
+[
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "For 3 rounds, the target exists at double speed; a creature gains one extra attack per round. The target also ages 1d6 years, and human hair permanently turns white. A successful save negates the effect.",
+      "title": "Haste Double Speed and Aging"
+    },
+    "id": "effect.haste-double-speed-and-aging",
+    "record_type": "effect",
+    "references": [
+      "spell.haste"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The target takes [sum] damage and catches fire. A successful Cha Save halves the damage and prevents the target from catching fire.",
+      "title": "Ignite Damage and Fire"
+    },
+    "id": "effect.ignite-damage-and-fire",
+    "record_type": "effect",
+    "references": [
+      "spell.ignite"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "For [sum] rounds, the target is transformed according to one chosen adjective per invested MD: small, big, dangerous, harmless, mobile, or slow. Repeating big or dangerous twice intensifies it to very big or very dangerous; slow chosen three times can make the creature immobile. Without selected changes, the form is human-sized, self-defending, and roughly human-mobile. Investing 4 MD makes the transformation permanent. A successful save negates it.",
+      "title": "Polymorph Transformation"
+    },
+    "id": "effect.polymorph-transformation",
+    "record_type": "effect",
+    "references": [
+      "spell.polymorph"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The caster previews [dice] rounds of a specific proposed course of action through a roughly 20-second, no-dice solo exchange with the GM. The preview explores a possible future rather than applying it.",
+      "title": "Precognition Possible Future"
+    },
+    "id": "effect.precognition-possible-future",
+    "record_type": "effect",
+    "references": [
+      "spell.precognition"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "For 1 round, the caster astrally projects to a point selected by direction and distance. Each MD beyond the first either makes the astral form invisible or increases the spell’s range by a factor of 10.",
+      "title": "Scry Astral Projection"
+    },
+    "id": "effect.scry-astral-projection",
+    "record_type": "effect",
+    "references": [
+      "spell.scry"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "A failed save puts the target into deep sleep. Noise cannot wake the target, but a slap or kick can.",
+      "title": "Sleep Deep Sleep"
+    },
+    "id": "effect.sleep-deep-sleep",
+    "record_type": "effect",
+    "references": [
+      "spell.sleep"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "All objects in a 20-foot cone take [sum] slashing damage; a successful Dex Save halves that damage.",
+      "title": "Wave of Mutilation Slashing Damage"
+    },
+    "id": "effect.wave-of-mutilation-slashing-damage",
+    "record_type": "effect",
+    "references": [
+      "spell.wave-of-mutilation"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Range 30 feet; target objects; duration 3 rounds. The target object or creature exists at double speed and ages 1d6 years. Human hair becomes permanently white. Creatures can make one extra attack each round. A save negates the spell. Splittable.",
+      "title": "Haste"
+    },
+    "id": "spell.haste",
+    "record_type": "spell",
+    "references": [
+      "effect.haste-double-speed-and-aging",
+      "rule.splittable-spells"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Range 30 feet; target object; duration 0. The target takes [sum] damage and catches fire. A Cha Save halves the damage and prevents ignition. Splittable.",
+      "title": "Ignite"
+    },
+    "id": "spell.ignite",
+    "record_type": "spell",
+    "references": [
+      "effect.ignite-damage-and-fire",
+      "rule.splittable-spells"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Range 30 feet; target creature; duration [sum] rounds. The target becomes a creature that may be small, big, dangerous, harmless, mobile, or slow. Choose one adjective for each MD invested. An adjective may be chosen twice to make the result very big or very dangerous; choosing slow three times can make it immobile. The default result is human-sized, able to defend itself, and about as mobile as a human, such as a goat. Investing 4 MD makes the transformation permanent. A save negates the spell. Splittable.",
+      "title": "Polymorph"
+    },
+    "id": "spell.polymorph",
+    "record_type": "spell",
+    "references": [
+      "effect.polymorph-transformation",
+      "rule.splittable-spells"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Range 0; target self; duration 0. The caster sees what will happen [dice] rounds into the future if following a specific course of action. Resolve this as a very quick solo game with the GM, using no dice and taking about 20 seconds, to explore that possible future.",
+      "title": "Precognition"
+    },
+    "id": "spell.precognition",
+    "record_type": "spell",
+    "references": [
+      "effect.precognition-possible-future"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Range 10 feet; target point in space; duration 1 round. The caster astrally projects to a point designated by direction and distance. Each MD after the first may either make the astral form invisible or multiply the range by 10.",
+      "title": "Scry"
+    },
+    "id": "spell.scry",
+    "record_type": "spell",
+    "references": [
+      "effect.scry-astral-projection"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Range 30 feet; target creature; duration 0. The target must save or fall into a deep sleep. Noise does not wake the target, but a slap or kick does. Splittable.",
+      "title": "Sleep"
+    },
+    "id": "spell.sleep",
+    "record_type": "spell",
+    "references": [
+      "effect.sleep-deep-sleep",
+      "rule.splittable-spells"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Range 20 feet; target 20-foot cone; duration 0. All objects in the cone take [sum] slashing damage. A Dex Save halves the damage.",
+      "title": "Wave of Mutilation"
+    },
+    "id": "spell.wave-of-mutilation",
+    "record_type": "spell",
+    "references": [
+      "effect.wave-of-mutilation-slashing-damage"
+    ],
+    "source_pages": [
+      46
+    ],
+    "uncertainties": []
+  }
+]

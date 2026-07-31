@@ -1,0 +1,268 @@
+[
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Anyone can become an Acrobat. Each Acrobat level grants +1 Move. Template A grants Dodge and Nah 1/day; Template B grants Tricky; Template C grants Cat Power and increases Nah to 2/day; Template D grants Roast the Oaf. Dodge gives +2 Defense per empty inventory slot, capped at 16 or 10 + Dex, whichever is lower, and does not stack with armor. Nah can declare once per day, or twice per day at Template C, that something physically dodgeable does not affect the Acrobat. Tricky makes a natural 20 attack deal double damage and grant a free combat maneuver; a natural 19 deals normal damage and grants a free combat maneuver. Cat Power treats falls as 20 feet shorter and causes cats to tend to like the Acrobat. Roast the Oaf lets the Acrobat force a larger enemy that misses with a melee attack to make another melee attack against a target in range, potentially itself. Two copies of Tricky from two Acrobat and two Fighter levels combine into Very Tricky.",
+      "title": "Acrobat"
+    },
+    "id": "class.acrobat",
+    "record_type": "class",
+    "references": [
+      "effect.acrobat-dodge",
+      "effect.acrobat-nah",
+      "effect.acrobat-tricky",
+      "effect.acrobat-cat-power",
+      "effect.acrobat-roast-the-oaf",
+      "rule.acrobat-progression",
+      "rule.acrobat-multiclass-very-tricky"
+    ],
+    "source_pages": [
+      49,
+      50
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Anyone can become a Barbarian without first unlocking the class through play.",
+      "title": "Barbarian"
+    },
+    "id": "class.barbarian",
+    "record_type": "class",
+    "references": [],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Cleric is an additional class that must be unlocked through play before its templates may be selected.",
+      "title": "Cleric"
+    },
+    "id": "class.cleric",
+    "record_type": "class",
+    "references": [],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Anyone can become a Fighter without first unlocking the class through play.",
+      "title": "Fighter"
+    },
+    "id": "class.fighter",
+    "record_type": "class",
+    "references": [],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Knight is an additional class that must be unlocked through play before its templates may be selected.",
+      "title": "Knight"
+    },
+    "id": "class.knight",
+    "record_type": "class",
+    "references": [],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Tactician is an additional class that must be unlocked through play before its templates may be selected.",
+      "title": "Tactician"
+    },
+    "id": "class.tactician",
+    "record_type": "class",
+    "references": [],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Anyone can become a Thief without first unlocking the class through play.",
+      "title": "Thief"
+    },
+    "id": "class.thief",
+    "record_type": "class",
+    "references": [],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Warlock is an additional class that must be unlocked through play before its templates may be selected.",
+      "title": "Warlock"
+    },
+    "id": "class.warlock",
+    "record_type": "class",
+    "references": [],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Wizard is an additional class that must be unlocked through play before its templates may be selected.",
+      "title": "Wizard"
+    },
+    "id": "class.wizard",
+    "record_type": "class",
+    "references": [],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Whenever a character gains a template, they choose a class and gain the corresponding template. Lower templates in a class must be gained before higher ones. Multiclassing is unrestricted by selecting Template A from another class. A character may have no more than 4 templates, but beginning at Level 5 may swap templates out. Unless additional classes are unlocked through play, choices are limited to Acrobat, Barbarian, Fighter, and Thief. Wizard, Cleric, Warlock, Knight, Tactician, and races must be unlocked through play.",
+      "title": "Class Template Selection and Multiclassing"
+    },
+    "id": "rule.class-template-selection",
+    "record_type": "rule",
+    "references": [
+      "class.acrobat",
+      "class.barbarian",
+      "class.fighter",
+      "class.thief",
+      "class.wizard",
+      "class.cleric",
+      "class.warlock",
+      "class.knight",
+      "class.tactician"
+    ],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "When a character gains a level, HP, Attack, Templates, and Mastery advance according to the Level Advancement table. The first four gained levels each grant one template; beginning with Level 5, each additional level grants 1 Mastery.",
+      "title": "Level Advancement"
+    },
+    "id": "rule.level-advancement",
+    "record_type": "rule",
+    "references": [
+      "table.level-advancement"
+    ],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "A character gains the first Mastery Point at 5th level and one at every later level. A Mastery Point may alter an adjacent ally’s in-game d20 roll or damage roll after the dice land. It cannot affect magic dice, skill-up attempts, stat-up attempts, natural 1s or 20s, or the user’s own roll. It may turn a near miss into a success, reduce damage an ally takes, or increase damage an ally deals. Mastery Points replenish after a full night’s rest.",
+      "title": "Mastery Points"
+    },
+    "id": "rule.mastery-points",
+    "record_type": "rule",
+    "references": [
+      "table.level-advancement"
+    ],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Racial options, like the listed additional classes, must be unlocked through play.",
+      "title": "Races Must Be Unlocked Through Play"
+    },
+    "id": "rule.races-unlocked-through-play",
+    "record_type": "rule",
+    "references": [],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "entries": [
+        {
+          "Atk": "0",
+          "HP": "0",
+          "Level": "Level 0",
+          "Mastery": "-",
+          "Templates": "0"
+        },
+        {
+          "Atk": "1",
+          "HP": "Con",
+          "Level": "Level 1",
+          "Mastery": "-",
+          "Templates": "1"
+        },
+        {
+          "Atk": "2",
+          "HP": "Con + 2",
+          "Level": "Level 2",
+          "Mastery": "-",
+          "Templates": "2"
+        },
+        {
+          "Atk": "3",
+          "HP": "Con + 4",
+          "Level": "Level 3",
+          "Mastery": "-",
+          "Templates": "3"
+        },
+        {
+          "Atk": "4",
+          "HP": "Con + 6",
+          "Level": "Level 4",
+          "Mastery": "-",
+          "Templates": "4"
+        },
+        {
+          "Atk": "-",
+          "HP": "-",
+          "Level": "+1 Level",
+          "Mastery": "+1 Mastery",
+          "Templates": "-"
+        }
+      ],
+      "title": "Level Advancement"
+    },
+    "id": "table.level-advancement",
+    "record_type": "table",
+    "references": [
+      "rule.level-advancement",
+      "rule.mastery-points",
+      "rule.class-template-selection"
+    ],
+    "source_pages": [
+      49
+    ],
+    "uncertainties": []
+  }
+]

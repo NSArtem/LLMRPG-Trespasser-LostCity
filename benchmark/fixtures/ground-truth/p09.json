@@ -1,0 +1,116 @@
+[
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Disposition describes what a creature wants and how it tends to act. The listed categories are examples rather than an exhaustive vocabulary; a custom disposition such as chivalrous should be interpreted according to its ordinary meaning.",
+      "title": "Disposition"
+    },
+    "id": "rule.disposition",
+    "record_type": "rule",
+    "references": [
+      "table.dispositions"
+    ],
+    "source_pages": [
+      9
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "A monster that fears death flees rather than be destroyed; even elementals and undead recoil from annihilation. When morale calls for flight but escape is impossible, monsters attempt surrender. If the players appear not to take prisoners, they continue fighting. When uncertain whether a monster chooses intelligently, make an Int check for it. Chasing fleeing monsters uses the same Pursuit rules as player flight.",
+      "title": "Morale"
+    },
+    "id": "rule.morale",
+    "record_type": "rule",
+    "references": [
+      "table.morale-checks"
+    ],
+    "source_pages": [
+      9
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Lvl is the same as HD, and an enemy has 1d6 HP per HD. Def is the attack DC required to hit it. Atk gives the attack mode and damage, such as Claws 1d8. Move may be omitted when human-equivalent; escaping a slow pursuer is DC 12 and a fast pursuer is DC 20, and movement may instead name a comparable creature such as Climb spider. Unlisted stats default to 5 unless significantly different. A monster Int check can determine whether it behaves intelligently; failure makes it act like a dumb animal. Dis is disposition. If Dis is absent, the monster is average: it fights while it expects to win, then flees or surrenders.",
+      "title": "Stat Blocks"
+    },
+    "id": "rule.stat-blocks",
+    "record_type": "rule",
+    "references": [],
+    "source_pages": [
+      9
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "entries": [
+        {
+          "behavior": "Helps without expecting anything in exchange.",
+          "disposition": "Benevolent"
+        },
+        {
+          "behavior": "Wants food and plans to eat the party.",
+          "disposition": "Hungry"
+        },
+        {
+          "behavior": "Wants the party's gold and plans to kill them to get it.",
+          "disposition": "Greedy"
+        },
+        {
+          "behavior": "Kills to protect something but does not chase far from what it guards.",
+          "disposition": "Guardian"
+        },
+        {
+          "behavior": "Is not present to kill the party, but will do so if given a reason.",
+          "disposition": "Neutral"
+        },
+        {
+          "behavior": "Tries to take advantage of the party before resorting to violence.",
+          "disposition": "Scheming"
+        },
+        {
+          "behavior": "Wants to kill the party and never flees or surrenders.",
+          "disposition": "Tenacious"
+        }
+      ],
+      "title": "An Incomplete List of Dispositions"
+    },
+    "id": "table.dispositions",
+    "record_type": "table",
+    "references": [],
+    "source_pages": [
+      9
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "entries": [
+        {
+          "check": "Oh Damn",
+          "result": "They have a 50% chance of fleeing.",
+          "trigger": "The monsters clearly start losing."
+        },
+        {
+          "check": "Oh Fuck",
+          "result": "They automatically flee.",
+          "trigger": "The monsters have no chance to win."
+        }
+      ],
+      "title": "The Two Types of Morale Checks"
+    },
+    "id": "table.morale-checks",
+    "record_type": "table",
+    "references": [],
+    "source_pages": [
+      9
+    ],
+    "uncertainties": []
+  }
+]

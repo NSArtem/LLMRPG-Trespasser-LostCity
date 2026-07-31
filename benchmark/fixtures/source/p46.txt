@@ -1,0 +1,43 @@
+Haste
+R: 30' T: objects D: 3 rounds
+Target object or creature exists at double speed and ages
+1d6 years. Human hair becomes permanently white.
+Creatures can make an extra attack each round. Save
+negates. Splittable.
+Ignite
+R: 30' T: object D: 0
+Target takes [sum] damage and catches on fire. Cha Save
+for half, and the target does not catch on fire. Splittable.
+Polymorph
+R: 30' T: creature D: [sum] rounds
+Target is turned into a creature that is small, big,
+dangerous, harmless, mobile, or slow. You can choose one
+adjective for every MD invested in this spell. You can
+choose an adjective twice to make a creature very big or
+very dangerous. Choosing slow x3 can make an immobile
+creature. The default creature is human-sized, able to
+defend itself, and about as mobile as a human (such as a
+goat). If you invest 4 MD into this spell, it is permanent.
+Save negates. Splittable.
+46
+
+Precognition
+R: 0 T: self D: 0
+You can see what will happen [dice] rounds in the future if
+you follow a specific course of action. Essentially, play a
+really quick solo game with the DM (using no dice, taking
+about 20 seconds) to explore a possible future.
+Scry
+R: 10' T: point in space D: 1 round
+You astrally project yourself to a point in space designated
+by direction and distance. Each MD beyond the first can be
+used to either make your astral form invisible or to increase
+the range by 10x.
+Sleep
+R: 30' T: creature D: 0
+Target creature must save or fall into a deep sleep. Noises
+will not wake them, but a slap or a kick will. Splittable.
+Wave of Mutilation
+R: 20' T: 20' cone D: 0
+All objects within range take [sum] slashing damage. Dex
+Save for half.

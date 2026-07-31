@@ -1,0 +1,157 @@
+{
+  "schema": "benchmark-fixtures/v1",
+  "source": {
+    "title": "Lair of the Lamb",
+    "sha256_of_pdf": "see module-input/source.json on lair-lamb",
+    "extracted_with": "pdftotext -bbox-layout, word-level column split"
+  },
+  "ground_truth_origin": "module-input/responses/content.*.json on branch lair-lamb (ChatGPT-produced, human-reviewed)",
+  "fixtures": [
+    {
+      "id": "p09",
+      "source": "fixtures/source/p09.txt",
+      "ground_truth": "fixtures/ground-truth/p09.json",
+      "source_bytes": 2564,
+      "expected_records": 5,
+      "record_types": {
+        "rule": 3,
+        "table": 2
+      },
+      "suite": "full"
+    },
+    {
+      "id": "p13",
+      "source": "fixtures/source/p13.txt",
+      "ground_truth": "fixtures/ground-truth/p13.json",
+      "source_bytes": 3147,
+      "expected_records": 4,
+      "record_types": {
+        "rule": 3,
+        "table": 1
+      },
+      "suite": "full"
+    },
+    {
+      "id": "p16",
+      "source": "fixtures/source/p16.txt",
+      "ground_truth": "fixtures/ground-truth/p16.json",
+      "source_bytes": 959,
+      "expected_records": 8,
+      "record_types": {
+        "actor": 5,
+        "knowledge": 2,
+        "location": 1
+      },
+      "suite": "quick"
+    },
+    {
+      "id": "p21",
+      "source": "fixtures/source/p21.txt",
+      "ground_truth": "fixtures/ground-truth/p21.json",
+      "source_bytes": 1170,
+      "expected_records": 20,
+      "record_types": {
+        "actor": 1,
+        "item": 11,
+        "location": 7,
+        "situation": 1
+      },
+      "suite": "quick"
+    },
+    {
+      "id": "p28",
+      "source": "fixtures/source/p28.txt",
+      "ground_truth": "fixtures/ground-truth/p28.json",
+      "source_bytes": 1618,
+      "expected_records": 13,
+      "record_types": {
+        "actor": 6,
+        "effect": 4,
+        "table": 3
+      },
+      "suite": "full"
+    },
+    {
+      "id": "p31",
+      "source": "fixtures/source/p31.txt",
+      "ground_truth": "fixtures/ground-truth/p31.json",
+      "source_bytes": 1524,
+      "expected_records": 9,
+      "record_types": {
+        "effect": 3,
+        "location": 4,
+        "procedure": 1,
+        "situation": 1
+      },
+      "suite": "quick"
+    },
+    {
+      "id": "p41",
+      "source": "fixtures/source/p41.txt",
+      "ground_truth": "fixtures/ground-truth/p41.json",
+      "source_bytes": 2124,
+      "expected_records": 37,
+      "record_types": {
+        "actor": 2,
+        "effect": 10,
+        "item": 10,
+        "knowledge": 3,
+        "location": 5,
+        "procedure": 6,
+        "situation": 1
+      },
+      "suite": "full"
+    },
+    {
+      "id": "p46",
+      "source": "fixtures/source/p46.txt",
+      "ground_truth": "fixtures/ground-truth/p46.json",
+      "source_bytes": 1647,
+      "expected_records": 14,
+      "record_types": {
+        "effect": 7,
+        "spell": 7
+      },
+      "suite": "full"
+    },
+    {
+      "id": "p49",
+      "source": "fixtures/source/p49.txt",
+      "ground_truth": "fixtures/ground-truth/p49.json",
+      "source_bytes": 1797,
+      "expected_records": 14,
+      "record_types": {
+        "class": 9,
+        "rule": 4,
+        "table": 1
+      },
+      "suite": "full"
+    }
+  ],
+  "suites": {
+    "quick": {
+      "fixtures": [
+        "p16",
+        "p21",
+        "p31"
+      ],
+      "budget_per_model_seconds": 60,
+      "rationale": "adventure content only -- actors, keyed rooms with mechanisms, dense item lists. The material the pipeline is mostly made of."
+    },
+    "full": {
+      "fixtures": [
+        "p09",
+        "p13",
+        "p16",
+        "p21",
+        "p28",
+        "p31",
+        "p41",
+        "p46",
+        "p49"
+      ],
+      "budget_per_model_seconds": 300,
+      "rationale": "adds rules, tables, spells, classes, and p41 (37 records) as a density stress test."
+    }
+  }
+}

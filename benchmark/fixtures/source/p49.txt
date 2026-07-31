@@ -1,0 +1,45 @@
+Appendix E: Leveling and Classes
+When you gain your level, your character improves according
+HP Atk Templates Mastery
+Level 0 0 0 0 -
+Level 1 Con 1 1 -
+Level 2 Con + 2 2 2 -
+Level 3 Con + 4 3 3 -
+Level 4 Con + 6 4 4 -
++1 Level - - - +1 Mastery
+Whenever you gain your first four levels, you gain a template.
+limited to the four classes below.
+Mastery
+Novice characters improve their HP as they struggle to survive
+in a harsh environment.
+Experienced characters gain Mastery as they learn to keep the
+newbies alive.
+You gain your first Mastery Point at 5 th level, and every level
+beyond that.
+You can spend a Mastery Point to alter an adjacent ally's roll.
+You can influence any in-game d20 or damage roll. You cannot
+affect magic dice, skill-up attempts, or stat-up attempts. You
+cannot affect natural 1s or 20s on a d20. You cannot alter your
+own roll.
+Essentially, if an ally failed a Defense roll by 1 point, you can
+spend 1 Mastery point in order to turn that failure into
+success. You can also use Mastery points to reduce the damage
+an ally takes, or increase the damage that they do.
+You can spend Mastery points after the dice have landed. Mastery
+Choosing a Class
+Whenever you gain a template, you choose a class and gain the
+You must gain all the lower templates before gaining a higher
+Template A from a different class).
+You can't have more than 4 templates at a time, but you can start
+Anyone can become an acrobat, barbarian, fighter, or thief.
+Additional classes (wizard, cleric, warlock, knight, tactician) and
+49
+
+to this table.
+Unless you've unlocked more classes through play, you're
+a
+points replenish with a full night's rest.
+appropriate template.
+template. You may multiclass freely (by picking a
+swapping them out once you hit level 5.
+races must be unlocked through play.

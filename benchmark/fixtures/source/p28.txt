@@ -1,0 +1,41 @@
+Active Encounters
+1-2 Unique. Jasper and Luntz (if alive).
+3-4 Unique. Gerdith and Molina (if alive).
+5-6 1d2 Lantern Worms. A single lantern worm, glossy
+like black rubber. You'll see its blinding searchlight
+long before you see the worm. 15' long.
+Passive Encounters
+1-2 Unique. In an adjacent room, Jasper and Luntz
+preparing an earthworm as if it were a feast.
+3-4 Unique. In an adjacent room, Gerdith and Malenna
+discussing advantages between cavalry vs archers
+vs infantry.
+5-6 A coiled up lantern worm. Looks like a huge,
+taught, black rubber hose. Quiescent until touched
+or light is brought near.
+Armored Ghoul (Gerdith or Molina)
+Lvl 2 Def plate Halberd 1d8
+Int 5 Str 7 Dis hungry
+28
+
+Indirect Encounters
+1-2 Distant arguing (unless all ghouls dead).
+3-4 Gnawing on bones (unless all ghouls dead).
+5-6 Unique. Wetspot on the wall turns into a
+searchlight. If you do not avoid it, a lantern worm emerges.
+Ghoul (Jasper or Luntz)
+Lvl 2 Def leather Claw 1d6+agony
+Int 5 Str 7 Dis hungry
+Lantern Worm
+Lvl 4 Def leather Slam 1d6
+Crawl slow Int 2 Dis hungry
+Eat Light - Target light source explodes and is destroyed.
+The worm eats all the light and becomes brighter. Whoever
+was holding the light source take 1d6 fire damage (Wis Save
+negates) and is automatically blinded. Everyone else is
+blinded if they fail a Wis Save. Con check each turn to end.
+Lantern - Sheds light in a narrow 60' cone. Whoever it is
+looking at gets -4 to hit (also applies to adjacent people).
+Stonemeld - Can become a liquid and flow through stone.
+Looks like a wet, dark stain.
+Retreats after it has eaten all available light sources.

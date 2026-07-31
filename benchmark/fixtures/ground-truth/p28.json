@@ -1,0 +1,452 @@
+[
+  {
+    "confidence": "high",
+    "fields": {
+      "behavior": [
+        "Marches constantly around 27 BALLISTA and denies that she is a ghoul.",
+        "Is alert to combat, a portcullis winch, a dropped sarcophagus lid, and light in the rooms she can see.",
+        "Once alerted, loudly orders Molina to accompany her while she investigates.",
+        "Runs on all fours and behaves intelligently and ravenously."
+      ],
+      "capabilities": [
+        "Lvl 2; Def plate; Halberd 1d8; Move as human; Int 5; Str 7; Dis hungry.",
+        "Skilled in military trivia and tactical board games.",
+        "Can hear all rooms between 25 CRYPT and 29 STAGE and can see to 29 STAGE and 25G CRYPT."
+      ],
+      "goals": [
+        "Convince herself that she is still on patrol.",
+        "Eat intruders.",
+        "Gain respect through a miniature wargame in 28 GAMES."
+      ],
+      "hidden": [
+        "She has not accepted that she is a ghoul.",
+        "Her strongest immediate desire is to eat intruders."
+      ],
+      "location_references": [
+        "location.27-ballista",
+        "location.28-games"
+      ],
+      "reactions": [
+        {
+          "response": "She orders Molina to accompany her and investigates.",
+          "stimulus": "Combat, a portcullis winch, a dropped sarcophagus lid, or torchlight entering a visible room alerts her."
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "Fellow armored ghoul and ballista guard whom she commands during investigations.",
+          "target_id": "actor.molina"
+        },
+        {
+          "relationship": "Former soldier under Captain Conroy; the ballista is named Conroy.",
+          "target_id": "actor.captain-conroy"
+        }
+      ],
+      "role": "An armored ghoul who keeps watch over the company ballista in 27 BALLISTA, patrols nearby rooms, and plays tactical miniature games.",
+      "situation_references": [
+        "situation.ballista-alert-and-investigation",
+        "situation.ghoul-favor-negotiation"
+      ],
+      "title": "Gerdith"
+    },
+    "id": "actor.gerdith",
+    "record_type": "actor",
+    "references": [
+      "actor.molina",
+      "actor.captain-conroy",
+      "location.27-ballista",
+      "location.28-games",
+      "situation.ballista-alert-and-investigation",
+      "situation.ghoul-favor-negotiation"
+    ],
+    "source_pages": [
+      28,
+      29,
+      32,
+      33
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "behavior": [
+        "Wanders the halls with Luntz, pretending they are gentlemen returning from fine dining and entertainment.",
+        "At 21 HEAVY DOORS, speaks to the door as though it were a party host withholding the best brandy.",
+        "When hungry, openly talks about hunger and performs friendship unconvincingly."
+      ],
+      "capabilities": [
+        "Lvl 2; Def leather; Claw 1d6+agony; Move as human; Int 5; Str 7; Dis hungry.",
+        "Skilled in theater and politics."
+      ],
+      "goals": [
+        "Satisfy his hunger for human meat.",
+        "Gain the party's respect through a better performance than his own show in 29 STAGE."
+      ],
+      "hidden": [
+        "His friendly overture at 21 HEAVY DOORS is a poor deception intended to create an opportunity to eat the party."
+      ],
+      "location_references": [
+        "location.21-heavy-doors",
+        "location.29-stage"
+      ],
+      "reactions": [
+        {
+          "response": "He and Luntz feign friendship while intending to eat the party at the first opportunity.",
+          "stimulus": "The party fumbles with 21 HEAVY DOORS."
+        },
+        {
+          "response": "He and Luntz pretend to accept, then circle back and attack shortly afterward.",
+          "stimulus": "The party offers dead bodies elsewhere as food."
+        },
+        {
+          "response": "He and Luntz are wandering the halls and can appear on the Random Encounter table.",
+          "stimulus": "The party leaves and later returns."
+        }
+      ],
+      "role": "One of the five trapped second-floor ghouls; he wanders with Luntz while pretending to be a gentleman and is associated with theater and politics.",
+      "situation_references": [
+        "situation.ghoul-parley-at-heavy-doors",
+        "situation.ghoul-favor-negotiation"
+      ],
+      "title": "Jasper"
+    },
+    "id": "actor.jasper",
+    "record_type": "actor",
+    "references": [
+      "location.21-heavy-doors",
+      "location.29-stage",
+      "situation.ghoul-parley-at-heavy-doors",
+      "situation.ghoul-favor-negotiation",
+      "effect.agony"
+    ],
+    "source_pages": [
+      28,
+      29,
+      30
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "appearance": "A 15' long creature, glossy like black rubber; when coiled it resembles a huge taut black rubber hose, and its searchlight is visible before the worm.",
+      "behavior": [
+        "A coiled lantern worm is quiescent until touched or until light is brought near.",
+        "It retreats after it has eaten all available light sources."
+      ],
+      "capabilities": [
+        "Lvl 4; Def leather; Slam 1d6; Crawl slow; Int 2; Dis hungry.",
+        "Eat Light: a targeted light source explodes and is destroyed; the worm eats the light and becomes brighter. The holder takes 1d6 fire damage unless a Wis Save negates it and is automatically blinded; everyone else is blinded on a failed Wis Save. A Con check each turn ends the blindness.",
+        "Lantern: sheds light in a narrow 60' cone. Whoever it looks at gets -4 to hit, also applying to adjacent people.",
+        "Stonemeld: can become a liquid and flow through stone, appearing as a wet dark stain."
+      ],
+      "role": "A hungry roaming or quiescent dungeon predator that seeks and consumes light sources.",
+      "title": "Lantern Worm"
+    },
+    "id": "actor.lantern-worm",
+    "record_type": "actor",
+    "references": [
+      "effect.lantern-worm-eat-light",
+      "effect.lantern-worm-lantern",
+      "effect.lantern-worm-stonemeld"
+    ],
+    "source_pages": [
+      28
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "behavior": [
+        "Wanders the halls with Jasper, pretending they are gentlemen returning from fine dining and entertainment.",
+        "When hungry, openly talks about hunger and performs friendship unconvincingly."
+      ],
+      "capabilities": [
+        "Lvl 2; Def leather; Claw 1d6+agony; Move as human; Int 5; Str 7; Dis hungry.",
+        "Skilled in cooking, butchery, and lewd jokes."
+      ],
+      "goals": [
+        "Satisfy his hunger for human meat."
+      ],
+      "hidden": [
+        "His friendly overture at 21 HEAVY DOORS is a poor deception intended to create an opportunity to eat the party."
+      ],
+      "location_references": [
+        "location.21-heavy-doors"
+      ],
+      "reactions": [
+        {
+          "response": "He and Jasper feign friendship while intending to eat the party at the first opportunity.",
+          "stimulus": "The party fumbles with 21 HEAVY DOORS."
+        },
+        {
+          "response": "He and Jasper pretend to accept, then circle back and attack shortly afterward.",
+          "stimulus": "The party offers dead bodies elsewhere as food."
+        },
+        {
+          "response": "He and Jasper are wandering the halls and can appear on the Random Encounter table.",
+          "stimulus": "The party leaves and later returns."
+        }
+      ],
+      "role": "One of the five trapped second-floor ghouls; he wanders with Jasper while pretending to be a gentleman and is associated with cooking, butchery, and lewd jokes.",
+      "situation_references": [
+        "situation.ghoul-parley-at-heavy-doors",
+        "situation.ghoul-favor-negotiation"
+      ],
+      "title": "Luntz"
+    },
+    "id": "actor.luntz",
+    "record_type": "actor",
+    "references": [
+      "location.21-heavy-doors",
+      "situation.ghoul-parley-at-heavy-doors",
+      "situation.ghoul-favor-negotiation",
+      "effect.agony"
+    ],
+    "source_pages": [
+      28,
+      29,
+      30
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "low",
+    "fields": {
+      "role": "A name printed in one passive-encounter entry beside Gerdith, discussing cavalry, archers, and infantry.",
+      "title": "Malenna"
+    },
+    "id": "actor.malenna",
+    "record_type": "actor",
+    "references": [],
+    "source_pages": [
+      28
+    ],
+    "uncertainties": [
+      {
+        "description": "The source elsewhere consistently names the second armored ghoul Molina; 'Malenna' may be a printed spelling variant or typo, but it is retained as a separate source observation.",
+        "source_pages": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "behavior": [
+        "Hums tunelessly while endlessly polishing the ballista.",
+        "Complains and cracks jokes when Gerdith orders her to investigate.",
+        "Runs on all fours and behaves intelligently and ravenously."
+      ],
+      "capabilities": [
+        "Lvl 2; Def plate; Halberd 1d8; Move as human; Int 5; Str 7; Dis hungry.",
+        "Skilled as a siege engineer and horse lover."
+      ],
+      "goals": [
+        "Satisfy her hunger.",
+        "Continue her duties as a siege engineer and ballista guard."
+      ],
+      "location_references": [
+        "location.27-ballista"
+      ],
+      "relationships": [
+        {
+          "relationship": "Fellow armored ghoul and ballista guard; follows Gerdith on investigations while complaining.",
+          "target_id": "actor.gerdith"
+        }
+      ],
+      "role": "An armored ghoul who keeps watch over the company ballista in 27 BALLISTA and continually maintains it.",
+      "situation_references": [
+        "situation.ballista-alert-and-investigation",
+        "situation.ghoul-favor-negotiation"
+      ],
+      "title": "Molina"
+    },
+    "id": "actor.molina",
+    "record_type": "actor",
+    "references": [
+      "actor.gerdith",
+      "location.27-ballista",
+      "situation.ballista-alert-and-investigation",
+      "situation.ghoul-favor-negotiation"
+    ],
+    "source_pages": [
+      28,
+      29,
+      33
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "low",
+    "fields": {
+      "text": "Jasper and Luntz's ghoul claw attacks deal 1d6+agony.",
+      "title": "Agony"
+    },
+    "id": "effect.agony",
+    "record_type": "effect",
+    "references": [
+      "actor.jasper",
+      "actor.luntz"
+    ],
+    "source_pages": [
+      28,
+      30
+    ],
+    "uncertainties": [
+      {
+        "description": "These pages name 'agony' in the damage expression but do not define its mechanics.",
+        "source_pages": [
+          28,
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "A targeted light source explodes and is destroyed. The lantern worm consumes the light and becomes brighter. The holder takes 1d6 fire damage unless a Wis Save negates it and is automatically blinded. Everyone else is blinded on a failed Wis Save. Each blinded character makes a Con check each turn to end the blindness.",
+      "title": "Eat Light"
+    },
+    "id": "effect.lantern-worm-eat-light",
+    "record_type": "effect",
+    "references": [
+      "actor.lantern-worm"
+    ],
+    "source_pages": [
+      28
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The lantern worm sheds light in a narrow 60' cone. Whoever it looks at receives -4 to hit, and the penalty also applies to adjacent people.",
+      "title": "Lantern"
+    },
+    "id": "effect.lantern-worm-lantern",
+    "record_type": "effect",
+    "references": [
+      "actor.lantern-worm"
+    ],
+    "source_pages": [
+      28
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "The lantern worm can become liquid and flow through stone, where it resembles a wet dark stain.",
+      "title": "Stonemeld"
+    },
+    "id": "effect.lantern-worm-stonemeld",
+    "record_type": "effect",
+    "references": [
+      "actor.lantern-worm"
+    ],
+    "source_pages": [
+      28
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "entries": [
+        {
+          "result": "Unique. Jasper and Luntz (if alive).",
+          "roll": "1-2"
+        },
+        {
+          "result": "Unique. Gerdith and Molina (if alive).",
+          "roll": "3-4"
+        },
+        {
+          "result": "1d2 Lantern Worms. A single lantern worm, glossy like black rubber. You'll see its blinding searchlight long before you see the worm. 15' long.",
+          "roll": "5-6"
+        }
+      ],
+      "title": "Active Encounters"
+    },
+    "id": "table.active-encounters-second-floor",
+    "record_type": "table",
+    "references": [
+      "actor.jasper",
+      "actor.luntz",
+      "actor.gerdith",
+      "actor.molina",
+      "actor.lantern-worm"
+    ],
+    "source_pages": [
+      28
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "entries": [
+        {
+          "result": "Distant arguing (unless all ghouls dead).",
+          "roll": "1-2"
+        },
+        {
+          "result": "Gnawing on bones (unless all ghouls dead).",
+          "roll": "3-4"
+        },
+        {
+          "result": "Unique. Wetspot on the wall turns into a searchlight. If you do not avoid it, a lantern worm emerges.",
+          "roll": "5-6"
+        }
+      ],
+      "title": "Indirect Encounters"
+    },
+    "id": "table.indirect-encounters-second-floor",
+    "record_type": "table",
+    "references": [
+      "actor.lantern-worm"
+    ],
+    "source_pages": [
+      28
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "entries": [
+        {
+          "result": "Unique. In an adjacent room, Jasper and Luntz preparing an earthworm as if it were a feast.",
+          "roll": "1-2"
+        },
+        {
+          "result": "Unique. In an adjacent room, Gerdith and Malenna discussing advantages between cavalry vs archers vs infantry.",
+          "roll": "3-4"
+        },
+        {
+          "result": "A coiled up lantern worm. Looks like a huge, taught, black rubber hose. Quiescent until touched or light is brought near.",
+          "roll": "5-6"
+        }
+      ],
+      "title": "Passive Encounters"
+    },
+    "id": "table.passive-encounters-second-floor",
+    "record_type": "table",
+    "references": [
+      "actor.jasper",
+      "actor.luntz",
+      "actor.gerdith",
+      "actor.malenna",
+      "actor.lantern-worm"
+    ],
+    "source_pages": [
+      28
+    ],
+    "uncertainties": []
+  }
+]

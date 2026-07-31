@@ -1,0 +1,238 @@
+[
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Any touch greater than a feather triggers the ceiling in 24 CRUSH HALLWAY. It takes 10 seconds to fall 10', rests for 10 seconds, then resets.",
+      "title": "Crush Hallway Ceiling Cycle"
+    },
+    "id": "effect.crush-hallway-ceiling",
+    "record_type": "effect",
+    "references": [
+      "location.24-crush-hallway",
+      "situation.crush-hallway-trap"
+    ],
+    "source_pages": [
+      31
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "Each of the three disguised spring trap doors in 24 CRUSH HALLWAY drops a victim 40' to the water below.",
+      "title": "Crush Hallway Trap-Door Fall"
+    },
+    "id": "effect.crush-hallway-trapdoor-fall",
+    "record_type": "effect",
+    "references": [
+      "location.24-crush-hallway",
+      "situation.crush-hallway-trap"
+    ],
+    "source_pages": [
+      31
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "text": "If the oil covering the water in 24C is ignited, it burns for 5 minutes.",
+      "title": "24C Oil Layer Burns"
+    },
+    "id": "effect.oil-layer-burning",
+    "record_type": "effect",
+    "references": [
+      "location.24c"
+    ],
+    "source_pages": [
+      31
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "contents": [
+        "Crushed furniture debris on the east side."
+      ],
+      "discoverable": [
+        {
+          "condition": "Tap the floor to listen for hollow sections.",
+          "information": "Three perfectly disguised trap doors sound hollow."
+        }
+      ],
+      "first_impression": "A 90' hallway has thick splinters and wood shards spread around its east side.",
+      "hazards": [
+        "The ceiling falls 10' in 10 seconds, rests for 10 seconds, then resets.",
+        "Three disguised spring trap doors drop victims 40' to water below."
+      ],
+      "hidden": [
+        "Any contact heavier than a feather triggers the descending ceiling.",
+        "Each disguised trap door is driven by a hinge and strong spring."
+      ],
+      "keyed_area": "24 CRUSH HALLWAY",
+      "procedure_references": [
+        "procedure.cross-crush-hallway",
+        "procedure.disarm-crush-hallway-trapdoors"
+      ],
+      "situation_references": [
+        "situation.crush-hallway-trap"
+      ],
+      "title": "24 CRUSH HALLWAY",
+      "triggers": [
+        "Entering the hallway or applying more than feather-light contact starts the ceiling's lowering cycle."
+      ]
+    },
+    "id": "location.24-crush-hallway",
+    "record_type": "location",
+    "references": [
+      "situation.crush-hallway-trap",
+      "procedure.cross-crush-hallway",
+      "procedure.disarm-crush-hallway-trapdoors",
+      "effect.crush-hallway-ceiling",
+      "effect.crush-hallway-trapdoor-fall"
+    ],
+    "source_pages": [
+      31
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "contents": [
+        "Water, 10' deep.",
+        "A floating broken chair missing two legs."
+      ],
+      "first_impression": "A chamber of water 10' deep contains a broken chair missing two legs.",
+      "keyed_area": "24A",
+      "title": "24A"
+    },
+    "id": "location.24a",
+    "record_type": "location",
+    "references": [],
+    "source_pages": [
+      31
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "contents": [
+        "Water, 10' deep.",
+        "A rusted-shut portcullis permitting sight but not access into 42 SUNKEN GALLERY."
+      ],
+      "first_impression": "Water 10' deep lies before a rusted-shut portcullis through which 42 SUNKEN GALLERY can be seen but not entered.",
+      "keyed_area": "24B",
+      "title": "24B"
+    },
+    "id": "location.24b",
+    "record_type": "location",
+    "references": [],
+    "source_pages": [
+      31
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "contents": [
+        "Water, 10' deep.",
+        "A surface layer of oil."
+      ],
+      "discoverable": [
+        {
+          "condition": "Search the bottom of the 10'-deep water.",
+          "information": "Two flasks of oil and broken glass lie on the bottom."
+        }
+      ],
+      "first_impression": "Water 10' deep is covered by a layer of oil.",
+      "hazards": [
+        "The surface oil burns for 5 minutes if ignited."
+      ],
+      "keyed_area": "24C",
+      "resources": [
+        "Two flasks of oil on the bottom."
+      ],
+      "title": "24C"
+    },
+    "id": "location.24c",
+    "record_type": "location",
+    "references": [
+      "effect.oil-layer-burning"
+    ],
+    "source_pages": [
+      31
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "steps": [
+        "A human can sprint across before the ceiling crushes without a Movement check, but Movement checks are required to jump the three disguised trap doors unless those doors are disabled.",
+        "Alternatively, throw an uncrushable object such as the metal cage, ballista, or a combination of sturdy objects into the hallway; those objects are not recoverable.",
+        "Alternatively, climb along the wall with iron spikes and ropes; this takes about an hour and causes a couple of encounter checks.",
+        "Alternatively, disable the trap doors from 22 MUSHROOM and then sprint across."
+      ],
+      "title": "Cross 24 CRUSH HALLWAY",
+      "trigger": "The party attempts to traverse the 90' crushing hallway."
+    },
+    "id": "procedure.cross-crush-hallway",
+    "record_type": "procedure",
+    "references": [
+      "location.24-crush-hallway",
+      "procedure.disarm-crush-hallway-trapdoors"
+    ],
+    "source_pages": [
+      31
+    ],
+    "uncertainties": []
+  },
+  {
+    "confidence": "high",
+    "fields": {
+      "activation": {
+        "condition": "Any touch greater than a feather in the hallway triggers the ceiling; stepping on a trap door triggers that floor panel.",
+        "type": "triggered"
+      },
+      "location_references": [
+        "location.24-crush-hallway"
+      ],
+      "outcomes": [
+        "A human can sprint the length without a Movement check for the ceiling.",
+        "Movement checks are needed to jump the three trap doors unless disabled.",
+        "The ceiling takes 10 seconds to fall 10', rests for 10 seconds, then resets."
+      ],
+      "perceived": "After someone enters the 90' hall, the ceiling begins descending toward the floor; hidden floor panels can spring open beneath runners.",
+      "procedure_references": [
+        "procedure.cross-crush-hallway",
+        "procedure.disarm-crush-hallway-trapdoors"
+      ],
+      "repeat": {
+        "condition": "The ceiling falls, rests, and resets; trap doors remain active unless their remote switches are held.",
+        "mode": "repeatable"
+      },
+      "stakes": [
+        "Entrants can be crushed by the ceiling.",
+        "Runners can fall 40' through one of three disguised trap doors into the water chambers."
+      ],
+      "title": "24 CRUSH HALLWAY Trap"
+    },
+    "id": "situation.crush-hallway-trap",
+    "record_type": "situation",
+    "references": [
+      "location.24-crush-hallway",
+      "procedure.cross-crush-hallway",
+      "procedure.disarm-crush-hallway-trapdoors",
+      "effect.crush-hallway-ceiling",
+      "effect.crush-hallway-trapdoor-fall"
+    ],
+    "source_pages": [
+      31
+    ],
+    "uncertainties": []
+  }
+]
