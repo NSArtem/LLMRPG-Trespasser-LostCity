@@ -235,6 +235,21 @@ page can be regenerated from the PDF with the method above.
 
 ## Suites
 
+### Smoke — one fixture, no time cutoff
+
+Fixture `p31` only: 1.5 KB in, 9 reference records. This is the fast iteration
+loop for changing prompts or checking whether a model can complete the output
+contract. It exercises the most important structure—keyed locations, entities,
+trap mechanics, options, and structured values—without stopping a model for a
+suite budget. Run it with:
+
+```bash
+python3 benchmark/benchmark.py run --suite smoke --skip-unavailable
+```
+
+Smoke results are useful for debugging, but they do not qualify a model for the
+full suite. Use the quick suite for the formal S1/S2/S5 triage gate.
+
 ### Quick — under 240 s per model
 
 Fixtures `p16`, `p21`, `p31`. 3.6 KB in, 37 reference records.
@@ -316,16 +331,20 @@ the model boundary identical on Mac and Windows. It provides:
 
 - `inventory` to record installed tags, sizes, parameter counts, and
   quantization;
-- `run` for the quick/full suites, per-fixture validation, one documented retry,
-  S1–S6 measurements, prompts, and verbatim raw responses;
+- `install --tier tier1|tier2` to pull every model in a tier through Ollama's
+  streaming `/api/pull` endpoint;
+- `run` for the smoke/quick/full suites, per-fixture validation, one documented
+  retry, S1–S6 measurements, prompts, and verbatim raw responses;
 - `score` to re-score captured responses after a human S3 audit or revised S4
   review, without calling a model; and
 - `summary` to render a recommendation and Mac/Windows comparison.
 
 The runner first performs a model preflight and reports every requested tag as
 `FOUND` or `UNAVAILABLE`. An unavailable model aborts the run by default;
-`--skip-unavailable` is required to continue with the installed subset. Model
-weights are never downloaded by the benchmark itself.
+`--skip-unavailable` is required to continue with the installed subset. The
+`run` command never downloads model weights. To install the exact tags for a
+tier, start Ollama and run the explicit installer command below; it requires
+network access to the Ollama model registry and reports streaming pull progress.
 
 Machine identity is automatic: Mac and Windows are detected from the host, with
 no machine override flag. Each result also records best-effort technical
@@ -359,7 +378,11 @@ without a completed `results.json`.
 Typical commands are:
 
 ```bash
+python3 benchmark/benchmark.py install --tier tier1
+# Mac-only comparison tier:
+python3 benchmark/benchmark.py install --tier tier2
 python3 benchmark/benchmark.py inventory
+python3 benchmark/benchmark.py run --suite smoke --skip-unavailable
 python3 benchmark/benchmark.py run --suite quick
 python3 benchmark/benchmark.py run --suite full --skip-unavailable
 python3 benchmark/benchmark.py score benchmark/results/<run-id> --audit audit.json

@@ -129,6 +129,13 @@
     }
   ],
   "suites": {
+    "smoke": {
+      "fixtures": [
+        "p31"
+      ],
+      "budget_per_model_seconds": null,
+      "rationale": "one compact, contract-dense keyed-room fixture for prompt/model iteration; it has no time cutoff."
+    },
     "quick": {
       "fixtures": [
         "p16",

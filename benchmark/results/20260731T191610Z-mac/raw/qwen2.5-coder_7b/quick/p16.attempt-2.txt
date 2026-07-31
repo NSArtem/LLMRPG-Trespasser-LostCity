@@ -1,0 +1,7 @@
+#unit,p16,pages,16
+free-city-of-lon-barago,visible,public,The Free City of Lon Barago is known for freedom and lawlessness. Power is held by three great temples: the White Temple, the Red Temple, and the Temple of True Power.
+white-temple,role,public,The White Temple worships Vandoh, the Goddess of Wisdom, Patience, Self-Improvement, and the powers behind the sun.
+red-temple,role,public,The Red Temple worships Shendormu, the God of Fungus, Mindlessness, and Community.
+temple-of-true-power,role,public,The Temple of True Power is known for its focus on strength and size.
+lamb,visible,discoverable,One of the secrets that the White Temple keeps is called the Lamb. It was born of a sheep and is a holy child of Vandoh.
+event,visible,hidden,A decade ago, a militia attacked the Red Temple, attempting to infiltrate through the crypts. They were the Twelve-Fingered Hand, a brotherhood of knights closely aligned with the White Temple. The Hand failed. Many were killed. Many were entombed. Some of them are ghouls now.

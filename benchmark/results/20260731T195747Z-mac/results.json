@@ -1,0 +1,3299 @@
+{
+  "config": {
+    "full_budget_s": 300.0,
+    "ollama_url": "http://127.0.0.1:11434",
+    "quick_budget_s": 240.0,
+    "retries": 1,
+    "seed": 0,
+    "skip_unavailable": false,
+    "smoke_budget_s": null,
+    "temperature": 0
+  },
+  "created_at": "2026-07-31T19:57:47.525658+00:00",
+  "environment": {
+    "cpu": {
+      "logical_count": 11
+    },
+    "gpu": [
+      {
+        "name": "Apple M3 Pro"
+      }
+    ],
+    "memory": {
+      "physical_bytes": 19327352832
+    },
+    "ollama": {
+      "cli_path": "/opt/homebrew/bin/ollama",
+      "cli_version": "ollama version is 0.32.5",
+      "url": "http://127.0.0.1:11434"
+    },
+    "platform": {
+      "machine": "arm64",
+      "processor": "arm",
+      "release": "24.6.0",
+      "system": "Darwin",
+      "version": "Darwin Kernel Version 24.6.0: Mon Jan 19 21:59:23 PST 2026; root:xnu-11417.140.69.708.3~1/RELEASE_ARM64_T6030"
+    },
+    "python": {
+      "implementation": "CPython",
+      "version": "3.14.6"
+    }
+  },
+  "fixture_manifest_sha256": "16aa951d9c86f60ce62c5313bc5a51e866c4b35916214baa469daa66edf9e197",
+  "host": "macOS-15.7.4-arm64-arm-64bit-Mach-O",
+  "machine": "mac",
+  "model_inventory": [
+    {
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "details": {
+        "context_length": 32768,
+        "embedding_length": 4096,
+        "families": [
+          "llama"
+        ],
+        "family": "llama",
+        "format": "gguf",
+        "parameter_size": "7.2B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+      "model": "mistral:7b",
+      "modified_at": "2026-07-31T23:05:06.252768135+04:00",
+      "name": "mistral:7b",
+      "size": 4372824384
+    },
+    {
+      "capabilities": [
+        "completion",
+        "tools",
+        "insert"
+      ],
+      "details": {
+        "context_length": 32768,
+        "embedding_length": 3584,
+        "families": [
+          "qwen2"
+        ],
+        "family": "qwen2",
+        "format": "gguf",
+        "parameter_size": "7.6B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "dae161e27b0e90dd1856c8bb3209201fd6736d8eb66298e75ed87571486f4364",
+      "model": "qwen2.5-coder:7b",
+      "modified_at": "2026-07-31T22:58:46.449452837+04:00",
+      "name": "qwen2.5-coder:7b",
+      "size": 4683087561
+    },
+    {
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "details": {
+        "context_length": 131072,
+        "embedding_length": 4096,
+        "families": [
+          "granite"
+        ],
+        "family": "granite",
+        "format": "gguf",
+        "parameter_size": "8.2B",
+        "parent_model": "/Users/ollama/.ollama/models/blobs/sha256-77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "fd429f23b90980ed1bef53b990894e7b0199331f6ae90c5650240a7d5b70f1f7",
+      "model": "granite3.3:8b",
+      "modified_at": "2026-07-31T22:52:30.296513513+04:00",
+      "name": "granite3.3:8b",
+      "size": 4942891653
+    },
+    {
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "details": {
+        "context_length": 131072,
+        "embedding_length": 4096,
+        "families": [
+          "llama"
+        ],
+        "family": "llama",
+        "format": "gguf",
+        "parameter_size": "8.0B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "model": "llama3.1:8b",
+      "modified_at": "2026-07-31T22:52:29.573734157+04:00",
+      "name": "llama3.1:8b",
+      "size": 4920753328
+    },
+    {
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "context_length": 40960,
+        "embedding_length": 4096,
+        "families": [
+          "qwen3"
+        ],
+        "family": "qwen3",
+        "format": "gguf",
+        "parameter_size": "8.2B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "model": "qwen3:8b",
+      "modified_at": "2026-07-31T22:52:28.834228639+04:00",
+      "name": "qwen3:8b",
+      "size": 5225388164
+    },
+    {
+      "capabilities": [
+        "completion"
+      ],
+      "details": {
+        "families": [
+          "gemma3"
+        ],
+        "family": "gemma3",
+        "format": "gguf",
+        "parameter_size": "12.2B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+      "model": "gemma3:12b",
+      "modified_at": "2026-07-31T22:50:08.276887175+04:00",
+      "name": "gemma3:12b",
+      "size": 8149190253
+    },
+    {
+      "capabilities": [
+        "completion"
+      ],
+      "details": {
+        "context_length": 16384,
+        "embedding_length": 5120,
+        "families": [
+          "phi3"
+        ],
+        "family": "phi3",
+        "format": "gguf",
+        "parameter_size": "14.7B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "ac896e5b8b34a1f4efa7b14d7520725140d5512484457fab45d2a4ea14c69dba",
+      "model": "phi4:14b",
+      "modified_at": "2026-07-31T22:38:16.066764982+04:00",
+      "name": "phi4:14b",
+      "size": 9053116391
+    },
+    {
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "context_length": 40960,
+        "embedding_length": 5120,
+        "families": [
+          "qwen3"
+        ],
+        "family": "qwen3",
+        "format": "gguf",
+        "parameter_size": "14.8B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "bdbd181c33f2ed1b31c972991882db3cf4d192569092138a7d29e973cd9debe8",
+      "model": "qwen3:14b",
+      "modified_at": "2026-07-31T22:25:13.706526779+04:00",
+      "name": "qwen3:14b",
+      "size": 9276198565
+    }
+  ],
+  "models": [
+    {
+      "actual": "qwen3:14b",
+      "available": true,
+      "reason": "tests the quality cost of the Windows VRAM constraint",
+      "requested": "qwen3:14b",
+      "status": "completed",
+      "substitution": null,
+      "suites": {
+        "smoke": {
+          "fixtures": [
+            {
+              "attempts": [
+                {
+                  "eval_duration_s": 31.517393,
+                  "generated_tokens": 443,
+                  "prompt_tokens": 1400,
+                  "raw_file": "raw/qwen3_14b/smoke/p31.attempt-1.txt",
+                  "time_to_first_token_s": 17.461734,
+                  "tokens_per_second": 14.0557,
+                  "validation": {
+                    "entirely_clean": false,
+                    "entities": {},
+                    "facts": [
+                      {
+                        "predicate": "appearance",
+                        "subject": "crush-hallway",
+                        "value": "Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "features",
+                        "subject": "crush-hallway",
+                        "value": "As soon as anyone enters this 90' hallway, the ceiling will begin to lower. Any touch greater than a feather is sufficient to trigger the trap. The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "hazards",
+                        "subject": "crush-hallway",
+                        "value": "No Movement check is required for a human to sprint across the hallway without getting crushed. However, Movement checks are required to jump over the 3 trap doors, which are perfectly disguised, but sound hollow if tapped. Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "contents",
+                        "subject": "crush-hallway",
+                        "value": "Water, 10' deep. A broken chair missing two legs floats here.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "contents",
+                        "subject": "crush-hallway",
+                        "value": "Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "contents",
+                        "subject": "crush-hallway",
+                        "value": "Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited. On the bottom are 2 flasks of oil and broken glass.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "possible_effects",
+                        "subject": "crush-hallway",
+                        "value": "Crossing the hallway. The easiest way to cross the hallway is to throw an uncushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects. (Those objects won't be recoverable, though.) You could also cross the hallway by just climbing along the wall with iron spikes and ropes. If the party chooses this option, it'll take about an hour, so a couple of encounter checks will occur during it. Lastly, don't forget about disabling the trap doors (22 MUSHROOM) and then just sprinting across the hallway.",
+                        "visibility": "public"
+                      }
+                    ],
+                    "failure_kinds": [
+                      "invalid_json",
+                      "malformed_row",
+                      "structural_incomplete"
+                    ],
+                    "format_errors": [
+                      "line 8: structured value is not JSON"
+                    ],
+                    "row_count": 8,
+                    "rows": [
+                      {
+                        "kind": "structural",
+                        "line": 1,
+                        "text": "#unit,p31,pages,31",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 2,
+                        "text": "crush-hallway,appearance,public,Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 3,
+                        "text": "crush-hallway,features,public,As soon as anyone enters this 90' hallway, the ceiling will begin to lower. Any touch greater than a feather is sufficient to trigger the trap. The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 4,
+                        "text": "crush-hallway,hazards,public,No Movement check is required for a human to sprint across the hallway without getting crushed. However, Movement checks are required to jump over the 3 trap doors, which are perfectly disguised, but sound hollow if tapped. Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 5,
+                        "text": "crush-hallway,contents,public,Water, 10' deep. A broken chair missing two legs floats here.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 6,
+                        "text": "crush-hallway,contents,public,Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 7,
+                        "text": "crush-hallway,contents,public,Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited. On the bottom are 2 flasks of oil and broken glass.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 8,
+                        "text": "crush-hallway,possible_effects,public,Crossing the hallway. The easiest way to cross the hallway is to throw an uncushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects. (Those objects won't be recoverable, though.) You could also cross the hallway by just climbing along the wall with iron spikes and ropes. If the party chooses this option, it'll take about an hour, so a couple of encounter checks will occur during it. Lastly, don't forget about disabling the trap doors (22 MUSHROOM) and then just sprinting across the hallway.",
+                        "valid": false
+                      }
+                    ],
+                    "s1_valid": false,
+                    "s2_valid": false,
+                    "structural_errors": [
+                      "line 2: fact subject 'crush-hallway' was not declared first",
+                      "line 3: fact subject 'crush-hallway' was not declared first",
+                      "line 4: fact subject 'crush-hallway' was not declared first",
+                      "line 5: fact subject 'crush-hallway' was not declared first",
+                      "line 6: fact subject 'crush-hallway' was not declared first",
+                      "line 7: fact subject 'crush-hallway' was not declared first",
+                      "line 8: fact subject 'crush-hallway' was not declared first"
+                    ],
+                    "unit_markers": [
+                      {
+                        "id": "p31",
+                        "pages": "31"
+                      }
+                    ],
+                    "valid_row_count": 7
+                  },
+                  "wall_clock_s": 48.982512
+                },
+                {
+                  "eval_duration_s": 35.556543,
+                  "generated_tokens": 489,
+                  "prompt_tokens": 2226,
+                  "raw_file": "raw/qwen3_14b/smoke/p31.attempt-2.txt",
+                  "time_to_first_token_s": 6.614374,
+                  "tokens_per_second": 13.7527,
+                  "validation": {
+                    "entirely_clean": false,
+                    "entities": {
+                      "24a": {
+                        "kind": "place",
+                        "name": "24A"
+                      },
+                      "24b": {
+                        "kind": "place",
+                        "name": "24B"
+                      },
+                      "24c": {
+                        "kind": "place",
+                        "name": "24C"
+                      },
+                      "crush-hallway": {
+                        "kind": "place",
+                        "name": "Crush Hallway"
+                      }
+                    },
+                    "facts": [
+                      {
+                        "predicate": "appearance",
+                        "subject": "crush-hallway",
+                        "value": "Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "features",
+                        "subject": "crush-hallway",
+                        "value": "As soon as anyone enters this 90' hallway, the ceiling will begin to lower. Any touch greater than a feather is sufficient to trigger the trap. The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "hazards",
+                        "subject": "crush-hallway",
+                        "value": "No Movement check is required for a human to sprint across the hallway without getting crushed. However, Movement checks are required to jump over the 3 trap doors, which are perfectly disguised, but sound hollow if tapped. Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "contents",
+                        "subject": "24a",
+                        "value": "Water, 10' deep. A broken chair missing two legs floats here.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "contents",
+                        "subject": "24b",
+                        "value": "Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "contents",
+                        "subject": "24c",
+                        "value": "Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited. On the bottom are 2 flasks of oil and broken glass.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "crush-hallway",
+                        "value": "Crossing the hallway. The easiest way to cross the hallway is to throw an uncushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects. (Those objects won't be recoverable, though.) You could also cross the hallway by just climbing along the wall with iron spikes and ropes. If the party chooses this option, it'll take about an hour, so a couple of encounter checks will occur during it. Lastly, don't forget about disabling the trap doors (22 MUSHROOM) and then just sprinting across the hallway.",
+                        "visibility": "public"
+                      }
+                    ],
+                    "failure_kinds": [
+                      "malformed_row",
+                      "structural_incomplete",
+                      "unknown_vocabulary"
+                    ],
+                    "format_errors": [
+                      "line 7: invalid fact subject '24a'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 9: invalid fact subject '24b'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 11: invalid fact subject '24c'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "row_count": 12,
+                    "rows": [
+                      {
+                        "kind": "structural",
+                        "line": 1,
+                        "text": "#unit,p31,pages,31",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 2,
+                        "text": "#entity,crush-hallway,place,Crush Hallway",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 3,
+                        "text": "crush-hallway,appearance,public,Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 4,
+                        "text": "crush-hallway,features,public,As soon as anyone enters this 90' hallway, the ceiling will begin to lower. Any touch greater than a feather is sufficient to trigger the trap. The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 5,
+                        "text": "crush-hallway,hazards,public,No Movement check is required for a human to sprint across the hallway without getting crushed. However, Movement checks are required to jump over the 3 trap doors, which are perfectly disguised, but sound hollow if tapped. Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 6,
+                        "text": "#entity,24a,place,24A",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 7,
+                        "text": "24a,contents,public,Water, 10' deep. A broken chair missing two legs floats here.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 8,
+                        "text": "#entity,24b,place,24B",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 9,
+                        "text": "24b,contents,public,Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 10,
+                        "text": "#entity,24c,place,24C",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 11,
+                        "text": "24c,contents,public,Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited. On the bottom are 2 flasks of oil and broken glass.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 12,
+                        "text": "crush-hallway,text,public,Crossing the hallway. The easiest way to cross the hallway is to throw an uncushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects. (Those objects won't be recoverable, though.) You could also cross the hallway by just climbing along the wall with iron spikes and ropes. If the party chooses this option, it'll take about an hour, so a couple of encounter checks will occur during it. Lastly, don't forget about disabling the trap doors (22 MUSHROOM) and then just sprinting across the hallway.",
+                        "valid": true
+                      }
+                    ],
+                    "s1_valid": false,
+                    "s2_valid": false,
+                    "structural_errors": [
+                      "line 6: invalid entity id '24a'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 8: invalid entity id '24b'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 10: invalid entity id '24c'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "unit_markers": [
+                      {
+                        "id": "p31",
+                        "pages": "31"
+                      }
+                    ],
+                    "valid_row_count": 6
+                  },
+                  "wall_clock_s": 42.175547
+                }
+              ],
+              "contamination": {
+                "imported_rules": null,
+                "invented_entities": null,
+                "invented_numbers": null,
+                "note": "Heuristics are leads for the required hand audit, not a contamination verdict.",
+                "status": "manual_review_required",
+                "suspicious_entities": [],
+                "suspicious_numbers": [],
+                "unsupported_facts": null
+              },
+              "expected_records": 9,
+              "final_s1_valid": false,
+              "final_s2_valid": false,
+              "fixture": "p31",
+              "initial_s1_valid": false,
+              "initial_s2_valid": false,
+              "recall": {
+                "atoms_matched": 11,
+                "atoms_total": 55,
+                "details": [
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "effect.crush-hallway-ceiling",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "effect.crush-hallway-ceiling",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "effect.crush-hallway-trapdoor-fall",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "effect.crush-hallway-trapdoor-fall",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "effect.oil-layer-burning",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "effect.oil-layer-burning",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.24-crush-hallway",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "discoverable",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": "No Movement check is required for a human to sprint across the hallway without getting crushed. However, Movement checks are required to jump over the 3 trap doors, which are perfectly disguised, but sound hollow if tapped. Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                    "field": "hazards",
+                    "index": 1,
+                    "matched": true,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.5902
+                  },
+                  {
+                    "actual": null,
+                    "field": "hidden",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hidden",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "situation_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "triggers",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.24a",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": "Water, 10' deep. A broken chair missing two legs floats here.",
+                    "field": "contents",
+                    "index": 0,
+                    "matched": true,
+                    "record": "location.24a",
+                    "similarity": 0.8853
+                  },
+                  {
+                    "actual": "Water, 10' deep. A broken chair missing two legs floats here.",
+                    "field": "contents",
+                    "index": 1,
+                    "matched": true,
+                    "record": "location.24a",
+                    "similarity": 0.7782
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.24b",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": "Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                    "field": "contents",
+                    "index": 0,
+                    "matched": true,
+                    "record": "location.24b",
+                    "similarity": 0.844
+                  },
+                  {
+                    "actual": "Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                    "field": "contents",
+                    "index": 1,
+                    "matched": true,
+                    "record": "location.24b",
+                    "similarity": 0.9896
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.24c",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": "Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited. On the bottom are 2 flasks of oil and broken glass.",
+                    "field": "contents",
+                    "index": 0,
+                    "matched": true,
+                    "record": "location.24c",
+                    "similarity": 0.8267
+                  },
+                  {
+                    "actual": "Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited. On the bottom are 2 flasks of oil and broken glass.",
+                    "field": "contents",
+                    "index": 1,
+                    "matched": true,
+                    "record": "location.24c",
+                    "similarity": 0.5035
+                  },
+                  {
+                    "actual": null,
+                    "field": "discoverable",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "resources",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 0,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 1,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 2,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 3,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "trigger",
+                    "index": 0,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "activation",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "location_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 1,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 2,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "perceived",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 1,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "repeat",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "stakes",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "stakes",
+                    "index": 1,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  }
+                ],
+                "method": "lexical-semantic proxy with optional human review overrides",
+                "record_recall": 0.0,
+                "records_matched": 0,
+                "records_total": 9,
+                "substance_recall": 0.2
+              },
+              "s1_failure_kinds": [
+                "invalid_json",
+                "malformed_row",
+                "structural_incomplete",
+                "unknown_vocabulary"
+              ],
+              "source_bytes": 1524
+            }
+          ],
+          "metrics": {
+            "budget_exceeded": false,
+            "budget_s": null,
+            "elapsed_s": 91.171433,
+            "entirely_clean_rate": 0.0,
+            "entirely_clean_responses": 0,
+            "failure_taxonomy": {
+              "added_commentary": 0,
+              "escaped_quotes": 0,
+              "extra_fields": 0,
+              "invalid_json": 1,
+              "malformed_row": 2,
+              "structural_incomplete": 2,
+              "unknown_vocabulary": 1,
+              "wrapped_in_fence": 0,
+              "wrapped_in_json": 0,
+              "wrong_field_count": 0
+            },
+            "recall": {
+              "atoms_matched": 11,
+              "atoms_total": 55,
+              "record_recall": 0.0,
+              "records_matched": 0,
+              "records_total": 9,
+              "substance_recall": 0.2
+            },
+            "responses": 1,
+            "rows": {
+              "parse_rate": 0.5,
+              "total": 12,
+              "valid": 6
+            },
+            "s1_gate": false,
+            "s2_gate": false,
+            "s3_gate": false,
+            "s3_status": "manual_review_required",
+            "structural": {
+              "unit_markers": {
+                "duplicated": 0,
+                "missing": 0,
+                "present": 1,
+                "wrong": 0
+              },
+              "unresolved_fact_subjects": 0
+            },
+            "throughput": {
+              "mean_time_to_first_token_s": 17.461734,
+              "mean_tokens_per_second": 14.0557,
+              "mean_wall_clock_s": 48.982512,
+              "median_tokens_per_second": 14.0557,
+              "projected_generated_tokens": 43602.36220472441,
+              "projected_whole_adventure_wall_clock_s": 4821.113385826772,
+              "source_bytes": 1524,
+              "total_generated_tokens": 443
+            }
+          },
+          "name": "smoke",
+          "skipped": []
+        }
+      },
+      "tier": "tier2"
+    },
+    {
+      "actual": "phi4:14b",
+      "available": true,
+      "reason": "second opinion in the Mac-only 14B tier",
+      "requested": "phi4:14b",
+      "status": "completed",
+      "substitution": null,
+      "suites": {
+        "smoke": {
+          "fixtures": [
+            {
+              "attempts": [
+                {
+                  "eval_duration_s": 32.025189,
+                  "generated_tokens": 447,
+                  "prompt_tokens": 1375,
+                  "raw_file": "raw/phi4_14b/smoke/p31.attempt-1.txt",
+                  "time_to_first_token_s": 14.600651,
+                  "tokens_per_second": 13.9578,
+                  "validation": {
+                    "entirely_clean": false,
+                    "entities": {
+                      "hallway": {
+                        "kind": "place",
+                        "name": "Crush Hallway"
+                      },
+                      "trap_door_a": {
+                        "kind": "place",
+                        "name": "Trap Door A"
+                      },
+                      "trap_door_b": {
+                        "kind": "place",
+                        "name": "Trap Door B"
+                      },
+                      "trap_door_c": {
+                        "kind": "place",
+                        "name": "Trap Door C"
+                      }
+                    },
+                    "facts": [
+                      {
+                        "predicate": "contents",
+                        "subject": "hallway",
+                        "value": "Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "dimensions",
+                        "subject": "hallway",
+                        "value": "90' hallway",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "triggers",
+                        "subject": "hallway",
+                        "value": "Any touch greater than a feather is sufficient to trigger the trap.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "cycle",
+                        "subject": "hallway",
+                        "value": "{\"lowering\": \"10 seconds\", \"rest\": \"10 seconds\", \"reset\": true}",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "approaches",
+                        "subject": "hallway",
+                        "value": "No Movement check is required for a human to sprint across the hallway without getting crushed.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "triggers",
+                        "subject": "hallway",
+                        "value": "Movement checks are required to jump over the 3 trap doors",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "features",
+                        "subject": "hallway",
+                        "value": "Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "exit",
+                        "subject": "trap_door_a",
+                        "value": "Water, 10' deep. A broken chair missing two legs floats here.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "exit",
+                        "subject": "trap_door_b",
+                        "value": "Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "exit",
+                        "subject": "trap_door_c",
+                        "value": "Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "contents",
+                        "subject": "trap_door_c",
+                        "value": "2 flasks of oil and broken glass",
+                        "visibility": "public"
+                      }
+                    ],
+                    "failure_kinds": [
+                      "invalid_json",
+                      "malformed_row",
+                      "structural_incomplete",
+                      "unknown_vocabulary",
+                      "wrapped_in_fence"
+                    ],
+                    "format_errors": [
+                      "line 11: invalid fact subject 'trap_door_a'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 11: structured value is not JSON",
+                      "line 13: invalid fact subject 'trap_door_b'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 13: structured value is not JSON",
+                      "line 15: invalid fact subject 'trap_door_c'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 15: structured value is not JSON",
+                      "line 16: invalid fact subject 'trap_door_c'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 20: unknown option slot 'duration'"
+                    ],
+                    "row_count": 22,
+                    "rows": [
+                      {
+                        "kind": "structural",
+                        "line": 1,
+                        "text": "#unit,p31,pages,31",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 2,
+                        "text": "#entity,hallway,place,Crush Hallway",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 3,
+                        "text": "hallway,contents,public,Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 4,
+                        "text": "hallway,dimensions,public,90' hallway",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 5,
+                        "text": "hallway,triggers,public,Any touch greater than a feather is sufficient to trigger the trap.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 6,
+                        "text": "hallway,cycle,public,{\"lowering\": \"10 seconds\", \"rest\": \"10 seconds\", \"reset\": true}",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 7,
+                        "text": "hallway,approaches,public,No Movement check is required for a human to sprint across the hallway without getting crushed.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 8,
+                        "text": "hallway,triggers,public,Movement checks are required to jump over the 3 trap doors",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 9,
+                        "text": "hallway,features,public,Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 10,
+                        "text": "#entity,trap_door_a,place,Trap Door A",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 11,
+                        "text": "trap_door_a,exit,public,Water, 10' deep. A broken chair missing two legs floats here.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 12,
+                        "text": "#entity,trap_door_b,place,Trap Door B",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 13,
+                        "text": "trap_door_b,exit,public,Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 14,
+                        "text": "#entity,trap_door_c,place,Trap Door C",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 15,
+                        "text": "trap_door_c,exit,public,Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 16,
+                        "text": "trap_door_c,contents,public,2 flasks of oil and broken glass",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 17,
+                        "text": "#option,throw_object,action,Throw an uncrushable object into the hallway",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 18,
+                        "text": "#option,throw_object,result,The objects won't be recoverable",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 19,
+                        "text": "#option,climb_wall,action,Climb along the wall with iron spikes and ropes",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 20,
+                        "text": "#option,climb_wall,duration,about an hour",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 21,
+                        "text": "#option,disable_trap_doors,action,Disable the trap doors (22 MUSHROOM)",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 22,
+                        "text": "#option,sprint_across_hallway,action,Sprinting across the hallway",
+                        "valid": false
+                      }
+                    ],
+                    "s1_valid": false,
+                    "s2_valid": false,
+                    "structural_errors": [
+                      "line 10: invalid entity id 'trap_door_a'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 12: invalid entity id 'trap_door_b'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 14: invalid entity id 'trap_door_c'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 17: invalid option id 'throw_object'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 18: invalid option id 'throw_object'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 19: invalid option id 'climb_wall'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 20: invalid option id 'climb_wall'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 21: invalid option id 'disable_trap_doors'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 22: invalid option id 'sprint_across_hallway'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "unit_markers": [
+                      {
+                        "id": "p31",
+                        "pages": "31"
+                      }
+                    ],
+                    "valid_row_count": 9
+                  },
+                  "wall_clock_s": 46.629912
+                },
+                {
+                  "eval_duration_s": 33.837295,
+                  "generated_tokens": 455,
+                  "prompt_tokens": 2680,
+                  "raw_file": "raw/phi4_14b/smoke/p31.attempt-2.txt",
+                  "time_to_first_token_s": 10.512706,
+                  "tokens_per_second": 13.4467,
+                  "validation": {
+                    "entirely_clean": false,
+                    "entities": {
+                      "hallway": {
+                        "kind": "place",
+                        "name": "Crush Hallway"
+                      },
+                      "trap_door_a": {
+                        "kind": "place",
+                        "name": "Trap Door A"
+                      },
+                      "trap_door_b": {
+                        "kind": "place",
+                        "name": "Trap Door B"
+                      },
+                      "trap_door_c": {
+                        "kind": "place",
+                        "name": "Trap Door C"
+                      }
+                    },
+                    "facts": [
+                      {
+                        "predicate": "contents",
+                        "subject": "hallway",
+                        "value": "Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "dimensions",
+                        "subject": "hallway",
+                        "value": "90' hallway",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "triggers",
+                        "subject": "hallway",
+                        "value": "Any touch greater than a feather is sufficient to trigger the trap.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "cycle",
+                        "subject": "hallway",
+                        "value": "{\"lowering\": \"10 seconds\", \"rest\": \"10 seconds\", \"reset\": true}",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "approaches",
+                        "subject": "hallway",
+                        "value": "No Movement check is required for a human to sprint across the hallway without getting crushed.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "triggers",
+                        "subject": "hallway",
+                        "value": "Movement checks are required to jump over the 3 trap doors",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "features",
+                        "subject": "hallway",
+                        "value": "Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "exit",
+                        "subject": "trap_door_a",
+                        "value": "Water, 10' deep. A broken chair missing two legs floats here.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "exit",
+                        "subject": "trap_door_b",
+                        "value": "Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "exit",
+                        "subject": "trap_door_c",
+                        "value": "Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "contents",
+                        "subject": "trap_door_c",
+                        "value": "2 flasks of oil and broken glass",
+                        "visibility": "public"
+                      }
+                    ],
+                    "failure_kinds": [
+                      "invalid_json",
+                      "malformed_row",
+                      "structural_incomplete",
+                      "unknown_vocabulary",
+                      "wrapped_in_fence"
+                    ],
+                    "format_errors": [
+                      "line 11: invalid fact subject 'trap_door_a'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 11: structured value is not JSON",
+                      "line 13: invalid fact subject 'trap_door_b'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 13: structured value is not JSON",
+                      "line 15: invalid fact subject 'trap_door_c'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 15: structured value is not JSON",
+                      "line 16: invalid fact subject 'trap_door_c'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "row_count": 21,
+                    "rows": [
+                      {
+                        "kind": "structural",
+                        "line": 1,
+                        "text": "#unit,p31,pages,31",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 2,
+                        "text": "#entity,hallway,place,Crush Hallway",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 3,
+                        "text": "hallway,contents,public,Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 4,
+                        "text": "hallway,dimensions,public,90' hallway",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 5,
+                        "text": "hallway,triggers,public,Any touch greater than a feather is sufficient to trigger the trap.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 6,
+                        "text": "hallway,cycle,public,{\"lowering\": \"10 seconds\", \"rest\": \"10 seconds\", \"reset\": true}",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 7,
+                        "text": "hallway,approaches,public,No Movement check is required for a human to sprint across the hallway without getting crushed.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 8,
+                        "text": "hallway,triggers,public,Movement checks are required to jump over the 3 trap doors",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 9,
+                        "text": "hallway,features,public,Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 10,
+                        "text": "#entity,trap_door_a,place,Trap Door A",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 11,
+                        "text": "trap_door_a,exit,public,Water, 10' deep. A broken chair missing two legs floats here.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 12,
+                        "text": "#entity,trap_door_b,place,Trap Door B",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 13,
+                        "text": "trap_door_b,exit,public,Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 14,
+                        "text": "#entity,trap_door_c,place,Trap Door C",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 15,
+                        "text": "trap_door_c,exit,public,Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 16,
+                        "text": "trap_door_c,contents,public,2 flasks of oil and broken glass",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 17,
+                        "text": "#option,throw_object,action,Throw an uncrushable object into the hallway",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 18,
+                        "text": "#option,throw_object,result,The objects won't be recoverable",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 19,
+                        "text": "#option,climb_wall,action,Climb along the wall with iron spikes and ropes",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 20,
+                        "text": "#option,climb_wall,outcome,It'll take about an hour, so a couple of encounter checks will occur during it.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 21,
+                        "text": "#option,disable_trap_doors_and_sprint,action,Disable the trap doors (22 MUSHROOM) and then just sprinting across the hallway",
+                        "valid": false
+                      }
+                    ],
+                    "s1_valid": false,
+                    "s2_valid": false,
+                    "structural_errors": [
+                      "line 10: invalid entity id 'trap_door_a'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 12: invalid entity id 'trap_door_b'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 14: invalid entity id 'trap_door_c'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 17: invalid option id 'throw_object'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 18: invalid option id 'throw_object'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 19: invalid option id 'climb_wall'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 20: invalid option id 'climb_wall'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 21: invalid option id 'disable_trap_doors_and_sprint'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "unit_markers": [
+                      {
+                        "id": "p31",
+                        "pages": "31"
+                      }
+                    ],
+                    "valid_row_count": 9
+                  },
+                  "wall_clock_s": 44.35596
+                }
+              ],
+              "contamination": {
+                "imported_rules": null,
+                "invented_entities": null,
+                "invented_numbers": null,
+                "note": "Heuristics are leads for the required hand audit, not a contamination verdict.",
+                "status": "manual_review_required",
+                "suspicious_entities": [],
+                "suspicious_numbers": [],
+                "unsupported_facts": null
+              },
+              "expected_records": 9,
+              "final_s1_valid": false,
+              "final_s2_valid": false,
+              "fixture": "p31",
+              "initial_s1_valid": false,
+              "initial_s2_valid": false,
+              "recall": {
+                "atoms_matched": 2,
+                "atoms_total": 55,
+                "details": [
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "effect.crush-hallway-ceiling",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "effect.crush-hallway-ceiling",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "effect.crush-hallway-trapdoor-fall",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "effect.crush-hallway-trapdoor-fall",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "effect.oil-layer-burning",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "effect.oil-layer-burning",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.24-crush-hallway",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": "Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                    "field": "contents",
+                    "index": 0,
+                    "matched": true,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.4853
+                  },
+                  {
+                    "actual": null,
+                    "field": "discoverable",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hidden",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hidden",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": "90' hallway",
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.2605
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "situation_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": "Any touch greater than a feather is sufficient to trigger the trap.",
+                    "field": "triggers",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.2229
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "location.24a",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "location.24b",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "location.24c",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "discoverable",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "resources",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 0,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 1,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 2,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 3,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "trigger",
+                    "index": 0,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "activation",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "location_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 1,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 2,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "perceived",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 1,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "repeat",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "stakes",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "stakes",
+                    "index": 1,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  }
+                ],
+                "method": "lexical-semantic proxy with optional human review overrides",
+                "record_recall": 0.0,
+                "records_matched": 0,
+                "records_total": 9,
+                "substance_recall": 0.03636363636363636
+              },
+              "s1_failure_kinds": [
+                "invalid_json",
+                "malformed_row",
+                "structural_incomplete",
+                "unknown_vocabulary",
+                "wrapped_in_fence"
+              ],
+              "source_bytes": 1524
+            }
+          ],
+          "metrics": {
+            "budget_exceeded": false,
+            "budget_s": null,
+            "elapsed_s": 90.998672,
+            "entirely_clean_rate": 0.0,
+            "entirely_clean_responses": 0,
+            "failure_taxonomy": {
+              "added_commentary": 0,
+              "escaped_quotes": 0,
+              "extra_fields": 0,
+              "invalid_json": 2,
+              "malformed_row": 2,
+              "structural_incomplete": 2,
+              "unknown_vocabulary": 2,
+              "wrapped_in_fence": 2,
+              "wrapped_in_json": 0,
+              "wrong_field_count": 0
+            },
+            "recall": {
+              "atoms_matched": 2,
+              "atoms_total": 55,
+              "record_recall": 0.0,
+              "records_matched": 0,
+              "records_total": 9,
+              "substance_recall": 0.03636363636363636
+            },
+            "responses": 1,
+            "rows": {
+              "parse_rate": 0.42857142857142855,
+              "total": 21,
+              "valid": 9
+            },
+            "s1_gate": false,
+            "s2_gate": false,
+            "s3_gate": false,
+            "s3_status": "manual_review_required",
+            "structural": {
+              "unit_markers": {
+                "duplicated": 0,
+                "missing": 0,
+                "present": 1,
+                "wrong": 0
+              },
+              "unresolved_fact_subjects": 0
+            },
+            "throughput": {
+              "mean_time_to_first_token_s": 14.600651,
+              "mean_tokens_per_second": 13.9578,
+              "mean_wall_clock_s": 46.629912,
+              "median_tokens_per_second": 13.9578,
+              "projected_generated_tokens": 43996.06299212598,
+              "projected_whole_adventure_wall_clock_s": 4589.558267716536,
+              "source_bytes": 1524,
+              "total_generated_tokens": 447
+            }
+          },
+          "name": "smoke",
+          "skipped": []
+        }
+      },
+      "tier": "tier2"
+    },
+    {
+      "actual": "gemma3:12b",
+      "available": true,
+      "reason": "different model lineage in the Mac-only tier",
+      "requested": "gemma3:12b",
+      "status": "completed",
+      "substitution": null,
+      "suites": {
+        "smoke": {
+          "fixtures": [
+            {
+              "attempts": [
+                {
+                  "eval_duration_s": 31.709793,
+                  "generated_tokens": 495,
+                  "prompt_tokens": 1447,
+                  "raw_file": "raw/gemma3_12b/smoke/p31.attempt-1.txt",
+                  "time_to_first_token_s": 13.691385,
+                  "tokens_per_second": 15.6103,
+                  "validation": {
+                    "entirely_clean": false,
+                    "entities": {
+                      "hallway": {
+                        "kind": "location",
+                        "name": "Crush Hallway"
+                      },
+                      "portcullis": {
+                        "kind": "object",
+                        "name": "Portcullis 24B"
+                      },
+                      "trap": {
+                        "kind": "mechanism",
+                        "name": "Ceiling Trap"
+                      },
+                      "trapdoor": {
+                        "kind": "object",
+                        "name": "Trap Door"
+                      },
+                      "water": {
+                        "kind": "place",
+                        "name": "Water 24C"
+                      }
+                    },
+                    "facts": [
+                      {
+                        "predicate": "dimensions",
+                        "subject": "hallway",
+                        "value": "90'",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "trigger",
+                        "subject": "trap",
+                        "value": "Any touch greater than a feather is sufficient to trigger the trap.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "options",
+                        "subject": "hallway",
+                        "value": "Sprint across without getting crushed if human.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "trapdoor",
+                        "value": "perfectly disguised, but sound hollow if tapped",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "depth",
+                        "subject": "water",
+                        "value": "10' deep",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "contents",
+                        "subject": "water",
+                        "value": "broken chair missing two legs floats here",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "portcullis",
+                        "value": "rusted-shut",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "depth",
+                        "subject": "water",
+                        "value": "10' deep",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "contents",
+                        "subject": "water",
+                        "value": "layer of oil. It burns for 5 minutes if ignited.",
+                        "visibility": "public"
+                      }
+                    ],
+                    "failure_kinds": [
+                      "added_commentary",
+                      "escaped_quotes",
+                      "malformed_row",
+                      "structural_incomplete",
+                      "unknown_vocabulary"
+                    ],
+                    "format_errors": [
+                      "line 3: escaped_quotes",
+                      "line 7: escaped_quotes",
+                      "line 11: escaped_quotes",
+                      "line 13: unknown predicate 'depth'",
+                      "line 17: escaped_quotes",
+                      "line 19: unknown predicate 'depth'",
+                      "line 21: escaped_quotes",
+                      "line 22: escaped_quotes",
+                      "line 26: escaped_quotes"
+                    ],
+                    "row_count": 27,
+                    "rows": [
+                      {
+                        "kind": "structural",
+                        "line": 1,
+                        "text": "#unit,p31,pages,31",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 2,
+                        "text": "#entity,hallway,location,Crush Hallway",
+                        "valid": true
+                      },
+                      {
+                        "kind": "malformed",
+                        "line": 3,
+                        "text": "hallway,appearance,public,\"Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)\"",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 4,
+                        "text": "hallway,dimensions,public,90'",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 5,
+                        "text": "#entity,trap,mechanism,Ceiling Trap",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 6,
+                        "text": "trap,trigger,public,Any touch greater than a feather is sufficient to trigger the trap.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "malformed",
+                        "line": 7,
+                        "text": "trap,capabilities,public,\"The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets.\"",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 8,
+                        "text": "hallway,options,public,Sprint across without getting crushed if human.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 9,
+                        "text": "#entity,trapdoor,object,Trap Door",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 10,
+                        "text": "trapdoor,appearance,public,perfectly disguised, but sound hollow if tapped",
+                        "valid": true
+                      },
+                      {
+                        "kind": "malformed",
+                        "line": 11,
+                        "text": "trapdoor,capabilities,public,\"Each trap door is just a hinge and a strong spring.\"",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 12,
+                        "text": "#entity,water,place,Water 24A",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 13,
+                        "text": "water,depth,public,10' deep",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 14,
+                        "text": "water,contents,public,broken chair missing two legs floats here",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 15,
+                        "text": "#entity,portcullis,object,Portcullis 24B",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 16,
+                        "text": "portcullis,appearance,public,rusted-shut",
+                        "valid": true
+                      },
+                      {
+                        "kind": "malformed",
+                        "line": 17,
+                        "text": "portcullis,relationships,public,\"allows sight (but not access) into 42 SUNKEN GALLERY\"",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 18,
+                        "text": "#entity,water,place,Water 24C",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 19,
+                        "text": "water,depth,public,10' deep",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 20,
+                        "text": "water,contents,public,layer of oil. It burns for 5 minutes if ignited.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "malformed",
+                        "line": 21,
+                        "text": "water,contents,public,\"2 flasks of oil and broken glass.\"",
+                        "valid": false
+                      },
+                      {
+                        "kind": "malformed",
+                        "line": 22,
+                        "text": "#option,throw_object,action,\"Throw an uncrushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects.\"",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 23,
+                        "text": "#option,throw_object,outcome,Those objects won't be recoverable.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 24,
+                        "text": "#option,climb_wall,action,Climbing along the wall with iron spikes and ropes.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 25,
+                        "text": "#option,climb_wall,condition,It'll take about an hour.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "malformed",
+                        "line": 26,
+                        "text": "#option,climb_wall,result,\"a couple of encounter checks will occur during it\"",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 27,
+                        "text": "#option,disable_trapdoors,action,Disabling the trap doors (22 MUSHROOM) and then just sprinting across the hallway.",
+                        "valid": false
+                      }
+                    ],
+                    "s1_valid": false,
+                    "s2_valid": false,
+                    "structural_errors": [
+                      "line 18: duplicate entity 'water'",
+                      "line 23: invalid option id 'throw_object'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 24: invalid option id 'climb_wall'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 25: invalid option id 'climb_wall'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 27: invalid option id 'disable_trapdoors'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "unit_markers": [
+                      {
+                        "id": "p31",
+                        "pages": "31"
+                      }
+                    ],
+                    "valid_row_count": 13
+                  },
+                  "wall_clock_s": 45.407818
+                },
+                {
+                  "eval_duration_s": 33.516809,
+                  "generated_tokens": 519,
+                  "prompt_tokens": 2483,
+                  "raw_file": "raw/gemma3_12b/smoke/p31.attempt-2.txt",
+                  "time_to_first_token_s": 7.022013,
+                  "tokens_per_second": 15.4848,
+                  "validation": {
+                    "entirely_clean": false,
+                    "entities": {
+                      "ceiling_trap": {
+                        "kind": "mechanism",
+                        "name": "Ceiling Trap"
+                      },
+                      "hallway": {
+                        "kind": "location",
+                        "name": "Crush Hallway"
+                      },
+                      "portcullis_24b": {
+                        "kind": "object",
+                        "name": "Portcullis 24B"
+                      },
+                      "trapdoor": {
+                        "kind": "object",
+                        "name": "Trap Door"
+                      },
+                      "water_24a": {
+                        "kind": "place",
+                        "name": "Water 24A"
+                      },
+                      "water_24c": {
+                        "kind": "place",
+                        "name": "Water 24C"
+                      }
+                    },
+                    "facts": [
+                      {
+                        "predicate": "appearance",
+                        "subject": "hallway",
+                        "value": "Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "dimensions",
+                        "subject": "hallway",
+                        "value": "90'",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "trigger",
+                        "subject": "ceiling_trap",
+                        "value": "Any touch greater than a feather is sufficient to trigger the trap.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "options",
+                        "subject": "hallway",
+                        "value": "Sprint across without getting crushed if human.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "trapdoor",
+                        "value": "perfectly disguised, but sound hollow if tapped",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "contents",
+                        "subject": "water_24a",
+                        "value": "broken chair missing two legs floats here",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "dimensions",
+                        "subject": "water_24a",
+                        "value": "10' deep",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "portcullis_24b",
+                        "value": "rusted-shut",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "contents",
+                        "subject": "water_24c",
+                        "value": "layer of oil. It burns for 5 minutes if ignited.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "dimensions",
+                        "subject": "water_24c",
+                        "value": "10' deep",
+                        "visibility": "public"
+                      }
+                    ],
+                    "failure_kinds": [
+                      "added_commentary",
+                      "escaped_quotes",
+                      "malformed_row",
+                      "structural_incomplete",
+                      "unknown_vocabulary"
+                    ],
+                    "format_errors": [
+                      "line 6: invalid fact subject 'ceiling_trap'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 7: escaped_quotes",
+                      "line 11: escaped_quotes",
+                      "line 13: invalid fact subject 'water_24a'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 14: invalid fact subject 'water_24a'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 16: invalid fact subject 'portcullis_24b'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 17: escaped_quotes",
+                      "line 19: invalid fact subject 'water_24c'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 20: escaped_quotes",
+                      "line 21: invalid fact subject 'water_24c'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "row_count": 26,
+                    "rows": [
+                      {
+                        "kind": "structural",
+                        "line": 1,
+                        "text": "#unit,p31,pages,31",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 2,
+                        "text": "#entity,hallway,location,Crush Hallway",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 3,
+                        "text": "hallway,appearance,public,Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 4,
+                        "text": "hallway,dimensions,public,90'",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 5,
+                        "text": "#entity,ceiling_trap,mechanism,Ceiling Trap",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 6,
+                        "text": "ceiling_trap,trigger,public,Any touch greater than a feather is sufficient to trigger the trap.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "malformed",
+                        "line": 7,
+                        "text": "ceiling_trap,capabilities,public,\"The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets.\"",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 8,
+                        "text": "hallway,options,public,Sprint across without getting crushed if human.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 9,
+                        "text": "#entity,trapdoor,object,Trap Door",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 10,
+                        "text": "trapdoor,appearance,public,perfectly disguised, but sound hollow if tapped",
+                        "valid": true
+                      },
+                      {
+                        "kind": "malformed",
+                        "line": 11,
+                        "text": "trapdoor,features,public,\"Each trap door is just a hinge and a strong spring.\"",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 12,
+                        "text": "#entity,water_24a,place,Water 24A",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 13,
+                        "text": "water_24a,contents,public,broken chair missing two legs floats here",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 14,
+                        "text": "water_24a,dimensions,public,10' deep",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 15,
+                        "text": "#entity,portcullis_24b,object,Portcullis 24B",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 16,
+                        "text": "portcullis_24b,appearance,public,rusted-shut",
+                        "valid": false
+                      },
+                      {
+                        "kind": "malformed",
+                        "line": 17,
+                        "text": "portcullis_24b,relationships,public,\"allows sight (but not access) into 42 SUNKEN GALLERY\"",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 18,
+                        "text": "#entity,water_24c,place,Water 24C",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 19,
+                        "text": "water_24c,contents,public,layer of oil. It burns for 5 minutes if ignited.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "malformed",
+                        "line": 20,
+                        "text": "water_24c,resources,public,\"2 flasks of oil and broken glass.\"",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 21,
+                        "text": "water_24c,dimensions,public,10' deep",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 22,
+                        "text": "#option,throw_object,action,Throw an uncrushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 23,
+                        "text": "#option,throw_object,outcome,Those objects won't be recoverable.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 24,
+                        "text": "#option,climb_wall,action,Climbing along the wall with iron spikes and ropes.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 25,
+                        "text": "#option,climb_wall,condition,It’ll take about an hour.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 26,
+                        "text": "#option,disable_trapdoors,action,Disabling the trap doors (22 MUSHROOM) and then just sprinting across the hallway.",
+                        "valid": false
+                      }
+                    ],
+                    "s1_valid": false,
+                    "s2_valid": false,
+                    "structural_errors": [
+                      "line 5: invalid entity id 'ceiling_trap'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 12: invalid entity id 'water_24a'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 15: invalid entity id 'portcullis_24b'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 18: invalid entity id 'water_24c'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 22: invalid option id 'throw_object'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 23: invalid option id 'throw_object'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 24: invalid option id 'climb_wall'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 25: invalid option id 'climb_wall'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 26: invalid option id 'disable_trapdoors'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "unit_markers": [
+                      {
+                        "id": "p31",
+                        "pages": "31"
+                      }
+                    ],
+                    "valid_row_count": 7
+                  },
+                  "wall_clock_s": 40.546918
+                }
+              ],
+              "contamination": {
+                "imported_rules": null,
+                "invented_entities": null,
+                "invented_numbers": null,
+                "note": "Heuristics are leads for the required hand audit, not a contamination verdict.",
+                "status": "manual_review_required",
+                "suspicious_entities": [],
+                "suspicious_numbers": [],
+                "unsupported_facts": null
+              },
+              "expected_records": 9,
+              "final_s1_valid": false,
+              "final_s2_valid": false,
+              "fixture": "p31",
+              "initial_s1_valid": false,
+              "initial_s2_valid": false,
+              "recall": {
+                "atoms_matched": 5,
+                "atoms_total": 55,
+                "details": [
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "effect.crush-hallway-ceiling",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "effect.crush-hallway-ceiling",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "effect.crush-hallway-trapdoor-fall",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "effect.crush-hallway-trapdoor-fall",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "effect.oil-layer-burning",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "effect.oil-layer-burning",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.24-crush-hallway",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "discoverable",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hidden",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hidden",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "situation_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "triggers",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.24a",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": "broken chair missing two legs floats here",
+                    "field": "contents",
+                    "index": 1,
+                    "matched": true,
+                    "record": "location.24a",
+                    "similarity": 0.7957
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "location.24b",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.24c",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": "layer of oil. It burns for 5 minutes if ignited.",
+                    "field": "contents",
+                    "index": 1,
+                    "matched": true,
+                    "record": "location.24c",
+                    "similarity": 0.5424
+                  },
+                  {
+                    "actual": null,
+                    "field": "discoverable",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "resources",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 0,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 1,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 2,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 3,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "trigger",
+                    "index": 0,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "activation",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "location_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 1,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 2,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "perceived",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 1,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "repeat",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "stakes",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "stakes",
+                    "index": 1,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  }
+                ],
+                "method": "lexical-semantic proxy with optional human review overrides",
+                "record_recall": 0.0,
+                "records_matched": 0,
+                "records_total": 9,
+                "substance_recall": 0.09090909090909091
+              },
+              "s1_failure_kinds": [
+                "added_commentary",
+                "escaped_quotes",
+                "malformed_row",
+                "structural_incomplete",
+                "unknown_vocabulary"
+              ],
+              "source_bytes": 1524
+            }
+          ],
+          "metrics": {
+            "budget_exceeded": false,
+            "budget_s": null,
+            "elapsed_s": 85.969304,
+            "entirely_clean_rate": 0.0,
+            "entirely_clean_responses": 0,
+            "failure_taxonomy": {
+              "added_commentary": 2,
+              "escaped_quotes": 2,
+              "extra_fields": 0,
+              "invalid_json": 0,
+              "malformed_row": 2,
+              "structural_incomplete": 2,
+              "unknown_vocabulary": 2,
+              "wrapped_in_fence": 0,
+              "wrapped_in_json": 0,
+              "wrong_field_count": 0
+            },
+            "recall": {
+              "atoms_matched": 5,
+              "atoms_total": 55,
+              "record_recall": 0.0,
+              "records_matched": 0,
+              "records_total": 9,
+              "substance_recall": 0.09090909090909091
+            },
+            "responses": 1,
+            "rows": {
+              "parse_rate": 0.2692307692307692,
+              "total": 26,
+              "valid": 7
+            },
+            "s1_gate": false,
+            "s2_gate": false,
+            "s3_gate": false,
+            "s3_status": "manual_review_required",
+            "structural": {
+              "unit_markers": {
+                "duplicated": 0,
+                "missing": 0,
+                "present": 1,
+                "wrong": 0
+              },
+              "unresolved_fact_subjects": 0
+            },
+            "throughput": {
+              "mean_time_to_first_token_s": 13.691385,
+              "mean_tokens_per_second": 15.6103,
+              "mean_wall_clock_s": 45.407818,
+              "median_tokens_per_second": 15.6103,
+              "projected_generated_tokens": 48720.47244094488,
+              "projected_whole_adventure_wall_clock_s": 4469.27342519685,
+              "source_bytes": 1524,
+              "total_generated_tokens": 495
+            }
+          },
+          "name": "smoke",
+          "skipped": []
+        }
+      },
+      "tier": "tier2"
+    }
+  ],
+  "notes": {
+    "contamination_caveat": "S3 remains pending until a human audit file is supplied.",
+    "full_fixture_ids": [
+      "p09",
+      "p13",
+      "p16",
+      "p21",
+      "p28",
+      "p31",
+      "p41",
+      "p46",
+      "p49"
+    ],
+    "quick_fixture_ids": [
+      "p16",
+      "p21",
+      "p31"
+    ],
+    "recall_caveat": "Ground truth is a strong human-reviewed reference, not gold truth; recall uses a lexical semantic proxy.",
+    "skipped_fixture_ids_if_budget_exceeded": [
+      "p09",
+      "p13",
+      "p16",
+      "p21",
+      "p28",
+      "p31",
+      "p41",
+      "p46",
+      "p49"
+    ],
+    "smoke_fixture_ids": [
+      "p31"
+    ],
+    "smoke_note": "The smoke suite runs p31 only and has no time budget; it is a contract check, not the formal quick gate."
+  },
+  "prompt_sha256": "57671a04b87ac7c0a596dca0a403b2d774d632d6ca92041c1b3963f1d916f503",
+  "run_id": "20260731T195747Z-mac",
+  "schema": "benchmark-results/v1",
+  "suite_requested": "smoke",
+  "whole_adventure_bytes_assumption": 150000
+}

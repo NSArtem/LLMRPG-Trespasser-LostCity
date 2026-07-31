@@ -1,0 +1,20 @@
+#unit,p31,pages,31
+#entity,hallway,place,Crush Hallway
+hallway,contents,public,Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)
+#entity,trap-door,item,Trap Door
+trap-door,role,hidden,A trap door is just a hinge and a strong spring.
+trap-door,features,public,Perfectly disguised but sound hollow if tapped.
+trap-door,depth,public,3 feet
+trap-door,fall-distance,public,40 feet
+trap-door,fall-time,public,10 seconds
+#entity,water,item,Water
+water,role,discoverable,10' deep water
+water,features,public,Covered with a layer of oil that burns for 5 minutes if ignited.
+water,contents,public,2 flasks of oil and broken glass on the bottom
+#option,cross-hallway,action,Cross the hallway
+cross-hallway,result,Reach the other side without getting crushed
+#option,cross-hallway-by-object,action,Cross the hallway by throwing an uncrushable object
+cross-hallway-by-object,result,Reach the other side safely
+#option,cross-hallway-by-climbing,action,Cross the hallway by climbing along the wall with iron spikes and ropes
+cross-hallway-by-climbing,result,Take about an hour to cross
+cross-hallway-by-climbing,outcome,Encounter checks will occur during the climb

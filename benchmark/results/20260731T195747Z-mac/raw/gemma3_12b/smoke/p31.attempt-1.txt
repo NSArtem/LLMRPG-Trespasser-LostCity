@@ -1,0 +1,27 @@
+#unit,p31,pages,31
+#entity,hallway,location,Crush Hallway
+hallway,appearance,public,"Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)"
+hallway,dimensions,public,90'
+#entity,trap,mechanism,Ceiling Trap
+trap,trigger,public,Any touch greater than a feather is sufficient to trigger the trap.
+trap,capabilities,public,"The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets."
+hallway,options,public,Sprint across without getting crushed if human.
+#entity,trapdoor,object,Trap Door
+trapdoor,appearance,public,perfectly disguised, but sound hollow if tapped
+trapdoor,capabilities,public,"Each trap door is just a hinge and a strong spring."
+#entity,water,place,Water 24A
+water,depth,public,10' deep
+water,contents,public,broken chair missing two legs floats here
+#entity,portcullis,object,Portcullis 24B
+portcullis,appearance,public,rusted-shut
+portcullis,relationships,public,"allows sight (but not access) into 42 SUNKEN GALLERY"
+#entity,water,place,Water 24C
+water,depth,public,10' deep
+water,contents,public,layer of oil. It burns for 5 minutes if ignited.
+water,contents,public,"2 flasks of oil and broken glass."
+#option,throw_object,action,"Throw an uncrushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects."
+#option,throw_object,outcome,Those objects won't be recoverable.
+#option,climb_wall,action,Climbing along the wall with iron spikes and ropes.
+#option,climb_wall,condition,It'll take about an hour.
+#option,climb_wall,result,"a couple of encounter checks will occur during it"
+#option,disable_trapdoors,action,Disabling the trap doors (22 MUSHROOM) and then just sprinting across the hallway.

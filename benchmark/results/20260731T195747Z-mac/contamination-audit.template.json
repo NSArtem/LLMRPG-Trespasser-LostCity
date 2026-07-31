@@ -1,0 +1,9 @@
+{
+  "instructions": "Set reviewed=true after hand review. Any non-empty finding fails S3 for that fixture.",
+  "models": {
+    "gemma3:12b": {},
+    "phi4:14b": {},
+    "qwen3:14b": {}
+  },
+  "schema": "benchmark-contamination-audit/v1"
+}

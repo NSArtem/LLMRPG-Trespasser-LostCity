@@ -5,6 +5,8 @@ from contextlib import redirect_stdout
 from io import StringIO
 from pathlib import Path
 import sys
+import tempfile
+from unittest.mock import patch
 import unittest
 
 
@@ -12,11 +14,16 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from benchmark.benchmark import (  # noqa: E402
+    OllamaClient,
     ProgressDisplay,
+    TIER_MODELS,
     _aggregate_metrics,
+    build_parser,
+    cmd_install,
     fixture_prompt,
     load_fixtures,
     recovery_prompt,
+    run_benchmark,
     score_recall,
     validate_response,
 )
@@ -77,6 +84,41 @@ class ContractTests(unittest.TestCase):
 
 
 class FixtureTests(unittest.TestCase):
+    def test_run_with_no_available_models_writes_no_results(self) -> None:
+        args = build_parser().parse_args(
+            [
+                "run",
+                "--models",
+                "qwen3:8b",
+                "--skip-unavailable",
+                "--output",
+                "/tmp/benchmark-test-empty-run",
+            ]
+        )
+        technical_info = {
+            "platform": {"system": "TestOS", "release": "1", "machine": "test"},
+            "memory": {"physical_bytes": None},
+            "cpu": {"logical_count": None},
+            "gpu": [],
+        }
+
+        class EmptyClient:
+            def __init__(self, base_url: str, timeout: float) -> None:
+                pass
+
+            def inventory(self):
+                return []
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            args.output = str(Path(temp_dir) / "run")
+            with patch("benchmark.benchmark.collect_technical_info", return_value=technical_info), \
+                patch("benchmark.benchmark.OllamaClient", EmptyClient), \
+                redirect_stdout(StringIO()):
+                output = run_benchmark(args)
+
+            self.assertIsNone(output)
+            self.assertFalse(Path(args.output).exists())
+
     def test_budget_metrics_include_retry_durations(self) -> None:
         validation = {
             "row_count": 1,
@@ -117,6 +159,10 @@ class FixtureTests(unittest.TestCase):
         self.assertEqual(metrics["elapsed_s"], 70.0)
         self.assertTrue(metrics["budget_exceeded"])
 
+        unlimited = _aggregate_metrics([fixture_result], budget_s=None)
+        self.assertEqual(unlimited["elapsed_s"], 70.0)
+        self.assertFalse(unlimited["budget_exceeded"])
+
     def test_progress_display_shows_live_generation_separately(self) -> None:
         display = ProgressDisplay("qwen3:8b", "quick", 3)
         with redirect_stdout(StringIO()):
@@ -143,6 +189,61 @@ class FixtureTests(unittest.TestCase):
         fixtures, manifest = load_fixtures(ROOT)
         self.assertEqual(set(fixtures), {item["id"] for item in manifest["fixtures"]})
         self.assertEqual(sum(item.source_bytes for item in fixtures.values()), 16550)
+        self.assertEqual(manifest["suites"]["smoke"]["fixtures"], ["p31"])
+
+    def test_smoke_is_a_supported_run_suite(self) -> None:
+        args = build_parser().parse_args(["run", "--suite", "smoke"])
+        self.assertEqual(args.suite, "smoke")
+
+    def test_install_parser_accepts_a_model_tier(self) -> None:
+        args = build_parser().parse_args(["install", "--tier", "tier2"])
+        self.assertEqual(args.command, "install")
+        self.assertEqual(args.tier, "tier2")
+
+    def test_install_pulls_every_model_in_the_selected_tier(self) -> None:
+        args = build_parser().parse_args(["install", "--tier", "tier1"])
+        pulled: list[str] = []
+
+        class FakeClient:
+            def __init__(self, base_url: str, timeout: float) -> None:
+                self.base_url = base_url
+                self.timeout = timeout
+
+            def pull(self, model: str, on_progress=None):
+                pulled.append(model)
+                if on_progress is not None:
+                    on_progress({"status": "success"})
+                return {"status": "success"}
+
+        with patch("benchmark.benchmark.OllamaClient", FakeClient), redirect_stdout(StringIO()):
+            self.assertEqual(cmd_install(args), 0)
+        self.assertEqual(pulled, list(TIER_MODELS["tier1"]))
+
+    def test_pull_consumes_ollama_stream_and_posts_the_model(self) -> None:
+        class FakeResponse:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc_value, traceback):
+                return False
+
+            def __iter__(self):
+                return iter(
+                    [
+                        b'{"status":"pulling manifest"}\n',
+                        b'{"status":"success"}\n',
+                    ]
+                )
+
+        events: list[dict[str, str]] = []
+        with patch("benchmark.benchmark.urllib.request.urlopen", return_value=FakeResponse()) as urlopen:
+            result = OllamaClient("http://ollama.test").pull("qwen3:8b", events.append)
+
+        request = urlopen.call_args.args[0]
+        self.assertEqual(request.full_url, "http://ollama.test/api/pull")
+        self.assertEqual(json.loads(request.data.decode("utf-8")), {"model": "qwen3:8b", "stream": True})
+        self.assertEqual(events[-1], {"status": "success"})
+        self.assertEqual(result, {"status": "success"})
 
     def test_prompt_is_shared_and_contains_the_fixture_source(self) -> None:
         fixtures, _ = load_fixtures(ROOT)

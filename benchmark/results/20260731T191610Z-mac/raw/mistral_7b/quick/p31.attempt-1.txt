@@ -1,0 +1,19 @@
+ #unit,p31,pages,31
+#entity,hallway,place,Crush Hallway
+hallway,dimensions,public,90' long
+hallway,contents,public,Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)
+hallway,activation,hidden,Any touch greater than a feather is sufficient to trigger the trap.
+hallway,cycle,public,The ceiling takes 10 seconds to fall 10', then resets after 10 seconds.
+#option,sprint,action,Sprint across
+#option,sprint,result,Reach the far side without a Movement check
+#option,climb,action,Climb along the wall with iron spikes and ropes
+#option,climb,outcome,Takes about an hour, so a couple of encounter checks will occur during it
+#entity,trapdoor,object,Trap Door
+trapdoor,appearance,hidden,Perfectly disguised, but sound hollow if tapped.
+trapdoor,when,public,Each trap door is just a hinge and a strong spring.
+trapdoor,stakes,public,It is a 40' fall down to the water below.
+#entity,oil,substance,Oil
+oil,appearance,hidden,Covered with a layer of oil on the bottom of the hallway.
+oil,possible_effects,public,Burns for 5 minutes if ignited.
+#entity,flask,object,Flask of Oil
+flask,contents,public,2 flasks of oil and broken glass are at the bottom of the hallway.

@@ -8,6 +8,8 @@ the Mac and Windows targets and makes the scorer usable without Ollama at all.
 Typical commands::
 
     python3 benchmark/benchmark.py inventory
+    python3 benchmark/benchmark.py install --tier tier1
+    python3 benchmark/benchmark.py run --suite smoke --skip-unavailable
     python3 benchmark/benchmark.py run --suite full
     python3 benchmark/benchmark.py score benchmark/results/<run-id>
 
@@ -839,6 +841,47 @@ class OllamaClient:
         models = payload.get("models", []) if isinstance(payload, Mapping) else []
         return [dict(item) for item in models if isinstance(item, Mapping)]
 
+    def pull(
+        self,
+        model: str,
+        on_progress: Callable[[Mapping[str, Any]], None] | None = None,
+    ) -> Mapping[str, Any]:
+        """Pull a model through Ollama's streaming pull endpoint."""
+        payload = {"model": model, "stream": True}
+        request = urllib.request.Request(
+            self.base_url + "/api/pull",
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        final: Mapping[str, Any] | None = None
+        try:
+            with urllib.request.urlopen(request, timeout=self.timeout) as response:
+                for raw_line in response:
+                    if not raw_line.strip():
+                        continue
+                    try:
+                        event = json.loads(raw_line.decode("utf-8"))
+                    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+                        raise BenchmarkError("Ollama emitted a non-JSON pull event") from exc
+                    if not isinstance(event, Mapping):
+                        raise BenchmarkError("Ollama emitted a non-object pull event")
+                    if event.get("error"):
+                        raise BenchmarkError(f"Ollama pull failed for {model}: {event['error']}")
+                    if on_progress is not None:
+                        on_progress(event)
+                    if event.get("done") or event.get("status") == "success":
+                        final = event
+                        break
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode("utf-8", errors="replace")
+            raise BenchmarkError(f"Ollama HTTP {exc.code}: {detail[:500]}") from exc
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            raise BenchmarkError(f"Ollama pull failed for {model}: {exc}") from exc
+        if final is None:
+            raise BenchmarkError(f"Ollama pull for {model} ended without success")
+        return final
+
     def generate(
         self,
         model: str,
@@ -1389,6 +1432,22 @@ def _aggregate_metrics(
     }
 
 
+def _has_benchmark_results(result: Mapping[str, Any]) -> bool:
+    """Return whether a run contains at least one scored fixture response."""
+    for model in result.get("models", []):
+        if not isinstance(model, Mapping):
+            continue
+        suites = model.get("suites", {})
+        if not isinstance(suites, Mapping):
+            continue
+        if any(
+            isinstance(suite, Mapping) and suite.get("fixtures")
+            for suite in suites.values()
+        ):
+            return True
+    return False
+
+
 def _load_audit(path: Path | None) -> dict[str, Any]:
     return load_json(path) if path else {}
 
@@ -1436,7 +1495,7 @@ def _run_model(
     fixture_ids: Sequence[str],
     output_dir: Path,
     suite_name: str,
-    budget_s: float,
+    budget_s: float | None,
     retries: int,
     audit: Mapping[str, Any],
     recall_review: Mapping[str, Any],
@@ -1476,7 +1535,7 @@ def _run_model_body(
     fixture_ids: Sequence[str],
     output_dir: Path,
     suite_name: str,
-    budget_s: float,
+    budget_s: float | None,
     retries: int,
     audit: Mapping[str, Any],
     recall_review: Mapping[str, Any],
@@ -1491,7 +1550,7 @@ def _run_model_body(
     total_fixtures = len(fixture_ids)
     for fixture_index, fixture_id in enumerate(fixture_ids, 1):
         elapsed = time.perf_counter() - run_started
-        if elapsed >= budget_s:
+        if budget_s is not None and elapsed >= budget_s:
             remaining = fixture_ids[fixture_index - 1 :]
             skipped.extend(remaining)
             for skipped_id in remaining:
@@ -1681,7 +1740,7 @@ def _timestamp_id(machine: str) -> str:
     return f"{now}-{machine}"
 
 
-def run_benchmark(args: argparse.Namespace) -> Path:
+def run_benchmark(args: argparse.Namespace) -> Path | None:
     global _PROGRESS_STARTED_AT
     _PROGRESS_STARTED_AT = time.perf_counter()
     fixtures, manifest = load_fixtures(ROOT)
@@ -1692,7 +1751,7 @@ def run_benchmark(args: argparse.Namespace) -> Path:
     output_dir = Path(args.output) if args.output else DEFAULT_RESULTS_ROOT / _timestamp_id(machine)
     if output_dir.exists() and any(output_dir.iterdir()):
         raise BenchmarkError(f"refusing to overwrite non-empty output directory: {output_dir}")
-    output_dir.mkdir(parents=True, exist_ok=True)
+    output_dir_preexisted = output_dir.exists()
     audit = _load_audit(Path(args.audit) if args.audit else None)
     recall_review = _load_audit(Path(args.recall_review) if args.recall_review else None)
     client = OllamaClient(args.ollama_url, args.request_timeout)
@@ -1729,6 +1788,7 @@ def run_benchmark(args: argparse.Namespace) -> Path:
             "seed": 0,
             "retries": args.retries,
             "skip_unavailable": args.skip_unavailable,
+            "smoke_budget_s": None,
             "quick_budget_s": args.quick_budget,
             "full_budget_s": args.full_budget,
         },
@@ -1765,7 +1825,12 @@ def run_benchmark(args: argparse.Namespace) -> Path:
             + ", ".join(unavailable)
             + "; install them or rerun with --skip-unavailable"
         )
+    if not any(availability.values()):
+        _progress("no requested models are available; no benchmark results written")
+        return None
+    output_dir.mkdir(parents=True, exist_ok=True)
     all_fixture_ids = [item["id"] for item in manifest["fixtures"]]
+    smoke_ids = manifest["suites"]["smoke"]["fixtures"]
     quick_ids = manifest["suites"]["quick"]["fixtures"]
     full_ids = manifest["suites"]["full"]["fixtures"]
     for spec in specs:
@@ -1787,6 +1852,23 @@ def run_benchmark(args: argparse.Namespace) -> Path:
             result["models"].append(model_result)
             continue
         _progress(f"{spec.requested} -> {spec.actual}: starting {args.suite} benchmark")
+        if args.suite == "smoke":
+            smoke_started = time.perf_counter()
+            smoke = _run_model(
+                client, spec, fixtures, smoke_ids, output_dir, "smoke", None,
+                args.retries, audit, recall_review, smoke_started,
+            )
+            model_result["suites"]["smoke"] = smoke
+            _progress(
+                f"{spec.requested} [smoke]: complete — "
+                f"S1={'PASS' if smoke['metrics']['s1_gate'] else 'FAIL'}, "
+                f"S2={'PASS' if smoke['metrics']['s2_gate'] else 'FAIL'}, "
+                f"elapsed={smoke['metrics']['elapsed_s']:.1f}s"
+            )
+            model_result["status"] = "completed"
+            _progress(f"{spec.requested}: benchmark complete")
+            result["models"].append(model_result)
+            continue
         model_start = time.perf_counter()
         quick = _run_model(
             client, spec, fixtures, quick_ids, output_dir, "quick", args.quick_budget,
@@ -1835,12 +1917,19 @@ def run_benchmark(args: argparse.Namespace) -> Path:
         _progress(f"{spec.requested}: benchmark complete")
         result["models"].append(model_result)
     result["notes"] = {
+        "smoke_fixture_ids": smoke_ids,
         "quick_fixture_ids": quick_ids,
         "full_fixture_ids": full_ids,
+        "smoke_note": "The smoke suite runs p31 only and has no time budget; it is a contract check, not the formal quick gate.",
         "skipped_fixture_ids_if_budget_exceeded": all_fixture_ids,
         "recall_caveat": "Ground truth is a strong human-reviewed reference, not gold truth; recall uses a lexical semantic proxy.",
         "contamination_caveat": "S3 remains pending until a human audit file is supplied.",
     }
+    if not _has_benchmark_results(result):
+        if not output_dir_preexisted:
+            shutil.rmtree(output_dir)
+        _progress("no fixture responses were collected; no benchmark results written")
+        return None
     write_json(output_dir / "results.json", result)
     write_json(output_dir / "contamination-audit.template.json", build_audit_template(result))
     (output_dir / "summary.md").write_text(render_summary(result), encoding="utf-8")
@@ -1889,7 +1978,12 @@ def _format_bytes(value: Any) -> str:
 def _model_summary_rows(result: Mapping[str, Any]) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
     for model in result.get("models", []):
-        suite = model.get("suites", {}).get("full") or model.get("suites", {}).get("quick") or {}
+        suite = (
+            model.get("suites", {}).get("full")
+            or model.get("suites", {}).get("quick")
+            or model.get("suites", {}).get("smoke")
+            or {}
+        )
         metrics = suite.get("metrics", {})
         recall = metrics.get("recall", {})
         throughput = metrics.get("throughput", {})
@@ -1914,6 +2008,8 @@ def _model_summary_rows(result: Mapping[str, Any]) -> list[dict[str, Any]]:
 
 def recommendation(result: Mapping[str, Any]) -> str:
     rows = _model_summary_rows(result)
+    if result.get("suite_requested") == "smoke":
+        return "Smoke run only: use this small contract check for iteration; run the quick suite for formal triage and the full suite for the complete evaluation."
     if result.get("suite_requested") == "quick":
         return "Recommendation pending: this run covers the quick triage suite only; run the full suite and complete the required S3 contamination audit before selecting a local model."
     pending = [row for row in rows if row["available"] and row["s3"] == "manual_review_required"]
@@ -2130,6 +2226,47 @@ def cmd_inventory(args: argparse.Namespace) -> int:
     return 0
 
 
+def _pull_progress_message(model: str, event: Mapping[str, Any]) -> tuple[str, tuple[Any, ...]]:
+    status = str(event.get("status", "working"))
+    completed = event.get("completed")
+    total = event.get("total")
+    if (
+        isinstance(completed, (int, float))
+        and isinstance(total, (int, float))
+        and total > 0
+    ):
+        percent = max(0.0, min(100.0, float(completed) / float(total) * 100.0))
+        message = (
+            f"{model}: {status} {percent:.0f}% "
+            f"({_format_bytes(completed)}/{_format_bytes(total)})"
+        )
+        return message, (status, int(percent // 5))
+    return f"{model}: {status}", (status,)
+
+
+def cmd_install(args: argparse.Namespace) -> int:
+    global _PROGRESS_STARTED_AT
+    _PROGRESS_STARTED_AT = time.perf_counter()
+    models = _default_model_names(args.tier)
+    client = OllamaClient(args.ollama_url, args.request_timeout)
+    _progress(f"installing {len(models)} {args.tier} Ollama models")
+    for model in models:
+        last_key: tuple[Any, ...] | None = None
+
+        def report(event: Mapping[str, Any], model: str = model) -> None:
+            nonlocal last_key
+            message, key = _pull_progress_message(model, event)
+            if key != last_key:
+                last_key = key
+                _progress(message)
+
+        _progress(f"{model}: starting pull")
+        client.pull(model, on_progress=report)
+        _progress(f"{model}: installed")
+    _progress(f"installed all {args.tier} models")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     formatter = argparse.RawDescriptionHelpFormatter
     parser = argparse.ArgumentParser(
@@ -2140,14 +2277,17 @@ def build_parser() -> argparse.ArgumentParser:
         ),
         epilog="""Examples:
   python3 benchmark/benchmark.py inventory
+  python3 benchmark/benchmark.py install --tier tier1
+  python3 benchmark/benchmark.py run --suite smoke --skip-unavailable
   python3 benchmark/benchmark.py run --suite quick
   python3 benchmark/benchmark.py run --suite full --skip-unavailable
   python3 benchmark/benchmark.py score benchmark/results/<run-id> --audit audit.json
   python3 benchmark/benchmark.py summary benchmark/results/<mac>/results.json \\
       benchmark/results/<windows>/results.json
 
-Use '<command> --help' for the complete options of a command. The full suite
-runs quick triage first and only continues with models that pass it.""",
+Use '<command> --help' for the complete options of a command. Smoke runs one
+compact fixture with no time cutoff. The full suite runs quick triage first and
+only continues with models that pass it.""",
         formatter_class=formatter,
     )
     sub = parser.add_subparsers(dest="command", required=True, title="commands")
@@ -2176,9 +2316,39 @@ runs quick triage first and only continues with models that pass it.""",
         help="emit the inventory as machine-readable JSON",
     )
 
+    install = sub.add_parser(
+        "install",
+        help="install the model tags for a tier through Ollama",
+        description=(
+            "Pull every model in the selected tier through Ollama's local HTTP API. "
+            "Ollama must be installed and running, and the host must have network access."
+        ),
+        formatter_class=formatter,
+    )
+    install.add_argument(
+        "--tier",
+        choices=("tier1", "tier2"),
+        default="tier1",
+        metavar="{tier1,tier2}",
+        help="model tier to install (default: tier1)",
+    )
+    install.add_argument(
+        "--ollama-url",
+        default=OLLAMA_URL,
+        metavar="URL",
+        help=f"Ollama server URL (default: {OLLAMA_URL})",
+    )
+    install.add_argument(
+        "--request-timeout",
+        type=float,
+        default=3600.0,
+        metavar="SECONDS",
+        help="timeout for the streaming pull request (default: 3600)",
+    )
+
     run = sub.add_parser(
         "run",
-        help="run quick/full benchmark suites",
+        help="run smoke, quick, or full benchmark suites",
         description=(
             "Run each selected model per fixture. Before testing, all requested "
             "models are reported as FOUND or UNAVAILABLE. Missing models abort the "
@@ -2188,10 +2358,10 @@ runs quick triage first and only continues with models that pass it.""",
     )
     run.add_argument(
         "--suite",
-        choices=("quick", "full"),
+        choices=("smoke", "quick", "full"),
         default="full",
-        metavar="{quick,full}",
-        help="suite to run; full runs quick triage first (default: full)",
+        metavar="{smoke,quick,full}",
+        help="suite to run; smoke is one no-budget fixture, full runs quick triage first (default: full)",
     )
     run.add_argument(
         "--tier",
@@ -2329,11 +2499,16 @@ def main(argv: Sequence[str] | None = None) -> int:
     try:
         if args.command == "inventory":
             return cmd_inventory(args)
+        if args.command == "install":
+            return cmd_install(args)
         if args.command == "run":
             if args.retries < 0:
                 raise BenchmarkError("--retries must be non-negative")
             output = run_benchmark(args)
-            print(f"Wrote benchmark run to {output}")
+            if output is None:
+                print("No benchmark results written.")
+            else:
+                print(f"Wrote benchmark run to {output}")
             return 0
         if args.command == "score":
             output = rescore_run(args.run_dir, args.audit, args.recall_review)

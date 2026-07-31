@@ -1,0 +1,28 @@
+#unit,p21,pages,21
+#entity,bowls,item,Three enormous stone bowls
+bowls,contents,public,4 human sacrifices, bound hand and foot
+#entity,goats,item,Three dead goats. One live goat, dehydrated and friendly
+goats,contents,public,Tied with short lengths of twine. They are all wearing bells.
+goats,contents,public,Pile of hay.
+goats,contents,public,Wooden bowl (empty).
+#entity,vinegar,item,A stone trough half-filled with vinegar
+vinegar,contents,public,Investigating the reeking liquid reveals an empty wine bottle.
+vinegar,contents,public,Another stone trough that stinks of stale milk. It is empty.
+#entity,table,item,Woooden Table holding 1 immature Lambfruit (Appendix D)
+table,contents,public,1 immature Lambfruit
+#entity,chest,item,Woooden Chest:
+chest,contents,public,Mwk helmet (smiling face, squinting eyes).
+chest,contents,public,1 torch.
+chest,contents,public,Purple pouch containing 2 doses of purple lotus powder (Appendix D).
+chest,contents,public,Lotus pipe (fits into helmet, 100s).
+#entity,linchpin,item,Lead & Iron Chest bolted to the floor, bound with two linchpinned chains
+linchpin,contents,public,Removing the first linchpin causes headaches.
+linchpin,contents,public,The second causes nosebleeds.
+#entity,skull,item,The Skull of Davok
+skull,contents,public,which escapes when the chest is opened. (See Appendix A.)
+#entity,lambfruit,item,1 immature Lambfruit
+lambfruit,contents,public,(Appendix D)
+#entity,pipe,item,Lotus pipe (fits into helmet, 100s)
+pipe,contents,public,fits into helmet, 100s.
+#entity,lotus,powder,item,Purple pouch containing 2 doses of purple lotus powder
+powder,contents,public,2 doses of purple lotus powder.

@@ -4,10 +4,31 @@
 root's [`benchmark.md`](../benchmark.md). It uses only Python's standard
 library and the local Ollama HTTP API.
 
+Install the exact model tags for a tier before running the benchmark. Ollama
+must be installed and running, and the host must have network access:
+
+```bash
+python3 benchmark/benchmark.py install --tier tier1
+```
+
+The Mac-only comparison tier can be installed separately:
+
+```bash
+python3 benchmark/benchmark.py install --tier tier2
+```
+
 Inspect installed tags and sizes before a run:
 
 ```bash
 python3 benchmark/benchmark.py inventory
+```
+
+For fast prompt/model iteration, run the smoke suite. It uses only `p31` and
+has no suite time cutoff, so each selected model is allowed to finish. It is
+not the formal quick gate:
+
+```bash
+python3 benchmark/benchmark.py run --suite smoke --skip-unavailable
 ```
 
 Run the Tier 1 quick suite, or the full suite (which runs quick first and only
@@ -20,7 +41,7 @@ python3 benchmark/benchmark.py run --suite full
 
 The quick suite defaults to 240 seconds per model, including correction
 retries. Override it with `--quick-budget SECONDS` when doing a deliberately
-short triage run.
+short formal triage run. Smoke does not use that budget.
 
 Before testing, the runner reports every requested model as FOUND or
 UNAVAILABLE. By default, any unavailable model aborts the run before testing

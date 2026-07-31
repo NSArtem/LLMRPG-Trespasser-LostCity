@@ -1,0 +1,13 @@
+#unit,p16,pages,16
+#entity,lon-barago,place,The Free City of Lon Barago
+lon-barago,description,public,The Jewel of the Plains. Renowned for its freedom and lawlessness. Power is held by three great temples. All three are corrupt and unsympathetic.
+#entity,the-white-temple,actor,The White Temple
+the-white-temple,role,public,They worship Vandoh, the Goddess of Wisdom, Patience, Self-Improvement, and the powers behind the sun.
+#entity,the-red-temple,actor,The Red Temple
+the-red-temple,role,public,They worship Shendormu, the God of Fungus, Mindlessness, and Community.
+#entity,the-lamb,item,One of the secrets that the White Temple keeps. They call it the Lamb because it was born of a sheep. It is a holy child of Vandoh.
+the-lamb,description,public,Eluding the Lamb comprises the first half of this adventure.
+#entity,the-twelve-fingered-hand,actor,The Twelve-Fingered Hand
+the-twelve-fingered-hand,role,hidden,A brotherhood of knights closely aligned with the White Temple.
+the-red-temple,keyed_area,public,The crypts
+the-twelve-fingered-hand,participants,discoverable,a militia
