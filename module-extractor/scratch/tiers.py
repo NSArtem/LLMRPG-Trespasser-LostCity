@@ -1,20 +1,16 @@
 #!/usr/bin/env python3
-"""T0.2 -- group words into lines, then cluster line heights into tiers.
+"""T0.2 (revised) -- group lines by typographic style.
 
-A **tier** is a cluster of line heights that a document uses consistently. Most
-documents turn out to have three to five: body text, one or two heading levels,
-a title, sometimes a caption or marginal size.
+The first version clustered *glyph heights* with a relative tolerance, because
+``pdftotext -bbox-layout`` offered nothing else. With ``pdftohtml`` the
+typesetter's own choices are available directly -- point size, family, weight,
+colour -- and they are **discrete**. Two lines either share a style or they do
+not, so there is no tolerance to tune and no cluster to get wrong.
 
-**Thresholds are derived per document and never hardcoded.** The measured tier
-values for *Lair of the Lamb* (56.1 / 20.8 / 14.5 / 12.2) are a fact about that
-one PDF. Winter's Daughter is A5 rather than US Letter and shares none of them.
-
-**Bigger does not mean heading.** *The Lost City* sets a section heading at
-h=8.64 above body text at h=9.07 -- the heading is the *smaller* line. So this
-module identifies the **body** tier, as the one carrying the most text, and
-reports every other tier relative to it. Deciding which tiers are headings needs
-more than size (isolation on the line, capitalisation, position) and belongs to
-T0.4, not here.
+**Bigger still does not mean heading.** The Lost City sets section headings at
+the same 14pt as its body and distinguishes them with bold. So the *body* style
+is identified as the one carrying the most text, and every other style is
+reported relative to it.
 """
 
 from __future__ import annotations
@@ -32,89 +28,93 @@ from bbox import BboxError, SOURCES  # noqa: E402
 from columns import Line, document_lines  # noqa: E402
 
 
-# Heights within this relative distance are one tier. Digital typesetting gives
-# near-identical values; scans wobble, so the tolerance is relative rather than
-# absolute and works on both.
-TIER_TOLERANCE = 0.04
+# Styles holding less than this share of a document's lines are noise.
+STYLE_FLOOR = 0.002
 
-# Tiers holding less than this share of the document's lines are noise --
-# a stray ligature, a dropped cap, one oversized glyph.
-TIER_FLOOR = 0.004
+Style = tuple[float, str, bool, str]
 
 
 @dataclass(frozen=True)
-class Tier:
-    height: float  # representative (median) height
+class StyleGroup:
+    style: Style
     lines: int
     words: int
-    share: float  # fraction of the document's lines
+    share: float
+    median_words: float
     samples: tuple[str, ...]
 
     @property
+    def size(self) -> float:
+        return self.style[0]
+
+    @property
+    def family(self) -> str:
+        return self.style[1].split("+")[-1]
+
+    @property
+    def bold(self) -> bool:
+        return self.style[2]
+
+    @property
+    def color(self) -> str:
+        return self.style[3]
+
+    @property
     def label(self) -> str:
-        return f"h={self.height:.1f}"
+        return f"{self.size:.0f}pt {self.family}{' B' if self.bold else ''} {self.color}"
 
 
-def cluster(values: list[float], tolerance: float = TIER_TOLERANCE) -> list[list[float]]:
-    """Single-link clustering of sorted heights, with a relative gap."""
-    clusters: list[list[float]] = []
-    for value in sorted(values):
-        if clusters and value - clusters[-1][-1] <= max(value, 1.0) * tolerance:
-            clusters[-1].append(value)
-        else:
-            clusters.append([value])
-    return clusters
-
-
-def tier_table(lines: list[Line], floor: float = TIER_FLOOR) -> list[Tier]:
-    """Return the document's height tiers, tallest first."""
+def style_table(lines: list[Line], floor: float = STYLE_FLOOR) -> list[StyleGroup]:
+    """Group lines by exact style, most-used first."""
     if not lines:
         return []
-    by_height: dict[float, list[Line]] = {}
+    grouped: dict[Style, list[Line]] = {}
     for line in lines:
-        by_height.setdefault(line.height, []).append(line)
+        grouped.setdefault(line.style, []).append(line)
 
-    tiers = []
-    for group in cluster(list(by_height)):
-        members = [line for height in group for line in by_height[height]]
+    groups = []
+    for style, members in grouped.items():
         share = len(members) / len(lines)
         if share < floor:
             continue
         samples = tuple(
-            dict.fromkeys(  # de-duplicate, keep order
-                line.text.strip()[:52]
+            dict.fromkeys(
+                line.text.strip()[:48]
                 for line in sorted(members, key=lambda item: (item.page, item.y))
                 if line.text.strip()
             )
         )[:3]
-        tiers.append(
-            Tier(
-                height=round(statistics.median(line.height for line in members), 1),
+        groups.append(
+            StyleGroup(
+                style=style,
                 lines=len(members),
                 words=sum(len(line.text.split()) for line in members),
                 share=share,
+                median_words=statistics.median(
+                    len(line.text.split()) for line in members
+                ),
                 samples=samples,
             )
         )
-    return sorted(tiers, key=lambda tier: -tier.height)
+    return sorted(groups, key=lambda group: -group.words)
 
 
-def body_tier(tiers: list[Tier]) -> Tier | None:
-    """The tier carrying the most words -- the document's running text."""
-    return max(tiers, key=lambda tier: tier.words) if tiers else None
+def body_style(groups: list[StyleGroup]) -> StyleGroup | None:
+    """The style carrying the most words -- the document\'s running text."""
+    return groups[0] if groups else None
 
 
 def report(pdf: Path) -> None:
     lines = document_lines(pdf)
-    tiers = tier_table(lines)
-    body = body_tier(tiers)
-    print(f"\n=== {pdf.name}  ({len(lines)} lines, {len(tiers)} tiers) ===")
-    print(f"{'height':>7} {'lines':>6} {'words':>7} {'share':>7}  {'role':<6} sample")
-    for tier in tiers:
-        role = "BODY" if tier is body else ""
-        sample = tier.samples[0] if tier.samples else ""
-        print(f"{tier.height:>7.1f} {tier.lines:>6} {tier.words:>7} "
-              f"{tier.share:>6.1%}  {role:<6} {sample}")
+    groups = style_table(lines)
+    body = body_style(groups)
+    print(f"\n=== {pdf.name}  ({len(lines)} lines, {len(groups)} styles) ===")
+    print(f"{'style':<38} {'lines':>6} {'words':>7} {'med':>4}  {'role':<5} sample")
+    for group in groups[:10]:
+        role = "BODY" if group is body else ""
+        sample = group.samples[0] if group.samples else ""
+        print(f"{group.label:<38} {group.lines:>6} {group.words:>7} "
+              f"{group.median_words:>4.0f}  {role:<5} {sample[:40]}")
 
 
 def main(argv: list[str] | None = None) -> int:

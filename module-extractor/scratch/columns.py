@@ -30,7 +30,8 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from bbox import BboxError, Page, SOURCES, Word, extract_document  # noqa: E402
+from bbox import BboxError, SOURCES  # noqa: E402
+from pdfhtml import Page, Run, extract_document  # noqa: E402
 
 
 LINE_TOLERANCE = 0.5   # share of line height that still counts as the same line
@@ -47,6 +48,15 @@ class Line:
     y: float
     height: float
     text: str
+    size: float = 0.0
+    family: str = ""
+    bold: bool = False
+    color: str = "#000000"
+
+    @property
+    def style(self) -> tuple[float, str, bool, str]:
+        """What the typesetter chose. Discrete, so no clustering is needed."""
+        return (self.size, self.family, self.bold, self.color)
 
     @property
     def is_upper(self) -> bool:
@@ -105,7 +115,7 @@ def find_gutter(page: Page) -> float | None:
     return centre
 
 
-def column_of(word: Word, gutter: float | None) -> int:
+def column_of(word: Run, gutter: float | None) -> int:
     if gutter is None:
         return 0
     if word.right <= gutter:
@@ -115,8 +125,8 @@ def column_of(word: Word, gutter: float | None) -> int:
     return -1  # spans the gutter: a full-width heading or rule
 
 
-def _band(words: list[Word], page: int, column: int) -> list[Line]:
-    rows: list[list[Word]] = []
+def _band(words: list[Run], page: int, column: int) -> list[Line]:
+    rows: list[list[Run]] = []
     for word in sorted(words, key=lambda w: (w.y, w.x)):
         if rows:
             row = rows[-1]
@@ -130,8 +140,13 @@ def _band(words: list[Word], page: int, column: int) -> list[Line]:
     lines = []
     for row in rows:
         ordered = sorted(row, key=lambda w: w.x)
-        # A line's height is its dominant word height, so a heading with one
-        # oversized initial still reads as the heading's own size.
+        # A line's style is its dominant run's, weighted by how much text that
+        # run carries -- a heading with one oversized dropped capital still
+        # reads as the heading's own style.
+        weight: Counter = Counter()
+        for run in ordered:
+            weight[(run.size, run.font.family, run.bold, run.color)] += len(run.text)
+        size, family, bold, color = weight.most_common(1)[0][0]
         heights = Counter(round(w.height, 1) for w in ordered)
         lines.append(
             Line(
@@ -140,7 +155,11 @@ def _band(words: list[Word], page: int, column: int) -> list[Line]:
                 x=min(w.x for w in ordered),
                 y=min(w.y for w in ordered),
                 height=heights.most_common(1)[0][0],
-                text=" ".join(w.text for w in ordered),
+                text=" ".join(w.text for w in ordered).strip(),
+                size=size,
+                family=family,
+                bold=bold,
+                color=color,
             )
         )
     return lines
@@ -151,7 +170,7 @@ def page_lines(page: Page) -> list[Line]:
     if not page.words:
         return []
     gutter = find_gutter(page)
-    buckets: dict[int, list[Word]] = {}
+    buckets: dict[int, list[Run]] = {}
     for word in page.words:
         buckets.setdefault(column_of(word, gutter), []).append(word)
 

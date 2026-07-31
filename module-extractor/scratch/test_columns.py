@@ -9,14 +9,16 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from bbox import Page, Word  # noqa: E402
-from columns import find_gutter, page_lines  # noqa: E402
-from tiers import cluster, tier_table, body_tier  # noqa: E402
-from columns import Line  # noqa: E402
+from pdfhtml import Font, Page, Run  # noqa: E402
+from columns import Line, find_gutter, page_lines  # noqa: E402
+from tiers import body_style, style_table  # noqa: E402
+
+BODY_FONT = Font(font_id=0, size=12.0, family="Body", color="#000000")
 
 
-def word(text, x, y, h=12.0, w=None):
-    return Word(x=x, y=y, width=w if w is not None else len(text) * 5.0, height=h, text=text)
+def word(text, x, y, h=12.0, w=None, font=BODY_FONT, bold=False):
+    return Run(page=1, x=x, y=y, width=w if w is not None else len(text) * 5.0,
+               height=h, text=text, font=font, bold=bold, italic=False)
 
 
 def two_column_page(rows=14, spanning=0):
@@ -72,38 +74,51 @@ class LineTests(unittest.TestCase):
         self.assertEqual(lines[0].column, -1)
         self.assertIn("BANNER", lines[0].text)
 
-    def test_line_height_is_the_dominant_word_height(self) -> None:
-        words = (word("BIG", 50.0, 100.0, h=30.0, w=40.0),
-                 word("heading", 95.0, 100.0, h=14.0, w=60.0),
-                 word("words", 160.0, 100.0, h=14.0, w=60.0))
+    def test_line_style_is_the_dominant_runs_style(self) -> None:
+        """A dropped capital must not redefine the line it opens."""
+        drop = Font(font_id=1, size=72.0, family="Initials", color="#000000")
+        words = (word("A", 50.0, 100.0, h=72.0, w=40.0, font=drop),
+                 word("good portion of the adventure", 95.0, 100.0, w=200.0))
         page = Page(number=1, width=612.0, height=792.0, words=words)
-        self.assertEqual(page_lines(page)[0].height, 14.0)
+        self.assertEqual(page_lines(page)[0].size, 12.0)
 
 
-class TierTests(unittest.TestCase):
-    def test_near_identical_heights_cluster_together(self) -> None:
-        self.assertEqual(cluster([12.2, 12.2, 12.3]), [[12.2, 12.2, 12.3]])
-
-    def test_distinct_sizes_stay_apart(self) -> None:
-        self.assertEqual(len(cluster([12.2, 20.8, 56.1])), 3)
-
+class StyleTests(unittest.TestCase):
     def _lines(self, spec):
-        return [Line(page=1, column=0, x=50.0, y=float(i), height=h, text=t)
-                for i, (h, t) in enumerate(spec)]
+        return [Line(page=1, column=0, x=50.0, y=float(i), height=s, text=t,
+                     size=s, family=f, bold=b, color=c)
+                for i, (s, f, b, c, t) in enumerate(spec)]
 
-    def test_body_is_the_tier_carrying_the_most_words(self) -> None:
-        lines = self._lines([(56.1, "Title")] + [(12.2, "many words of body text here")] * 40)
-        tiers = tier_table(lines, floor=0.0)
-        self.assertEqual(body_tier(tiers).height, 12.2)
+    def test_body_is_the_style_carrying_the_most_words(self) -> None:
+        lines = self._lines(
+            [(56.0, "Display", False, "#000000", "Title")]
+            + [(12.0, "Body", False, "#000000", "many words of body text here")] * 40
+        )
+        self.assertEqual(body_style(style_table(lines, floor=0.0)).size, 12.0)
 
     def test_body_is_not_assumed_to_be_the_smallest(self) -> None:
-        """The Lost City sets a heading smaller than its body text."""
-        lines = self._lines([(8.6, "SECTION")] * 3 + [(9.1, "running body text here")] * 40)
-        self.assertEqual(body_tier(tier_table(lines, floor=0.0)).height, 9.1)
+        """The Lost City sets headings at or below its body size."""
+        lines = self._lines(
+            [(14.0, "Times", True, "#000000", "SECTION")] * 3
+            + [(14.0, "Times", False, "#000000", "running body text here")] * 40
+        )
+        body = body_style(style_table(lines, floor=0.0))
+        self.assertFalse(body.bold)
 
-    def test_rare_sizes_are_dropped_as_noise(self) -> None:
-        lines = self._lines([(99.0, "stray glyph")] + [(12.2, "body")] * 500)
-        self.assertEqual([t.height for t in tier_table(lines)], [12.2])
+    def test_styles_differing_only_in_weight_stay_apart(self) -> None:
+        """No tolerance to tune: styles are discrete."""
+        lines = self._lines(
+            [(14.0, "Times", True, "#000000", "SECTION")] * 5
+            + [(14.0, "Times", False, "#000000", "body")] * 5
+        )
+        self.assertEqual(len(style_table(lines, floor=0.0)), 2)
+
+    def test_rare_styles_are_dropped_as_noise(self) -> None:
+        lines = self._lines(
+            [(99.0, "Stray", False, "#000000", "stray glyph")]
+            + [(12.0, "Body", False, "#000000", "body")] * 900
+        )
+        self.assertEqual([g.size for g in style_table(lines)], [12.0])
 
 
 if __name__ == "__main__":
