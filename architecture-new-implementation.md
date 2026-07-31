@@ -99,7 +99,7 @@ baseline build to compare against, and every gate that names a source without
 qualification means this one.
 
 **Four of the five are in scope. *The Lost City* is deferred** -- it has a text
-layer, but not a usable one. See [Deferred: The Lost City](#deferred-the-lost-city).
+layer, but not a usable one. See [Deferred: scanned sources](#deferred-scanned-sources).
 Gates that say "all five sources" mean the four in scope; do not spend effort
 making Lost City pass.
 
@@ -129,12 +129,46 @@ exposed and are not needed.
 
 ---
 
-## Deferred: The Lost City
+## Deferred: scanned sources
+
+**Out of scope. Do not work on them. Revisit deliberately, not by accident.**
+
+Two sources are deferred, and they fail the same way for the same underlying
+reason: **they are scans, and the segmenter depends on a sane font table.**
+
+### Curse of Strahd — the clearest case
+
+258 pages, 40 MB, `Producer: EPSON Scan`. It has a text layer -- 779 KB of it,
+32,020 runs -- so nothing about it looks broken. It yields **zero units**.
+
+The cause is the OCR font table. It declares **12,151 fonts**: `Times New
+Roman-271`, `-272`, one synthetic face per recognised fragment. Colour is
+equally poisoned, a slightly different near-black per fragment -- `#1d1a1d`,
+`#201d20`, `#151214`, `#1f1c20`. After normalising font names, **9,317 distinct
+style keys remain across 32,020 runs**. Every style falls below the noise floor,
+none is accepted as a heading, and nothing segments.
+
+Style-based segmentation assumes the typesetter chose a small number of styles
+deliberately. An OCR engine chooses one per fragment, accidentally. The
+assumption simply does not hold on scans.
+
+### It failed silently, which is the real defect
+
+Zero units, exit 0, no diagnostic. **Stage 1's no-text-layer check (T2.2) is
+necessary but not sufficient**: this document has plenty of text. The check must
+widen to *text present but structurally unusable*, and the ratio of distinct
+style keys to runs is a direct, cheap measure of it -- roughly 1:3 here against
+roughly 1:200 on a typeset source. Fail loudly, name the cause, and say the
+source needs the image path.
+
+### The Lost City -- the same class, seen earlier
+
+*TSR B4 - The Lost City (1982)*
 
 **Out of scope. Do not work on it. Revisit deliberately, not by accident.**
 
-*TSR B4 - The Lost City (1982)* is the only pre-2000 source and the only one
-that cannot be segmented. Two independent causes, both found in T0.3:
+is a 1982 scan with a bad embedded
+text layer. Two causes, both found in T0.3:
 
 **Its styles do not discriminate.** The `14pt Times bold` style carries both
 headings and body prose -- `DM's Background` and `9. ABANDONED PRIEST'S
@@ -523,10 +557,17 @@ identity record, thumbnails, map renders, and atomic publish untouched.
 *Done when:* `advanced prepare` emits bbox XML per page; existing preparation
 tests still pass.
 
-**T2.2 — `preparation.py`: no-text-layer failure.** Stage 1 requires a PDF
-without a usable text layer to fail explicitly. There is no such check today and
-`_split_pages` emits blank pages happily.
-*Done when:* a text-layer-free PDF raises `ExtractorError`, with a test.
+**T2.2 — `preparation.py`: unusable-text-layer failure.** Stage 1 requires a PDF
+without a *usable* text layer to fail explicitly. There is no such check today
+and `_split_pages` emits blank pages happily.
+
+**Empty is not the only unusable.** Curse of Strahd carries 779 KB of OCR text
+across 258 pages and still segments to nothing, because its 12,151 synthetic
+fonts give 9,317 style keys over 32,020 runs. It failed silently: zero units,
+exit 0. Check both conditions -- no text at all, and a style-key-to-run ratio
+that says the font table is OCR noise rather than typography.
+*Done when:* a text-layer-free PDF and an OCR-noise PDF each raise
+`ExtractorError` naming which condition failed, with tests.
 
 **T2.3 — `segmentation.py`.** Promote T0.4/T0.5 into the package, emitting
 Contract A units.
@@ -786,7 +827,7 @@ tasks do not re-litigate them.
 | D-4 | Closed or open predicate vocabulary? | T1.4 | *unanswered* |
 | D-5 | Which predicates are list-valued? | T1.4 | *unanswered* — but the behaviour is fixed: collect within a unit, conflict across units, never union |
 | D-6 | Which values carry JSON? | T1.4 | *unanswered* |
-| D-7 | Segmentation fallback for a failing document? | T0.5 | **Deferred per document.** Lost City is out of scope; see [Deferred: The Lost City](#deferred-the-lost-city) |
+| D-7 | Segmentation fallback for a failing document? | T0.5 | **Scans are deferred as a class.** See [Deferred: scanned sources](#deferred-scanned-sources) |
 | D-8 | Map facts: shared vocabulary or typed pipeline? | T4.7 | *unanswered* |
 | D-9 | Prose/map disagreement authority? | T4.7 | *unanswered* |
 | D-10 | Waypoint keyed areas: own a topology node? | T4.7 | *unanswered* |
