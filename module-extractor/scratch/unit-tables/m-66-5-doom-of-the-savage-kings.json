@@ -351,13 +351,31 @@
       6
     ],
     "column": 1,
-    "text": "encounter AreAs\nArea A – Village of Hirot:  The wooded moors give way to mist-\nladen fields. Ahead, up the narrow track, stands the village of Hi-\nrot. The village is defended by a low earthen rampart topped with\na wooden palisade. Behind the village, a causeway rises to a great\nhall resting atop a craggy ridge. Black hearth-smoke hangs forlornly\nover the village, as if even the smoke were too frightened to venture\nbeyond the village walls.\nSolitary figures give out a cry, and a long mournful horn is sounded,\nechoing down the vale, declaring your approach to all.\nThe 15-foot palisade deters beasts and most raiders, but is eas-\nily surmounted by skilled climbers (climbing check, DC 15).\nA catwalk runs the circumference of the palisade and—since\nthe  incursion  of  the  hound—  town  militia  light  braziers  at\ndusk and walk the wall throughout the night. The night watch\nhas done little to deter attacks. Indeed, the watch has lost four\nof its own volunteers to the claws of the hound.\nThe night watch is led by  Nothan the Younger , a stern, hawk-\nish man, sporting a long mustache and fierce eyes. Nearly fifty\nwinters  in  age,  Nothan  harbors  deep  suspicions  of  the  Jarl\nand his pet sorcerer, but keeps his opinions to himself. He has\nfought the hound, and witnessed it turning to black mist.\nThe night watch raises a cry at the first hint of danger. There\nis a 1-in-5 chance of the night watch passing near the PCs any\ntime they attempt to cross the wall.",
+    "text": "encounter AreAs",
     "labels": [],
-    "text_bytes": 1484,
+    "text_bytes": 15,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "Duvall",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p6.area-a-village-of-hirot",
+    "heading": "Area A – Village of Hirot:",
+    "pages": [
+      6
+    ],
+    "column": 1,
+    "text": "Area A – Village of Hirot:\nThe wooded moors give way to mist-\nladen fields. Ahead, up the narrow track, stands the village of Hi-\nrot. The village is defended by a low earthen rampart topped with\na wooden palisade. Behind the village, a causeway rises to a great\nhall resting atop a craggy ridge. Black hearth-smoke hangs forlornly\nover the village, as if even the smoke were too frightened to venture\nbeyond the village walls.\nSolitary figures give out a cry, and a long mournful horn is sounded,\nechoing down the vale, declaring your approach to all.\nThe 15-foot palisade deters beasts and most raiders, but is eas-\nily surmounted by skilled climbers (climbing check, DC 15).\nA catwalk runs the circumference of the palisade and—since\nthe  incursion  of  the  hound—  town  militia  light  braziers  at\ndusk and walk the wall throughout the night. The night watch\nhas done little to deter attacks. Indeed, the watch has lost four\nof its own volunteers to the claws of the hound.\nThe night watch is led by  Nothan the Younger , a stern, hawk-\nish man, sporting a long mustache and fierce eyes. Nearly fifty\nwinters  in  age,  Nothan  harbors  deep  suspicions  of  the  Jarl\nand his pet sorcerer, but keeps his opinions to himself. He has\nfought the hound, and witnessed it turning to black mist.\nThe night watch raises a cry at the first hint of danger. There\nis a 1-in-5 chance of the night watch passing near the PCs any\ntime they attempt to cross the wall.",
+    "labels": [],
+    "text_bytes": 1467,
+    "keyed_area": "A",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
       "bold": true,
       "color": "#000000"
     }
@@ -420,17 +438,35 @@
     "unit_id": "p6.mocle",
     "heading": "Mocle",
     "pages": [
-      6,
-      7
+      6
     ],
     "column": 1,
-    "text": "Mocle\nand  Naven : Init +0; Atk spear +1 melee (1d6) or cross-\nbow +0 missile fire (1d6); AC 10; HD 1d8; hp 4; MV 25’; Act\n1d20; SV Fort +1, Ref +1, Will +0; AL L.\nArea A-2 – Village Square:  The village square is largely de-\nserted, save for few scruffy mongrels that pick their way through the\nabandoned stalls. A locked strongbox rests atop a short wooden post\nin the center of the square. A tattered banner displaying a sable wolf\nrampant hangs forlornly above the strongbox.\nMost days, Father Beacom and his two silent acolytes (see area\nA-4) can be found here, proclaiming to all who will listen (as\nwell as to those who refuse to listen) that the Hound of Hirot\nheralds the end of days and that doom is upon them.\nEvery three days the people of Hirot gather in the square and\nPage 6\ndraw lots to determine which of their own will be sacrificed\nto the hound. The town scribe records each citizen’s name on\na strip of vellum, which is dropped through the slot into the\nstrongbox.  Blindfolded,  the  Jarl  unlocks  the  strongbox  and\ndraws a slip, which is read by the town scribe and confirmed\nby the priest Father Beacom.\nThe strongbox is secured with only a simple lock (DC 10 to\npick), but a cry goes up if the citizens witness anyone disturb-\ning the coffer. Opening the strongbox reveals the lottery to be\na sham: a second box is concealed within the first. The night\nbefore the lottery, the Jarl and Sylle Ru choose who is to be\nsacrificed and place a false slip within the smaller box to be\ndrawn in the lottery.\nIf the PCs remain in Hirot for more than two days, they are\nexpected to take part in the lottery. The Jarl takes this oppor-\ntunity to do away with his rivals, ensuring that a PC’s name\nis drawn. If astute rogues examine the slips (forge document\ncheck, DC 10), they suspect that—due to discrepancies in the\nquality of vellum and ink—the script on the slip was written\nby someone other than the town scribe. Ink and vellum match-\ning the forged slip can be found in the possession of Sylle Ru.",
+    "text": "Mocle\nand  Naven : Init +0; Atk spear +1 melee (1d6) or cross-\nbow +0 missile fire (1d6); AC 10; HD 1d8; hp 4; MV 25’; Act\n1d20; SV Fort +1, Ref +1, Will +0; AL L.",
     "labels": [],
-    "text_bytes": 2032,
+    "text_bytes": 165,
     "keyed_area": null,
     "style": {
       "size": 14.0,
       "family": "BookAntiqua",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p6.area-a-2-village-square",
+    "heading": "Area A-2 – Village Square:",
+    "pages": [
+      6,
+      7
+    ],
+    "column": 1,
+    "text": "Area A-2 – Village Square:\nThe village square is largely de-\nserted, save for few scruffy mongrels that pick their way through the\nabandoned stalls. A locked strongbox rests atop a short wooden post\nin the center of the square. A tattered banner displaying a sable wolf\nrampant hangs forlornly above the strongbox.\nMost days, Father Beacom and his two silent acolytes (see area\nA-4) can be found here, proclaiming to all who will listen (as\nwell as to those who refuse to listen) that the Hound of Hirot\nheralds the end of days and that doom is upon them.\nEvery three days the people of Hirot gather in the square and\nPage 6\ndraw lots to determine which of their own will be sacrificed\nto the hound. The town scribe records each citizen’s name on\na strip of vellum, which is dropped through the slot into the\nstrongbox.  Blindfolded,  the  Jarl  unlocks  the  strongbox  and\ndraws a slip, which is read by the town scribe and confirmed\nby the priest Father Beacom.\nThe strongbox is secured with only a simple lock (DC 10 to\npick), but a cry goes up if the citizens witness anyone disturb-\ning the coffer. Opening the strongbox reveals the lottery to be\na sham: a second box is concealed within the first. The night\nbefore the lottery, the Jarl and Sylle Ru choose who is to be\nsacrificed and place a false slip within the smaller box to be\ndrawn in the lottery.\nIf the PCs remain in Hirot for more than two days, they are\nexpected to take part in the lottery. The Jarl takes this oppor-\ntunity to do away with his rivals, ensuring that a PC’s name\nis drawn. If astute rogues examine the slips (forge document\ncheck, DC 10), they suspect that—due to discrepancies in the\nquality of vellum and ink—the script on the slip was written\nby someone other than the town scribe. Ink and vellum match-\ning the forged slip can be found in the possession of Sylle Ru.",
+    "labels": [],
+    "text_bytes": 1865,
+    "keyed_area": "A-2",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
       "bold": true,
       "color": "#000000"
     }
@@ -514,9 +550,9 @@
       7
     ],
     "column": 1,
-    "text": "Brother Haams.\nBoth have taken vows of silence, and follow\nthe Father as he marches through the streets, whipping them-\nselves as penance for their sins.\nThe Father has little tolerance of priests of other faiths, but he\neagerly welcomes devotees of Justicia, offering them and their\nallies sanctuary.\nThough Father Beacom is loath to admit it, the chapel holds\na secret that can aid the PCs in their battle against the Hound\nof Hirot. The stained glass rose window overlooking the nave\nof the chapel depicts Justicia battling a demon-hound with a\ngreat warhammer. The head to that same spiked warhammer\nrests atop the chapel’s altar, hidden by a velvet curtain.\nFather  Beacom  refuses  to  permit  the  holy  relic  to  leave  the\nsanctity of the chapel and only the faithful may gaze upon the\nwarhammer. But if the head is hung on a stout shaft and re-\ndedicated  to  the  service  of  Law,  it  regains  its  +1 vs. demons/\ndevils\nenchantment. When wielded by a cleric of Justicia, it per-\nforms as a  +2 warhammer . Additionally, the hammer grants the\ncleric a +1 bonus to saving throws made against evil effects,\nevil  creatures,  un-dead,  and  demons,  and  inflicts  an  extra  3\npoints of damage against the same.",
+    "text": "Brother Haams.\nBoth have taken vows of silence, and follow\nthe Father as he marches through the streets, whipping them-\nselves as penance for their sins.\nThe Father has little tolerance of priests of other faiths, but he\neagerly welcomes devotees of Justicia, offering them and their\nallies sanctuary.\nThough Father Beacom is loath to admit it, the chapel holds\na secret that can aid the PCs in their battle against the Hound\nof Hirot. The stained glass rose window overlooking the nave\nof the chapel depicts Justicia battling a demon-hound with a\ngreat warhammer. The head to that same spiked warhammer\nrests atop the chapel’s altar, hidden by a velvet curtain.\nFather  Beacom  refuses  to  permit  the  holy  relic  to  leave  the\nsanctity of the chapel and only the faithful may gaze upon the\nwarhammer. But if the head is hung on a stout shaft and re-\ndedicated  to  the  service  of  Law,  it  regains  its  +1 vs. demons/\ndevils  enchantment. When wielded by a cleric of Justicia, it per-\nforms as a  +2 warhammer . Additionally, the hammer grants the\ncleric a +1 bonus to saving throws made against evil effects,\nevil  creatures,  un-dead,  and  demons,  and  inflicts  an  extra  3\npoints of damage against the same.",
     "labels": [],
-    "text_bytes": 1225,
+    "text_bytes": 1226,
     "keyed_area": null,
     "style": {
       "size": 14.0,
@@ -765,17 +801,35 @@
     "unit_id": "p9.bier-guards-3",
     "heading": "Bier Guards (3):",
     "pages": [
-      9,
-      10
+      9
     ],
     "column": 1,
-    "text": "Bier Guards (3):\nInit +0; Atk spear +1 melee (1d6); AC 14; HD\n1d8; hp 4; MV 25’; Act 1d20; SV Fort +1, Ref +1, Will +0; AL L.\nArea B – Altar Stones:  The standing stones rest atop a low,\ncraggy bluff. At the center of the stones is a squat stone block. A\ntrio of ravens stands atop the mossy stone, pecking at trails of gore.\nFour holes are bored into the stone, and thick coils of rope are looped\nthrough the stone to make crude shackles.\nThe altar stones are the remnants of the druidic tradition once\npracticed on the high moors. At the behest of the sorcerer Sylle\nRu, the people of Hirot have sacrificed one of their own every\nthree nights, in hopes of staving off the hound.\nIf a sacrifice is not made at least once every three nights, the\nhound descends into Hirot, slaying 1d6+1 citizens before its\nrage is sated.\nThe hound appears shortly after dusk. Expecting a nearly de-\nfenseless peasant, the beast is easily surprised. However, once\nambushed at the stones, the hound cannot be surprised here\nagain. If, after being defeated at the stones, the hound discov-\ners a second ambush, it bypasses the standing stones altogeth-\ner and unleashes its full fury on the people of Hirot.\nThe Hound of Hirot:\nInit +2; Atk bite +3 melee (1d8) or claw\n+3 melee (1d4); AC 15; hp 4d12; hp 20; MV 30’ or fly 30’; Act\n3d20; SP demon traits, gaseous form, immune to  charm  effects,\nimmortal; SV Fort +4, Ref +4, Will +0; AL C.\nPage 9",
+    "text": "Bier Guards (3):\nInit +0; Atk spear +1 melee (1d6); AC 14; HD\n1d8; hp 4; MV 25’; Act 1d20; SV Fort +1, Ref +1, Will +0; AL L.",
     "labels": [],
-    "text_bytes": 1435,
+    "text_bytes": 127,
     "keyed_area": null,
     "style": {
       "size": 14.0,
       "family": "BookAntiqua",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p9.area-b-altar-stones",
+    "heading": "Area B – Altar Stones:",
+    "pages": [
+      9,
+      10
+    ],
+    "column": 1,
+    "text": "Area B – Altar Stones:\nThe standing stones rest atop a low,\ncraggy bluff. At the center of the stones is a squat stone block. A\ntrio of ravens stands atop the mossy stone, pecking at trails of gore.\nFour holes are bored into the stone, and thick coils of rope are looped\nthrough the stone to make crude shackles.\nThe altar stones are the remnants of the druidic tradition once\npracticed on the high moors. At the behest of the sorcerer Sylle\nRu, the people of Hirot have sacrificed one of their own every\nthree nights, in hopes of staving off the hound.\nIf a sacrifice is not made at least once every three nights, the\nhound descends into Hirot, slaying 1d6+1 citizens before its\nrage is sated.\nThe hound appears shortly after dusk. Expecting a nearly de-\nfenseless peasant, the beast is easily surprised. However, once\nambushed at the stones, the hound cannot be surprised here\nagain. If, after being defeated at the stones, the hound discov-\ners a second ambush, it bypasses the standing stones altogeth-\ner and unleashes its full fury on the people of Hirot.\nThe Hound of Hirot:\nInit +2; Atk bite +3 melee (1d8) or claw\n+3 melee (1d4); AC 15; hp 4d12; hp 20; MV 30’ or fly 30’; Act\n3d20; SP demon traits, gaseous form, immune to  charm  effects,\nimmortal; SV Fort +4, Ref +4, Will +0; AL C.\nPage 9",
+    "labels": [],
+    "text_bytes": 1306,
+    "keyed_area": "B",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
       "bold": true,
       "color": "#000000"
     }
@@ -787,9 +841,9 @@
       10
     ],
     "column": 0,
-    "text": "T tomB of the ulfheonAr\nhe  tomb  of  the  savage  warlord  known  as  the  Ulf-\nheonar is buried beneath an enormous earthen\nmound cast in the shape of a serpent. Found north\nof Hirot, the mysterious mound is given a wide berth by most\nhunters and woodsmen, who regard it either as haunted or\nhome to the King of Elfland. PCs attempting to recruit hire-\nlings  to  aid  in  the  exploration  of  the  tomb  will  need  to  pay\nwages in gold, not silver.\nExcept where noted, there is no natural light within the tomb.\nThe walls and ceilings are composed of tall stone slabs set in\nplace  before  the  mound  was  built;  the  floor  is  hard-packed\nearth.  The  air  tends  to  be  cool  with  beads  of  condensation\nforming on the walls.\nAny human that dies within the tomb is cursed to rise as a\ntomb ghoul within in 2d14 rounds. Tomb ghouls are unable\nto leave the confines of area C and are compelled to defend\nthe Ulfheonar against any tomb robbers. Three of the sons of\nHirot,  Ilham ,  Kej,  and  Stein,  common pinchthieves and pick-\npockets, presently serve as ghouls within the tomb.\nArea C – The Serpent Mound:  The forest breaks at the edge of\na steep slope, revealing a narrow vale below. Set in the center of the\nvalley is a large earthen mound topped with tall grasses and shaped\nlike a long serpent.\nThe savage tribes of the North laid their chieftains to rest in\na tomb set in the head of the serpent. The last and greatest of\nthese was the mighty warlord known as the Ulfheonar.\nPCs descending into the vale discover slender, silvery streams\nrunning  along  either  side  of  the  serpent  mound.  Careful  in-\nspection  of  the  eastern  streambed  reveals  where  the  current\nhas undercut the bank, exposing a narrow cleft in the stones;\nthis is the entrance used by the thieves Ilham, Kej, and Stein.\nThose carefully inspecting the cleft discover a shred of home-\nspun cloth caught in the cleft. Climbing into the cleft brings\nPCs to area C-6.\nThe twin streams meet at the head of the serpent mound, area\nC-1.\nArea C-1 – The Pool and the Serpent:  Two silvery streams\ncascade down either side of the serpentine hillock, joining to form a\nshallow, glittering pool at the head of the enormous mound. Across\nthe pool, set into the earthen mound, is a large circular stone, deco-\nrated with serpentine spirals worn by time.\nThe  pool  is  a  mere  1  foot  in  depth,  with  a  white  sand  bed\nflecked with mica that causes the pool to glitter and sparkle.\nCrossing the shallow pool is an easy task, but PCs disturbing\nthe  pool  floor  discover  hide-wrapped  bundles  hidden  just\nbeneath the sand. The hide bundles are secured with rotting\nleather straps; each waterlogged bundle contains a nicked and\npitted bronze sword, a handful of tin and bronze coins, and a\ncracked, humanoid skull. There are four bundles in all, offer-\nings to the serpent spirit that inhabits the pool.\nTo gain entrance to the tomb, the PCs must roll the stone\naside—a Herculean task requiring a DC 25 Strength check (up\nto 5 PCs can add their Strength modifiers to the total).\nHowever, if the PCs succeed in rolling aside the stone with-\nout first casting an offering worth 10 gp or more into the pool,\nthe pool’s guardian spirit awakens. The silvery waters rush\ntogether to form the head and neck of an enormous snake. The\nsnake spirit bears down on the offending PCs, attempting to\n“swallow” them in its watery grasp. PCs struck by the snake-\nspirit  must  attempt  a  DC  20  Fort  save  or  be  drawn  into  the\nplume of water, where they immediately begin to drown. PCs\ncan pull their comrades from the watery plume with a success-\nful unarmed attack roll against the snake’s AC, followed by a\nDC 14 Strength check. Otherwise, trapped PCs can only try to\nswim free of the serpent (Strength check, DC 18).\nIf  the  PCs  retreat  into  the  tomb,  the  serpent  washes  in  after\nthem. Trapped within the tight, closed corridor, the PCs must\neither outrun the wave or succeed on a DC 15 Fort save; those\nthat fail the save are washed into the pit in area C-3.",
+    "text": "T tomB of the ulfheonAr\nhe  tomb  of  the  savage  warlord  known  as  the  Ulf-\nheonar is buried beneath an enormous earthen\nmound cast in the shape of a serpent. Found north\nof Hirot, the mysterious mound is given a wide berth by most\nhunters and woodsmen, who regard it either as haunted or\nhome to the King of Elfland. PCs attempting to recruit hire-\nlings  to  aid  in  the  exploration  of  the  tomb  will  need  to  pay\nwages in gold, not silver.\nExcept where noted, there is no natural light within the tomb.\nThe walls and ceilings are composed of tall stone slabs set in\nplace  before  the  mound  was  built;  the  floor  is  hard-packed\nearth.  The  air  tends  to  be  cool  with  beads  of  condensation\nforming on the walls.\nAny human that dies within the tomb is cursed to rise as a\ntomb ghoul within in 2d14 rounds. Tomb ghouls are unable\nto leave the confines of area C and are compelled to defend\nthe Ulfheonar against any tomb robbers. Three of the sons of\nHirot,  Ilham ,  Kej,  and  Stein,  common pinchthieves and pick-\npockets, presently serve as ghouls within the tomb.",
     "labels": [],
-    "text_bytes": 4075,
+    "text_bytes": 1094,
     "keyed_area": null,
     "style": {
       "size": 21.0,
@@ -799,20 +853,128 @@
     }
   },
   {
+    "unit_id": "p10.area-c-the-serpent-mound",
+    "heading": "Area C – The Serpent Mound:",
+    "pages": [
+      10
+    ],
+    "column": 0,
+    "text": "Area C – The Serpent Mound:\nThe forest breaks at the edge of\na steep slope, revealing a narrow vale below. Set in the center of the\nvalley is a large earthen mound topped with tall grasses and shaped\nlike a long serpent.\nThe savage tribes of the North laid their chieftains to rest in\na tomb set in the head of the serpent. The last and greatest of\nthese was the mighty warlord known as the Ulfheonar.\nPCs descending into the vale discover slender, silvery streams\nrunning  along  either  side  of  the  serpent  mound.  Careful  in-\nspection  of  the  eastern  streambed  reveals  where  the  current\nhas undercut the bank, exposing a narrow cleft in the stones;\nthis is the entrance used by the thieves Ilham, Kej, and Stein.\nThose carefully inspecting the cleft discover a shred of home-\nspun cloth caught in the cleft. Climbing into the cleft brings\nPCs to area C-6.\nThe twin streams meet at the head of the serpent mound, area\nC-1.",
+    "labels": [],
+    "text_bytes": 938,
+    "keyed_area": "C",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p10.area-c-1-the-pool-and-the-serpen",
+    "heading": "Area C-1 – The Pool and the Serpent:",
+    "pages": [
+      10
+    ],
+    "column": 0,
+    "text": "Area C-1 – The Pool and the Serpent:\nTwo silvery streams\ncascade down either side of the serpentine hillock, joining to form a\nshallow, glittering pool at the head of the enormous mound. Across\nthe pool, set into the earthen mound, is a large circular stone, deco-\nrated with serpentine spirals worn by time.\nThe  pool  is  a  mere  1  foot  in  depth,  with  a  white  sand  bed\nflecked with mica that causes the pool to glitter and sparkle.\nCrossing the shallow pool is an easy task, but PCs disturbing\nthe  pool  floor  discover  hide-wrapped  bundles  hidden  just\nbeneath the sand. The hide bundles are secured with rotting\nleather straps; each waterlogged bundle contains a nicked and\npitted bronze sword, a handful of tin and bronze coins, and a\ncracked, humanoid skull. There are four bundles in all, offer-\nings to the serpent spirit that inhabits the pool.\nTo gain entrance to the tomb, the PCs must roll the stone\naside—a Herculean task requiring a DC 25 Strength check (up\nto 5 PCs can add their Strength modifiers to the total).\nHowever, if the PCs succeed in rolling aside the stone with-\nout first casting an offering worth 10 gp or more into the pool,\nthe pool’s guardian spirit awakens. The silvery waters rush\ntogether to form the head and neck of an enormous snake. The\nsnake spirit bears down on the offending PCs, attempting to\n“swallow” them in its watery grasp. PCs struck by the snake-\nspirit  must  attempt  a  DC  20  Fort  save  or  be  drawn  into  the\nplume of water, where they immediately begin to drown. PCs\ncan pull their comrades from the watery plume with a success-\nful unarmed attack roll against the snake’s AC, followed by a\nDC 14 Strength check. Otherwise, trapped PCs can only try to\nswim free of the serpent (Strength check, DC 18).\nIf  the  PCs  retreat  into  the  tomb,  the  serpent  washes  in  after\nthem. Trapped within the tight, closed corridor, the PCs must\neither outrun the wave or succeed on a DC 15 Fort save; those\nthat fail the save are washed into the pit in area C-3.",
+    "labels": [],
+    "text_bytes": 2039,
+    "keyed_area": "C-1",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
     "unit_id": "p10.serpent-spirit",
     "heading": "Serpent Spirit:",
+    "pages": [
+      10
+    ],
+    "column": 1,
+    "text": "Serpent Spirit:\nInit +3; Atk slam +3 melee (1d5); AC 14; HD\n4d8; hp 24; MV 40’; Act 1d20; SP engulf and drown, vulnerable\nto fire and heat, elemental traits; SV Fort +2, Ref +2, Will +4;\nAL N.",
+    "labels": [],
+    "text_bytes": 194,
+    "keyed_area": null,
+    "style": {
+      "size": 14.0,
+      "family": "BookAntiqua",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p10.area-c-2-stone-passage",
+    "heading": "Area C-2 – Stone Passage:",
+    "pages": [
+      10
+    ],
+    "column": 1,
+    "text": "Area C-2 – Stone Passage:\nThe dark, narrow passage is sup-\nported by walls of stone slabs. The low ceiling is made of similar\nslabs, each inscribed with dense spirals. The air is still and cool, and\npuddles of water have pooled on the hard-packed earthen floor.\nJudges should note that descriptions of the area should differ\nradically if the PCs are being swept down the passage at the\nhead of an animated wave.\nClose inspection of the floor reveals faint tracks. Strangely, the\ntracks originate from inside the tomb. If the PCs are careful not\nto disturb the site, trackers easily determine that whatever was\ntrapped inside the tomb was trying to claw its way out.",
+    "labels": [],
+    "text_bytes": 667,
+    "keyed_area": "C-2",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p10.area-c-3-pit-chamber",
+    "heading": "Area C-3 – Pit Chamber:",
+    "pages": [
+      10
+    ],
+    "column": 1,
+    "text": "Area C-3 – Pit Chamber:\nThe corridor opens to a wider, low-\nceilinged chamber. The stone slab floor slopes down steeply from all\nfour walls, falling away into a dark pit in the center of the chamber.\nThe air is cool and the walls glimmer with condensation.\nThis chamber presents little danger to cautious PCs. To those\nexercising  less  care  (or  attempting  to  outrun  an  animated\nwave), the encounter area can take a far more dangerous turn.\nThe steeply angled floor of the chamber is slick with slime fed\nby the condensation dripping along the walls. PCs attempting\nto stand on the slanted floor must succeed on a DC 18 Ref save\nor fall, sliding down to the mouth of the pit. Heroes have but\na single chance (Ref save, DC 15) to catch themselves at the\nmouth of the pit; those failing the saving throw plummet into\ndarkness, falling into area C-4. Even if a PC manages to arrest\nhis fall, the walls of the pit are very difficult to climb (DC 23).",
+    "labels": [],
+    "text_bytes": 954,
+    "keyed_area": "C-3",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p10.area-c-4-bronze-fangs",
+    "heading": "Area C-4 – Bronze Fangs:",
     "pages": [
       10,
       11
     ],
     "column": 1,
-    "text": "Serpent Spirit:\nInit +3; Atk slam +3 melee (1d5); AC 14; HD\n4d8; hp 24; MV 40’; Act 1d20; SP engulf and drown, vulnerable\nto fire and heat, elemental traits; SV Fort +2, Ref +2, Will +4;\nAL N.\nArea C-2 – Stone Passage:  The dark, narrow passage is sup-\nported by walls of stone slabs. The low ceiling is made of similar\nslabs, each inscribed with dense spirals. The air is still and cool, and\npuddles of water have pooled on the hard-packed earthen floor.\nJudges should note that descriptions of the area should differ\nradically if the PCs are being swept down the passage at the\nhead of an animated wave.\nClose inspection of the floor reveals faint tracks. Strangely, the\ntracks originate from inside the tomb. If the PCs are careful not\nto disturb the site, trackers easily determine that whatever was\ntrapped inside the tomb was trying to claw its way out.\nArea C-3 – Pit Chamber:  The corridor opens to a wider, low-\nceilinged chamber. The stone slab floor slopes down steeply from all\nfour walls, falling away into a dark pit in the center of the chamber.\nThe air is cool and the walls glimmer with condensation.\nThis chamber presents little danger to cautious PCs. To those\nexercising  less  care  (or  attempting  to  outrun  an  animated\nwave), the encounter area can take a far more dangerous turn.\nThe steeply angled floor of the chamber is slick with slime fed\nby the condensation dripping along the walls. PCs attempting\nto stand on the slanted floor must succeed on a DC 18 Ref save\nor fall, sliding down to the mouth of the pit. Heroes have but\na single chance (Ref save, DC 15) to catch themselves at the\nmouth of the pit; those failing the saving throw plummet into\ndarkness, falling into area C-4. Even if a PC manages to arrest\nhis fall, the walls of the pit are very difficult to climb (DC 23).\nArea C-4 – Bronze Fangs: The floor of the circular chamber is\nconcave, forming a shallow depression. The ceiling, walls, and floor\nof the chamber are all covered in slick, black algae and slime. Above, a\nhole is bored into the arched ceiling. Directly beneath the hole a score\nof hammered bronze longspears are set into the floor.\nPCs falling from area C-3 crash into the upright spears, tak-\ning  1d12  damage.  The  second  PC  falling  through  the  pit  is\npermitted a DC 18 Ref save to land on his companion’s body\nand roll to the floor—avoiding damage but inflicting 1d6 ad-\nditional damage on his impaled companion. The Ref save DC\nis reduced by 3 for every additional PC impaled on the spears.\nPage 10\nThe spears are made entirely of bronze, limiting their utility\nin battle. Desperate PCs can snap free a spear (Strength check,\nDC 15), but the heavy weapon imposes a -2 penalty to initia-\ntive checks and takes a -1 penalty to damage due to its blunt-\nness.\nA close inspection of the floor reveals a pool of dried blood,\nbloody tracks leading to area C-5, and a pair of bloody dag-\ngers. Hirot’s three would-be tomb robbers—Ilham, Stein, and\nKej—had a falling out over how to divide their yet-undiscov-\nered  treasure.  In  the  argument  that  followed,  all  three  sus-\ntained mortal wounds and crawled off to die. Each rose again\nas a tomb ghoul, forced to defend the tomb of the Ulfheonar\nfor all time.\nIf  any  PC  sustains  damage  in  this  chamber,  the  smell  of  his\nblood draws the ghouls from area C-5 in 1d5+3 rounds.\nArea C-5 – Catacomb of the Cave Bear:  The worn stone\nsteps descend into a circular cave walled by tall stone slabs inscribed\nwith dark runes. In the center of the chamber is a collection of stones\ntopped by a slab resembling a table or altar. Atop the slab is the skull\nof an enormous bear.\nThis chamber was used to inter the remains of Warriors of the\nCave Bear, fierce berserkers sworn to the defense of their clans.\nNow two tomb ghouls lurk here.\nThe runes on the wall slabs are carved in the likeness of mas-\nsive cave bears and of warriors donning the skulls and pelts of\nthe bears. The bears and the bear-warriors are shown trium-\nphantly battling dozens of foes.\nThe altar-table in the center of the chamber is actually a stone\nchest. Removing the top slab (Strength check, DC 15) reveals\na dozen human skulls placed atop the hide and the skull of\nan enormous cave bear. Leather thongs are sewn into the hide\npermitting it to be worn as a hide cloak, with the fanged skull\nserving as a crude helm.",
+    "text": "Area C-4 – Bronze Fangs:\nThe floor of the circular chamber is\nconcave, forming a shallow depression. The ceiling, walls, and floor\nof the chamber are all covered in slick, black algae and slime. Above, a\nhole is bored into the arched ceiling. Directly beneath the hole a score\nof hammered bronze longspears are set into the floor.\nPCs falling from area C-3 crash into the upright spears, tak-\ning  1d12  damage.  The  second  PC  falling  through  the  pit  is\npermitted a DC 18 Ref save to land on his companion’s body\nand roll to the floor—avoiding damage but inflicting 1d6 ad-\nditional damage on his impaled companion. The Ref save DC\nis reduced by 3 for every additional PC impaled on the spears.\nPage 10\nThe spears are made entirely of bronze, limiting their utility\nin battle. Desperate PCs can snap free a spear (Strength check,\nDC 15), but the heavy weapon imposes a -2 penalty to initia-\ntive checks and takes a -1 penalty to damage due to its blunt-\nness.\nA close inspection of the floor reveals a pool of dried blood,\nbloody tracks leading to area C-5, and a pair of bloody dag-\ngers. Hirot’s three would-be tomb robbers—Ilham, Stein, and\nKej—had a falling out over how to divide their yet-undiscov-\nered  treasure.  In  the  argument  that  followed,  all  three  sus-\ntained mortal wounds and crawled off to die. Each rose again\nas a tomb ghoul, forced to defend the tomb of the Ulfheonar\nfor all time.\nIf  any  PC  sustains  damage  in  this  chamber,  the  smell  of  his\nblood draws the ghouls from area C-5 in 1d5+3 rounds.",
     "labels": [],
-    "text_bytes": 4381,
-    "keyed_area": null,
+    "text_bytes": 1553,
+    "keyed_area": "C-4",
     "style": {
       "size": 14.0,
-      "family": "BookAntiqua",
+      "family": "CooperBlack",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p11.area-c-5-catacomb-of-the-cave-be",
+    "heading": "Area C-5 – Catacomb of the Cave Bear:",
+    "pages": [
+      11
+    ],
+    "column": 0,
+    "text": "Area C-5 – Catacomb of the Cave Bear:\nThe worn stone\nsteps descend into a circular cave walled by tall stone slabs inscribed\nwith dark runes. In the center of the chamber is a collection of stones\ntopped by a slab resembling a table or altar. Atop the slab is the skull\nof an enormous bear.\nThis chamber was used to inter the remains of Warriors of the\nCave Bear, fierce berserkers sworn to the defense of their clans.\nNow two tomb ghouls lurk here.\nThe runes on the wall slabs are carved in the likeness of mas-\nsive cave bears and of warriors donning the skulls and pelts of\nthe bears. The bears and the bear-warriors are shown trium-\nphantly battling dozens of foes.\nThe altar-table in the center of the chamber is actually a stone\nchest. Removing the top slab (Strength check, DC 15) reveals\na dozen human skulls placed atop the hide and the skull of\nan enormous cave bear. Leather thongs are sewn into the hide\npermitting it to be worn as a hide cloak, with the fanged skull\nserving as a crude helm.",
+    "labels": [],
+    "text_bytes": 1006,
+    "keyed_area": "C-5",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
       "bold": true,
       "color": "#000000"
     }
@@ -875,17 +1037,53 @@
     "unit_id": "p11.ghoul-serpent-1-ghoul",
     "heading": "Ghoul Serpent (1/ghoul):",
     "pages": [
-      11,
-      12
+      11
     ],
     "column": 1,
-    "text": "Ghoul Serpent (1/ghoul):\nInit +3; Atk bite +4 melee (1d6 + ne-\ncrosis); AC 14; HD 3d6; hp 10; MV 45’; Act 2d20; SP un-dead\ntraits, darkvision 100’; SV Fort +1, Ref +1, Will +1; AL C.\nArea C-6 – Catacomb of the Cave Lion: This chamber has\npartially collapsed: tall stone slabs that once supported the ceiling are\nnow canted inward by the weight of the earth above and fallen debris\nis piled in the center of the room. The floor has fallen away in the far\ncorner, and it seems as if the entire chamber could collapse with the\nslightest disturbance.\nJudges should adjust the point of view accordingly if the PCs\nenter through the cleft, from area C.\nThis  chamber  houses  the  remains  of  the  warrior  cult  of  the\nCave  Lion,  but  the  relics  are  buried  under  several  hundred\npounds of rock. If determined PCs exhume the rubble, they\nuncover  a  chest  composed  of  four  stone  slabs,  topped  by  a\nfifth.\nWithin the chest, a dozen human skulls rest atop a hammered\nbronze shield. The shield is embossed with the stylized image\nof a lion’s head. The  +2 lion shield  grants the bearer +2 to Will\nsaves, while imposing a -2 penalty to morale checks made by\nfoes of 5 HD or less. If the bearer is struck by a critical hit, he\ncan opt to sacrifice the shield in order to take no damage from\nthe attack. Finally, the Hound of Hirot must succeed on a DC\n15 Will check in order to attack the shield’s bearer.\nArea C-7 – Antechamber of the Savage King:  Tall slabs of\nstone support the high ceiling here. Three long steps descend to the\nfloor of the antechamber. Two hammered bronze braziers rest before\na towering stone door at the end of the chamber. The door is carved\nwith hundreds of spiraling runes, spinning into infinity. Inscribed\nabove the portal is the image of an enormous wolf being crushed to\ndeath by a giant snake.\nThe floor is covered by what appears to be thousands of thin, translu-\ncent strips of vellum. To your horror, you realize the crackling dried\nstrips are the discarded skins of an untold number of serpents!\nThough perhaps disconcerting, the snakeskins covering the\nfloor pose no threat to the PCs. Similarly, the portal poses no\ndanger, save for the most bull-headed and violent of explorers.\nDwarves, stonemasons, and sages knowledgeable in the ways\nof ancient builders rightly suspect that the portal was set in\nPage 11\nthe ground and then weighted from above, effectively sealing\nthe passage for all of eternity. The slab cannot be moved by\nmere mortal strength, but if it is somehow destroyed, the ceil-\ning rains down several tons of stone and earth (Ref save, DC\n20, or 5d20 damage).\nA casual inspection of the chamber floor reveals a handful of\ntwigs and short branches along the seam where the south wall\nmeets the floor. All are ancient and crumble at a touch. PCs\nstudying the southern wall discover small holes bored into the\nwall (anchors for a ladder) that were filled in by the original\nbuilders with clay mortar. A narrow 2-foot seam can be seen\nabove the entrance to the chamber.\nThe rough stone wall is readily scaled (climbing, DC 5). There,\nPCs discover a narrow crawlspace hidden above the stone\nlintel above the entrance. Should the adventurers light oil or\ncharcoal in the braziers (perhaps in hopes of moving the stone\nportal by some ancient ritual) make a secret Luck check (DC\n15) for each PC in the chamber. On a successful throw, a PC no-\ntices that smoke from the fire doesn’t build up in the chamber\nbut escapes through the hidden crawlspace above the entrance\nto the chamber.\nArea C-8 – Crawlspace:  The narrow crawlspace wends into\ndarkness. The small passage is only 2 feet in height and width, with a\nrough stone floor and a ceiling built of branches and roots.\nThe hidden passage provides scarcely enough room for PCs\nto crawl. Indeed, large humans will need to remove any bulky\nmetal  armor  before  proceeding  down  the  passage.  Back-\npacks  and  large  sacks  will  need  to  be  pushed  ahead  of  PCs\nor dragged behind, all in all making the traverse of the crawl-\nspace an onerous one.\nThus distracted, PCs are unlikely to notice a second passage\nabove\nthe crawlspace, crudely disguised behind the same loose\nweave of sticks and roots that make up the passage’s ceiling.\nThe passage—a chimney extending 6 feet up to area C-10—is\neasily detected if the PCs probe the woven mats above them.\nThe third ghoul, Ilham, waits in the chimney above, dropping\ndown on PCs if they discover the secret passage. Weapons lon-\nger than a shortsword are useless in the crawlspace, but the\nsnarling ghoul, armed with dirt-caked fangs and claws, suffers\nno such penalties.\nOtherwise, the ghoul waits for the PCs to pass, then parts the\nbranches and silently crawls after the PCs to attack from be-\nhind.\nUnlike the ghouls in area C-5, this ghoul has nearly completed\nits molting. The serpent’s fanged maw bursts from the ghoul’s\nbelly at the start of combat. The serpent remains in the ghoul’s\nrotting husk until the ghoul is slain, receiving a +3 bonus to\nAC thanks to its ghoulish “armor.”",
+    "text": "Ghoul Serpent (1/ghoul):\nInit +3; Atk bite +4 melee (1d6 + ne-\ncrosis); AC 14; HD 3d6; hp 10; MV 45’; Act 2d20; SP un-dead\ntraits, darkvision 100’; SV Fort +1, Ref +1, Will +1; AL C.",
     "labels": [],
-    "text_bytes": 5082,
+    "text_bytes": 186,
     "keyed_area": null,
     "style": {
       "size": 14.0,
       "family": "BookAntiqua",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p11.area-c-6-catacomb-of-the-cave-li",
+    "heading": "Area C-6 – Catacomb of the Cave Lion:",
+    "pages": [
+      11,
+      12
+    ],
+    "column": 1,
+    "text": "Area C-6 – Catacomb of the Cave Lion:\nThis chamber has\npartially collapsed: tall stone slabs that once supported the ceiling are\nnow canted inward by the weight of the earth above and fallen debris\nis piled in the center of the room. The floor has fallen away in the far\ncorner, and it seems as if the entire chamber could collapse with the\nslightest disturbance.\nJudges should adjust the point of view accordingly if the PCs\nenter through the cleft, from area C.\nThis  chamber  houses  the  remains  of  the  warrior  cult  of  the\nCave  Lion,  but  the  relics  are  buried  under  several  hundred\npounds of rock. If determined PCs exhume the rubble, they\nuncover  a  chest  composed  of  four  stone  slabs,  topped  by  a\nfifth.\nWithin the chest, a dozen human skulls rest atop a hammered\nbronze shield. The shield is embossed with the stylized image\nof a lion’s head. The  +2 lion shield  grants the bearer +2 to Will\nsaves, while imposing a -2 penalty to morale checks made by\nfoes of 5 HD or less. If the bearer is struck by a critical hit, he\ncan opt to sacrifice the shield in order to take no damage from\nthe attack. Finally, the Hound of Hirot must succeed on a DC\n15 Will check in order to attack the shield’s bearer.\nArea C-7 – Antechamber of the Savage King:  Tall slabs of\nstone support the high ceiling here. Three long steps descend to the\nfloor of the antechamber. Two hammered bronze braziers rest before\na towering stone door at the end of the chamber. The door is carved\nwith hundreds of spiraling runes, spinning into infinity. Inscribed\nabove the portal is the image of an enormous wolf being crushed to\ndeath by a giant snake.\nThe floor is covered by what appears to be thousands of thin, translu-\ncent strips of vellum. To your horror, you realize the crackling dried\nstrips are the discarded skins of an untold number of serpents!\nThough perhaps disconcerting, the snakeskins covering the\nfloor pose no threat to the PCs. Similarly, the portal poses no\ndanger, save for the most bull-headed and violent of explorers.\nDwarves, stonemasons, and sages knowledgeable in the ways\nof ancient builders rightly suspect that the portal was set in\nPage 11\nthe ground and then weighted from above, effectively sealing\nthe passage for all of eternity. The slab cannot be moved by\nmere mortal strength, but if it is somehow destroyed, the ceil-\ning rains down several tons of stone and earth (Ref save, DC\n20, or 5d20 damage).\nA casual inspection of the chamber floor reveals a handful of\ntwigs and short branches along the seam where the south wall\nmeets the floor. All are ancient and crumble at a touch. PCs\nstudying the southern wall discover small holes bored into the\nwall (anchors for a ladder) that were filled in by the original\nbuilders with clay mortar. A narrow 2-foot seam can be seen\nabove the entrance to the chamber.\nThe rough stone wall is readily scaled (climbing, DC 5). There,\nPCs discover a narrow crawlspace hidden above the stone\nlintel above the entrance. Should the adventurers light oil or\ncharcoal in the braziers (perhaps in hopes of moving the stone\nportal by some ancient ritual) make a secret Luck check (DC\n15) for each PC in the chamber. On a successful throw, a PC no-\ntices that smoke from the fire doesn’t build up in the chamber\nbut escapes through the hidden crawlspace above the entrance\nto the chamber.",
+    "labels": [],
+    "text_bytes": 3366,
+    "keyed_area": "C-6",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p12.area-c-8-crawlspace",
+    "heading": "Area C-8 – Crawlspace:",
+    "pages": [
+      12
+    ],
+    "column": 0,
+    "text": "Area C-8 – Crawlspace:\nThe narrow crawlspace wends into\ndarkness. The small passage is only 2 feet in height and width, with a\nrough stone floor and a ceiling built of branches and roots.\nThe hidden passage provides scarcely enough room for PCs\nto crawl. Indeed, large humans will need to remove any bulky\nmetal  armor  before  proceeding  down  the  passage.  Back-\npacks  and  large  sacks  will  need  to  be  pushed  ahead  of  PCs\nor dragged behind, all in all making the traverse of the crawl-\nspace an onerous one.\nThus distracted, PCs are unlikely to notice a second passage\nabove  the crawlspace, crudely disguised behind the same loose\nweave of sticks and roots that make up the passage’s ceiling.\nThe passage—a chimney extending 6 feet up to area C-10—is\neasily detected if the PCs probe the woven mats above them.\nThe third ghoul, Ilham, waits in the chimney above, dropping\ndown on PCs if they discover the secret passage. Weapons lon-\nger than a shortsword are useless in the crawlspace, but the\nsnarling ghoul, armed with dirt-caked fangs and claws, suffers\nno such penalties.\nOtherwise, the ghoul waits for the PCs to pass, then parts the\nbranches and silently crawls after the PCs to attack from be-\nhind.\nUnlike the ghouls in area C-5, this ghoul has nearly completed\nits molting. The serpent’s fanged maw bursts from the ghoul’s\nbelly at the start of combat. The serpent remains in the ghoul’s\nrotting husk until the ghoul is slain, receiving a +3 bonus to\nAC thanks to its ghoulish “armor.”",
+    "labels": [],
+    "text_bytes": 1528,
+    "keyed_area": "C-8",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
       "bold": true,
       "color": "#000000"
     }
@@ -915,13 +1113,31 @@
       12
     ],
     "column": 0,
-    "text": "Ghoul Serpent:\nInit +3; Atk bite +4 melee (1d6 + necrosis); AC\n14; HD 3d6; hp 15; MV 45’; Act 2d20; SP un-dead traits, darkvi-\nsion 100’; SV Fort +1, Ref +1, Will +1; AL C.\nArea C-9 – False Tomb:  The narrow crawlspace opens into a\nhigh vaulted chamber, resembling the interior of a great hall. In the\ncenter of the chamber is a column, rising to the ceiling. The column\nis decorated with dozens of stylized carvings depicting the deaths of\nwolves. The column itself seems to be made of alternating sections of\nstone and wood. Hung from the column like trophies, some 20 feet\nabove the floor, is a long wolf-spear and a bronze shield.\nThis  chamber  was  designed  to  foil  any  would-be  tomb  rob-\nbers.  Ilham,  Stein,  and  Kej  fell  to  infighting  and  the  tomb’s\ncurse  long  before  they  discovered  the  false  tomb;  thus,  the\nchamber remains largely undisturbed.\nThe column is the trigger to a trap of horrific proportions. A ca-\nsual inspection of the column reveals that the sections of wood\nand stone are arranged like an elaborate puzzle, each resting\nupon the next. The constant pressure from above has slowed\nbut not halted, the wood’s rot.\nDisturbing the column or the spear and shield causes the col-\numn to collapse, stone and wood puzzle pieces splitting apart\nand  crashing  to  the  ground,  triggering  a  cascading  series  of\neffects. Call for an initiative roll, applying the following effects\non the corresponding descending initiative count until all the\nPCs are dead or have escaped the chamber.",
+    "text": "Ghoul Serpent:\nInit +3; Atk bite +4 melee (1d6 + necrosis); AC\n14; HD 3d6; hp 15; MV 45’; Act 2d20; SP un-dead traits, darkvi-\nsion 100’; SV Fort +1, Ref +1, Will +1; AL C.",
     "labels": [],
-    "text_bytes": 1540,
+    "text_bytes": 176,
     "keyed_area": null,
     "style": {
       "size": 14.0,
       "family": "BookAntiqua",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p12.area-c-9-false-tomb",
+    "heading": "Area C-9 – False Tomb:",
+    "pages": [
+      12
+    ],
+    "column": 1,
+    "text": "Area C-9 – False Tomb:\nThe narrow crawlspace opens into a\nhigh vaulted chamber, resembling the interior of a great hall. In the\ncenter of the chamber is a column, rising to the ceiling. The column\nis decorated with dozens of stylized carvings depicting the deaths of\nwolves. The column itself seems to be made of alternating sections of\nstone and wood. Hung from the column like trophies, some 20 feet\nabove the floor, is a long wolf-spear and a bronze shield.\nThis  chamber  was  designed  to  foil  any  would-be  tomb  rob-\nbers.  Ilham,  Stein,  and  Kej  fell  to  infighting  and  the  tomb’s\ncurse  long  before  they  discovered  the  false  tomb;  thus,  the\nchamber remains largely undisturbed.\nThe column is the trigger to a trap of horrific proportions. A ca-\nsual inspection of the column reveals that the sections of wood\nand stone are arranged like an elaborate puzzle, each resting\nupon the next. The constant pressure from above has slowed\nbut not halted, the wood’s rot.\nDisturbing the column or the spear and shield causes the col-\numn to collapse, stone and wood puzzle pieces splitting apart\nand  crashing  to  the  ground,  triggering  a  cascading  series  of\neffects. Call for an initiative roll, applying the following effects\non the corresponding descending initiative count until all the\nPCs are dead or have escaped the chamber.",
+    "labels": [],
+    "text_bytes": 1362,
+    "keyed_area": "C-9",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
       "bold": true,
       "color": "#000000"
     }
@@ -934,7 +1150,7 @@
       13
     ],
     "column": 1,
-    "text": "Initiative Count: Trap Action\n20: Stone and wood column pieces rain down from above; DC\n10 Ref save or 1d6 damage.\n15: A massive slab crashes down from above; DC 5 Ref save or\n2d6 damage.\n10: Rubble falls from above, striking all in the chamber for 1d4\ndamage. PCs must attempt a DC 10 Fort save or lose 1d7 from\ntheir initiative count.\n5:  A  stone  slab  falls  from  the  ceiling,  sealing  the  chamber.\n(Characters with remaining actions can attempt to temporar-\nily hoist the massive slab with a DC 20 Strength check.)\n1: Several tons of stone and earth collapse into the chamber, fill-\ning the false tomb with rubble and killing anyone remaining.\nPage 12\nThe spear and sword, though not magical, are masterworks\nof antiquity. They can either be sold in a major city for 150 gp\nor laid with enchantments by a sufficiently powerful sorcerer.\nArea C-10 – Tomb of the Ulfheonar:  Braced by your com-\npanions, you ascend through the chimney, and into the small vaulted\nchamber. A skeleton, garbed in crumbling hides and a rusted ring-\nmail hauberk sits atop a throne of stone. A long wolf-spear lays atop\na hide on the skeleton’s lap, glimmering faintly in the darkness, and\na polished drinking horn hangs from the throne’s stone arm.\nThis humble chamber is the final resting place of the savage\nwarlord known to legend as the Ulfheonar. Adventurers that\nhave made it this far have nothing to fear—the tomb is neither\ntrapped nor cursed, the spirit of the warlord having long since\ngone to its reward.\nUlfheonar’s wolf-spear\n, better known simply by its master’s\nname, is a magical weapon with a +1 bonus to hit and damage.\nThe weapon also grants its bearer a +1 to initiative rolls. On a\nsuccessful hit the wielder can use the  cross bars mounted be-\nlow the spearhead to pin a creature, reducing the target’s AC\nby the wielder’s Strength bonus. By sacrificing his actions in\na given round, the wielder can maintain the pin on the target\nwith a successful contested Strength check. With the spear, he-\nroes can even pin magical creatures, preventing them from as-\nsuming gaseous form, teleporting, stepping to another plane,\nand so on. This last ability is crucial in defeating the Hound of\nHirot (see the hound’s description in the introduction, above).\nThe wolf-spear rests atop the pelt of an enormous silver wolf.\nWorthy of a king, the pelt has somehow resisted rot despite\nthe passage of centuries and will fetch up to 250 gp if sold in\na large city.\nAnyone drinking from the  Horn of Kings  immediately appre-\nhends  its  powers.  The  horn  glows  faintly  in  the  presence  of\npoisoned meat or drink. Thrice per week, drinking from the\nhorn grants +4 to a Fort save against poisons; thrice per month,\ndrinking from the horn heals the drinker 1d12 hp/level; once,\nand only once, drinking from the horn grants the imbiber a\nDC 10 Fort save to return from death. When this final power is\nused, the horn shatters, losing all its powers forever.",
+    "text": "Initiative Count: Trap Action\n20: Stone and wood column pieces rain down from above; DC\n10 Ref save or 1d6 damage.\n15: A massive slab crashes down from above; DC 5 Ref save or\n2d6 damage.\n10: Rubble falls from above, striking all in the chamber for 1d4\ndamage. PCs must attempt a DC 10 Fort save or lose 1d7 from\ntheir initiative count.\n5:  A  stone  slab  falls  from  the  ceiling,  sealing  the  chamber.\n(Characters with remaining actions can attempt to temporar-\nily hoist the massive slab with a DC 20 Strength check.)\n1: Several tons of stone and earth collapse into the chamber, fill-\ning the false tomb with rubble and killing anyone remaining.\nPage 12\nThe spear and sword, though not magical, are masterworks\nof antiquity. They can either be sold in a major city for 150 gp\nor laid with enchantments by a sufficiently powerful sorcerer.\nArea C-10 – Tomb of the Ulfheonar:  Braced by your com-\npanions, you ascend through the chimney, and into the small vaulted\nchamber. A skeleton, garbed in crumbling hides and a rusted ring-\nmail hauberk sits atop a throne of stone. A long wolf-spear lays atop\na hide on the skeleton’s lap, glimmering faintly in the darkness, and\na polished drinking horn hangs from the throne’s stone arm.\nThis humble chamber is the final resting place of the savage\nwarlord known to legend as the Ulfheonar. Adventurers that\nhave made it this far have nothing to fear—the tomb is neither\ntrapped nor cursed, the spirit of the warlord having long since\ngone to its reward.\nUlfheonar’s wolf-spear , better known simply by its master’s\nname, is a magical weapon with a +1 bonus to hit and damage.\nThe weapon also grants its bearer a +1 to initiative rolls. On a\nsuccessful hit the wielder can use the  cross bars mounted be-\nlow the spearhead to pin a creature, reducing the target’s AC\nby the wielder’s Strength bonus. By sacrificing his actions in\na given round, the wielder can maintain the pin on the target\nwith a successful contested Strength check. With the spear, he-\nroes can even pin magical creatures, preventing them from as-\nsuming gaseous form, teleporting, stepping to another plane,\nand so on. This last ability is crucial in defeating the Hound of\nHirot (see the hound’s description in the introduction, above).\nThe wolf-spear rests atop the pelt of an enormous silver wolf.\nWorthy of a king, the pelt has somehow resisted rot despite\nthe passage of centuries and will fetch up to 250 gp if sold in\na large city.\nAnyone drinking from the  Horn of Kings  immediately appre-\nhends  its  powers.  The  horn  glows  faintly  in  the  presence  of\npoisoned meat or drink. Thrice per week, drinking from the\nhorn grants +4 to a Fort save against poisons; thrice per month,\ndrinking from the horn heals the drinker 1d12 hp/level; once,\nand only once, drinking from the horn grants the imbiber a\nDC 10 Fort save to return from death. When this final power is\nused, the horn shatters, losing all its powers forever.",
     "labels": [],
     "text_bytes": 2970,
     "keyed_area": null,
@@ -985,17 +1201,35 @@
     "unit_id": "p13.huntsmen-5",
     "heading": "Huntsmen  (5):",
     "pages": [
-      13,
-      14
+      13
     ],
     "column": 1,
-    "text": "Huntsmen  (5):\nInit  +2; Atk  shortsword  +2  melee  (1d6+1)  or\nshortbow +3 missile fire (1d6); AC 15; HD 1d8; hp 5; MV 20’;\nAct 1d20; SV Fort +2, Ref +2, Will +0; AL C.\nArea D – The Sunken Fens:  The high marshy moors give way\nto a strange, sunken land. Tangles of brown briars and withered oaks\ntake the place of the marsh grasses and tall pines. Foul black mud\nsucks at your boots with every step. The formerly chill air is warmer\nhere, like the breath of a great beast exhaling rot upon the land.\nThe  spirit  of  the  hound  hangs  heavy  on  the  fens.  The  only\nnoise is the burble of sulfurous hot springs and the clatter of\ndead branches in the baleful wind.\nThe fens are dangerous to travelers. There are no established\npaths or game trails, and a heavy mist hangs over the land,\nday and night, making route-finding difficult at best.\nFew creatures make their home in the fens, but all present a\nthreat to the PCs. For every hour spent traveling the fens, the\ncharacters risk a random encounter. Roll 1d5; on a 4 or better\nthe PCs suffer an encounter.\nIf an encounter is indicated, choose or roll 1d7 on the table be-\nlow. Judges should use the random encounters to reinforce the\nalien nature of the fens, a constant reminder that the PCs have\nno place here. If encounters threaten to bog down the tempo\nof the game, judges should ignore the rolls and get to the meat\nof the adventure.\n1  Lost!  The PCs realize to their horror that they have lost\nall sense of direction in the gray mists. Fortunately for the\nPCs, they need only seek out the heart of the sunken land:\nthe oily slicks of water run downhill to the heart of the\nswamp, the lair of the Hound. Returning, though, at the\njudge’s discretion can prove far more difficult.\n2  Choking  Miasma .  The  oozing  ground  belches  forth  a\ncloud of stinking gas that washes over the PCs. All char-\nacters caught within the cloud must attempt a DC 5 Fort\nsave or sink to their knees, asphyxiating within the cloud.\nPCs  take  1d6  points  of  Stamina  damage  per  round  and\nfall  unconscious  when  Stamina  reaches  0;  unconscious\ncharacters take 1d3 damage per round. All lost Stamina\nis restored immediately when the victim is removed from\nthe cloud. The cloud passes in 1d5 rounds.\n3  Sinkhole.  The ground opens up beneath the party! Each\ncharacter must attempt a DC 5 Ref save or slip into the\nslimy darkness some 15 feet below. Characters have only\n1d5+2 rounds to rescue those caught by the sinkhole be-\nfore the muddy earth closes in around the victims, bury-\ning them forever.\n4  Tindalos Vines . 1d3 semi-sentient vines lash out at ran-\ndom PCs, attempting to haul their victims beneath the\nmurky swamp waters. A PC can escape a vine’s grip with\nPage 13\na DC 15 Strength check or by severing the vine (by inflict-\ning 6 or more points of damage with a single strike).",
+    "text": "Huntsmen  (5):\nInit  +2; Atk  shortsword  +2  melee  (1d6+1)  or\nshortbow +3 missile fire (1d6); AC 15; HD 1d8; hp 5; MV 20’;\nAct 1d20; SV Fort +2, Ref +2, Will +0; AL C.",
     "labels": [],
-    "text_bytes": 2853,
+    "text_bytes": 172,
     "keyed_area": null,
     "style": {
       "size": 14.0,
       "family": "BookAntiqua",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p13.area-d-the-sunken-fens",
+    "heading": "Area D – The Sunken Fens:",
+    "pages": [
+      13,
+      14
+    ],
+    "column": 1,
+    "text": "Area D – The Sunken Fens:\nThe high marshy moors give way\nto a strange, sunken land. Tangles of brown briars and withered oaks\ntake the place of the marsh grasses and tall pines. Foul black mud\nsucks at your boots with every step. The formerly chill air is warmer\nhere, like the breath of a great beast exhaling rot upon the land.\nThe  spirit  of  the  hound  hangs  heavy  on  the  fens.  The  only\nnoise is the burble of sulfurous hot springs and the clatter of\ndead branches in the baleful wind.\nThe fens are dangerous to travelers. There are no established\npaths or game trails, and a heavy mist hangs over the land,\nday and night, making route-finding difficult at best.\nFew creatures make their home in the fens, but all present a\nthreat to the PCs. For every hour spent traveling the fens, the\ncharacters risk a random encounter. Roll 1d5; on a 4 or better\nthe PCs suffer an encounter.\nIf an encounter is indicated, choose or roll 1d7 on the table be-\nlow. Judges should use the random encounters to reinforce the\nalien nature of the fens, a constant reminder that the PCs have\nno place here. If encounters threaten to bog down the tempo\nof the game, judges should ignore the rolls and get to the meat\nof the adventure.\n1  Lost!  The PCs realize to their horror that they have lost\nall sense of direction in the gray mists. Fortunately for the\nPCs, they need only seek out the heart of the sunken land:\nthe oily slicks of water run downhill to the heart of the\nswamp, the lair of the Hound. Returning, though, at the\njudge’s discretion can prove far more difficult.\n2  Choking  Miasma .  The  oozing  ground  belches  forth  a\ncloud of stinking gas that washes over the PCs. All char-\nacters caught within the cloud must attempt a DC 5 Fort\nsave or sink to their knees, asphyxiating within the cloud.\nPCs  take  1d6  points  of  Stamina  damage  per  round  and\nfall  unconscious  when  Stamina  reaches  0;  unconscious\ncharacters take 1d3 damage per round. All lost Stamina\nis restored immediately when the victim is removed from\nthe cloud. The cloud passes in 1d5 rounds.\n3  Sinkhole.  The ground opens up beneath the party! Each\ncharacter must attempt a DC 5 Ref save or slip into the\nslimy darkness some 15 feet below. Characters have only\n1d5+2 rounds to rescue those caught by the sinkhole be-\nfore the muddy earth closes in around the victims, bury-\ning them forever.\n4  Tindalos Vines . 1d3 semi-sentient vines lash out at ran-\ndom PCs, attempting to haul their victims beneath the\nmurky swamp waters. A PC can escape a vine’s grip with\nPage 13\na DC 15 Strength check or by severing the vine (by inflict-\ning 6 or more points of damage with a single strike).",
+    "labels": [],
+    "text_bytes": 2679,
+    "keyed_area": "D",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
       "bold": true,
       "color": "#000000"
     }
@@ -1064,9 +1298,9 @@
       17
     ],
     "column": 1,
-    "text": "The Black Pool\n: Priests of all faiths are repulsed by the pool’s\nweird, otherworldly nature. Clerics meditating on the pool are\nmentally assaulted by a profound crisis of faith, and must at-\ntempt a DC 10 Will save or be stripped of all clerical abilities\nfor 1d20 days, or until they can make offerings of 100 gp or\nmore to their deities.\nElves and wizards contemplating the pool recognize it as a po-\ntential conduit of great power. After contemplating the pool\nfor 1 hour, an arcane caster is permitted a DC 20 Will save. On\na successful check, the caster harnesses a mere fraction of the\npool’s power for himself, as noted below, but on a failed save\nthe caster goes temporarily insane for 1d5 rounds, seeking to\ndrown himself the searing black pool.\nOn  a  successful  check,  a  glistening  black orb   emerges  from\nwithin the pool. At the caster’s command, the orb shrinks to\nthe size of a marble or grows as large as a crystal ball. Only\none  black orb  can exist at any given time. Employing the  black\norb\nduring spellcasting grants the caster +1 to all spell checks.\nHowever, the next time the caster rolls a natural 1 on any spell\ncheck,  in  addition  to  normal  effects  the  caster  must  also  at-\ntempt a Will save at DC 10 + spell level. On a failed check, the\ncaster dissolves into an oily black mist, only to emerge from\nthe black pool on the following eve, to become the next Hound\nof Hirot.\nPage 14\nPage 15\nPage 16",
+    "text": "The Black Pool\n: Priests of all faiths are repulsed by the pool’s\nweird, otherworldly nature. Clerics meditating on the pool are\nmentally assaulted by a profound crisis of faith, and must at-\ntempt a DC 10 Will save or be stripped of all clerical abilities\nfor 1d20 days, or until they can make offerings of 100 gp or\nmore to their deities.\nElves and wizards contemplating the pool recognize it as a po-\ntential conduit of great power. After contemplating the pool\nfor 1 hour, an arcane caster is permitted a DC 20 Will save. On\na successful check, the caster harnesses a mere fraction of the\npool’s power for himself, as noted below, but on a failed save\nthe caster goes temporarily insane for 1d5 rounds, seeking to\ndrown himself the searing black pool.\nOn  a  successful  check,  a  glistening  black orb   emerges  from\nwithin the pool. At the caster’s command, the orb shrinks to\nthe size of a marble or grows as large as a crystal ball. Only\none  black orb  can exist at any given time. Employing the  black\norb  during spellcasting grants the caster +1 to all spell checks.\nHowever, the next time the caster rolls a natural 1 on any spell\ncheck,  in  addition  to  normal  effects  the  caster  must  also  at-\ntempt a Will save at DC 10 + spell level. On a failed check, the\ncaster dissolves into an oily black mist, only to emerge from\nthe black pool on the following eve, to become the next Hound\nof Hirot.\nPage 14\nPage 15\nPage 16",
     "labels": [],
-    "text_bytes": 1445,
+    "text_bytes": 1446,
     "keyed_area": null,
     "style": {
       "size": 14.0,

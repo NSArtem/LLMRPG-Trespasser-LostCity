@@ -11,7 +11,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from bbox import BboxError  # noqa: E402
 import pdfhtml  # noqa: E402
-from pdfhtml import _normalize_runs, extract_document  # noqa: E402
+from pdfhtml import (_normalize_runs, extract_document,  # noqa: E402
+                     normalize_family)
 
 
 def doc(*pages: str) -> str:
@@ -104,6 +105,24 @@ class ExtractionTests(unittest.TestCase):
     def test_an_empty_document_fails_loudly(self) -> None:
         with self.assertRaises(BboxError):
             self._document(doc())
+
+    def test_subset_tags_are_stripped_from_font_families(self) -> None:
+        """The same face is embedded twice under different arbitrary tags."""
+        self.assertEqual(normalize_family("DHWVTZ+BookAntiqua"), "BookAntiqua")
+        self.assertEqual(normalize_family("CZMPFB+BookAntiqua"), "BookAntiqua")
+        self.assertEqual(normalize_family("BookAntiqua"), "BookAntiqua")
+
+    def test_the_same_face_in_two_subsets_is_one_style(self) -> None:
+        """Comparing tags made body runs unequal to the body style, so 17 of
+        Doom's 26 area headings never split from their paragraphs."""
+        xml = doc(
+            '<page number="1" height="1174" width="904">'
+            '<fontspec id="0" size="14" family="DHWVTZ+BookAntiqua" color="#000000"/>'
+            '<fontspec id="1" size="14" family="CZMPFB+BookAntiqua" color="#000000"/>'
+            + text("first", 0) + text("second", 1, top=200) + "</page>"
+        )
+        runs = self._document(xml).pages[0].words
+        self.assertEqual(runs[0].font.family, runs[1].font.family)
 
     def test_unknown_font_id_falls_back_rather_than_crashing(self) -> None:
         run = self._document(doc(page(text("x", font=99)))).pages[0].words[0]

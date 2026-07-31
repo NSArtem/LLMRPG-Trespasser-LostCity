@@ -51,6 +51,18 @@ from bbox import BboxError, SOURCES  # noqa: E402
 _HEX = re.compile(r"^#[0-9a-fA-F]{6}$")
 
 
+# PDF embeds subsetted fonts under an arbitrary six-letter tag: the same face
+# appears as "DHWVTZ+BookAntiqua" on one page and "CZMPFB+BookAntiqua" on the
+# next. The tag is packaging, not typography, and comparing it made identical
+# styles unequal -- which is why Doom's body style matched only some of its own
+# body runs, and 17 of its 26 area headings never split from their paragraphs.
+_SUBSET_TAG = re.compile(r"^[A-Z]{6}\+")
+
+
+def normalize_family(family: str) -> str:
+    return _SUBSET_TAG.sub("", family)
+
+
 @dataclass(frozen=True)
 class Font:
     font_id: int
@@ -217,7 +229,7 @@ def extract_document(pdf: Path) -> Document:
             fonts[identifier] = Font(
                 font_id=identifier,
                 size=_number(spec, "size"),
-                family=spec.get("family", ""),
+                family=normalize_family(spec.get("family", "")),
                 color=color if _HEX.match(color) else "#000000",
             )
         runs = []
