@@ -889,9 +889,63 @@
       8
     ],
     "column": 0,
-    "text": "Mountains\nRoom 2 ◆ 53gp, 17gp\n◆ 2 x thawing oil\n◆ Potion of healing\n◆ Potion of levitation\nRoom 3 ◆ Potion of poison\n◆ Potion of gaseous form\n◆ Rare tea leaves (100gp)\n◆ Old recipe scroll (50gp)\nRoom 6 ◆ Painting (100gp)\n◆ Elaborate silver letter\nRoom 7 opener (60gp)\n◆ Book of chess rules\n(30gp)\n◆ Spellbook\n◆ Tourmaline inkwell\nRoom 8 (500gp)\n◆ Genealogical scrolls\n(500gp)\n4",
+    "text": "Mountains",
     "labels": [],
-    "text_bytes": 405,
+    "text_bytes": 9,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "SkolarLatin",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.room-2",
+    "heading": "Room 2",
+    "pages": [
+      8
+    ],
+    "column": 0,
+    "text": "Room 2\n◆ 53gp, 17gp\n◆ 2 x thawing oil\n◆ Potion of healing\n◆ Potion of levitation",
+    "labels": [],
+    "text_bytes": 88,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "SkolarLatin",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.room-3",
+    "heading": "Room 3",
+    "pages": [
+      8
+    ],
+    "column": 0,
+    "text": "Room 3\n◆ Potion of poison\n◆ Potion of gaseous form\n◆ Rare tea leaves (100gp)\n◆ Old recipe scroll (50gp)",
+    "labels": [],
+    "text_bytes": 111,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "SkolarLatin",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.room-6",
+    "heading": "Room 6",
+    "pages": [
+      8
+    ],
+    "column": 0,
+    "text": "Room 6\n◆ Painting (100gp)\n◆ Elaborate silver letter\nRoom 7 opener (60gp)\n◆ Book of chess rules\n(30gp)\n◆ Spellbook\n◆ Tourmaline inkwell\nRoom 8 (500gp)\n◆ Genealogical scrolls\n(500gp)\n4",
+    "labels": [],
+    "text_bytes": 194,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -908,9 +962,9 @@
       9
     ],
     "column": 1,
-    "text": "Monsters\n◆ 5 Bandits\n◆ 1 Cave Bear\n◆ 1 Treant\n◆ 2d6 Wolfs\n◆ 2d3 Mountain Goat\n◆ 1 Lune Yeti\n◆ 1 Icescale Viper\n◆ 1+ Flayed Zombie\n◆ Silver ring (50gp)\n◆ Pearl earring (100gp)\n◆ Silver brooch with\namethyst (200gp)\n◆ Rare perfume (50gp)\nRoom 9 ◆ Chess horse obsidian\nstatuette (100gp)\n◆ Topaz pendant (200gp)\n◆ Silver and bronze\nnecklace (100gp)\n◆ Golden ring with a ruby\n(1000gp)\n◆ Silver pastoral staff\nRoom 12 (300gp), golden nose\n(600gp)\nRoom 14 ◆ Magic morning star\nRoom 15 ◆ Candelabra (200gp)\n◆ Polished chain mail with\na dozen aquamarines\n(1000gp)\n◆ Platinum signet ring\nRoom 16 with a mother of pearl\nhorse head seal (1000gp)\n◆ Gold and platinum tiara\n(2.000gp)\n◆ Magic dagger; jeweled\nsheath (1000gp)",
+    "text": "Monsters\n◆ 5 Bandits\n◆ 1 Cave Bear\n◆ 1 Treant\n◆ 2d6 Wolfs\n◆ 2d3 Mountain Goat\n◆ 1 Lune Yeti\n◆ 1 Icescale Viper\n◆ 1+ Flayed Zombie\n◆ Silver ring (50gp)\n◆ Pearl earring (100gp)\n◆ Silver brooch with\namethyst (200gp)\n◆ Rare perfume (50gp)",
     "labels": [],
-    "text_bytes": 754,
+    "text_bytes": 258,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -920,15 +974,87 @@
     }
   },
   {
+    "unit_id": "p9.room-9",
+    "heading": "Room 9",
+    "pages": [
+      9
+    ],
+    "column": 0,
+    "text": "Room 9\n◆ Chess horse obsidian\nstatuette (100gp)\n◆ Topaz pendant (200gp)\n◆ Silver and bronze\nnecklace (100gp)\n◆ Golden ring with a ruby\n(1000gp)\n◆ Silver pastoral staff\nRoom 12 (300gp), golden nose\n(600gp)",
+    "labels": [],
+    "text_bytes": 214,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "SkolarLatin",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p9.room-14",
+    "heading": "Room 14",
+    "pages": [
+      9
+    ],
+    "column": 0,
+    "text": "Room 14\n◆ Magic morning star",
+    "labels": [],
+    "text_bytes": 30,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "SkolarLatin",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p9.room-15",
+    "heading": "Room 15",
+    "pages": [
+      9
+    ],
+    "column": 0,
+    "text": "Room 15\n◆ Candelabra (200gp)\n◆ Polished chain mail with\na dozen aquamarines\n(1000gp)\n◆ Platinum signet ring\nRoom 16 with a mother of pearl\nhorse head seal (1000gp)\n◆ Gold and platinum tiara\n(2.000gp)\n◆ Magic dagger; jeweled\nsheath (1000gp)",
+    "labels": [],
+    "text_bytes": 249,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "SkolarLatin",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
     "unit_id": "p9.room-18",
     "heading": "Room 18",
     "pages": [
       9
     ],
     "column": 0,
-    "text": "Room 18\nRoom 19 ◆ Chalice (2.000gp)\n◆ 1 Wight\n◆ 7 Skele-\ntons\n◆ 1 Ghost\n◆ 2 Iron Living Statues\n◆ Rowan the Eternal\nKnight\n5",
+    "text": "Room 18",
     "labels": [],
-    "text_bytes": 136,
+    "text_bytes": 7,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "SkolarLatin",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p9.room-19",
+    "heading": "Room 19",
+    "pages": [
+      9
+    ],
+    "column": 0,
+    "text": "Room 19\n◆ Chalice (2.000gp)\n◆ 1 Wight\n◆ 7 Skele-\ntons\n◆ 1 Ghost\n◆ 2 Iron Living Statues\n◆ Rowan the Eternal\nKnight\n5",
+    "labels": [],
+    "text_bytes": 128,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -1034,7 +1160,7 @@
       11
     ],
     "column": 0,
-    "text": "1d12 Rumors\n◆ During the Age of Yore, the people used to burn the\n1 dead and put their ashes in urns, along with some\njewels  ( True ).\n2 ◆ The legend holds that the Water of St. Brynedd has a\ndistinctive  azure glow  ( True ).\n3 ◆ The Queens and Kings of Yore were often depicted\nriding a  chess horse  ( True ).\n4 ◆ The Fountain of St. Brynedd is located in a  secret\nenchanted garden  ( Partially true ).\n◆ A tale tells of the enchanted fountain that collects  St.\n5 Brynedd’s miraculous tears , mentioning only a few\ndrops are available at any time ( True ).\n◆ The Abbey was once protected by four powerful paladins\n6 called the  Heronguard , whose symbols were the chess\npieces of  Rook ,  Bishop ,  King  and  Queen  ( True ).\n7 ◆ The Lune Mountains used to be populated by a clan of\nsentient  living trees  ( True ).\n8 ◆ A decrepit  white dragon  lies in chains in the\nunderground recesses of Falkrest Abbey ( False ).\n9 ◆ The last abbot of the Abbey was  corrupted by chaos ,\nand caused its ruin ( True ).\n10 ◆ From time to time, bands of  graverobbers  explore the\nAbbey’s ruins looking for lost treasure ( True ).\n11 ◆ The abbey is haunted by  ghosts , and the winter gale\ncarries their lament ( Partially true ).\n12 ◆ During the strongest storms on the Lune Mountains, a\nwind demon  can be heard screaming ( False ).\n7",
+    "text": "1d12 Rumors\n◆ During the Age of Yore, the people used to burn the\n1 dead and put their ashes in urns, along with some\njewels  (\nTrue ).\n2 ◆ The legend holds that the Water of St. Brynedd has a\ndistinctive  azure glow  (\nTrue ).\n3 ◆ The Queens and Kings of Yore were often depicted\nriding a  chess horse  ( True ).\n4 ◆ The Fountain of St. Brynedd is located in a  secret\nenchanted garden  (\nPartially true ).\n◆ A tale tells of the enchanted fountain that collects  St.\n5 Brynedd’s miraculous tears , mentioning only a few\ndrops are available at any time (\nTrue ).\n◆ The Abbey was once protected by four powerful paladins\n6 called the  Heronguard , whose symbols were the chess\npieces of  Rook ,  Bishop ,  King  and  Queen  (\nTrue ).\n7 ◆ The Lune Mountains used to be populated by a clan of\nsentient  living trees  (\nTrue ).\n8 ◆ A decrepit  white dragon  lies in chains in the\nunderground recesses of Falkrest Abbey (\nFalse ).\n9 ◆ The last abbot of the Abbey was  corrupted by chaos ,\nand caused its ruin (\nTrue ).\n10 ◆ From time to time, bands of  graverobbers  explore the\nAbbey’s ruins looking for lost treasure (\nTrue ).\n11 ◆ The abbey is haunted by  ghosts , and the winter gale\ncarries their lament (\nPartially true ).\n12 ◆ During the strongest storms on the Lune Mountains, a\nwind demon  can be heard screaming (\nFalse ).\n7",
     "labels": [],
     "text_bytes": 1357,
     "keyed_area": "1",
@@ -1414,9 +1540,9 @@
       16
     ],
     "column": 0,
-    "text": "Portal 1 Entrance\nStatue Archway, wooden double door,  displaying a chess piece (a\nfallen long ago. 18 Rook, a Bishop, a Queen and a  Living Statues",
+    "text": "Portal 1 Entrance",
     "labels": [],
-    "text_bytes": 148,
+    "text_bytes": 17,
     "keyed_area": null,
     "style": {
       "size": 26.0,
@@ -1426,15 +1552,33 @@
     }
   },
   {
-    "unit_id": "p16.footprints-mud-and-snow-king",
-    "heading": "Footprints (mud and snow,  King).",
+    "unit_id": "p16.statue-archway-wooden-double-doo",
+    "heading": "Statue Archway, wooden double door,",
     "pages": [
       16
     ],
     "column": 0,
-    "text": "Footprints (mud and snow,  King).",
+    "text": "Statue Archway, wooden double door,\ndisplaying a chess piece (a\nfallen long ago. 18 Rook, a Bishop, a Queen and a  Living Statues",
     "labels": [],
-    "text_bytes": 33,
+    "text_bytes": 129,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "SkolarLatin",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p16.footprints-mud-and-snow",
+    "heading": "Footprints (mud and snow,",
+    "pages": [
+      16
+    ],
+    "column": 0,
+    "text": "Footprints (mud and snow,\nKing).",
+    "labels": [],
+    "text_bytes": 32,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -1450,9 +1594,9 @@
       16
     ],
     "column": 0,
-    "text": "humans). Frescoes on east and  S\nwest walls, under a thin layer of  ▷ Frescoes, east wall: A\nice. Lowered portcullis allows  crowned woman riding a\nto see the cloister. white chess horse, and a\n17 crowned man riding a black",
+    "text": "humans). Frescoes on east and  S\nwest walls, under a thin layer of  ▷ Frescoes, east wall: A",
     "labels": [],
-    "text_bytes": 225,
+    "text_bytes": 94,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -1462,15 +1606,51 @@
     }
   },
   {
-    "unit_id": "p16.footprints-human-sized-a-chess-h",
-    "heading": "▷ Footprints: human-sized. A  chess horse.",
+    "unit_id": "p16.ice-lowered-portcullis-allows",
+    "heading": "ice. Lowered portcullis allows",
     "pages": [
       16
     ],
     "column": 0,
-    "text": "▷ Footprints: human-sized. A  chess horse.\nsmall group. Go through the  S P\nportcullis into the cloister  P ▷ Lifting the portcullis:\n(room 2), and turn west. Requires a combined STR 22\nto lift. Unless propped open,\n▷ Frescoes, west wall: Four  P falls back down with a loud  P\npaladins in splendid vests,  S noise, alerting the Bandits in  6\nkneeling. Each has a shield  Skele-  room 9. 7",
+    "text": "ice. Lowered portcullis allows\ncrowned woman riding a\nto see the cloister. white chess horse, and a\n17 crowned man riding a black",
     "labels": [],
-    "text_bytes": 395,
+    "text_bytes": 129,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "SkolarLatin",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p16.footprints-human-sized-a",
+    "heading": "▷ Footprints: human-sized. A",
+    "pages": [
+      16
+    ],
+    "column": 0,
+    "text": "▷ Footprints: human-sized. A\nchess horse.\nsmall group. Go through the  S P\nportcullis into the cloister  P ▷ Lifting the portcullis:\n(room 2), and turn west. Requires a combined STR 22\nto lift. Unless propped open,",
+    "labels": [],
+    "text_bytes": 218,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "SkolarLatin",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p16.frescoes-west-wall-four-p",
+    "heading": "▷ Frescoes, west wall: Four  P",
+    "pages": [
+      16
+    ],
+    "column": 0,
+    "text": "▷ Frescoes, west wall: Four  P\nfalls back down with a loud  P\npaladins in splendid vests,  S noise, alerting the Bandits in  6\nkneeling. Each has a shield  Skele-  room 9. 7",
+    "labels": [],
+    "text_bytes": 175,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -1669,7 +1849,7 @@
       21
     ],
     "column": 0,
-    "text": "6 Ritual Chamber\nTorture wheel, torture table.\nSmell of blood. Shadows\nwrithe on walls. Pit full of dark\nliquid, encircled with skulls.\nArchway on north wall opens\nArea numbers into a ceiling-less area (room 17).\nPainting hung on west wall.\nMonsters\n▷ Flayed Zombies: Every turn,  Rowayn\nSecret doors if someone is in the chamber,\n2-in-6 chance of 1d4 Flayed  19\nPortal Zombies emerging from the\npit, unless the skull circle is\nStatue broken.\n18\n▷ Archway in north wall:\nDecorated with bones nailed  S\non the wall. A beautiful, sunlit\ngarden appears beyond the\narchway. A glistening purple\nmist, evaporating from the pit,  17\nveils the passage. This is a magic\nportal. Passing through leaves a  S\ntaste of blood in your mouth. P\nP\nS\nGhost Skele-  8\ntons\n16 15\n14 13\n10\nWight\n11\n12\n9\n16 Bandits\n1\n▷ Pit: circular, filled with clotted,\nhalf-frozen blood. 7 skulls\ncemented on the floor around\nthe pit.\n▷ Breaking the skull circle: the\nbones around the archway  N\npulverize, the purple veil\ndisappears, the passage\nbecomes a solid wall (the\nmagic portal is closed). Flayed  1 square = 10’\nZombies no longer emerge\nfrom the pit.\nLiving Statues  ▷ Painting: Head-and-shoulder\nportrait of a sickly pale\nman with purple holy garbs\nand a golden nose . Bronze\nnameplate reads “Abbot\nGrusom” (see room 12). Might\nbe worth 100gp.\nP\nP\n6\n7\nFlayed Zombie\n5\nFlayed Zombie\n4\n2\n3\nFour guards, all the ways?\nThis isn’t chess, damn monks",
+    "text": "6 Ritual Chamber\nTorture wheel, torture table.\nSmell of blood. Shadows\nwrithe on walls. Pit full of dark\nliquid, encircled with skulls.\nArchway on north wall opens\nArea numbers\ninto a ceiling-less area (room 17).\nPainting hung on west wall.\nMonsters\n▷ Flayed Zombies: Every turn,  Rowayn\nSecret doors\nif someone is in the chamber,\n2-in-6 chance of 1d4 Flayed  19\nPortal\nZombies emerging from the\npit, unless the skull circle is\nStatue\nbroken.\n18\n▷ Archway in north wall:\nDecorated with bones nailed  S\non the wall. A beautiful, sunlit\ngarden appears beyond the\narchway. A glistening purple\nmist, evaporating from the pit,  17\nveils the passage. This is a magic\nportal. Passing through leaves a  S\ntaste of blood in your mouth. P\nP\nS\nGhost Skele-  8\ntons\n16 15\n14 13\n10\nWight\n11\n12\n9\n16 Bandits\n1\n▷ Pit: circular, filled with clotted,\nhalf-frozen blood. 7 skulls\ncemented on the floor around\nthe pit.\n▷ Breaking the skull circle: the\nbones around the archway  N\npulverize, the purple veil\ndisappears, the passage\nbecomes a solid wall (the\nmagic portal is closed). Flayed  1 square = 10’\nZombies no longer emerge\nfrom the pit.\nLiving Statues  ▷ Painting: Head-and-shoulder\nportrait of a sickly pale\nman with purple holy garbs\nand a golden nose . Bronze\nnameplate reads “Abbot\nGrusom” (see room 12). Might\nbe worth 100gp.\nP\nP\n6\n7\nFlayed Zombie\n5\nFlayed Zombie\n4\n2\n3\nFour guards, all the ways?\nThis isn’t chess, damn monks",
     "labels": [],
     "text_bytes": 1436,
     "keyed_area": "6",
@@ -1852,7 +2032,7 @@
       29
     ],
     "column": 0,
-    "text": "16 The Tomb of Queen Ethofled\nA  massive  stone  sarcophagus,  with  chiseled  floral  decorations;  a\ncrown chiseled on the lid.\n24\n▷ Upon Entering: the Ghost\nof Queen Ethofled (see\nMonsters) emerges from the\nsarcophagus: a translucent\napparition of a woman with\nelaborately braided hair and\na crown. Superbly commands\nthe group to serve her:\n▷ Wants: The group to\n▶ Slay the Abbot in the locked\nsepulchre at the end of the\ncorridor (room 12).\n▶ Disrupt the skull circle in\nthe eastern wing (room 6).\n▷ Offers: She will open her\nsarcophagus and let the group\nchoose one of the items inside,\nand show them “the way to the\nmost sacred place of the abbey,\nthe enchanted secret garden”\n(room 17). See Secret passage\nbelow.\n▷ Offer refused: Dismisses\nthe group with disdain and\ndisappears.\n▷ Secret passage: A magic\nportal behind an illusory\nwall. If Ethofled’s tasks are\ncompleted, she invites the\ngroup to visit the Secret\nGarden, and removes the\nillusory wall. “Bring your wits\nwith you, and visit the enchanted\ngarden, to see if you are worthy”.\n▷ Opening the sarcophagus\nwithout the Ghost’s\npermission: attacks. Never\npursues.\n▷ The Ghost is slain: the\nillusory wall disappears and\nthe portal becomes visible: a\nveil of sunset light leading to a\nverdant garden.\n▷ Mentioning the Earl of\nLocklear’s Claim: Ethofeld\nknows the lineage of her direct\ndescendants ended long before\nthe fall of the abbey, therefore\nthe Earl’s claim is a lie.\n▷ Inside the sarcophagus:\nashes and:\n▶ Polished chain mail with\na dozen aquamarines\n(1.800gp)\n▶ Platinum signet ring with\na mother of pearl horse head\nseal (1000gp)\n▶ The Crown of Ethofled:\na gold and platinum tiara\nshaped like a circle of waves\n(2.000gp)\n▶ Dagger, “Maid of honour”\netched on the hilt. If kept\ntogether with its jeweled\nsheath (1000gp), the blade\nis always as sharp as a razor\nand feels much lighter than\nit looks, and grants +1 to\nattack rolls, damage, AC, and\nCHA.\n25",
+    "text": "16 The Tomb of Queen Ethofled\nA  massive  stone  sarcophagus,  with  chiseled  floral  decorations;  a\ncrown chiseled on the lid.\n24\n▷ Upon Entering: the Ghost\nof Queen Ethofled (see\nMonsters) emerges from the\nsarcophagus: a translucent\napparition of a woman with\nelaborately braided hair and\na crown. Superbly commands\nthe group to serve her:\n▷ Wants: The group to\n▶ Slay the Abbot in the locked\nsepulchre at the end of the\ncorridor (room 12).\n▶ Disrupt the skull circle in\nthe eastern wing (room 6).\n▷ Offers: She will open her\nsarcophagus and let the group\nchoose one of the items inside,\nand show them “the way to the\nmost sacred place of the abbey,\nthe enchanted secret garden”\n(room 17). See Secret passage\nbelow.\n▷ Offer refused: Dismisses\nthe group with disdain and\ndisappears.\n▷ Secret passage: A magic\nportal behind an illusory\nwall. If Ethofled’s tasks are\ncompleted, she invites the\ngroup to visit the Secret\nGarden, and removes the\nillusory wall. “Bring your wits\nwith you, and visit the enchanted\ngarden, to see if you are worthy”.\n▷ Opening the sarcophagus\nwithout the Ghost’s\npermission: attacks. Never\npursues.\n▷ The Ghost is slain: the\nillusory wall disappears and\nthe portal becomes visible: a\nveil of sunset light leading to a\nverdant garden.\n▷ Mentioning the Earl of\nLocklear’s Claim: Ethofeld\nknows the lineage of her direct\ndescendants ended long before\nthe fall of the abbey, therefore\nthe Earl’s claim is a lie.\n▷ Inside the sarcophagus:\nashes and:\n▶ Polished chain mail\nwith\na dozen aquamarines\n(1.800gp)\n▶ Platinum signet ring with\na mother of pearl horse head\nseal (1000gp)\n▶ The Crown of Ethofled:\na gold and platinum tiara\nshaped like a circle of waves\n(2.000gp)\n▶ Dagger, “Maid of honour”\netched on the hilt. If kept\ntogether with its jeweled\nsheath (1000gp), the blade\nis always as sharp as a razor\nand feels much lighter than\nit looks, and grants +1 to\nattack rolls, damage, AC, and\nCHA.\n25",
     "labels": [],
     "text_bytes": 1973,
     "keyed_area": "16",

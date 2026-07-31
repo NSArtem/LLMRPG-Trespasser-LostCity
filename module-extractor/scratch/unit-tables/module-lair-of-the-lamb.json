@@ -150,13 +150,31 @@
       5
     ],
     "column": 0,
-    "text": "HP 0 13-20 Woman, age 1d20+14\nMove 5\nAtk 0\nDef 0 If you are a child, you have a Small Stature.\n• Switch Str with your lowest ability score.\nChecks and Saves • Cramped spaces impose no penalty.\nNearly all checks are made against a DC of 16.   Roll a d20, • You do not have a Profession.\nadd your stat, and try to get the DC or better. If   you   want   to   introduce   non-binary   genders,   I   suggest\nSaves are an exception, and are made with either Dex, Con, replacing the numbers 7 and 13.\nor  Cha  against  a  DC of  20.     Cha  is  used  for all  types  of\nmagical effects, and is the most common Save.",
+    "text": "HP 0 13-20 Woman, age 1d20+14\nMove 5\nAtk 0\nDef 0 If you are a child, you have a Small Stature.\n• Switch Str with your lowest ability score.",
     "labels": [],
-    "text_bytes": 617,
+    "text_bytes": 141,
     "keyed_area": null,
     "style": {
       "size": 16.0,
       "family": "F6",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p5.checks-and-saves",
+    "heading": "Checks and Saves •",
+    "pages": [
+      5
+    ],
+    "column": 0,
+    "text": "Checks and Saves •\nCramped spaces impose no penalty.\nNearly all checks are made against a DC of 16.   Roll a d20, • You do not have a Profession.\nadd your stat, and try to get the DC or better. If   you   want   to   introduce   non-binary   genders,   I   suggest\nSaves are an exception, and are made with either Dex, Con, replacing the numbers 7 and 13.\nor  Cha  against  a  DC of  20.     Cha  is  used  for all  types  of\nmagical effects, and is the most common Save.",
+    "labels": [],
+    "text_bytes": 475,
+    "keyed_area": null,
+    "style": {
+      "size": 21.0,
+      "family": "F3",
       "bold": false,
       "color": "#000000"
     }
@@ -180,13 +198,13 @@
     }
   },
   {
-    "unit_id": "p5.1-athletic-1-cautious",
-    "heading": "1 Athletic 1 Cautious",
+    "unit_id": "p5.1-athletic-1",
+    "heading": "1 Athletic 1",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "1 Athletic 1 Cautious",
+    "text": "1 Athletic 1\nCautious",
     "labels": [],
     "text_bytes": 21,
     "keyed_area": "1",
@@ -198,15 +216,15 @@
     }
   },
   {
-    "unit_id": "p5.2-beautiful-2-caring",
-    "heading": "2 Beautiful 2 Caring",
+    "unit_id": "p5.2-beautiful-2",
+    "heading": "2 Beautiful 2",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "2 Beautiful 2 Caring\n3 Boney 3 Cheerful",
+    "text": "2 Beautiful 2\nCaring",
     "labels": [],
-    "text_bytes": 39,
+    "text_bytes": 20,
     "keyed_area": "2",
     "style": {
       "size": 16.0,
@@ -216,13 +234,31 @@
     }
   },
   {
-    "unit_id": "p5.4-brawny-4-cynical",
-    "heading": "4 Brawny 4 Cynical",
+    "unit_id": "p5.3-boney-3",
+    "heading": "3 Boney 3",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "4 Brawny 4 Cynical",
+    "text": "3 Boney 3\nCheerful",
+    "labels": [],
+    "text_bytes": 18,
+    "keyed_area": "3",
+    "style": {
+      "size": 16.0,
+      "family": "F6",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p5.4-brawny-4",
+    "heading": "4 Brawny 4",
+    "pages": [
+      5
+    ],
+    "column": 0,
+    "text": "4 Brawny 4\nCynical",
     "labels": [],
     "text_bytes": 18,
     "keyed_area": "4",
@@ -234,13 +270,13 @@
     }
   },
   {
-    "unit_id": "p5.5-brutish-5-energetic",
-    "heading": "5 Brutish 5 Energetic",
+    "unit_id": "p5.5-brutish-5",
+    "heading": "5 Brutish 5",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "5 Brutish 5 Energetic",
+    "text": "5 Brutish 5\nEnergetic",
     "labels": [],
     "text_bytes": 21,
     "keyed_area": "5",
@@ -252,13 +288,13 @@
     }
   },
   {
-    "unit_id": "p5.6-delicate-6-formal",
-    "heading": "6 Delicate 6 Formal",
+    "unit_id": "p5.6-delicate-6",
+    "heading": "6 Delicate 6",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "6 Delicate 6 Formal",
+    "text": "6 Delicate 6\nFormal",
     "labels": [],
     "text_bytes": 19,
     "keyed_area": "6",
@@ -270,13 +306,13 @@
     }
   },
   {
-    "unit_id": "p5.7-disfigured-7-gloomy",
-    "heading": "7 Disfigured 7 Gloomy",
+    "unit_id": "p5.7-disfigured-7",
+    "heading": "7 Disfigured 7",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "7 Disfigured 7 Gloomy",
+    "text": "7 Disfigured 7\nGloomy",
     "labels": [],
     "text_bytes": 21,
     "keyed_area": "7",
@@ -288,13 +324,13 @@
     }
   },
   {
-    "unit_id": "p5.8-gorgeous-8-heartless",
-    "heading": "8 Gorgeous 8 Heartless",
+    "unit_id": "p5.8-gorgeous-8",
+    "heading": "8 Gorgeous 8",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "8 Gorgeous 8 Heartless",
+    "text": "8 Gorgeous 8\nHeartless",
     "labels": [],
     "text_bytes": 22,
     "keyed_area": "8",
@@ -306,13 +342,13 @@
     }
   },
   {
-    "unit_id": "p5.9-grizzled-9-honorable",
-    "heading": "9 Grizzled 9 Honorable",
+    "unit_id": "p5.9-grizzled-9",
+    "heading": "9 Grizzled 9",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "9 Grizzled 9 Honorable",
+    "text": "9 Grizzled 9\nHonorable",
     "labels": [],
     "text_bytes": 22,
     "keyed_area": "9",
@@ -324,13 +360,13 @@
     }
   },
   {
-    "unit_id": "p5.10-handsome-10-irate",
-    "heading": "10 Handsome  10 Irate",
+    "unit_id": "p5.10-handsome-10",
+    "heading": "10 Handsome  10",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "10 Handsome  10 Irate",
+    "text": "10 Handsome  10\nIrate",
     "labels": [],
     "text_bytes": 21,
     "keyed_area": "10",
@@ -342,15 +378,15 @@
     }
   },
   {
-    "unit_id": "p5.11-large-11-jocular",
-    "heading": "11 Large 11 Jocular",
+    "unit_id": "p5.11-large-11",
+    "heading": "11 Large 11",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "11 Large 11 Jocular\n12 Pale 12 Militaristic",
+    "text": "11 Large 11\nJocular",
     "labels": [],
-    "text_bytes": 43,
+    "text_bytes": 19,
     "keyed_area": "11",
     "style": {
       "size": 16.0,
@@ -360,15 +396,33 @@
     }
   },
   {
-    "unit_id": "p5.13-petite-13-noble",
-    "heading": "13 Petite 13 Noble",
+    "unit_id": "p5.12-pale-12",
+    "heading": "12 Pale 12",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "13 Petite 13 Noble\n14 Plump 14 Passionate",
+    "text": "12 Pale 12\nMilitaristic",
     "labels": [],
-    "text_bytes": 41,
+    "text_bytes": 23,
+    "keyed_area": "12",
+    "style": {
+      "size": 16.0,
+      "family": "F6",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p5.13-petite-13",
+    "heading": "13 Petite 13",
+    "pages": [
+      5
+    ],
+    "column": 0,
+    "text": "13 Petite 13\nNoble",
+    "labels": [],
+    "text_bytes": 18,
     "keyed_area": "13",
     "style": {
       "size": 16.0,
@@ -378,13 +432,31 @@
     }
   },
   {
-    "unit_id": "p5.15-short-15-proud",
-    "heading": "15 Short 15 Proud",
+    "unit_id": "p5.14-plump-14",
+    "heading": "14 Plump 14",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "15 Short 15 Proud",
+    "text": "14 Plump 14\nPassionate",
+    "labels": [],
+    "text_bytes": 22,
+    "keyed_area": "14",
+    "style": {
+      "size": 16.0,
+      "family": "F6",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p5.15-short-15",
+    "heading": "15 Short 15",
+    "pages": [
+      5
+    ],
+    "column": 0,
+    "text": "15 Short 15\nProud",
     "labels": [],
     "text_bytes": 17,
     "keyed_area": "15",
@@ -396,13 +468,13 @@
     }
   },
   {
-    "unit_id": "p5.16-slender-16-scheming",
-    "heading": "16 Slender 16 Scheming",
+    "unit_id": "p5.16-slender-16",
+    "heading": "16 Slender 16",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "16 Slender 16 Scheming",
+    "text": "16 Slender 16\nScheming",
     "labels": [],
     "text_bytes": 22,
     "keyed_area": "16",
@@ -414,13 +486,13 @@
     }
   },
   {
-    "unit_id": "p5.17-statuesque-17-serene",
-    "heading": "17 Statuesque 17 Serene",
+    "unit_id": "p5.17-statuesque-17",
+    "heading": "17 Statuesque 17",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "17 Statuesque 17 Serene",
+    "text": "17 Statuesque 17\nSerene",
     "labels": [],
     "text_bytes": 23,
     "keyed_area": "17",
@@ -432,13 +504,13 @@
     }
   },
   {
-    "unit_id": "p5.18-swarthy-18-smug",
-    "heading": "18 Swarthy 18 Smug",
+    "unit_id": "p5.18-swarthy-18",
+    "heading": "18 Swarthy 18",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "18 Swarthy 18 Smug",
+    "text": "18 Swarthy 18\nSmug",
     "labels": [],
     "text_bytes": 18,
     "keyed_area": "18",
@@ -450,13 +522,13 @@
     }
   },
   {
-    "unit_id": "p5.19-tall-19-spacey",
-    "heading": "19 Tall  19 Spacey",
+    "unit_id": "p5.19-tall-19",
+    "heading": "19 Tall  19",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "19 Tall  19 Spacey",
+    "text": "19 Tall  19\nSpacey",
     "labels": [],
     "text_bytes": 18,
     "keyed_area": "19",
@@ -468,13 +540,13 @@
     }
   },
   {
-    "unit_id": "p5.20-willowy-20-unhinged",
-    "heading": "20 Willowy  20 Unhinged",
+    "unit_id": "p5.20-willowy-20",
+    "heading": "20 Willowy  20",
     "pages": [
       5
     ],
     "column": 0,
-    "text": "20 Willowy  20 Unhinged\n5",
+    "text": "20 Willowy  20\nUnhinged\n5",
     "labels": [],
     "text_bytes": 25,
     "keyed_area": "20",
@@ -961,13 +1033,67 @@
       8
     ],
     "column": 0,
-    "text": "Time\nThe DM will need to keep track of time.  Time controls how\nfast your torches burn down, and how often you roll for\nrandom   encounters.     You   cannot   have   a   meaningful\ncampaign if strict time measures are not kept.\nExploration turns take 10 minutes.  Dungeoneering actions\nusually take 1 exploration turn.  Here are some examples of\ndungeoneering actions:\n• Searching a room or body.\n• Prying a torch sconce off the wall.\n• Passing through a room for the first time.\nThis seems slow because the party is moving at \"dungeon\nspeed\".     Everyone   is   tip-toeing,   talking   in   a   whisper,\nnoticing all the details of the rooms they are in, feeling out\nevery step they take, and listening to all the ambient noises\nthat they can.  Hence the \"crawl\" in dungeoncrawl.\nThere are some keywords you should look out for in room\ndescriptions.\nInvestigation   is a  keyword.   It   means  that  a player has\nspecifically told you that they want to closely examine a\nparticular   feature,   or   interact   with   a   certain   object   (e.g.\nopen a drawer.)   It  usually takes a  negligible  amount of\ntime.\nSearching  is a keyword.  It means that the party spends 10\nminutes   examining   a   room   more   closely   (e.g.   sifting\nthrough a bone pile).  Anything that can be found through\nInvestigation can also be found through searching.\nNoise  is a keyword.  Whenever something makes Noise, roll\na random encounter.  The Lamb will hear them 2-in-6, and\nwill arrive in 1d6 rounds.",
+    "text": "Time\nThe DM will need to keep track of time.  Time controls how\nfast your torches burn down, and how often you roll for\nrandom   encounters.     You   cannot   have   a   meaningful\ncampaign if strict time measures are not kept.\nExploration turns take 10 minutes.  Dungeoneering actions\nusually take 1 exploration turn.  Here are some examples of\ndungeoneering actions:\n• Searching a room or body.\n• Prying a torch sconce off the wall.\n• Passing through a room for the first time.\nThis seems slow because the party is moving at \"dungeon\nspeed\".     Everyone   is   tip-toeing,   talking   in   a   whisper,\nnoticing all the details of the rooms they are in, feeling out\nevery step they take, and listening to all the ambient noises\nthat they can.  Hence the \"crawl\" in dungeoncrawl.\nThere are some keywords you should look out for in room\ndescriptions.",
     "labels": [],
-    "text_bytes": 1501,
+    "text_bytes": 858,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.investigation",
+    "heading": "Investigation",
+    "pages": [
+      8
+    ],
+    "column": 0,
+    "text": "Investigation\nis a  keyword.   It   means  that  a player has\nspecifically told you that they want to closely examine a\nparticular   feature,   or   interact   with   a   certain   object   (e.g.\nopen a drawer.)   It  usually takes a  negligible  amount of\ntime.",
+    "labels": [],
+    "text_bytes": 262,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.searching",
+    "heading": "Searching",
+    "pages": [
+      8
+    ],
+    "column": 0,
+    "text": "Searching\nis a keyword.  It means that the party spends 10\nminutes   examining   a   room   more   closely   (e.g.   sifting\nthrough a bone pile).  Anything that can be found through\nInvestigation can also be found through searching.",
+    "labels": [],
+    "text_bytes": 233,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.noise",
+    "heading": "Noise",
+    "pages": [
+      8
+    ],
+    "column": 0,
+    "text": "Noise\nis a keyword.  Whenever something makes Noise, roll\na random encounter.  The Lamb will hear them 2-in-6, and\nwill arrive in 1d6 rounds.",
+    "labels": [],
+    "text_bytes": 141,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
       "bold": false,
       "color": "#000000"
     }
@@ -1015,13 +1141,103 @@
       8
     ],
     "column": 1,
-    "text": "Doors\nIt is always assumed that characters listen at doors before\nthey open them, because they are going at dungeon speed,\nand they aren't idiots.   If there is something behind the\ndoor that is making noise, the DM will tell you.\nWooden doors  can be kicked in, but it makes Noise.  If the\nkicker succeeds on a Str check, they can do it in a negligible\namount of time.  Otherwise it takes 10 minutes.\nMetal doors  cannot be kicked in.\nLocked doors   can be opened if you have the appropriate\nkey.   Locked doors can also be picked if you have a set of\nlockpicks and a successful Locksmith roll (or whatever).\nPortcullises   have gaps large enough for your fist, but not\nlarger.  There is often a ratchet-style winch nearby that can\nraise the portcullis.  By default, a portcullis is locked in the\nlowered position (no amount of Str can raise it), but they\ncan also be locked in the open position.  It takes 1 minute to\nraise a portcullis, and 1 second to drop it.\nBarred doors   can only be opened on the side where it is\nbarred.  Each “bar” is a piece of lumber that weighs 100+ lbs.\nMoving one by yourself requires a Str check.",
+    "text": "Doors\nIt is always assumed that characters listen at doors before\nthey open them, because they are going at dungeon speed,\nand they aren't idiots.   If there is something behind the\ndoor that is making noise, the DM will tell you.",
     "labels": [],
-    "text_bytes": 1134,
+    "text_bytes": 230,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.wooden-doors",
+    "heading": "Wooden doors",
+    "pages": [
+      8
+    ],
+    "column": 1,
+    "text": "Wooden doors\ncan be kicked in, but it makes Noise.  If the\nkicker succeeds on a Str check, they can do it in a negligible\namount of time.  Otherwise it takes 10 minutes.",
+    "labels": [],
+    "text_bytes": 169,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.metal-doors",
+    "heading": "Metal doors",
+    "pages": [
+      8
+    ],
+    "column": 1,
+    "text": "Metal doors\ncannot be kicked in.",
+    "labels": [],
+    "text_bytes": 32,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.locked-doors",
+    "heading": "Locked doors",
+    "pages": [
+      8
+    ],
+    "column": 1,
+    "text": "Locked doors\ncan be opened if you have the appropriate\nkey.   Locked doors can also be picked if you have a set of\nlockpicks and a successful Locksmith roll (or whatever).",
+    "labels": [],
+    "text_bytes": 171,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.portcullises",
+    "heading": "Portcullises",
+    "pages": [
+      8
+    ],
+    "column": 1,
+    "text": "Portcullises\nhave gaps large enough for your fist, but not\nlarger.  There is often a ratchet-style winch nearby that can\nraise the portcullis.  By default, a portcullis is locked in the\nlowered position (no amount of Str can raise it), but they\ncan also be locked in the open position.  It takes 1 minute to\nraise a portcullis, and 1 second to drop it.",
+    "labels": [],
+    "text_bytes": 352,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.barred-doors",
+    "heading": "Barred doors",
+    "pages": [
+      8
+    ],
+    "column": 1,
+    "text": "Barred doors\ncan only be opened on the side where it is\nbarred.  Each “bar” is a piece of lumber that weighs 100+ lbs.\nMoving one by yourself requires a Str check.",
+    "labels": [],
+    "text_bytes": 167,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
       "bold": false,
       "color": "#000000"
     }
@@ -1087,13 +1303,121 @@
       9
     ],
     "column": 0,
-    "text": "Stat Blocks\nLvl  is the same as HD.  An enemy has 1d6 HP per HD.\nDef  tells you the DC required to hit the damn thing.\nAtk  is usually labled like  Claws  1d8.  It tells you both the mode of attack and the damage.\nMove  is sometimes omitted, if its the same as a human.  The DC to escape a slow pursuer is 12.  The DC to escape a fast\npursuer is 20.  Move is also sometimes described by listing a comparable creature ( Climb  spider).\nStats  like Str and Int aren't usually listed unless they're significantly different from 5, which is the default for all stats.\nNote that when the DM is trying to figure out if a monster behaves intelligently, they can resolve it with an Int check.\nFailure means that they act like a dumb animal.\nDis  stands for disposition.  If it's not listed, assume that the monster is average.  Average monsters will fight until the\nfight seems lost, then flee or surrender.  They'll attack you if they think they can win.",
+    "text": "Stat Blocks",
     "labels": [],
-    "text_bytes": 947,
+    "text_bytes": 11,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p9.lvl",
+    "heading": "Lvl",
+    "pages": [
+      9
+    ],
+    "column": 0,
+    "text": "Lvl\nis the same as HD.  An enemy has 1d6 HP per HD.",
+    "labels": [],
+    "text_bytes": 51,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p9.def",
+    "heading": "Def",
+    "pages": [
+      9
+    ],
+    "column": 0,
+    "text": "Def\ntells you the DC required to hit the damn thing.",
+    "labels": [],
+    "text_bytes": 52,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p9.atk",
+    "heading": "Atk",
+    "pages": [
+      9
+    ],
+    "column": 0,
+    "text": "Atk\nis usually labled like  Claws  1d8.  It tells you both the mode of attack and the damage.",
+    "labels": [],
+    "text_bytes": 93,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p9.move",
+    "heading": "Move",
+    "pages": [
+      9
+    ],
+    "column": 0,
+    "text": "Move\nis sometimes omitted, if its the same as a human.  The DC to escape a slow pursuer is 12.  The DC to escape a fast\npursuer is 20.  Move is also sometimes described by listing a comparable creature ( Climb  spider).",
+    "labels": [],
+    "text_bytes": 219,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p9.stats",
+    "heading": "Stats",
+    "pages": [
+      9
+    ],
+    "column": 0,
+    "text": "Stats\nlike Str and Int aren't usually listed unless they're significantly different from 5, which is the default for all stats.\nNote that when the DM is trying to figure out if a monster behaves intelligently, they can resolve it with an Int check.\nFailure means that they act like a dumb animal.",
+    "labels": [],
+    "text_bytes": 296,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p9.dis",
+    "heading": "Dis",
+    "pages": [
+      9
+    ],
+    "column": 0,
+    "text": "Dis\nstands for disposition.  If it's not listed, assume that the monster is average.  Average monsters will fight until the\nfight seems lost, then flee or surrender.  They'll attack you if they think they can win.",
+    "labels": [],
+    "text_bytes": 213,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
       "bold": false,
       "color": "#000000"
     }
@@ -1392,17 +1716,107 @@
     "unit_id": "p11.languages",
     "heading": "Languages",
     "pages": [
-      11,
-      12
+      11
     ],
     "column": 1,
-    "text": "Languages\nEveryone begins speaking Common, and no other language.\nNearly   everyone   (including   goblins   and   morlocks)   will\nspeak some variety of Common.\nForeign  languages  are  usually limited  to dead  languages.\nThese languages can be learned the same as Skills.\nLanguages improve twice as fast  as Skills: whenever you\nimprove a Language, you improve it by 2 points.  You still\nneed to complete a quest to reach 10 points in a Language.\nCertain Languages confer abilities once you reach 10 points\nin that Language.\nElvish  – Encryption.  You cannot be understood by anyone\nexcept the people you designate (who also speak Elvish).\nCheoxic   –   Speak   with   Dead.     You   can   even   speak   with\n“mindless” undead such as zombies.  A terrestrial language\nthat eventually become the most common Language in Hell,\nalthough the surface stopped speaking it.\nGospeltongue  – The language in Heaven.  The second most\ncommon language in Hell.  The speaker cannot lie.\nDwarvish   –   Axiomatic.    Speaking   it   functions   as   a   calm\nemotions  spell cast on the self.\n12",
+    "text": "Languages\nEveryone begins speaking Common, and no other language.\nNearly   everyone   (including   goblins   and   morlocks)   will\nspeak some variety of Common.\nForeign  languages  are  usually limited  to dead  languages.\nThese languages can be learned the same as Skills.\nLanguages improve twice as fast  as Skills: whenever you\nimprove a Language, you improve it by 2 points.  You still\nneed to complete a quest to reach 10 points in a Language.\nCertain Languages confer abilities once you reach 10 points\nin that Language.",
     "labels": [],
-    "text_bytes": 1098,
+    "text_bytes": 527,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p11.elvish",
+    "heading": "Elvish",
+    "pages": [
+      11
+    ],
+    "column": 1,
+    "text": "Elvish\n– Encryption.  You cannot be understood by anyone\nexcept the people you designate (who also speak Elvish).",
+    "labels": [],
+    "text_bytes": 115,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p11.cheoxic",
+    "heading": "Cheoxic",
+    "pages": [
+      11
+    ],
+    "column": 1,
+    "text": "Cheoxic\n–   Speak   with   Dead.     You   can   even   speak   with\n“mindless” undead such as zombies.  A terrestrial language\nthat eventually become the most common Language in Hell,\nalthough the surface stopped speaking it.",
+    "labels": [],
+    "text_bytes": 232,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p11.gospeltongue",
+    "heading": "Gospeltongue",
+    "pages": [
+      11
+    ],
+    "column": 1,
+    "text": "Gospeltongue\n– The language in Heaven.  The second most\ncommon language in Hell.  The speaker cannot lie.",
+    "labels": [],
+    "text_bytes": 107,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p11.dwarvish",
+    "heading": "Dwarvish",
+    "pages": [
+      11
+    ],
+    "column": 1,
+    "text": "Dwarvish\n–   Axiomatic.    Speaking   it   functions   as   a   calm",
+    "labels": [],
+    "text_bytes": 70,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p11.emotions",
+    "heading": "emotions",
+    "pages": [
+      11,
+      12
+    ],
+    "column": 1,
+    "text": "emotions\nspell cast on the self.\n12",
+    "labels": [],
+    "text_bytes": 35,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F9",
       "bold": false,
       "color": "#000000"
     }
@@ -2048,9 +2462,9 @@
       20
     ],
     "column": 0,
-    "text": "The Lamb\nLvl  6   Def  chain   Bite/Crush  1d8/1d18\nMove  slow   Climb  slug   Str  9   Int  3   Dis  hungry",
+    "text": "The Lamb",
     "labels": [],
-    "text_bytes": 108,
+    "text_bytes": 8,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -2060,15 +2474,69 @@
     }
   },
   {
-    "unit_id": "p20.immunity-acid",
-    "heading": "Immunity –  Acid.",
+    "unit_id": "p20.lvl",
+    "heading": "Lvl",
     "pages": [
       20
     ],
     "column": 0,
-    "text": "Immunity –  Acid.\nPhobia –  Bright light and fire.  Torches and lanterns make\nit hesitate, but only a large fire will scare it away.\nThe Lamb's sight and hearing are slightly worse than the\naverage human's.\nThe Lamb is slower than the average human, but if people\nattempt to run past it in a hallway or room, it will make\nboth attacks.\nWhen   the   lamb   is   wounded   or   scared,   it   will   call   out\n“Father!  Father!” in increasingly loud tones.  It is capable of\nno other speech.\nIt is not smart, but it is clever.  It learns from its mistakes,\nand will learn better tactics with exposure.\nThe Lamb is valued for its Fruit, clusters of heavy nodules\nthat grow along its armpits and milk lines.   It carries 52\nNascent   Lambfruit   and   6   Immature   Lambfruit.     (See\nAppendix D)  DM: The first time the party sees the Lamb in\ngood light, be sure to mention the fruit.\nIt mostly hangs out in 8 PIT and 9 FOUNTAIN.  If it is killed,\nthe earth trembles as Vandoh mourns his child.\nIf it is killed, it counts as a  Milestone  (see 21 HEAVY DOOR).",
+    "text": "Lvl\n6   Def  chain   Bite/Crush  1d8/1d18",
     "labels": [],
-    "text_bytes": 1067,
+    "text_bytes": 41,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p20.move",
+    "heading": "Move",
+    "pages": [
+      20
+    ],
+    "column": 0,
+    "text": "Move\nslow   Climb  slug   Str  9   Int  3   Dis  hungry",
+    "labels": [],
+    "text_bytes": 55,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p20.immunity",
+    "heading": "Immunity –",
+    "pages": [
+      20
+    ],
+    "column": 0,
+    "text": "Immunity –\nAcid.",
+    "labels": [],
+    "text_bytes": 18,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p20.phobia",
+    "heading": "Phobia –",
+    "pages": [
+      20
+    ],
+    "column": 0,
+    "text": "Phobia –\nBright light and fire.  Torches and lanterns make\nit hesitate, but only a large fire will scare it away.\nThe Lamb's sight and hearing are slightly worse than the\naverage human's.\nThe Lamb is slower than the average human, but if people\nattempt to run past it in a hallway or room, it will make\nboth attacks.\nWhen   the   lamb   is   wounded   or   scared,   it   will   call   out\n“Father!  Father!” in increasingly loud tones.  It is capable of\nno other speech.\nIt is not smart, but it is clever.  It learns from its mistakes,\nand will learn better tactics with exposure.\nThe Lamb is valued for its Fruit, clusters of heavy nodules\nthat grow along its armpits and milk lines.   It carries 52\nNascent   Lambfruit   and   6   Immature   Lambfruit.     (See\nAppendix D)  DM: The first time the party sees the Lamb in\ngood light, be sure to mention the fruit.\nIt mostly hangs out in 8 PIT and 9 FOUNTAIN.  If it is killed,\nthe earth trembles as Vandoh mourns his child.\nIf it is killed, it counts as a  Milestone  (see 21 HEAVY DOOR).",
+    "labels": [],
+    "text_bytes": 1046,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -2102,9 +2570,9 @@
       20
     ],
     "column": 1,
-    "text": "Little Lamb\nLvl  2   Def  chain   Bite  1d8\nMove  human   Climb  as slug   Str 5 Int  3   Dis  hungry",
+    "text": "Little Lamb",
     "labels": [],
-    "text_bytes": 101,
+    "text_bytes": 11,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -2114,15 +2582,87 @@
     }
   },
   {
-    "unit_id": "p20.immunity-acid-2",
-    "heading": "Immunity –  Acid.",
+    "unit_id": "p20.lvl-2",
+    "heading": "Lvl",
     "pages": [
       20
     ],
     "column": 1,
-    "text": "Immunity –  Acid.\nPhobia –  Bright light and fire.  It will not approach within\n10' of burning oil.\nAmbush -   2-in-6 chance of ambushing the party from the\nceiling.     They   will   only   attempt   to   grapple   during   the\nsurprise round.",
+    "text": "Lvl\n2   Def  chain   Bite  1d8",
     "labels": [],
-    "text_bytes": 248,
+    "text_bytes": 30,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p20.move-2",
+    "heading": "Move",
+    "pages": [
+      20
+    ],
+    "column": 1,
+    "text": "Move\nhuman   Climb  as slug   Str 5 Int  3   Dis  hungry",
+    "labels": [],
+    "text_bytes": 56,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p20.immunity-2",
+    "heading": "Immunity –",
+    "pages": [
+      20
+    ],
+    "column": 1,
+    "text": "Immunity –\nAcid.",
+    "labels": [],
+    "text_bytes": 18,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p20.phobia-2",
+    "heading": "Phobia –",
+    "pages": [
+      20
+    ],
+    "column": 1,
+    "text": "Phobia –\nBright light and fire.  It will not approach within\n10' of burning oil.",
+    "labels": [],
+    "text_bytes": 82,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p20.ambush",
+    "heading": "Ambush -",
+    "pages": [
+      20
+    ],
+    "column": 1,
+    "text": "Ambush -\n2-in-6 chance of ambushing the party from the\nceiling.     They   will   only   attempt   to   grapple   during   the\nsurprise round.",
+    "labels": [],
+    "text_bytes": 142,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -2156,13 +2696,49 @@
       20
     ],
     "column": 1,
-    "text": "Father Bastoval\nLvl  3   Def  chain   Warfork  1d8   Dis  wrathful\nSpells -  delay, haste, scry\nFather Bastoval is a Nemesis.   If he kills a PC, he gains a\nlevel,   and   the   DM   should   introduce   them   as   “Bastoval,\nSlayer of X” from here on out.",
+    "text": "Father Bastoval",
     "labels": [],
-    "text_bytes": 261,
+    "text_bytes": 15,
     "keyed_area": null,
     "style": {
       "size": 16.0,
       "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p20.lvl-3",
+    "heading": "Lvl",
+    "pages": [
+      20
+    ],
+    "column": 1,
+    "text": "Lvl\n3   Def  chain   Warfork  1d8   Dis  wrathful",
+    "labels": [],
+    "text_bytes": 49,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p20.spells-delay-haste-scry",
+    "heading": "Spells -  delay, haste, scry",
+    "pages": [
+      20
+    ],
+    "column": 1,
+    "text": "Spells -  delay, haste, scry\nFather Bastoval is a Nemesis.   If he kills a PC, he gains a\nlevel,   and   the   DM   should   introduce   them   as   “Bastoval,\nSlayer of X” from here on out.",
+    "labels": [],
+    "text_bytes": 194,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F9",
       "bold": false,
       "color": "#000000"
     }
@@ -2186,16 +2762,16 @@
     }
   },
   {
-    "unit_id": "p20.lvl-1-def-plate-mace-1d6",
-    "heading": "Lvl 1 Def  plate   Mace  1d6.",
+    "unit_id": "p20.lvl-1-def",
+    "heading": "Lvl 1 Def",
     "pages": [
       20,
       21
     ],
     "column": 1,
-    "text": "Lvl 1 Def  plate   Mace  1d6.\nMino has a bow (1d6) and Bilosh has a net.\n.     Each   bowl   contains   4",
+    "text": "Lvl 1 Def\nplate   Mace  1d6.\nMino has a bow (1d6) and Bilosh has a net.\n.     Each   bowl   contains   4",
     "labels": [],
-    "text_bytes": 105,
+    "text_bytes": 104,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -2211,9 +2787,9 @@
       21
     ],
     "column": 0,
-    "text": "1  BOWLS\nThree   enormous   stone   bowls\nhuman sacrifices, bound hand and foot.\n1A  FIRST INTERSECTION\nBarnyard smell  to the E.\n1B  SECOND INTERSECTION\nBarnyard smell  to the N.\nFaint light  to the E.\nVinegar smell  to the S.\n1C  THIRD INTERSECTION\nVinegar smell  to the W.",
+    "text": "1  BOWLS\nThree   enormous   stone   bowls\nhuman sacrifices, bound hand and foot.\n1A  FIRST INTERSECTION\nBarnyard smell\nto the E.\n1B  SECOND INTERSECTION\nBarnyard smell\nto the N.\nFaint light\nto the E.\nVinegar smell\nto the S.\n1C  THIRD INTERSECTION\nVinegar smell\nto the W.",
     "labels": [],
-    "text_bytes": 275,
+    "text_bytes": 270,
     "keyed_area": "1",
     "style": {
       "size": 18.0,
@@ -2229,9 +2805,9 @@
       21
     ],
     "column": 1,
-    "text": "2  GOATS\nThree dead goats.  One live goat , dehydrated and friendly.\nTied with short lengths of twine.  They are all wearing bells.\nPile of hay.\nWooden bowl  (empty).",
+    "text": "2  GOATS\nThree dead goats.  One live goat\n, dehydrated and friendly.\nTied with short lengths of twine.  They are all wearing bells.\nPile of hay.\nWooden bowl\n(empty).",
     "labels": [],
-    "text_bytes": 166,
+    "text_bytes": 165,
     "keyed_area": "2",
     "style": {
       "size": 18.0,
@@ -2247,9 +2823,9 @@
       21
     ],
     "column": 1,
-    "text": "3  VINEGAR\nA stone trough  half-filled with vinegar.  Investigating the\nreeking liquid reveals an empty wine bottle.\nAnother stone trough  that stinks of stale milk.  It is empty.",
+    "text": "3  VINEGAR\nA stone trough\nhalf-filled with vinegar.  Investigating the\nreeking liquid reveals an empty wine bottle.\nAnother stone trough\nthat stinks of stale milk.  It is empty.",
     "labels": [],
-    "text_bytes": 179,
+    "text_bytes": 177,
     "keyed_area": "3",
     "style": {
       "size": 18.0,
@@ -2266,9 +2842,9 @@
       22
     ],
     "column": 1,
-    "text": "4  CHESTS\nThe wooden door to this room is locked.\nWooden Table   holding 1 immature  Lambfruit (Appendix\nD).\nWooden Chest:\n• Mwk helmet (smiling face, squinting eyes).\n• 1 torch.\n• Purple   pouch   containing   2   doses   of   purple   lotus\npowder (1Appendix D).\n• Lotus pipe (fits into helmet, 100s) .\nLead & Iron  Chest   bolted  to  the  floor,  bound with  two\nlinchpinned   chains.     Removing   the   first   linchpin   causes\nheadaches.     The   second     causes   nosebleeds.     The   chest\ncontains only the  Skull of Davok , which escapes when the\nchest is opened.  (See Appendix A.)\n21\n22",
+    "text": "4  CHESTS\nThe wooden door to this room is locked.\nWooden Table\nholding 1 immature  Lambfruit (Appendix\nD).\nWooden Chest:\n• Mwk helmet (smiling face, squinting eyes).\n• 1 torch.\n• Purple   pouch   containing   2   doses   of   purple   lotus\npowder (1Appendix D).\n• Lotus pipe (fits into helmet, 100s)\n.\nLead & Iron  Chest\nbolted  to  the  floor,  bound with  two\nlinchpinned   chains.     Removing   the   first   linchpin   causes\nheadaches.     The   second     causes   nosebleeds.     The   chest\ncontains only the  Skull of Davok , which escapes when the\nchest is opened.  (See Appendix A.)\n21\n22",
     "labels": [],
-    "text_bytes": 613,
+    "text_bytes": 609,
     "keyed_area": "4",
     "style": {
       "size": 18.0,
@@ -2284,9 +2860,9 @@
       22
     ],
     "column": 0,
-    "text": "5  LANDING\nHeavy steel doors , locked from the other side.   A set of\nascending stairs is barely visible behind them.  No amount\nof noise will bring a response.\nTo the left of the door: a  lit torch  atop a  metal pole .  The\ntorch can be easily picked up.  The torch holder i(a 6' iron\npole) can be pried out with difficulty.   The torch will last\nanother hour before burning out.\nTo  the right  of the doro: a   sturdy  table   holds  an   iron-\nbanded chest   (locked).   Atop the chest is a   fire striker .\nInside the chest is a fresh torch and a vial of lamp oil.  The\nchest   reeks   of   tar   and   pitch,   making   it   obvious   what   is\ninside.\nA horrible stench  is noticeable to the east.\nThe players have no obvious way to open the chest.  It is too\ndurable to be smashed open with a brick.  Possible ways to\nopen   the   chest:   a   dropped   sarcophagus   lid,   throwing   it\ndown 8 PIT, getting the Lamb to trample it.   (All of these\nmethods will break the vial of lamp oil.)\n5A  CLOSET\nBroom.  Gong  and  Hammer .",
+    "text": "5  LANDING\nHeavy steel doors\n, locked from the other side.   A set of\nascending stairs is barely visible behind them.  No amount\nof noise will bring a response.\nTo the left of the door: a  lit torch  atop a  metal pole .  The\ntorch can be easily picked up.  The torch holder i(a 6' iron\npole) can be pried out with difficulty.   The torch will last\nanother hour before burning out.\nTo  the right  of the doro: a   sturdy  table   holds  an   iron-\nbanded chest\n(locked).   Atop the chest is a   fire striker .\nInside the chest is a fresh torch and a vial of lamp oil.  The\nchest   reeks   of   tar   and   pitch,   making   it   obvious   what   is\ninside.\nA horrible stench\nis noticeable to the east.\nThe players have no obvious way to open the chest.  It is too\ndurable to be smashed open with a brick.  Possible ways to\nopen   the   chest:   a   dropped   sarcophagus   lid,   throwing   it\ndown 8 PIT, getting the Lamb to trample it.   (All of these\nmethods will break the vial of lamp oil.)\n5A  CLOSET\nBroom.  Gong\nand  Hammer .",
     "labels": [],
-    "text_bytes": 1037,
+    "text_bytes": 1033,
     "keyed_area": "5",
     "style": {
       "size": 18.0,
@@ -2302,9 +2878,9 @@
       22
     ],
     "column": 1,
-    "text": "6  TUMBLERS\nA statue of a fish with hands.    Between his hands, he\nholds four disks that can be rotated to show any number\nbetween 1 and 8 (creating a 4-digit number).\nA   recessed doorway   on the far wall, impossible to force\nopen.\nA  lever  on the wall.\nA  tiny pool of milky liquid .  This is acid that has dripped\nfrom the ceiling nozzles.\nInvestigating the ceiling reveals a quartet of small nozzles.\nThis room is a password entry system: set the tumblers then\npull the lever.\n• Correct: the door to 7 THRONE opens.\n• Incorrect: A horrible grinding Noise (every time).\nSpray   milky   acid   (once).     The   acid   deals   1d6\ndiminishing damage each turn until rinsed off.\nThe password is 1-2-1-2 (see 9 FOUNTAIN).",
+    "text": "6  TUMBLERS\nA statue of a fish with hands.\nBetween his hands, he\nholds four disks that can be rotated to show any number\nbetween 1 and 8 (creating a 4-digit number).\nA   recessed doorway   on the far wall, impossible to force\nopen.\nA  lever  on the wall.\nA  tiny pool of milky liquid .  This is acid that has dripped\nfrom the ceiling nozzles.\nInvestigating the ceiling reveals a quartet of small nozzles.\nThis room is a password entry system: set the tumblers then\npull the lever.\n• Correct: the door to 7 THRONE opens.\n• Incorrect: A horrible grinding Noise (every time).\nSpray   milky   acid   (once).     The   acid   deals   1d6\ndiminishing damage each turn until rinsed off.\nThe password is 1-2-1-2 (see 9 FOUNTAIN).",
     "labels": [],
-    "text_bytes": 728,
+    "text_bytes": 725,
     "keyed_area": "6",
     "style": {
       "size": 18.0,
@@ -2321,9 +2897,9 @@
       23
     ],
     "column": 1,
-    "text": "7  THRONE\nA throne  of sheep bones and unfired clay.\nA  golden sensory deprivation helmet  (700s).\nAnyone sitting on the throne must make a Cha Save.\n• Success   =   Right   hand   turns   into   a   large   lobster\nclaw (1d8).\n• Failure   =   Obesity:   gain   3   Inventory   Slots   of   fat.\nRight hand turns into a small lobster claw (1d6).\n• Regardless of success or failure, you get a vision of\na purple book, wrapped in fine copper chains.\nThe throne will only work once per year.\nAnyone   with   a   lobster   claw   will   be   Favored   by   Vandoh\n(Appendix C).\nSitting on the throne is a  Milestone .\n23",
+    "text": "7  THRONE\nA throne\nof sheep bones and unfired clay.\nA  golden sensory deprivation helmet  (700s).\nAnyone sitting on the throne must make a Cha Save.\n• Success   =   Right   hand   turns   into   a   large   lobster\nclaw (1d8).\n• Failure   =   Obesity:   gain   3   Inventory   Slots   of   fat.\nRight hand turns into a small lobster claw (1d6).\n• Regardless of success or failure, you get a vision of\na purple book, wrapped in fine copper chains.\nThe throne will only work once per year.\nAnyone   with   a   lobster   claw   will   be   Favored   by   Vandoh\n(Appendix C).\nSitting on the throne is a  Milestone .\n23",
     "labels": [],
-    "text_bytes": 622,
+    "text_bytes": 621,
     "keyed_area": "7",
     "style": {
       "size": 18.0,
@@ -2339,9 +2915,9 @@
       23
     ],
     "column": 0,
-    "text": "8  PIT\nFirst visit: The  Lamb  is here 0% of the time.\nSubsequent visits: 2-in-6 The Lamb is here.\nA  slimy pit , 40' deep, 30' across, impossible to climb.  The\nbottom is knee-deep mud.  It smells like ammonia and feces.\nThe walls are smooth stone.\nAkina   lives   in   the   pit.     She   is   sane,   desperate,   and\nintelligent.   She wears rags but carries the   Ruby Ring of\nWisdom ( Treasure : 1000s) .   She offers it in exchange for\nrescue.\nThis is the pit where the Lamb sleeps.   Akina cleans it of\nparasites, and eats its vomit.   She can tell you the basics\nabout the White Temple, Vandoh, and the Lamb.\nThe Lamb can climb out of the pit in 2 rounds.",
+    "text": "8  PIT\nFirst visit: The  Lamb  is here 0% of the time.\nSubsequent visits: 2-in-6 The Lamb is here.\nA  slimy pit , 40' deep, 30' across, impossible to climb.  The\nbottom is knee-deep mud.  It smells like ammonia and feces.\nThe walls are smooth stone.\nAkina\nlives   in   the   pit.     She   is   sane,   desperate,   and\nintelligent.   She wears rags but carries the   Ruby Ring of\nWisdom ( Treasure : 1000s)\n.   She offers it in exchange for\nrescue.\nThis is the pit where the Lamb sleeps.   Akina cleans it of\nparasites, and eats its vomit.   She can tell you the basics\nabout the White Temple, Vandoh, and the Lamb.\nThe Lamb can climb out of the pit in 2 rounds.",
     "labels": [],
-    "text_bytes": 665,
+    "text_bytes": 663,
     "keyed_area": "8",
     "style": {
       "size": 18.0,
@@ -2467,7 +3043,7 @@
       25
     ],
     "column": 1,
-    "text": "15 CRACK\nHundreds of tiny red spiders .  You can barely fit in here.\nEvery minute of exposure has a 50% chance of a bite.\nSpiderbites cause wheezing and muteness for 1 hour.   A\nsecond bite causes instant death (no Save).\nInside the crack, you can hear a voice, shouting about the\nquality of a chicken.  At the very back, you can see daylight.\nYou are looking out through an opening the size of a fist, at\nthe back of a chicken vendor, sitting in the plaza beside the\nWhite Temple.\nThe chicken vendor is   Danjo , who will extort you at the\nfirst opportunity.  (“Why shouldn't I tell the temple guards?\nWhat's in it for me?”)\nOnce that's taken care of, he will happily sell you mundane\nitems at as high a cost as he can (but never less than 20x\nmarket value).   He currently has candles, chickens, bread,\nand a knife.  He is willing to run across town and purchase\nthings for you, but it'll take 1-3 hours, depending on the\nitem.\nThese conversations are conducted in real time.  1 min in-\ngame = 1 min at the table.\n25",
+    "text": "15 CRACK\nHundreds of tiny red spiders\n.  You can barely fit in here.\nEvery minute of exposure has a 50% chance of a bite.\nSpiderbites cause wheezing and muteness for 1 hour.   A\nsecond bite causes instant death (no Save).\nInside the crack, you can hear a voice, shouting about the\nquality of a chicken.  At the very back, you can see daylight.\nYou are looking out through an opening the size of a fist, at\nthe back of a chicken vendor, sitting in the plaza beside the\nWhite Temple.\nThe chicken vendor is   Danjo , who will extort you at the\nfirst opportunity.  (“Why shouldn't I tell the temple guards?\nWhat's in it for me?”)\nOnce that's taken care of, he will happily sell you mundane\nitems at as high a cost as he can (but never less than 20x\nmarket value).   He currently has candles, chickens, bread,\nand a knife.  He is willing to run across town and purchase\nthings for you, but it'll take 1-3 hours, depending on the\nitem.\nThese conversations are conducted in real time.  1 min in-\ngame = 1 min at the table.\n25",
     "labels": [],
     "text_bytes": 1022,
     "keyed_area": "15",
@@ -2503,9 +3079,9 @@
       25
     ],
     "column": 0,
-    "text": "17  ALTAR\nA   wooden chest   sags with yellow rot.   Anyone opening it\ncarelessly   is   exposed   to   yellow   mold   (poison   1d6).     It\ncontains   rotten   books   (worthless)   and   a   silver-plate\ndageurrotype  (50s)   that shows a dozen strangely-dressed\nmen each buried up to their waist, facing the stars, mouth\nopen.\nAn   altar   holds   a   sheep   skull   amid   faded   flowers .\nInvestigating the altar reveals a drawer: one white candle.",
+    "text": "17  ALTAR\nA   wooden chest   sags with yellow rot.   Anyone opening it\ncarelessly   is   exposed   to   yellow   mold   (poison   1d6).     It\ncontains   rotten   books   (worthless)   and   a   silver-plate\ndageurrotype  (50s)\nthat shows a dozen strangely-dressed\nmen each buried up to their waist, facing the stars, mouth\nopen.\nAn   altar   holds   a   sheep   skull   amid   faded   flowers .\nInvestigating the altar reveals a drawer: one white candle.",
     "labels": [],
-    "text_bytes": 457,
+    "text_bytes": 455,
     "keyed_area": "17",
     "style": {
       "size": 18.0,
@@ -2522,9 +3098,9 @@
       26
     ],
     "column": 1,
-    "text": "18  SHAFT\nA  shattered gazebo  in the middle of the room, surrounded\nby   loops   of   rope,   all   soft   and   rotten.     (The   “gazebo”   is\nactually a fallen elevator.)  The heap is 7' tall and includes\nbroken beams  and  loose bricks .\nAbove,   a   high   ceiling   recedes   into   shadow,   finally\nterminating 60' above.\nThere is a visible ledge  40' off the ground.   (Remember:\ntorches shed light for 30'.)  This is 18A LEDGE.\nSearching the wreckage reveals a block and tackle.\n18A  LEDGE\nA  30' rope  and  an iron spike .\nA   sealed   portcullis .    10'   away,   on   the   other  side,  is  an\narmored   corpse.     The   corpse   cannot   pass   through   the\nportcullis, but it can be pulled to the portcullis and looted:\n• Sword (conidiopore insignia)\n• Bow + Arrows\n• Signet ring (50s, conidiospore insignia)\n• Orb of Indulgence (500s)\n• Masterwork breast plate (too large to pass through\nportcullis)\n• Helmet (too large to pass through portcullis)\n26",
+    "text": "18  SHAFT\nA  shattered gazebo  in the middle of the room, surrounded\nby   loops   of   rope,   all   soft   and   rotten.     (The   “gazebo”   is\nactually a fallen elevator.)  The heap is 7' tall and includes\nbroken beams\nand  loose bricks .\nAbove,   a   high   ceiling   recedes   into   shadow,   finally\nterminating 60' above.\nThere is a visible ledge  40' off the ground.   (Remember:\ntorches shed light for 30'.)  This is 18A LEDGE.\nSearching the wreckage reveals a block and tackle.\n18A  LEDGE\nA  30' rope  and  an iron spike .\nA   sealed   portcullis .    10'   away,   on   the   other  side,  is  an\narmored   corpse.     The   corpse   cannot   pass   through   the\nportcullis, but it can be pulled to the portcullis and looted:\n• Sword (conidiopore insignia)\n• Bow + Arrows\n• Signet ring (50s, conidiospore insignia)\n• Orb of Indulgence (500s)\n• Masterwork breast plate (too large to pass through\nportcullis)\n• Helmet (too large to pass through portcullis)\n26",
     "labels": [],
-    "text_bytes": 988,
+    "text_bytes": 987,
     "keyed_area": "18",
     "style": {
       "size": 18.0,
@@ -2540,9 +3116,9 @@
       26
     ],
     "column": 0,
-    "text": "19  PRIESTS\nThree perfectly round pools of pink liquid   set into the\nfloor, each about a foot deep in the middle.\nThree old people   wearing nothing but loincloths are also\nin here, one per pool.   They seem to be smiling in their\nsleep, occasionally twitching and emitting little groans of\npleasure.     One   wears  a Treasure :   a   jeweled  crab   bracer\n(600s).\nTwo iron spikes  hold the E door shut.\nThe people are retired priests of Vandoh, and this is their\nreward.   They will live in the Lamb's psychotropic urine\nuntil  they die,  hundreds of  years  from now,  writhing in\necstasy.\nIf any of the priests are touched, they will scream (verbally\nand psychically).   This will awaken all four of the priests\n(including   Vandress   in   20   POOLS)   who   will   attack.     The\nurine has robbed these three priests of all language except\nthe words “lamb”, “blasphemy”, and “magenta”.\nPriest of the Pool\nLvl  1   Def  none   Fists  1d3   Int  3   Dis  guardian\nSpells – sleep / desiccate / emergency exit\n(Each priest knows a different spell.)\nAnyone tasting a pool will be compelled to taste more, and\neventually lie down in it.   No Save.   Anyone who tastes it\nwill be compelled to do everything in their power to return\nto it.\nIf a person is forcibly removed from the pool, the effect\nlasts   10   minutes   before   fading   from   a   compulsion   to   a\nlingering dissatisfaction with all of life's other pleasures.",
+    "text": "19  PRIESTS\nThree perfectly round pools of pink liquid\nset into the\nfloor, each about a foot deep in the middle.\nThree old people\nwearing nothing but loincloths are also\nin here, one per pool.   They seem to be smiling in their\nsleep, occasionally twitching and emitting little groans of\npleasure.     One   wears  a Treasure :   a   jeweled  crab   bracer\n(600s).\nTwo iron spikes\nhold the E door shut.\nThe people are retired priests of Vandoh, and this is their\nreward.   They will live in the Lamb's psychotropic urine\nuntil  they die,  hundreds of  years  from now,  writhing in\necstasy.\nIf any of the priests are touched, they will scream (verbally\nand psychically).   This will awaken all four of the priests\n(including   Vandress   in   20   POOLS)   who   will   attack.     The\nurine has robbed these three priests of all language except\nthe words “lamb”, “blasphemy”, and “magenta”.\nPriest of the Pool\nLvl\n1   Def  none   Fists  1d3   Int  3   Dis  guardian\nSpells – sleep / desiccate / emergency exit\n(Each priest knows a different spell.)\nAnyone tasting a pool will be compelled to taste more, and\neventually lie down in it.   No Save.   Anyone who tastes it\nwill be compelled to do everything in their power to return\nto it.\nIf a person is forcibly removed from the pool, the effect\nlasts   10   minutes   before   fading   from   a   compulsion   to   a\nlingering dissatisfaction with all of life's other pleasures.",
     "labels": [],
-    "text_bytes": 1448,
+    "text_bytes": 1442,
     "keyed_area": "19",
     "style": {
       "size": 18.0,
@@ -2558,9 +3134,9 @@
       26
     ],
     "column": 1,
-    "text": "20 POOLS\nFour irregular pools , similar to the last room.  Each one is\na different color, and serves as a repository for the more\nexotic types of waste that the Lamb produces.\n• Pink   pool   =   identical   to   the   pink   pools   in   the\nprevious room.  This pool contains   Vandress , the\neldest priestess.  She has lobster claws and a third\neye.\n• Yellow pool = liquid light.   Shines as brightly as\ndaylight  for  3   rounds   when   shaken   or   splashed.\nWorks once.\n• Milky pool = acid (1d6 diminishing).\n• Black   pool   =   causes   the   drinker   to   spend   1d6\nrounds vomiting a heavier-than-air black smoke.\nVandress\nLvl  2   Def  none   Claw  1d8   Int  7   Dis  scheming\nSpells – confusion, cone of mutilation\nUnlike her peers, Vandress retains her full mental capacity,\nand is smart enough to parlay if the need arises.  She would\nprefer to gather information, drive the party off, find the\nLamb, and then hunt the party with the Lamb's assistance\nShe has no way to contact the White Temple above (but\nknows that clerics will come down 3 days after a feeding to\nclean up).   She is hopelessly, pathetically addicted to the\npink   slime   and   cannot   go   longer   than   an   hour   without\nsubmerging herself in it.",
+    "text": "20 POOLS\nFour irregular pools\n, similar to the last room.  Each one is\na different color, and serves as a repository for the more\nexotic types of waste that the Lamb produces.\n• Pink   pool   =   identical   to   the   pink   pools   in   the\nprevious room.  This pool contains   Vandress , the\neldest priestess.  She has lobster claws and a third\neye.\n• Yellow pool = liquid light.   Shines as brightly as\ndaylight  for  3   rounds   when   shaken   or   splashed.\nWorks once.\n• Milky pool = acid (1d6 diminishing).\n• Black   pool   =   causes   the   drinker   to   spend   1d6\nrounds vomiting a heavier-than-air black smoke.\nVandress\nLvl\n2   Def  none   Claw  1d8   Int  7   Dis  scheming\nSpells – confusion, cone of mutilation\nUnlike her peers, Vandress retains her full mental capacity,\nand is smart enough to parlay if the need arises.  She would\nprefer to gather information, drive the party off, find the\nLamb, and then hunt the party with the Lamb's assistance\nShe has no way to contact the White Temple above (but\nknows that clerics will come down 3 days after a feeding to\nclean up).   She is hopelessly, pathetically addicted to the\npink   slime   and   cannot   go   longer   than   an   hour   without\nsubmerging herself in it.",
     "labels": [],
-    "text_bytes": 1252,
+    "text_bytes": 1251,
     "keyed_area": "20",
     "style": {
       "size": 18.0,
@@ -2667,9 +3243,45 @@
       28
     ],
     "column": 0,
-    "text": "Armored Ghoul (Gerdith or Molina)\nLvl  2   Def  plate   Halberd  1d8\nInt  5   Str  7   Dis  hungry",
+    "text": "Armored Ghoul (Gerdith or Molina)",
     "labels": [],
-    "text_bytes": 98,
+    "text_bytes": 33,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p28.lvl",
+    "heading": "Lvl",
+    "pages": [
+      28
+    ],
+    "column": 0,
+    "text": "Lvl\n2   Def  plate   Halberd  1d8",
+    "labels": [],
+    "text_bytes": 33,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p28.int",
+    "heading": "Int",
+    "pages": [
+      28
+    ],
+    "column": 0,
+    "text": "Int\n5   Str  7   Dis  hungry",
+    "labels": [],
+    "text_bytes": 28,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -2703,9 +3315,45 @@
       28
     ],
     "column": 1,
-    "text": "Ghoul (Jasper or Luntz)\nLvl  2   Def  leather   Claw  1d6+agony\nInt  5   Str  7   Dis  hungry",
+    "text": "Ghoul (Jasper or Luntz)",
     "labels": [],
-    "text_bytes": 93,
+    "text_bytes": 23,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p28.lvl-2",
+    "heading": "Lvl",
+    "pages": [
+      28
+    ],
+    "column": 1,
+    "text": "Lvl\n2   Def  leather   Claw  1d6+agony",
+    "labels": [],
+    "text_bytes": 38,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p28.int-2",
+    "heading": "Int",
+    "pages": [
+      28
+    ],
+    "column": 1,
+    "text": "Int\n5   Str  7   Dis  hungry",
+    "labels": [],
+    "text_bytes": 28,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -2718,13 +3366,103 @@
     "unit_id": "p28.lantern-worm",
     "heading": "Lantern Worm",
     "pages": [
+      28
+    ],
+    "column": 1,
+    "text": "Lantern Worm",
+    "labels": [],
+    "text_bytes": 12,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p28.lvl-3",
+    "heading": "Lvl",
+    "pages": [
+      28
+    ],
+    "column": 1,
+    "text": "Lvl\n4    Def  leather    Slam  1d6",
+    "labels": [],
+    "text_bytes": 34,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p28.crawl",
+    "heading": "Crawl",
+    "pages": [
+      28
+    ],
+    "column": 1,
+    "text": "Crawl\nslow   Int  2   Dis  hungry",
+    "labels": [],
+    "text_bytes": 33,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p28.eat-light",
+    "heading": "Eat Light -",
+    "pages": [
+      28
+    ],
+    "column": 1,
+    "text": "Eat Light -\nTarget light source explodes and is destroyed.\nThe worm eats all the light and becomes brighter.  Whoever\nwas holding the light source take 1d6 fire damage (Wis Save\nnegates)   and   is   automatically   blinded.     Everyone   else   is\nblinded if they fail a Wis Save.  Con check each turn to end.",
+    "labels": [],
+    "text_bytes": 311,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p28.lantern",
+    "heading": "Lantern -",
+    "pages": [
+      28
+    ],
+    "column": 1,
+    "text": "Lantern -\nSheds light in a narrow 60' cone.  Whoever it is\nlooking at gets -4 to hit (also applies to adjacent people).",
+    "labels": [],
+    "text_bytes": 119,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p28.stonemeld",
+    "heading": "Stonemeld -",
+    "pages": [
       28,
       29
     ],
     "column": 1,
-    "text": "Lantern Worm\nLvl  4    Def  leather    Slam  1d6\nCrawl  slow   Int  2   Dis  hungry\nEat Light -   Target light source explodes and is destroyed.\nThe worm eats all the light and becomes brighter.  Whoever\nwas holding the light source take 1d6 fire damage (Wis Save\nnegates)   and   is   automatically   blinded.     Everyone   else   is\nblinded if they fail a Wis Save.  Con check each turn to end.\nLantern -  Sheds light in a narrow 60' cone.  Whoever it is\nlooking at gets -4 to hit (also applies to adjacent people).\nStonemeld -  Can become a liquid and flow through stone.\nLooks like a wet, dark stain.\nRetreats after it has eaten all available light sources.\n29",
+    "text": "Stonemeld -\nCan become a liquid and flow through stone.\nLooks like a wet, dark stain.\nRetreats after it has eaten all available light sources.\n29",
     "labels": [],
-    "text_bytes": 665,
+    "text_bytes": 145,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -2845,17 +3583,89 @@
     "unit_id": "p29.what-do-the-ghouls-want",
     "heading": "What do the ghouls want?",
     "pages": [
-      29,
-      30
+      29
     ],
     "column": 1,
-    "text": "What do the ghouls want?\nThe ghouls will ask for four favors.  If the ghouls are talking\nnicely   to   you,   they've   already   eaten,   so   you've   already\naccomplished one of those goals right off the bat.\n• Human meat.\n• Lots of meat.\n• The  destruction   of  the  ghost   fence  in   40 GHOST\nFENCE.  It blocks their escape.\n• To   humiliate   the   spider   crab   (in   31   TRAVERSE).\nThe ghouls believe that killing it is impossible.\nIf you accomplish at least 3 of those favors, they'll also ask\nthree more favors of you.\n• If you can beat Gerdith at a miniatures wargame (28\nGAMES) you will have their respect.\n• If you can put on a better show than Jasper (in 29\nSTAGE) they will think you're cool.\n• Destroy the Lamb.  They will help you, but they will\nnot take risks for you.\nThe ghouls will treat you better depending on how many of\nthese things you do.  Each ghoul you kill deducts one from\nthis total.\n4 favors : The ghouls will try really, really hard not to eat\nyou.  (Cha save to resist.)\n5 favors : The party's favorite ghoul will join the party.\n6 favors : The ghouls will tell you about the door behind\nCaptain Conroy in 33 FUNGUS.  They'll also open up a bit—\nturning into a ghoul gives you an awful lot of emotional\nbaggage (to say nothing of cannibalizing your comrades).  :(\n7   favors:   Gerdith   will   give   you   her   crysmere   blade   (a\nTreasure ).     They'll   also   tell   you   where   Shawson   is\nimprisoned (39 STONE EGG) and about the magic item he\nhas.  They will not help you kill him (Shawson's a mate), but\nthey will not condemn you if you do (Shawson's completely\nferal).\n30",
+    "text": "What do the ghouls want?\nThe ghouls will ask for four favors.  If the ghouls are talking\nnicely   to   you,   they've   already   eaten,   so   you've   already\naccomplished one of those goals right off the bat.\n• Human meat.\n• Lots of meat.\n• The  destruction   of  the  ghost   fence  in   40 GHOST\nFENCE.  It blocks their escape.\n• To   humiliate   the   spider   crab   (in   31   TRAVERSE).\nThe ghouls believe that killing it is impossible.\nIf you accomplish at least 3 of those favors, they'll also ask\nthree more favors of you.\n• If you can beat Gerdith at a miniatures wargame (28\nGAMES) you will have their respect.\n• If you can put on a better show than Jasper (in 29\nSTAGE) they will think you're cool.\n• Destroy the Lamb.  They will help you, but they will\nnot take risks for you.\nThe ghouls will treat you better depending on how many of\nthese things you do.  Each ghoul you kill deducts one from\nthis total.",
     "labels": [],
-    "text_bytes": 1644,
+    "text_bytes": 935,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p29.4-favors",
+    "heading": "4 favors",
+    "pages": [
+      29
+    ],
+    "column": 1,
+    "text": "4 favors\n: The ghouls will try really, really hard not to eat\nyou.  (Cha save to resist.)",
+    "labels": [],
+    "text_bytes": 89,
+    "keyed_area": "4",
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p29.5-favors",
+    "heading": "5 favors",
+    "pages": [
+      29
+    ],
+    "column": 1,
+    "text": "5 favors\n: The party's favorite ghoul will join the party.",
+    "labels": [],
+    "text_bytes": 58,
+    "keyed_area": "5",
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p29.6-favors",
+    "heading": "6 favors",
+    "pages": [
+      29
+    ],
+    "column": 1,
+    "text": "6 favors\n: The ghouls will tell you about the door behind\nCaptain Conroy in 33 FUNGUS.  They'll also open up a bit—\nturning into a ghoul gives you an awful lot of emotional\nbaggage (to say nothing of cannibalizing your comrades).  :(",
+    "labels": [],
+    "text_bytes": 235,
+    "keyed_area": "6",
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p29.7-favors",
+    "heading": "7   favors:",
+    "pages": [
+      29,
+      30
+    ],
+    "column": 1,
+    "text": "7   favors:\nGerdith   will   give   you   her   crysmere   blade   (a\nTreasure\n).     They'll   also   tell   you   where   Shawson   is\nimprisoned (39 STONE EGG) and about the magic item he\nhas.  They will not help you kill him (Shawson's a mate), but\nthey will not condemn you if you do (Shawson's completely\nferal).\n30",
+    "labels": [],
+    "text_bytes": 321,
+    "keyed_area": "7",
+    "style": {
+      "size": 16.0,
+      "family": "F7",
       "bold": false,
       "color": "#000000"
     }
@@ -2867,9 +3677,9 @@
       30
     ],
     "column": 0,
-    "text": "21 HEAVY DOORS\nA pair of  heavy iron doors , kept closed with a  heavy bar\n(10') and a  set of chains .\nRemoving the bar is a  Milestone , since the party has now\nescaped from the Lamb (sort of).   If the Lamb has already\nbeen killed, the party doesn't get this Milestone.\nYou can hear   chatter and laughter   from the   two ghouls\nside   of   the   door.     This   is   Jasper   and   Luntz ,.     Jasper   is\nspeaking   to   the   door   as   if   it   were   the   host   of   a   party,\naccusing it of not sharing the best brandy with them.\n• Two people can pry the bar off to the side.   This\nallows the doors to open a small amount, allowing\na human to squeeze through (but not the Lamb).\n• The chain cannot be removed without heavy tools.\nIt would allow the doors to open fully.\nIf they hear the party fumbling with the door, they will\nfeign   friendship,   intending   to   eat   the   party   at   the   first\nopportunity  (and doing  a bad  job  to pretend otherwise).\nThey will speak openly of how hungry they are.\nIf the party tells the ghouls \"hey let us pass, there's some\ndead guys behind us, go eat them instead\", the ghouls will\npretend to believe them, then circle back and attack the\nparty shortly thereafter.\nIf the party leaves and comes back later, the duo will be\nwandering the halls (on the Random Encounter table).\nGhoul\nLvl  2   Def  leather   Claw  1d6+agony\nMove  as human   Int  5   Str  7   Dis  hungry\nJasper carries a   meerschaum pipe (50s) .   Luntz has a fake\nleg.  Inside, wrapped in felt to muffle any rattling, is a set of\nlock picks.",
+    "text": "21 HEAVY DOORS\nA pair of  heavy iron doors , kept closed with a  heavy bar\n(10') and a  set of chains .\nRemoving the bar is a  Milestone , since the party has now\nescaped from the Lamb (sort of).   If the Lamb has already\nbeen killed, the party doesn't get this Milestone.\nYou can hear   chatter and laughter   from the   two ghouls\nside   of   the   door.     This   is   Jasper   and   Luntz ,.     Jasper   is\nspeaking   to   the   door   as   if   it   were   the   host   of   a   party,\naccusing it of not sharing the best brandy with them.\n• Two people can pry the bar off to the side.   This\nallows the doors to open a small amount, allowing\na human to squeeze through (but not the Lamb).\n• The chain cannot be removed without heavy tools.\nIt would allow the doors to open fully.\nIf they hear the party fumbling with the door, they will\nfeign   friendship,   intending   to   eat   the   party   at   the   first\nopportunity  (and doing  a bad  job  to pretend otherwise).\nThey will speak openly of how hungry they are.\nIf the party tells the ghouls \"hey let us pass, there's some\ndead guys behind us, go eat them instead\", the ghouls will\npretend to believe them, then circle back and attack the\nparty shortly thereafter.\nIf the party leaves and comes back later, the duo will be\nwandering the halls (on the Random Encounter table).\nGhoul\nLvl\n2   Def  leather   Claw  1d6+agony\nMove\nas human   Int  5   Str  7   Dis  hungry\nJasper carries a   meerschaum pipe (50s) .   Luntz has a fake\nleg.  Inside, wrapped in felt to muffle any rattling, is a set of\nlock picks.",
     "labels": [],
-    "text_bytes": 1578,
+    "text_bytes": 1576,
     "keyed_area": "21",
     "style": {
       "size": 18.0,
@@ -2904,9 +3714,9 @@
       31
     ],
     "column": 1,
-    "text": "23 WEAK FLOOR\nThe  brick floor sags  here.  The center of the room is about\n2' lower than the edges. Water drips from the ceiling.\nA mummified head   (with its eyes and mouth sewn shut)\nlays in the exact middle of the room.   There is something\nshiny in its teeth.   ( 10g coins   and a note that says “now\nwe're paid up, rat fuck”).\nSmall items thrown into the room cause small collapses as\nthe ground falls away.   One you get more than 10' away\nfrom the S door,  40 lbs is enough to cause the whole room\nto collapse.  Every last bit of brick floor will fall away.\nThe far door is not easy to smash open, since you usually\nneed a stable place to stand before you can kick or swing a\nhammer.\nEven if a climber were secured to the wall with a harness,\niron spikes, and sledgehammer, it would still be impossible\nto smash open the door.  (That changes if the door is first\nweakened by acid or fire.)   A ballista bolt would open the\ndoor instantly.\n31",
+    "text": "23 WEAK FLOOR\nThe  brick floor sags  here.  The center of the room is about\n2' lower than the edges. Water drips from the ceiling.\nA mummified head\n(with its eyes and mouth sewn shut)\nlays in the exact middle of the room.   There is something\nshiny in its teeth.   ( 10g coins   and a note that says “now\nwe're paid up, rat fuck”).\nSmall items thrown into the room cause small collapses as\nthe ground falls away.   One you get more than 10' away\nfrom the S door,  40 lbs is enough to cause the whole room\nto collapse.  Every last bit of brick floor will fall away.\nThe far door is not easy to smash open, since you usually\nneed a stable place to stand before you can kick or swing a\nhammer.\nEven if a climber were secured to the wall with a harness,\niron spikes, and sledgehammer, it would still be impossible\nto smash open the door.  (That changes if the door is first\nweakened by acid or fire.)   A ballista bolt would open the\ndoor instantly.\n31",
     "labels": [],
-    "text_bytes": 954,
+    "text_bytes": 952,
     "keyed_area": "23",
     "style": {
       "size": 18.0,
@@ -2923,9 +3733,9 @@
       32
     ],
     "column": 0,
-    "text": "24 CRUSH HALLWAY\nSplinters and wood shards  are spread thickly around the\nE side of this hallway.  (Crushed furniture.)\nAs soon as anyone enters this 90' hallway, the ceiling will\nbegin   to   lower.     Any   touch   greater   than   a   feather   is\nsufficient to trigger the trap.  The ceiling takes 10 seconds\nto fall 10'.  It rests for 10 seconds, then resets.\nNo   Movement   check   is   required   for   a   human   to   sprint\nacross the hallway without getting crushed.\nHowever, Movement checks are required to jump over the 3\ntrap doors, which are perfectly disguised, but sound hollow\nif tapped.  Each trap door is just a hinge and a strong spring.\nIt is a 40' fall down to the water below.\n24A\nWater , 10' deep.   A   broken chair   missing two legs floats\nhere.\n24B\nWater , 10' deep.  A rusted-shut portcullis allows sight (but\nnot access) into 42 SUNKEN GALLERY.\n24C\nWater , 10' deep.  The water is covered with a layer of oil.  It\nburns for 5 minutes if ignited.\nOn the bottom are 2 flasks of oil and broken glass.\nCrossing the Hallway\nThe   easiest   way   to   cross   the   hallway   is   to   throw   an\nuncrushable   object   into   it,   such   as   the   metal   cage,   the\nballista, or a combination of other sturdy objects.   (Those\nobjects won't be recoverable, though.)\nYou could also cross the hallway by just climbing along the\nwall with iron spikes and ropes.   If the party chooses this\noption, it'll take about an hour, so a couple of encounter\nchecks will occur during it.\nLastly,   don't   forget   about   disabling   the   trap   doors   (22\nMUSHROOM) and then just sprinting across the hallway.\n32",
+    "text": "24 CRUSH HALLWAY\nSplinters and wood shards\nare spread thickly around the\nE side of this hallway.  (Crushed furniture.)\nAs soon as anyone enters this 90' hallway, the ceiling will\nbegin   to   lower.     Any   touch   greater   than   a   feather   is\nsufficient to trigger the trap.  The ceiling takes 10 seconds\nto fall 10'.  It rests for 10 seconds, then resets.\nNo   Movement   check   is   required   for   a   human   to   sprint\nacross the hallway without getting crushed.\nHowever, Movement checks are required to jump over the 3\ntrap doors, which are perfectly disguised, but sound hollow\nif tapped.  Each trap door is just a hinge and a strong spring.\nIt is a 40' fall down to the water below.\n24A\nWater\n, 10' deep.   A   broken chair   missing two legs floats\nhere.\n24B\nWater\n, 10' deep.  A rusted-shut portcullis allows sight (but\nnot access) into 42 SUNKEN GALLERY.\n24C\nWater\n, 10' deep.  The water is covered with a layer of oil.  It\nburns for 5 minutes if ignited.\nOn the bottom are 2 flasks of oil and broken glass.\nCrossing the Hallway\nThe   easiest   way   to   cross   the   hallway   is   to   throw   an\nuncrushable   object   into   it,   such   as   the   metal   cage,   the\nballista, or a combination of other sturdy objects.   (Those\nobjects won't be recoverable, though.)\nYou could also cross the hallway by just climbing along the\nwall with iron spikes and ropes.   If the party chooses this\noption, it'll take about an hour, so a couple of encounter\nchecks will occur during it.\nLastly,   don't   forget   about   disabling   the   trap   doors   (22\nMUSHROOM) and then just sprinting across the hallway.\n32",
     "labels": [],
-    "text_bytes": 1635,
+    "text_bytes": 1634,
     "keyed_area": "24",
     "style": {
       "size": 18.0,
@@ -2941,9 +3751,9 @@
       32
     ],
     "column": 0,
-    "text": "25 CRYPT\nIMPORTANT:   As soon as you enter these rooms, you can\nhear   heavy bootsteps and humming   from 27 BALLISTA.\nAs soon as the PCs bring a light source into Room 25E, 25F,\nor 25G they will be noticed by the ghouls in 27 BALLISTA.\nA  stone sarcophagus  rests in the center of each room.  A\nsingle person can move a lid with a successful Str check.  Six\npeople could gently set the lid on the floor, or pick it up.\nTiled patterns  cover the walls floor to ceiling.  It takes 10\nminutes to strip the tiles off a wall.\nIf all 7 mummies are reassembled and returned (or close\nenough), the character that took the most initiative in the\nprocess becomes Favored by Vandoh (Appendix C).     The\nmissing heads are in 29 STAGE.\n25A CRYPT\nThird   quarter   moon .     The   sarcophagus   contains   7\nmummified   left arms .   The door to 26 SECRET CRYPT is\nhidden behind the tiles on the south wall.\n25B CRYPT\nWaning   gibbous   moon .     The   sarcophagus   contains   7\nmummified  right arms.   One has a  hook hand prosthesis .\nNote that the portcullis to the S is currently lowered.  The\nwinch is 10' S of the portcullis.25D CRYPT\nFull  moon.     The   sarcophagus  contains   7  mummified   left\nlegs.\n25E CRYPT\nWaxing gibbous moon .   The sarcophagus contains   seven\nmummified torsos  and a cluster of large, jelly-like  eggs .\nThere is a fist-sized hole where something burrowed in.  If\nthe eggs are kept near bodyheat or food, they will hatch\ninto 1d6 slobberworms in 24 hours.  (Appendix A)\n25F CRYPT\nFirst quarter moon .   The sarcophagus contains a   burlap\nsack .  Inside are  2 mummified heads .  One character (and\nno other) will see and hear one of the heads say “correct\nthis juxtaposition”.\n25F CRYPT\nWaxing   crescent   moon .     The   sarcophagus   contains   7\nmummified  right legs .\n25G CRYPT\nNew moon .  The sarcophagus contains 5  broken staves , 2\nintact staves , and  6  purple robes  (50s each)  embroidered\nwith moonstones and orbital patterns.",
+    "text": "25 CRYPT\nIMPORTANT:\nAs soon as you enter these rooms, you can\nhear   heavy bootsteps and humming   from 27 BALLISTA.\nAs soon as the PCs bring a light source into Room 25E, 25F,\nor 25G they will be noticed by the ghouls in 27 BALLISTA.\nA  stone sarcophagus  rests in the center of each room.  A\nsingle person can move a lid with a successful Str check.  Six\npeople could gently set the lid on the floor, or pick it up.\nTiled patterns\ncover the walls floor to ceiling.  It takes 10\nminutes to strip the tiles off a wall.\nIf all 7 mummies are reassembled and returned (or close\nenough), the character that took the most initiative in the\nprocess becomes Favored by Vandoh (Appendix C).     The\nmissing heads are in 29 STAGE.\n25A CRYPT\nThird   quarter   moon\n.     The   sarcophagus   contains   7\nmummified   left arms .   The door to 26 SECRET CRYPT is\nhidden behind the tiles on the south wall.\n25B CRYPT\nWaning   gibbous   moon\n.     The   sarcophagus   contains   7\nmummified  right arms.   One has a  hook hand prosthesis .\nNote that the portcullis to the S is currently lowered.  The\nwinch is 10' S of the portcullis.25D CRYPT\nFull  moon.     The   sarcophagus  contains   7  mummified   left\nlegs.\n25E CRYPT\nWaxing gibbous moon\n.   The sarcophagus contains   seven\nmummified torsos\nand a cluster of large, jelly-like  eggs .\nThere is a fist-sized hole where something burrowed in.  If\nthe eggs are kept near bodyheat or food, they will hatch\ninto 1d6 slobberworms in 24 hours.  (Appendix A)\n25F CRYPT\nFirst quarter moon\n.   The sarcophagus contains a   burlap\nsack\n.  Inside are  2 mummified heads .  One character (and\nno other) will see and hear one of the heads say “correct\nthis juxtaposition”.\n25F CRYPT\nWaxing   crescent   moon\n.     The   sarcophagus   contains   7\nmummified  right legs .\n25G CRYPT\nNew moon\n.  The sarcophagus contains 5  broken staves , 2\nintact staves\n, and  6  purple robes  (50s each)  embroidered\nwith moonstones and orbital patterns.",
     "labels": [],
-    "text_bytes": 1976,
+    "text_bytes": 1972,
     "keyed_area": "25",
     "style": {
       "size": 18.0,
@@ -2960,9 +3770,9 @@
       33
     ],
     "column": 1,
-    "text": "26 SECRET CRYPT\nWaning crescent moon .\nA   sarcophagus   in   the   middle   of   the   room   contains   a\nmummy wearing a   fine purple robe (50s) , a stave, and an\ncomb made from a whelk (100s) .\nThe winch  on the wall controls the portcullis.\nA soldier's corpse  lies in the passage to the west (see 18A\nLEDGE).\n33",
+    "text": "26 SECRET CRYPT\nWaning crescent moon\n.\nA   sarcophagus\nin   the   middle   of   the   room   contains   a\nmummy wearing a   fine purple robe (50s) , a stave, and an\ncomb made from a whelk (100s)\n.\nThe winch\non the wall controls the portcullis.\nA soldier's corpse\nlies in the passage to the west (see 18A\nLEDGE).\n33",
     "labels": [],
-    "text_bytes": 318,
+    "text_bytes": 314,
     "keyed_area": "26",
     "style": {
       "size": 18.0,
@@ -2978,9 +3788,9 @@
       33
     ],
     "column": 0,
-    "text": "27 BALLISTA\nTwo armored ghouls  and  a wheeled  ballista (500 lbs).\nGerdith   marches around the room constantly, trying her\nbest to convince herself that she is still on patrol.  She has\nnot accepted the fact that she is a ghoul, and will deny it.\nThe only thing that she wants in the world is to eat you.\nMolina   hums   tunelessly   while   endlessly   polishing   the\nballista.  She has one bolt left (3d6 damage).  The ballista is\nnamed Conroy.  The last remaining bolt is Little Gerdith.\nGerdith is alert.   She can hear all the rooms between 25\nCRYPT   and   29   STAGE.     Combat,   a   portcullis   winch,  or   a\ndropped sarcophagus lid will alert her.  She can also see all\nthe way to room 29 STAGE and 25G CRYPT.   If torchlight\nenters any of those rooms, she will notice it.\nOnce alerted, she will loudly order Molina to accompany\nher while she investigates.  Molina will complain and crack\njokes.  Both ghouls will behave intelligently and ravenously.\nLike all ghouls, they run on all fours.\nArmored Ghoul\nLvl  2   Def  plate   Halberd  1d8\nMove  as human   Int  5   Str  7   Dis  hungry\nMolina wears 6 chalcedony rings (50s each) and two topaz\npendants (100s each).\nGerdith   carries   a   Treasure :   a   crysmere   blade   of   far\nCharcorra, as clear as a black mirror.  It is made from rare\nclays baked in a kiln for decades (as masterwork sword).",
+    "text": "27 BALLISTA\nTwo armored ghouls\nand  a wheeled  ballista (500 lbs).\nGerdith\nmarches around the room constantly, trying her\nbest to convince herself that she is still on patrol.  She has\nnot accepted the fact that she is a ghoul, and will deny it.\nThe only thing that she wants in the world is to eat you.\nMolina\nhums   tunelessly   while   endlessly   polishing   the\nballista.  She has one bolt left (3d6 damage).  The ballista is\nnamed Conroy.  The last remaining bolt is Little Gerdith.\nGerdith is alert.   She can hear all the rooms between 25\nCRYPT   and   29   STAGE.     Combat,   a   portcullis   winch,  or   a\ndropped sarcophagus lid will alert her.  She can also see all\nthe way to room 29 STAGE and 25G CRYPT.   If torchlight\nenters any of those rooms, she will notice it.\nOnce alerted, she will loudly order Molina to accompany\nher while she investigates.  Molina will complain and crack\njokes.  Both ghouls will behave intelligently and ravenously.\nLike all ghouls, they run on all fours.\nArmored Ghoul\nLvl\n2   Def  plate   Halberd  1d8\nMove\nas human   Int  5   Str  7   Dis  hungry\nMolina wears 6 chalcedony rings (50s each) and two topaz\npendants (100s each).\nGerdith   carries   a   Treasure :   a   crysmere   blade   of   far\nCharcorra, as clear as a black mirror.  It is made from rare\nclays baked in a kiln for decades (as masterwork sword).",
     "labels": [],
-    "text_bytes": 1368,
+    "text_bytes": 1361,
     "keyed_area": "27",
     "style": {
       "size": 18.0,
@@ -2996,9 +3806,9 @@
       33
     ],
     "column": 1,
-    "text": "28 GAMES\nA   miniature   landscape   dominates   the   room.     Ravines\nmade from wrinkled rugs.   Halfway evaporated lakes dug\ninto the floor.  Tiny forests, each tree made from carefully\ntwisted corpse hair.\n120   miniatures   (1s   each)   are   positioned   around   the\nlandscape in military formations.  Most are made from bits\nof corpses.\n16 dice  made from knuckle bones.\nSearching the room reveals a stack of mouldering character\nsheets,   a   brief   dalliance   before   the   ghouls   unanimously\ndecided that miniature wargaming was more fun.   (All of\nthe ghouls played fighters.)",
+    "text": "28 GAMES\nA   miniature   landscape\ndominates   the   room.     Ravines\nmade from wrinkled rugs.   Halfway evaporated lakes dug\ninto the floor.  Tiny forests, each tree made from carefully\ntwisted corpse hair.\n120   miniatures   (1s   each)\nare   positioned   around   the\nlandscape in military formations.  Most are made from bits\nof corpses.\n16 dice\nmade from knuckle bones.\nSearching the room reveals a stack of mouldering character\nsheets,   a   brief   dalliance   before   the   ghouls   unanimously\ndecided that miniature wargaming was more fun.   (All of\nthe ghouls played fighters.)",
     "labels": [],
-    "text_bytes": 595,
+    "text_bytes": 590,
     "keyed_area": "28",
     "style": {
       "size": 18.0,
@@ -3014,9 +3824,9 @@
       33
     ],
     "column": 1,
-    "text": "29 STAGE\nTwo tables , shoved together and covered with a rug.\nTwo chairs and a mock horse , made from broken wood\nand corpse bits.  It wears a purple robe (ruined) and has a\nsaddle (20s).\nFive mummified heads  sit on the stage, each one costumed\nto represent some stereotypical profession.  The clown, the\nking, the priest, and the prostitute all face the farmer, who\nfaces the audience.",
+    "text": "29 STAGE\nTwo tables\n, shoved together and covered with a rug.\nTwo chairs and a mock horse\n, made from broken wood\nand corpse bits.  It wears a purple robe (ruined) and has a\nsaddle (20s).\nFive mummified heads\nsit on the stage, each one costumed\nto represent some stereotypical profession.  The clown, the\nking, the priest, and the prostitute all face the farmer, who\nfaces the audience.",
     "labels": [],
-    "text_bytes": 387,
+    "text_bytes": 386,
     "keyed_area": "29",
     "style": {
       "size": 18.0,
@@ -3033,9 +3843,9 @@
       34
     ],
     "column": 1,
-    "text": "30 COFFER\nIMPORTANT:   As soon as you enter these rooms, you can\nhear   heavy bootsteps and humming   from 27 BALLISTA.\nAs soon as the PCs bring a light source into 29 STAGE they\nwill be noticed by the ghouls in 27 BALLISTA.\nA tiny coffer   (unlocked) holds an invisibility potion and\ntwo flasks of oil.\nA tiny green mushroom  grows out of the top of the coffer.\nAnyone eating it becomes Favored of Shendormu (Appendix\nC).\nNone of the ghouls have ever seen it before.\n34",
+    "text": "30 COFFER\nIMPORTANT:\nAs soon as you enter these rooms, you can\nhear   heavy bootsteps and humming   from 27 BALLISTA.\nAs soon as the PCs bring a light source into 29 STAGE they\nwill be noticed by the ghouls in 27 BALLISTA.\nA tiny coffer\n(unlocked) holds an invisibility potion and\ntwo flasks of oil.\nA tiny green mushroom\ngrows out of the top of the coffer.\nAnyone eating it becomes Favored of Shendormu (Appendix\nC).\nNone of the ghouls have ever seen it before.\n34",
     "labels": [],
-    "text_bytes": 470,
+    "text_bytes": 465,
     "keyed_area": "30",
     "style": {
       "size": 18.0,
@@ -3069,9 +3879,9 @@
       34
     ],
     "column": 0,
-    "text": "32 ISOPODS\nThree armored isopods  forage here.  They are extremely\nnon-aggressive, and will ignore the party.   If poked, they\nwill roll up into a ball.   If damaged, they will attempt to\nfight back.\nThe wear on the floor   seems uneven.   The floor is worn\nnear the E wall as if it were a doorway.\nA small round hole  in the N wall  The hole is 5' deep.  At\nthe back is the switch the opens the secret door.\nArmored Isopod\nLvl  1   Def  plate   Bite  1d6\nMove  slow   Int  1   Dis  leave me alone\nDefense Curl –  When curled up, an armored isopod cannot\nbe damaged by anything less than a sledgehammer (or any\nother 2H bludgeon).\nArmored   isopod   shells   are   only   a   few   millimeters   thick.\nThey are made from an insanely strong biometallic matrix\n(sort of a counterpart to spider silk).\nThey eat metal by licking it, then coming back later and\nnibbling off the rust.",
+    "text": "32 ISOPODS\nThree armored isopods\nforage here.  They are extremely\nnon-aggressive, and will ignore the party.   If poked, they\nwill roll up into a ball.   If damaged, they will attempt to\nfight back.\nThe wear on the floor\nseems uneven.   The floor is worn\nnear the E wall as if it were a doorway.\nA small round hole\nin the N wall  The hole is 5' deep.  At\nthe back is the switch the opens the secret door.\nArmored Isopod\nLvl\n1   Def  plate   Bite  1d6\nMove\nslow   Int  1   Dis  leave me alone\nDefense Curl –\nWhen curled up, an armored isopod cannot\nbe damaged by anything less than a sledgehammer (or any\nother 2H bludgeon).\nArmored   isopod   shells   are   only   a   few   millimeters   thick.\nThey are made from an insanely strong biometallic matrix\n(sort of a counterpart to spider silk).\nThey eat metal by licking it, then coming back later and\nnibbling off the rust.",
     "labels": [],
-    "text_bytes": 881,
+    "text_bytes": 874,
     "keyed_area": "32",
     "style": {
       "size": 18.0,
@@ -3087,9 +3897,9 @@
       34
     ],
     "column": 1,
-    "text": "33 FUNGUS\nFat stacks of huge blue polypores   cover the south wall.\nTheyemit an aura of nonviolence.  As long as the polypores\nare intact, no violence is possible in this room.  A character\nwho  takes  damage   (even  a  pin  prick,  even   self-inflicted)\ngets a Cha Save to resist this effect.\nA  complex mass of fungus  covers the north wall.  You can\nsee a chair under all of the wrinkled layers.  You can even\nsee a pair of legs, as if someone were sitting on the chair.\nBut everything above the waist is an indistinguishable film\nof chromatic arcs and radiating veins of fungus, radiating\nout   from   the   chair,   covering   the   whole   wall.     Near   the\nceiling, you can barely make out the shape of a skull.  (The\nother bones are buried in the mass.)\nA  harpoon  leans against the E wall.    Six silver shilavos  are\narranged at the foot of it, representing the ghouls.\nThis is what remains of Captain Conroy.  Like the others, he\nbecame a ghoul but was disgusted by his hunger.  He prayed\nto Shendormu, who granted him this release.\nHis   last   order   to   his   soldiers   was   that   they   destroy\nthemselves.   Some obeyed.   The ones who didn't are the\nGhouls.\nExcavating this fungus reveals the door to 34 CACHE.",
+    "text": "33 FUNGUS\nFat stacks of huge blue polypores\ncover the south wall.\nTheyemit an aura of nonviolence.  As long as the polypores\nare intact, no violence is possible in this room.  A character\nwho  takes  damage   (even  a  pin  prick,  even   self-inflicted)\ngets a Cha Save to resist this effect.\nA  complex mass of fungus  covers the north wall.  You can\nsee a chair under all of the wrinkled layers.  You can even\nsee a pair of legs, as if someone were sitting on the chair.\nBut everything above the waist is an indistinguishable film\nof chromatic arcs and radiating veins of fungus, radiating\nout   from   the   chair,   covering   the   whole   wall.     Near   the\nceiling, you can barely make out the shape of a skull.  (The\nother bones are buried in the mass.)\nA  harpoon  leans against the E wall.    Six silver shilavos  are\narranged at the foot of it, representing the ghouls.\nThis is what remains of Captain Conroy.  Like the others, he\nbecame a ghoul but was disgusted by his hunger.  He prayed\nto Shendormu, who granted him this release.\nHis   last   order   to   his   soldiers   was   that   they   destroy\nthemselves.   Some obeyed.   The ones who didn't are the\nGhouls.\nExcavating this fungus reveals the door to 34 CACHE.",
     "labels": [],
-    "text_bytes": 1238,
+    "text_bytes": 1236,
     "keyed_area": "33",
     "style": {
       "size": 18.0,
@@ -3106,9 +3916,9 @@
       35
     ],
     "column": 1,
-    "text": "34 CACHE\nA  set of plate mail  (conidiaspore insignia)\nA  shield  (a red mushroom, rampant)\nA   red silk battle standard   of the house of the avenging\nangel (200s)\nA  magnficent steel pipe  (50s)\nA  small bag : 2 doses of purple lotus powder (Appendix D)\nA  small bag : 3 doses of toad shavings (Appendix D)\nTwo blowtubes  of mevverwen (Appendix D)\nAnyone returning the battle standard to the Garrison of the\nGreen Angel will be invited to join them as a knight.\n35",
+    "text": "34 CACHE\nA  set of plate mail  (conidiaspore insignia)\nA  shield  (a red mushroom, rampant)\nA   red silk battle standard   of the house of the avenging\nangel (200s)\nA  magnficent steel pipe  (50s)\nA  small bag : 2 doses of purple lotus powder (Appendix D)\nA  small bag : 3 doses of toad shavings (Appendix D)\nTwo blowtubes\nof mevverwen (Appendix D)\nAnyone returning the battle standard to the Garrison of the\nGreen Angel will be invited to join them as a knight.\n35",
     "labels": [],
-    "text_bytes": 466,
+    "text_bytes": 465,
     "keyed_area": "34",
     "style": {
       "size": 18.0,
@@ -3124,7 +3934,7 @@
       35
     ],
     "column": 0,
-    "text": "35 TRICKY HALLWAY\nA small round hole in the ceiling , in the exact middle of\nthe hallway.  The hole is 4' deep.  If the switch at the back of\nit is depressed, a trap door opens up in the exact middle of\nthe hallway.\nAnyone falling down the trap door will fall for 40' before\nlanding on a pile of stacked furniture that barely rises above\nthe surface of the water.   Anyone searching the stacked\nfurniture will find 50s and a hooked net in the drawer of a\nrotten credenza.\nThere is a limerick written on the wall in chalk.\nThere once was a peasant named Clyde,\nWhose clothes were so drab that he cried.\nHis lackluster garments\nmade him so despondent,\nthat one day he just. . . dyed.\nThe bottom of this pit connects with 42 SUNKEN GALLERY",
+    "text": "35 TRICKY HALLWAY\nA small round hole in the ceiling\n, in the exact middle of\nthe hallway.  The hole is 4' deep.  If the switch at the back of\nit is depressed, a trap door opens up in the exact middle of\nthe hallway.\nAnyone falling down the trap door will fall for 40' before\nlanding on a pile of stacked furniture that barely rises above\nthe surface of the water.   Anyone searching the stacked\nfurniture will find 50s and a hooked net in the drawer of a\nrotten credenza.\nThere is a limerick written on the wall in chalk.\nThere once was a peasant named Clyde,\nWhose clothes were so drab that he cried.\nHis lackluster garments\nmade him so despondent,\nthat one day he just. . . dyed.\nThe bottom of this pit connects with 42 SUNKEN GALLERY",
     "labels": [],
     "text_bytes": 736,
     "keyed_area": "35",
@@ -3142,7 +3952,7 @@
       35
     ],
     "column": 0,
-    "text": "36 TABLE\nA  banquet table  with  five chairs .  Atop it is a  silver platter\n(50s) and a candelabra (20s) .\nA   tiny green mushroom   (Appendix A) is growing out of\none of the plates.",
+    "text": "36 TABLE\nA  banquet table  with  five chairs .  Atop it is a  silver platter\n(50s) and a candelabra (20s)\n.\nA   tiny green mushroom   (Appendix A) is growing out of\none of the plates.",
     "labels": [],
     "text_bytes": 183,
     "keyed_area": "36",
@@ -3161,9 +3971,9 @@
       36
     ],
     "column": 1,
-    "text": "37 CHEWED BONES\nImportant : As soon as you enter this room, one person will\nfeel the effects of the heads in 40 GHOST FENCE.   At this\ndistance, whoever is closest to to the heads will feel their\nteeth chattering.  The effect extends into 38 SHROUD (as far\nas the heads can see).\nA  mountain of gnawed bones .  If reassembled, they would\ncompose about 2 dozen human skeletons.  There are also a\nfew spider crab shells and claws in the rubbish (although\nnone as large as the specimen in 43 SPIDER CRAB).\nA  burlap sack  containing more gnawed bones.\nSearching the rubbish yields a spear with a shrunken head\ntied to it by its hair.\nA  tattered red banner  has been hung on the N wall.   Two\nbroken chair legs  have been stuck into holes in the wall,\nand the banner hung between them.   If the chair legs are\nremoved, you can see that the holes are quite deep.\nEach hole is 4' deep, and has a switch at the back of it.  If\nboth switches are pressed simultaneously, the secret door\nopens.  If they are both pressed again, the door closes.\nThe secret door is a 2' by 2' panel in the N wall, 8' off the\nground.   In 39 STONE EGG,   Shawson   has heard the door\nopen   and   is   now   waiting   beside   the   opening.     The   first\nperson to climb up into the opening will be surprised by\nShawson, who will grab them drag them into 39 STONE EGG,\nwhere he intends to eat them.\nIf someone with a torch stands on a chair in the middle of\nthe room, they will catch a glimpse of Shawson's yellow\neyes before the ghoul growls and retreats into 39 STONE\nEGG.\n36",
+    "text": "37 CHEWED BONES\nImportant\n: As soon as you enter this room, one person will\nfeel the effects of the heads in 40 GHOST FENCE.   At this\ndistance, whoever is closest to to the heads will feel their\nteeth chattering.  The effect extends into 38 SHROUD (as far\nas the heads can see).\nA  mountain of gnawed bones .  If reassembled, they would\ncompose about 2 dozen human skeletons.  There are also a\nfew spider crab shells and claws in the rubbish (although\nnone as large as the specimen in 43 SPIDER CRAB).\nA  burlap sack  containing more gnawed bones.\nSearching the rubbish yields a spear with a shrunken head\ntied to it by its hair.\nA  tattered red banner  has been hung on the N wall.   Two\nbroken chair legs\nhave been stuck into holes in the wall,\nand the banner hung between them.   If the chair legs are\nremoved, you can see that the holes are quite deep.\nEach hole is 4' deep, and has a switch at the back of it.  If\nboth switches are pressed simultaneously, the secret door\nopens.  If they are both pressed again, the door closes.\nThe secret door is a 2' by 2' panel in the N wall, 8' off the\nground.   In 39 STONE EGG,   Shawson   has heard the door\nopen   and   is   now   waiting   beside   the   opening.     The   first\nperson to climb up into the opening will be surprised by\nShawson, who will grab them drag them into 39 STONE EGG,\nwhere he intends to eat them.\nIf someone with a torch stands on a chair in the middle of\nthe room, they will catch a glimpse of Shawson's yellow\neyes before the ghoul growls and retreats into 39 STONE\nEGG.\n36",
     "labels": [],
-    "text_bytes": 1552,
+    "text_bytes": 1551,
     "keyed_area": "37",
     "style": {
       "size": 18.0,
@@ -3197,9 +4007,9 @@
       36
     ],
     "column": 0,
-    "text": "39 STONE EGG\nThis   room   is   the   prison   of   Shawson   the   ghoul.     He   is\nravenous and insane.  The person he is trying to kill at the\nmoment is his “pretty little fish”.  Everyone else is a “dirty\nfilthy”.\nGhoul\nLvl  2   Def  leather   Claw  1d6+agony\nMove  as human   Int  5   Str  7   Dis  hungry\nThe Stone Egg sits inside the room.   It is seemingly made\nfrom polished pinkish-brown stone, and is about 3' tall and\nis   covered   with   grooves,   whorls,   and   carved   animals.\nAnyone putting their ear up to it can hear faint screaming.\n• Ape\n• Elephant\n• Bat\n• Chicken*\n• Snake*\n• Octopus*\n• Rat\n• Pyorn* (giant bird)\n• Horse\n• Toad*\nEach time an animal is touched, it lights up.  If all the egg-\nlaying   animals   (indicated   with   an   asterisk)   are   touched\nsimultaneously, the egg will unfold like a flower.\nEach time five incorrect animals are touched, the glow of a\ntouched   animal   becomes   dimmer.     After   four   failed\nattempts, the egg becomes inert for 24 hours.\nAs soon as the Egg begins to open, the sound of screaming\nfills the air.  This provokes a Encounter check.\nInside the egg is  600 silver shilavos , the a  Treasure called\nthe Abacus of Vandoh (Appendix A), a head that never stops\nscreaming, and a headless skeleton.\nIf anyone climbs inside the egg, it will zip back up, trapping\nthat person inside until they die of suffocation, at which\npoint   they   also   become   a   perpetually   screaming   head\nattached to a skeleton.",
+    "text": "39 STONE EGG\nThis   room   is   the   prison   of   Shawson   the   ghoul.     He   is\nravenous and insane.  The person he is trying to kill at the\nmoment is his “pretty little fish”.  Everyone else is a “dirty\nfilthy”.\nGhoul\nLvl\n2   Def  leather   Claw  1d6+agony\nMove\nas human   Int  5   Str  7   Dis  hungry\nThe Stone Egg sits inside the room.   It is seemingly made\nfrom polished pinkish-brown stone, and is about 3' tall and\nis   covered   with   grooves,   whorls,   and   carved   animals.\nAnyone putting their ear up to it can hear faint screaming.\n• Ape\n• Elephant\n• Bat\n• Chicken*\n• Snake*\n• Octopus*\n• Rat\n• Pyorn* (giant bird)\n• Horse\n• Toad*\nEach time an animal is touched, it lights up.  If all the egg-\nlaying   animals   (indicated   with   an   asterisk)   are   touched\nsimultaneously, the egg will unfold like a flower.\nEach time five incorrect animals are touched, the glow of a\ntouched   animal   becomes   dimmer.     After   four   failed\nattempts, the egg becomes inert for 24 hours.\nAs soon as the Egg begins to open, the sound of screaming\nfills the air.  This provokes a Encounter check.\nInside the egg is  600 silver shilavos , the a  Treasure called\nthe Abacus of Vandoh (Appendix A), a head that never stops\nscreaming, and a headless skeleton.\nIf anyone climbs inside the egg, it will zip back up, trapping\nthat person inside until they die of suffocation, at which\npoint   they   also   become   a   perpetually   screaming   head\nattached to a skeleton.",
     "labels": [],
-    "text_bytes": 1515,
+    "text_bytes": 1513,
     "keyed_area": "39",
     "style": {
       "size": 18.0,
@@ -3235,9 +4045,9 @@
       38
     ],
     "column": 0,
-    "text": "41 SUNKEN SHRINE\nWater , 10' deep.   Someone looking carefully at the water\ncan  see  a   four stone  pews,   a   rusted metal cage   (large\nenough to hold a man), a  stone idol of Vandoh  (rising from\nthe water), and an  quadrupedal statue .\nThe status  is an   ancient   apparatus  of anguish .    It is a\nquadrupedal statue without a clear head or face.  It is made\nof pinkish-brown stone, and covered in whorls and grooves.\nIt is protected from falling bricks by 4' of water above its\nhead.\nTwo rounds after someone enters the room (by falling or\notherwise),   the   ancient   apparatus   will   attempt   to   attack\npeople and exit the pit.\nAncient Apparatus of Anguish\nLvl  4   Def  none   Slam  1d6\nAmble  slow   Climb  spider   Int  3\nStone  – All non-bludgeoning damage is reduced to 1.\nAncient Tone  – A fleshy target within 10' takes 1d6 damage\n(Cha Save negates).\nAnguish   Pattern   –   Whenever   this   apparatus   damages\nsomething with its tone, all ancient apparatuses within 30'\n(including this one) are healed for an equal amount.\nWhen the ancient apparatus gazes at people it causes their\nvoxels to fall off.  Basically, it stares at your arm and then\nbits of your arm turn into skin-covered cubes the size of\ndice and then fall away.  The wounds that they leave behind\nare also covered with healthy skin.  It's a bit like killing a\nsprite   by  dissolving  its  pixels.     There   is  no  pain,  only  a\nsudden sensation of numbness.\nOnce the apparatus loses half of its hit points, it will begin\nbleeding.  (It is only a statue on the outside.)\nIt will attempt to escape this room (potentially adding it to\nthe wandering monster table).\nThe statue of Vandoh resembles a polished marble statue of\na muscular male wrapped in a toga.   The surface is made\nfrom polygons with time-smoothed vertexes.  The statue's\nhead is some type of platonic solid, but each time you try to\ncount the sides, you get a different answer.\nThe first person to speak or pray to the statue will have\ntheir left hand possessed.   The hand will be rigid, holding\nup the number of fingers that correspond to the number of\nremaining ghouls in the dungeon.   Whenever  a ghoul is\nencountered,   the   hand  will   clench   with  rage.     If   all   the\nghouls   are   killed,   the   character   will   become   Favored   by\nVandoh (Appendix D)..\n38",
+    "text": "41 SUNKEN SHRINE\nWater\n, 10' deep.   Someone looking carefully at the water\ncan  see  a   four stone  pews,   a   rusted metal cage   (large\nenough to hold a man), a  stone idol of Vandoh  (rising from\nthe water), and an  quadrupedal statue .\nThe status  is an   ancient   apparatus  of anguish .    It is a\nquadrupedal statue without a clear head or face.  It is made\nof pinkish-brown stone, and covered in whorls and grooves.\nIt is protected from falling bricks by 4' of water above its\nhead.\nTwo rounds after someone enters the room (by falling or\notherwise),   the   ancient   apparatus   will   attempt   to   attack\npeople and exit the pit.\nAncient Apparatus of Anguish\nLvl\n4   Def  none   Slam  1d6\nAmble\nslow   Climb  spider   Int  3\nStone\n– All non-bludgeoning damage is reduced to 1.\nAncient Tone\n– A fleshy target within 10' takes 1d6 damage\n(Cha Save negates).\nAnguish   Pattern   –\nWhenever   this   apparatus   damages\nsomething with its tone, all ancient apparatuses within 30'\n(including this one) are healed for an equal amount.\nWhen the ancient apparatus gazes at people it causes their\nvoxels to fall off.  Basically, it stares at your arm and then\nbits of your arm turn into skin-covered cubes the size of\ndice and then fall away.  The wounds that they leave behind\nare also covered with healthy skin.  It's a bit like killing a\nsprite   by  dissolving  its  pixels.     There   is  no  pain,  only  a\nsudden sensation of numbness.\nOnce the apparatus loses half of its hit points, it will begin\nbleeding.  (It is only a statue on the outside.)\nIt will attempt to escape this room (potentially adding it to\nthe wandering monster table).\nThe statue of Vandoh resembles a polished marble statue of\na muscular male wrapped in a toga.   The surface is made\nfrom polygons with time-smoothed vertexes.  The statue's\nhead is some type of platonic solid, but each time you try to\ncount the sides, you get a different answer.\nThe first person to speak or pray to the statue will have\ntheir left hand possessed.   The hand will be rigid, holding\nup the number of fingers that correspond to the number of\nremaining ghouls in the dungeon.   Whenever  a ghoul is\nencountered,   the   hand  will   clench   with  rage.     If   all   the\nghouls   are   killed,   the   character   will   become   Favored   by\nVandoh (Appendix D)..\n38",
     "labels": [],
-    "text_bytes": 2351,
+    "text_bytes": 2345,
     "keyed_area": "41",
     "style": {
       "size": 18.0,
@@ -3253,9 +4063,9 @@
       38
     ],
     "column": 0,
-    "text": "42 SUNKEN GALLERY\nWater,  10' deep.  The room is 40' tall.\nSix huge statues  loom out of the water, each hold holding\na stone coffer (usually under their arm).  The stone coffers\nare part of their respective statues, and cannot be removed.\nFive coffers hold poisonous gas.  One coffer holds a treasure.\nThe  king  stands proud.  He holds his coffer overhead gazes\nat the shepherd.  His coffer holds poison.\nThe  knight  stands as if weary, but his eyes are on the crone.\nHis coffer holds poison.\nThe  shepherd  smiles brightly, a sheep under his arm.   He\nwatches the scribe.  His coffer holds poison.\nThe   beggar   holds  his  plate   out   towards  the  crone.     His\ncoffer holds poison.\nThe   crone   bows to the king.   She holds her coffer behind\nher back.  Her coffer contains a  Treasure : the hand mirror\nof lies (Appendix A), a bottle of liquid boat (Appendix A),\nand a pouch containing  50 golden gorbels (500s) .\nThe  scribe  watches the crone while clutching a scroll to his\nchest.  The scroll can be read: “The sheep do not know the\nshepherd, but they follow nonetheless”.\nWhenever a poison-filled coffer is opened, anyone in front\nof   the   coffer   must   make   a   Dex   save   or   be   poisoned\n(1d6/round   until   Con   check).     Opening   a   coffer   with   a\nhooked pole, or opening the coffer from the side, grants a\n+4 bonus to the Dex check.  Then, the poison gas expands to\nfill the room.  Characters who flee immediately will not be\npoisoned.  The poison gas takes 10 minutes to settle.\nThis  room also  connects to  24 CRUSH  HALLWAY  and 25\nTRICKY   HALLWAY,   but   those   rooms   cannot   be   accessed\nunless the trap doors are open.",
+    "text": "42 SUNKEN GALLERY\nWater,\n10' deep.  The room is 40' tall.\nSix huge statues\nloom out of the water, each hold holding\na stone coffer (usually under their arm).  The stone coffers\nare part of their respective statues, and cannot be removed.\nFive coffers hold poisonous gas.  One coffer holds a treasure.\nThe  king  stands proud.  He holds his coffer overhead gazes\nat the shepherd.  His coffer holds poison.\nThe  knight  stands as if weary, but his eyes are on the crone.\nHis coffer holds poison.\nThe  shepherd  smiles brightly, a sheep under his arm.   He\nwatches the scribe.  His coffer holds poison.\nThe   beggar   holds  his  plate   out   towards  the  crone.     His\ncoffer holds poison.\nThe   crone   bows to the king.   She holds her coffer behind\nher back.  Her coffer contains a  Treasure : the hand mirror\nof lies (Appendix A), a bottle of liquid boat (Appendix A),\nand a pouch containing  50 golden gorbels (500s) .\nThe  scribe  watches the crone while clutching a scroll to his\nchest.  The scroll can be read: “The sheep do not know the\nshepherd, but they follow nonetheless”.\nWhenever a poison-filled coffer is opened, anyone in front\nof   the   coffer   must   make   a   Dex   save   or   be   poisoned\n(1d6/round   until   Con   check).     Opening   a   coffer   with   a\nhooked pole, or opening the coffer from the side, grants a\n+4 bonus to the Dex check.  Then, the poison gas expands to\nfill the room.  Characters who flee immediately will not be\npoisoned.  The poison gas takes 10 minutes to settle.\nThis  room also  connects to  24 CRUSH  HALLWAY  and 25\nTRICKY   HALLWAY,   but   those   rooms   cannot   be   accessed\nunless the trap doors are open.",
     "labels": [],
-    "text_bytes": 1678,
+    "text_bytes": 1676,
     "keyed_area": "42",
     "style": {
       "size": 18.0,
@@ -3271,9 +4081,9 @@
       38
     ],
     "column": 1,
-    "text": "43 SPIDER CRAB\nBrown water , 10' deep and much murkier than usual.\nHiding in the water is a  giant, undead spider crab .  It will\ntry to keep its eyestalks above the water in order to watch\nthe party.   The first time that it notices that it has been\nnoticed, it will try to hide for a few seconds.\nThe floor above is 40' above the surface of the water.  The\nspider crab is capable of reaching 38' out of the water.   If\nanything ever drops within reach, the crab will lunge at it.\nIF   any   large   object   is   ever   dropped   in   the   pool   (table,\nballista), the crab will eventually stand on it and escape.  It\nis perfectly capable of squeezing through a 10' hallway.\nSpider Crab\nLvl  7   Def  leather   Claw/claw  1d8/1d8+grab\nMove  slow   Int  5   Dis  fanatical\nThe crab is all that is left of a high priestess of Vandoh.  If\nshe   escapes   her   pit,   add   her   to   the   wandering   monster\ntable.",
+    "text": "43 SPIDER CRAB\nBrown water\n, 10' deep and much murkier than usual.\nHiding in the water is a  giant, undead spider crab .  It will\ntry to keep its eyestalks above the water in order to watch\nthe party.   The first time that it notices that it has been\nnoticed, it will try to hide for a few seconds.\nThe floor above is 40' above the surface of the water.  The\nspider crab is capable of reaching 38' out of the water.   If\nanything ever drops within reach, the crab will lunge at it.\nIF   any   large   object   is   ever   dropped   in   the   pool   (table,\nballista), the crab will eventually stand on it and escape.  It\nis perfectly capable of squeezing through a 10' hallway.\nSpider Crab\nLvl\n7   Def  leather   Claw/claw  1d8/1d8+grab\nMove\nslow   Int  5   Dis  fanatical\nThe crab is all that is left of a high priestess of Vandoh.  If\nshe   escapes   her   pit,   add   her   to   the   wandering   monster\ntable.",
     "labels": [],
-    "text_bytes": 918,
+    "text_bytes": 916,
     "keyed_area": "43",
     "style": {
       "size": 18.0,
@@ -3327,9 +4137,9 @@
       41
     ],
     "column": 0,
-    "text": "44A WALL\nWater , waist-high.\nThe brick wall   to the W seems to be of a more modern\nconstruction than the rest of the dungeon.\nA   faint   splashing   sound   can   be   heard   behind   it.\nInvestigating the brick wall reveals a loose brick.   If the\nbrick is removed, the party can smell fresh air.\nBeyond the brick wall, torchlight will reveal a huge room,\nwith nothing to see except water receding into darkness.  At\nthe edge of the torchlight, two huge, water-stained pillars\nrise out of the water.\nIf   the   party   has   a   couple   of   suitable   tools,   making   an\nopening large enough for a man to squeeze through takes 6\nminutes.   Making an  opening wide enough to fit a table\nthrough takes 10 minutes.\nBreaking down the wall is very noisy.\nOn this side of the wall, the noise will automatically attract\nall   available   ghouls,   the   apparatus,   and   the   spider   crab\n(assuming those parties are still alive and able to reach this\nlocation).     Each   party   will   arrive   in   5+1d4   minutes.     If\nmultiple parties arrive at the same time, there will probably\nbe violence atop the stairs.\nThe Lamb will also hear the vibrations, and will arrive in\n5+1d4 minutes.  It will sit on the bottom of 44 CISTERN, near\nthe mouth of the underwater tunnel, and wait.\nIf   the   Lamb  has   been   killed,   this   next   part   should   be   a\nbreeze (you earned it).\n44 CISTERN\nWater , 10' deep.\n16 huge, water-stained pillars .   Each one is about 5' in\ndiameter.\nThe   splashing and creaking   of the noria (waterwheel) is\nvery loud.  It's a 60' tall wheel that extends into the ceiling\nnear the south wall, where it carries water up to the White\nTemple above and dumps it into a trough.   It is not very\nefficient, and so it constantly spills water.  There is no space\nfor a human to escape up into the temple above.  It is made\nof stout lumber.\nAnyone entering the center (50' x 50') of the room will be\nable to see the glow of sunlight from the north.  Anyone in\nwith a line of sight to 46 DAYLIGHT can see a thick pillar of\ndusty light filling that room.\nAs soon  as someone  enters  the  center (50' x   50') of  the\nroom, the Lamb will start swimming towards them.   One\nround later, it will urinate in anticipation, filling the air\nabove with the stink of ammonia.  The round after that, it\nwill lose patience and begin swimming on the surface.\nThe Lamb swims 10' per round.\nA human can also swim 10' per round, but every item they\ncarry reduces their swim speed by 1', down to a minimum\nof 5' per round.\nA   makeshift   boat   (e.g.   table)   can   be   paddled   at   10'   per\nround.  Every paddle (e.g. plank) adds 1' to the speed, up to\n15'  per  round.    Each  person  on  a table-boat  beyond  the\nsecond will reduce the table's speed by 1'.\n41\nFIGHTING THE LAMB\nThis is a tough arena to fight the lamb in.  The smartest way\nto kill the lamb is to probably go back to 8 PIT when the\nLamb is resting there (2-in-6 of the time) and kill it with fire\nand sharp things while it struggles to climb out.  I consider\nthis a satisfying conclusion for the Lamb.\nIf the party insists on fighting the Lamb in the cistern, I\nrecommend running it with a battlemap.   You'll probably\nhave as many as 3 groups of people paddling or swimming.\nThere   are   plenty   of   ways   to   kill   the   Lamb   in   this\nenvironment,   possibly   using   a   combination   of   harpoons,\nhooked nets, ropes, and burning oil.\nIf they try to go fishing for the Lamb, using the hook hand\nand some acceptable bait, let it work automatically the first\ntime.\nIf they manage to get the Lamb ensnared in the noria, allow\nthe  Lamb   to  be  dragged   along with   the  waterwheel   and\ncrushed against the slotted ceiling.  (You can expect a swift\nand forceful response from the White Temple when their\ngodling is viscerally ejected into their drinking fountain).",
+    "text": "44A WALL\nWater\n, waist-high.\nThe brick wall\nto the W seems to be of a more modern\nconstruction than the rest of the dungeon.\nA   faint   splashing   sound   can   be   heard   behind   it.\nInvestigating the brick wall reveals a loose brick.   If the\nbrick is removed, the party can smell fresh air.\nBeyond the brick wall, torchlight will reveal a huge room,\nwith nothing to see except water receding into darkness.  At\nthe edge of the torchlight, two huge, water-stained pillars\nrise out of the water.\nIf   the   party   has   a   couple   of   suitable   tools,   making   an\nopening large enough for a man to squeeze through takes 6\nminutes.   Making an  opening wide enough to fit a table\nthrough takes 10 minutes.\nBreaking down the wall is very noisy.\nOn this side of the wall, the noise will automatically attract\nall   available   ghouls,   the   apparatus,   and   the   spider   crab\n(assuming those parties are still alive and able to reach this\nlocation).     Each   party   will   arrive   in   5+1d4   minutes.     If\nmultiple parties arrive at the same time, there will probably\nbe violence atop the stairs.\nThe Lamb will also hear the vibrations, and will arrive in\n5+1d4 minutes.  It will sit on the bottom of 44 CISTERN, near\nthe mouth of the underwater tunnel, and wait.\nIf   the   Lamb  has   been   killed,   this   next   part   should   be   a\nbreeze (you earned it).\n44 CISTERN\nWater\n, 10' deep.\n16 huge, water-stained pillars\n.   Each one is about 5' in\ndiameter.\nThe   splashing and creaking   of the noria (waterwheel) is\nvery loud.  It's a 60' tall wheel that extends into the ceiling\nnear the south wall, where it carries water up to the White\nTemple above and dumps it into a trough.   It is not very\nefficient, and so it constantly spills water.  There is no space\nfor a human to escape up into the temple above.  It is made\nof stout lumber.\nAnyone entering the center (50' x 50') of the room will be\nable to see the glow of sunlight from the north.  Anyone in\nwith a line of sight to 46 DAYLIGHT can see a thick pillar of\ndusty light filling that room.\nAs soon  as someone  enters  the  center (50' x   50') of  the\nroom, the Lamb will start swimming towards them.   One\nround later, it will urinate in anticipation, filling the air\nabove with the stink of ammonia.  The round after that, it\nwill lose patience and begin swimming on the surface.\nThe Lamb swims 10' per round.\nA human can also swim 10' per round, but every item they\ncarry reduces their swim speed by 1', down to a minimum\nof 5' per round.\nA   makeshift   boat   (e.g.   table)   can   be   paddled   at   10'   per\nround.  Every paddle (e.g. plank) adds 1' to the speed, up to\n15'  per  round.    Each  person  on  a table-boat  beyond  the\nsecond will reduce the table's speed by 1'.\n41\nFIGHTING THE LAMB\nThis is a tough arena to fight the lamb in.  The smartest way\nto kill the lamb is to probably go back to 8 PIT when the\nLamb is resting there (2-in-6 of the time) and kill it with fire\nand sharp things while it struggles to climb out.  I consider\nthis a satisfying conclusion for the Lamb.\nIf the party insists on fighting the Lamb in the cistern, I\nrecommend running it with a battlemap.   You'll probably\nhave as many as 3 groups of people paddling or swimming.\nThere   are   plenty   of   ways   to   kill   the   Lamb   in   this\nenvironment,   possibly   using   a   combination   of   harpoons,\nhooked nets, ropes, and burning oil.\nIf they try to go fishing for the Lamb, using the hook hand\nand some acceptable bait, let it work automatically the first\ntime.\nIf they manage to get the Lamb ensnared in the noria, allow\nthe  Lamb   to  be  dragged   along with   the  waterwheel   and\ncrushed against the slotted ceiling.  (You can expect a swift\nand forceful response from the White Temple when their\ngodling is viscerally ejected into their drinking fountain).",
     "labels": [],
-    "text_bytes": 3873,
+    "text_bytes": 3871,
     "keyed_area": "44",
     "style": {
       "size": 18.0,
@@ -3345,9 +4155,9 @@
       41
     ],
     "column": 0,
-    "text": "45 BARRELS\n16 barrels   containing water.   They are stamped with the\ninsignia of the White Temple.\nA  rowboat  containing 2 flasks of oil.  1 person can row it 20'\nper round.\nStairs  ascend to a locked steel door.  (Behind it is the White\nTemple's kitchen cellar.)  No one will answer you knock.",
+    "text": "45 BARRELS\n16 barrels\ncontaining water.   They are stamped with the\ninsignia of the White Temple.\nA  rowboat  containing 2 flasks of oil.  1 person can row it 20'\nper round.\nStairs\nascend to a locked steel door.  (Behind it is the White\nTemple's kitchen cellar.)  No one will answer you knock.",
     "labels": [],
-    "text_bytes": 296,
+    "text_bytes": 293,
     "keyed_area": "45",
     "style": {
       "size": 18.0,
@@ -3363,9 +4173,9 @@
       41
     ],
     "column": 0,
-    "text": "46 DAYLIGHT\nBarely-submerged   rubble .     Made   from   broken   stairs.\nThere is space for 1 man to stand.\nStone stairs , 20' in the air.\nReaching   the   stairs   requires   either   a   successful   attempt\nwith a grappling hook (Attack roll vs AC 15) or climbing the\nslick walls (two Movement checks, one for every 10').  The\nlamb can climb these walls as fast as a human can.\nThe stairs go up 60' to a wooden trapdoor, which leads to\n46A TRUMPET (not on map).\n46A STATUE (not shown on map)\nA circular room, 30' in diameter.\nA   statue of Vandoh.    It can be toppled to block the trap\ndoor.\nTwo steel doors  (locked).\nStairs  go up 40' to 46B FREEDOM.\n46B TOWER (not shown on map)\nThe top of one of the White Temple's towers.\nA  trumpet .\nThe ground—and your freedom—is 40' below you.\nEscaping the dungeon is a  Milestone .",
+    "text": "46 DAYLIGHT\nBarely-submerged   rubble\n.     Made   from   broken   stairs.\nThere is space for 1 man to stand.\nStone stairs\n, 20' in the air.\nReaching   the   stairs   requires   either   a   successful   attempt\nwith a grappling hook (Attack roll vs AC 15) or climbing the\nslick walls (two Movement checks, one for every 10').  The\nlamb can climb these walls as fast as a human can.\nThe stairs go up 60' to a wooden trapdoor, which leads to\n46A TRUMPET (not on map).\n46A STATUE (not shown on map)\nA circular room, 30' in diameter.\nA   statue of Vandoh.    It can be toppled to block the trap\ndoor.\nTwo steel doors\n(locked).\nStairs\ngo up 40' to 46B FREEDOM.\n46B TOWER (not shown on map)\nThe top of one of the White Temple's towers.\nA  trumpet .\nThe ground—and your freedom—is 40' below you.\nEscaping the dungeon is a  Milestone .",
     "labels": [],
-    "text_bytes": 834,
+    "text_bytes": 832,
     "keyed_area": "46",
     "style": {
       "size": 18.0,
@@ -3527,13 +4337,31 @@
       44
     ],
     "column": 0,
-    "text": "Skull of Davok\nThis is the remnant of a powerful demon.   It resembles a\ndeformed elephant skull.\nOnce   freed   from   its   lead-lined   chest,   it   will   attempt   to\nabsorb flesh from 1 person per round within 30' (Cha Save\nor die).  It has not mode of transportation, but with an hour\nof work, it can call a carpet of vermin to carry it places (at a\ncrawl).   If Davok ends up wandering the dungeon in this\nway, add him to the Random Encounter Table (replacing the\nAtmospheric Encounters in rooms 1-20).\nOnce it has absorbed flesh, it will regrow much of its head.\nIt looks nothing at all like an elephant.\nThis will allow it  to regain its voice, which  is  thick  and\nviscous.     Davok   will   demand   to   be   carried   out   of   the\ndungeon, and will cast  geas  on people until he gets what he\nwants.\nOnce it has a thrall to carry it, it will appear to go to sleep\n(while   it   searches   the   ether   for   the   other   pieces   of   its\nfragmented body).\nThe  geased  thrall is still a playable PC, but they are utterly\ndedicated to serving Davok, and will not tolerate any word\nor action against  their master.   If pressed,  they will call\nDavok's name.\nDavok will awake if it is touched, or if its name is called.  In\ncombat, it casts   ignite   (3d6 fire damage, Dex for half) and\npolymorph   (3 MD).   Dealing 10 points of damage to it in a\nsingle round will stun it for 1 minute while it knits itself\nback together, but there is nothing in this dungeon capable\nof destroying it.  If Davok is ever forced back into the leaden\nchest, he once again becomes inert.\nOnce free, Davok will begin searching for his missing body\nparts.  His loyal thrall will become a warlock in his service.\nIf they do not wish to become a warlock, they will be made\nto.  The rest of the party can either join in service to Davok,\nor go their own way.  If they choose the latter, the newly\nminted warlock becomes an allied NPC within the city of\nLon Barago.",
+    "text": "Skull of Davok\nThis is the remnant of a powerful demon.   It resembles a\ndeformed elephant skull.\nOnce   freed   from   its   lead-lined   chest,   it   will   attempt   to\nabsorb flesh from 1 person per round within 30' (Cha Save\nor die).  It has not mode of transportation, but with an hour\nof work, it can call a carpet of vermin to carry it places (at a\ncrawl).   If Davok ends up wandering the dungeon in this\nway, add him to the Random Encounter Table (replacing the\nAtmospheric Encounters in rooms 1-20).\nOnce it has absorbed flesh, it will regrow much of its head.\nIt looks nothing at all like an elephant.\nThis will allow it  to regain its voice, which  is  thick  and\nviscous.     Davok   will   demand   to   be   carried   out   of   the\ndungeon, and will cast  geas  on people until he gets what he\nwants.\nOnce it has a thrall to carry it, it will appear to go to sleep\n(while   it   searches   the   ether   for   the   other   pieces   of   its\nfragmented body).\nThe  geased  thrall is still a playable PC, but they are utterly\ndedicated to serving Davok, and will not tolerate any word\nor action against  their master.   If pressed,  they will call\nDavok's name.\nDavok will awake if it is touched, or if its name is called.  In\ncombat, it casts   ignite   (3d6 fire damage, Dex for half) and",
     "labels": [],
-    "text_bytes": 1961,
+    "text_bytes": 1307,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p44.polymorph",
+    "heading": "polymorph",
+    "pages": [
+      44
+    ],
+    "column": 1,
+    "text": "polymorph\n(3 MD).   Dealing 10 points of damage to it in a\nsingle round will stun it for 1 minute while it knits itself\nback together, but there is nothing in this dungeon capable\nof destroying it.  If Davok is ever forced back into the leaden\nchest, he once again becomes inert.\nOnce free, Davok will begin searching for his missing body\nparts.  His loyal thrall will become a warlock in his service.\nIf they do not wish to become a warlock, they will be made\nto.  The rest of the party can either join in service to Davok,\nor go their own way.  If they choose the latter, the newly\nminted warlock becomes an allied NPC within the city of\nLon Barago.",
+    "labels": [],
+    "text_bytes": 651,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F9",
       "bold": false,
       "color": "#000000"
     }
@@ -3890,13 +4718,67 @@
       48
     ],
     "column": 0,
-    "text": "Lambfruit\nHere are the types of Lambfruit (and how many of each type\nare currently hanging off the Lamb).\n• Nascent   Lambfruit   (52)   –   Dark   green.     Causes\nnausea, vomiting, and rampant paranoia about the\nfuture.\n• Immature Lambfruit (6) –  Orange.  Allows you to\nsee   six   seconds   into  the   future,   per   precognition .\nCon Save vs nausea and vomiting.\n• Mature Lambfruit (0) –  Bright red.  Allows you to\nyou   see   one   major   future   event   with   relative\nclarity.",
+    "text": "Lambfruit\nHere are the types of Lambfruit (and how many of each type\nare currently hanging off the Lamb).",
     "labels": [],
-    "text_bytes": 504,
+    "text_bytes": 105,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p48.nascent-lambfruit-52",
+    "heading": "• Nascent   Lambfruit   (52)   –",
+    "pages": [
+      48
+    ],
+    "column": 0,
+    "text": "• Nascent   Lambfruit   (52)   –\nDark   green.     Causes\nnausea, vomiting, and rampant paranoia about the\nfuture.",
+    "labels": [],
+    "text_bytes": 118,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p48.immature-lambfruit-6",
+    "heading": "• Immature Lambfruit (6) –",
+    "pages": [
+      48
+    ],
+    "column": 0,
+    "text": "• Immature Lambfruit (6) –\nOrange.  Allows you to\nsee   six   seconds   into  the   future,   per   precognition .\nCon Save vs nausea and vomiting.",
+    "labels": [],
+    "text_bytes": 151,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p48.mature-lambfruit-0",
+    "heading": "• Mature Lambfruit (0) –",
+    "pages": [
+      48
+    ],
+    "column": 0,
+    "text": "• Mature Lambfruit (0) –\nBright red.  Allows you to\nyou   see   one   major   future   event   with   relative\nclarity.",
+    "labels": [],
+    "text_bytes": 123,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "F7",
       "bold": false,
       "color": "#000000"
     }

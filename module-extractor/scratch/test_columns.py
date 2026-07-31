@@ -10,7 +10,8 @@ import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from pdfhtml import Font, Page, Run  # noqa: E402
-from columns import Line, find_gutter, page_lines  # noqa: E402
+from columns import (Line, _split_run_in_heading, body_run_style,  # noqa: E402
+                     find_gutter, page_lines, run_style)
 from tiers import body_style, style_table  # noqa: E402
 
 BODY_FONT = Font(font_id=0, size=12.0, family="Body", color="#000000")
@@ -81,6 +82,53 @@ class LineTests(unittest.TestCase):
                  word("good portion of the adventure", 95.0, 100.0, w=200.0))
         page = Page(number=1, width=612.0, height=792.0, words=words)
         self.assertEqual(page_lines(page)[0].size, 12.0)
+
+
+class RunInHeadingTests(unittest.TestCase):
+    """Doom and Lost City set headings inline with the body text that follows."""
+
+    HEAD = Font(font_id=2, size=12.0, family="CooperBlack", color="#000000")
+
+    def _row(self):
+        return [word("Area A-4 - Chapel of Justicia:", 50.0, 100.0, font=self.HEAD,
+                     bold=True, w=120.0),
+                word("The chapel is a low, vaulted hall", 175.0, 100.0, w=200.0)]
+
+    def test_a_run_in_heading_is_split_from_its_body(self) -> None:
+        parts = _split_run_in_heading(self._row(), run_style(self._row()[1]))
+        self.assertEqual(len(parts), 2)
+        self.assertIn("Chapel of Justicia", parts[0][0].text)
+        self.assertIn("vaulted hall", parts[1][0].text)
+
+    def test_a_row_that_opens_in_body_style_is_not_split(self) -> None:
+        row = self._row()[::-1]
+        row = [row[0], row[1]]
+        self.assertEqual(len(_split_run_in_heading(row, run_style(row[0]))), 1)
+
+    def test_a_wholly_heading_row_is_not_split(self) -> None:
+        row = [word("IntroductIon", 50.0, 100.0, font=self.HEAD, bold=True)]
+        self.assertEqual(len(_split_run_in_heading(row, run_style(row[0]))), 1)
+
+    def test_splitting_gives_the_heading_part_its_own_style(self) -> None:
+        page = Page(number=1, width=612.0, height=792.0, words=tuple(self._row()))
+        lines = page_lines(page, body=run_style(self._row()[1]))
+        self.assertEqual(len(lines), 2)
+        self.assertEqual(lines[0].family, "CooperBlack")
+        self.assertTrue(lines[0].bold)
+        self.assertFalse(lines[1].bold)
+
+    def test_a_dropped_capital_is_not_a_run_in_heading(self) -> None:
+        """One oversized glyph opening a paragraph matches the shape exactly."""
+        drop = Font(font_id=3, size=72.0, family="Initials", color="#000000")
+        row = [word("A", 50.0, 100.0, h=72.0, w=40.0, font=drop),
+               word("good portion of the adventure", 95.0, 100.0, w=200.0)]
+        self.assertEqual(len(_split_run_in_heading(row, run_style(row[1]))), 1)
+
+    def test_body_style_is_the_most_characters_not_the_most_runs(self) -> None:
+        words = [word("H", 50.0, float(i), font=self.HEAD) for i in range(9)]
+        words.append(word("a" * 200, 50.0, 100.0, w=300.0))
+        page = Page(number=1, width=612.0, height=792.0, words=tuple(words))
+        self.assertEqual(body_run_style([page]), run_style(words[-1]))
 
 
 class StyleTests(unittest.TestCase):

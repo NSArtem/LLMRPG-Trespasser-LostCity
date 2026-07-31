@@ -27,6 +27,7 @@ from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
 import sys
+from typing import Sequence
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
@@ -38,6 +39,7 @@ LINE_TOLERANCE = 0.5   # share of line height that still counts as the same line
 MIN_GUTTER = 8.0       # points; narrower gaps are word spacing, not structure
 GUTTER_BAND = (0.30, 0.70)  # a gutter lives in the middle of the page, not the margin
 MIN_COLUMN_SHARE = 0.15     # both sides must carry real text to be columns
+MIN_RUN_IN_HEADING = 3      # characters; shorter prefixes are dropped capitals
 
 
 @dataclass(frozen=True)
@@ -125,7 +127,8 @@ def column_of(word: Run, gutter: float | None) -> int:
     return -1  # spans the gutter: a full-width heading or rule
 
 
-def _band(words: list[Run], page: int, column: int) -> list[Line]:
+def _band(words: list[Run], page: int, column: int,
+          body: tuple[float, str, bool, str] | None) -> list[Line]:
     rows: list[list[Run]] = []
     for word in sorted(words, key=lambda w: (w.y, w.x)):
         if rows:
@@ -140,35 +143,91 @@ def _band(words: list[Run], page: int, column: int) -> list[Line]:
     lines = []
     for row in rows:
         ordered = sorted(row, key=lambda w: w.x)
-        # A line's style is its dominant run's, weighted by how much text that
-        # run carries -- a heading with one oversized dropped capital still
-        # reads as the heading's own style.
-        weight: Counter = Counter()
-        for run in ordered:
-            weight[(run.size, run.font.family, run.bold, run.color)] += len(run.text)
-        size, family, bold, color = weight.most_common(1)[0][0]
-        heights = Counter(round(w.height, 1) for w in ordered)
-        lines.append(
-            Line(
-                page=page,
-                column=column,
-                x=min(w.x for w in ordered),
-                y=min(w.y for w in ordered),
-                height=heights.most_common(1)[0][0],
-                text=" ".join(w.text for w in ordered).strip(),
-                size=size,
-                family=family,
-                bold=bold,
-                color=color,
-            )
-        )
+        for part in _split_run_in_heading(ordered, body):
+            lines.append(_line(part, page, column))
     return lines
 
 
-def page_lines(page: Page) -> list[Line]:
+def run_style(run: Run) -> tuple[float, str, bool, str]:
+    return (run.size, run.font.family, run.bold, run.color)
+
+
+def _line(runs: list[Run], page: int, column: int) -> Line:
+    # A line's style is its dominant run's, weighted by how much text that run
+    # carries -- a dropped capital must not redefine the line it opens.
+    weight: Counter = Counter()
+    for run in runs:
+        weight[run_style(run)] += len(run.text)
+    size, family, bold, color = weight.most_common(1)[0][0]
+    heights = Counter(round(run.height, 1) for run in runs)
+    return Line(
+        page=page,
+        column=column,
+        x=min(run.x for run in runs),
+        y=min(run.y for run in runs),
+        height=heights.most_common(1)[0][0],
+        text=" ".join(run.text for run in runs).strip(),
+        size=size,
+        family=family,
+        bold=bold,
+        color=color,
+    )
+
+
+def _split_run_in_heading(
+    ordered: list[Run], body: tuple[float, str, bool, str] | None
+) -> list[list[Run]]:
+    """Split a row where a **run-in heading** is followed by body text.
+
+    Doom of the Savage Kings and The Lost City set headings inline:
+
+        Area A-4 - Chapel of Justicia: The chapel is a low, vaulted...
+        |--- CooperBlack bold ------||------- BookAntiqua body -----|
+
+    That is one typographic row, so a line carrying a single dominant style
+    takes the body's -- the heading is outvoted by the prose beside it, and
+    reads as an eleven-word line that no length test will accept. Both
+    documents collapsed to a handful of units because of it.
+
+    The signal is positional rather than metric: a row that *opens* in a
+    non-body style and *switches into* body has a heading prefix. Splitting
+    there lets a unit boundary fall mid-row, which is what these layouts need.
+    """
+    if body is None or len(ordered) < 2:
+        return [ordered]
+    if run_style(ordered[0]) == body:
+        return [ordered]
+    cut = next(
+        (index for index, run in enumerate(ordered) if run_style(run) == body), None
+    )
+    if cut is None or cut == 0:
+        return [ordered]
+    prefix = "".join(run.text for run in ordered[:cut]).strip()
+    if len(prefix) < MIN_RUN_IN_HEADING:
+        # A **dropped capital** matches this shape exactly -- one oversized
+        # glyph in its own style, opening a paragraph of body text. Splitting
+        # there would make the capital a heading and orphan the paragraph.
+        return [ordered]
+    return [ordered[:cut], ordered[cut:]]
+
+
+def body_run_style(pages: Sequence[Page]) -> tuple[float, str, bool, str] | None:
+    """The style carrying the most characters across the document."""
+    weight: Counter = Counter()
+    for page in pages:
+        for run in page.words:
+            weight[run_style(run)] += len(run.text)
+    return weight.most_common(1)[0][0] if weight else None
+
+
+def page_lines(
+    page: Page, body: tuple[float, str, bool, str] | None = None
+) -> list[Line]:
     """Lines in reading order: spanning content, then each column top to bottom."""
     if not page.words:
         return []
+    if body is None:
+        body = body_run_style([page])
     gutter = find_gutter(page)
     buckets: dict[int, list[Run]] = {}
     for word in page.words:
@@ -176,13 +235,15 @@ def page_lines(page: Page) -> list[Line]:
 
     lines: list[Line] = []
     for column in sorted(buckets, key=lambda c: (c != -1, c)):
-        lines.extend(_band(buckets[column], page.number, column))
+        lines.extend(_band(buckets[column], page.number, column, body))
     return lines
 
 
 def document_lines(pdf: Path) -> list[Line]:
     document = extract_document(pdf)
-    return [line for page in document.pages for line in page_lines(page)]
+    # Body style is a whole-document fact: a single page may be all heading.
+    body = body_run_style(document.pages)
+    return [line for page in document.pages for line in page_lines(page, body)]
 
 
 def report(pdf: Path) -> None:
