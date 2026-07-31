@@ -2,6 +2,7 @@
 id: npc.lamb
 type: npc
 name: "Агнец"
+module_ref: actor.module-lair-of-the-lamb.the-lamb
 status: active
 location: location.unknown
 knowledge_level: mixed
