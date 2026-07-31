@@ -425,11 +425,14 @@ Roughly 2,300 lines unchanged, 3,600 modified, 1,000 deleted, 800–1,200 new.
 ## Risks, in order of expected cost
 
 1. **Segmentation does not generalize past the source it was demonstrated on.**
-   Reduced but not closed. Keyed-area detection is proven on *Lair of the Lamb*
-   (58 headings, one distinguishing line height, no false positives), so the
-   question is no longer whether the approach works but whether it survives four
-   other producers, page-break continuation, and non-keyed units. Everything
-   upstream of the fact store still depends on the answer.
+   Largely closed by Phase 0. Four of the five sources segment: Lair of the Lamb
+   (324 units, 101 keyed), Winter's Daughter (122), Falkrest Abbey (177) and
+   Doom of the Savage Kings (49). The fifth, *The Lost City*, is **deferred** --
+   its text layer is damaged rather than its layout unusual, which is a Stage 1
+   problem. See "Deferred: The Lost City" in
+   [architecture-new-implementation.md](architecture-new-implementation.md).
+   What remains is whether unit *boundaries* are right, which is T0.5's review
+   gate and not something the implementer can self-certify.
 2. **Compilation flattens the cards.** The shared-fact premise is the reason for
    the whole redesign, and Phase 3 is the only place it gets tested. The
    recovered baseline makes the test cheap; skipping it makes the failure

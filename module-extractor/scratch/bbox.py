@@ -38,8 +38,17 @@ SOURCES = (
     Path("/mnt/data/RPG/Module - Winters Daughter.pdf"),
     Path("/mnt/data/RPG/Module - Falkrest_Abbey_1.1.pdf"),
     Path("/mnt/data/RPG/[M] 66.5 Doom of the Savage Kings.pdf"),
+)
+
+# Deferred: its embedded text layer is pervasively damaged by letter-spacing,
+# so segmenting it well would still hand the model garbled prose. A Stage 1
+# problem, not a Stage 2 one. See "Deferred: The Lost City" in
+# architecture-new-implementation.md before spending any time on it.
+DEFERRED = (
     Path("/mnt/data/RPG/TSR B4 - The Lost City 1982.pdf"),
 )
+
+ALL_SOURCES = SOURCES + DEFERRED
 
 
 class BboxError(RuntimeError):

@@ -82,12 +82,17 @@ git diff --check
 /mnt/data/RPG/Module - Winters Daughter.pdf            31 pages
 /mnt/data/RPG/Module - Falkrest_Abbey_1.1.pdf          46 pages
 /mnt/data/RPG/[M] 66.5 Doom of the Savage Kings.pdf    18 pages
-/mnt/data/RPG/TSR B4 - The Lost City 1982.pdf          34 pages   1982 scan
+/mnt/data/RPG/TSR B4 - The Lost City 1982.pdf          34 pages   DEFERRED, see below
 ```
 
-All five have usable text layers. *Lair of the Lamb* is the primary source: it is
-the one with a recovered baseline build to compare against, and every gate that
-names a source without qualification means this one.
+*Lair of the Lamb* is the primary source: it is the one with a recovered
+baseline build to compare against, and every gate that names a source without
+qualification means this one.
+
+**Four of the five are in scope. *The Lost City* is deferred** -- it has a text
+layer, but not a usable one. See [Deferred: The Lost City](#deferred-the-lost-city).
+Gates that say "all five sources" mean the four in scope; do not spend effort
+making Lost City pass.
 
 The PDFs are **read-only inputs and must never be copied into the repository** —
 `/*.pdf` is gitignored. Derived artefacts (extracted text, bounding-box XML, page
@@ -114,6 +119,53 @@ which emits word-level bounding boxes as XHTML and is parsed with
 exposed and are not needed.
 
 ---
+
+## Deferred: The Lost City
+
+**Out of scope. Do not work on it. Revisit deliberately, not by accident.**
+
+*TSR B4 - The Lost City (1982)* is the only pre-2000 source and the only one
+that cannot be segmented. Two independent causes, both found in T0.3:
+
+**Its styles do not discriminate.** The `14pt Times bold` style carries both
+headings and body prose -- `DM's Background` and `9. ABANDONED PRIEST'S
+QUARTERS` sit in the same style as `Goblin. Goblins are described in both
+editions of the D&D Basic`. No style rule separates those, so the document
+yields 4 units for 34 pages.
+
+**Its text layer is pervasively damaged**, in body text and not only headings:
+
+```text
+C e ntip e d e , G ia nt. G ia n t c en tip ed es   a re   d es c rib
+```
+
+That is the deeper problem. Segmenting the document perfectly would still hand
+the model garbled prose, so this is a **Stage 1 text-quality problem, not a
+Stage 2 segmentation one**. A bad embedded text layer is worse than none,
+because it looks usable.
+
+**No prior run contradicts this.** Lost City was never extracted -- the
+`lost-city` branch is a hand-written, module-free campaign with no `module/` or
+`module-input/` at all. Only Lair of the Lamb and Winter's Daughter were ever
+built.
+
+### Three options, when it is picked up again
+
+1. **OCR at Stage 1.** The dataflow document already reserves the slot: "OCR, if
+   added later, sits here as a preprocessing step and produces the same page
+   text contract." Most faithful, and the largest piece of work.
+2. **Ship the page image with damaged units.** *The old pipeline did this and
+   the new design dropped it.* `packs.py` attached `thumbnails/page-NNNN.png` to
+   every content pack, so the model always had a second channel and could read
+   what the text layer mangled. The new Stage 4 sends images "only where a unit
+   needs visual context", and packs are per unit rather than per page, so the
+   fallback is no longer automatic. Damage is detectable without a model -- a
+   high ratio of one- and two-character tokens is what letter-spacing looks
+   like. Cheapest of the three, but it widens Stage 4's contract.
+3. **Fail Stage 1 loudly** with a diagnostic naming the damage, and support only
+   documents with a clean text layer.
+
+Option 2 is the one to cost first if pre-2000 scans matter long term.
 
 ## Glossary
 
@@ -725,7 +777,7 @@ tasks do not re-litigate them.
 | D-4 | Closed or open predicate vocabulary? | T1.4 | *unanswered* |
 | D-5 | Which predicates are list-valued? | T1.4 | *unanswered* — but the behaviour is fixed: collect within a unit, conflict across units, never union |
 | D-6 | Which values carry JSON? | T1.4 | *unanswered* |
-| D-7 | Segmentation fallback for a failing document? | T0.5 | *unanswered* |
+| D-7 | Segmentation fallback for a failing document? | T0.5 | **Deferred per document.** Lost City is out of scope; see [Deferred: The Lost City](#deferred-the-lost-city) |
 | D-8 | Map facts: shared vocabulary or typed pipeline? | T4.7 | *unanswered* |
 | D-9 | Prose/map disagreement authority? | T4.7 | *unanswered* |
 | D-10 | Waypoint keyed areas: own a topology node? | T4.7 | *unanswered* |
