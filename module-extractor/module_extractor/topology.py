@@ -47,12 +47,26 @@ def _place_areas(record: Mapping[str, Any]) -> set[str]:
     return areas
 
 
-def _node_areas(node: Mapping[str, Any]) -> set[str]:
+def _node_label_areas(node: Mapping[str, Any]) -> set[str]:
+    """Areas printed on the map itself, ignoring the arbitrary node ID."""
     areas: set[str] = set()
-    for value in [node["id"], *node.get("labels", []), *node.get("titles", [])]:
+    labels = [
+        node[name]
+        for name in ("label", "title")
+        if isinstance(node.get(name), str)
+    ]
+    for value in [*labels, *node.get("labels", []), *node.get("titles", [])]:
         area = keyed_area(f"area {value}")
         if area is not None:
             areas.add(area)
+    return areas
+
+
+def _node_areas(node: Mapping[str, Any]) -> set[str]:
+    areas = _node_label_areas(node)
+    area = keyed_area(f"area {node['id']}")
+    if area is not None:
+        areas.add(area)
     return areas
 
 
@@ -67,6 +81,9 @@ def resolve_operational_topology(
     nodes = {node["id"]: node for node in topology["nodes"]}
     node_areas = {
         node_id: _node_areas(node) for node_id, node in nodes.items()
+    }
+    node_label_areas = {
+        node_id: _node_label_areas(node) for node_id, node in nodes.items()
     }
     errors: list[str] = []
     links: list[dict[str, Any]] = []
@@ -142,6 +159,26 @@ def resolve_operational_topology(
                 for node_id, candidate_areas in node_areas.items()
                 if areas & candidate_areas
             )
+            if len(candidates) > 1:
+                # A node whose printed label carries the area key outranks one
+                # that only matched through its arbitrary ID slug.
+                labelled = [
+                    candidate
+                    for candidate in candidates
+                    if areas & node_label_areas[candidate]
+                ]
+                if len(labelled) == 1:
+                    candidates = labelled
+            if len(candidates) > 1:
+                # A keyed place card joins to a mapped place, not to a
+                # waypoint or boundary that merely cites the same area key.
+                place_candidates = [
+                    candidate
+                    for candidate in candidates
+                    if nodes[candidate].get("classification") == "place"
+                ]
+                if len(place_candidates) == 1:
+                    candidates = place_candidates
             if len(candidates) == 1:
                 node_id = candidates[0]
                 fields["topology_node"] = node_id

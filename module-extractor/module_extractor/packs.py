@@ -80,9 +80,15 @@ For a location, extract only source-supported operational fields:
 - triggers, hazards, resources, and occupants (arrays of strings);
 - actor_references, situation_references, procedure_references, and
   knowledge_references (arrays of record IDs also listed in references);
-- keyed_area, map_label, or topology_label when the source supplies it;
-- topology_node when the text explicitly names a map node, or null only when
-  the source explicitly establishes that the location is not mapped.
+- keyed_area, map_label, or topology_label exactly as the source prints the
+  area key, including any letter suffix such as 1A or 25G, when the source
+  supplies it;
+- topology_node only as null, and only for a location the source gives no
+  printed map key at all, such as a region, settlement, or whole-dungeon
+  overview; otherwise omit topology_node entirely.
+  This pack contains no map node IDs, so never put a printed key, heading, or
+  map label in topology_node. Module Extractor joins each place to its map
+  node from the printed area key you record above.
 
 Omit optional location fields when the source provides no evidence. Never add
 empty arrays, generic prose, or invented defaults merely to fill the shape.

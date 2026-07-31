@@ -22,7 +22,7 @@ CANONICAL_PREFIXES = {
 }
 _APOSTROPHES = str.maketrans({"’": "'", "‘": "'", "ʼ": "'", "`": "'"})
 _AREA = re.compile(
-    r"(?:^|[\s._-])(?:area|room|location|loc|map)?[\s._-]*0*(\d+)(?:$|[\s._-])",
+    r"(?:^|[\s._-])(?:area|room|location|loc|map)?[\s._-]*0*(\d+)([a-z]?)(?:$|[\s._-])",
     re.IGNORECASE,
 )
 _CANONICAL = re.compile(
@@ -82,7 +82,9 @@ def module_slug(source: Mapping[str, Any]) -> str:
 
 def keyed_area(value: str) -> str | None:
     match = _AREA.search(f" {value} ")
-    return str(int(match.group(1))) if match else None
+    if not match:
+        return None
+    return f"{int(match.group(1))}{match.group(2).lower()}"
 
 
 def canonical_id_is_valid(

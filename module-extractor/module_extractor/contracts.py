@@ -6,7 +6,7 @@ from collections import Counter
 from typing import Any, Mapping, Sequence
 
 from .errors import ExtractorError
-from .util import SAFE_SLUG, require_safe_id, require_sha256
+from .util import SAFE_ID, SAFE_SLUG, require_safe_id, require_sha256
 
 
 ROUTING_SCHEMA = "module-routing/v1"
@@ -591,7 +591,13 @@ def _validate_place_fields(fields: Mapping[str, Any], context: str) -> None:
             fields, "discoverable", ("information", "condition"), context
         )
     if "topology_node" in fields and fields["topology_node"] is not None:
-        require_safe_id(fields["topology_node"], f"{context}.fields.topology_node")
+        node = fields["topology_node"]
+        if not isinstance(node, str) or not SAFE_ID.fullmatch(node):
+            raise ExtractorError(
+                f"{context}.fields.topology_node must be a map node ID or "
+                "null; record the printed area key in keyed_area or map_label "
+                "instead of a map label"
+            )
     for field in sorted(PLACE_MATCH_FIELDS):
         if field in fields and (
             not isinstance(fields[field], (str, int))
