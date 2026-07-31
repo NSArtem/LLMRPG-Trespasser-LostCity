@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from columns import Line  # noqa: E402
 from units import (assemble, furniture, is_heading_text,  # noqa: E402
-                   key_root, slug)
+                   key_root, merge_table_runs, slug)
 
 
 BODY = ("running body text that goes on for a while here", 12.0, "Body", False, "#000000")
@@ -44,6 +44,41 @@ class TextTests(unittest.TestCase):
         self.assertEqual(key_root("24C"), "24")
         self.assertEqual(key_root("1A FIRST INTERSECTION"), "1")
         self.assertIsNone(key_root("Crossing the Hallway"))
+
+    def test_key_root_reads_lettered_keys(self) -> None:
+        """Doom keys its village as Area A-1 .. Area A-11."""
+        self.assertEqual(key_root("Area A-4 - Chapel of Justicia:"), "A-4")
+        self.assertEqual(key_root("Area A - Village of Hirot:"), "A")
+
+    def test_lettered_siblings_are_distinct_keys(self) -> None:
+        """A-1 and A-4 must not share a root, or they merge into one unit."""
+        self.assertNotEqual(key_root("Area A-1 - South Gates:"),
+                            key_root("Area A-4 - Chapel:"))
+
+
+class TableRunTests(unittest.TestCase):
+    """Table rows are content. They become one unit, not none and not many."""
+
+    def _unit(self, heading, body_lines=0):
+        lines = [line(heading, AREA)] + [body() for _ in range(body_lines)]
+        return assemble(lines, RANKS)[0]
+
+    def test_a_run_of_tiny_headings_folds_into_the_unit_above(self) -> None:
+        units = [self._unit("Wandering Monsters", body_lines=3)]
+        units += [self._unit(f"{n} Goblin") for n in range(1, 7)]
+        merged = merge_table_runs(units)
+        self.assertEqual([u.heading for u in merged], ["Wandering Monsters"])
+
+    def test_no_content_is_lost_when_rows_are_folded(self) -> None:
+        units = [self._unit("Wandering Monsters", body_lines=3)]
+        units += [self._unit(f"{n} Goblin") for n in range(1, 7)]
+        merged = merge_table_runs(units)
+        for n in range(1, 7):
+            self.assertIn(f"{n} Goblin", merged[0].text)
+
+    def test_a_single_small_unit_is_not_a_table(self) -> None:
+        units = [self._unit("1 BOWLS", body_lines=3), self._unit("24C")]
+        self.assertEqual(len(merge_table_runs(units)), 2)
 
     def test_slug_is_id_safe_and_never_empty(self) -> None:
         self.assertEqual(slug("24 CRUSH HALLWAY"), "24-crush-hallway")

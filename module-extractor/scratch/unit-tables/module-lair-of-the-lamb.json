@@ -168,391 +168,13 @@
       5
     ],
     "column": 0,
-    "text": "Checks and Saves •\nCramped spaces impose no penalty.\nNearly all checks are made against a DC of 16.   Roll a d20, • You do not have a Profession.\nadd your stat, and try to get the DC or better. If   you   want   to   introduce   non-binary   genders,   I   suggest\nSaves are an exception, and are made with either Dex, Con, replacing the numbers 7 and 13.\nor  Cha  against  a  DC of  20.     Cha  is  used  for all  types  of\nmagical effects, and is the most common Save.",
+    "text": "Checks and Saves •\nCramped spaces impose no penalty.\nNearly all checks are made against a DC of 16.   Roll a d20, • You do not have a Profession.\nadd your stat, and try to get the DC or better. If   you   want   to   introduce   non-binary   genders,   I   suggest\nSaves are an exception, and are made with either Dex, Con, replacing the numbers 7 and 13.\nor  Cha  against  a  DC of  20.     Cha  is  used  for all  types  of\nmagical effects, and is the most common Save.\nAppearance Personality\n1 Athletic 1\nCautious\n2 Beautiful 2\nCaring\n3 Boney 3\nCheerful\n4 Brawny 4\nCynical\n5 Brutish 5\nEnergetic\n6 Delicate 6\nFormal\n7 Disfigured 7\nGloomy\n8 Gorgeous 8\nHeartless\n9 Grizzled 9\nHonorable\n10 Handsome  10\nIrate\n11 Large 11\nJocular\n12 Pale 12\nMilitaristic\n13 Petite 13\nNoble\n14 Plump 14\nPassionate\n15 Short 15\nProud\n16 Slender 16\nScheming\n17 Statuesque 17\nSerene\n18 Swarthy 18\nSmug\n19 Tall  19\nSpacey\n20 Willowy  20\nUnhinged\n5",
     "labels": [],
-    "text_bytes": 475,
+    "text_bytes": 926,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.appearance-personality",
-    "heading": "Appearance Personality",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "Appearance Personality",
-    "labels": [],
-    "text_bytes": 22,
-    "keyed_area": null,
-    "style": {
-      "size": 21.0,
-      "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.1-athletic-1",
-    "heading": "1 Athletic 1",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "1 Athletic 1\nCautious",
-    "labels": [],
-    "text_bytes": 21,
-    "keyed_area": "1",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.2-beautiful-2",
-    "heading": "2 Beautiful 2",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "2 Beautiful 2\nCaring",
-    "labels": [],
-    "text_bytes": 20,
-    "keyed_area": "2",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.3-boney-3",
-    "heading": "3 Boney 3",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "3 Boney 3\nCheerful",
-    "labels": [],
-    "text_bytes": 18,
-    "keyed_area": "3",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.4-brawny-4",
-    "heading": "4 Brawny 4",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "4 Brawny 4\nCynical",
-    "labels": [],
-    "text_bytes": 18,
-    "keyed_area": "4",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.5-brutish-5",
-    "heading": "5 Brutish 5",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "5 Brutish 5\nEnergetic",
-    "labels": [],
-    "text_bytes": 21,
-    "keyed_area": "5",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.6-delicate-6",
-    "heading": "6 Delicate 6",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "6 Delicate 6\nFormal",
-    "labels": [],
-    "text_bytes": 19,
-    "keyed_area": "6",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.7-disfigured-7",
-    "heading": "7 Disfigured 7",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "7 Disfigured 7\nGloomy",
-    "labels": [],
-    "text_bytes": 21,
-    "keyed_area": "7",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.8-gorgeous-8",
-    "heading": "8 Gorgeous 8",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "8 Gorgeous 8\nHeartless",
-    "labels": [],
-    "text_bytes": 22,
-    "keyed_area": "8",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.9-grizzled-9",
-    "heading": "9 Grizzled 9",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "9 Grizzled 9\nHonorable",
-    "labels": [],
-    "text_bytes": 22,
-    "keyed_area": "9",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.10-handsome-10",
-    "heading": "10 Handsome  10",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "10 Handsome  10\nIrate",
-    "labels": [],
-    "text_bytes": 21,
-    "keyed_area": "10",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.11-large-11",
-    "heading": "11 Large 11",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "11 Large 11\nJocular",
-    "labels": [],
-    "text_bytes": 19,
-    "keyed_area": "11",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.12-pale-12",
-    "heading": "12 Pale 12",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "12 Pale 12\nMilitaristic",
-    "labels": [],
-    "text_bytes": 23,
-    "keyed_area": "12",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.13-petite-13",
-    "heading": "13 Petite 13",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "13 Petite 13\nNoble",
-    "labels": [],
-    "text_bytes": 18,
-    "keyed_area": "13",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.14-plump-14",
-    "heading": "14 Plump 14",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "14 Plump 14\nPassionate",
-    "labels": [],
-    "text_bytes": 22,
-    "keyed_area": "14",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.15-short-15",
-    "heading": "15 Short 15",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "15 Short 15\nProud",
-    "labels": [],
-    "text_bytes": 17,
-    "keyed_area": "15",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.16-slender-16",
-    "heading": "16 Slender 16",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "16 Slender 16\nScheming",
-    "labels": [],
-    "text_bytes": 22,
-    "keyed_area": "16",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.17-statuesque-17",
-    "heading": "17 Statuesque 17",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "17 Statuesque 17\nSerene",
-    "labels": [],
-    "text_bytes": 23,
-    "keyed_area": "17",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.18-swarthy-18",
-    "heading": "18 Swarthy 18",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "18 Swarthy 18\nSmug",
-    "labels": [],
-    "text_bytes": 18,
-    "keyed_area": "18",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.19-tall-19",
-    "heading": "19 Tall  19",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "19 Tall  19\nSpacey",
-    "labels": [],
-    "text_bytes": 18,
-    "keyed_area": "19",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.20-willowy-20",
-    "heading": "20 Willowy  20",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "20 Willowy  20\nUnhinged\n5",
-    "labels": [],
-    "text_bytes": 25,
-    "keyed_area": "20",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
       "bold": false,
       "color": "#000000"
     }
@@ -564,9 +186,9 @@
       6
     ],
     "column": 0,
-    "text": "Profession\nEach peasant is defined by a profession.   Roll a d20 for half of the peasants and a d100 for the other half.   These\nprofessions count as a Skill that you have 2 points in (see below).\n1 Charcoal Burner  36 Black Marketeer 71 Mason",
+    "text": "Profession\nEach peasant is defined by a profession.   Roll a d20 for half of the peasants and a d100 for the other half.   These\nprofessions count as a Skill that you have 2 points in (see below).\n1 Charcoal Burner  36 Black Marketeer 71 Mason\n2 Beggar  37 Blacksmith 72 Minstrel\n3 Burgler  38 Brewer  73 Mistress/Paramour\n4 Deserter 39 Bureaucrat 74 Moneylender\n5 Drunkard 40 Butcher  75 Painter\n6 Farmer, Onion 41 Butler 76 Perfumer\n7 Farmer, Chicken 42 Carpenter 77 Philosopher\n8 Farmer, Pumpkin 43 Cartwright 78 Pickpocket\n9 Poacher   44 Chandler 79 Pissprophet\n10 Innkeeper 45 Choirboy 80 Poacher\n11 Link Boy 46 Clerk 81 Poet\n12 Lumberjack 47 Cobbler 82 Porter\n13 Monk/Nun 48 Cook 83 Potter\n14 Milkmaid 49 Cooper  84 Prostitute\n15 Miller 50 Cultist  85 Rag and Bone Man\n16 Miner 51 Dancer   86 Rat Catcher\n17 Peasant  52 Drug Dealer 87 Sailor\n18 Shepherd 53 Dyer 88 Scribe\n19 Swineherd 54 Engineer 89 Scullion\n20 Tanner  55 Fanatic 90 Sculptor\n21 Thug 56 Fashion Designer 91 Servant\n22 Actor 57 Fisher  92 Slaver\n23 Alchemist 58 Fool 93 Squire",
     "labels": [],
-    "text_bytes": 243,
+    "text_bytes": 1048,
     "keyed_area": null,
     "style": {
       "size": 21.0,
@@ -576,452 +198,21 @@
     }
   },
   {
-    "unit_id": "p6.2-beggar-37-blacksmith-72-minstr",
-    "heading": "2 Beggar  37 Blacksmith 72 Minstrel",
+    "unit_id": "p6.24-animal-handler-59-gambler-94",
+    "heading": "24 Animal Handler  59 Gambler 94 Stay-at-Home Parent",
     "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "2 Beggar  37 Blacksmith 72 Minstrel",
-    "labels": [],
-    "text_bytes": 35,
-    "keyed_area": "2",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.3-burgler-38-brewer-73-mistress",
-    "heading": "3 Burgler  38 Brewer  73 Mistress/Paramour",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "3 Burgler  38 Brewer  73 Mistress/Paramour",
-    "labels": [],
-    "text_bytes": 42,
-    "keyed_area": "3",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.4-deserter-39-bureaucrat-74-mone",
-    "heading": "4 Deserter 39 Bureaucrat 74 Moneylender",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "4 Deserter 39 Bureaucrat 74 Moneylender",
-    "labels": [],
-    "text_bytes": 39,
-    "keyed_area": "4",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.5-drunkard-40-butcher-75-painter",
-    "heading": "5 Drunkard 40 Butcher  75 Painter",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "5 Drunkard 40 Butcher  75 Painter\n6 Farmer, Onion 41 Butler 76 Perfumer\n7 Farmer, Chicken 42 Carpenter 77 Philosopher\n8 Farmer, Pumpkin 43 Cartwright 78 Pickpocket",
-    "labels": [],
-    "text_bytes": 163,
-    "keyed_area": "5",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.9-poacher-44-chandler-79-pisspro",
-    "heading": "9 Poacher   44 Chandler 79 Pissprophet",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "9 Poacher   44 Chandler 79 Pissprophet",
-    "labels": [],
-    "text_bytes": 38,
-    "keyed_area": "9",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.10-innkeeper-45-choirboy-80-poac",
-    "heading": "10 Innkeeper 45 Choirboy 80 Poacher",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "10 Innkeeper 45 Choirboy 80 Poacher\n11 Link Boy 46 Clerk 81 Poet",
-    "labels": [],
-    "text_bytes": 64,
-    "keyed_area": "10",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.12-lumberjack-47-cobbler-82-port",
-    "heading": "12 Lumberjack 47 Cobbler 82 Porter",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "12 Lumberjack 47 Cobbler 82 Porter",
-    "labels": [],
-    "text_bytes": 34,
-    "keyed_area": "12",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.13-monk-nun-48-cook-83-potter",
-    "heading": "13 Monk/Nun 48 Cook 83 Potter",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "13 Monk/Nun 48 Cook 83 Potter",
-    "labels": [],
-    "text_bytes": 29,
-    "keyed_area": "13",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.14-milkmaid-49-cooper-84-prostit",
-    "heading": "14 Milkmaid 49 Cooper  84 Prostitute",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "14 Milkmaid 49 Cooper  84 Prostitute\n15 Miller 50 Cultist  85 Rag and Bone Man\n16 Miner 51 Dancer   86 Rat Catcher\n17 Peasant  52 Drug Dealer 87 Sailor",
-    "labels": [],
-    "text_bytes": 151,
-    "keyed_area": "14",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.18-shepherd-53-dyer-88-scribe",
-    "heading": "18 Shepherd 53 Dyer 88 Scribe",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "18 Shepherd 53 Dyer 88 Scribe",
-    "labels": [],
-    "text_bytes": 29,
-    "keyed_area": "18",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.19-swineherd-54-engineer-89-scul",
-    "heading": "19 Swineherd 54 Engineer 89 Scullion",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "19 Swineherd 54 Engineer 89 Scullion",
-    "labels": [],
-    "text_bytes": 36,
-    "keyed_area": "19",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.20-tanner-55-fanatic-90-sculptor",
-    "heading": "20 Tanner  55 Fanatic 90 Sculptor",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "20 Tanner  55 Fanatic 90 Sculptor\n21 Thug 56 Fashion Designer 91 Servant",
-    "labels": [],
-    "text_bytes": 72,
-    "keyed_area": "20",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.22-actor-57-fisher-92-slaver",
-    "heading": "22 Actor 57 Fisher  92 Slaver",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "22 Actor 57 Fisher  92 Slaver",
-    "labels": [],
-    "text_bytes": 29,
-    "keyed_area": "22",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.23-alchemist-58-fool-93-squire",
-    "heading": "23 Alchemist 58 Fool 93 Squire",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "23 Alchemist 58 Fool 93 Squire\n24 Animal Handler  59 Gambler 94 Stay-at-Home Parent",
-    "labels": [],
-    "text_bytes": 83,
-    "keyed_area": "23",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.25-architect-60-gardener-95-stor",
-    "heading": "25 Architect 60 Gardener 95 Storyteller",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "25 Architect 60 Gardener 95 Storyteller",
-    "labels": [],
-    "text_bytes": 39,
-    "keyed_area": "25",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.26-apothecary-61-geologist-96-ta",
-    "heading": "26 Apothecary 61 Geologist 96 Tailor",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "26 Apothecary 61 Geologist 96 Tailor\n27 Armorer 62 Glassblower 97 Tax Collector",
-    "labels": [],
-    "text_bytes": 79,
-    "keyed_area": "26",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.28-ascetic-63-gongfarmer-98-tort",
-    "heading": "28 Ascetic  63 Gongfarmer 98 Torturer",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "28 Ascetic  63 Gongfarmer 98 Torturer",
-    "labels": [],
-    "text_bytes": 37,
-    "keyed_area": "28",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.29-astrologer-64-graverobber-99",
-    "heading": "29 Astrologer 64 Graverobber 99 Weaponsmith",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "29 Astrologer 64 Graverobber 99 Weaponsmith\n30 Astronomer 65 Gypsy   100 Wet Nurse",
-    "labels": [],
-    "text_bytes": 82,
-    "keyed_area": "29",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.31-bandit-66-hatter",
-    "heading": "31 Bandit 66 Hatter",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "31 Bandit 66 Hatter",
-    "labels": [],
-    "text_bytes": 19,
-    "keyed_area": "31",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.32-baker-67-herald",
-    "heading": "32 Baker 67 Herald",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "32 Baker 67 Herald",
-    "labels": [],
-    "text_bytes": 18,
-    "keyed_area": "32",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.33-banker-68-herbalist",
-    "heading": "33 Banker 68 Herbalist",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "33 Banker 68 Herbalist",
-    "labels": [],
-    "text_bytes": 22,
-    "keyed_area": "33",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.34-barber-surgeon-69-jeweler",
-    "heading": "34 Barber-Surgeon 69 Jeweler",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "34 Barber-Surgeon 69 Jeweler",
-    "labels": [],
-    "text_bytes": 28,
-    "keyed_area": "34",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.35-bartender-70-locksmith",
-    "heading": "35 Bartender 70 Locksmith",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "35 Bartender 70 Locksmith\n6",
-    "labels": [],
-    "text_bytes": 27,
-    "keyed_area": "35",
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.learning-to-crawl",
-    "heading": "Learning to Crawl",
-    "pages": [
+      6,
       7,
       8
     ],
     "column": 0,
-    "text": "Learning to Crawl\nHold your torch high.\n7\n8",
+    "text": "24 Animal Handler  59 Gambler 94 Stay-at-Home Parent\n25 Architect 60 Gardener 95 Storyteller\n26 Apothecary 61 Geologist 96 Tailor\n27 Armorer 62 Glassblower 97 Tax Collector\n28 Ascetic  63 Gongfarmer 98 Torturer\n29 Astrologer 64 Graverobber 99 Weaponsmith\n30 Astronomer 65 Gypsy   100 Wet Nurse\n31 Bandit 66 Hatter\n32 Baker 67 Herald\n33 Banker 68 Herbalist\n34 Barber-Surgeon 69 Jeweler\n35 Bartender 70 Locksmith\n6\nLearning to Crawl\nHold your torch high.\n7\n8\nExploration",
     "labels": [],
-    "text_bytes": 43,
-    "keyed_area": null,
+    "text_bytes": 468,
+    "keyed_area": "24",
     "style": {
-      "size": 81.0,
-      "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p8.exploration",
-    "heading": "Exploration",
-    "pages": [
-      8
-    ],
-    "column": 0,
-    "text": "Exploration",
-    "labels": [],
-    "text_bytes": 11,
-    "keyed_area": null,
-    "style": {
-      "size": 30.0,
-      "family": "F3",
+      "size": 16.0,
+      "family": "F6",
       "bold": false,
       "color": "#000000"
     }
@@ -2133,85 +1324,14 @@
     "unit_id": "p16.the-raid",
     "heading": "The Raid",
     "pages": [
-      16
-    ],
-    "column": 1,
-    "text": "The Raid\nA decade ago, a militia attacked the Red Temple, attempting\nto infiltrate through the crypts.   They were the Twelve-\nFingered Hand, a  brotherhood  of  knights closely aligned\nwith the White Temple.  The Hand failed.  Many were killed.\nMany were entombed.  Some of them are ghouls now.",
-    "labels": [],
-    "text_bytes": 295,
-    "keyed_area": null,
-    "style": {
-      "size": 21.0,
-      "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p17.part-1",
-    "heading": "Part 1:",
-    "pages": [
-      17
-    ],
-    "column": 0,
-    "text": "Part 1:",
-    "labels": [],
-    "text_bytes": 7,
-    "keyed_area": null,
-    "style": {
-      "size": 81.0,
-      "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p17.lair-of",
-    "heading": "Lair of",
-    "pages": [
-      17
-    ],
-    "column": 0,
-    "text": "Lair of",
-    "labels": [],
-    "text_bytes": 7,
-    "keyed_area": null,
-    "style": {
-      "size": 81.0,
-      "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p17.the-lamb",
-    "heading": "the Lamb",
-    "pages": [
+      16,
       17,
       18
     ],
-    "column": 0,
-    "text": "the Lamb\n17\n18",
+    "column": 1,
+    "text": "The Raid\nA decade ago, a militia attacked the Red Temple, attempting\nto infiltrate through the crypts.   They were the Twelve-\nFingered Hand, a  brotherhood  of  knights closely aligned\nwith the White Temple.  The Hand failed.  Many were killed.\nMany were entombed.  Some of them are ghouls now.\nPart 1:\nLair of\nthe Lamb\n17\n18\nEncounter Table (Lamb Alive)",
     "labels": [],
-    "text_bytes": 14,
-    "keyed_area": null,
-    "style": {
-      "size": 81.0,
-      "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p18.encounter-table-lamb-alive",
-    "heading": "Encounter Table (Lamb Alive)",
-    "pages": [
-      18
-    ],
-    "column": 0,
-    "text": "Encounter Table (Lamb Alive)",
-    "labels": [],
-    "text_bytes": 28,
+    "text_bytes": 355,
     "keyed_area": null,
     "style": {
       "size": 21.0,
@@ -4664,9 +3784,9 @@
       49
     ],
     "column": 0,
-    "text": "Appendix E: Leveling and Classes\nWhen you gain your level, your character improves according to this table.",
+    "text": "Appendix E: Leveling and Classes\nWhen you gain your level, your character improves according to this table.\nHP Atk Templates Mastery\nLevel 0 0 0 0 -\nLevel 1 Con 1 1 -\nLevel 2 Con + 2 2 2 -\nLevel 3 Con + 4 3 3 -\nLevel 4 Con + 6 4 4 -",
     "labels": [],
-    "text_bytes": 107,
+    "text_bytes": 232,
     "keyed_area": null,
     "style": {
       "size": 30.0,
@@ -4676,51 +3796,15 @@
     }
   },
   {
-    "unit_id": "p49.hp-atk-templates-mastery",
-    "heading": "HP Atk Templates Mastery",
+    "unit_id": "p49.1-level-1-mastery",
+    "heading": "+1 Level - - - +1 Mastery",
     "pages": [
       49
     ],
     "column": 0,
-    "text": "HP Atk Templates Mastery",
+    "text": "+1 Level - - - +1 Mastery\nWhenever you gain your first four levels, you gain a template.  Unless you've unlocked more classes through play, you're\nlimited to the four classes below.",
     "labels": [],
-    "text_bytes": 24,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p49.level-0-0-0-0",
-    "heading": "Level 0 0 0 0 -",
-    "pages": [
-      49
-    ],
-    "column": 0,
-    "text": "Level 0 0 0 0 -",
-    "labels": [],
-    "text_bytes": 15,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p49.level-1-con-1-1",
-    "heading": "Level 1 Con 1 1 -",
-    "pages": [
-      49
-    ],
-    "column": 0,
-    "text": "Level 1 Con 1 1 -\nLevel 2 Con + 2 2 2 -\nLevel 3 Con + 4 3 3 -\nLevel 4 Con + 6 4 4 -\n+1 Level - - - +1 Mastery\nWhenever you gain your first four levels, you gain a template.  Unless you've unlocked more classes through play, you're\nlimited to the four classes below.",
-    "labels": [],
-    "text_bytes": 265,
+    "text_bytes": 181,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -4751,106 +3835,17 @@
     "unit_id": "p49.choosing-a-class",
     "heading": "Choosing a Class",
     "pages": [
-      49
+      49,
+      50
     ],
     "column": 0,
-    "text": "Choosing a Class\nWhenever you gain a template, you choose a class and gain the appropriate template.\nYou must gain all the lower templates before gaining a higher template.   You   may multiclass freely (by picking a\nTemplate A from a different class).\nYou can't have more than 4 templates at a time, but you can start swapping them out once you hit level 5.\nAnyone can become an acrobat, barbarian, fighter, or thief.\nAdditional classes (wizard, cleric, warlock, knight, tactician) and races must be unlocked through play.\n49",
+    "text": "Choosing a Class\nWhenever you gain a template, you choose a class and gain the appropriate template.\nYou must gain all the lower templates before gaining a higher template.   You   may multiclass freely (by picking a\nTemplate A from a different class).\nYou can't have more than 4 templates at a time, but you can start swapping them out once you hit level 5.\nAnyone can become an acrobat, barbarian, fighter, or thief.\nAdditional classes (wizard, cleric, warlock, knight, tactician) and races must be unlocked through play.\n49\nAcrobat\nEach level of Acrobat gives you +1 Move.\nA Dodge, Nah 1/day\nB Tricky\nC Cat Power, Nah 2/day\nD Roast the Oaf",
     "labels": [],
-    "text_bytes": 526,
+    "text_bytes": 642,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p50.acrobat",
-    "heading": "Acrobat",
-    "pages": [
-      50
-    ],
-    "column": 0,
-    "text": "Acrobat\nEach level of Acrobat gives you +1 Move.",
-    "labels": [],
-    "text_bytes": 48,
-    "keyed_area": null,
-    "style": {
-      "size": 30.0,
-      "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p50.a-dodge-nah-1-day",
-    "heading": "A Dodge, Nah 1/day",
-    "pages": [
-      50
-    ],
-    "column": 0,
-    "text": "A Dodge, Nah 1/day",
-    "labels": [],
-    "text_bytes": 18,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p50.b-tricky",
-    "heading": "B Tricky",
-    "pages": [
-      50
-    ],
-    "column": 0,
-    "text": "B Tricky",
-    "labels": [],
-    "text_bytes": 8,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p50.c-cat-power-nah-2-day",
-    "heading": "C Cat Power, Nah 2/day",
-    "pages": [
-      50
-    ],
-    "column": 0,
-    "text": "C Cat Power, Nah 2/day",
-    "labels": [],
-    "text_bytes": 22,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p50.d-roast-the-oaf",
-    "heading": "D Roast the Oaf",
-    "pages": [
-      50
-    ],
-    "column": 0,
-    "text": "D Roast the Oaf",
-    "labels": [],
-    "text_bytes": 15,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
       "bold": false,
       "color": "#000000"
     }
@@ -4970,85 +3965,13 @@
       51
     ],
     "column": 0,
-    "text": "Barbarian\nEach level of Barbarian gives you +2 Loincloth HP.",
+    "text": "Barbarian\nEach level of Barbarian gives you +2 Loincloth HP.\nA Rage\nB Firewater\nC Thews 1/day\nD Rampage, Thews 2/day",
     "labels": [],
-    "text_bytes": 60,
+    "text_bytes": 116,
     "keyed_area": null,
     "style": {
       "size": 30.0,
       "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p51.a-rage",
-    "heading": "A Rage",
-    "pages": [
-      51
-    ],
-    "column": 0,
-    "text": "A Rage",
-    "labels": [],
-    "text_bytes": 6,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p51.b-firewater",
-    "heading": "B Firewater",
-    "pages": [
-      51
-    ],
-    "column": 0,
-    "text": "B Firewater",
-    "labels": [],
-    "text_bytes": 11,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p51.c-thews-1-day",
-    "heading": "C Thews 1/day",
-    "pages": [
-      51
-    ],
-    "column": 0,
-    "text": "C Thews 1/day",
-    "labels": [],
-    "text_bytes": 13,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p51.d-rampage-thews-2-day",
-    "heading": "D Rampage, Thews 2/day",
-    "pages": [
-      51
-    ],
-    "column": 0,
-    "text": "D Rampage, Thews 2/day",
-    "labels": [],
-    "text_bytes": 22,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
       "bold": false,
       "color": "#000000"
     }
@@ -5150,85 +4073,13 @@
       52
     ],
     "column": 0,
-    "text": "Fighter\nEach level of Fighter gives you +1 Attack.",
+    "text": "Fighter\nEach level of Fighter gives you +1 Attack.\nA Stand Tough\nB Tricky\nC Very Tricky\nD Double Attack",
     "labels": [],
-    "text_bytes": 50,
+    "text_bytes": 103,
     "keyed_area": null,
     "style": {
       "size": 30.0,
       "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p52.a-stand-tough",
-    "heading": "A Stand Tough",
-    "pages": [
-      52
-    ],
-    "column": 0,
-    "text": "A Stand Tough",
-    "labels": [],
-    "text_bytes": 13,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p52.b-tricky",
-    "heading": "B Tricky",
-    "pages": [
-      52
-    ],
-    "column": 0,
-    "text": "B Tricky",
-    "labels": [],
-    "text_bytes": 8,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p52.c-very-tricky",
-    "heading": "C Very Tricky",
-    "pages": [
-      52
-    ],
-    "column": 0,
-    "text": "C Very Tricky",
-    "labels": [],
-    "text_bytes": 13,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p52.d-double-attack",
-    "heading": "D Double Attack",
-    "pages": [
-      52
-    ],
-    "column": 0,
-    "text": "D Double Attack",
-    "labels": [],
-    "text_bytes": 15,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
       "bold": false,
       "color": "#000000"
     }
@@ -5312,85 +4163,13 @@
       53
     ],
     "column": 0,
-    "text": "Thief\nEach level of Thief gives you +1 Mastery and +1 Stealth.",
+    "text": "Thief\nEach level of Thief gives you +1 Mastery and +1 Stealth.\nA “Luck”\nB Opportunist\nC Preparation\nD Snag",
     "labels": [],
-    "text_bytes": 62,
+    "text_bytes": 110,
     "keyed_area": null,
     "style": {
       "size": 30.0,
       "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p53.a-luck",
-    "heading": "A “Luck”",
-    "pages": [
-      53
-    ],
-    "column": 0,
-    "text": "A “Luck”",
-    "labels": [],
-    "text_bytes": 12,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p53.b-opportunist",
-    "heading": "B Opportunist",
-    "pages": [
-      53
-    ],
-    "column": 0,
-    "text": "B Opportunist",
-    "labels": [],
-    "text_bytes": 13,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p53.c-preparation",
-    "heading": "C Preparation",
-    "pages": [
-      53
-    ],
-    "column": 0,
-    "text": "C Preparation",
-    "labels": [],
-    "text_bytes": 13,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p53.d-snag",
-    "heading": "D Snag",
-    "pages": [
-      53
-    ],
-    "column": 0,
-    "text": "D Snag",
-    "labels": [],
-    "text_bytes": 6,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
       "bold": false,
       "color": "#000000"
     }
@@ -5474,193 +4253,13 @@
       54
     ],
     "column": 0,
-    "text": "Level Ups\nThere are 8  Treasures  and  Milestones :\n• Sitting on the throne in 7 THRONE. (Milestone)\n• The Ruby Ring of Wisdom in 8 PIT. (Treasure)\n• The Jewelled Crab Bracer in 19 PRIESTS. (Treasure)\n• Removing the bar from 21 HEAVY DOOR (or killing the Lamb).  (Milestone)\n• The Crysmere Blade of Charcorra in 27 BALLISTA. (Treasure)\n• The Abacus of Vandoh in 39 STONE EGG. (Treasure.)\n• The hand mirror of Lies in 42 SUNKEN GALLERY. (Treasure)\n• Escaping out 46B TOWER. (Milestone)\nIf you don't like the Treasure/Milestone system, you could just level everyone up when they escape the dungeon.  That's a\nlong journey (and probably multiple sessions), so you may want to just level them all up at the halfway point, when they\nopen 21 HEAVY DOOR.",
+    "text": "Level Ups\nThere are 8  Treasures  and  Milestones :\n• Sitting on the throne in 7 THRONE. (Milestone)\n• The Ruby Ring of Wisdom in 8 PIT. (Treasure)\n• The Jewelled Crab Bracer in 19 PRIESTS. (Treasure)\n• Removing the bar from 21 HEAVY DOOR (or killing the Lamb).  (Milestone)\n• The Crysmere Blade of Charcorra in 27 BALLISTA. (Treasure)\n• The Abacus of Vandoh in 39 STONE EGG. (Treasure.)\n• The hand mirror of Lies in 42 SUNKEN GALLERY. (Treasure)\n• Escaping out 46B TOWER. (Milestone)\nIf you don't like the Treasure/Milestone system, you could just level everyone up when they escape the dungeon.  That's a\nlong journey (and probably multiple sessions), so you may want to just level them all up at the halfway point, when they\nopen 21 HEAVY DOOR.\nKey Items\nRoom Light Source Room Rope\n4 1 torch 18A 30' rope\n5 1.5 torches + 1 oil 31 30' rope\n10 1 torch 40 30' rope\n14 1 torch\n17 1 candle\n20 Liquid Light\n24 2 oil\n30 2 oil\n45 2 oil",
     "labels": [],
-    "text_bytes": 763,
+    "text_bytes": 947,
     "keyed_area": null,
     "style": {
       "size": 30.0,
       "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p54.key-items",
-    "heading": "Key Items",
-    "pages": [
-      54
-    ],
-    "column": 0,
-    "text": "Key Items",
-    "labels": [],
-    "text_bytes": 9,
-    "keyed_area": null,
-    "style": {
-      "size": 30.0,
-      "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p54.room-light-source-room-rope",
-    "heading": "Room Light Source Room Rope",
-    "pages": [
-      54
-    ],
-    "column": 0,
-    "text": "Room Light Source Room Rope",
-    "labels": [],
-    "text_bytes": 27,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "F11",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p54.4-1-torch-18a-30-rope",
-    "heading": "4 1 torch 18A 30' rope",
-    "pages": [
-      54
-    ],
-    "column": 0,
-    "text": "4 1 torch 18A 30' rope\n5 1.5 torches + 1 oil 31 30' rope",
-    "labels": [],
-    "text_bytes": 56,
-    "keyed_area": "4",
-    "style": {
-      "size": 15.0,
-      "family": "F11",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p54.10-1-torch-40-30-rope",
-    "heading": "10 1 torch 40 30' rope",
-    "pages": [
-      54
-    ],
-    "column": 0,
-    "text": "10 1 torch 40 30' rope",
-    "labels": [],
-    "text_bytes": 22,
-    "keyed_area": "10",
-    "style": {
-      "size": 15.0,
-      "family": "F11",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p54.14-1-torch",
-    "heading": "14 1 torch",
-    "pages": [
-      54
-    ],
-    "column": 0,
-    "text": "14 1 torch",
-    "labels": [],
-    "text_bytes": 10,
-    "keyed_area": "14",
-    "style": {
-      "size": 15.0,
-      "family": "F11",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p54.17-1-candle",
-    "heading": "17 1 candle",
-    "pages": [
-      54
-    ],
-    "column": 0,
-    "text": "17 1 candle",
-    "labels": [],
-    "text_bytes": 11,
-    "keyed_area": "17",
-    "style": {
-      "size": 15.0,
-      "family": "F11",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p54.20-liquid-light",
-    "heading": "20 Liquid Light",
-    "pages": [
-      54
-    ],
-    "column": 0,
-    "text": "20 Liquid Light",
-    "labels": [],
-    "text_bytes": 15,
-    "keyed_area": "20",
-    "style": {
-      "size": 15.0,
-      "family": "F11",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p54.24-2-oil",
-    "heading": "24 2 oil",
-    "pages": [
-      54
-    ],
-    "column": 0,
-    "text": "24 2 oil",
-    "labels": [],
-    "text_bytes": 8,
-    "keyed_area": "24",
-    "style": {
-      "size": 15.0,
-      "family": "F11",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p54.30-2-oil",
-    "heading": "30 2 oil",
-    "pages": [
-      54
-    ],
-    "column": 0,
-    "text": "30 2 oil",
-    "labels": [],
-    "text_bytes": 8,
-    "keyed_area": "30",
-    "style": {
-      "size": 15.0,
-      "family": "F11",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p54.45-2-oil",
-    "heading": "45 2 oil",
-    "pages": [
-      54
-    ],
-    "column": 0,
-    "text": "45 2 oil",
-    "labels": [],
-    "text_bytes": 8,
-    "keyed_area": "45",
-    "style": {
-      "size": 15.0,
-      "family": "F11",
       "bold": false,
       "color": "#000000"
     }

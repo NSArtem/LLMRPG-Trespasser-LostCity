@@ -24,9 +24,27 @@
       3
     ],
     "column": 0,
-    "text": "Act I: The Village of Hirot\n, where the mystery begins. Here\nthe PCs can learn rumors of the legendary hound over pots of\nale, encounter key NPCs, and seek out clues to ancient relics\nthat can be used to battle the beast.\nAct II: The Tomb of the Ulfheonar\n, wherein, armed with\nknowledge gleaned from Hirot, the PCs delve into the cata-\ncombs beneath the haunted serpent mound, emerging with\nmythic weapons and armor of antiquity.",
+    "text": "Act I: The Village of Hirot\n, where the mystery begins. Here\nthe PCs can learn rumors of the legendary hound over pots of\nale, encounter key NPCs, and seek out clues to ancient relics\nthat can be used to battle the beast.",
     "labels": [],
-    "text_bytes": 430,
+    "text_bytes": 221,
+    "keyed_area": null,
+    "style": {
+      "size": 14.0,
+      "family": "BookAntiqua",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p3.act-ii-the-tomb-of-the-ulfheonar",
+    "heading": "Act II: The Tomb of the Ulfheonar",
+    "pages": [
+      3
+    ],
+    "column": 0,
+    "text": "Act II: The Tomb of the Ulfheonar\n, wherein, armed with\nknowledge gleaned from Hirot, the PCs delve into the cata-\ncombs beneath the haunted serpent mound, emerging with\nmythic weapons and armor of antiquity.",
+    "labels": [],
+    "text_bytes": 208,
     "keyed_area": null,
     "style": {
       "size": 14.0,
@@ -170,13 +188,31 @@
       5
     ],
     "column": 0,
-    "text": "A  plAyer chArActers\ngood portion of the adventure can take place within\nthe village of Hirot, and neophyte judges may find\nthemselves vexed with juggling so many personali-\nties. To aid judges, Hirot’s most prominent NPCs are listed be-\nlow, with summaries of their motivations and goals.\nThe Jarl and Sylle Ru (area A-10; condescending, insecure):\nThe Jarl strives to conceal the insecurity of his rule by bullying\nnewcomers, gruffly dismissing their offers of aid, and assuring\nall within earshot that matters are under control, even when it\nis evident to all that this is clearly not the case.\nThe bearded giant of a man is always accompanied by Sylle\nRu,  his  pet  seer. A  thin,  weaseling  wretch  of  a  man,  Ru  can\noften  be  seen whispering  slyly  into  the  Jarl’s ear.  For  all  his\nbravado, the Jarl loathes to make decisions without first con-\nsulting his seer.\nBroegan “Bull” Haverson (area A-3; friendly, concerned): The\nowner and master of the Wolf-Spear, Broegan is welcoming to\nstrangers and likely the PCs’ first ally. Broegan’s foremost concern is\nthe safety of his fellow villagers. He hasn’t the means to defend them\nagainst the hound, yet is unwilling to forsake them for his own safety.",
+    "text": "A  plAyer chArActers\ngood portion of the adventure can take place within\nthe village of Hirot, and neophyte judges may find\nthemselves vexed with juggling so many personali-\nties. To aid judges, Hirot’s most prominent NPCs are listed be-\nlow, with summaries of their motivations and goals.",
     "labels": [],
-    "text_bytes": 1230,
+    "text_bytes": 291,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "Duvall",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p5.the-jarl-and-sylle-ru-area-a-10",
+    "heading": "The Jarl and Sylle Ru (area A-10; condescending, insecure):",
+    "pages": [
+      5
+    ],
+    "column": 0,
+    "text": "The Jarl and Sylle Ru (area A-10; condescending, insecure):\nThe Jarl strives to conceal the insecurity of his rule by bullying\nnewcomers, gruffly dismissing their offers of aid, and assuring\nall within earshot that matters are under control, even when it\nis evident to all that this is clearly not the case.\nThe bearded giant of a man is always accompanied by Sylle\nRu,  his  pet  seer. A  thin,  weaseling  wretch  of  a  man,  Ru  can\noften  be  seen whispering  slyly  into  the  Jarl’s ear.  For  all  his\nbravado, the Jarl loathes to make decisions without first con-\nsulting his seer.\nBroegan “Bull” Haverson (area A-3; friendly, concerned): The\nowner and master of the Wolf-Spear, Broegan is welcoming to\nstrangers and likely the PCs’ first ally. Broegan’s foremost concern is\nthe safety of his fellow villagers. He hasn’t the means to defend them\nagainst the hound, yet is unwilling to forsake them for his own safety.",
+    "labels": [],
+    "text_bytes": 938,
+    "keyed_area": null,
+    "style": {
+      "size": 14.0,
+      "family": "BookAntiqua",
       "bold": true,
       "color": "#000000"
     }
@@ -315,13 +351,31 @@
       6
     ],
     "column": 1,
-    "text": "encounter AreAs\nArea A – Village of Hirot:  The wooded moors give way to mist-\nladen fields. Ahead, up the narrow track, stands the village of Hi-\nrot. The village is defended by a low earthen rampart topped with\na wooden palisade. Behind the village, a causeway rises to a great\nhall resting atop a craggy ridge. Black hearth-smoke hangs forlornly\nover the village, as if even the smoke were too frightened to venture\nbeyond the village walls.\nSolitary figures give out a cry, and a long mournful horn is sounded,\nechoing down the vale, declaring your approach to all.\nThe 15-foot palisade deters beasts and most raiders, but is eas-\nily surmounted by skilled climbers (climbing check, DC 15).\nA catwalk runs the circumference of the palisade and—since\nthe  incursion  of  the  hound—  town  militia  light  braziers  at\ndusk and walk the wall throughout the night. The night watch\nhas done little to deter attacks. Indeed, the watch has lost four\nof its own volunteers to the claws of the hound.\nThe night watch is led by  Nothan the Younger , a stern, hawk-\nish man, sporting a long mustache and fierce eyes. Nearly fifty\nwinters  in  age,  Nothan  harbors  deep  suspicions  of  the  Jarl\nand his pet sorcerer, but keeps his opinions to himself. He has\nfought the hound, and witnessed it turning to black mist.\nThe night watch raises a cry at the first hint of danger. There\nis a 1-in-5 chance of the night watch passing near the PCs any\ntime they attempt to cross the wall.\nNothan the Younger, Master of the Watch:\nInit +1; Atk long-\nsword +1 melee (1d8); AC 15; HD 2d8; hp 10; MV 20’; Act 1d20;\nSV Fort +2, Ref +1, Will +1; AL L.",
+    "text": "encounter AreAs\nArea A – Village of Hirot:  The wooded moors give way to mist-\nladen fields. Ahead, up the narrow track, stands the village of Hi-\nrot. The village is defended by a low earthen rampart topped with\na wooden palisade. Behind the village, a causeway rises to a great\nhall resting atop a craggy ridge. Black hearth-smoke hangs forlornly\nover the village, as if even the smoke were too frightened to venture\nbeyond the village walls.\nSolitary figures give out a cry, and a long mournful horn is sounded,\nechoing down the vale, declaring your approach to all.\nThe 15-foot palisade deters beasts and most raiders, but is eas-\nily surmounted by skilled climbers (climbing check, DC 15).\nA catwalk runs the circumference of the palisade and—since\nthe  incursion  of  the  hound—  town  militia  light  braziers  at\ndusk and walk the wall throughout the night. The night watch\nhas done little to deter attacks. Indeed, the watch has lost four\nof its own volunteers to the claws of the hound.\nThe night watch is led by  Nothan the Younger , a stern, hawk-\nish man, sporting a long mustache and fierce eyes. Nearly fifty\nwinters  in  age,  Nothan  harbors  deep  suspicions  of  the  Jarl\nand his pet sorcerer, but keeps his opinions to himself. He has\nfought the hound, and witnessed it turning to black mist.\nThe night watch raises a cry at the first hint of danger. There\nis a 1-in-5 chance of the night watch passing near the PCs any\ntime they attempt to cross the wall.",
     "labels": [],
-    "text_bytes": 1643,
+    "text_bytes": 1484,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "Duvall",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p6.nothan-the-younger-master-of-the",
+    "heading": "Nothan the Younger, Master of the Watch:",
+    "pages": [
+      6
+    ],
+    "column": 1,
+    "text": "Nothan the Younger, Master of the Watch:\nInit +1; Atk long-\nsword +1 melee (1d8); AC 15; HD 2d8; hp 10; MV 20’; Act 1d20;\nSV Fort +2, Ref +1, Will +1; AL L.",
+    "labels": [],
+    "text_bytes": 158,
+    "keyed_area": null,
+    "style": {
+      "size": 14.0,
+      "family": "BookAntiqua",
       "bold": true,
       "color": "#000000"
     }
@@ -333,13 +387,31 @@
       6
     ],
     "column": 1,
-    "text": "Night Watch (6):\nInit +0; Atk spear +1 melee (1d6); AC 14; HD\n1d8; hp 4; MV 25’; Act 1d20; SV Fort +1, Ref +1, Will +0; AL L.\nArea A-1 – South Gates:\nThe stout gates are opened at first\nlight and sealed at dusk. During the night the gates are only\nopened on direct order of the Jarl himself. A simple watch plat-\nform rises above the wall, some 25’ in height.\nA pair of militia men,  Mocle  and  Naven , sits atop the platform\nduring the day, warming themselves before a small iron bra-\nzier. Armed with spears and wooden shields, the vigilant pair\nsounds a horn at the first sight of strangers. Eager for news\nof the outside world, they descend the platform to welcome\nnewcomers to Hirot.",
+    "text": "Night Watch (6):\nInit +0; Atk spear +1 melee (1d6); AC 14; HD\n1d8; hp 4; MV 25’; Act 1d20; SV Fort +1, Ref +1, Will +0; AL L.",
     "labels": [],
-    "text_bytes": 695,
+    "text_bytes": 127,
     "keyed_area": null,
     "style": {
       "size": 14.0,
       "family": "BookAntiqua",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p6.area-a-1-south-gates",
+    "heading": "Area A-1 – South Gates:",
+    "pages": [
+      6
+    ],
+    "column": 1,
+    "text": "Area A-1 – South Gates:\nThe stout gates are opened at first\nlight and sealed at dusk. During the night the gates are only\nopened on direct order of the Jarl himself. A simple watch plat-\nform rises above the wall, some 25’ in height.\nA pair of militia men,  Mocle  and  Naven , sits atop the platform\nduring the day, warming themselves before a small iron bra-\nzier. Armed with spears and wooden shields, the vigilant pair\nsounds a horn at the first sight of strangers. Eager for news\nof the outside world, they descend the platform to welcome\nnewcomers to Hirot.",
+    "labels": [],
+    "text_bytes": 567,
+    "keyed_area": "A-1",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
       "bold": true,
       "color": "#000000"
     }
@@ -352,13 +424,31 @@
       7
     ],
     "column": 1,
-    "text": "Mocle\nand  Naven : Init +0; Atk spear +1 melee (1d6) or cross-\nbow +0 missile fire (1d6); AC 10; HD 1d8; hp 4; MV 25’; Act\n1d20; SV Fort +1, Ref +1, Will +0; AL L.\nArea A-2 – Village Square:  The village square is largely de-\nserted, save for few scruffy mongrels that pick their way through the\nabandoned stalls. A locked strongbox rests atop a short wooden post\nin the center of the square. A tattered banner displaying a sable wolf\nrampant hangs forlornly above the strongbox.\nMost days, Father Beacom and his two silent acolytes (see area\nA-4) can be found here, proclaiming to all who will listen (as\nwell as to those who refuse to listen) that the Hound of Hirot\nheralds the end of days and that doom is upon them.\nEvery three days the people of Hirot gather in the square and\nPage 6\ndraw lots to determine which of their own will be sacrificed\nto the hound. The town scribe records each citizen’s name on\na strip of vellum, which is dropped through the slot into the\nstrongbox.  Blindfolded,  the  Jarl  unlocks  the  strongbox  and\ndraws a slip, which is read by the town scribe and confirmed\nby the priest Father Beacom.\nThe strongbox is secured with only a simple lock (DC 10 to\npick), but a cry goes up if the citizens witness anyone disturb-\ning the coffer. Opening the strongbox reveals the lottery to be\na sham: a second box is concealed within the first. The night\nbefore the lottery, the Jarl and Sylle Ru choose who is to be\nsacrificed and place a false slip within the smaller box to be\ndrawn in the lottery.\nIf the PCs remain in Hirot for more than two days, they are\nexpected to take part in the lottery. The Jarl takes this oppor-\ntunity to do away with his rivals, ensuring that a PC’s name\nis drawn. If astute rogues examine the slips (forge document\ncheck, DC 10), they suspect that—due to discrepancies in the\nquality of vellum and ink—the script on the slip was written\nby someone other than the town scribe. Ink and vellum match-\ning the forged slip can be found in the possession of Sylle Ru.\nArea A-3 – Sign of the Wolf-Spear (Inn):\nSet just off the\ntown square, Hirot’s sole inn welcomes weary travelers day\nand night. A lonely caravansary long before Hirot grew into\na village, the inn still retains hints of its rough origins: arrow\nslits are set into the shutters, a heavy iron bar stands ready to\nbar the door, and crenellations are set along the roof’s edge.\nThe  ground  floor  is  host  to  common  room  where  food  and\ndrink are served. A great wolf-spear rests above the bar—a rep-\nlica of Ulfheonar’s legendary spear. Though the spear appears\nreal, casual inspection reveals that the blade is merely wood,\npainted blue-silver. The bar is usually tended by  Broegan",
+    "text": "Mocle\nand  Naven : Init +0; Atk spear +1 melee (1d6) or cross-\nbow +0 missile fire (1d6); AC 10; HD 1d8; hp 4; MV 25’; Act\n1d20; SV Fort +1, Ref +1, Will +0; AL L.\nArea A-2 – Village Square:  The village square is largely de-\nserted, save for few scruffy mongrels that pick their way through the\nabandoned stalls. A locked strongbox rests atop a short wooden post\nin the center of the square. A tattered banner displaying a sable wolf\nrampant hangs forlornly above the strongbox.\nMost days, Father Beacom and his two silent acolytes (see area\nA-4) can be found here, proclaiming to all who will listen (as\nwell as to those who refuse to listen) that the Hound of Hirot\nheralds the end of days and that doom is upon them.\nEvery three days the people of Hirot gather in the square and\nPage 6\ndraw lots to determine which of their own will be sacrificed\nto the hound. The town scribe records each citizen’s name on\na strip of vellum, which is dropped through the slot into the\nstrongbox.  Blindfolded,  the  Jarl  unlocks  the  strongbox  and\ndraws a slip, which is read by the town scribe and confirmed\nby the priest Father Beacom.\nThe strongbox is secured with only a simple lock (DC 10 to\npick), but a cry goes up if the citizens witness anyone disturb-\ning the coffer. Opening the strongbox reveals the lottery to be\na sham: a second box is concealed within the first. The night\nbefore the lottery, the Jarl and Sylle Ru choose who is to be\nsacrificed and place a false slip within the smaller box to be\ndrawn in the lottery.\nIf the PCs remain in Hirot for more than two days, they are\nexpected to take part in the lottery. The Jarl takes this oppor-\ntunity to do away with his rivals, ensuring that a PC’s name\nis drawn. If astute rogues examine the slips (forge document\ncheck, DC 10), they suspect that—due to discrepancies in the\nquality of vellum and ink—the script on the slip was written\nby someone other than the town scribe. Ink and vellum match-\ning the forged slip can be found in the possession of Sylle Ru.",
     "labels": [],
-    "text_bytes": 2728,
+    "text_bytes": 2032,
     "keyed_area": null,
     "style": {
       "size": 14.0,
       "family": "BookAntiqua",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p7.area-a-3-sign-of-the-wolf-spear",
+    "heading": "Area A-3 – Sign of the Wolf-Spear (Inn):",
+    "pages": [
+      7
+    ],
+    "column": 0,
+    "text": "Area A-3 – Sign of the Wolf-Spear (Inn):\nSet just off the\ntown square, Hirot’s sole inn welcomes weary travelers day\nand night. A lonely caravansary long before Hirot grew into\na village, the inn still retains hints of its rough origins: arrow\nslits are set into the shutters, a heavy iron bar stands ready to\nbar the door, and crenellations are set along the roof’s edge.\nThe  ground  floor  is  host  to  common  room  where  food  and\ndrink are served. A great wolf-spear rests above the bar—a rep-\nlica of Ulfheonar’s legendary spear. Though the spear appears\nreal, casual inspection reveals that the blade is merely wood,\npainted blue-silver. The bar is usually tended by  Broegan",
+    "labels": [],
+    "text_bytes": 695,
+    "keyed_area": "A-3",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
       "bold": true,
       "color": "#000000"
     }
@@ -370,13 +460,31 @@
       7
     ],
     "column": 0,
-    "text": "“Bull” Haverson\nand his daughter Morgan—the town’s latest\noffering to the hound. If the PCs managed to stop Morgan’s\nsacrifice, they receive the undying gratitude of Broegan and\nneed not pay for room or board for as long as they stay. How-\never, if the PCs were unable or unwilling to save the girl, the\nonce-cordial giant is lost in his grief.\nThe second floor of the inn is reserved for private guest rooms,\nand a small, third floor, for Broegan’s family. However, since\nthe start of the attacks, Broegan has taken to sleeping on the\nground floor to better defend his guests should the hound at-\ntack.\nThe defensibility of the Wolf-Spear is not lost on the people of\nHirot, and many have taken to spending their evenings at the\ninn, sleeping in the common room. On any given night there\nare 2d12 locals passing the night with modest dice games and\ndrink, doing their best to forget about the beast prowling out-\nside their doors.\nMost  nights  Lloré ,  Hirot’s  sole  bard  and  storyteller,  can  be\nfound entertaining the crowd. The young, charismatic bard as-\npires to become an adventurer, but his secret love for Morgan\nkeeps him returning to the Wolf-Spear night after night. Lloré\nknows nearly every rumor and legend surrounding the hound\nand is delighted to share them with a fresh audience.\nArea A-4 – Chapel of Justicia:\nThe simple chapel is the sole\nstructure in Hirot built entirely from stone. Designed to serve\nas both a place of worship and defense, the holy sanctum is\namong the safest places in Hirot, second only to the Jarl’s great\nhall. Despite this, the chapel stands empty most days.\nThe cause for this desolation is the chapel’s head priest,  Father",
+    "text": "“Bull” Haverson\nand his daughter Morgan—the town’s latest\noffering to the hound. If the PCs managed to stop Morgan’s\nsacrifice, they receive the undying gratitude of Broegan and\nneed not pay for room or board for as long as they stay. How-\never, if the PCs were unable or unwilling to save the girl, the\nonce-cordial giant is lost in his grief.\nThe second floor of the inn is reserved for private guest rooms,\nand a small, third floor, for Broegan’s family. However, since\nthe start of the attacks, Broegan has taken to sleeping on the\nground floor to better defend his guests should the hound at-\ntack.\nThe defensibility of the Wolf-Spear is not lost on the people of\nHirot, and many have taken to spending their evenings at the\ninn, sleeping in the common room. On any given night there\nare 2d12 locals passing the night with modest dice games and\ndrink, doing their best to forget about the beast prowling out-\nside their doors.\nMost  nights  Lloré ,  Hirot’s  sole  bard  and  storyteller,  can  be\nfound entertaining the crowd. The young, charismatic bard as-\npires to become an adventurer, but his secret love for Morgan\nkeeps him returning to the Wolf-Spear night after night. Lloré\nknows nearly every rumor and legend surrounding the hound\nand is delighted to share them with a fresh audience.",
     "labels": [],
-    "text_bytes": 1696,
+    "text_bytes": 1317,
     "keyed_area": null,
     "style": {
       "size": 14.0,
       "family": "BookAntiqua",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p7.area-a-4-chapel-of-justicia",
+    "heading": "Area A-4 – Chapel of Justicia:",
+    "pages": [
+      7
+    ],
+    "column": 1,
+    "text": "Area A-4 – Chapel of Justicia:\nThe simple chapel is the sole\nstructure in Hirot built entirely from stone. Designed to serve\nas both a place of worship and defense, the holy sanctum is\namong the safest places in Hirot, second only to the Jarl’s great\nhall. Despite this, the chapel stands empty most days.\nThe cause for this desolation is the chapel’s head priest,  Father",
+    "labels": [],
+    "text_bytes": 378,
+    "keyed_area": "A-4",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
       "bold": true,
       "color": "#000000"
     }
@@ -403,14 +511,140 @@
     "unit_id": "p7.brother-haams",
     "heading": "Brother Haams.",
     "pages": [
+      7
+    ],
+    "column": 1,
+    "text": "Brother Haams.\nBoth have taken vows of silence, and follow\nthe Father as he marches through the streets, whipping them-\nselves as penance for their sins.\nThe Father has little tolerance of priests of other faiths, but he\neagerly welcomes devotees of Justicia, offering them and their\nallies sanctuary.\nThough Father Beacom is loath to admit it, the chapel holds\na secret that can aid the PCs in their battle against the Hound\nof Hirot. The stained glass rose window overlooking the nave\nof the chapel depicts Justicia battling a demon-hound with a\ngreat warhammer. The head to that same spiked warhammer\nrests atop the chapel’s altar, hidden by a velvet curtain.\nFather  Beacom  refuses  to  permit  the  holy  relic  to  leave  the\nsanctity of the chapel and only the faithful may gaze upon the\nwarhammer. But if the head is hung on a stout shaft and re-\ndedicated  to  the  service  of  Law,  it  regains  its  +1 vs. demons/\ndevils\nenchantment. When wielded by a cleric of Justicia, it per-\nforms as a  +2 warhammer . Additionally, the hammer grants the\ncleric a +1 bonus to saving throws made against evil effects,\nevil  creatures,  un-dead,  and  demons,  and  inflicts  an  extra  3\npoints of damage against the same.",
+    "labels": [],
+    "text_bytes": 1225,
+    "keyed_area": null,
+    "style": {
+      "size": 14.0,
+      "family": "BookAntiqua",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p7.area-a-5-sign-of-three-rats-flop",
+    "heading": "Area A-5 – Sign of Three Rats (Flophouse):  Those that",
+    "pages": [
       7,
+      8
+    ],
+    "column": 1,
+    "text": "Area A-5 – Sign of Three Rats (Flophouse):  Those that\ncannot afford the Wolf-Spear are forced to settle for the Three Rats,\na flophouse of the worst order. Run down and filthy, the rats, lice and\nother vermin vastly outnumber the paying guests.\nThe two-story building is also home to an informal gang of thieves\nPage 7\nand ne’er-do-wells. Led by Master Jenks, the band once numbered\neight, but the loss of Kej, Stein, and Ilham to the tomb of the Ulf-\nheonar has curtailed both the gang’s number and their audacity. The\nremaining members, Oleen the Imp, Catkins, Wee Tocs, and Wolf\npass their days drinking cheap wine and dreaming of heists.\nIf befriended by a fellow rogue, the thieves can offer directions to the\nserpent mound, but they know nothing of the plight of their former\ncomrades. Between them, the thieves know every false rumor sur-\nrounding the hound.\nOtherwise the rogues are all too eager to\ntake advantage of wealthy strangers. Though too cowardly to\ncommit outright thievery, the informal mob is not above con-\nning the PCs or trading false rumors for the PCs’ hard-won\ncoin.",
+    "labels": [],
+    "text_bytes": 1102,
+    "keyed_area": "A-5",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.area-a-6-hovel-of-the-mad-widow",
+    "heading": "Area A-6 – Hovel of the Mad Widow:",
+    "pages": [
+      8
+    ],
+    "column": 0,
+    "text": "Area A-6 – Hovel of the Mad Widow:\nHuddled in the shad-\now of the Jarl’s great hall, the home of the Mad Widow Ymae\nseems a world apart from the rest of Hirot. No one visits the\nlowly hovel, save young boys testing their courage on moon-\nlit nights. It is regarded as common knowledge that Widow\nYmae is a witch, and that she will place a curse upon anyone\nthat dares to cross her.\nThe truth is that the Widow is indeed a witch, or rather a sor-\nceress. Content with her solitude, the Widow disdains the\ncompany of her fellow villagers, preferring to wile away her\nnights in conversation with  things  beyond  the  veil.  In  all  of\nHirot, the Widow Ymae alone doesn’t live in fear of the hound.\nThough she has no patience for fools, the Widow welcomes\nthe PCs into her home, recognizing they are cut from a differ-\nent cloth than the folk of Hirot. But should they betray boorish\nhabits, she is quick to send them on their way.\nThe interior of the hovel seems oddly larger than its exterior\nwould indicate. A lively fire burns in a fire pit in the center\nof the floor, and a mottled cat sleeps atop a shelf laden with\nunrecognizable bits of dried animals. The Widow sits with a\nspindle and distaff, spinning flames from the fire into golden\nthreads.\nIf queried about the hound, the Widow shares her secret: hun-\ndreds of slender threads pressed into the thatched mud of her\nhovel. Spun from the hair of the dead, the enchanted threads\nform a barrier impassable to the hound. The same threads, the\nWidow shares, can be used to bind the hound so that it may\nbe slain.\nThe Widow is willing to lend her aid to the PCs on the condi-\ntion that one PC marries her once the hound is slain. If the PCs\nacquire the hair of a corpse, she weaves the hair into shackles\ncapable of binding the hound.\nIf a PC breaks his promise to the crone, the would-be spouse\nis stricken by the Black Death. Oozing pustules spread across\nthe PC’s body, reducing his Strength, Stamina, and Agility by\n1 every day. Once any of the character’s stats reach 0 the PC\ndies. Once inflicted, the curse can only be lifted by a divine\npower—even the sorceress is unable to reverse the curse.\nHowever, if the PC makes good on his promise, he is treated to\na surprise. The widow, now young, lovely, and bedecked with\nflowers waits at the door of her hovel, her dead husband at her\nside. A devilish form composed of flame and darkness, he jeal-\nously bids the PC to be gone. The Widow wistfully kisses the\nPC goodbye and presents him with a parting wedding pres-\nent: a shirt of golden mail, woven from the threads of flame.\nFine enough to be worn beneath common clothes (though not\narmor), the shirt serves as  +1 chainmail  and grants the PC a +2\nbonus to saving throws against cold-based effects.",
+    "labels": [],
+    "text_bytes": 2772,
+    "keyed_area": "A-6",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.area-a-7-farmer",
+    "heading": "Area A-7 – Farmer:",
+    "pages": [
+      8
+    ],
+    "column": 1,
+    "text": "Area A-7 – Farmer:\nThis humble hovel is home to one the\nmany families that farm the lands surrounding Hirot. There is\na 30% chance of the family sharing their home with 1d4 chick-\nens  or  1d2  hogs.  Apart  from  the  livestock  and  simple  farm\ntools, there is nothing of value in the home.",
+    "labels": [],
+    "text_bytes": 295,
+    "keyed_area": "A-7",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.area-a-8-craftsman",
+    "heading": "Area A-8 – Craftsman:",
+    "pages": [
+      8
+    ],
+    "column": 1,
+    "text": "Area A-8 – Craftsman:\nThis building is home and shop\nto one of the craftsmen families making their home in Hirot.\nCraftsmen include:\n• Mareras the Glassworker\n• Gil the Bald, Brewmaster\n• Niel the Miller\n• Will-O-Scein, Apprentice Leatherworker\n• Hael the Crane, Master Smith\n• Ansich, Baker\n• Chatham the Quiet, Bone and Antler worker\n• Oyd Tallson, Carpenter\n• Moeroj the Tanner",
+    "labels": [],
+    "text_bytes": 400,
+    "keyed_area": "A-8",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.area-a-9-byre",
+    "heading": "Area A-9 – Byre:",
+    "pages": [
+      8
+    ],
+    "column": 1,
+    "text": "Area A-9 – Byre:\nThe bulk of the village’s livestock are kept\nin simple stables built against the village wall. Each is home\nto over a dozen cattle, oxen, or sheep, as well as housing the\nthegns’  warhorses.  Filled  with  straw,  the  byres  are  highly\nflammable; any fire causes the animals to stampede.\nThe  byres  are  watched  over  by  young  boys  and  girls  of  the\nvillage. The children are instructed to sound their whistles at\nthe first sign of danger, bringing the watch in 1d5+1 rounds.",
+    "labels": [],
+    "text_bytes": 507,
+    "keyed_area": "A-9",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p8.area-a-10-great-hall",
+    "heading": "Area A-10 – Great Hall:",
+    "pages": [
       8,
       9
     ],
     "column": 1,
-    "text": "Brother Haams.\nBoth have taken vows of silence, and follow\nthe Father as he marches through the streets, whipping them-\nselves as penance for their sins.\nThe Father has little tolerance of priests of other faiths, but he\neagerly welcomes devotees of Justicia, offering them and their\nallies sanctuary.\nThough Father Beacom is loath to admit it, the chapel holds\na secret that can aid the PCs in their battle against the Hound\nof Hirot. The stained glass rose window overlooking the nave\nof the chapel depicts Justicia battling a demon-hound with a\ngreat warhammer. The head to that same spiked warhammer\nrests atop the chapel’s altar, hidden by a velvet curtain.\nFather  Beacom  refuses  to  permit  the  holy  relic  to  leave  the\nsanctity of the chapel and only the faithful may gaze upon the\nwarhammer. But if the head is hung on a stout shaft and re-\ndedicated  to  the  service  of  Law,  it  regains  its  +1 vs. demons/\ndevils\nenchantment. When wielded by a cleric of Justicia, it per-\nforms as a  +2 warhammer . Additionally, the hammer grants the\ncleric a +1 bonus to saving throws made against evil effects,\nevil  creatures,  un-dead,  and  demons,  and  inflicts  an  extra  3\npoints of damage against the same.\nArea A-5 – Sign of Three Rats (Flophouse):  Those that\ncannot afford the Wolf-Spear are forced to settle for the Three Rats,\na flophouse of the worst order. Run down and filthy, the rats, lice and\nother vermin vastly outnumber the paying guests.\nThe two-story building is also home to an informal gang of thieves\nPage 7\nand ne’er-do-wells. Led by Master Jenks, the band once numbered\neight, but the loss of Kej, Stein, and Ilham to the tomb of the Ulf-\nheonar has curtailed both the gang’s number and their audacity. The\nremaining members, Oleen the Imp, Catkins, Wee Tocs, and Wolf\npass their days drinking cheap wine and dreaming of heists.\nIf befriended by a fellow rogue, the thieves can offer directions to the\nserpent mound, but they know nothing of the plight of their former\ncomrades. Between them, the thieves know every false rumor sur-\nrounding the hound.\nOtherwise the rogues are all too eager to\ntake advantage of wealthy strangers. Though too cowardly to\ncommit outright thievery, the informal mob is not above con-\nning the PCs or trading false rumors for the PCs’ hard-won\ncoin.\nArea A-6 – Hovel of the Mad Widow:\nHuddled in the shad-\now of the Jarl’s great hall, the home of the Mad Widow Ymae\nseems a world apart from the rest of Hirot. No one visits the\nlowly hovel, save young boys testing their courage on moon-\nlit nights. It is regarded as common knowledge that Widow\nYmae is a witch, and that she will place a curse upon anyone\nthat dares to cross her.\nThe truth is that the Widow is indeed a witch, or rather a sor-\nceress. Content with her solitude, the Widow disdains the\ncompany of her fellow villagers, preferring to wile away her\nnights in conversation with  things  beyond  the  veil.  In  all  of\nHirot, the Widow Ymae alone doesn’t live in fear of the hound.\nThough she has no patience for fools, the Widow welcomes\nthe PCs into her home, recognizing they are cut from a differ-\nent cloth than the folk of Hirot. But should they betray boorish\nhabits, she is quick to send them on their way.\nThe interior of the hovel seems oddly larger than its exterior\nwould indicate. A lively fire burns in a fire pit in the center\nof the floor, and a mottled cat sleeps atop a shelf laden with\nunrecognizable bits of dried animals. The Widow sits with a\nspindle and distaff, spinning flames from the fire into golden\nthreads.\nIf queried about the hound, the Widow shares her secret: hun-\ndreds of slender threads pressed into the thatched mud of her\nhovel. Spun from the hair of the dead, the enchanted threads\nform a barrier impassable to the hound. The same threads, the\nWidow shares, can be used to bind the hound so that it may\nbe slain.\nThe Widow is willing to lend her aid to the PCs on the condi-\ntion that one PC marries her once the hound is slain. If the PCs\nacquire the hair of a corpse, she weaves the hair into shackles\ncapable of binding the hound.\nIf a PC breaks his promise to the crone, the would-be spouse\nis stricken by the Black Death. Oozing pustules spread across\nthe PC’s body, reducing his Strength, Stamina, and Agility by\n1 every day. Once any of the character’s stats reach 0 the PC\ndies. Once inflicted, the curse can only be lifted by a divine\npower—even the sorceress is unable to reverse the curse.\nHowever, if the PC makes good on his promise, he is treated to\na surprise. The widow, now young, lovely, and bedecked with\nflowers waits at the door of her hovel, her dead husband at her\nside. A devilish form composed of flame and darkness, he jeal-\nously bids the PC to be gone. The Widow wistfully kisses the\nPC goodbye and presents him with a parting wedding pres-\nent: a shirt of golden mail, woven from the threads of flame.\nFine enough to be worn beneath common clothes (though not\narmor), the shirt serves as  +1 chainmail  and grants the PC a +2\nbonus to saving throws against cold-based effects.\nArea A-7 – Farmer:\nThis humble hovel is home to one the\nmany families that farm the lands surrounding Hirot. There is\na 30% chance of the family sharing their home with 1d4 chick-\nens  or  1d2  hogs.  Apart  from  the  livestock  and  simple  farm\ntools, there is nothing of value in the home.\nArea A-8 – Craftsman:\nThis building is home and shop\nto one of the craftsmen families making their home in Hirot.\nCraftsmen include:\n• Mareras the Glassworker\n• Gil the Bald, Brewmaster\n• Niel the Miller\n• Will-O-Scein, Apprentice Leatherworker\n• Hael the Crane, Master Smith\n• Ansich, Baker\n• Chatham the Quiet, Bone and Antler worker\n• Oyd Tallson, Carpenter\n• Moeroj the Tanner\nArea A-9 – Byre:\nThe bulk of the village’s livestock are kept\nin simple stables built against the village wall. Each is home\nto over a dozen cattle, oxen, or sheep, as well as housing the\nthegns’  warhorses.  Filled  with  straw,  the  byres  are  highly\nflammable; any fire causes the animals to stampede.\nThe  byres  are  watched  over  by  young  boys  and  girls  of  the\nvillage. The children are instructed to sound their whistles at\nthe first sign of danger, bringing the watch in 1d5+1 rounds.\nArea A-10 – Great Hall:\nStanding high atop the rocky crag\noverlooking Hirot, the great hall known as Meadhold is the\nseat of the Jarl’s power. The great hall is built from enormous\ntimbers, thatched with golden straw and hung with the tro-\nphies  celebrating  the  Jarl’s  victories.  The  rampant  wolf,  the\nJarl’s symbol, adorns the hall.\nThe Jarl, his thegns, and Sylle Ru make their home in the hall,\nsleeping in the common room, weapons close at hand. The Jarl\nPage 8\nknows that it is only a matter of time before the hound comes\nfor him. Therefore he personally sees that regular sacrifices are\noffered up to the hound, buying himself time. Though the Jarl\nplaces his hopes in the occult studies of Sylle Ru, he secretly\nfears that in the end nothing will protect him from the hound’s\nwrath.\nThe  Jarl’s  seven  thegns  are  Ofenloch,  Kreig,  Orioc,  Utherl,",
+    "text": "Area A-10 – Great Hall:\nStanding high atop the rocky crag\noverlooking Hirot, the great hall known as Meadhold is the\nseat of the Jarl’s power. The great hall is built from enormous\ntimbers, thatched with golden straw and hung with the tro-\nphies  celebrating  the  Jarl’s  victories.  The  rampant  wolf,  the\nJarl’s symbol, adorns the hall.\nThe Jarl, his thegns, and Sylle Ru make their home in the hall,\nsleeping in the common room, weapons close at hand. The Jarl\nPage 8\nknows that it is only a matter of time before the hound comes\nfor him. Therefore he personally sees that regular sacrifices are\noffered up to the hound, buying himself time. Though the Jarl\nplaces his hopes in the occult studies of Sylle Ru, he secretly\nfears that in the end nothing will protect him from the hound’s\nwrath.",
     "labels": [],
-    "text_bytes": 7185,
+    "text_bytes": 808,
+    "keyed_area": "A-10",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p9.the-jarl-s-seven-thegns-are-ofen",
+    "heading": "The  Jarl’s  seven  thegns  are  Ofenloch,  Kreig,  Orioc,  Utherl,",
+    "pages": [
+      9
+    ],
+    "column": 0,
+    "text": "The  Jarl’s  seven  thegns  are  Ofenloch,  Kreig,  Orioc,  Utherl,",
+    "labels": [],
+    "text_bytes": 69,
     "keyed_area": null,
     "style": {
       "size": 14.0,
@@ -498,13 +732,31 @@
       9
     ],
     "column": 0,
-    "text": "Sylle Ru, Seer\n: Init +0; Atk dagger -1 melee (1d4-1) or harmful\nspell (2d4, range 50’, no save, up to 3 times per day); AC 10;\nHD 3d4; hp 6; MV 30’; Act 1d20; SP prestidigitation (DC 12 Will\nsave or target sees his weapon disappear for 1d6+1 rounds),\nharmful spell 3/day; SV Fort +1, Ref +1, Will +4; AL C.\nArea A-11 – Sky Biers:\nWith the long, harsh winters leaving\nthe ground frozen solid much of the year, the people of Hirot\nhave taken to cremating their dead atop the ridge overlook-\ning the village. Now few days pass without a plume of black\nsmoke billowing from atop the ridge, marking the passage of\nanother citizen of Hirot.\nDay or night, bodies are watched over by a trio of guards. Eas-\nily frightened, the guards must attempt a morale check at the\nstart of battle or cede the biers. The guards rouse the Jarl and\nhis thegns, returning with reinforcements in 1d5+4 rounds.",
+    "text": "Sylle Ru, Seer\n: Init +0; Atk dagger -1 melee (1d4-1) or harmful\nspell (2d4, range 50’, no save, up to 3 times per day); AC 10;\nHD 3d4; hp 6; MV 30’; Act 1d20; SP prestidigitation (DC 12 Will\nsave or target sees his weapon disappear for 1d6+1 rounds),\nharmful spell 3/day; SV Fort +1, Ref +1, Will +4; AL C.",
     "labels": [],
-    "text_bytes": 891,
+    "text_bytes": 311,
     "keyed_area": null,
     "style": {
       "size": 14.0,
       "family": "BookAntiqua",
+      "bold": true,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p9.area-a-11-sky-biers",
+    "heading": "Area A-11 – Sky Biers:",
+    "pages": [
+      9
+    ],
+    "column": 1,
+    "text": "Area A-11 – Sky Biers:\nWith the long, harsh winters leaving\nthe ground frozen solid much of the year, the people of Hirot\nhave taken to cremating their dead atop the ridge overlook-\ning the village. Now few days pass without a plume of black\nsmoke billowing from atop the ridge, marking the passage of\nanother citizen of Hirot.\nDay or night, bodies are watched over by a trio of guards. Eas-\nily frightened, the guards must attempt a morale check at the\nstart of battle or cede the biers. The guards rouse the Jarl and\nhis thegns, returning with reinforcements in 1d5+4 rounds.",
+    "labels": [],
+    "text_bytes": 579,
+    "keyed_area": "A-11",
+    "style": {
+      "size": 14.0,
+      "family": "CooperBlack",
       "bold": true,
       "color": "#000000"
     }

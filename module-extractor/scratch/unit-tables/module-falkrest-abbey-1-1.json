@@ -96,87 +96,15 @@
       6
     ],
     "column": -1,
-    "text": "Quick Instructions\nof the blessed Abbey?\n◈ You  can  set  this  adventure  in",
+    "text": "Quick Instructions\nof the blessed Abbey?\n◈ You  can  set  this  adventure  in\nany cold mountainous region\nof  your  campaign  world,  or\neasily  run  it  as  a  one-shot\nscenario.\n◈ Level 1 characters may find the\nscenario  challenging  (but  not\nat  all  impossible),  while  level\n3 will probably have an easier\ntime,  especially  if  they  have\nmagic weapons.\n◈ Falkrest  Abbey  introduces  a\nbunch of new monsters. Their\nstatistics  can  be  found  in  the\nMonsters  section  (along  with\nall  monsters  included  in  the\nadventure).\n◈ The  dungeon  itself  is  a  small\nportion  of  the  original  abbey.\nCollapsed ruins are all around\nand  above  the  remaining\nrooms.\n2\n◈ The  Enchanted  Secret  Garden\n(room 17) can’t be found from\nthe outside: it’s a magical place,\nonly  reachable  via  portals,\nso  climbing  to  the  roof  of  the\nruins is useless.\n◈ The background of the abbey is\nintentionally vague, so as to allow\nreferees to insert the adventure\nin their campaigns. These are the\nonly  pieces  of  background  that\ninfluence the adventure:\n◆ The  Kings  and  Queens  of\nYore  were  the  rulers  of  a\nmythical past.\n◆ A  kingdom  of  kings\nand  knights  that  is  still\nremembered  in  the  ballads\nand poems of the bards; the\nruins  of  their  castles  still\nremain here and there.\n◆ The abbey fell when Grusom,\nthe last abbot, was corrupted\nby  chaos  and  attempted  to\nreach the secret garden using\na foul demonic portal.",
     "labels": [],
-    "text_bytes": 79,
+    "text_bytes": 1464,
     "keyed_area": null,
     "style": {
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
       "color": "#ffffff"
-    }
-  },
-  {
-    "unit_id": "p6.any-cold-mountainous-region",
-    "heading": "any cold mountainous region",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "any cold mountainous region\nof  your  campaign  world,  or",
-    "labels": [],
-    "text_bytes": 58,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.easily-run-it-as-a-one-shot",
-    "heading": "easily  run  it  as  a  one-shot",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "easily  run  it  as  a  one-shot",
-    "labels": [],
-    "text_bytes": 32,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.scenario",
-    "heading": "scenario.",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "scenario.\n◈ Level 1 characters may find the\nscenario  challenging  (but  not\nat  all  impossible),  while  level\n3 will probably have an easier\ntime,  especially  if  they  have\nmagic weapons.\n◈ Falkrest  Abbey  introduces  a\nbunch of new monsters. Their\nstatistics  can  be  found  in  the\nMonsters  section  (along  with\nall  monsters  included  in  the\nadventure).\n◈ The  dungeon  itself  is  a  small\nportion  of  the  original  abbey.\nCollapsed ruins are all around\nand  above  the  remaining\nrooms.\n2\n◈ The  Enchanted  Secret  Garden\n(room 17) can’t be found from\nthe outside: it’s a magical place,",
-    "labels": [],
-    "text_bytes": 616,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p6.only-reachable-via-portals",
-    "heading": "only  reachable  via  portals,",
-    "pages": [
-      6
-    ],
-    "column": 1,
-    "text": "only  reachable  via  portals,\nso  climbing  to  the  roof  of  the\nruins is useless.\n◈ The background of the abbey is\nintentionally vague, so as to allow\nreferees to insert the adventure\nin their campaigns. These are the\nonly  pieces  of  background  that\ninfluence the adventure:\n◆ The  Kings  and  Queens  of\nYore  were  the  rulers  of  a\nmythical past.\n◆ A  kingdom  of  kings\nand  knights  that  is  still\nremembered  in  the  ballads\nand poems of the bards; the\nruins  of  their  castles  still\nremain here and there.\n◆ The abbey fell when Grusom,\nthe last abbot, was corrupted\nby  chaos  and  attempted  to\nreach the secret garden using\na foul demonic portal.",
-    "labels": [],
-    "text_bytes": 675,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
     }
   },
   {
@@ -186,9 +114,9 @@
       7
     ],
     "column": 0,
-    "text": "Table of Contents\nThe Legend of the Abbey .......... 2 The Knight’s Movement .................37\nQuick Instructions ................... 2 The Chessboard Puzzle ..................37\nTable of Contents ..................... 3 OPEN GAME LICENCE ............... 39",
+    "text": "Table of Contents\nThe Legend of the Abbey .......... 2 The Knight’s Movement .................37",
     "labels": [],
-    "text_bytes": 261,
+    "text_bytes": 98,
     "keyed_area": null,
     "style": {
       "size": 35.0,
@@ -198,91 +126,37 @@
     }
   },
   {
-    "unit_id": "p7.treasure-monster-overview-4",
-    "heading": "Treasure & Monster Overview 4",
+    "unit_id": "p7.quick-instructions-2-the-chessbo",
+    "heading": "Quick Instructions ................... 2 The Chessboard Puzzle ..................37",
     "pages": [
       7
     ],
     "column": 0,
-    "text": "Treasure & Monster Overview 4",
+    "text": "Quick Instructions ................... 2 The Chessboard Puzzle ..................37",
     "labels": [],
-    "text_bytes": 29,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.hooks-6",
-    "heading": "Hooks .........................................6",
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "Hooks .........................................6",
-    "labels": [],
-    "text_bytes": 48,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.rumors-7",
-    "heading": "Rumors ....................................... 7",
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "Rumors ....................................... 7",
-    "labels": [],
-    "text_bytes": 48,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.jora-s-last-inn-emporium-8",
-    "heading": "Jora’s Last Inn & Emporium ......8",
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "Jora’s Last Inn & Emporium ......8",
-    "labels": [],
-    "text_bytes": 36,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.speaking-with-jora-8",
-    "heading": "Speaking with Jora: .........................8",
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "Speaking with Jora: .........................8",
-    "labels": [],
-    "text_bytes": 46,
+    "text_bytes": 83,
     "keyed_area": null,
     "style": {
       "size": 14.0,
       "family": "SkolarLatin-Light",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p7.table-of-contents-3-open-game-li",
+    "heading": "Table of Contents ..................... 3 OPEN GAME LICENCE ............... 39",
+    "pages": [
+      7
+    ],
+    "column": 0,
+    "text": "Table of Contents ..................... 3 OPEN GAME LICENCE ............... 39\nTreasure & Monster Overview 4\nHooks .........................................6\nRumors ....................................... 7\nJora’s Last Inn & Emporium ......8\nSpeaking with Jora: .........................8",
+    "labels": [],
+    "text_bytes": 290,
+    "keyed_area": null,
+    "style": {
+      "size": 14.0,
+      "family": "SkolarLatin-Medium",
       "bold": false,
       "color": "#000000"
     }
@@ -564,9 +438,9 @@
       7
     ],
     "column": 0,
-    "text": "12 The Abbot’s Sepulchre ..............20\nGrusom, The Wight Abbot ............20",
+    "text": "12 The Abbot’s Sepulchre ..............20\nGrusom, The Wight Abbot ............20\n13 Empty Antechamber .................21\n14 The collapsed Sepulchre ........... 22\n15 The Guarded Antechamber ...... 23\n16 The Tomb of Queen Ethofled .... 24\n17 The Secret Garden ..................... 26\n18 The Path of Knightly Virtue ..... 27",
     "labels": [],
-    "text_bytes": 82,
+    "text_bytes": 326,
     "keyed_area": "12",
     "style": {
       "size": 14.0,
@@ -576,70 +450,16 @@
     }
   },
   {
-    "unit_id": "p7.13-empty-antechamber-21",
-    "heading": "13 Empty Antechamber .................21",
+    "unit_id": "p7.19-the-hall-of-crowning-28",
+    "heading": "19 The Hall of Crowning ............... 28",
     "pages": [
       7
     ],
     "column": 0,
-    "text": "13 Empty Antechamber .................21",
+    "text": "19 The Hall of Crowning ............... 28\nAftermath ...............................30\nMonsters ................................. 32\nAppendix ................................... 37\n3",
     "labels": [],
-    "text_bytes": 40,
-    "keyed_area": "13",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.14-the-collapsed-sepulchre-22",
-    "heading": "14 The collapsed Sepulchre ........... 22",
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "14 The collapsed Sepulchre ........... 22",
-    "labels": [],
-    "text_bytes": 41,
-    "keyed_area": "14",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.15-the-guarded-antechamber-23",
-    "heading": "15 The Guarded Antechamber ...... 23",
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "15 The Guarded Antechamber ...... 23\n16 The Tomb of Queen Ethofled .... 24",
-    "labels": [],
-    "text_bytes": 74,
-    "keyed_area": "15",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.17-the-secret-garden-26",
-    "heading": "17 The Secret Garden ..................... 26",
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "17 The Secret Garden ..................... 26\n18 The Path of Knightly Virtue ..... 27\n19 The Hall of Crowning ............... 28\nAftermath ...............................30\nMonsters ................................. 32\nAppendix ................................... 37\n3",
-    "labels": [],
-    "text_bytes": 268,
-    "keyed_area": "17",
+    "text_bytes": 182,
+    "keyed_area": "19",
     "style": {
       "size": 14.0,
       "family": "SkolarLatin-Light",
@@ -669,199 +489,19 @@
     "unit_id": "p8.where-treasure",
     "heading": "Where Treasure",
     "pages": [
-      8
+      8,
+      9
     ],
     "column": 0,
-    "text": "Where Treasure\n◆ 257sp\n◆ Pearl necklace (500gp)",
+    "text": "Where Treasure\n◆ 257sp\n◆ Pearl necklace (500gp)\nLune\nMountains\nRoom 2\n◆ 53gp, 17gp\n◆ 2 x thawing oil\n◆ Potion of healing\n◆ Potion of levitation\nRoom 3\n◆ Potion of poison\n◆ Potion of gaseous form\n◆ Rare tea leaves (100gp)\n◆ Old recipe scroll (50gp)\nRoom 6\n◆ Painting (100gp)\n◆ Elaborate silver letter\nRoom 7 opener (60gp)\n◆ Book of chess rules\n(30gp)\n◆ Spellbook\n◆ Tourmaline inkwell\nRoom 8 (500gp)\n◆ Genealogical scrolls\n(500gp)\n4\nMonsters\n◆ 5 Bandits\n◆ 1 Cave Bear\n◆ 1 Treant\n◆ 2d6 Wolfs\n◆ 2d3 Mountain Goat\n◆ 1 Lune Yeti\n◆ 1 Icescale Viper\n◆ 1+ Flayed Zombie\n◆ Silver ring (50gp)\n◆ Pearl earring (100gp)\n◆ Silver brooch with\namethyst (200gp)\n◆ Rare perfume (50gp)\nRoom 9\n◆ Chess horse obsidian\nstatuette (100gp)\n◆ Topaz pendant (200gp)\n◆ Silver and bronze\nnecklace (100gp)\n◆ Golden ring with a ruby\n(1000gp)\n◆ Silver pastoral staff\nRoom 12 (300gp), golden nose\n(600gp)\nRoom 14\n◆ Magic morning star\nRoom 15\n◆ Candelabra (200gp)\n◆ Polished chain mail with\na dozen aquamarines\n(1000gp)\n◆ Platinum signet ring\nRoom 16 with a mother of pearl\nhorse head seal (1000gp)\n◆ Gold and platinum tiara\n(2.000gp)\n◆ Magic dagger; jeweled\nsheath (1000gp)\nRoom 18\nRoom 19\n◆ Chalice (2.000gp)\n◆ 1 Wight\n◆ 7 Skele-\ntons\n◆ 1 Ghost\n◆ 2 Iron Living Statues\n◆ Rowan the Eternal\nKnight\n5",
     "labels": [],
-    "text_bytes": 51,
+    "text_bytes": 1354,
     "keyed_area": null,
     "style": {
       "size": 15.0,
       "family": "SkolarLatin",
       "bold": true,
       "color": "#ffffff"
-    }
-  },
-  {
-    "unit_id": "p8.lune",
-    "heading": "Lune",
-    "pages": [
-      8
-    ],
-    "column": 0,
-    "text": "Lune",
-    "labels": [],
-    "text_bytes": 4,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p8.mountains",
-    "heading": "Mountains",
-    "pages": [
-      8
-    ],
-    "column": 0,
-    "text": "Mountains",
-    "labels": [],
-    "text_bytes": 9,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p8.room-2",
-    "heading": "Room 2",
-    "pages": [
-      8
-    ],
-    "column": 0,
-    "text": "Room 2\n◆ 53gp, 17gp\n◆ 2 x thawing oil\n◆ Potion of healing\n◆ Potion of levitation",
-    "labels": [],
-    "text_bytes": 88,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p8.room-3",
-    "heading": "Room 3",
-    "pages": [
-      8
-    ],
-    "column": 0,
-    "text": "Room 3\n◆ Potion of poison\n◆ Potion of gaseous form\n◆ Rare tea leaves (100gp)\n◆ Old recipe scroll (50gp)",
-    "labels": [],
-    "text_bytes": 111,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p8.room-6",
-    "heading": "Room 6",
-    "pages": [
-      8,
-      9
-    ],
-    "column": 0,
-    "text": "Room 6\n◆ Painting (100gp)\n◆ Elaborate silver letter\nRoom 7 opener (60gp)\n◆ Book of chess rules\n(30gp)\n◆ Spellbook\n◆ Tourmaline inkwell\nRoom 8 (500gp)\n◆ Genealogical scrolls\n(500gp)\n4\nMonsters\n◆ 5 Bandits\n◆ 1 Cave Bear\n◆ 1 Treant\n◆ 2d6 Wolfs\n◆ 2d3 Mountain Goat\n◆ 1 Lune Yeti\n◆ 1 Icescale Viper\n◆ 1+ Flayed Zombie\n◆ Silver ring (50gp)\n◆ Pearl earring (100gp)\n◆ Silver brooch with\namethyst (200gp)\n◆ Rare perfume (50gp)",
-    "labels": [],
-    "text_bytes": 453,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p9.room-9",
-    "heading": "Room 9",
-    "pages": [
-      9
-    ],
-    "column": 0,
-    "text": "Room 9\n◆ Chess horse obsidian\nstatuette (100gp)\n◆ Topaz pendant (200gp)\n◆ Silver and bronze\nnecklace (100gp)\n◆ Golden ring with a ruby\n(1000gp)\n◆ Silver pastoral staff\nRoom 12 (300gp), golden nose\n(600gp)",
-    "labels": [],
-    "text_bytes": 214,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p9.room-14",
-    "heading": "Room 14",
-    "pages": [
-      9
-    ],
-    "column": 0,
-    "text": "Room 14\n◆ Magic morning star",
-    "labels": [],
-    "text_bytes": 30,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p9.room-15",
-    "heading": "Room 15",
-    "pages": [
-      9
-    ],
-    "column": 0,
-    "text": "Room 15\n◆ Candelabra (200gp)\n◆ Polished chain mail with\na dozen aquamarines\n(1000gp)\n◆ Platinum signet ring\nRoom 16 with a mother of pearl\nhorse head seal (1000gp)\n◆ Gold and platinum tiara\n(2.000gp)\n◆ Magic dagger; jeweled\nsheath (1000gp)",
-    "labels": [],
-    "text_bytes": 249,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p9.room-18",
-    "heading": "Room 18",
-    "pages": [
-      9
-    ],
-    "column": 0,
-    "text": "Room 18",
-    "labels": [],
-    "text_bytes": 7,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p9.room-19",
-    "heading": "Room 19",
-    "pages": [
-      9
-    ],
-    "column": 0,
-    "text": "Room 19\n◆ Chalice (2.000gp)\n◆ 1 Wight\n◆ 7 Skele-\ntons\n◆ 1 Ghost\n◆ 2 Iron Living Statues\n◆ Rowan the Eternal\nKnight\n5",
-    "labels": [],
-    "text_bytes": 128,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
     }
   },
   {
@@ -889,51 +529,15 @@
       10
     ],
     "column": 0,
-    "text": "Hooks\n◆ The healer’s daughter:  Myrta the healer\ndesperately needs  a vial of St. Brynedd’s Water\nfor her young daughter Syf, who lays on her\n1 deathbed because of the soul plague, a terrible\nmagic disease that is slowly detaching her spirit\nfrom the body.\n◆ Offers:  200gp and 1 healing potion.\n◆ Lortag the snobbish alchemist:  Wants  a vial of\n2 St. Brynedd’s Water  for his experiments.",
+    "text": "Hooks\n◆ The healer’s daughter:  Myrta the healer\ndesperately needs  a vial of St. Brynedd’s Water\nfor her young daughter Syf, who lays on her\n1 deathbed because of the soul plague, a terrible\nmagic disease that is slowly detaching her spirit\nfrom the body.\n◆ Offers:  200gp and 1 healing potion.\n◆ Lortag the snobbish alchemist:  Wants  a vial of\n2 St. Brynedd’s Water  for his experiments.\n◆ Offers:  3.000gp.\n◆ The Earl of Locklear:  Has recently discovered\nhis family descends from the legendary Queen\nEthofled and wants to display the queen’s crown\n3 in his castle. As proven by the documents found\nin room 8, his claim is false, even though he\nbelieves it.\n◆ Offers:  3.000gp for  Queen Ethofled’s Crown.\n◆ The graverobber’s diary:  A page from an old\ndiary mentions an abbot with a  jeweled golden\n4 mask  buried inside the abbey, as well as the\npresence of a garden leading to a treasury where\ntwelve jeweled golden chalices  were kept.\n6",
     "labels": [],
-    "text_bytes": 402,
+    "text_bytes": 971,
     "keyed_area": null,
     "style": {
       "size": 15.0,
       "family": "SkolarLatin",
       "bold": true,
       "color": "#ffffff"
-    }
-  },
-  {
-    "unit_id": "p10.offers-3-000gp",
-    "heading": "◆ Offers:  3.000gp.",
-    "pages": [
-      10
-    ],
-    "column": 0,
-    "text": "◆ Offers:  3.000gp.\n◆ The Earl of Locklear:  Has recently discovered\nhis family descends from the legendary Queen\nEthofled and wants to display the queen’s crown\n3 in his castle. As proven by the documents found\nin room 8, his claim is false, even though he\nbelieves it.\n◆ Offers:  3.000gp for  Queen Ethofled’s Crown.\n◆ The graverobber’s diary:  A page from an old\ndiary mentions an abbot with a  jeweled golden\n4 mask  buried inside the abbey, as well as the\npresence of a garden leading to a treasury where",
-    "labels": [],
-    "text_bytes": 523,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p10.twelve-jeweled-golden-chalices-w",
-    "heading": "twelve jeweled golden chalices  were kept.",
-    "pages": [
-      10
-    ],
-    "column": 0,
-    "text": "twelve jeweled golden chalices  were kept.\n6",
-    "labels": [],
-    "text_bytes": 44,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
     }
   },
   {
@@ -1015,32 +619,14 @@
       12
     ],
     "column": 0,
-    "text": "Emporium:\n◈ Adventuring Gear: Items from the list of Adventuring Gear in Old-\nSchool Essentials are available except garlic, “I can’t suffer the stench.\nAnd I’ve never seen a vampire, have you? I don’t think those exist after all.”\n◈ Weapons and Armor: Desired item from the list of Weapons and\nArmour in Old-School Essentials has 1-in-6 chance of being available.",
+    "text": "Emporium:\n◈ Adventuring Gear: Items from the list of Adventuring Gear in Old-\nSchool Essentials are available except garlic, “I can’t suffer the stench.\nAnd I’ve never seen a vampire, have you? I don’t think those exist after all.”\n◈ Weapons and Armor: Desired item from the list of Weapons and\nArmour in Old-School Essentials has 1-in-6 chance of being available.\n◈ Special Items available:\n◆ Ancient  pilgrim's  diary  (30gp,  1  available):  A  mostly  boring\nrecount with details about sore feet, poor meals, and repentance.\n1 day to read, contains 3 random rumors. Roll 3d8 on the rumor\ntable (not 3d12).\n◆ Winter  clothes  (30gp,  6  available):  Boots,  gloves,  and  cloak.\nMade of heavy wool and fur. Protects from mundane cold.\n◆ Yeti oil (2gp, 11 available): Greasy, lumpy, dark grey. Smeared\non the skin, protects from mundane cold. Stench of rancid lard\ncan be perceived from 30’. Effects last 4 days or until vigorously\nwashed away. Jora’s secret recipe (not really made of Yeti).\n8",
     "labels": [],
-    "text_bytes": 378,
+    "text_bytes": 1022,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p12.special-items-available",
-    "heading": "◈ Special Items available:",
-    "pages": [
-      12
-    ],
-    "column": 0,
-    "text": "◈ Special Items available:\n◆ Ancient  pilgrim's  diary  (30gp,  1  available):  A  mostly  boring\nrecount with details about sore feet, poor meals, and repentance.\n1 day to read, contains 3 random rumors. Roll 3d8 on the rumor\ntable (not 3d12).\n◆ Winter  clothes  (30gp,  6  available):  Boots,  gloves,  and  cloak.\nMade of heavy wool and fur. Protects from mundane cold.\n◆ Yeti oil (2gp, 11 available): Greasy, lumpy, dark grey. Smeared\non the skin, protects from mundane cold. Stench of rancid lard\ncan be perceived from 30’. Effects last 4 days or until vigorously\nwashed away. Jora’s secret recipe (not really made of Yeti).\n8",
-    "labels": [],
-    "text_bytes": 643,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
       "color": "#000000"
     }
   },
@@ -1051,9 +637,9 @@
       13
     ],
     "column": 0,
-    "text": "Climbing The Lune Mountains\nSteep  icy  mountains,  breathtaking  vistas.  Clear  morning  skies,\nforeboding nights.\nThe path to Falkrest Abbey: From the Last Inn is a 6 miles trek at",
+    "text": "Climbing The Lune Mountains\nSteep  icy  mountains,  breathtaking  vistas.  Clear  morning  skies,\nforeboding nights.\nThe path to Falkrest Abbey: From the Last Inn is a 6 miles trek at\nhalved movement.\nCold: Characters who are not protected from the cold must make a\nsave vs paralysis or suffer 1 hp from the cold at the end of each day.\nRandom Happenings on the Lune Mountains:  2-in-6  chance  per\nday. Roll 1d6.",
     "labels": [],
-    "text_bytes": 183,
+    "text_bytes": 413,
     "keyed_area": null,
     "style": {
       "size": 35.0,
@@ -1063,21 +649,21 @@
     }
   },
   {
-    "unit_id": "p13.halved-movement",
-    "heading": "halved movement.",
+    "unit_id": "p13.1d6-random-happenings-on-the-lun",
+    "heading": "1d6 Random Happenings on the Lune Mountains",
     "pages": [
       13
     ],
     "column": 0,
-    "text": "halved movement.\nCold: Characters who are not protected from the cold must make a\nsave vs paralysis or suffer 1 hp from the cold at the end of each day.\nRandom Happenings on the Lune Mountains:  2-in-6  chance  per\nday. Roll 1d6.\n1d6 Random Happenings on the Lune Mountains\n◆ 5 Bandits.  Old Beorly and his four treacherous children\nBella, Joik, Torod, and Smeel (hand axes, short bows,\n1 winter clothes). Just out hunting, may attack if the\ncharacters look weak. Their hideout is nearby: a cave\nwith fire wood, blankets, a coffer with 257sp, pearl\nnecklace (500gp), flask of wine, dried meat for 20 meals.\n2 ◆ 1 Cave Bear.  Looking for food. -1 to reaction if characters\nsmeared with yeti oil are within 60’ (keen sense of smell).\n◆ 1 Treant.  Ompholobulous Danglebeard. Random\nreaction. Basically wants travellers not to disturb\n3 the trees, and hates fires. Remembers the days when\nmonks lived in the abbey, kept the trail clear, and were\nfrequently visited by knights, kings, and queens.\n◆ 2d6 Wolves . White fur; hungry. -1 to reaction if\n4 characters smeared with yeti oil are within 60’ (keen\nsense of smell). Afraid of fire; will flee if one is wounded.\n5 ◆ 2d3 Mountain Goats  (2 HD Small Herd Animals).\nStubborn, territorial, tasty. Fight only if disturbed.\n◆ Blizzard:  Furious, freezing wind, raging snow. Lasts 1d6\nhours. Visibility drops to 20’. Movement rates (further)\n6 halved. Characters who are not protected from the cold\nmust save vs paralysis or suffer 1 hp from the cold. 1-in-\n20 chance per hour of encountering a raging Lune Yeti.\nCuriously, it will ignore characters smeared with yeti oil.\n9",
+    "text": "1d6 Random Happenings on the Lune Mountains\n◆ 5 Bandits.  Old Beorly and his four treacherous children\nBella, Joik, Torod, and Smeel (hand axes, short bows,\n1 winter clothes). Just out hunting, may attack if the\ncharacters look weak. Their hideout is nearby: a cave\nwith fire wood, blankets, a coffer with 257sp, pearl\nnecklace (500gp), flask of wine, dried meat for 20 meals.\n2 ◆ 1 Cave Bear.  Looking for food. -1 to reaction if characters\nsmeared with yeti oil are within 60’ (keen sense of smell).\n◆ 1 Treant.  Ompholobulous Danglebeard. Random\nreaction. Basically wants travellers not to disturb\n3 the trees, and hates fires. Remembers the days when\nmonks lived in the abbey, kept the trail clear, and were\nfrequently visited by knights, kings, and queens.\n◆ 2d6 Wolves . White fur; hungry. -1 to reaction if\n4 characters smeared with yeti oil are within 60’ (keen\nsense of smell). Afraid of fire; will flee if one is wounded.\n5 ◆ 2d3 Mountain Goats  (2 HD Small Herd Animals).\nStubborn, territorial, tasty. Fight only if disturbed.\n◆ Blizzard:  Furious, freezing wind, raging snow. Lasts 1d6\nhours. Visibility drops to 20’. Movement rates (further)\n6 halved. Characters who are not protected from the cold\nmust save vs paralysis or suffer 1 hp from the cold. 1-in-\n20 chance per hour of encountering a raging Lune Yeti.\nCuriously, it will ignore characters smeared with yeti oil.\n9",
     "labels": [],
-    "text_bytes": 1635,
-    "keyed_area": null,
+    "text_bytes": 1405,
+    "keyed_area": "1",
     "style": {
       "size": 15.0,
       "family": "SkolarLatin",
       "bold": true,
-      "color": "#000000"
+      "color": "#ffffff"
     }
   },
   {
@@ -1161,122 +747,14 @@
       16
     ],
     "column": 0,
-    "text": "Portal 1 Entrance",
+    "text": "Portal 1 Entrance\nStatue Archway, wooden double door,\ndisplaying a chess piece (a\nfallen long ago. 18 Rook, a Bishop, a Queen and a  Living Statues\nFootprints (mud and snow,\nKing).\nhumans). Frescoes on east and  S\nwest walls, under a thin layer of  ▷ Frescoes, east wall: A\nice. Lowered portcullis allows\ncrowned woman riding a\nto see the cloister. white chess horse, and a\n17 crowned man riding a black\n▷ Footprints: human-sized. A\nchess horse.\nsmall group. Go through the  S P\nportcullis into the cloister  P ▷ Lifting the portcullis:\n(room 2), and turn west. Requires a combined STR 22\nto lift. Unless propped open,\n▷ Frescoes, west wall: Four  P\nfalls back down with a loud  P\npaladins in splendid vests,  S noise, alerting the Bandits in  6\nkneeling. Each has a shield  Skele-  room 9. 7",
     "labels": [],
-    "text_bytes": 17,
+    "text_bytes": 800,
     "keyed_area": null,
     "style": {
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p16.statue-archway-wooden-double-doo",
-    "heading": "Statue Archway, wooden double door,",
-    "pages": [
-      16
-    ],
-    "column": 0,
-    "text": "Statue Archway, wooden double door,\ndisplaying a chess piece (a\nfallen long ago. 18 Rook, a Bishop, a Queen and a  Living Statues",
-    "labels": [],
-    "text_bytes": 129,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p16.footprints-mud-and-snow",
-    "heading": "Footprints (mud and snow,",
-    "pages": [
-      16
-    ],
-    "column": 0,
-    "text": "Footprints (mud and snow,\nKing).",
-    "labels": [],
-    "text_bytes": 32,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p16.humans-frescoes-on-east-and-s",
-    "heading": "humans). Frescoes on east and  S",
-    "pages": [
-      16
-    ],
-    "column": 0,
-    "text": "humans). Frescoes on east and  S\nwest walls, under a thin layer of  ▷ Frescoes, east wall: A",
-    "labels": [],
-    "text_bytes": 94,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p16.ice-lowered-portcullis-allows",
-    "heading": "ice. Lowered portcullis allows",
-    "pages": [
-      16
-    ],
-    "column": 0,
-    "text": "ice. Lowered portcullis allows\ncrowned woman riding a\nto see the cloister. white chess horse, and a\n17 crowned man riding a black",
-    "labels": [],
-    "text_bytes": 129,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p16.footprints-human-sized-a",
-    "heading": "▷ Footprints: human-sized. A",
-    "pages": [
-      16
-    ],
-    "column": 0,
-    "text": "▷ Footprints: human-sized. A\nchess horse.\nsmall group. Go through the  S P\nportcullis into the cloister  P ▷ Lifting the portcullis:\n(room 2), and turn west. Requires a combined STR 22\nto lift. Unless propped open,",
-    "labels": [],
-    "text_bytes": 218,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p16.frescoes-west-wall-four-p",
-    "heading": "▷ Frescoes, west wall: Four  P",
-    "pages": [
-      16
-    ],
-    "column": 0,
-    "text": "▷ Frescoes, west wall: Four  P\nfalls back down with a loud  P\npaladins in splendid vests,  S noise, alerting the Bandits in  6\nkneeling. Each has a shield  Skele-  room 9. 7",
-    "labels": [],
-    "text_bytes": 175,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
       "color": "#000000"
     }
   },
@@ -1653,900 +1131,22 @@
     "pages": [
       34,
       35,
-      36
+      36,
+      37,
+      38,
+      39,
+      40
     ],
     "column": 0,
-    "text": "Aftermath\nBased on the chosen hook(s), the adventure may have the following\nconsequences, if suited to your campaign style.\n◈ The  Healer’s  daughter:  If  the  characters  give  Myrta  the  Saint’s\ntears and save her daughter, they gain a loyal, grateful healer ally\nwho can sell healing potions at a discounted price, and cure common\ndiseases.\n◈ Lortag  the  alchemist:  Lortag  can  send  the  group  to  more\nadventures in search of rare substances, as well as prepare for them\nthe potions they desire at a discounted price (see Alchemist in Old-\nSchool Essentials). Over time, his research into the Saint’s tears may\ndevelop into necromancy and turn him into a villain.\n◈ Choosing  Lortag  over  Myrtag:  Myrta’s  daughter  dies  after\ninfecting her mother with the soul plague. The disease kills her too,\nbut before dying she curses the group and each member character\nmust  save  vs  death  or  become  infected.  Characters  suffering  the\nsoul plague have 6 months to find a cure or their soul will leave the\nbody. Regular cures (including cure disease spell) don’t work. They\nwill need to find some truly miraculous source of healing, a wish, or\ndivine intervention. Or embark on a quest to locate the supernatural\nsource of the soul plague and destroy it.\n◈ The Earl of Locklear: The earl can send the group to more adventures\nin search of rare monsters to make trophies for his halls; may also\nlend money and/or introduce them to other aristocratic NPCs. The\ngenealogical scrolls in room 8 prove his claim is false. He’ll be eager\nto buy them (2.000gp) in order to destroy them. Clever players may\nblackmail him instead.\n30\nBased on course of action, the abbey may become something else:\n◈ Grusom the Abbot is killed, the Eternal Knight is not: Destroying\nthe abbot and the circle in the ritual room may allow a cleric (player\nor NPC) to rebuild and restore the abbey to its original splendor.\n◈ Grusom the Abbot receives the seven chalices: After one week\nthe Flayed Zombies gain +1 HD, and Grusom gains +2 HD. His long\nterm plan is becoming a lich. His renewed powers prevent the abbey\nfrom collapsing, and turn it into a nightmare citadel.\n◈ The Eternal Knight is killed, Grusom the Abbot hasn’t received\nthe seven chalices: After one week the abbey crumbles, the Saint’s\nfountain is lost forever. The ruins may become the foundation of a\nLune Yeti King’s ice palace (Lair with 3d6 Lune Yetis + 1 king with\n8+4 HD; Lair Treasure: D x 4; they may also unearth from the ruins\nany unreclaimed treasure from the adventure).\n31\nMonsters",
+    "text": "Aftermath\nBased on the chosen hook(s), the adventure may have the following\nconsequences, if suited to your campaign style.\n◈ The  Healer’s  daughter:  If  the  characters  give  Myrta  the  Saint’s\ntears and save her daughter, they gain a loyal, grateful healer ally\nwho can sell healing potions at a discounted price, and cure common\ndiseases.\n◈ Lortag  the  alchemist:  Lortag  can  send  the  group  to  more\nadventures in search of rare substances, as well as prepare for them\nthe potions they desire at a discounted price (see Alchemist in Old-\nSchool Essentials). Over time, his research into the Saint’s tears may\ndevelop into necromancy and turn him into a villain.\n◈ Choosing  Lortag  over  Myrtag:  Myrta’s  daughter  dies  after\ninfecting her mother with the soul plague. The disease kills her too,\nbut before dying she curses the group and each member character\nmust  save  vs  death  or  become  infected.  Characters  suffering  the\nsoul plague have 6 months to find a cure or their soul will leave the\nbody. Regular cures (including cure disease spell) don’t work. They\nwill need to find some truly miraculous source of healing, a wish, or\ndivine intervention. Or embark on a quest to locate the supernatural\nsource of the soul plague and destroy it.\n◈ The Earl of Locklear: The earl can send the group to more adventures\nin search of rare monsters to make trophies for his halls; may also\nlend money and/or introduce them to other aristocratic NPCs. The\ngenealogical scrolls in room 8 prove his claim is false. He’ll be eager\nto buy them (2.000gp) in order to destroy them. Clever players may\nblackmail him instead.\n30\nBased on course of action, the abbey may become something else:\n◈ Grusom the Abbot is killed, the Eternal Knight is not: Destroying\nthe abbot and the circle in the ritual room may allow a cleric (player\nor NPC) to rebuild and restore the abbey to its original splendor.\n◈ Grusom the Abbot receives the seven chalices: After one week\nthe Flayed Zombies gain +1 HD, and Grusom gains +2 HD. His long\nterm plan is becoming a lich. His renewed powers prevent the abbey\nfrom collapsing, and turn it into a nightmare citadel.\n◈ The Eternal Knight is killed, Grusom the Abbot hasn’t received\nthe seven chalices: After one week the abbey crumbles, the Saint’s\nfountain is lost forever. The ruins may become the foundation of a\nLune Yeti King’s ice palace (Lair with 3d6 Lune Yetis + 1 king with\n8+4 HD; Lair Treasure: D x 4; they may also unearth from the ruins\nany unreclaimed treasure from the adventure).\n31\nMonsters\nBANDIT\nAC   6,  [13]  HD   1  (4hp),  Att   1  ×\nweapon  (1d6  or  by  weapon),\nTHAC0  19, [0] MV  120’ (40’),  SV\nD13 W14 P13 B16 S15 (T1),  ML  8,\nAL  Neutral or Chaotic,  XP  10\nCAVE BEAR\nAC   5  [14],  HD   7  (31hp),  Att  2  x\nclaw  (1d8)  ×  bite  (2d6),  THAC0\n13  [+6],  MV   120’  (40’),  SV   D12\nW13  P14  B15  S16  (3),  ML   9,  AL\nNeutral,  XP  450\n▷ Bear hug: If a victim is hit by\nboth paws in the same round,\nthe bear hugs for an extra 2d8\nautomatic damage.\n▷ Sense of smell: Poor eyesight,\nbut keen sense of smell. When\nhungry, will follow a track of\nblood by scent.\nFLAYED ZOMBIE\nFerocious animated corpses\nwithout skin. Victims of cruel\nrituals, or reincarnated evil souls\nfrom hell.\nAC 8 [11],  HD  2-1 (8hp),  Att  1 ×\nbite  (1d4),  THAC0   18  [+1],  MV\n60’ (20’),  SV  D12 W13 P14 B15 S16\n(1),  ML   12,  AL   Chaotic,  XP   20,\nNA  1d4 (2d6),  TT  None\n32\n▷ Feral: Always attack on sight.\n▷ Moaners: Can easily be heard\nmoaning or sobbing.\n▷ Undead: Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\nGIANT RAT\nAC   7  [12],  HD   ½  (2hp),  Att   1  ×\nbite  (1d3  +  disease),  THAC0   19\n[0],  MV   120’  (40’)  /  60’  (20’)\nswimming,  SV  D12 W13 P14 B15\nS16 (1),  ML  8, AL  Neutral,  XP  5\n▷ Disease: Bite has a 1-in-20\nchance of infecting the target\n(save versus poison). The\ndisease has a 1-in-4 chance of\nbeing deadly (die in 1d6 days).\nOtherwise, the victim is sick\nand bedridden for one month.\n▷ Afraid of fire: Will flee fire,\nunless forced to fight by\nsummoner.\n▷ Attacking in water: May\nattack without penalty;\nexcellent swimmers.\nGOAT\nAC  7 [12],  HD  2 (9hp),  Att  1 × butt\n(1d4),  THAC0   18  [+1],  MV   240’\n(80’),  SV  D12 W13 P14 B15 S16 (1),\nML  5,  AL  Neutral,  XP  20\nGHOST OF QUEEN\nETHOFLED\nThe mournful spirit of a\nrenowned Queen of Yore. A\ntranslucent apparition of a\nwoman with elaborately braided\nhair and a crown.\nAC  3 [16],  HD  4** (18hp),  Att  1 ×\ntouch (1d6 + dementor),  THAC0\n16 [+3],  MV  120’ (40’) / 240’ (80’)\nflying,  SV   D10  W11  P12  B13  S14\n(4),  ML  12,  AL  Neutral,  XP  175\n▷ Undead: Makes no noise, until\nit attacks. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\n▷ Mundane damage\nimmunity: Only harmed by\nsilver weapons or magic.\n▷ Dementor: A successfully\nhit target loses 1d4 INT point;\nINT points lost this way are\nrecovered at the rate of 1 per\nday. A target drained of all INT\nis permanently driven mad.\nGRAPNOR\nBlack beard; as stingy as dwarves\ncan be; otherwise cheerful and\ncarefree like a child.  Happy to\njoin the group. Came in search\nof a “dead sorcerer buried with a\nplatinum eye”.\nLevel 1 dwarf\nAC  4 [15] (chainmail),  HP  8,  Att  1\n× hand axe (1d6),  THAC0  19 [0],\nMV  60’ (20’),  SV  D8 W9 P10 B13\nS12,  AL   Neutral,  STR   9  INT  11\nWIS  10,  DEX  10  CON  14  CHA  7\n▷ Equipment: winter clothes,\nchainmail, hand axe, silver\ndagger, broken lantern, tinder\nbox, 17gp.\n33\nICESCALE VIPER\nA mischievous, translucent, white-\nblueish, magical snake that dwells\nin very cold climates.\nAC  6  [13],  HD   2*  (9hp),  Att  1  ×\nbite (1d4 + freezing),  THAC0  18\n[+1],  MV   90’  (30’),  SV   D12  W13\nP14 B15 S16 (1),  ML  7,  AL  Chaotic,\nXP  25,  NA  1d4 (1d4),  TT  None\n▷ Afraid of fire: Will flee fire\nimmediately.\n▷ Freezing: Victim’s body\n(not equipment) is turned\nto solid ice (save vs petrify).\nThe thawing oil in room 3 can\nrevert this effect.\n▷ Immunity: Immune to cold\neffects and damage and cold\nbased attacks and spells.\n▷ Infravision: 60’.\n▷ Vulnerable to fire: 50% extra\ndamage.\nIRON LIVING STATUE\nAC  2  [17],  HD   4  (18hp),  Att   2  ×\nblow (1d8),  THAC0  16 [+3],  MV\n30’ (10’),  SV  D10 W11 P12 B13 S14\n(4),  ML  11,  AL  Neutral,  XP  75\n▷ Absorb metals: Hits with\nnon-magical, metal weapons\ncause damage, but the\nweapon may become stuck\nin the statue (save versus\nspells). Stuck weapons can be\nremoved if the statue is killed.\n34\n▷ Immunity: Unaffected by\nsleep spells.\nLUNE YETI\nLarge (8’ tall), ape-like, man-\neating monsters, the yetis of the\nLune Mountains have their fur\ncovered in icy crystals that have a\nchance to reflect magic.\nAC  4 [15],  HD  4+2** (21hp),  Att  2\n× claw (1d6),  THAC0  15 [+4],  MV\n150’  (50’),  SV   D10  W11  P12  B13\nS14  (4),  ML   8,  AL   Neutral,  XP\n275,  NA  1d6 (1d6),  TT  D\n▷ Damage reduction: Half\ndamage from magical\nweapons.\n▷ Magic resistance: +4 bonus\nto all saving throws against\nmagic.\n▷ Spell turning: 10% chance of\nreflecting spells back onto the\ncaster.\n▷ Surprise: On a 1-4, due to\ncamouflage in snow and ice.\n▷ Vulnerable to fire: 50% extra\ndamage.\nROWAYN, THE ETERNAL\nKNIGHT\nAn ageless man with white hair,\neyes as hard and distant as a\nwinter sky, wears an elaborately\netched plate mail. A sacred\nwight knight, sworn to guard the\ncrowning hall and the fountain of\nSt. Brynedd.\nAC  2 [17],  HD  6* (27hp),  Att  2 ×\nlong sword +1 (1d8 + 1),  THAC0\n14  [+5],  MV   90’  (30’),  SV   D10\nW11  P12  B13  S14  (6),  ML   12,  AL\nLawful,  XP  500\n▷ Equipment: Wears an ornate\nplate mail +1, wields a long\nsword +1.\n▷ Mundane weapon\nimmunity: Only harmed by\nsilver weapons or magic.\n▷ Undead: Makes no noise, until\nit attacks. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\nSKELETON\nAC  7  [12],  HD   1  (4hp),  Att   1  x\nweapon  (1d6  or  by  weapon),\nTHAC0  19 [0],  MV  60’ (20’),  SV\nD12 W13 P14 B15 S16 (1),  ML  12,\nAL  Chaotic,  XP  10\n▷ Undead: Make no noise, until\nthey attack. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\n35\nTREANT\nAC  2 [17],  HD  8 (36hp),  Att  2 ×\nfist  (2d6),  THAC0   12  [+7],  MV\n60’ (20’),  SV  D8 W9 P10 B10 S12\n(8),  ML  9,  AL  Lawful,  XP  650\n▷ Distrust fire: And those who\nwield it.\n▷ Surprise: On a 1–3, in a forest,\ndue to being mistaken for a\ntree. Encounter occurs at 30\nyards or less.\n▷ Animate trees: Each\nindividual can animate 2 trees\n(within 60’; may switch trees\nat will). These fight as treants\nwith movement rate 30’ (10’).\nWIGHT\nAC  5 [14],  HD  3* (13hp),  Att  1 ×\ntouch  (energy  drain),  THAC0\n17  [+2],  MV   90’  (30’),  SV  D12\nW13  P14  B15  S16  (3),  ML   12,  AL\nChaotic,  XP  50\n▷ Undead: Make no noise, until\nthey attack. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\n▷ Mundane weapon\nimmunity: Only harmed by\nsilver weapons or magic.\n36\n▷ Energy drain: A successfully\nhit target permanently loses\none experience level (or\nHit Die). This incurs a loss\nof one Hit Die of hit points,\nas well as all other benefits\ndue to the drained level (e.g.\nspells, saving throws, etc.). A\ncharacter’s XP is reduced to\nhalfway between the former\nand new levels. A person\ndrained of all levels becomes\na wight in 1d4 days, under the\ncontrol of the wight that killed\nthem.\nWOLF\nAC  7 [12],  HD  2+2 (11hp),  Att  1 ×\nbite  (1d6),  THAC0   17  [+2],  MV\n180’  (60’),  SV   D12  W13  P14  B15\nS16 (1),  ML  6 (8 in larger packs),\nAL  Neutral,  XP  25\n▷ Training: At the referee’s\ndiscretion, captured cubs may\nbe trained like dogs. Wolves\nare difficult to train.\n▷ Strength in numbers:\nPacks of 4 or more wolves\nhave morale 8. If the pack is\nreduced to less than 50% of\nits original size, this morale\nbonus is lost.",
     "labels": [],
-    "text_bytes": 2578,
+    "text_bytes": 10244,
     "keyed_area": null,
     "style": {
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
       "color": "#ffffff"
-    }
-  },
-  {
-    "unit_id": "p36.bandit",
-    "heading": "BANDIT",
-    "pages": [
-      36
-    ],
-    "column": 0,
-    "text": "BANDIT\nAC   6,  [13]  HD   1  (4hp),  Att   1  ×\nweapon  (1d6  or  by  weapon),\nTHAC0  19, [0] MV  120’ (40’),  SV\nD13 W14 P13 B16 S15 (T1),  ML  8,\nAL  Neutral or Chaotic,  XP  10",
-    "labels": [],
-    "text_bytes": 185,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p36.cave-bear",
-    "heading": "CAVE BEAR",
-    "pages": [
-      36
-    ],
-    "column": 0,
-    "text": "CAVE BEAR\nAC   5  [14],  HD   7  (31hp),  Att  2  x\nclaw  (1d8)  ×  bite  (2d6),  THAC0\n13  [+6],  MV   120’  (40’),  SV   D12\nW13  P14  B15  S16  (3),  ML   9,  AL\nNeutral,  XP  450\n▷ Bear hug: If a victim is hit by\nboth paws in the same round,\nthe bear hugs for an extra 2d8\nautomatic damage.",
-    "labels": [],
-    "text_bytes": 301,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p36.sense-of-smell-poor-eyesight",
-    "heading": "▷ Sense of smell: Poor eyesight,",
-    "pages": [
-      36
-    ],
-    "column": 0,
-    "text": "▷ Sense of smell: Poor eyesight,\nbut keen sense of smell. When\nhungry, will follow a track of\nblood by scent.",
-    "labels": [],
-    "text_bytes": 111,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p36.flayed-zombie",
-    "heading": "FLAYED ZOMBIE",
-    "pages": [
-      36
-    ],
-    "column": 0,
-    "text": "FLAYED ZOMBIE\nFerocious animated corpses\nwithout skin. Victims of cruel\nrituals, or reincarnated evil souls\nfrom hell.\nAC 8 [11],  HD  2-1 (8hp),  Att  1 ×\nbite  (1d4),  THAC0   18  [+1],  MV\n60’ (20’),  SV  D12 W13 P14 B15 S16\n(1),  ML   12,  AL   Chaotic,  XP   20,\nNA  1d4 (2d6),  TT  None\n32",
-    "labels": [],
-    "text_bytes": 300,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p36.feral-always-attack-on-sight",
-    "heading": "▷ Feral: Always attack on sight.",
-    "pages": [
-      36
-    ],
-    "column": 1,
-    "text": "▷ Feral: Always attack on sight.",
-    "labels": [],
-    "text_bytes": 34,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p36.moaners-can-easily-be-heard",
-    "heading": "▷ Moaners: Can easily be heard",
-    "pages": [
-      36
-    ],
-    "column": 1,
-    "text": "▷ Moaners: Can easily be heard\nmoaning or sobbing.",
-    "labels": [],
-    "text_bytes": 52,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p36.undead-immune-to-effects",
-    "heading": "▷ Undead: Immune to effects",
-    "pages": [
-      36
-    ],
-    "column": 1,
-    "text": "▷ Undead: Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).",
-    "labels": [],
-    "text_bytes": 149,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p36.giant-rat",
-    "heading": "GIANT RAT",
-    "pages": [
-      36
-    ],
-    "column": 1,
-    "text": "GIANT RAT\nAC   7  [12],  HD   ½  (2hp),  Att   1  ×\nbite  (1d3  +  disease),  THAC0   19\n[0],  MV   120’  (40’)  /  60’  (20’)\nswimming,  SV  D12 W13 P14 B15\nS16 (1),  ML  8, AL  Neutral,  XP  5",
-    "labels": [],
-    "text_bytes": 204,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p36.disease-bite-has-a-1-in-20",
-    "heading": "▷ Disease: Bite has a 1-in-20",
-    "pages": [
-      36
-    ],
-    "column": 1,
-    "text": "▷ Disease: Bite has a 1-in-20\nchance of infecting the target\n(save versus poison). The\ndisease has a 1-in-4 chance of\nbeing deadly (die in 1d6 days).\nOtherwise, the victim is sick\nand bedridden for one month.\n▷ Afraid of fire: Will flee fire,\nunless forced to fight by\nsummoner.",
-    "labels": [],
-    "text_bytes": 282,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p36.attacking-in-water-may",
-    "heading": "▷ Attacking in water: May",
-    "pages": [
-      36
-    ],
-    "column": 1,
-    "text": "▷ Attacking in water: May\nattack without penalty;\nexcellent swimmers.",
-    "labels": [],
-    "text_bytes": 71,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p37.goat",
-    "heading": "GOAT",
-    "pages": [
-      37
-    ],
-    "column": 0,
-    "text": "GOAT\nAC  7 [12],  HD  2 (9hp),  Att  1 × butt\n(1d4),  THAC0   18  [+1],  MV   240’\n(80’),  SV  D12 W13 P14 B15 S16 (1),\nML  5,  AL  Neutral,  XP  20",
-    "labels": [],
-    "text_bytes": 153,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p37.ghost-of-queen",
-    "heading": "GHOST OF QUEEN",
-    "pages": [
-      37
-    ],
-    "column": 0,
-    "text": "GHOST OF QUEEN",
-    "labels": [],
-    "text_bytes": 14,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p37.ethofled",
-    "heading": "ETHOFLED",
-    "pages": [
-      37
-    ],
-    "column": 0,
-    "text": "ETHOFLED\nThe mournful spirit of a\nrenowned Queen of Yore. A\ntranslucent apparition of a\nwoman with elaborately braided\nhair and a crown.\nAC  3 [16],  HD  4** (18hp),  Att  1 ×\ntouch (1d6 + dementor),  THAC0\n16 [+3],  MV  120’ (40’) / 240’ (80’)\nflying,  SV   D10  W11  P12  B13  S14\n(4),  ML  12,  AL  Neutral,  XP  175",
-    "labels": [],
-    "text_bytes": 328,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p37.undead-makes-no-noise-until",
-    "heading": "▷ Undead: Makes no noise, until",
-    "pages": [
-      37
-    ],
-    "column": 0,
-    "text": "▷ Undead: Makes no noise, until\nit attacks. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).",
-    "labels": [],
-    "text_bytes": 183,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p37.mundane-damage",
-    "heading": "▷ Mundane damage",
-    "pages": [
-      37
-    ],
-    "column": 0,
-    "text": "▷ Mundane damage\nimmunity: Only harmed by\nsilver weapons or magic.",
-    "labels": [],
-    "text_bytes": 68,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p37.dementor-a-successfully",
-    "heading": "▷ Dementor: A successfully",
-    "pages": [
-      37
-    ],
-    "column": 0,
-    "text": "▷ Dementor: A successfully\nhit target loses 1d4 INT point;\nINT points lost this way are\nrecovered at the rate of 1 per\nday. A target drained of all INT\nis permanently driven mad.",
-    "labels": [],
-    "text_bytes": 180,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p37.grapnor",
-    "heading": "GRAPNOR",
-    "pages": [
-      37
-    ],
-    "column": 1,
-    "text": "GRAPNOR\nBlack beard; as stingy as dwarves\ncan be; otherwise cheerful and\ncarefree like a child.  Happy to\njoin the group. Came in search\nof a “dead sorcerer buried with a\nplatinum eye”.",
-    "labels": [],
-    "text_bytes": 189,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p37.level-1-dwarf",
-    "heading": "Level 1 dwarf",
-    "pages": [
-      37
-    ],
-    "column": 1,
-    "text": "Level 1 dwarf\nAC  4 [15] (chainmail),  HP  8,  Att  1\n× hand axe (1d6),  THAC0  19 [0],\nMV  60’ (20’),  SV  D8 W9 P10 B13\nS12,  AL   Neutral,  STR   9  INT  11\nWIS  10,  DEX  10  CON  14  CHA  7",
-    "labels": [],
-    "text_bytes": 199,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p37.equipment-winter-clothes",
-    "heading": "▷ Equipment: winter clothes,",
-    "pages": [
-      37
-    ],
-    "column": 1,
-    "text": "▷ Equipment: winter clothes,\nchainmail, hand axe, silver\ndagger, broken lantern, tinder\nbox, 17gp.\n33",
-    "labels": [],
-    "text_bytes": 103,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.icescale-viper",
-    "heading": "ICESCALE VIPER",
-    "pages": [
-      38
-    ],
-    "column": 0,
-    "text": "ICESCALE VIPER\nA mischievous, translucent, white-\nblueish, magical snake that dwells\nin very cold climates.\nAC  6  [13],  HD   2*  (9hp),  Att  1  ×\nbite (1d4 + freezing),  THAC0  18\n[+1],  MV   90’  (30’),  SV   D12  W13\nP14 B15 S16 (1),  ML  7,  AL  Chaotic,\nXP  25,  NA  1d4 (1d4),  TT  None\n▷ Afraid of fire: Will flee fire\nimmediately.",
-    "labels": [],
-    "text_bytes": 347,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.freezing-victim-s-body",
-    "heading": "▷ Freezing: Victim’s body",
-    "pages": [
-      38
-    ],
-    "column": 0,
-    "text": "▷ Freezing: Victim’s body\n(not equipment) is turned\nto solid ice (save vs petrify).\nThe thawing oil in room 3 can\nrevert this effect.",
-    "labels": [],
-    "text_bytes": 137,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.immunity-immune-to-cold",
-    "heading": "▷ Immunity: Immune to cold",
-    "pages": [
-      38
-    ],
-    "column": 0,
-    "text": "▷ Immunity: Immune to cold\neffects and damage and cold\nbased attacks and spells.",
-    "labels": [],
-    "text_bytes": 82,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.infravision-60",
-    "heading": "▷ Infravision: 60’.",
-    "pages": [
-      38
-    ],
-    "column": 0,
-    "text": "▷ Infravision: 60’.",
-    "labels": [],
-    "text_bytes": 23,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.vulnerable-to-fire-50-extra",
-    "heading": "▷ Vulnerable to fire: 50% extra",
-    "pages": [
-      38
-    ],
-    "column": 0,
-    "text": "▷ Vulnerable to fire: 50% extra\ndamage.",
-    "labels": [],
-    "text_bytes": 41,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.iron-living-statue",
-    "heading": "IRON LIVING STATUE",
-    "pages": [
-      38
-    ],
-    "column": 0,
-    "text": "IRON LIVING STATUE\nAC  2  [17],  HD   4  (18hp),  Att   2  ×\nblow (1d8),  THAC0  16 [+3],  MV\n30’ (10’),  SV  D10 W11 P12 B13 S14\n(4),  ML  11,  AL  Neutral,  XP  75",
-    "labels": [],
-    "text_bytes": 170,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.absorb-metals-hits-with",
-    "heading": "▷ Absorb metals: Hits with",
-    "pages": [
-      38
-    ],
-    "column": 0,
-    "text": "▷ Absorb metals: Hits with\nnon-magical, metal weapons\ncause damage, but the\nweapon may become stuck\nin the statue (save versus\nspells). Stuck weapons can be\nremoved if the statue is killed.\n34",
-    "labels": [],
-    "text_bytes": 194,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.immunity-unaffected-by",
-    "heading": "▷ Immunity: Unaffected by",
-    "pages": [
-      38
-    ],
-    "column": 1,
-    "text": "▷ Immunity: Unaffected by\nsleep spells.",
-    "labels": [],
-    "text_bytes": 41,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.lune-yeti",
-    "heading": "LUNE YETI",
-    "pages": [
-      38
-    ],
-    "column": 1,
-    "text": "LUNE YETI\nLarge (8’ tall), ape-like, man-\neating monsters, the yetis of the\nLune Mountains have their fur\ncovered in icy crystals that have a\nchance to reflect magic.\nAC  4 [15],  HD  4+2** (21hp),  Att  2\n× claw (1d6),  THAC0  15 [+4],  MV\n150’  (50’),  SV   D10  W11  P12  B13\nS14  (4),  ML   8,  AL   Neutral,  XP\n275,  NA  1d6 (1d6),  TT  D",
-    "labels": [],
-    "text_bytes": 351,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.damage-reduction-half",
-    "heading": "▷ Damage reduction: Half",
-    "pages": [
-      38
-    ],
-    "column": 1,
-    "text": "▷ Damage reduction: Half\ndamage from magical\nweapons.",
-    "labels": [],
-    "text_bytes": 55,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.magic-resistance-4-bonus",
-    "heading": "▷ Magic resistance: +4 bonus",
-    "pages": [
-      38
-    ],
-    "column": 1,
-    "text": "▷ Magic resistance: +4 bonus\nto all saving throws against\nmagic.",
-    "labels": [],
-    "text_bytes": 66,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.spell-turning-10-chance-of",
-    "heading": "▷ Spell turning: 10% chance of",
-    "pages": [
-      38
-    ],
-    "column": 1,
-    "text": "▷ Spell turning: 10% chance of\nreflecting spells back onto the\ncaster.\n▷ Surprise: On a 1-4, due to\ncamouflage in snow and ice.",
-    "labels": [],
-    "text_bytes": 131,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p38.vulnerable-to-fire-50-extra-2",
-    "heading": "▷ Vulnerable to fire: 50% extra",
-    "pages": [
-      38
-    ],
-    "column": 1,
-    "text": "▷ Vulnerable to fire: 50% extra\ndamage.",
-    "labels": [],
-    "text_bytes": 41,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p39.rowayn-the-eternal",
-    "heading": "ROWAYN, THE ETERNAL",
-    "pages": [
-      39
-    ],
-    "column": 0,
-    "text": "ROWAYN, THE ETERNAL",
-    "labels": [],
-    "text_bytes": 19,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p39.knight",
-    "heading": "KNIGHT",
-    "pages": [
-      39
-    ],
-    "column": 0,
-    "text": "KNIGHT\nAn ageless man with white hair,\neyes as hard and distant as a\nwinter sky, wears an elaborately\netched plate mail. A sacred\nwight knight, sworn to guard the\ncrowning hall and the fountain of\nSt. Brynedd.\nAC  2 [17],  HD  6* (27hp),  Att  2 ×\nlong sword +1 (1d8 + 1),  THAC0\n14  [+5],  MV   90’  (30’),  SV   D10\nW11  P12  B13  S14  (6),  ML   12,  AL\nLawful,  XP  500",
-    "labels": [],
-    "text_bytes": 378,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p39.equipment-wears-an-ornate",
-    "heading": "▷ Equipment: Wears an ornate",
-    "pages": [
-      39
-    ],
-    "column": 0,
-    "text": "▷ Equipment: Wears an ornate\nplate mail +1, wields a long\nsword +1.",
-    "labels": [],
-    "text_bytes": 69,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p39.mundane-weapon",
-    "heading": "▷ Mundane weapon",
-    "pages": [
-      39
-    ],
-    "column": 0,
-    "text": "▷ Mundane weapon\nimmunity: Only harmed by\nsilver weapons or magic.",
-    "labels": [],
-    "text_bytes": 68,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p39.undead-makes-no-noise-until",
-    "heading": "▷ Undead: Makes no noise, until",
-    "pages": [
-      39
-    ],
-    "column": 1,
-    "text": "▷ Undead: Makes no noise, until\nit attacks. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).",
-    "labels": [],
-    "text_bytes": 183,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p39.skeleton",
-    "heading": "SKELETON",
-    "pages": [
-      39
-    ],
-    "column": 1,
-    "text": "SKELETON\nAC  7  [12],  HD   1  (4hp),  Att   1  x\nweapon  (1d6  or  by  weapon),\nTHAC0  19 [0],  MV  60’ (20’),  SV\nD12 W13 P14 B15 S16 (1),  ML  12,\nAL  Chaotic,  XP  10",
-    "labels": [],
-    "text_bytes": 174,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p39.undead-make-no-noise-until",
-    "heading": "▷ Undead: Make no noise, until",
-    "pages": [
-      39
-    ],
-    "column": 1,
-    "text": "▷ Undead: Make no noise, until\nthey attack. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\n35",
-    "labels": [],
-    "text_bytes": 186,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p40.treant",
-    "heading": "TREANT",
-    "pages": [
-      40
-    ],
-    "column": 0,
-    "text": "TREANT\nAC  2 [17],  HD  8 (36hp),  Att  2 ×\nfist  (2d6),  THAC0   12  [+7],  MV\n60’ (20’),  SV  D8 W9 P10 B10 S12\n(8),  ML  9,  AL  Lawful,  XP  650",
-    "labels": [],
-    "text_bytes": 153,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p40.distrust-fire-and-those-who",
-    "heading": "▷ Distrust fire: And those who",
-    "pages": [
-      40
-    ],
-    "column": 0,
-    "text": "▷ Distrust fire: And those who\nwield it.\n▷ Surprise: On a 1–3, in a forest,\ndue to being mistaken for a\ntree. Encounter occurs at 30\nyards or less.",
-    "labels": [],
-    "text_bytes": 153,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p40.animate-trees-each",
-    "heading": "▷ Animate trees: Each",
-    "pages": [
-      40
-    ],
-    "column": 0,
-    "text": "▷ Animate trees: Each\nindividual can animate 2 trees\n(within 60’; may switch trees\nat will). These fight as treants\nwith movement rate 30’ (10’).",
-    "labels": [],
-    "text_bytes": 153,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p40.wight",
-    "heading": "WIGHT",
-    "pages": [
-      40
-    ],
-    "column": 0,
-    "text": "WIGHT\nAC  5 [14],  HD  3* (13hp),  Att  1 ×\ntouch  (energy  drain),  THAC0\n17  [+2],  MV   90’  (30’),  SV  D12\nW13  P14  B15  S16  (3),  ML   12,  AL\nChaotic,  XP  50",
-    "labels": [],
-    "text_bytes": 172,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p40.undead-make-no-noise-until",
-    "heading": "▷ Undead: Make no noise, until",
-    "pages": [
-      40
-    ],
-    "column": 0,
-    "text": "▷ Undead: Make no noise, until\nthey attack. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).",
-    "labels": [],
-    "text_bytes": 183,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p40.mundane-weapon",
-    "heading": "▷ Mundane weapon",
-    "pages": [
-      40
-    ],
-    "column": 0,
-    "text": "▷ Mundane weapon\nimmunity: Only harmed by\nsilver weapons or magic.\n36",
-    "labels": [],
-    "text_bytes": 71,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p40.energy-drain-a-successfully",
-    "heading": "▷ Energy drain: A successfully",
-    "pages": [
-      40
-    ],
-    "column": 1,
-    "text": "▷ Energy drain: A successfully\nhit target permanently loses\none experience level (or\nHit Die). This incurs a loss\nof one Hit Die of hit points,\nas well as all other benefits\ndue to the drained level (e.g.\nspells, saving throws, etc.). A\ncharacter’s XP is reduced to\nhalfway between the former\nand new levels. A person\ndrained of all levels becomes\na wight in 1d4 days, under the\ncontrol of the wight that killed\nthem.",
-    "labels": [],
-    "text_bytes": 421,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p40.wolf",
-    "heading": "WOLF",
-    "pages": [
-      40
-    ],
-    "column": 1,
-    "text": "WOLF\nAC  7 [12],  HD  2+2 (11hp),  Att  1 ×\nbite  (1d6),  THAC0   17  [+2],  MV\n180’  (60’),  SV   D12  W13  P14  B15\nS16 (1),  ML  6 (8 in larger packs),\nAL  Neutral,  XP  25",
-    "labels": [],
-    "text_bytes": 180,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p40.training-at-the-referee-s",
-    "heading": "▷ Training: At the referee’s",
-    "pages": [
-      40
-    ],
-    "column": 1,
-    "text": "▷ Training: At the referee’s\ndiscretion, captured cubs may\nbe trained like dogs. Wolves\nare difficult to train.",
-    "labels": [],
-    "text_bytes": 115,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p40.strength-in-numbers",
-    "heading": "▷ Strength in numbers:",
-    "pages": [
-      40
-    ],
-    "column": 1,
-    "text": "▷ Strength in numbers:\nPacks of 4 or more wolves\nhave morale 8. If the pack is\nreduced to less than 50% of\nits original size, this morale\nbonus is lost.",
-    "labels": [],
-    "text_bytes": 154,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
     }
   },
   {
@@ -2574,50 +1174,14 @@
       41
     ],
     "column": 0,
-    "text": "The Knight’s Movement\nThe Knight’s movement:\nKnowledge of the knight’s  So for example a character may\nL-shaped move is required to  move like this in room 18:\nsafely go through room 18. Of\ncourse, the group may just go",
+    "text": "The Knight’s Movement\nThe Knight’s movement:\nKnowledge of the knight’s  So for example a character may\nL-shaped move is required to  move like this in room 18:\nsafely go through room 18. Of\ncourse, the group may just go\nthrough and face the living\nstatues.\nPlayers may figure they need to\nmove like the Knight from the\ninscription in room 17, and may\nget a further hint to it from the\nbook in room 7.",
     "labels": [],
-    "text_bytes": 225,
+    "text_bytes": 406,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p41.through-and-face-the-living",
-    "heading": "through and face the living",
-    "pages": [
-      41
-    ],
-    "column": 0,
-    "text": "through and face the living",
-    "labels": [],
-    "text_bytes": 27,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p41.statues",
-    "heading": "statues.",
-    "pages": [
-      41
-    ],
-    "column": 0,
-    "text": "statues.\nPlayers may figure they need to\nmove like the Knight from the\ninscription in room 17, and may\nget a further hint to it from the\nbook in room 7.",
-    "labels": [],
-    "text_bytes": 152,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
       "color": "#000000"
     }
   },

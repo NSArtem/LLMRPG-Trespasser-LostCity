@@ -2,31 +2,31 @@
 
 | | |
 |---|---|
-| units | 314 |
+| units | 236 |
 | pages covered | 53 |
-| keyed units | 101 (strict `N NAME` form: 101) |
-| spanning a page break | 32 |
-| size | median 164B, max 3917B, min 6B |
+| keyed units | 51 (strict `N NAME` form: 51) |
+| spanning a page break | 33 |
+| size | median 248B, max 3917B, min 6B |
 
 ## Checks
 
 **Keyed range** 1–46, 46 distinct.
 **Missing keys:** none
 
-**Suspiciously small** (< 40B): 89
+**Suspiciously small** (< 40B): 21
 - `p5.stats-5-12-man-age-1d20-14` p[5] — stats. 5-12 Man, age 1d20+14
-- `p5.appearance-personality` p[5] — Appearance Personality
-- `p5.1-athletic-1` p[5] — 1 Athletic 1
-- `p5.2-beautiful-2` p[5] — 2 Beautiful 2
-- `p5.3-boney-3` p[5] — 3 Boney 3
-- `p5.4-brawny-4` p[5] — 4 Brawny 4
-- `p5.5-brutish-5` p[5] — 5 Brutish 5
-- `p5.6-delicate-6` p[5] — 6 Delicate 6
-- `p5.7-disfigured-7` p[5] — 7 Disfigured 7
-- `p5.8-gorgeous-8` p[5] — 8 Gorgeous 8
-- `p5.9-grizzled-9` p[5] — 9 Grizzled 9
-- `p5.10-handsome-10` p[5] — 10 Handsome  10
-- …and 77 more
+- `p8.metal-doors` p[8] — Metal doors
+- `p11.emotions` p[11, 12] — emotions
+- `p16.common-knowledge` p[16] — Common Knowledge
+- `p16.secrets` p[16] — Secrets
+- `p18.encounter-table-lamb-dead` p[18] — Encounter Table (Lamb Dead)
+- `p20.immunity` p[20] — Immunity –
+- `p20.immunity-2` p[20] — Immunity –
+- `p20.milo-bilosh` p[20] — Milo/Bilosh
+- `p27.part-2` p[27] — Part 2
+- `p27.gallery-of` p[27] — Gallery of
+- `p27.the-ghouls` p[27, 28] — the Ghouls
+- …and 9 more
 
 **Suspiciously large** (> 3000B), likely under-segmented: 2
 - `p3.advice-for-dms` p[3] 3917B — Advice for DMs
@@ -45,54 +45,9 @@
 | `p5.stats-demographic` | 5 | 235 | Stats Demographic |
 | `p5.stats-5-12-man-age-1d20-14` | 5 | 28 | stats. 5-12 Man, age 1d20+14 |
 | `p5.hp-0-13-20-woman-age-1d20-14` | 5 | 141 | HP 0 13-20 Woman, age 1d20+14 |
-| `p5.checks-and-saves` | 5 | 475 | Checks and Saves • |
-| `p5.appearance-personality` | 5 | 22 | Appearance Personality |
-| `p5.1-athletic-1` | 5 | 21 | 1 Athletic 1 |
-| `p5.2-beautiful-2` | 5 | 20 | 2 Beautiful 2 |
-| `p5.3-boney-3` | 5 | 18 | 3 Boney 3 |
-| `p5.4-brawny-4` | 5 | 18 | 4 Brawny 4 |
-| `p5.5-brutish-5` | 5 | 21 | 5 Brutish 5 |
-| `p5.6-delicate-6` | 5 | 19 | 6 Delicate 6 |
-| `p5.7-disfigured-7` | 5 | 21 | 7 Disfigured 7 |
-| `p5.8-gorgeous-8` | 5 | 22 | 8 Gorgeous 8 |
-| `p5.9-grizzled-9` | 5 | 22 | 9 Grizzled 9 |
-| `p5.10-handsome-10` | 5 | 21 | 10 Handsome  10 |
-| `p5.11-large-11` | 5 | 19 | 11 Large 11 |
-| `p5.12-pale-12` | 5 | 23 | 12 Pale 12 |
-| `p5.13-petite-13` | 5 | 18 | 13 Petite 13 |
-| `p5.14-plump-14` | 5 | 22 | 14 Plump 14 |
-| `p5.15-short-15` | 5 | 17 | 15 Short 15 |
-| `p5.16-slender-16` | 5 | 22 | 16 Slender 16 |
-| `p5.17-statuesque-17` | 5 | 23 | 17 Statuesque 17 |
-| `p5.18-swarthy-18` | 5 | 18 | 18 Swarthy 18 |
-| `p5.19-tall-19` | 5 | 18 | 19 Tall  19 |
-| `p5.20-willowy-20` | 5 | 25 | 20 Willowy  20 |
-| `p6.profession` | 6 | 243 | Profession |
-| `p6.2-beggar-37-blacksmith-72-minstr` | 6 | 35 | 2 Beggar  37 Blacksmith 72 Minstrel |
-| `p6.3-burgler-38-brewer-73-mistress` | 6 | 42 | 3 Burgler  38 Brewer  73 Mistress/Paramour |
-| `p6.4-deserter-39-bureaucrat-74-mone` | 6 | 39 | 4 Deserter 39 Bureaucrat 74 Moneylender |
-| `p6.5-drunkard-40-butcher-75-painter` | 6 | 163 | 5 Drunkard 40 Butcher  75 Painter |
-| `p6.9-poacher-44-chandler-79-pisspro` | 6 | 38 | 9 Poacher   44 Chandler 79 Pissprophet |
-| `p6.10-innkeeper-45-choirboy-80-poac` | 6 | 64 | 10 Innkeeper 45 Choirboy 80 Poacher |
-| `p6.12-lumberjack-47-cobbler-82-port` | 6 | 34 | 12 Lumberjack 47 Cobbler 82 Porter |
-| `p6.13-monk-nun-48-cook-83-potter` | 6 | 29 | 13 Monk/Nun 48 Cook 83 Potter |
-| `p6.14-milkmaid-49-cooper-84-prostit` | 6 | 151 | 14 Milkmaid 49 Cooper  84 Prostitute |
-| `p6.18-shepherd-53-dyer-88-scribe` | 6 | 29 | 18 Shepherd 53 Dyer 88 Scribe |
-| `p6.19-swineherd-54-engineer-89-scul` | 6 | 36 | 19 Swineherd 54 Engineer 89 Scullion |
-| `p6.20-tanner-55-fanatic-90-sculptor` | 6 | 72 | 20 Tanner  55 Fanatic 90 Sculptor |
-| `p6.22-actor-57-fisher-92-slaver` | 6 | 29 | 22 Actor 57 Fisher  92 Slaver |
-| `p6.23-alchemist-58-fool-93-squire` | 6 | 83 | 23 Alchemist 58 Fool 93 Squire |
-| `p6.25-architect-60-gardener-95-stor` | 6 | 39 | 25 Architect 60 Gardener 95 Storyteller |
-| `p6.26-apothecary-61-geologist-96-ta` | 6 | 79 | 26 Apothecary 61 Geologist 96 Tailor |
-| `p6.28-ascetic-63-gongfarmer-98-tort` | 6 | 37 | 28 Ascetic  63 Gongfarmer 98 Torturer |
-| `p6.29-astrologer-64-graverobber-99` | 6 | 82 | 29 Astrologer 64 Graverobber 99 Weaponsmith |
-| `p6.31-bandit-66-hatter` | 6 | 19 | 31 Bandit 66 Hatter |
-| `p6.32-baker-67-herald` | 6 | 18 | 32 Baker 67 Herald |
-| `p6.33-banker-68-herbalist` | 6 | 22 | 33 Banker 68 Herbalist |
-| `p6.34-barber-surgeon-69-jeweler` | 6 | 28 | 34 Barber-Surgeon 69 Jeweler |
-| `p6.35-bartender-70-locksmith` | 6 | 27 | 35 Bartender 70 Locksmith |
-| `p7.learning-to-crawl` | 7–8 | 43 | Learning to Crawl |
-| `p8.exploration` | 8 | 11 | Exploration |
+| `p5.checks-and-saves` | 5 | 926 | Checks and Saves • |
+| `p6.profession` | 6 | 1048 | Profession |
+| `p6.24-animal-handler-59-gambler-94` | 6–8 | 468 | 24 Animal Handler  59 Gambler 94 Stay-at-Home Parent |
 | `p8.time` | 8 | 858 | Time |
 | `p8.investigation` | 8 | 262 | Investigation |
 | `p8.searching` | 8 | 233 | Searching |
@@ -154,11 +109,7 @@
 | `p16.the-temple-of-true-power` | 16 | 59 | The Temple of True Power |
 | `p16.secrets` | 16 | 7 | Secrets |
 | `p16.the-lamb` | 16 | 204 | The Lamb |
-| `p16.the-raid` | 16 | 295 | The Raid |
-| `p17.part-1` | 17 | 7 | Part 1: |
-| `p17.lair-of` | 17 | 7 | Lair of |
-| `p17.the-lamb` | 17–18 | 14 | the Lamb |
-| `p18.encounter-table-lamb-alive` | 18 | 28 | Encounter Table (Lamb Alive) |
+| `p16.the-raid` | 16–18 | 355 | The Raid |
 | `p18.active-encounters` | 18 | 69 | Active Encounters |
 | `p18.passive-encounters` | 18 | 229 | Passive Encounters |
 | `p18.indirect-encounters` | 18 | 53 | Indirect Encounters |
@@ -293,60 +244,31 @@
 | `p48.mevverwen` | 48 | 184 | Mevverwen |
 | `p48.toad-shavings` | 48 | 256 | Toad Shavings |
 | `p48.purple-lotus-powder` | 48 | 479 | Purple Lotus Powder |
-| `p49.appendix-e-leveling-and-classes` | 49 | 107 | Appendix E: Leveling and Classes |
-| `p49.hp-atk-templates-mastery` | 49 | 24 | HP Atk Templates Mastery |
-| `p49.level-0-0-0-0` | 49 | 15 | Level 0 0 0 0 - |
-| `p49.level-1-con-1-1` | 49 | 265 | Level 1 Con 1 1 - |
+| `p49.appendix-e-leveling-and-classes` | 49 | 232 | Appendix E: Leveling and Classes |
+| `p49.1-level-1-mastery` | 49 | 181 | +1 Level - - - +1 Mastery |
 | `p49.mastery` | 49 | 885 | Mastery |
-| `p49.choosing-a-class` | 49 | 526 | Choosing a Class |
-| `p50.acrobat` | 50 | 48 | Acrobat |
-| `p50.a-dodge-nah-1-day` | 50 | 18 | A Dodge, Nah 1/day |
-| `p50.b-tricky` | 50 | 8 | B Tricky |
-| `p50.c-cat-power-nah-2-day` | 50 | 22 | C Cat Power, Nah 2/day |
-| `p50.d-roast-the-oaf` | 50 | 15 | D Roast the Oaf |
+| `p49.choosing-a-class` | 49–50 | 642 | Choosing a Class |
 | `p50.dodge` | 50 | 153 | Dodge |
 | `p50.nah` | 50 | 123 | Nah |
 | `p50.tricky` | 50 | 220 | Tricky |
 | `p50.cat-power` | 50 | 78 | Cat Power |
 | `p50.roast-the-oaf` | 50 | 213 | Roast the Oaf |
 | `p50.multi-class-note` | 50 | 160 | Multi-class Note |
-| `p51.barbarian` | 51 | 60 | Barbarian |
-| `p51.a-rage` | 51 | 6 | A Rage |
-| `p51.b-firewater` | 51 | 11 | B Firewater |
-| `p51.c-thews-1-day` | 51 | 13 | C Thews 1/day |
-| `p51.d-rampage-thews-2-day` | 51 | 22 | D Rampage, Thews 2/day |
+| `p51.barbarian` | 51 | 116 | Barbarian |
 | `p51.loincloth-hp` | 51 | 76 | Loincloth HP |
 | `p51.rage` | 51 | 490 | Rage |
 | `p51.firewater` | 51 | 192 | Firewater |
 | `p51.thews` | 51 | 192 | Thews |
 | `p51.rampage` | 51 | 73 | Rampage |
-| `p52.fighter` | 52 | 50 | Fighter |
-| `p52.a-stand-tough` | 52 | 13 | A Stand Tough |
-| `p52.b-tricky` | 52 | 8 | B Tricky |
-| `p52.c-very-tricky` | 52 | 13 | C Very Tricky |
-| `p52.d-double-attack` | 52 | 15 | D Double Attack |
+| `p52.fighter` | 52 | 103 | Fighter |
 | `p52.stand-tough` | 52 | 208 | Stand Tough |
 | `p52.tricky` | 52 | 252 | Tricky |
 | `p52.very-tricky` | 52 | 167 | Very Tricky |
 | `p52.double-attack` | 52 | 61 | Double Attack |
-| `p53.thief` | 53 | 62 | Thief |
-| `p53.a-luck` | 53 | 12 | A “Luck” |
-| `p53.b-opportunist` | 53 | 13 | B Opportunist |
-| `p53.c-preparation` | 53 | 13 | C Preparation |
-| `p53.d-snag` | 53 | 6 | D Snag |
+| `p53.thief` | 53 | 110 | Thief |
 | `p53.luck` | 53 | 108 | “ Luck ” |
 | `p53.opportunist` | 53 | 131 | Opportunist |
 | `p53.preparation` | 53 | 452 | Preparation |
 | `p53.snag` | 53 | 781 | Snag |
-| `p54.level-ups` | 54 | 763 | Level Ups |
-| `p54.key-items` | 54 | 9 | Key Items |
-| `p54.room-light-source-room-rope` | 54 | 27 | Room Light Source Room Rope |
-| `p54.4-1-torch-18a-30-rope` | 54 | 56 | 4 1 torch 18A 30' rope |
-| `p54.10-1-torch-40-30-rope` | 54 | 22 | 10 1 torch 40 30' rope |
-| `p54.14-1-torch` | 54 | 10 | 14 1 torch |
-| `p54.17-1-candle` | 54 | 11 | 17 1 candle |
-| `p54.20-liquid-light` | 54 | 15 | 20 Liquid Light |
-| `p54.24-2-oil` | 54 | 8 | 24 2 oil |
-| `p54.30-2-oil` | 54 | 8 | 30 2 oil |
-| `p54.45-2-oil` | 54 | 8 | 45 2 oil |
+| `p54.level-ups` | 54 | 947 | Level Ups |
 | `p54.repurposing-the-dungeon` | 54 | 781 | Repurposing the Dungeon |

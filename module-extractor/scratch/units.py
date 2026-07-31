@@ -42,10 +42,17 @@ from columns import Line, document_lines  # noqa: E402
 from tiers import Style, StyleGroup, body_style, style_table  # noqa: E402
 
 
-MAX_HEADING_WORDS = 6
+# Doom keys areas as "Area A-5 - Sign of Three Rats (Flophouse):" -- eight
+# words. A limit of six rejected the style outright and lost all 26 of its
+# areas. Style membership does the real discriminating; this is only a guard
+# against a style that is mostly body prose.
+MAX_HEADING_WORDS = 10
 
-# "24 CRUSH HALLWAY" -> 24; "1A FIRST INTERSECTION" -> 1; "24C" -> 24.
+# Numeric keys: "24 CRUSH HALLWAY" -> 24, "1A FIRST INTERSECTION" -> 1, "24C" -> 24.
+# Lettered keys: "Area A-4 - Chapel of Justicia:" -> A, "Area A" -> A. Doom keys
+# its whole village that way, and lettered sub-maps are a common convention.
 KEY_ROOT = re.compile(r"^(\d+)")
+KEY_LETTER = re.compile(r"^(?:area|room|location)\s+([A-Z](?:-\d+)?)\b", re.IGNORECASE)
 # Unicode-aware: an ASCII-only class silently erases Cyrillic, and every
 # heading in a Russian module then slugs to the same empty string.
 _SLUG = re.compile(r"[\W_]+", re.UNICODE)
@@ -57,8 +64,13 @@ def slug(text: str, limit: int = 32) -> str:
 
 
 def key_root(text: str) -> str | None:
-    match = KEY_ROOT.match(text.strip())
-    return match.group(1) if match else None
+    """The key a heading opens, numeric or lettered, or None."""
+    stripped = text.strip()
+    match = KEY_ROOT.match(stripped)
+    if match:
+        return match.group(1)
+    match = KEY_LETTER.match(stripped)
+    return match.group(1).upper() if match else None
 
 
 def is_heading_text(text: str) -> bool:
@@ -109,9 +121,14 @@ def heading_ranks(groups: list[StyleGroup], lines: list[Line]) -> dict[Style, in
         if is_heading_text(line.text):
             named.setdefault(line.style, []).append(line)
 
+    # Shortness is relative to the document, not absolute. Doom's areas run to
+    # eight words against an eleven-word body; a fixed limit of six lost all 26
+    # of them, and raising it to ten admitted body-like styles in the Russian
+    # module and Falkrest. Measuring against body adapts to both.
+    limit = max(4.0, body.median_words * 0.8)
     candidates = []
     for group in groups:
-        if group.style == body.style or group.median_words > MAX_HEADING_WORDS:
+        if group.style == body.style or group.median_words > limit:
             continue
         if len(named.get(group.style, [])) < group.lines * 0.5:
             continue  # mostly page numbers or glyphs, not headings
@@ -196,12 +213,59 @@ def furniture(lines: list[Line]) -> set[str]:
     return {text for text, pages in seen.items() if len(pages) >= FURNITURE_PAGES}
 
 
+TABLE_RUN = 4      # consecutive tiny headings before it is read as a table
+TABLE_ROW_BYTES = 48
+
+
+def merge_table_runs(units: list[Unit]) -> list[Unit]:
+    """Fold a run of table rows back into the unit above them.
+
+    A random table is a unit; its **rows** are not. Lair sets its
+    character-generation tables so every row opens with its die number --
+    "1 Athletic", "2 Beautiful", "3 Boney" -- which matches the keyed-area
+    shape exactly and produced 89 units of about twenty bytes each.
+
+    Nothing is discarded. A wandering-monster table is critical content, so the
+    rows are merged into the preceding unit rather than filtered out; the table
+    ends up as one unit, which is what the dataflow document asks for.
+
+    The signal is the run: four or more consecutive headings, each with almost
+    no body. One tiny unit is a stub, four in a row is a table.
+    """
+    merged: list[Unit] = []
+    run: list[Unit] = []
+
+    def flush() -> None:
+        if not run:
+            return
+        if len(run) >= TABLE_RUN and merged:
+            host = merged[-1]
+            for unit in run:
+                host.lines.extend(unit.lines)
+                for page in unit.pages:
+                    if page not in host.pages:
+                        host.pages.append(page)
+        else:
+            merged.extend(run)
+        run.clear()
+
+    for unit in units:
+        tiny = len(unit.text.encode("utf-8")) <= TABLE_ROW_BYTES
+        if tiny:
+            run.append(unit)
+            continue
+        flush()
+        merged.append(unit)
+    flush()
+    return merged
+
+
 def units_for(pdf: Path) -> list[Unit]:
     lines = document_lines(pdf)
     groups = style_table(lines)
     ranks = heading_ranks(groups, lines)
     repeated = furniture(lines)
-    return assemble(lines, ranks, repeated)
+    return merge_table_runs(assemble(lines, ranks, repeated))
 
 
 def report(pdf: Path, show: int = 0) -> None:

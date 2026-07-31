@@ -276,33 +276,15 @@
       5
     ],
     "column": 0,
-    "text": "About This Adventure",
+    "text": "About This Adventure\nWinter’s Daughter\nis a short adventure\nset in  Dolmenwood , the weird fairy tale\ncampaign setting published by  Necrotic",
     "labels": [],
-    "text_bytes": 20,
+    "text_bytes": 143,
     "keyed_area": null,
     "style": {
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
       "color": "#3952a3"
-    }
-  },
-  {
-    "unit_id": "p5.winter-s-daughter",
-    "heading": "Winter’s Daughter",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "Winter’s Daughter\nis a short adventure\nset in  Dolmenwood , the weird fairy tale\ncampaign setting published by  Necrotic",
-    "labels": [],
-    "text_bytes": 122,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro-It",
-      "bold": false,
-      "color": "#231f20"
     }
   },
   {
@@ -384,33 +366,15 @@
       5
     ],
     "column": 1,
-    "text": "New to Dolmenwood?\nGroups who are new to the Dolmenwood\nsetting are encouraged to check out the",
+    "text": "New to Dolmenwood?\nGroups who are new to the Dolmenwood\nsetting are encouraged to check out the\nWelcome to Dolmenwood\nPDF—for a\nquick, spoiler-free introduction to the\nsetting, including a short gazetteer—and\nthe  Dolmenwood Referee’s Map . Both are\navailable for free at  necroticgnome.com .",
     "labels": [],
-    "text_bytes": 95,
+    "text_bytes": 298,
     "keyed_area": null,
     "style": {
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
       "color": "#3952a3"
-    }
-  },
-  {
-    "unit_id": "p5.welcome-to-dolmenwood",
-    "heading": "Welcome to Dolmenwood",
-    "pages": [
-      5
-    ],
-    "column": 1,
-    "text": "Welcome to Dolmenwood\nPDF—for a\nquick, spoiler-free introduction to the\nsetting, including a short gazetteer—and\nthe  Dolmenwood Referee’s Map . Both are\navailable for free at  necroticgnome.com .",
-    "labels": [],
-    "text_bytes": 202,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro-It",
-      "bold": false,
-      "color": "#231f20"
     }
   },
   {
@@ -708,14 +672,32 @@
       7
     ],
     "column": 0,
-    "text": "The Death of Sir Chyde\nThe knight was slain in the final battle of\nmortal and fairy on the hills of the High\nWold, not long after his love was impris-\noned.\n▶ Dying wish:  Sir Chyde insisted on\nbeing interred in a tomb in the glade\nbeside the Whything Stones.\n▶ Grave goods:  He wished to be buried\nwith the portrait and ring, and to have a\nsubsection of his tomb dedicated to his\nbetrothed.\n▶ Chapel of St Sedge:  A chapel dedi-\ncated to his patron saint, Sedge, was also\nintegrated into the tomb. (Sedge is the\npatron saint of crusaders and knife-mak-\ners.)\n▶ A holy site:  As was the way in those\ndays, the tomb of the great hero was\nmaintained as a site of pilgrimage.\n▶ Attendant:  A priest lived in the tomb,\nbeside the chapel.",
+    "text": "The Death of Sir Chyde\nThe knight was slain in the final battle of\nmortal and fairy on the hills of the High\nWold, not long after his love was impris-\noned.\n▶ Dying wish:  Sir Chyde insisted on\nbeing interred in a tomb in the glade\nbeside the Whything Stones.\n▶ Grave goods:  He wished to be buried\nwith the portrait and ring, and to have a\nsubsection of his tomb dedicated to his\nbetrothed.",
     "labels": [],
-    "text_bytes": 743,
+    "text_bytes": 395,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
+      "color": "#231f20"
+    }
+  },
+  {
+    "unit_id": "p7.chapel-of-st-sedge-a-chapel-dedi",
+    "heading": "▶ Chapel of St Sedge:  A chapel dedi-",
+    "pages": [
+      7
+    ],
+    "column": 0,
+    "text": "▶ Chapel of St Sedge:  A chapel dedi-\ncated to his patron saint, Sedge, was also\nintegrated into the tomb. (Sedge is the\npatron saint of crusaders and knife-mak-\ners.)\n▶ A holy site:  As was the way in those\ndays, the tomb of the great hero was\nmaintained as a site of pilgrimage.\n▶ Attendant:  A priest lived in the tomb,\nbeside the chapel.",
+    "labels": [],
+    "text_bytes": 347,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
       "color": "#231f20"
     }
   },
@@ -744,14 +726,32 @@
       7
     ],
     "column": 1,
-    "text": "The Sealing of the Tomb\n▶ Fey influence:  An unsettling, fey influ-\nence began to creep into the tomb.\n▶ The priest’s dreams:  The priest who\nmaintained the tomb experienced dis-\nturbing dreams and visitations, and rec-\nommended that the tomb be abandoned.\n▶ Closure:  Guardians and wards were\nplaced, and the tomb sealed.",
+    "text": "The Sealing of the Tomb\n▶ Fey influence:  An unsettling, fey influ-\nence began to creep into the tomb.",
     "labels": [],
-    "text_bytes": 330,
+    "text_bytes": 104,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
+      "color": "#231f20"
+    }
+  },
+  {
+    "unit_id": "p7.the-priest-s-dreams-the-priest-w",
+    "heading": "▶ The priest’s dreams:  The priest who",
+    "pages": [
+      7
+    ],
+    "column": 1,
+    "text": "▶ The priest’s dreams:  The priest who\nmaintained the tomb experienced dis-\nturbing dreams and visitations, and rec-\nommended that the tomb be abandoned.\n▶ Closure:  Guardians and wards were\nplaced, and the tomb sealed.",
+    "labels": [],
+    "text_bytes": 225,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
       "color": "#231f20"
     }
   },
@@ -762,14 +762,32 @@
       7
     ],
     "column": 1,
-    "text": "Centuries Passed\n▶ The tomb:  Has rested quietly.\n▶ The princess:  Remains imprisoned,\nforgotten by her father, waiting with fairy\npatience to find a way to be reunited with\nSir Chyde.\n▶ The wedding:  Undeterred by death\nand many centuries, the princess stub-\nbornly insists on holding a perpetual\nwedding feast, awaiting the arrival of Sir\nChyde. Some few, brave friends and allies\nhave journeyed in secret to her isolated\ntower to join the long-delayed festivities.\n▶ The Whything stones:  Are now fre-\nquented by the Drune—the cult of sorcer-\ners who covet the standing stones\nand ley lines of Dolmenwood. 5",
+    "text": "Centuries Passed\n▶ The tomb:  Has rested quietly.\n▶ The princess:  Remains imprisoned,\nforgotten by her father, waiting with fairy\npatience to find a way to be reunited with\nSir Chyde.\n▶ The wedding:  Undeterred by death\nand many centuries, the princess stub-\nbornly insists on holding a perpetual\nwedding feast, awaiting the arrival of Sir\nChyde. Some few, brave friends and allies\nhave journeyed in secret to her isolated\ntower to join the long-delayed festivities.",
     "labels": [],
-    "text_bytes": 620,
+    "text_bytes": 473,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
+      "color": "#231f20"
+    }
+  },
+  {
+    "unit_id": "p7.the-whything-stones-are-now-fre",
+    "heading": "▶ The Whything stones:  Are now fre-",
+    "pages": [
+      7
+    ],
+    "column": 1,
+    "text": "▶ The Whything stones:  Are now fre-\nquented by the Drune—the cult of sorcer-\ners who covet the standing stones\nand ley lines of Dolmenwood. 5",
+    "labels": [],
+    "text_bytes": 146,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
       "color": "#231f20"
     }
   },
@@ -978,14 +996,32 @@
       9
     ],
     "column": 0,
-    "text": "Sir Chyde\nIn the midst of the war, the fabled hero\nfell in love with a woman called the Lady\nof the Wood.\n▶ The Lady of the Wood:  A sorcerous\nmaiden of mysterious origin.\n▶ First meeting:  They met in the deeps\nof Dolmenwood.\n▶ The betrothal:  The two pledged their\nhearts to one another, exchanging rings\nof engagement.",
+    "text": "Sir Chyde\nIn the midst of the war, the fabled hero\nfell in love with a woman called the Lady\nof the Wood.",
     "labels": [],
-    "text_bytes": 327,
+    "text_bytes": 105,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
+      "color": "#231f20"
+    }
+  },
+  {
+    "unit_id": "p9.the-lady-of-the-wood-a-sorcerous",
+    "heading": "▶ The Lady of the Wood:  A sorcerous",
+    "pages": [
+      9
+    ],
+    "column": 0,
+    "text": "▶ The Lady of the Wood:  A sorcerous\nmaiden of mysterious origin.\n▶ First meeting:  They met in the deeps\nof Dolmenwood.\n▶ The betrothal:  The two pledged their\nhearts to one another, exchanging rings\nof engagement.",
+    "labels": [],
+    "text_bytes": 221,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
       "color": "#231f20"
     }
   },
@@ -1032,14 +1068,32 @@
       9
     ],
     "column": 1,
-    "text": "The Death of Sir Chyde\nThe knight was slain in the final battle of\nmortal and fairy on the hills of the High\nWold.\n▶ Dying wish:  Sir Chyde insisted on\nbeing interred in a tomb deep in the\nforest.\n▶ The fate of the Lady:  She was never\nseen again. Some say she died in the\ndepths of the forest, in the glade where\nshe and her love first met.",
+    "text": "The Death of Sir Chyde\nThe knight was slain in the final battle of\nmortal and fairy on the hills of the High\nWold.\n▶ Dying wish:  Sir Chyde insisted on\nbeing interred in a tomb deep in the\nforest.",
     "labels": [],
-    "text_bytes": 345,
+    "text_bytes": 198,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
+      "color": "#231f20"
+    }
+  },
+  {
+    "unit_id": "p9.the-fate-of-the-lady-she-was-nev",
+    "heading": "▶ The fate of the Lady:  She was never",
+    "pages": [
+      9
+    ],
+    "column": 1,
+    "text": "▶ The fate of the Lady:  She was never\nseen again. Some say she died in the\ndepths of the forest, in the glade where\nshe and her love first met.",
+    "labels": [],
+    "text_bytes": 146,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
       "color": "#231f20"
     }
   },
@@ -1050,15 +1104,51 @@
       9
     ],
     "column": 1,
-    "text": "Deeper Investigation\nIf PCs spend time and money to employ\nsages, seek out obscure tomes, or consult\nwith oracles, they may be able to divulge\nsome of the true story of the knight and\nthe princess. Each of the following facts\nrequires a significant research effort.\n▶ The identity of the Lady of the Wood:\nSir Chyde’s betrothed was in fact a fairy\nprincess. Theirs was a forbidden love.\n▶ The ring:  The ring which Sir Chyde\nwore was a magic item from Fairy. It\nbound his soul to that of the Lady.\n▶ Grave goods:  Sir Chyde was buried\nwith the following items of note: the\nsword with which he slew the fairy giant\nButter-for-Bones, his moonstone engage-\nment ring, the portrait of the Lady that he\nhad commissioned.\n▶ The sealing of the tomb:  Sir Chyde’s\ntomb was a site of pilgrimage for many\nyears, until a series of hauntings caused\nthe Church to place magical wards and\nseal it off.\n7",
+    "text": "Deeper Investigation\nIf PCs spend time and money to employ\nsages, seek out obscure tomes, or consult\nwith oracles, they may be able to divulge\nsome of the true story of the knight and\nthe princess. Each of the following facts\nrequires a significant research effort.",
     "labels": [],
-    "text_bytes": 901,
+    "text_bytes": 265,
     "keyed_area": null,
     "style": {
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
       "color": "#3952a3"
+    }
+  },
+  {
+    "unit_id": "p9.the-identity-of-the-lady-of-the",
+    "heading": "▶ The identity of the Lady of the Wood:",
+    "pages": [
+      9
+    ],
+    "column": 1,
+    "text": "▶ The identity of the Lady of the Wood:\nSir Chyde’s betrothed was in fact a fairy\nprincess. Theirs was a forbidden love.\n▶ The ring:  The ring which Sir Chyde\nwore was a magic item from Fairy. It\nbound his soul to that of the Lady.\n▶ Grave goods:  Sir Chyde was buried\nwith the following items of note: the\nsword with which he slew the fairy giant\nButter-for-Bones, his moonstone engage-\nment ring, the portrait of the Lady that he\nhad commissioned.",
+    "labels": [],
+    "text_bytes": 457,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
+      "color": "#231f20"
+    }
+  },
+  {
+    "unit_id": "p9.the-sealing-of-the-tomb-sir-chyd",
+    "heading": "▶ The sealing of the tomb:  Sir Chyde’s",
+    "pages": [
+      9
+    ],
+    "column": 1,
+    "text": "▶ The sealing of the tomb:  Sir Chyde’s\ntomb was a site of pilgrimage for many\nyears, until a series of hauntings caused\nthe Church to place magical wards and\nseal it off.\n7",
+    "labels": [],
+    "text_bytes": 177,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
+      "color": "#231f20"
     }
   },
   {
@@ -1158,15 +1248,33 @@
       10
     ],
     "column": 1,
-    "text": "Languages\nThe following languages are used in\nDolmenwood:\n▶ Woldish:  The equivalent of the com-\nmon tongue in Dolmenwood.\n▶ Old Woldish:  An ancient dialect of\nWoldish that is largely incomprehensible\nto speakers of Woldish.\n▶ Drunic:  The secret language of the\nmysterious Drune.\n▶ Liturgic:  The sacred language of the\nChurch of the One True God.\n▶ Sylvan:  The common language of\nfairies and fairy-kin in Dolmenwood.\nMortals speaking it invariably sound like\nfools.\n▶ High Elfish:  The language of fairy\nnobility. Utterly unfathomable to mortals.\n▶ The Immortal Tongue of Fairy:  The\nancient and reality-bending language\nknown only to the most ancient and\ndreadful of fairies.",
+    "text": "Languages\nThe following languages are used in\nDolmenwood:\n▶ Woldish:  The equivalent of the com-\nmon tongue in Dolmenwood.\n▶ Old Woldish:  An ancient dialect of\nWoldish that is largely incomprehensible\nto speakers of Woldish.\n▶ Drunic:  The secret language of the\nmysterious Drune.\n▶ Liturgic:  The sacred language of the\nChurch of the One True God.\n▶ Sylvan:  The common language of\nfairies and fairy-kin in Dolmenwood.\nMortals speaking it invariably sound like\nfools.\n▶ High Elfish:  The language of fairy\nnobility. Utterly unfathomable to mortals.",
     "labels": [],
-    "text_bytes": 694,
+    "text_bytes": 562,
     "keyed_area": null,
     "style": {
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
       "color": "#3952a3"
+    }
+  },
+  {
+    "unit_id": "p10.the-immortal-tongue-of-fairy-the",
+    "heading": "▶ The Immortal Tongue of Fairy:  The",
+    "pages": [
+      10
+    ],
+    "column": 1,
+    "text": "▶ The Immortal Tongue of Fairy:  The\nancient and reality-bending language\nknown only to the most ancient and\ndreadful of fairies.",
+    "labels": [],
+    "text_bytes": 131,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
+      "color": "#231f20"
     }
   },
   {
