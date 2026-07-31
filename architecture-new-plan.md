@@ -28,23 +28,18 @@ That cuts in two directions:
 - **It removed the reference build.** Nothing on this branch says what good
   output looks like.
 
-The second problem has a cheap fix. The complete previous build is preserved on
-the **`lair-lamb`** branch, whose tip `f426c49` still carries the full `module/`
-and `module-input/` trees:
+The second problem is already solved. The previous build was recovered from the
+`lair-lamb` branch (tip `f426c49`) and is **committed to this branch** at
+`module-extractor/scratch/baseline/` — 613 canonical records, the runtime index,
+and the old review overlay.
 
-```bash
-git show f426c49:module/audit/module.json   # 3.9 MB, 613 canonical records
-git show f426c49:module/index.json          # 613 index records
-git show f426c49:module-input/review.json   # 56 KB, the old overlay
-```
+It is the only existing example of a finished module for this source, and Phase 3
+depends on comparing new compiled cards against it field by field. Committing it
+rather than leaving it derivable means no checkout can lose it.
 
-**Recover `module.json` to a scratch path before starting Phase 3.** It is the
-only existing example of a finished module for this source, and Phase 3 depends
-on comparing new compiled cards against it field by field. It is a comparison
-baseline, not an input, and nothing in the new pipeline reads it.
-
-**Do not delete the `lair-lamb` branch until Phase 3 has passed its gate.** It is
-the sole copy of that baseline.
+**It is a comparison baseline, not an input.** Nothing under
+`module_extractor/` may read it. If compilation could see the old output it could
+copy from it, and the Phase 3 diff would prove nothing.
 
 ## Where the pipeline splits
 
@@ -443,9 +438,10 @@ Roughly 2,300 lines unchanged, 3,600 modified, 1,000 deleted, 800–1,200 new.
    problem rather than a Phase 6 one: divergent IDs do not break a campaign any
    more, they just turn the baseline diff into manual work. Cheap to prevent with
    one test written before the rework.
-4. **The `lair-lamb` branch is deleted before Phase 3.** The recovered build
-   exists in exactly one place. Losing it does not block the rebuild, but it
-   removes the only way to check whether compiled cards got worse.
+4. **The compiler reads the baseline instead of being compared against it.**
+   Now that the baseline is committed in-tree, contamination is the live risk
+   rather than loss. A compiler that can see the old cards can copy them, and
+   Phase 3's gate would pass while proving nothing.
 5. **Deleting model routing raises the human queue.** Stage 3 replaces one cheap
    model round trip per module with deterministic classification plus a queue
    that is asserted to be small. If Phase 0 is marginal, this queue is where the

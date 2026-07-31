@@ -522,10 +522,30 @@ store with unit IDs and page citations, with no model call outside Stage 5.
 
 ### Phase 3 — Compiler
 
-**T3.1 — Recover the baseline.**
-`git show f426c49:module/audit/module.json` into a scratch path. Do not commit
-it and do not let the pipeline read it.
-*Done when:* 613 records are readable and indexed by ID.
+**T3.1 — Recover the baseline.** Already done; it lives at
+`module-extractor/scratch/baseline/` and is **committed**.
+
+```bash
+git show f426c49:module/audit/module.json   # 613 canonical records, 3.9 MB
+git show f426c49:module/index.json
+git show f426c49:module-input/review.json
+```
+
+**It is committed on purpose.** An earlier revision said not to commit it,
+reasoning that it is derivable from git history. That was wrong: it is
+derivable only from the `lair-lamb` branch, so any checkout that does not
+happen to carry that branch — a fresh clone, a different machine, a shallow
+fetch — silently loses the one thing Phase 3's gate compares against. Four
+megabytes in a private repository is not worth that risk.
+
+**The pipeline must never read it.** That is the real constraint, and it is
+about contamination, not storage: if compilation could see the old output it
+could copy from it, and the Phase 3 diff would prove nothing. No module under
+`module_extractor/` may open a path under `scratch/baseline/`.
+
+*Done when:* 613 records are readable and indexed by ID. **Verified** — 613
+records, 613 unique IDs, 59 `(record_type, field)` pairs, 393 title+text-only
+against 220 structured, and `place.module-lair-of-the-lamb.1-bowls` present.
 
 **T3.2 — Map the field surface.** Enumerate the `(record_type, field)` pairs the
 compiler must fill — 59 in the baseline — and mark which are covered by which
