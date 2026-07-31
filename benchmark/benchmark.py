@@ -176,6 +176,11 @@ FAILURE_TAXONOMY_KEYS = (
     "structural_incomplete",
 )
 SAFE_ID = re.compile(r"^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$")
+SAFE_ID_GUIDANCE = (
+    "start with a lowercase letter, then use only lowercase letters, digits, "
+    "or single '-' / '.' separators; underscores, spaces, and uppercase "
+    "letters are invalid"
+)
 NUMBER_RE = re.compile(r"(?<![a-z])\d+(?:\.\d+)?(?:\s*[+\-]\s*\d+)?", re.I)
 
 
@@ -227,13 +232,28 @@ never use #option for a heading or a general fact. For example:
   #option,sprint,result,Reach the far side
 
 Declare every entity before any fact that names it. Facts may use only local
-entity IDs declared in this unit. Use short IDs such as a24, ceil, or trap.
+entity IDs declared in this unit. Local IDs must start with a lowercase letter
+and may contain only lowercase letters, digits, hyphens, or dots. Use short IDs
+such as a24, ceil, or trap; `white-temple` is valid but `white_temple` is
+invalid. Do not use spaces, uppercase letters, or underscores in IDs.
+Use only the predicate vocabulary listed above. In particular, `description`
+and `history` are invalid predicate names: use `text` for descriptive or
+narrative prose, `role` for what an entity is or does, and `starting_state`
+for an event's aftermath or current state.
 Use JSON in the fourth field for genuinely structured values (including
 activation, cycle, exit, reactions, relationships, and other structured
 predicates); otherwise use plain source-faithful text. Preserve names,
 numbers, distances, durations, dice, and mechanics exactly. Split repeated
 list-valued facts into repeated rows. Do not invent rules, statistics, entities,
 numbers, or details from general knowledge. Omit unsupported facts.
+
+The fourth field is never quoted, even when it contains commas. The parser
+splits only on the first three commas. For example, this is valid:
+
+  #entity,room,place,Room
+  room,contents,public,Three bowls, one live goat, and a chest.
+
+Do not write the value as `"Three bowls, one live goat, and a chest."`.
 
 The unit to extract follows.
 """
@@ -343,6 +363,11 @@ def fixture_prompt(fixture: Fixture) -> str:
         + source
         + "\nEND SOURCE TEXT\n"
         + f"\nThe required unit ID is {fixture.identifier}. Return only its rows.\n"
+        + "\nBefore returning, silently verify: the first row is the single correct "
+        + "#unit marker; every local ID uses lowercase letters, digits, '-' or "
+        + "'.' only; every fact subject was declared first; every predicate is "
+        + "from the listed vocabulary; and no fourth field is surrounded by "
+        + "quotes.\n"
     )
 
 
@@ -360,11 +385,18 @@ def recovery_prompt(fixture: Fixture, response: str, errors: Sequence[str]) -> s
         + "thing,visible,public,An ordinary source-supported fact\n"
         + "#option,choice,action,An explicitly described player approach\n"
         + "#option,choice,result,Its explicitly described result\n"
+        + "Local IDs must follow this exact rule: lowercase letters and digits, "
+        + "with '-' or '.' separators only. Replace `white_temple` with "
+        + "`white-temple`; underscores are invalid. Use `text` instead of the "
+        + "invalid predicate `description` or `history`. Never quote the fourth "
+        + "field, even when it contains commas.\n"
         + "Validator errors:\n"
         + error_text
         + "\nPrevious response (untrusted; do not copy its wrappers or commentary):\n"
         + response
-        + "\nReturn the complete corrected response only.\n"
+        + "\nReturn the complete corrected response only. Before returning, silently "
+        + "verify the first-row #unit rule, ID syntax, declared-before-use order, "
+        + "listed predicates, and unquoted fourth fields.\n"
     )
 
 
@@ -453,7 +485,9 @@ def validate_response(response: str, expected_unit: str) -> dict[str, Any]:
         elif first == "#entity":
             if not SAFE_ID.fullmatch(second):
                 row["valid"] = False
-                structural_errors.append(f"line {line_number}: invalid entity id {second!r}")
+                structural_errors.append(
+                    f"line {line_number}: invalid entity id {second!r}; {SAFE_ID_GUIDANCE}"
+                )
             if third not in ENTITY_KINDS:
                 row["valid"] = False
                 format_errors.append(f"line {line_number}: unknown entity kind {third!r}")
@@ -469,7 +503,9 @@ def validate_response(response: str, expected_unit: str) -> dict[str, Any]:
         elif first == "#option":
             if not SAFE_ID.fullmatch(second):
                 row["valid"] = False
-                structural_errors.append(f"line {line_number}: invalid option id {second!r}")
+                structural_errors.append(
+                    f"line {line_number}: invalid option id {second!r}; {SAFE_ID_GUIDANCE}"
+                )
             if third not in OPTION_SLOTS:
                 row["valid"] = False
                 format_errors.append(f"line {line_number}: unknown option slot {third!r}")
@@ -477,7 +513,9 @@ def validate_response(response: str, expected_unit: str) -> dict[str, Any]:
         elif first == "#uncertain":
             if not SAFE_ID.fullmatch(second):
                 row["valid"] = False
-                structural_errors.append(f"line {line_number}: invalid uncertainty id {second!r}")
+                structural_errors.append(
+                    f"line {line_number}: invalid uncertainty id {second!r}; {SAFE_ID_GUIDANCE}"
+                )
             if not third.strip() or not fourth.strip():
                 row["valid"] = False
                 structural_errors.append(f"line {line_number}: incomplete uncertainty row")
@@ -490,7 +528,9 @@ def validate_response(response: str, expected_unit: str) -> dict[str, Any]:
             facts.append(fact)
             if not SAFE_ID.fullmatch(first):
                 row["valid"] = False
-                format_errors.append(f"line {line_number}: invalid fact subject {first!r}")
+                format_errors.append(
+                    f"line {line_number}: invalid fact subject {first!r}; {SAFE_ID_GUIDANCE}"
+                )
                 response_issues.add("unknown_vocabulary")
             if second not in PREDICATES:
                 row["valid"] = False
@@ -875,41 +915,43 @@ class OllamaClient:
 
 
 class ProgressDisplay:
-    """A terminal-safe per-suite progress bar with streaming heartbeats."""
-
-    WIDTH = 24
+    """A terminal-safe per-suite live status display."""
 
     def __init__(self, model: str, suite: str, total: int):
         self.model = model
         self.suite = suite
         self.total = total
         self.completed = 0
-        self.current_index = 0
         self.current_fixture = "-"
         self.attempt = "-"
         self.status = "waiting"
+        self.generated_chars = 0
+        self.generation_started_at: float | None = None
         self.started_at = time.perf_counter()
         self.last_render = 0.0
         self.line_active = False
         self.tty = sys.stdout.isatty()
 
     def _text(self) -> str:
-        ratio = self.completed / self.total if self.total else 1.0
-        filled = min(self.WIDTH, int(self.WIDTH * ratio))
-        bar = "#" * filled + "-" * (self.WIDTH - filled)
-        if self.current_index and self.completed < self.total and filled < self.WIDTH:
-            bar = bar[:filled] + ">" + bar[filled + 1 :]
         elapsed = time.perf_counter() - self.started_at
+        generation_elapsed = (
+            time.perf_counter() - self.generation_started_at
+            if self.generation_started_at is not None
+            else 0.0
+        )
         return (
             f"[benchmark] {self.model} [{self.suite}] "
-            f"[{bar}] {self.completed}/{self.total} "
-            f"{self.current_fixture} attempt {self.attempt} — {self.status} "
+            f"fixtures {self.completed}/{self.total} | "
+            f"{self.current_fixture} attempt {self.attempt} | "
+            f"output {self.generated_chars} chars "
+            f"(+{generation_elapsed:.1f}s) — {self.status} "
             f"(+{elapsed:.1f}s)"
         )
 
     def render(self, *, force: bool = False) -> None:
         now = time.perf_counter()
-        if not force and now - self.last_render < 0.75:
+        render_interval = 0.25 if self.tty else 0.75
+        if not force and now - self.last_render < render_interval:
             return
         self.last_render = now
         line = self._text()
@@ -933,20 +975,24 @@ class ProgressDisplay:
             sys.stdout.flush()
 
     def begin_fixture(self, index: int, fixture: str) -> None:
-        self.current_index = index
         self.current_fixture = fixture
         self.completed = index - 1
         self.attempt = "-"
+        self.generated_chars = 0
+        self.generation_started_at = None
         self.status = "starting"
         self.render(force=True)
 
     def begin_attempt(self, attempt: int, total_attempts: int) -> None:
         self.attempt = f"{attempt}/{total_attempts}"
+        self.generated_chars = 0
+        self.generation_started_at = time.perf_counter()
         self.status = "generating"
         self.render(force=True)
 
     def stream(self, generated_chars: int) -> None:
-        self.status = f"generating ({generated_chars} chars)"
+        self.generated_chars = generated_chars
+        self.status = "streaming"
         self.render()
 
     def set_status(self, status: str) -> None:
@@ -1236,7 +1282,11 @@ def _response_score(
     }
 
 
-def _aggregate_metrics(fixtures: Sequence[Mapping[str, Any]], budget_s: float | None = None) -> dict[str, Any]:
+def _aggregate_metrics(
+    fixtures: Sequence[Mapping[str, Any]],
+    budget_s: float | None = None,
+    elapsed_s: float | None = None,
+) -> dict[str, Any]:
     response_count = len(fixtures)
     row_total = sum(item["attempts"][-1]["validation"]["row_count"] for item in fixtures)
     valid_rows = sum(item["attempts"][-1]["validation"]["valid_row_count"] for item in fixtures)
@@ -1273,7 +1323,18 @@ def _aggregate_metrics(fixtures: Sequence[Mapping[str, Any]], budget_s: float | 
         record_total = record_matched = records_total = records_matched = 0
     contamination_statuses = {item["contamination"].get("status") for item in fixtures}
     s3_status = "pass" if contamination_statuses == {"pass"} else "fail" if "fail" in contamination_statuses else "manual_review_required"
-    elapsed = sum(wall)
+    # Throughput projections intentionally use only primary generations.  The
+    # suite elapsed time and budget gate must include every retry, however.
+    # During a live run we receive the real wall-clock duration; when scoring
+    # an existing run, sum all recorded attempt durations as the best available
+    # reconstruction of that duration.
+    recorded_attempt_elapsed = sum(
+        float(attempt.get("wall_clock_s"))
+        for item in fixtures
+        for attempt in item.get("attempts", [])
+        if isinstance(attempt.get("wall_clock_s"), (int, float))
+    )
+    elapsed = elapsed_s if elapsed_s is not None else recorded_attempt_elapsed
     marker_counts = {"present": 0, "duplicated": 0, "missing": 0, "wrong": 0}
     unresolved_subjects = 0
     for item in fixtures:
@@ -1322,7 +1383,7 @@ def _aggregate_metrics(fixtures: Sequence[Mapping[str, Any]], budget_s: float | 
             "projected_generated_tokens": projected_tokens,
             "projected_whole_adventure_wall_clock_s": projected_wall,
         },
-        "elapsed_s": elapsed,
+        "elapsed_s": round(elapsed, 6),
         "budget_s": budget_s,
         "budget_exceeded": budget_s is not None and elapsed > budget_s,
     }
@@ -1525,7 +1586,11 @@ def _run_model_body(
         "name": suite_name,
         "fixtures": results,
         "skipped": skipped,
-        "metrics": _aggregate_metrics(results, budget_s),
+        "metrics": _aggregate_metrics(
+            results,
+            budget_s,
+            elapsed_s=time.perf_counter() - run_started,
+        ),
     }
 
 
@@ -2006,7 +2071,10 @@ def rescore_run(run_dir: Path, audit_path: Path | None = None, recall_review_pat
                     _recall_review_for(review, model["requested"], fixture.identifier),
                 )
                 item.update({key: value for key, value in rescored.items() if key not in {"fixture", "source_bytes", "expected_records", "attempts"}})
-            suite["metrics"] = _aggregate_metrics(suite.get("fixtures", []), suite.get("metrics", {}).get("budget_s"))
+            suite["metrics"] = _aggregate_metrics(
+                suite.get("fixtures", []),
+                suite.get("metrics", {}).get("budget_s"),
+            )
     output = run_dir / "rescored.json"
     write_json(output, result)
     (run_dir / "rescored-summary.md").write_text(render_summary(result), encoding="utf-8")
@@ -2177,9 +2245,9 @@ runs quick triage first and only continues with models that pass it.""",
     run.add_argument(
         "--quick-budget",
         type=float,
-        default=60.0,
+        default=240.0,
         metavar="SECONDS",
-        help="quick-suite budget per model (default: 60)",
+        help="quick-suite budget per model (default: 240)",
     )
     run.add_argument(
         "--full-budget",

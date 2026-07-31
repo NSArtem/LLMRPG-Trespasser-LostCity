@@ -37,6 +37,23 @@ transport — and if none is, that is a finding, not a failure.
 reasoning, or knowledge. A model that writes beautiful room descriptions and
 cannot emit four comma-separated fields is useless here, and must score as such.
 
+## Current recorded result
+
+The latest completed Tier 1 quick run is [`20260731T191610Z-mac`](benchmark/results/20260731T191610Z-mac/summary.md), run on the Mac with the 150-second per-model budget. All five installed models completed all three quick fixtures without a request timeout or budget skip.
+
+No model passed the complete S1/S2 quick-suite gate. `qwen3:8b` passed `p21`
+after retry and `llama3.1:8b` passed `p16` after retry, but every model failed
+at least one fixture. The remaining failures were genuine output-contract
+violations: invalid local IDs, unsupported predicates or entity kinds,
+undeclared entities, unsupported structural rows, quoted fields, malformed
+field counts, and invalid JSON values.
+
+This records the current benchmark finding: no tested Tier 1 model reliably
+produces the exact Stage 5 output contract. The raw responses remain the
+evidence; they must not be normalized or silently accepted to manufacture a
+passing result. A model must pass quick before it is evaluated by the full
+suite.
+
 ---
 
 ## Hardware targets
@@ -218,12 +235,15 @@ page can be regenerated from the PDF with the method above.
 
 ## Suites
 
-### Quick — under 60 s per model
+### Quick — under 240 s per model
 
 Fixtures `p16`, `p21`, `p31`. 3.6 KB in, 37 reference records.
 
 For triage: does this model produce parseable rows at a usable speed? Runs S1,
-S2, S5. **A model that fails the quick suite is not run against the full one.**
+S2, S5. The 240-second default gives slower 12–14B models enough time to
+process all three fixtures and correction retries while keeping quick triage
+below the full-suite budget. **A model that fails the quick suite is not run
+against the full one.**
 
 ### Full — around 300 s per model
 
@@ -313,15 +333,27 @@ metadata—OS, architecture, Python, logical CPU count, physical RAM, detected
 GPU information, Ollama CLI version, and the Ollama URL.
 
 The shared prompt explicitly separates ordinary fact rows from structural
-`#option` rows, lists valid option slots, and forbids numeric slots. A rejected
-response receives the validator errors plus a concrete corrected-row example
-on the shared retry. This prompt and retry policy are applied uniformly to all
-models.
+`#option` rows, lists valid option slots, forbids numeric slots, states the
+strict local-ID syntax (including that underscores are invalid), maps generic
+descriptions to the permitted predicates, and shows that comma-bearing values
+must not be quoted. A rejected response receives the validator errors plus
+these concrete corrections and a corrected-row example on the shared retry.
+This prompt and retry policy are applied uniformly to all models.
 
-During a run, the terminal shows a timestamped live progress bar for each model
-and suite, including fixture count, attempt number, elapsed time, and streaming
-generation heartbeats. Raw responses and prompts are written as they are
-produced; a manually interrupted run may therefore contain raw artifacts
+During a run, the terminal shows a timestamped live status line for each model
+and suite. It reports numeric fixture completion, the current fixture's attempt,
+generated character count, status, and elapsed generation time while Ollama
+streams output; it does not show a percentage or progress bar because the final
+generation length is unknown. A typical line is:
+
+```text
+[benchmark] qwen3:14b [quick] fixtures 1/3 | p21 attempt 2/2 | output 392 chars (+12.4s) — streaming (+57.3s)
+```
+
+Suite elapsed time and budget checks use actual wall-clock time, including
+retries. When re-scoring an older run, the scorer reconstructs elapsed time from
+all recorded attempt durations. Raw responses and prompts are written as they
+are produced; a manually interrupted run may therefore contain raw artifacts
 without a completed `results.json`.
 
 Typical commands are:

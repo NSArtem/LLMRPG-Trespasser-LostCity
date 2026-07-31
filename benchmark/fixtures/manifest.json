@@ -135,7 +135,7 @@
         "p21",
         "p31"
       ],
-      "budget_per_model_seconds": 60,
+      "budget_per_model_seconds": 240,
       "rationale": "adventure content only -- actors, keyed rooms with mechanisms, dense item lists. The material the pipeline is mostly made of."
     },
     "full": {

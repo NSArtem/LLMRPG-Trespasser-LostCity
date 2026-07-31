@@ -18,6 +18,10 @@ python3 benchmark/benchmark.py run --suite quick
 python3 benchmark/benchmark.py run --suite full
 ```
 
+The quick suite defaults to 240 seconds per model, including correction
+retries. Override it with `--quick-budget SECONDS` when doing a deliberately
+short triage run.
+
 Before testing, the runner reports every requested model as FOUND or
 UNAVAILABLE. By default, any unavailable model aborts the run before testing
 starts. To explicitly continue with only installed models, add:
@@ -40,9 +44,10 @@ raw response under `raw/`. S3 is intentionally a human gate. Complete the
 generated `contamination-audit.template.json`, then re-score without making
 new model calls:
 
-During a run, a terminal shows a live per-model/per-suite progress bar with
-fixture count, current attempt, elapsed time, and streaming-generation
-heartbeats. When output is redirected, the same updates are emitted as readable
+During a run, a terminal shows a live per-model/per-suite status line. It
+reports numeric fixture completion, the current fixture's attempt, generated
+character count, status, and elapsed generation time while Ollama streams
+output. When output is redirected, the same updates are emitted as readable
 line-oriented snapshots. The raw response is still preserved even if a later
 fixture fails.
 
