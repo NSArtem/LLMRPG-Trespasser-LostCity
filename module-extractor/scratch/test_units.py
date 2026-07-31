@@ -10,7 +10,8 @@ import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from columns import Line  # noqa: E402
-from units import assemble, is_heading_text, key_root, slug  # noqa: E402
+from units import (assemble, furniture, is_heading_text,  # noqa: E402
+                   key_root, slug)
 
 
 BODY = ("running body text that goes on for a while here", 12.0, "Body", False, "#000000")
@@ -47,6 +48,32 @@ class TextTests(unittest.TestCase):
     def test_slug_is_id_safe_and_never_empty(self) -> None:
         self.assertEqual(slug("24 CRUSH HALLWAY"), "24-crush-hallway")
         self.assertEqual(slug("•••"), "unit")
+
+    def test_slug_keeps_cyrillic(self) -> None:
+        """An ASCII-only class erased it, collapsing 527 unit IDs to one."""
+        self.assertEqual(slug("АВТОРЫ"), "авторы")
+        self.assertEqual(slug("КАРТЫ И ГРАФИКА"), "карты-и-графика")
+
+    def test_cyrillic_headings_get_distinct_slugs(self) -> None:
+        self.assertNotEqual(slug("АВТОРЫ"), slug("РЕДАКТОРЫ"))
+
+
+class FurnitureTests(unittest.TestCase):
+    def test_text_repeated_across_pages_is_furniture(self) -> None:
+        """A watermark stamped on every page produced 49 spurious units."""
+        lines = [line("nsartem@pm.me #9013", AREA, page=p) for p in (1, 2, 3, 4)]
+        self.assertIn("nsartem@pm.me #9013", furniture(lines))
+
+    def test_two_appearances_are_not_furniture(self) -> None:
+        """Lair keys 25F CRYPT twice and both are real."""
+        lines = [line("25F CRYPT", AREA, page=p) for p in (30, 31)]
+        self.assertNotIn("25F CRYPT", furniture(lines))
+
+    def test_furniture_does_not_open_a_unit(self) -> None:
+        lines = [line("1 BOWLS", AREA, page=1), body(page=1),
+                 line("RUNNING HEAD", AREA, page=2), body(page=2)]
+        units = assemble(lines, RANKS, repeated={"RUNNING HEAD"})
+        self.assertEqual([u.heading for u in units], ["1 BOWLS"])
 
 
 class AbsorptionTests(unittest.TestCase):

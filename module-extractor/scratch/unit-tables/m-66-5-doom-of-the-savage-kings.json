@@ -111,31 +111,13 @@
     "unit_id": "p3.mortal-strength",
     "heading": "• Mortal  Strength",
     "pages": [
-      3
-    ],
-    "column": 1,
-    "text": "• Mortal  Strength\n:  In  the  tradition  of  Beowulf,  extraor-\ndinary PCs can wrestle the hound, making contested\nStrength  checks  against  the  hound  to  hold  it  in  place.\n(The hound receives +4 to Strength checks.) Mundane re-\nstraints (ropes, manacles or the like) are insufficient to the\ntask; a PC must physically restrain the hound.",
-    "labels": [],
-    "text_bytes": 347,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "BookAntiqua",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p3.the-hound-of-hirot",
-    "heading": "The Hound of Hirot:",
-    "pages": [
       3,
       4
     ],
     "column": 1,
-    "text": "The Hound of Hirot:\nInit +2; Atk bite +3 melee (1d8) or claw\n+3 melee (1d4); AC 15; HD 4d12; hp 20; MV 30’ or fly 30’; Act\n3d20 (claw, claw, bite); SP demon traits, gaseous form, immune\nto  charm  effects, immortal; SV Fort +4, Ref +4, Will +0; AL C.\nT he village was once home to some three hundred  the vIllAge of hIrot Key  to  Hirot’s  character  is  its  isolation.  For  most  of  its  folk,\nsouls, but since the depredations of the hound the  knowledge  of  the  world ends twenty  miles from the  village\npopulation has shrunk to nearly two hundred. The  gates. Fleeing the village and its curse is unthinkable. Where\nremaining village folk live in constant fear, cowering in their  would  one  go?  Seasonal  traders  are  exotic  marvels,  and  the\nhomes through the night, emerging only at dawn to discover  PCs—emerging from the wilderness girded for war—seem the\nthe night’s slaughter. stuff of legend.\nThe  majority  of  the  buildings  in  Hirot  are  timber  framed,  Contrary  to  usual  tales  of  heroes  and  outposts  in  dire  need\nwattle-and-daub  constructions.  Many  of  the  smaller  homes  of  aid,  the  Jarl  refuses  to  lower  himself  to  asking  the  aid  of\nare mere hovels, with families and livestock sharing the hard- strangers. Fearing the loss of reputation in the eyes of his peo-\npacked,  earthen  floor.  In  contrast,  the  homes  of  prominent  ple, the Jarl disdainfully regards the PCs as interlopers. If the\nmerchants are two or even three stories in height, with com- PCs insist on lending their aid, the Jarl suggests that if they\nmerce taking place on the first floor, the family living on the  really want to help the people of Hirot, the PCs should stand\nsecond floor, and the servants and apprentices sleeping in the  in the villagers’ stead at the altar stones, offering themselves\nloft.  Extended  families  commonly  live  together,  with  10  or  up to the hound.\nmore family members living in the same home. The PCs receive a far different reception from Hirot’s thegns\nMany buildings are abandoned, their former inhabitants slain  and commoners. The thegns respect fellow warriors commit-\nby  the  Hound  of  Hirot.  These  structures  are  succumbing  to  ted to battling Chaos, and the commoners regard the PCs with\ndisrepair: their thatched roofs have fallen in, and their furnish- admiration  verging  on  worship.  If  the  PCs  comport  them-\nings have been ruined by the elements. Some of the abandoned  selves with kindness, honor and generosity, they quickly find\nbuildings still bear marks of the hound’s violence: shattered  themselves rewarded with the love and admiration of Hirot, to\ndoors, bloodstains, and walls scarred by massive talons.  the Jarl’s endless frustration.\nH irot is rife with rumors about the hound that plagues its folk. On any given night the PCs are sure to overhear a rumor  rumors, legends & superstItIons\nor two while sharing pints at the Wolf-Spear. Note that many citizens speak about the hound only in hushed, furtive\nwhispers, fearing that speaking openly about the beast draws its attention. When the need arises, roll on the following\ntable or choose an appropriate rumor.\nFinally, only fools believe everything they overhear. False rumors abound and are indicated by an (F).",
+    "text": "• Mortal  Strength\n:  In  the  tradition  of  Beowulf,  extraor-\ndinary PCs can wrestle the hound, making contested\nStrength  checks  against  the  hound  to  hold  it  in  place.\n(The hound receives +4 to Strength checks.) Mundane re-\nstraints (ropes, manacles or the like) are insufficient to the\ntask; a PC must physically restrain the hound.\nThe Hound of Hirot:\nInit +2; Atk bite +3 melee (1d8) or claw\n+3 melee (1d4); AC 15; HD 4d12; hp 20; MV 30’ or fly 30’; Act\n3d20 (claw, claw, bite); SP demon traits, gaseous form, immune\nto  charm  effects, immortal; SV Fort +4, Ref +4, Will +0; AL C.\nT he village was once home to some three hundred  the vIllAge of hIrot Key  to  Hirot’s  character  is  its  isolation.  For  most  of  its  folk,\nsouls, but since the depredations of the hound the  knowledge  of  the  world ends twenty  miles from the  village\npopulation has shrunk to nearly two hundred. The  gates. Fleeing the village and its curse is unthinkable. Where\nremaining village folk live in constant fear, cowering in their  would  one  go?  Seasonal  traders  are  exotic  marvels,  and  the\nhomes through the night, emerging only at dawn to discover  PCs—emerging from the wilderness girded for war—seem the\nthe night’s slaughter. stuff of legend.\nThe  majority  of  the  buildings  in  Hirot  are  timber  framed,  Contrary  to  usual  tales  of  heroes  and  outposts  in  dire  need\nwattle-and-daub  constructions.  Many  of  the  smaller  homes  of  aid,  the  Jarl  refuses  to  lower  himself  to  asking  the  aid  of\nare mere hovels, with families and livestock sharing the hard- strangers. Fearing the loss of reputation in the eyes of his peo-\npacked,  earthen  floor.  In  contrast,  the  homes  of  prominent  ple, the Jarl disdainfully regards the PCs as interlopers. If the\nmerchants are two or even three stories in height, with com- PCs insist on lending their aid, the Jarl suggests that if they\nmerce taking place on the first floor, the family living on the  really want to help the people of Hirot, the PCs should stand\nsecond floor, and the servants and apprentices sleeping in the  in the villagers’ stead at the altar stones, offering themselves\nloft.  Extended  families  commonly  live  together,  with  10  or  up to the hound.\nmore family members living in the same home. The PCs receive a far different reception from Hirot’s thegns\nMany buildings are abandoned, their former inhabitants slain  and commoners. The thegns respect fellow warriors commit-\nby  the  Hound  of  Hirot.  These  structures  are  succumbing  to  ted to battling Chaos, and the commoners regard the PCs with\ndisrepair: their thatched roofs have fallen in, and their furnish- admiration  verging  on  worship.  If  the  PCs  comport  them-\nings have been ruined by the elements. Some of the abandoned  selves with kindness, honor and generosity, they quickly find\nbuildings still bear marks of the hound’s violence: shattered  themselves rewarded with the love and admiration of Hirot, to\ndoors, bloodstains, and walls scarred by massive talons.  the Jarl’s endless frustration.\nH irot is rife with rumors about the hound that plagues its folk. On any given night the PCs are sure to overhear a rumor  rumors, legends & superstItIons\nor two while sharing pints at the Wolf-Spear. Note that many citizens speak about the hound only in hushed, furtive\nwhispers, fearing that speaking openly about the beast draws its attention. When the need arises, roll on the following\ntable or choose an appropriate rumor.\nFinally, only fools believe everything they overhear. False rumors abound and are indicated by an (F).",
     "labels": [],
-    "text_bytes": 3299,
+    "text_bytes": 3647,
     "keyed_area": null,
     "style": {
       "size": 14.0,
@@ -206,27 +188,9 @@
       5
     ],
     "column": 0,
-    "text": "Father Beacom (area A-4; suspicious, fatalistic):\nThe spiritual\nleader of Hirot has embraced his own doom and longs for his\nprophecy to come to fruition. Constantly haranguing his fel-\nlow villagers to repent before the end, he fiercely believes that\nHirot’s sin is responsible for the hound. Irrational to the end,\nthe  Father  aims  to  save  the  souls  of  Hirot  by  punishing  the\nflesh.\nMaster Jenks & the Three Rats Mob (area A-5; friendly, deceit-\nful): The Three Rats Mob seeks to take advantage of the PCs un-\nless befriended by a fellow rogue (and perhaps even then, using their\nnewfound ally as an inside man). Quick to ally with the PCs, the lazy\nrogues reward trust with treachery, aiming for the risk-free con.\nThe Mad Widow Ymae (area A-6; neutral, helpful): The weird\nwidow  of  Hirot  is  slow  to  befriend  PCs.  But  once  the  adventur-\ners earn her trust, the widow can prove a great boon to the heroes.\nThough helpful, the widow’s chief concerns are otherworldly, mak-\ning dealings with her strange and unsettling.",
+    "text": "Father Beacom (area A-4; suspicious, fatalistic):\nThe spiritual\nleader of Hirot has embraced his own doom and longs for his\nprophecy to come to fruition. Constantly haranguing his fel-\nlow villagers to repent before the end, he fiercely believes that\nHirot’s sin is responsible for the hound. Irrational to the end,\nthe  Father  aims  to  save  the  souls  of  Hirot  by  punishing  the\nflesh.\nMaster Jenks & the Three Rats Mob (area A-5; friendly, deceit-\nful): The Three Rats Mob seeks to take advantage of the PCs un-\nless befriended by a fellow rogue (and perhaps even then, using their\nnewfound ally as an inside man). Quick to ally with the PCs, the lazy\nrogues reward trust with treachery, aiming for the risk-free con.\nThe Mad Widow Ymae (area A-6; neutral, helpful): The weird\nwidow  of  Hirot  is  slow  to  befriend  PCs.  But  once  the  adventur-\ners earn her trust, the widow can prove a great boon to the heroes.\nThough helpful, the widow’s chief concerns are otherworldly, mak-\ning dealings with her strange and unsettling.\nThe Hound of Hirot:\nThough not an NPC  per se , the threat of\nthe hound should overshadow every interaction in doomed\nHirot, with every dusk heralding the possibility of death. The\noppressive presence can manifest in any number of ways, from\nceaseless, chill rain, lurking crows, and howling wolves out-\nside the village walls, to muted, fearful whimpers in the night.\nJudges are encouraged to use these atmospheric threats to en-\nforce the brooding, melancholic setting. If the PCs befriend an\nNPC, have the hound attack that NPC during the night. If the\nPCs set off into the wilderness, murders of crows erupt from\nthe trees. Nature itself should seem set against the heroes, with\nthe sunshine and warmth returning only when the hound has\nfinally been defeated.",
     "labels": [],
-    "text_bytes": 1043,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "BookAntiqua",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.the-hound-of-hirot",
-    "heading": "The Hound of Hirot:",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "The Hound of Hirot:\nThough not an NPC  per se , the threat of\nthe hound should overshadow every interaction in doomed\nHirot, with every dusk heralding the possibility of death. The\noppressive presence can manifest in any number of ways, from\nceaseless, chill rain, lurking crows, and howling wolves out-\nside the village walls, to muted, fearful whimpers in the night.\nJudges are encouraged to use these atmospheric threats to en-\nforce the brooding, melancholic setting. If the PCs befriend an\nNPC, have the hound attack that NPC during the night. If the\nPCs set off into the wilderness, murders of crows erupt from\nthe trees. Nature itself should seem set against the heroes, with\nthe sunshine and warmth returning only when the hound has\nfinally been defeated.",
-    "labels": [],
-    "text_bytes": 763,
+    "text_bytes": 1807,
     "keyed_area": null,
     "style": {
       "size": 14.0,
@@ -549,31 +513,13 @@
     "unit_id": "p9.bier-guards-3",
     "heading": "Bier Guards (3):",
     "pages": [
-      9
-    ],
-    "column": 1,
-    "text": "Bier Guards (3):\nInit +0; Atk spear +1 melee (1d6); AC 14; HD\n1d8; hp 4; MV 25’; Act 1d20; SV Fort +1, Ref +1, Will +0; AL L.\nArea B – Altar Stones:  The standing stones rest atop a low,\ncraggy bluff. At the center of the stones is a squat stone block. A\ntrio of ravens stands atop the mossy stone, pecking at trails of gore.\nFour holes are bored into the stone, and thick coils of rope are looped\nthrough the stone to make crude shackles.\nThe altar stones are the remnants of the druidic tradition once\npracticed on the high moors. At the behest of the sorcerer Sylle\nRu, the people of Hirot have sacrificed one of their own every\nthree nights, in hopes of staving off the hound.\nIf a sacrifice is not made at least once every three nights, the\nhound descends into Hirot, slaying 1d6+1 citizens before its\nrage is sated.\nThe hound appears shortly after dusk. Expecting a nearly de-\nfenseless peasant, the beast is easily surprised. However, once\nambushed at the stones, the hound cannot be surprised here\nagain. If, after being defeated at the stones, the hound discov-\ners a second ambush, it bypasses the standing stones altogeth-\ner and unleashes its full fury on the people of Hirot.",
-    "labels": [],
-    "text_bytes": 1192,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "BookAntiqua",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p9.the-hound-of-hirot",
-    "heading": "The Hound of Hirot:",
-    "pages": [
       9,
       10
     ],
     "column": 1,
-    "text": "The Hound of Hirot:\nInit +2; Atk bite +3 melee (1d8) or claw\n+3 melee (1d4); AC 15; hp 4d12; hp 20; MV 30’ or fly 30’; Act\n3d20; SP demon traits, gaseous form, immune to  charm  effects,\nimmortal; SV Fort +4, Ref +4, Will +0; AL C.\nPage 9",
+    "text": "Bier Guards (3):\nInit +0; Atk spear +1 melee (1d6); AC 14; HD\n1d8; hp 4; MV 25’; Act 1d20; SV Fort +1, Ref +1, Will +0; AL L.\nArea B – Altar Stones:  The standing stones rest atop a low,\ncraggy bluff. At the center of the stones is a squat stone block. A\ntrio of ravens stands atop the mossy stone, pecking at trails of gore.\nFour holes are bored into the stone, and thick coils of rope are looped\nthrough the stone to make crude shackles.\nThe altar stones are the remnants of the druidic tradition once\npracticed on the high moors. At the behest of the sorcerer Sylle\nRu, the people of Hirot have sacrificed one of their own every\nthree nights, in hopes of staving off the hound.\nIf a sacrifice is not made at least once every three nights, the\nhound descends into Hirot, slaying 1d6+1 citizens before its\nrage is sated.\nThe hound appears shortly after dusk. Expecting a nearly de-\nfenseless peasant, the beast is easily surprised. However, once\nambushed at the stones, the hound cannot be surprised here\nagain. If, after being defeated at the stones, the hound discov-\ners a second ambush, it bypasses the standing stones altogeth-\ner and unleashes its full fury on the people of Hirot.\nThe Hound of Hirot:\nInit +2; Atk bite +3 melee (1d8) or claw\n+3 melee (1d4); AC 15; hp 4d12; hp 20; MV 30’ or fly 30’; Act\n3d20; SP demon traits, gaseous form, immune to  charm  effects,\nimmortal; SV Fort +4, Ref +4, Will +0; AL C.\nPage 9",
     "labels": [],
-    "text_bytes": 242,
+    "text_bytes": 1435,
     "keyed_area": null,
     "style": {
       "size": 14.0,
@@ -827,27 +773,9 @@
       14
     ],
     "column": 0,
-    "text": "Swamp Jackals (3d7):\nInit +2; Atk bite +2 melee (1d4); AC\n12; HD 1d8; hp 4; MV 40’; Act 1d20; SV Fort +1, Ref +2,\nWill +1; AL C.\nArea D-1 – Lair of the Hound:  At last you have reached the\nheart of the foul fens. Any hint of the sun is lost in the boundless\ngray mists, and a heavy oppression hangs in the air with the stench of\nburbling sulfur springs. All the swamp seems to drain to this point,\nan ominous sinkhole obscured by billowing clouds of black miasma.\nSurely this foul place is the lair of the beast terrorizing Hirot!\nThe mouth of the sinkhole is some 20 feet across, but like a\nbottleneck, opens into a larger cavern below. The swamp wa-\nter trickles in streams over the lip of the sinkhole, falling 75\nfeet into the black pool below.\nRappelling into the sinkhole is easily accomplished assuming\nthe PCs have sufficient rope. Those descending from the lip of\nthe sinkhole are showered with foul swamp water during the\nentire descent. Climbing the inverted face of the sinkhole is far\nmore challenging, even for trained climbers (DC 15). The billow-\ning black clouds obscure all forms of sight into the pit below; the\nclouds leave a slick, oily residue on everything they touch.\nRead or paraphrase the following when the PCs descend into\nthe pit:\nYou spy the floor of the cave through the thick, noxious clouds. The\nslick, rocky floor slopes towards an inky black pool in the center of\nthe cavern. The shore surrounding the pool is littered with shattered\nbones, bits of rusted metal, and broken weapons. Cascading swamp\nwater courses down on you from above, while the hot, stinking fumes\nrise from below.\nThough constantly fed by the swamp waters, the pool in the\ncenter of the cavern is something not of this world. The bur-\nbling, boiling liquid reflects no light and is visible only when\nit  obscures  the  line  of  sight  to  something  else.  The  liquid  is\nextremely viscous and searing to touch; those immersed in the\npool must succeed on a DC 10 Fort save or take 1d3 points of\ndamage per round of contact.\nEvery night at dusk, the boiling ceases, and the hound emerg-\nes from the pool, dripping absolute blackness. When reduced\nto 0 hp or less, the hound transforms into mist and returns to\nthis pool, emerging—fully healed—the following night.\nEven in its lair, the hound must be restrained in order for a kill-\ning blow to be successful. If restrained, the hound tries to drag\nits  captor  bodily  into  the  black  pool.  In  lieu  of  an  action,  the\nhound may attempt a contested Strength check against the re-\nstraining  PC  (consider  the  hound’s  Strength  bonus  to  be  +4).\nThe blood-soaked weapon that deals the killing blow becomes\npermanently enchanted as a  +1 / +2 vs. Chaos  weapon. (An al-\nready magical weapon does not receive further enchantments.)",
+    "text": "Swamp Jackals (3d7):\nInit +2; Atk bite +2 melee (1d4); AC\n12; HD 1d8; hp 4; MV 40’; Act 1d20; SV Fort +1, Ref +2,\nWill +1; AL C.\nArea D-1 – Lair of the Hound:  At last you have reached the\nheart of the foul fens. Any hint of the sun is lost in the boundless\ngray mists, and a heavy oppression hangs in the air with the stench of\nburbling sulfur springs. All the swamp seems to drain to this point,\nan ominous sinkhole obscured by billowing clouds of black miasma.\nSurely this foul place is the lair of the beast terrorizing Hirot!\nThe mouth of the sinkhole is some 20 feet across, but like a\nbottleneck, opens into a larger cavern below. The swamp wa-\nter trickles in streams over the lip of the sinkhole, falling 75\nfeet into the black pool below.\nRappelling into the sinkhole is easily accomplished assuming\nthe PCs have sufficient rope. Those descending from the lip of\nthe sinkhole are showered with foul swamp water during the\nentire descent. Climbing the inverted face of the sinkhole is far\nmore challenging, even for trained climbers (DC 15). The billow-\ning black clouds obscure all forms of sight into the pit below; the\nclouds leave a slick, oily residue on everything they touch.\nRead or paraphrase the following when the PCs descend into\nthe pit:\nYou spy the floor of the cave through the thick, noxious clouds. The\nslick, rocky floor slopes towards an inky black pool in the center of\nthe cavern. The shore surrounding the pool is littered with shattered\nbones, bits of rusted metal, and broken weapons. Cascading swamp\nwater courses down on you from above, while the hot, stinking fumes\nrise from below.\nThough constantly fed by the swamp waters, the pool in the\ncenter of the cavern is something not of this world. The bur-\nbling, boiling liquid reflects no light and is visible only when\nit  obscures  the  line  of  sight  to  something  else.  The  liquid  is\nextremely viscous and searing to touch; those immersed in the\npool must succeed on a DC 10 Fort save or take 1d3 points of\ndamage per round of contact.\nEvery night at dusk, the boiling ceases, and the hound emerg-\nes from the pool, dripping absolute blackness. When reduced\nto 0 hp or less, the hound transforms into mist and returns to\nthis pool, emerging—fully healed—the following night.\nEven in its lair, the hound must be restrained in order for a kill-\ning blow to be successful. If restrained, the hound tries to drag\nits  captor  bodily  into  the  black  pool.  In  lieu  of  an  action,  the\nhound may attempt a contested Strength check against the re-\nstraining  PC  (consider  the  hound’s  Strength  bonus  to  be  +4).\nThe blood-soaked weapon that deals the killing blow becomes\npermanently enchanted as a  +1 / +2 vs. Chaos  weapon. (An al-\nready magical weapon does not receive further enchantments.)\nThe Hound of Hirot:\nInit +2; Atk bite +3 melee (1d8) or claw\n+3 melee (1d4); AC 15; hp 4d12; hp 20; MV 30’ or fly 30’; Act\n3d20; SP demon traits, gaseous form, immune to  charm  effects;\nSV Fort +4, Ref +4, Will +0; AL C.",
     "labels": [],
-    "text_bytes": 2805,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "BookAntiqua",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p14.the-hound-of-hirot",
-    "heading": "The Hound of Hirot:",
-    "pages": [
-      14
-    ],
-    "column": 1,
-    "text": "The Hound of Hirot:\nInit +2; Atk bite +3 melee (1d8) or claw\n+3 melee (1d4); AC 15; hp 4d12; hp 20; MV 30’ or fly 30’; Act\n3d20; SP demon traits, gaseous form, immune to  charm  effects;\nSV Fort +4, Ref +4, Will +0; AL C.",
-    "labels": [],
-    "text_bytes": 225,
+    "text_bytes": 3031,
     "keyed_area": null,
     "style": {
       "size": 14.0,

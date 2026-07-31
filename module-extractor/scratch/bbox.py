@@ -38,6 +38,8 @@ SOURCES = (
     Path("/mnt/data/RPG/Module - Winters Daughter.pdf"),
     Path("/mnt/data/RPG/Module - Falkrest_Abbey_1.1.pdf"),
     Path("/mnt/data/RPG/[M] 66.5 Doom of the Savage Kings.pdf"),
+    # Russian. Probes assumptions ASCII sources never touch.
+    Path("/mnt/data/RPG/Запретные Земли - Шпиль Кетцаль.pdf"),
 )
 
 # Deferred: its embedded text layer is pervasively damaged by letter-spacing,

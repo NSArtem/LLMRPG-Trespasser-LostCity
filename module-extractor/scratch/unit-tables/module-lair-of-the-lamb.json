@@ -1303,31 +1303,13 @@
       9
     ],
     "column": 0,
-    "text": "Stat Blocks",
+    "text": "Stat Blocks\nLvl\nis the same as HD.  An enemy has 1d6 HP per HD.",
     "labels": [],
-    "text_bytes": 11,
+    "text_bytes": 63,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p9.lvl",
-    "heading": "Lvl",
-    "pages": [
-      9
-    ],
-    "column": 0,
-    "text": "Lvl\nis the same as HD.  An enemy has 1d6 HP per HD.",
-    "labels": [],
-    "text_bytes": 51,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
       "bold": false,
       "color": "#000000"
     }
@@ -1357,27 +1339,9 @@
       9
     ],
     "column": 0,
-    "text": "Atk\nis usually labled like  Claws  1d8.  It tells you both the mode of attack and the damage.",
+    "text": "Atk\nis usually labled like  Claws  1d8.  It tells you both the mode of attack and the damage.\nMove\nis sometimes omitted, if its the same as a human.  The DC to escape a slow pursuer is 12.  The DC to escape a fast\npursuer is 20.  Move is also sometimes described by listing a comparable creature ( Climb  spider).",
     "labels": [],
-    "text_bytes": 93,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p9.move",
-    "heading": "Move",
-    "pages": [
-      9
-    ],
-    "column": 0,
-    "text": "Move\nis sometimes omitted, if its the same as a human.  The DC to escape a slow pursuer is 12.  The DC to escape a fast\npursuer is 20.  Move is also sometimes described by listing a comparable creature ( Climb  spider).",
-    "labels": [],
-    "text_bytes": 219,
+    "text_bytes": 313,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -2462,45 +2426,9 @@
       20
     ],
     "column": 0,
-    "text": "The Lamb",
+    "text": "The Lamb\nLvl\n6   Def  chain   Bite/Crush  1d8/1d18\nMove\nslow   Climb  slug   Str  9   Int  3   Dis  hungry",
     "labels": [],
-    "text_bytes": 8,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p20.lvl",
-    "heading": "Lvl",
-    "pages": [
-      20
-    ],
-    "column": 0,
-    "text": "Lvl\n6   Def  chain   Bite/Crush  1d8/1d18",
-    "labels": [],
-    "text_bytes": 41,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p20.move",
-    "heading": "Move",
-    "pages": [
-      20
-    ],
-    "column": 0,
-    "text": "Move\nslow   Climb  slug   Str  9   Int  3   Dis  hungry",
-    "labels": [],
-    "text_bytes": 55,
+    "text_bytes": 106,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -2570,45 +2498,9 @@
       20
     ],
     "column": 1,
-    "text": "Little Lamb",
+    "text": "Little Lamb\nLvl\n2   Def  chain   Bite  1d8\nMove\nhuman   Climb  as slug   Str 5 Int  3   Dis  hungry",
     "labels": [],
-    "text_bytes": 11,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p20.lvl-2",
-    "heading": "Lvl",
-    "pages": [
-      20
-    ],
-    "column": 1,
-    "text": "Lvl\n2   Def  chain   Bite  1d8",
-    "labels": [],
-    "text_bytes": 30,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p20.move-2",
-    "heading": "Move",
-    "pages": [
-      20
-    ],
-    "column": 1,
-    "text": "Move\nhuman   Climb  as slug   Str 5 Int  3   Dis  hungry",
-    "labels": [],
-    "text_bytes": 56,
+    "text_bytes": 99,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -2696,27 +2588,9 @@
       20
     ],
     "column": 1,
-    "text": "Father Bastoval",
+    "text": "Father Bastoval\nLvl\n3   Def  chain   Warfork  1d8   Dis  wrathful",
     "labels": [],
-    "text_bytes": 15,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p20.lvl-3",
-    "heading": "Lvl",
-    "pages": [
-      20
-    ],
-    "column": 1,
-    "text": "Lvl\n3   Def  chain   Warfork  1d8   Dis  wrathful",
-    "labels": [],
-    "text_bytes": 49,
+    "text_bytes": 65,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -3243,27 +3117,9 @@
       28
     ],
     "column": 0,
-    "text": "Armored Ghoul (Gerdith or Molina)",
+    "text": "Armored Ghoul (Gerdith or Molina)\nLvl\n2   Def  plate   Halberd  1d8",
     "labels": [],
-    "text_bytes": 33,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p28.lvl",
-    "heading": "Lvl",
-    "pages": [
-      28
-    ],
-    "column": 0,
-    "text": "Lvl\n2   Def  plate   Halberd  1d8",
-    "labels": [],
-    "text_bytes": 33,
+    "text_bytes": 67,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -3315,27 +3171,9 @@
       28
     ],
     "column": 1,
-    "text": "Ghoul (Jasper or Luntz)",
+    "text": "Ghoul (Jasper or Luntz)\nLvl\n2   Def  leather   Claw  1d6+agony",
     "labels": [],
-    "text_bytes": 23,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p28.lvl-2",
-    "heading": "Lvl",
-    "pages": [
-      28
-    ],
-    "column": 1,
-    "text": "Lvl\n2   Def  leather   Claw  1d6+agony",
-    "labels": [],
-    "text_bytes": 38,
+    "text_bytes": 62,
     "keyed_area": null,
     "style": {
       "size": 16.0,
@@ -3369,27 +3207,9 @@
       28
     ],
     "column": 1,
-    "text": "Lantern Worm",
+    "text": "Lantern Worm\nLvl\n4    Def  leather    Slam  1d6",
     "labels": [],
-    "text_bytes": 12,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p28.lvl-3",
-    "heading": "Lvl",
-    "pages": [
-      28
-    ],
-    "column": 1,
-    "text": "Lvl\n4    Def  leather    Slam  1d6",
-    "labels": [],
-    "text_bytes": 34,
+    "text_bytes": 47,
     "keyed_area": null,
     "style": {
       "size": 16.0,

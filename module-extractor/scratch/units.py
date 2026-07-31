@@ -46,12 +46,14 @@ MAX_HEADING_WORDS = 6
 
 # "24 CRUSH HALLWAY" -> 24; "1A FIRST INTERSECTION" -> 1; "24C" -> 24.
 KEY_ROOT = re.compile(r"^(\d+)")
-_SLUG = re.compile(r"[^a-z0-9]+")
+# Unicode-aware: an ASCII-only class silently erases Cyrillic, and every
+# heading in a Russian module then slugs to the same empty string.
+_SLUG = re.compile(r"[\W_]+", re.UNICODE)
 
 
 def slug(text: str, limit: int = 32) -> str:
-    value = _SLUG.sub("-", text.lower()).strip("-")
-    return value[:limit].rstrip("-") or "unit"
+    value = _SLUG.sub("-", text.casefold()).strip("-_")
+    return value[:limit].rstrip("-_") or "unit"
 
 
 def key_root(text: str) -> str | None:
@@ -120,7 +122,8 @@ def heading_ranks(groups: list[StyleGroup], lines: list[Line]) -> dict[Style, in
     return {group.style: rank for rank, group in enumerate(candidates)}
 
 
-def assemble(lines: list[Line], ranks: dict[Style, int]) -> list[Unit]:
+def assemble(lines: list[Line], ranks: dict[Style, int],
+             repeated: set[str] | None = None) -> list[Unit]:
     units: list[Unit] = []
     current: Unit | None = None
     seen: dict[str, int] = {}
@@ -147,7 +150,9 @@ def assemble(lines: list[Line], ranks: dict[Style, int]) -> list[Unit]:
 
     for line in lines:
         rank = ranks.get(line.style)
-        if rank is not None and is_heading_text(line.text) and starts_new(line, rank):
+        is_furniture = repeated is not None and line.text.strip() in repeated
+        if (rank is not None and not is_furniture
+                and is_heading_text(line.text) and starts_new(line, rank)):
             base = f"p{line.page}.{slug(line.text)}"
             seen[base] = seen.get(base, 0) + 1
             unit_id = base if seen[base] == 1 else f"{base}-{seen[base]}"
@@ -170,10 +175,33 @@ def assemble(lines: list[Line], ranks: dict[Style, int]) -> list[Unit]:
     return units
 
 
+FURNITURE_PAGES = 3
+
+
+def furniture(lines: list[Line]) -> set[str]:
+    """Heading-shaped text that repeats across pages is running furniture.
+
+    Page headers, footers, running heads and watermarks are set in heading
+    styles and are not headings. The Russian module is a personalised copy
+    stamped with a purchaser's address on every page, which alone produced 49
+    spurious units; its running heads ("глава 2", the module title) produced
+    more. Two appearances can be a genuine repeat -- Lair keys 25F CRYPT twice
+    -- so the threshold is three distinct pages.
+    """
+    seen: dict[str, set[int]] = {}
+    for line in lines:
+        text = line.text.strip()
+        if text:
+            seen.setdefault(text, set()).add(line.page)
+    return {text for text, pages in seen.items() if len(pages) >= FURNITURE_PAGES}
+
+
 def units_for(pdf: Path) -> list[Unit]:
     lines = document_lines(pdf)
     groups = style_table(lines)
-    return assemble(lines, heading_ranks(groups, lines))
+    ranks = heading_ranks(groups, lines)
+    repeated = furniture(lines)
+    return assemble(lines, ranks, repeated)
 
 
 def report(pdf: Path, show: int = 0) -> None:

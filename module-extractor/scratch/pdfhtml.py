@@ -155,6 +155,21 @@ def _sanitize(xml_text: str) -> tuple[str, int]:
 _TEXT_ELEMENT = re.compile(r"<text\b([^>]*)>(.*?)</text>", re.DOTALL)
 _ANY_TAG = re.compile(r"<[^>]*>")
 
+# Third defect, and this one is in the *attributes*: Poppler copies font names
+# out of the PDF without escaping, so a font called "Brokgauz&Efron" produces
+#
+#     <fontspec id="8" size="50" family="TURLCX+Brokgauz&Efron" .../>
+#
+# and "&E" is read as the start of an entity. Escape any ampersand that is not
+# already opening a valid entity, everywhere, before anything else runs.
+_BARE_AMPERSAND = re.compile(
+    r"&(?!(?:amp|lt|gt|quot|apos|#[0-9]+|#x[0-9a-fA-F]+);)"
+)
+
+
+def _escape_bare_ampersands(xml_text: str) -> str:
+    return _BARE_AMPERSAND.sub("&amp;", xml_text)
+
 
 def _escape(value: str) -> str:
     return value.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -186,7 +201,7 @@ def _number(element: ET.Element, name: str, default: float | None = None) -> flo
 
 def extract_document(pdf: Path) -> Document:
     xml_text, _ = _sanitize(_run_poppler(pdf))
-    xml_text = _normalize_runs(xml_text)
+    xml_text = _normalize_runs(_escape_bare_ampersands(xml_text))
     try:
         root = ET.fromstring(xml_text)
     except ET.ParseError as exc:

@@ -82,8 +82,17 @@ git diff --check
 /mnt/data/RPG/Module - Winters Daughter.pdf            31 pages
 /mnt/data/RPG/Module - Falkrest_Abbey_1.1.pdf          46 pages
 /mnt/data/RPG/[M] 66.5 Doom of the Savage Kings.pdf    18 pages
+/mnt/data/RPG/Запретные Земли - Шпиль Кетцаль.pdf      74 pages   Russian
 /mnt/data/RPG/TSR B4 - The Lost City 1982.pdf          34 pages   DEFERRED, see below
 ```
+
+**Keep the Russian source in every run.** It is the only one that exercises
+non-ASCII text, and it has already caught two defects that the five English
+sources could not: an ASCII-only slug pattern that erased every Cyrillic
+heading, and an unescaped ampersand in a font name that broke the XML parse.
+**Canonical IDs downstream are ASCII-only** -- `util.SAFE_ID` rejects
+`place.module-x.авторы` -- so T4.3 must decide between transliteration and
+widening the pattern. Do not discover that in Phase 4.
 
 *Lair of the Lamb* is the primary source: it is the one with a recovered
 baseline build to compare against, and every gate that names a source without
