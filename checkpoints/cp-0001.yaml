@@ -248,6 +248,7 @@ uncertainties:
 current_scene:
   fiction_time: "Первый день; точное время неизвестно"
   location: location.lair.ironbound-door
+  module_place_id: place.module-lair-of-the-lamb.1-bowls
   present:
     - character.bjorn
     - character.elsa

@@ -695,6 +695,7 @@ current_scene:
   fiction_time: Первый день; точное время неизвестно; после cp-0001 отслежено около 90 минут dungeon time плюс несколько минут
     погони
   location: location.lair.upper-ruin
+  module_place_id: place.module-lair-of-the-lamb.1-bowls
   present:
   - character.bjorn
   - character.elsa

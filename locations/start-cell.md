@@ -2,6 +2,7 @@
 id: location.lair.start-cell
 type: location
 name: "Стартовая камера"
+module_ref: place.module-lair-of-the-lamb.1-bowls
 status: explored
 location: location.lair
 knowledge_level: mixed
@@ -50,6 +51,8 @@ last_updated: cp-0001
 > GM ONLY — не раскрывать игрокам напрямую.
 
 - Эта камера не соответствует оригинальной `1 BOWLS`.
+- `module_ref` указывает на `1 BOWLS` как на заменённый baseline-якорь для
+  загрузки модуля, а не как на буквальное физическое соответствие комнаты.
 - Вошедшее существо описано как похожее на Агнца, но прямо не названо.
 
 ## Изменения относительно исходного приключения
