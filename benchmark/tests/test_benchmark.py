@@ -18,6 +18,7 @@ from benchmark.benchmark import (  # noqa: E402
     ProgressDisplay,
     TIER_MODELS,
     _aggregate_metrics,
+    _offload_snapshot,
     build_parser,
     cmd_install,
     fixture_prompt,
@@ -84,6 +85,25 @@ class ContractTests(unittest.TestCase):
 
 
 class FixtureTests(unittest.TestCase):
+    def test_offload_snapshot_records_processor_and_vram(self) -> None:
+        class FakeClient:
+            def running_models(self):
+                return [
+                    {
+                        "name": "qwen3:8b",
+                        "processor": "100% GPU",
+                        "size": 100,
+                        "size_vram": 100,
+                    }
+                ]
+
+        snapshot = _offload_snapshot(FakeClient(), "qwen3:8b")
+
+        self.assertEqual(snapshot["mode"], "gpu")
+        self.assertEqual(snapshot["mode_source"], "processor")
+        self.assertEqual(snapshot["processor"], "100% GPU")
+        self.assertEqual(snapshot["vram_fraction"], 1.0)
+
     def test_run_with_no_available_models_writes_no_results(self) -> None:
         args = build_parser().parse_args(
             [
@@ -244,6 +264,24 @@ class FixtureTests(unittest.TestCase):
         self.assertEqual(json.loads(request.data.decode("utf-8")), {"model": "qwen3:8b", "stream": True})
         self.assertEqual(events[-1], {"status": "success"})
         self.assertEqual(result, {"status": "success"})
+
+    def test_running_models_reads_ollama_process_status(self) -> None:
+        class FakeResponse:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc_value, traceback):
+                return False
+
+            def read(self):
+                return b'{"models":[{"name":"qwen3:8b","size":100,"size_vram":100}]}'
+
+        with patch("benchmark.benchmark.urllib.request.urlopen", return_value=FakeResponse()) as urlopen:
+            result = OllamaClient("http://ollama.test").running_models()
+
+        request = urlopen.call_args.args[0]
+        self.assertEqual(request.full_url, "http://ollama.test/api/ps")
+        self.assertEqual(result[0]["size_vram"], 100)
 
     def test_prompt_is_shared_and_contains_the_fixture_source(self) -> None:
         fixtures, _ = load_fixtures(ROOT)

@@ -1,0 +1,14 @@
+#unit,p31,pages,31
+#entity,hallway,location,24 CRUSH HALLWAY
+hallway,text,public,Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)
+hallway,contents,public,The ceiling will begin to lower as soon as anyone enters this 90' hallway. Any touch greater than a feather is sufficient to trigger the trap. The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets.
+hallway,starting_state,public,No Movement check is required for a human to sprint across the hallway without getting crushed.
+hallway,contents,public,However, Movement checks are required to jump over the 3 trap doors, which are perfectly disguised, but sound hollow if tapped. Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.
+#entity,24A,location,Water
+24A,text,public,Water, 10' deep. A broken chair missing two legs floats here.
+#entity,24B,location,Water
+24B,text,public,Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.
+#entity,24C,location,Water
+24C,text,public,Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited. On the bottom are 2 flasks of oil and broken glass.
+#entity,31,location,Crossing the Hallway
+31,text,public,Crossing the Hallway. The easiest way to cross the hallway is to throw an uncushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects. (Those objects won't be recoverable, though.) You could also cross the hallway by just climbing along the wall with iron spikes and ropes. If the party chooses this option, it'll take about an hour, so a couple of encounter checks will occur during it. Lastly, don't forget about disabling the trap doors (22 MUSHROOM) and then just sprinting across the hallway.

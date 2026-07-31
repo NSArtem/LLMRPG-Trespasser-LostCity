@@ -61,9 +61,12 @@ python3 benchmark/benchmark.py run \
 ```
 
 Each run writes `results.json`, `summary.md`, per-fixture prompts, and every
-raw response under `raw/`. S3 is intentionally a human gate. Complete the
-generated `contamination-audit.template.json`, then re-score without making
-new model calls:
+raw response under `raw/`. Each generation attempt also records the loaded
+Ollama model's `/api/ps` memory snapshot, including total size and VRAM size;
+the summary reports the processor split when available or a size-based
+GPU/CPU estimate. S3 is intentionally a human gate. Complete the generated
+`contamination-audit.template.json`, then re-score without making new model
+calls:
 
 During a run, a terminal shows a live per-model/per-suite status line. It
 reports numeric fixture completion, the current fixture's attempt, generated

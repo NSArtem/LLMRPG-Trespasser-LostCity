@@ -841,6 +841,12 @@ class OllamaClient:
         models = payload.get("models", []) if isinstance(payload, Mapping) else []
         return [dict(item) for item in models if isinstance(item, Mapping)]
 
+    def running_models(self) -> list[dict[str, Any]]:
+        """Return the models currently loaded by Ollama."""
+        payload = self._request("/api/ps")
+        models = payload.get("models", []) if isinstance(payload, Mapping) else []
+        return [dict(item) for item in models if isinstance(item, Mapping)]
+
     def pull(
         self,
         model: str,
@@ -1250,7 +1256,85 @@ def _failure_errors(validation: Mapping[str, Any]) -> list[str]:
     return list(validation.get("format_errors", [])) + list(validation.get("structural_errors", []))
 
 
-def _generation_dict(generation: Generation, raw_path: str, validation: Mapping[str, Any]) -> dict[str, Any]:
+def _offload_snapshot(client: OllamaClient, model: str) -> dict[str, Any]:
+    """Capture Ollama's loaded-model memory split without failing a run."""
+    try:
+        running_models = client.running_models()
+    except (BenchmarkError, AttributeError) as exc:
+        return {
+            "model": model,
+            "mode": "unavailable",
+            "mode_source": "api_error",
+            "error": str(exc),
+        }
+
+    loaded: Mapping[str, Any] | None = None
+    for item in running_models:
+        names = [item.get("name"), item.get("model")]
+        if model in names:
+            loaded = item
+            break
+        if model.endswith(":latest") and model[:-7] in names:
+            loaded = item
+            break
+        if any(
+            isinstance(name, str) and name.endswith(":latest") and name[:-7] == model
+            for name in names
+        ):
+            loaded = item
+            break
+    if loaded is None:
+        return {"model": model, "mode": "not_loaded", "mode_source": "api"}
+
+    processor = loaded.get("processor")
+    size = loaded.get("size")
+    size_vram = loaded.get("size_vram")
+    snapshot: dict[str, Any] = {
+        "model": loaded.get("name") or loaded.get("model") or model,
+        "mode": "unknown",
+        "mode_source": "api",
+        "processor": processor if isinstance(processor, str) else None,
+        "size_bytes": size if isinstance(size, (int, float)) else None,
+        "size_vram_bytes": size_vram if isinstance(size_vram, (int, float)) else None,
+        "vram_fraction": None,
+    }
+
+    if isinstance(processor, str):
+        normalized = processor.lower()
+        if "cpu" in normalized and "gpu" in normalized:
+            snapshot["mode"] = "mixed"
+            snapshot["mode_source"] = "processor"
+        elif "gpu" in normalized:
+            snapshot["mode"] = "gpu"
+            snapshot["mode_source"] = "processor"
+        elif "cpu" in normalized:
+            snapshot["mode"] = "cpu"
+            snapshot["mode_source"] = "processor"
+
+    if (
+        isinstance(size, (int, float))
+        and isinstance(size_vram, (int, float))
+        and size > 0
+    ):
+        fraction = max(0.0, min(1.0, float(size_vram) / float(size)))
+        snapshot["vram_fraction"] = round(fraction, 6)
+        if snapshot["mode"] == "unknown":
+            snapshot["mode_source"] = "size_vram_estimate"
+            if fraction <= 0.01:
+                snapshot["mode"] = "cpu"
+            elif fraction >= 0.99:
+                snapshot["mode"] = "gpu"
+            else:
+                snapshot["mode"] = "mixed"
+    return snapshot
+
+
+def _generation_dict(
+    generation: Generation,
+    raw_path: str,
+    validation: Mapping[str, Any],
+    offload: Mapping[str, Any] | None = None,
+) -> dict[str, Any]:
     return {
         "raw_file": raw_path,
         "wall_clock_s": round(generation.wall_clock_s, 6),
@@ -1269,6 +1353,7 @@ def _generation_dict(generation: Generation, raw_path: str, validation: Mapping[
         "eval_duration_s": (
             round(generation.eval_duration_s, 6) if generation.eval_duration_s is not None else None
         ),
+        "offload": dict(offload) if offload is not None else None,
         "validation": {key: value for key, value in validation.items() if key != "cleaned_body"},
     }
 
@@ -1354,6 +1439,30 @@ def _aggregate_metrics(
     wall = [attempt.get("wall_clock_s") for attempt in primary_generations if attempt.get("wall_clock_s") is not None]
     tps_values = [attempt["tokens_per_second"] for attempt in measured]
     ttft_values = [attempt["time_to_first_token_s"] for attempt in primary_generations if attempt.get("time_to_first_token_s") is not None]
+    offload_snapshots = [
+        attempt.get("offload")
+        for attempt in primary_generations
+        if isinstance(attempt.get("offload"), Mapping)
+    ]
+    offload_modes = sorted(
+        {
+            snapshot.get("mode")
+            for snapshot in offload_snapshots
+            if snapshot.get("mode")
+        }
+    )
+    offload_processors = sorted(
+        {
+            snapshot.get("processor")
+            for snapshot in offload_snapshots
+            if snapshot.get("processor")
+        }
+    )
+    vram_fractions = [
+        float(snapshot["vram_fraction"])
+        for snapshot in offload_snapshots
+        if isinstance(snapshot.get("vram_fraction"), (int, float))
+    ]
     source_scale = WHOLE_ADVENTURE_BYTES / total_source_bytes if total_source_bytes else None
     projected_wall = sum(wall) * source_scale if source_scale is not None else None
     projected_tokens = total_generated_tokens * source_scale if source_scale is not None else None
@@ -1425,6 +1534,14 @@ def _aggregate_metrics(
             "source_bytes": total_source_bytes,
             "projected_generated_tokens": projected_tokens,
             "projected_whole_adventure_wall_clock_s": projected_wall,
+        },
+        "offload": {
+            "modes": offload_modes,
+            "processors": offload_processors,
+            "samples": len(offload_snapshots),
+            "mean_vram_fraction": (
+                sum(vram_fractions) / len(vram_fractions) if vram_fractions else None
+            ),
         },
         "elapsed_s": round(elapsed, 6),
         "budget_s": budget_s,
@@ -1599,7 +1716,14 @@ def _run_model_body(
             raw_path.parent.mkdir(parents=True, exist_ok=True)
             raw_path.write_text(generation.text, encoding="utf-8")
             validation = validate_response(generation.text, fixture.identifier)
-            attempts.append(_generation_dict(generation, raw_path.relative_to(output_dir).as_posix(), validation))
+            attempts.append(
+                _generation_dict(
+                    generation,
+                    raw_path.relative_to(output_dir).as_posix(),
+                    validation,
+                    _offload_snapshot(client, spec.actual),
+                )
+            )
             previous_text = generation.text
             previous_validation = validation
             if validation["s1_valid"] and validation["s2_valid"]:
@@ -1665,8 +1789,10 @@ def _run_s6(
     prompt = fixture_prompt(fixture)
     progress(f"{spec.requested} [s6] {fixture.identifier}: determinism run 1/2")
     first = client.generate(spec.actual, prompt)
+    first_offload = _offload_snapshot(client, spec.actual)
     progress(f"{spec.requested} [s6] {fixture.identifier}: determinism run 2/2")
     second = client.generate(spec.actual, prompt)
+    second_offload = _offload_snapshot(client, spec.actual)
     root.mkdir(parents=True, exist_ok=True)
     first_path = root / f"{fixture.identifier}.determinism-1.txt"
     second_path = root / f"{fixture.identifier}.determinism-2.txt"
@@ -1680,6 +1806,7 @@ def _run_s6(
     malformed_validation = validate_response(malformed, fixture.identifier)
     progress(f"{spec.requested} [s6] {fixture.identifier}: recovery run")
     retry = client.generate(spec.actual, recovery_prompt(fixture, malformed, _failure_errors(malformed_validation)))
+    retry_offload = _offload_snapshot(client, spec.actual)
     retry_path = root / f"{fixture.identifier}.recovery.txt"
     retry_path.write_text(retry.text, encoding="utf-8")
     retry_validation = validate_response(retry.text, fixture.identifier)
@@ -1689,15 +1816,30 @@ def _run_s6(
         "determinism": {
             "raw_files": [first_path.relative_to(output_dir).as_posix(), second_path.relative_to(output_dir).as_posix()],
             "byte_identical": first.text == second.text,
-            "first": _generation_dict(first, first_path.relative_to(output_dir).as_posix(), first_validation),
-            "second": _generation_dict(second, second_path.relative_to(output_dir).as_posix(), second_validation),
+            "first": _generation_dict(
+                first,
+                first_path.relative_to(output_dir).as_posix(),
+                first_validation,
+                first_offload,
+            ),
+            "second": _generation_dict(
+                second,
+                second_path.relative_to(output_dir).as_posix(),
+                second_validation,
+                second_offload,
+            ),
         },
         "recovery": {
             "malformed_failure_kinds": malformed_validation["failure_kinds"],
             "raw_file": retry_path.relative_to(output_dir).as_posix(),
             "converged": retry_validation["s1_valid"] and retry_validation["s2_valid"],
             "validation": {key: value for key, value in retry_validation.items() if key != "cleaned_body"},
-            "generation": _generation_dict(retry, retry_path.relative_to(output_dir).as_posix(), retry_validation),
+            "generation": _generation_dict(
+                retry,
+                retry_path.relative_to(output_dir).as_posix(),
+                retry_validation,
+                retry_offload,
+            ),
         },
     }
     progress(
@@ -1987,6 +2129,8 @@ def _model_summary_rows(result: Mapping[str, Any]) -> list[dict[str, Any]]:
         metrics = suite.get("metrics", {})
         recall = metrics.get("recall", {})
         throughput = metrics.get("throughput", {})
+        offload = metrics.get("offload", {})
+        offload_modes = offload.get("modes", []) if isinstance(offload, Mapping) else []
         rows.append(
             {
                 "requested": model.get("requested"),
@@ -1998,6 +2142,7 @@ def _model_summary_rows(result: Mapping[str, Any]) -> list[dict[str, Any]]:
                 "s3": metrics.get("s3_status", "not-run") if suite else "not-run",
                 "recall": recall.get("substance_recall"),
                 "tps": throughput.get("mean_tokens_per_second"),
+                "offload": ", ".join(str(mode) for mode in offload_modes) or None,
                 "wall": throughput.get("projected_whole_adventure_wall_clock_s"),
                 "failure_taxonomy": metrics.get("failure_taxonomy", {}),
                 "model": model,
@@ -2063,21 +2208,22 @@ def render_summary(result: Mapping[str, Any]) -> str:
             "",
             "## Per-model result",
             "",
-            "| Model | Actual tag | Tier | S1 | S2 | S3 | Substance recall | Gen tok/s | Projected whole adventure |",
-            "|---|---|---|---|---|---|---:|---:|---:|",
+            "| Model | Actual tag | Tier | S1 | S2 | S3 | Substance recall | Gen tok/s | Offload | Projected whole adventure |",
+            "|---|---|---|---|---|---|---:|---:|---|---:|",
         ]
     )
     for row in rows:
         if not row["available"]:
-            lines.append(f"| `{row['requested']}` | unavailable | {row['tier']} | — | — | — | — | — | — |")
+            lines.append(f"| `{row['requested']}` | unavailable | {row['tier']} | — | — | — | — | — | — | — |")
             continue
         s3 = "PASS" if row["s3"] is True else str(row["s3"]).replace("_", " ")
         recall = "—" if row["recall"] is None else f"{row['recall'] * 100:.1f}%"
         tps = "—" if row["tps"] is None else f"{row['tps']:.1f}"
+        offload = row["offload"] or "—"
         lines.append(
             f"| `{row['requested']}` | `{row['actual']}` | {row['tier']} | "
             f"{'PASS' if row['s1'] else 'FAIL'} | {'PASS' if row['s2'] else 'FAIL'} | {s3} | "
-            f"{recall} | {tps} | {_format_seconds(row['wall'])} |"
+            f"{recall} | {tps} | {offload} | {_format_seconds(row['wall'])} |"
         )
     lines.extend(["", "## Failure taxonomy", ""])
     taxonomy: dict[str, int] = {}

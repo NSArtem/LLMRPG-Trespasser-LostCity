@@ -1,0 +1,21 @@
+#unit,p31,pages,31
+#entity,hallway,location,Crush Hallway
+hallway,visible,public,Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)
+hallway,behavior,discoverable,As soon as anyone enters this 90' hallway, the ceiling will begin to lower.
+hallway,possible_effects,public,Any touch greater than a feather is sufficient to trigger the trap.
+hallway,cycle,public,The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets.
+#option,sprint_across,action,No Movement check is required for a human to sprint across the hallway without getting crushed.
+hallway,hazards,public,However, Movement checks are required to jump over the 3 trap_doors, which are perfectly disguised, but sound hollow if tapped.
+hallway,contents,public,Each trap door is just a hinge and a strong spring.
+hallway,dimensions,public,It is a 40' fall down to the water below.
+#entity,water,location,Water
+water,visible,public,A broken chair missing two legs floats here.
+water,text,public,On the bottom are 2 flasks of oil and broken glass.
+#entity,trap_doors,item,Trap Doors
+trap_doors,visible,public,The water is covered with a layer of oil. It burns for 5 minutes if ignited.
+#option,throw_object,action,The easiest way to cross the hallway is to throw an uncrushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects.
+hallway,text,public,Those objects won't be recoverable, though.
+#option,climb_wall,action,You could also cross the hallway by just climbing along the wall with iron spikes and ropes.
+hallway,possible_effects,public,If the party chooses this option, it'll take about an hour, so a couple of encounter checks will occur during it.
+trap_doors,text,public,22 MUSHROOM
+hallway,text,public,Lastly, don't forget about disabling the trap doors and then just sprinting across the hallway.

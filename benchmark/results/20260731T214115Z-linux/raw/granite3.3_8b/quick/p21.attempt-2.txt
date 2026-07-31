@@ -1,0 +1,13 @@
+#unit,p21,pages,21
+#entity,bowls,object,Three enormous stone bowls
+#entity,bowl_contents,effect,Each bowl contains 4 human sacrifices, bound hand and foot
+#location,intersection_e,place,Barnyard smell to the E.
+#location,intersection_n,place,Barnyard smell to the N.
+#location,intersection_e,option,Faint light
+#location,intersection_s,place,Vinegar smell
+#location,intersection_w,place,Vinegar smell
+#entity,goats,object,Three dead goats. One live goat, dehydrated and friendly. Tied with short lengths of twine. They are all wearing bells.
+#entity,pile_of_hay,object,Pile of hay
+#entity,wooden_bowl,item,Wooden bowl (empty)
+#entity,vinegar,substance,A stone trough half-filled with vinegar. Investigating the reeking liquid reveals an empty wine bottle. Another stone trough that stinks of stale milk. It is empty.
+#entity,chests,object,Wooden door to this room is locked. Wooden Table holding 1 immature Lambfruit (Appendix D). Wooden Chest: Mwk helmet (smiling face, squinting eyes). • 1 torch. • Purple pouch containing 2 doses of purple lotus powder (1Appendix D). • Lotus pipe (fits into helmet, 100s). Lead & Iron Chest bolted to the floor, bound with two linchpinned chains. Removing the first linchpin causes headaches. The second causes nosebleeds. The chest contains only the Skull of Davok, which escapes when the chest is opened. (See Appendix A.)

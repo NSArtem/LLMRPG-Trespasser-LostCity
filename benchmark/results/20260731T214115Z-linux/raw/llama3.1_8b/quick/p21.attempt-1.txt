@@ -1,0 +1,22 @@
+#unit,p21,pages,21
+#entity,room,place,Room
+room,contents,public,Three bowls, one live goat, and a chest.
+#entity,bowls,item,Three enormous stone bowls
+bowls,contents,public,4 human sacrifices, bound hand and foot.
+#entity,goats,item,Three dead goats. One live goat, dehydrated and friendly.
+goats,contents,public,Tied with short lengths of twine. They are all wearing bells.
+#entity,vinegar,item,A stone trough half-filled with vinegar
+vinegar,contents,public,An empty wine bottle.
+#entity,table,item,Woooden Table holding 1 immature Lambfruit (Appendix D)
+table,contents,public,1 immature Lambfruit (Appendix D).
+#entity,chest,item,Woooden Chest:
+chest,contents,public,Mwk helmet (smiling face, squinting eyes).
+#entity,torch,item,1 torch.
+#entity,pouch,item,Purple pouch containing 2 doses of purple lotus powder
+pouch,contents,public,2 doses of purple lotus powder.
+#entity,pipe,item,Lotus pipe (fits into helmet, 100s)
+pipe,contents,public,Lotus pipe (fits into helmet, 100s).
+#entity,chestbolt,item,Lead & Iron Chest bolted to the floor
+chestbolt,contents,public,Two linchpinned chains.
+#entity,skull,item,Skull of Davok
+skull,contents,hidden,The Skull of Davok.

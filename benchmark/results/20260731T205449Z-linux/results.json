@@ -1,0 +1,3104 @@
+{
+  "config": {
+    "full_budget_s": 300.0,
+    "ollama_url": "http://127.0.0.1:11434",
+    "quick_budget_s": 240.0,
+    "retries": 1,
+    "seed": 0,
+    "skip_unavailable": true,
+    "smoke_budget_s": null,
+    "temperature": 0
+  },
+  "created_at": "2026-07-31T20:54:49.016884+00:00",
+  "environment": {
+    "cpu": {
+      "logical_count": 20
+    },
+    "gpu": [
+      {
+        "name": "NVIDIA GeForce RTX 5070 Laptop GPU",
+        "vram_mb": "8151"
+      }
+    ],
+    "memory": {
+      "physical_bytes": 33040060416
+    },
+    "ollama": {
+      "cli_path": "/usr/bin/ollama",
+      "cli_version": "ollama version is 0.32.5",
+      "url": "http://127.0.0.1:11434"
+    },
+    "platform": {
+      "machine": "x86_64",
+      "processor": null,
+      "release": "7.1.5-1-cachyos",
+      "system": "Linux",
+      "version": "#1 SMP PREEMPT_DYNAMIC Mon, 27 Jul 2026 14:05:40 +0000"
+    },
+    "python": {
+      "implementation": "CPython",
+      "version": "3.14.6"
+    }
+  },
+  "fixture_manifest_sha256": "16aa951d9c86f60ce62c5313bc5a51e866c4b35916214baa469daa66edf9e197",
+  "host": "Linux-7.1.5-1-cachyos-x86_64-with-glibc2.44",
+  "machine": "linux",
+  "model_inventory": [
+    {
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "context_length": 40960,
+        "embedding_length": 4096,
+        "families": [
+          "qwen3"
+        ],
+        "family": "qwen3",
+        "format": "gguf",
+        "parameter_size": "8.2B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "model": "qwen3:8b",
+      "modified_at": "2026-08-01T00:51:30.450092588+04:00",
+      "name": "qwen3:8b",
+      "size": 5225388164
+    },
+    {
+      "capabilities": [
+        "vision",
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "context_length": 262144,
+        "embedding_length": 4096,
+        "families": [
+          "qwen35"
+        ],
+        "family": "qwen35",
+        "format": "gguf",
+        "parameter_size": "9.7B",
+        "parent_model": "qwen3.5:9b",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "079e71a587e3dd0c00fb189521886d4b4513531ff0bf4b92708b1c21854bbca2",
+      "model": "qwen35-9b:16k",
+      "modified_at": "2026-07-17T14:05:25.273831387+04:00",
+      "name": "qwen35-9b:16k",
+      "size": 6594474727
+    },
+    {
+      "capabilities": [
+        "vision",
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "context_length": 262144,
+        "embedding_length": 4096,
+        "families": [
+          "qwen35"
+        ],
+        "family": "qwen35",
+        "format": "gguf",
+        "parameter_size": "9.7B",
+        "parent_model": "qwen3.5:9b",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "b385c1f5424df944d98d5c24aa63a7f726bc4cbec0420d46e78a70dad586eaf3",
+      "model": "qwen35-9b:24k",
+      "modified_at": "2026-07-17T14:05:25.327137472+04:00",
+      "name": "qwen35-9b:24k",
+      "size": 6594474727
+    },
+    {
+      "capabilities": [
+        "vision",
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "context_length": 262144,
+        "embedding_length": 4096,
+        "families": [
+          "qwen35"
+        ],
+        "family": "qwen35",
+        "format": "gguf",
+        "parameter_size": "9.7B",
+        "parent_model": "qwen3.5:9b",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "133df5e34351738a7691a4a9c082ecc2fa14c3e30343c13aa680a2d54b7e098d",
+      "model": "qwen35-9b:12k",
+      "modified_at": "2026-07-17T14:05:25.213826406+04:00",
+      "name": "qwen35-9b:12k",
+      "size": 6594474727
+    },
+    {
+      "capabilities": [
+        "vision",
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "context_length": 262144,
+        "embedding_length": 4096,
+        "families": [
+          "qwen35"
+        ],
+        "family": "qwen35",
+        "format": "gguf",
+        "parameter_size": "9.7B",
+        "parent_model": "qwen3.5:9b",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "f5b984e67b8d9f9094f7dbd358b81d68bf0e106a145cece131b84495796bf86a",
+      "model": "qwen35-9b:32k",
+      "modified_at": "2026-07-17T14:05:25.372677269+04:00",
+      "name": "qwen35-9b:32k",
+      "size": 6594474727
+    },
+    {
+      "capabilities": [
+        "vision",
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "context_length": 262144,
+        "embedding_length": 4096,
+        "families": [
+          "qwen35"
+        ],
+        "family": "qwen35",
+        "format": "gguf",
+        "parameter_size": "9.7B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model": "qwen3.5:9b",
+      "modified_at": "2026-07-17T13:53:17.145539725+04:00",
+      "name": "qwen3.5:9b",
+      "size": 6594474711
+    },
+    {
+      "capabilities": [
+        "embedding"
+      ],
+      "details": {
+        "context_length": 32768,
+        "embedding_length": 1024,
+        "families": [
+          "qwen3"
+        ],
+        "family": "qwen3",
+        "format": "gguf",
+        "parameter_size": "595.78M",
+        "parent_model": "/Users/ollama/.ollama/models/blobs/sha256-06507c7b42688469c4e7298b0a1e16deff06caf291cf0a5b278c308249c3e439",
+        "quantization_level": "Q8_0"
+      },
+      "digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+      "model": "qwen3-embedding:0.6b",
+      "modified_at": "2026-07-17T10:20:44.02585827+04:00",
+      "name": "qwen3-embedding:0.6b",
+      "size": 639150858
+    },
+    {
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "details": {
+        "context_length": 262144,
+        "embedding_length": 2048,
+        "families": [
+          "qwen3moe"
+        ],
+        "family": "qwen3moe",
+        "format": "gguf",
+        "parameter_size": "30.5B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "19e422b0231392335cfc49cfd172de7034bb1aeabb08aa307cce745c60b272fe",
+      "model": "qwen3:30b-a3b-instruct-2507-q4_K_M",
+      "modified_at": "2026-07-17T09:06:26.370603625+04:00",
+      "name": "qwen3:30b-a3b-instruct-2507-q4_K_M",
+      "size": 18556699186
+    },
+    {
+      "capabilities": [
+        "vision",
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "context_length": 262144,
+        "embedding_length": 5120,
+        "families": [
+          "qwen35"
+        ],
+        "family": "qwen35",
+        "format": "gguf",
+        "parameter_size": "27.8B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "a50eda8ed977ab48a12431878896b27ffd5cef552c17af3317d9623b939a7f1e",
+      "model": "qwen3.6:27b-q4_K_M",
+      "modified_at": "2026-07-17T08:24:15.373785104+04:00",
+      "name": "qwen3.6:27b-q4_K_M",
+      "size": 17420432739
+    },
+    {
+      "capabilities": [
+        "vision",
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "context_length": 262144,
+        "embedding_length": 2048,
+        "families": [
+          "qwen35moe"
+        ],
+        "family": "qwen35moe",
+        "format": "gguf",
+        "parameter_size": "36.0B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "07d35212591fc27746f0a317c975a6d68754fb38e9053d82e25f06057af28522",
+      "model": "qwen3.6:35b-a3b-q4_K_M",
+      "modified_at": "2026-07-17T07:44:27.645597511+04:00",
+      "name": "qwen3.6:35b-a3b-q4_K_M",
+      "size": 23938333577
+    }
+  ],
+  "models": [
+    {
+      "actual": "qwen3:8b",
+      "available": true,
+      "reason": "strong small-model instruction following and rigid-output potential",
+      "requested": "qwen3:8b",
+      "status": "completed",
+      "substitution": null,
+      "suites": {
+        "quick": {
+          "fixtures": [
+            {
+              "attempts": [
+                {
+                  "eval_duration_s": 5.332532,
+                  "generated_tokens": 313,
+                  "prompt_tokens": 1242,
+                  "raw_file": "raw/qwen3_8b/quick/p16.attempt-1.txt",
+                  "time_to_first_token_s": 0.340021,
+                  "tokens_per_second": 58.6963,
+                  "validation": {
+                    "entirely_clean": false,
+                    "entities": {
+                      "free_city": {
+                        "kind": "place",
+                        "name": "Free City of Lon Barago"
+                      },
+                      "lamb": {
+                        "kind": "item",
+                        "name": "Lamb"
+                      },
+                      "red_temple": {
+                        "kind": "actor",
+                        "name": "Red Temple"
+                      },
+                      "twelve_fingered_hand": {
+                        "kind": "actor",
+                        "name": "Twelve-Fingered Hand"
+                      },
+                      "white_temple": {
+                        "kind": "actor",
+                        "name": "White Temple"
+                      }
+                    },
+                    "facts": [
+                      {
+                        "predicate": "text",
+                        "subject": "free_city",
+                        "value": "The Free City of Lon Barago is the Jewel of the Plains. It is renowned for its freedom and lawlessness. Power is held by three great temples. All three are corrupt and unsympathetic.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "white_temple",
+                        "value": "They worship Vandoh, the Goddess of Wisdom, Patience, Self-Improvement, and the powers behind the sun.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "red_temple",
+                        "value": "They worship Shendormu, the God of Fungus, Mindlessness, and Community.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "description",
+                        "subject": "lamb",
+                        "value": "One of the secrets that the White Temple keeps. They call it the Lamb because it was born of a sheep. It is a holy child of Vandoh. Eluding the Lamb comprises the first half of this adventure.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "description",
+                        "subject": "twelve_fingered_hand",
+                        "value": "A decade ago, a militia attacked the Red Temple, attempting to infiltrate through the crypts. They were the Twelve-Fingered Hand, a brotherhood of knights closely aligned with the White Temple. The Hand failed. Many were killed. Many were entombed. Some of them are ghouls now.",
+                        "visibility": "public"
+                      }
+                    ],
+                    "failure_kinds": [
+                      "malformed_row",
+                      "structural_incomplete",
+                      "unknown_vocabulary"
+                    ],
+                    "format_errors": [
+                      "line 7: invalid fact subject 'free_city'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 8: invalid fact subject 'white_temple'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 9: invalid fact subject 'red_temple'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 10: unknown predicate 'description'",
+                      "line 11: invalid fact subject 'twelve_fingered_hand'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 11: unknown predicate 'description'"
+                    ],
+                    "row_count": 11,
+                    "rows": [
+                      {
+                        "kind": "structural",
+                        "line": 1,
+                        "text": "#unit,p16,pages,16",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 2,
+                        "text": "#entity,free_city,place,Free City of Lon Barago",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 3,
+                        "text": "#entity,white_temple,actor,White Temple",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 4,
+                        "text": "#entity,red_temple,actor,Red Temple",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 5,
+                        "text": "#entity,lamb,item,Lamb",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 6,
+                        "text": "#entity,twelve_fingered_hand,actor,Twelve-Fingered Hand",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 7,
+                        "text": "free_city,text,public,The Free City of Lon Barago is the Jewel of the Plains. It is renowned for its freedom and lawlessness. Power is held by three great temples. All three are corrupt and unsympathetic.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 8,
+                        "text": "white_temple,appearance,public,They worship Vandoh, the Goddess of Wisdom, Patience, Self-Improvement, and the powers behind the sun.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 9,
+                        "text": "red_temple,appearance,public,They worship Shendormu, the God of Fungus, Mindlessness, and Community.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 10,
+                        "text": "lamb,description,public,One of the secrets that the White Temple keeps. They call it the Lamb because it was born of a sheep. It is a holy child of Vandoh. Eluding the Lamb comprises the first half of this adventure.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 11,
+                        "text": "twelve_fingered_hand,description,public,A decade ago, a militia attacked the Red Temple, attempting to infiltrate through the crypts. They were the Twelve-Fingered Hand, a brotherhood of knights closely aligned with the White Temple. The Hand failed. Many were killed. Many were entombed. Some of them are ghouls now.",
+                        "valid": false
+                      }
+                    ],
+                    "s1_valid": false,
+                    "s2_valid": false,
+                    "structural_errors": [
+                      "line 2: invalid entity id 'free_city'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 3: invalid entity id 'white_temple'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 4: invalid entity id 'red_temple'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 6: invalid entity id 'twelve_fingered_hand'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "unit_markers": [
+                      {
+                        "id": "p16",
+                        "pages": "16"
+                      }
+                    ],
+                    "valid_row_count": 2
+                  },
+                  "wall_clock_s": 5.678864
+                },
+                {
+                  "eval_duration_s": 5.559166,
+                  "generated_tokens": 315,
+                  "prompt_tokens": 2173,
+                  "raw_file": "raw/qwen3_8b/quick/p16.attempt-2.txt",
+                  "time_to_first_token_s": 0.629231,
+                  "tokens_per_second": 56.6632,
+                  "validation": {
+                    "entirely_clean": false,
+                    "entities": {
+                      "free_city": {
+                        "kind": "place",
+                        "name": "Free City of Lon Barago"
+                      },
+                      "lamb": {
+                        "kind": "item",
+                        "name": "Lamb"
+                      },
+                      "red-temple": {
+                        "kind": "actor",
+                        "name": "Red Temple"
+                      },
+                      "twelve-fingered-hand": {
+                        "kind": "actor",
+                        "name": "Twelve-Fingered Hand"
+                      },
+                      "white-temple": {
+                        "kind": "actor",
+                        "name": "White Temple"
+                      }
+                    },
+                    "facts": [
+                      {
+                        "predicate": "text",
+                        "subject": "free_city",
+                        "value": "The Free City of Lon Barago is the Jewel of the Plains. It is renowned for its freedom and lawlessness. Power is held by three great temples. All three are corrupt and unsympathetic.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "white-temple",
+                        "value": "They worship Vandoh, the Goddess of Wisdom, Patience, Self-Improvement, and the powers behind the sun.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "red-temple",
+                        "value": "They worship Shendormu, the God of Fungus, Mindlessness, and Community.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "lamb",
+                        "value": "One of the secrets that the White Temple keeps. They call it the Lamb because it was born of a sheep. It is a holy child of Vandoh. Eluding the Lamb comprises the first half of this adventure.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "twelve-fingered-hand",
+                        "value": "A decade ago, a militia attacked the Red Temple, attempting to infiltrate through the crypts. They were the Twelve-Fingered Hand, a brotherhood of knights closely aligned with the White Temple. The Hand failed. Many were killed. Many were entombed. Some of them are ghouls now.",
+                        "visibility": "public"
+                      }
+                    ],
+                    "failure_kinds": [
+                      "malformed_row",
+                      "structural_incomplete",
+                      "unknown_vocabulary"
+                    ],
+                    "format_errors": [
+                      "line 7: invalid fact subject 'free_city'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "row_count": 11,
+                    "rows": [
+                      {
+                        "kind": "structural",
+                        "line": 1,
+                        "text": "#unit,p16,pages,16",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 2,
+                        "text": "#entity,free_city,place,Free City of Lon Barago",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 3,
+                        "text": "#entity,white-temple,actor,White Temple",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 4,
+                        "text": "#entity,red-temple,actor,Red Temple",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 5,
+                        "text": "#entity,lamb,item,Lamb",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 6,
+                        "text": "#entity,twelve-fingered-hand,actor,Twelve-Fingered Hand",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 7,
+                        "text": "free_city,text,public,The Free City of Lon Barago is the Jewel of the Plains. It is renowned for its freedom and lawlessness. Power is held by three great temples. All three are corrupt and unsympathetic.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 8,
+                        "text": "white-temple,appearance,public,They worship Vandoh, the Goddess of Wisdom, Patience, Self-Improvement, and the powers behind the sun.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 9,
+                        "text": "red-temple,appearance,public,They worship Shendormu, the God of Fungus, Mindlessness, and Community.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 10,
+                        "text": "lamb,text,public,One of the secrets that the White Temple keeps. They call it the Lamb because it was born of a sheep. It is a holy child of Vandoh. Eluding the Lamb comprises the first half of this adventure.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 11,
+                        "text": "twelve-fingered-hand,text,public,A decade ago, a militia attacked the Red Temple, attempting to infiltrate through the crypts. They were the Twelve-Fingered Hand, a brotherhood of knights closely aligned with the White Temple. The Hand failed. Many were killed. Many were entombed. Some of them are ghouls now.",
+                        "valid": true
+                      }
+                    ],
+                    "s1_valid": false,
+                    "s2_valid": false,
+                    "structural_errors": [
+                      "line 2: invalid entity id 'free_city'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "unit_markers": [
+                      {
+                        "id": "p16",
+                        "pages": "16"
+                      }
+                    ],
+                    "valid_row_count": 9
+                  },
+                  "wall_clock_s": 6.193568
+                }
+              ],
+              "contamination": {
+                "imported_rules": null,
+                "invented_entities": null,
+                "invented_numbers": null,
+                "note": "Heuristics are leads for the required hand audit, not a contamination verdict.",
+                "status": "manual_review_required",
+                "suspicious_entities": [],
+                "suspicious_numbers": [],
+                "unsupported_facts": null
+              },
+              "expected_records": 8,
+              "final_s1_valid": false,
+              "final_s2_valid": false,
+              "fixture": "p16",
+              "initial_s1_valid": false,
+              "initial_s2_valid": false,
+              "recall": {
+                "atoms_matched": 4,
+                "atoms_total": 38,
+                "details": [
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "actor.red-temple",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "behavior",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.red-temple",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "knowledge_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.red-temple",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "location_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.red-temple",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "role",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.red-temple",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "actor.temple-of-true-power",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "behavior",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.temple-of-true-power",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "location_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.temple-of-true-power",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "role",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.temple-of-true-power",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "actor.the-lamb",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "knowledge_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.the-lamb",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "relationships",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.the-lamb",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "role",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.the-lamb",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "actor.twelve-fingered-hand",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "goals",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.twelve-fingered-hand",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "knowledge_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.twelve-fingered-hand",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "relationships",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.twelve-fingered-hand",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "relationships",
+                    "index": 1,
+                    "matched": false,
+                    "record": "actor.twelve-fingered-hand",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "role",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.twelve-fingered-hand",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "starting_state",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.twelve-fingered-hand",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "actor.white-temple",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "behavior",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.white-temple",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "knowledge_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.white-temple",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "knowledge_references",
+                    "index": 1,
+                    "matched": false,
+                    "record": "actor.white-temple",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "location_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.white-temple",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "role",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.white-temple",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "knowledge.the-lamb-secret",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "knowledge.the-lamb-secret",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "knowledge.the-raid",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "knowledge.the-raid",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.free-city-of-lon-barago",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "actor_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.free-city-of-lon-barago",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "actor_references",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.free-city-of-lon-barago",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "actor_references",
+                    "index": 2,
+                    "matched": false,
+                    "record": "location.free-city-of-lon-barago",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.free-city-of-lon-barago",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.free-city-of-lon-barago",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 2,
+                    "matched": false,
+                    "record": "location.free-city-of-lon-barago",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.free-city-of-lon-barago",
+                    "similarity": 0.0
+                  }
+                ],
+                "method": "lexical-semantic proxy with optional human review overrides",
+                "record_recall": 0.0,
+                "records_matched": 0,
+                "records_total": 8,
+                "substance_recall": 0.10526315789473684
+              },
+              "s1_failure_kinds": [
+                "malformed_row",
+                "structural_incomplete",
+                "unknown_vocabulary"
+              ],
+              "source_bytes": 959
+            },
+            {
+              "attempts": [
+                {
+                  "eval_duration_s": 6.761803,
+                  "generated_tokens": 391,
+                  "prompt_tokens": 1314,
+                  "raw_file": "raw/qwen3_8b/quick/p21.attempt-1.txt",
+                  "time_to_first_token_s": 0.439098,
+                  "tokens_per_second": 57.8248,
+                  "validation": {
+                    "entirely_clean": false,
+                    "entities": {
+                      "bowls": {
+                        "kind": "object",
+                        "name": "bowls"
+                      },
+                      "chests": {
+                        "kind": "object",
+                        "name": "chests"
+                      },
+                      "first_intersection": {
+                        "kind": "location",
+                        "name": "first intersection"
+                      },
+                      "goats": {
+                        "kind": "object",
+                        "name": "goats"
+                      },
+                      "second_intersection": {
+                        "kind": "location",
+                        "name": "second intersection"
+                      },
+                      "third_intersection": {
+                        "kind": "location",
+                        "name": "third intersection"
+                      },
+                      "vinegar": {
+                        "kind": "object",
+                        "name": "vinegar"
+                      }
+                    },
+                    "facts": [
+                      {
+                        "predicate": "text",
+                        "subject": "bowls",
+                        "value": "Three enormous stone bowls. Each bowl contains 4 human sacrifices, bound hand and foot.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "first_intersection",
+                        "value": "Barnyard smell to the E.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "second_intersection",
+                        "value": "Barnyard smell to the N. Faint light to the E. Vinegar smell to the S.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "third_intersection",
+                        "value": "Vinegar smell to the W.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "goats",
+                        "value": "Three dead goats. One live goat, dehydrated and friendly. Tied with short lengths of twine. They are all wearing bells. Pile of hay. Wooden bowl (empty).",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "vinegar",
+                        "value": "A stone trough half-filled with vinegar. Investigating the reeking liquid reveals an empty wine bottle. Another stone trough that stinks of stale milk. It is empty.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "chests",
+                        "value": "The wooden door to this room is locked. Wooden Table holding 1 immature Lambfruit (Appendix D). Wooden Chest: Mwk helmet (smiling face, squinting eyes). • 1 torch. • • Purple pouch containing 2 doses of purple lotus powder (1Appendix D). • Lotus pipe (fits into helmet, 100s). Lead & Iron Chest bolted to the floor, bound with two linchpinned chains. Removing the first linchpin causes headaches. The second causes nosebleeds. The chest contains only the Skull of Davok, which escapes when the chest is opened. (See Appendix A.)",
+                        "visibility": "public"
+                      }
+                    ],
+                    "failure_kinds": [
+                      "malformed_row",
+                      "structural_incomplete",
+                      "unknown_vocabulary"
+                    ],
+                    "format_errors": [
+                      "line 10: invalid fact subject 'first_intersection'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 11: invalid fact subject 'second_intersection'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 12: invalid fact subject 'third_intersection'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "row_count": 15,
+                    "rows": [
+                      {
+                        "kind": "structural",
+                        "line": 1,
+                        "text": "#unit,p21,pages,21",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 2,
+                        "text": "#entity,bowls,object,bowls",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 3,
+                        "text": "#entity,first_intersection,location,first intersection",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 4,
+                        "text": "#entity,second_intersection,location,second intersection",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 5,
+                        "text": "#entity,third_intersection,location,third intersection",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 6,
+                        "text": "#entity,goats,object,goats",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 7,
+                        "text": "#entity,vinegar,object,vinegar",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 8,
+                        "text": "#entity,chests,object,chests",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 9,
+                        "text": "bowls,text,public,Three enormous stone bowls. Each bowl contains 4 human sacrifices, bound hand and foot.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 10,
+                        "text": "first_intersection,appearance,public,Barnyard smell to the E.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 11,
+                        "text": "second_intersection,appearance,public,Barnyard smell to the N. Faint light to the E. Vinegar smell to the S.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 12,
+                        "text": "third_intersection,appearance,public,Vinegar smell to the W.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 13,
+                        "text": "goats,text,public,Three dead goats. One live goat, dehydrated and friendly. Tied with short lengths of twine. They are all wearing bells. Pile of hay. Wooden bowl (empty).",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 14,
+                        "text": "vinegar,text,public,A stone trough half-filled with vinegar. Investigating the reeking liquid reveals an empty wine bottle. Another stone trough that stinks of stale milk. It is empty.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 15,
+                        "text": "chests,text,public,The wooden door to this room is locked. Wooden Table holding 1 immature Lambfruit (Appendix D). Wooden Chest: Mwk helmet (smiling face, squinting eyes). • 1 torch. • • Purple pouch containing 2 doses of purple lotus powder (1Appendix D). • Lotus pipe (fits into helmet, 100s). Lead & Iron Chest bolted to the floor, bound with two linchpinned chains. Removing the first linchpin causes headaches. The second causes nosebleeds. The chest contains only the Skull of Davok, which escapes when the chest is opened. (See Appendix A.)",
+                        "valid": true
+                      }
+                    ],
+                    "s1_valid": false,
+                    "s2_valid": false,
+                    "structural_errors": [
+                      "line 3: invalid entity id 'first_intersection'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 4: invalid entity id 'second_intersection'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 5: invalid entity id 'third_intersection'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "unit_markers": [
+                      {
+                        "id": "p21",
+                        "pages": "21"
+                      }
+                    ],
+                    "valid_row_count": 9
+                  },
+                  "wall_clock_s": 7.207656
+                },
+                {
+                  "eval_duration_s": 6.400939,
+                  "generated_tokens": 391,
+                  "prompt_tokens": 2205,
+                  "raw_file": "raw/qwen3_8b/quick/p21.attempt-2.txt",
+                  "time_to_first_token_s": 0.620998,
+                  "tokens_per_second": 61.0848,
+                  "validation": {
+                    "entirely_clean": false,
+                    "entities": {
+                      "bowls": {
+                        "kind": "object",
+                        "name": "bowls"
+                      },
+                      "chests": {
+                        "kind": "object",
+                        "name": "chests"
+                      },
+                      "first_intersection": {
+                        "kind": "location",
+                        "name": "first intersection"
+                      },
+                      "goats": {
+                        "kind": "object",
+                        "name": "goats"
+                      },
+                      "second_intersection": {
+                        "kind": "location",
+                        "name": "second intersection"
+                      },
+                      "third_intersection": {
+                        "kind": "location",
+                        "name": "third intersection"
+                      },
+                      "vinegar": {
+                        "kind": "object",
+                        "name": "vinegar"
+                      }
+                    },
+                    "facts": [
+                      {
+                        "predicate": "text",
+                        "subject": "bowls",
+                        "value": "Three enormous stone bowls. Each bowl contains 4 human sacrifices, bound hand and foot.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "first_intersection",
+                        "value": "Barnyard smell to the E.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "second_intersection",
+                        "value": "Barnyard smell to the N. Faint light to the E. Vinegar smell to the S.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "third_intersection",
+                        "value": "Vinegar smell to the W.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "goats",
+                        "value": "Three dead goats. One live goat, dehydrated and friendly. Tied with short lengths of twine. They are all wearing bells. Pile of hay. Wooden bowl (empty).",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "vinegar",
+                        "value": "A stone trough half-filled with vinegar. Investigating the reeking liquid reveals an empty wine bottle. Another stone trough that stinks of stale milk. It is empty.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "chests",
+                        "value": "The wooden door to this room is locked. Wooden Table holding 1 immature Lambfruit (Appendix D). Wooden Chest: Mwk helmet (smiling face, squinting eyes). • 1 torch. • • Purple pouch containing 2 doses of purple lotus powder (1Appendix D). • Lotus pipe (fits into helmet, 100s). Lead & Iron Chest bolted to the floor, bound with two linchpinned chains. Removing the first linchpin causes headaches. The second causes nosebleeds. The chest contains only the Skull of Davok, which escapes when the chest is opened. (See Appendix A.)",
+                        "visibility": "public"
+                      }
+                    ],
+                    "failure_kinds": [
+                      "malformed_row",
+                      "structural_incomplete",
+                      "unknown_vocabulary"
+                    ],
+                    "format_errors": [
+                      "line 10: invalid fact subject 'first_intersection'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 11: invalid fact subject 'second_intersection'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 12: invalid fact subject 'third_intersection'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "row_count": 15,
+                    "rows": [
+                      {
+                        "kind": "structural",
+                        "line": 1,
+                        "text": "#unit,p21,pages,21",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 2,
+                        "text": "#entity,bowls,object,bowls",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 3,
+                        "text": "#entity,first_intersection,location,first intersection",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 4,
+                        "text": "#entity,second_intersection,location,second intersection",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 5,
+                        "text": "#entity,third_intersection,location,third intersection",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 6,
+                        "text": "#entity,goats,object,goats",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 7,
+                        "text": "#entity,vinegar,object,vinegar",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 8,
+                        "text": "#entity,chests,object,chests",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 9,
+                        "text": "bowls,text,public,Three enormous stone bowls. Each bowl contains 4 human sacrifices, bound hand and foot.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 10,
+                        "text": "first_intersection,appearance,public,Barnyard smell to the E.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 11,
+                        "text": "second_intersection,appearance,public,Barnyard smell to the N. Faint light to the E. Vinegar smell to the S.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 12,
+                        "text": "third_intersection,appearance,public,Vinegar smell to the W.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 13,
+                        "text": "goats,text,public,Three dead goats. One live goat, dehydrated and friendly. Tied with short lengths of twine. They are all wearing bells. Pile of hay. Wooden bowl (empty).",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 14,
+                        "text": "vinegar,text,public,A stone trough half-filled with vinegar. Investigating the reeking liquid reveals an empty wine bottle. Another stone trough that stinks of stale milk. It is empty.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 15,
+                        "text": "chests,text,public,The wooden door to this room is locked. Wooden Table holding 1 immature Lambfruit (Appendix D). Wooden Chest: Mwk helmet (smiling face, squinting eyes). • 1 torch. • • Purple pouch containing 2 doses of purple lotus powder (1Appendix D). • Lotus pipe (fits into helmet, 100s). Lead & Iron Chest bolted to the floor, bound with two linchpinned chains. Removing the first linchpin causes headaches. The second causes nosebleeds. The chest contains only the Skull of Davok, which escapes when the chest is opened. (See Appendix A.)",
+                        "valid": true
+                      }
+                    ],
+                    "s1_valid": false,
+                    "s2_valid": false,
+                    "structural_errors": [
+                      "line 3: invalid entity id 'first_intersection'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 4: invalid entity id 'second_intersection'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 5: invalid entity id 'third_intersection'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "unit_markers": [
+                      {
+                        "id": "p21",
+                        "pages": "21"
+                      }
+                    ],
+                    "valid_row_count": 9
+                  },
+                  "wall_clock_s": 7.029559
+                }
+              ],
+              "contamination": {
+                "imported_rules": null,
+                "invented_entities": null,
+                "invented_numbers": null,
+                "note": "Heuristics are leads for the required hand audit, not a contamination verdict.",
+                "status": "manual_review_required",
+                "suspicious_entities": [],
+                "suspicious_numbers": [],
+                "unsupported_facts": null
+              },
+              "expected_records": 20,
+              "final_s1_valid": false,
+              "final_s2_valid": false,
+              "fixture": "p21",
+              "initial_s1_valid": false,
+              "initial_s2_valid": false,
+              "recall": {
+                "atoms_matched": 5,
+                "atoms_total": 89,
+                "details": [
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "actor.live-goat",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "appearance",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.live-goat",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "behavior",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.live-goat",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "location_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.live-goat",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "role",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.live-goat",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "starting_state",
+                    "index": 0,
+                    "matched": false,
+                    "record": "actor.live-goat",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "item.2-goats-bells",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": "Three dead goats. One live goat, dehydrated and friendly. Tied with short lengths of twine. They are all wearing bells. Pile of hay. Wooden bowl (empty).",
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "item.2-goats-bells",
+                    "similarity": 0.2473
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "item.2-goats-hay",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "item.2-goats-hay",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "item.2-goats-twine",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "item.2-goats-twine",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "item.2-goats-wooden-bowl",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "item.2-goats-wooden-bowl",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "item.3-vinegar-empty-wine-bottle",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "item.3-vinegar-empty-wine-bottle",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "item.4-chests-immature-lambfruit",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "item.4-chests-immature-lambfruit",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "item.4-chests-masterwork-helmet",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "item.4-chests-masterwork-helmet",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "item.4-chests-torch",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": "The wooden door to this room is locked. Wooden Table holding 1 immature Lambfruit (Appendix D). Wooden Chest: Mwk helmet (smiling face, squinting eyes). • 1 torch. • • Purple pouch containing 2 doses of purple lotus powder (1Appendix D). • Lotus pipe (fits into helmet, 100s). Lead & Iron Chest bolted to the floor, bound with two linchpinned chains. Removing the first linchpin causes headaches. The second causes nosebleeds. The chest contains only the Skull of Davok, which escapes when the chest is opened. (See Appendix A.)",
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "item.4-chests-torch",
+                    "similarity": 0.0857
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "item.lotus-pipe",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "item.lotus-pipe",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "item.purple-lotus-powder",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "item.purple-lotus-powder",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "item.skull-of-davok",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "item.skull-of-davok",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "location.1-bowls",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "actor_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1-bowls",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1-bowls",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.1-bowls",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1-bowls",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1-bowls",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "occupants",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1-bowls",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1-bowls",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "situation_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1-bowls",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "triggers",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1-bowls",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.1a-first-intersection",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1a-first-intersection",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1a-first-intersection",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.1b-second-intersection",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1b-second-intersection",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1b-second-intersection",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.1c-third-intersection",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1c-third-intersection",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.1c-third-intersection",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "actor_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 2,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 3,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 4,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 5,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "occupants",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "resources",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "resources",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "resources",
+                    "index": 2,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "resources",
+                    "index": 3,
+                    "matched": false,
+                    "record": "location.2-goats",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "location.3-vinegar",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.3-vinegar",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.3-vinegar",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "discoverable",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.3-vinegar",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.3-vinegar",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.3-vinegar",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "resources",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.3-vinegar",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 2,
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 3,
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "discoverable",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "discoverable",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "situation_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "triggers",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.4-chests",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "situation.skull-of-davok-escapes",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "activation",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.skull-of-davok-escapes",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "location_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.skull-of-davok-escapes",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.skull-of-davok-escapes",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "perceived",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.skull-of-davok-escapes",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "repeat",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.skull-of-davok-escapes",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "stakes",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.skull-of-davok-escapes",
+                    "similarity": 0.0
+                  }
+                ],
+                "method": "lexical-semantic proxy with optional human review overrides",
+                "record_recall": 0.0,
+                "records_matched": 0,
+                "records_total": 20,
+                "substance_recall": 0.056179775280898875
+              },
+              "s1_failure_kinds": [
+                "malformed_row",
+                "structural_incomplete",
+                "unknown_vocabulary"
+              ],
+              "source_bytes": 1170
+            },
+            {
+              "attempts": [
+                {
+                  "eval_duration_s": 9.506633,
+                  "generated_tokens": 595,
+                  "prompt_tokens": 1400,
+                  "raw_file": "raw/qwen3_8b/quick/p31.attempt-1.txt",
+                  "time_to_first_token_s": 0.283422,
+                  "tokens_per_second": 62.5879,
+                  "validation": {
+                    "entirely_clean": false,
+                    "entities": {
+                      "24A": {
+                        "kind": "location",
+                        "name": "Water"
+                      },
+                      "24B": {
+                        "kind": "location",
+                        "name": "Water"
+                      },
+                      "24C": {
+                        "kind": "location",
+                        "name": "Water"
+                      },
+                      "31": {
+                        "kind": "location",
+                        "name": "Crossing the Hallway"
+                      },
+                      "hallway": {
+                        "kind": "location",
+                        "name": "24 CRUSH HALLWAY"
+                      }
+                    },
+                    "facts": [
+                      {
+                        "predicate": "text",
+                        "subject": "hallway",
+                        "value": "Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "hallway",
+                        "value": "As soon as anyone enters this 90' hallway, the ceiling will begin to lower. Any touch greater than a feather is sufficient to trigger the trap. The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "consequence",
+                        "subject": "hallway",
+                        "value": "No Movement check is required for a human to sprint across the hallway without getting crushed.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "consequence",
+                        "subject": "hallway",
+                        "value": "However, Movement checks are required to jump over the 3 trap doors, which are perfectly disguised, but sound hollow if tapped. Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "24A",
+                        "value": "Water, 10' deep. A broken chair missing two legs floats here.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "24B",
+                        "value": "Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "24C",
+                        "value": "Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited. On the bottom are 2 flasks of oil and broken glass.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "31",
+                        "value": "Crossing the Hallway The easiest way to cross the hallway is to throw an uncushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects. (Those objects won't be recoverable, though.) You could also cross the hallway by just climbing along the wall with iron spikes and ropes. If the party chooses this option, it'll take about an hour, so a couple of encounter checks will occur during it. Lastly, don't forget about disabling the trap doors (22 MUSHROOM) and then just sprinting across the hallway.",
+                        "visibility": "public"
+                      }
+                    ],
+                    "failure_kinds": [
+                      "malformed_row",
+                      "structural_incomplete",
+                      "unknown_vocabulary"
+                    ],
+                    "format_errors": [
+                      "line 8: invalid fact subject '24A'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 10: invalid fact subject '24B'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 12: invalid fact subject '24C'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 14: invalid fact subject '31'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "row_count": 19,
+                    "rows": [
+                      {
+                        "kind": "structural",
+                        "line": 1,
+                        "text": "#unit,p31,pages,31",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 2,
+                        "text": "#entity,hallway,location,24 CRUSH HALLWAY",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 3,
+                        "text": "hallway,text,public,Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 4,
+                        "text": "hallway,appearance,public,As soon as anyone enters this 90' hallway, the ceiling will begin to lower. Any touch greater than a feather is sufficient to trigger the trap. The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 5,
+                        "text": "hallway,consequence,public,No Movement check is required for a human to sprint across the hallway without getting crushed.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 6,
+                        "text": "hallway,consequence,public,However, Movement checks are required to jump over the 3 trap doors, which are perfectly disguised, but sound hollow if tapped. Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 7,
+                        "text": "#entity,24A,location,Water",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 8,
+                        "text": "24A,text,public,Water, 10' deep. A broken chair missing two legs floats here.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 9,
+                        "text": "#entity,24B,location,Water",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 10,
+                        "text": "24B,text,public,Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 11,
+                        "text": "#entity,24C,location,Water",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 12,
+                        "text": "24C,text,public,Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited. On the bottom are 2 flasks of oil and broken glass.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 13,
+                        "text": "#entity,31,location,Crossing the Hallway",
+                        "valid": false
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 14,
+                        "text": "31,text,public,Crossing the Hallway The easiest way to cross the hallway is to throw an uncushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects. (Those objects won't be recoverable, though.) You could also cross the hallway by just climbing along the wall with iron spikes and ropes. If the party chooses this option, it'll take about an hour, so a couple of encounter checks will occur during it. Lastly, don't forget about disabling the trap doors (22 MUSHROOM) and then just sprinting across the hallway.",
+                        "valid": false
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 15,
+                        "text": "#option,cross,action,Throw an uncushable object into the hallway",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 16,
+                        "text": "#option,cross,action,Climb along the wall with iron spikes and ropes",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 17,
+                        "text": "#option,cross,action,Disable the trap doors (22 MUSHROOM) and sprint across the hallway",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 18,
+                        "text": "#option,cross,result,Those objects won't be recoverable",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 19,
+                        "text": "#option,cross,condition,If the party chooses this option, it'll take about an hour, so a couple of encounter checks will occur during it.",
+                        "valid": true
+                      }
+                    ],
+                    "s1_valid": false,
+                    "s2_valid": false,
+                    "structural_errors": [
+                      "line 7: invalid entity id '24A'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 9: invalid entity id '24B'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 11: invalid entity id '24C'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid",
+                      "line 13: invalid entity id '31'; start with a lowercase letter, then use only lowercase letters, digits, or single '-' / '.' separators; underscores, spaces, and uppercase letters are invalid"
+                    ],
+                    "unit_markers": [
+                      {
+                        "id": "p31",
+                        "pages": "31"
+                      }
+                    ],
+                    "valid_row_count": 11
+                  },
+                  "wall_clock_s": 9.797423
+                },
+                {
+                  "eval_duration_s": 10.269996,
+                  "generated_tokens": 622,
+                  "prompt_tokens": 2589,
+                  "raw_file": "raw/qwen3_8b/quick/p31.attempt-2.txt",
+                  "time_to_first_token_s": 0.580395,
+                  "tokens_per_second": 60.5648,
+                  "validation": {
+                    "entirely_clean": true,
+                    "entities": {
+                      "crossing-hallway": {
+                        "kind": "location",
+                        "name": "Crossing the Hallway"
+                      },
+                      "hallway": {
+                        "kind": "location",
+                        "name": "24 CRUSH HALLWAY"
+                      },
+                      "water-24a": {
+                        "kind": "location",
+                        "name": "Water"
+                      },
+                      "water-24b": {
+                        "kind": "location",
+                        "name": "Water"
+                      },
+                      "water-24c": {
+                        "kind": "location",
+                        "name": "Water"
+                      }
+                    },
+                    "facts": [
+                      {
+                        "predicate": "text",
+                        "subject": "hallway",
+                        "value": "Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "appearance",
+                        "subject": "hallway",
+                        "value": "As soon as anyone enters this 90' hallway, the ceiling will begin to lower. Any touch greater than a feather is sufficient to trigger the trap. The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "consequence",
+                        "subject": "hallway",
+                        "value": "No Movement check is required for a human to sprint across the hallway without getting crushed.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "consequence",
+                        "subject": "hallway",
+                        "value": "However, Movement checks are required to jump over the 3 trap doors, which are perfectly disguised, but sound hollow if tapped. Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "water-24a",
+                        "value": "Water, 10' deep. A broken chair missing two legs floats here.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "water-24b",
+                        "value": "Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "water-24c",
+                        "value": "Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited. On the bottom are 2 flasks of oil and broken glass.",
+                        "visibility": "public"
+                      },
+                      {
+                        "predicate": "text",
+                        "subject": "crossing-hallway",
+                        "value": "Crossing the Hallway The easiest way to cross the hallway is to throw an uncushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects. (Those objects won't be recoverable, though.) You could also cross the hallway by just climbing along the wall with iron spikes and ropes. If the party chooses this option, it'll take about an hour, so a couple of encounter checks will occur during it. Lastly, don't forget about disabling the trap doors (22 MUSHROOM) and then just sprinting across the hallway.",
+                        "visibility": "public"
+                      }
+                    ],
+                    "failure_kinds": [],
+                    "format_errors": [],
+                    "row_count": 19,
+                    "rows": [
+                      {
+                        "kind": "structural",
+                        "line": 1,
+                        "text": "#unit,p31,pages,31",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 2,
+                        "text": "#entity,hallway,location,24 CRUSH HALLWAY",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 3,
+                        "text": "hallway,text,public,Splinters and wood shards are spread thickly around the E side of this hallway. (Crushed furniture.)",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 4,
+                        "text": "hallway,appearance,public,As soon as anyone enters this 90' hallway, the ceiling will begin to lower. Any touch greater than a feather is sufficient to trigger the trap. The ceiling takes 10 seconds to fall 10'. It rests for 10 seconds, then resets.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 5,
+                        "text": "hallway,consequence,public,No Movement check is required for a human to sprint across the hallway without getting crushed.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 6,
+                        "text": "hallway,consequence,public,However, Movement checks are required to jump over the 3 trap doors, which are perfectly disguised, but sound hollow if tapped. Each trap door is just a hinge and a strong spring. It is a 40' fall down to the water below.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 7,
+                        "text": "#entity,water-24a,location,Water",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 8,
+                        "text": "water-24a,text,public,Water, 10' deep. A broken chair missing two legs floats here.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 9,
+                        "text": "#entity,water-24b,location,Water",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 10,
+                        "text": "water-24b,text,public,Water, 10' deep. A rusted-shut portcullis allows sight (but not access) into 42 SUNKEN GALLERY.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 11,
+                        "text": "#entity,water-24c,location,Water",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 12,
+                        "text": "water-24c,text,public,Water, 10' deep. The water is covered with a layer of oil. It burns for 5 minutes if ignited. On the bottom are 2 flasks of oil and broken glass.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 13,
+                        "text": "#entity,crossing-hallway,location,Crossing the Hallway",
+                        "valid": true
+                      },
+                      {
+                        "kind": "fact",
+                        "line": 14,
+                        "text": "crossing-hallway,text,public,Crossing the Hallway The easiest way to cross the hallway is to throw an uncushable object into it, such as the metal cage, the ballista, or a combination of other sturdy objects. (Those objects won't be recoverable, though.) You could also cross the hallway by just climbing along the wall with iron spikes and ropes. If the party chooses this option, it'll take about an hour, so a couple of encounter checks will occur during it. Lastly, don't forget about disabling the trap doors (22 MUSHROOM) and then just sprinting across the hallway.",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 15,
+                        "text": "#option,cross-throw,action,Throw an uncushable object into the hallway",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 16,
+                        "text": "#option,cross-climb,action,Climb along the wall with iron spikes and ropes",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 17,
+                        "text": "#option,cross-disable,action,Disable the trap doors (22 MUSHROOM) and sprint across the hallway",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 18,
+                        "text": "#option,cross-throw,result,Those objects won't be recoverable",
+                        "valid": true
+                      },
+                      {
+                        "kind": "structural",
+                        "line": 19,
+                        "text": "#option,cross-climb,condition,If the party chooses this option, it'll take about an hour, so a couple of encounter checks will occur during it.",
+                        "valid": true
+                      }
+                    ],
+                    "s1_valid": true,
+                    "s2_valid": true,
+                    "structural_errors": [],
+                    "unit_markers": [
+                      {
+                        "id": "p31",
+                        "pages": "31"
+                      }
+                    ],
+                    "valid_row_count": 19
+                  },
+                  "wall_clock_s": 10.859683
+                }
+              ],
+              "contamination": {
+                "imported_rules": null,
+                "invented_entities": null,
+                "invented_numbers": null,
+                "note": "Heuristics are leads for the required hand audit, not a contamination verdict.",
+                "status": "manual_review_required",
+                "suspicious_entities": [],
+                "suspicious_numbers": [],
+                "unsupported_facts": null
+              },
+              "expected_records": 9,
+              "final_s1_valid": true,
+              "final_s2_valid": true,
+              "fixture": "p31",
+              "initial_s1_valid": false,
+              "initial_s2_valid": false,
+              "recall": {
+                "atoms_matched": 1,
+                "atoms_total": 55,
+                "details": [
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "effect.crush-hallway-ceiling",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "effect.crush-hallway-ceiling",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "effect.crush-hallway-trapdoor-fall",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "effect.crush-hallway-trapdoor-fall",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "effect.oil-layer-burning",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "text",
+                    "index": 0,
+                    "matched": false,
+                    "record": "effect.oil-layer-burning",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": true,
+                    "record": "location.24-crush-hallway",
+                    "score": 1.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "discoverable",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hidden",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hidden",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "situation_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "triggers",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "location.24a",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24a",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "location.24b",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24b",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "location.24c",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "contents",
+                    "index": 1,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "discoverable",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "first_impression",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "hazards",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "keyed_area",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "resources",
+                    "index": 0,
+                    "matched": false,
+                    "record": "location.24c",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 0,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 1,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 2,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "steps",
+                    "index": 3,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "trigger",
+                    "index": 0,
+                    "matched": false,
+                    "record": "procedure.cross-crush-hallway",
+                    "similarity": 0.0
+                  },
+                  {
+                    "field": "title",
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "score": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "activation",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "location_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 1,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "outcomes",
+                    "index": 2,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "perceived",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "procedure_references",
+                    "index": 1,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "repeat",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "stakes",
+                    "index": 0,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  },
+                  {
+                    "actual": null,
+                    "field": "stakes",
+                    "index": 1,
+                    "matched": false,
+                    "record": "situation.crush-hallway-trap",
+                    "similarity": 0.0
+                  }
+                ],
+                "method": "lexical-semantic proxy with optional human review overrides",
+                "record_recall": 0.0,
+                "records_matched": 0,
+                "records_total": 9,
+                "substance_recall": 0.01818181818181818
+              },
+              "s1_failure_kinds": [
+                "malformed_row",
+                "structural_incomplete",
+                "unknown_vocabulary"
+              ],
+              "source_bytes": 1524
+            }
+          ],
+          "metrics": {
+            "budget_exceeded": false,
+            "budget_s": 240.0,
+            "elapsed_s": 46.775486,
+            "entirely_clean_rate": 0.3333333333333333,
+            "entirely_clean_responses": 1,
+            "failure_taxonomy": {
+              "added_commentary": 0,
+              "escaped_quotes": 0,
+              "extra_fields": 0,
+              "invalid_json": 0,
+              "malformed_row": 5,
+              "structural_incomplete": 5,
+              "unknown_vocabulary": 5,
+              "wrapped_in_fence": 0,
+              "wrapped_in_json": 0,
+              "wrong_field_count": 0
+            },
+            "recall": {
+              "atoms_matched": 10,
+              "atoms_total": 182,
+              "record_recall": 0.0,
+              "records_matched": 0,
+              "records_total": 37,
+              "substance_recall": 0.054945054945054944
+            },
+            "responses": 3,
+            "rows": {
+              "parse_rate": 0.8222222222222222,
+              "total": 45,
+              "valid": 37
+            },
+            "s1_gate": false,
+            "s2_gate": false,
+            "s3_gate": false,
+            "s3_status": "manual_review_required",
+            "structural": {
+              "unit_markers": {
+                "duplicated": 0,
+                "missing": 0,
+                "present": 3,
+                "wrong": 0
+              },
+              "unresolved_fact_subjects": 0
+            },
+            "throughput": {
+              "mean_time_to_first_token_s": 0.3541803333333333,
+              "mean_tokens_per_second": 59.703,
+              "mean_wall_clock_s": 7.561314333333333,
+              "median_tokens_per_second": 58.6963,
+              "projected_generated_tokens": 53339.720777443195,
+              "projected_whole_adventure_wall_clock_s": 931.4512592389816,
+              "source_bytes": 3653,
+              "total_generated_tokens": 1299
+            }
+          },
+          "name": "quick",
+          "skipped": []
+        }
+      },
+      "tier": "tier1"
+    },
+    {
+      "actual": "llama3.1:8b",
+      "available": false,
+      "reason": "widely deployed baseline",
+      "requested": "llama3.1:8b",
+      "status": "unavailable",
+      "substitution": null,
+      "suites": {},
+      "tier": "tier1"
+    },
+    {
+      "actual": "granite3.3:8b",
+      "available": false,
+      "reason": "structured and enterprise-output training",
+      "requested": "granite3.3:8b",
+      "status": "unavailable",
+      "substitution": null,
+      "suites": {},
+      "tier": "tier1"
+    },
+    {
+      "actual": "qwen2.5-coder:7b",
+      "available": false,
+      "reason": "tests whether code-model syntax discipline transfers",
+      "requested": "qwen2.5-coder:7b",
+      "status": "unavailable",
+      "substitution": null,
+      "suites": {},
+      "tier": "tier1"
+    },
+    {
+      "actual": "mistral:7b",
+      "available": false,
+      "reason": "older small-model floor",
+      "requested": "mistral:7b",
+      "status": "unavailable",
+      "substitution": null,
+      "suites": {},
+      "tier": "tier1"
+    }
+  ],
+  "notes": {
+    "contamination_caveat": "S3 remains pending until a human audit file is supplied.",
+    "full_fixture_ids": [
+      "p09",
+      "p13",
+      "p16",
+      "p21",
+      "p28",
+      "p31",
+      "p41",
+      "p46",
+      "p49"
+    ],
+    "quick_fixture_ids": [
+      "p16",
+      "p21",
+      "p31"
+    ],
+    "recall_caveat": "Ground truth is a strong human-reviewed reference, not gold truth; recall uses a lexical semantic proxy.",
+    "skipped_fixture_ids_if_budget_exceeded": [
+      "p09",
+      "p13",
+      "p16",
+      "p21",
+      "p28",
+      "p31",
+      "p41",
+      "p46",
+      "p49"
+    ],
+    "smoke_fixture_ids": [
+      "p31"
+    ],
+    "smoke_note": "The smoke suite runs p31 only and has no time budget; it is a contract check, not the formal quick gate."
+  },
+  "prompt_sha256": "57671a04b87ac7c0a596dca0a403b2d774d632d6ca92041c1b3963f1d916f503",
+  "run_id": "20260731T205449Z-linux",
+  "schema": "benchmark-results/v1",
+  "suite_requested": "quick",
+  "whole_adventure_bytes_assumption": 150000
+}
