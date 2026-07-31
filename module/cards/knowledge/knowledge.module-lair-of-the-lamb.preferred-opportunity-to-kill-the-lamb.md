@@ -5,7 +5,7 @@ title: "Preferred Opportunity to Kill the Lamb"
 aliases: ["knowledge.preferred-lamb-kill-at-8-pit"]
 source_pages: [41]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-25359288", "effect.lamb-resting-in-8-pit", "situation.module-lair-of-the-lamb.fighting-the-lamb"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "effect.lamb-resting-in-8-pit", "situation.module-lair-of-the-lamb.fighting-the-lamb"]
 ---
 
 # Preferred Opportunity to Kill the Lamb

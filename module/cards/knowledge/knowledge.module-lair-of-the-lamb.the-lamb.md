@@ -5,7 +5,7 @@ title: "The Lamb"
 aliases: ["knowledge.the-lamb-secret"]
 source_pages: [16]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "actor.module-lair-of-the-lamb.the-white-temple"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "actor.module-lair-of-the-lamb.the-white-temple"]
 ---
 
 # The Lamb

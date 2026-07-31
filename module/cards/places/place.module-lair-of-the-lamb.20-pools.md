@@ -5,10 +5,10 @@ title: "20 POOLS"
 aliases: ["location.20-pools"]
 source_pages: [26]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "actor.module-lair-of-the-lamb.vandress", "effect.black-pool-smoke-vomiting", "effect.milky-pool-acid", "effect.pink-pool-compulsion", "effect.vandress-pink-slime-addiction", "effect.yellow-pool-liquid-light", "situation.module-lair-of-the-lamb.priests-awaken-and-attack"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "actor.module-lair-of-the-lamb.vandress", "effect.black-pool-smoke-vomiting", "effect.milky-pool-acid", "effect.pink-pool-compulsion", "effect.vandress-pink-slime-addiction", "effect.yellow-pool-liquid-light", "situation.module-lair-of-the-lamb.priests-awaken-and-attack"]
 topology_node: "place.module-lair-of-the-lamb.area-20-pools"
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md", "cards/actors/actor.module-lair-of-the-lamb.vandress.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb.md", "cards/actors/actor.module-lair-of-the-lamb.vandress.md"]
   situations: ["cards/situations/situation.module-lair-of-the-lamb.priests-awaken-and-attack.md"]
   procedures: []
   knowledge: []

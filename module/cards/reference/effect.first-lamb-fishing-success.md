@@ -5,7 +5,7 @@ title: "First Lamb-Fishing Attempt Automatically Works"
 aliases: []
 source_pages: [41]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-25359288", "item.module-lair-of-the-lamb.hook-hand", "procedure.module-lair-of-the-lamb.fish-for-the-lamb", "situation.module-lair-of-the-lamb.fighting-the-lamb"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "item.module-lair-of-the-lamb.hook-hand", "procedure.module-lair-of-the-lamb.fish-for-the-lamb", "situation.module-lair-of-the-lamb.fighting-the-lamb"]
 ---
 
 # First Lamb-Fishing Attempt Automatically Works

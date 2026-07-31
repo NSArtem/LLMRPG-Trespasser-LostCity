@@ -5,7 +5,7 @@ title: "The Lamb's Movement Rates"
 aliases: []
 source_pages: [40, 41]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-25359288", "place.module-lair-of-the-lamb.44-cistern", "place.module-lair-of-the-lamb.46-daylight"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "place.module-lair-of-the-lamb.44-cistern", "place.module-lair-of-the-lamb.46-daylight"]
 ---
 
 # The Lamb's Movement Rates

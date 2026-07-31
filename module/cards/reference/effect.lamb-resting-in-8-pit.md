@@ -5,7 +5,7 @@ title: "Chance the Lamb Is Resting in 8 PIT"
 aliases: []
 source_pages: [41]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-25359288", "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb", "situation.module-lair-of-the-lamb.fighting-the-lamb"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb", "situation.module-lair-of-the-lamb.fighting-the-lamb"]
 ---
 
 # Chance the Lamb Is Resting in 8 PIT

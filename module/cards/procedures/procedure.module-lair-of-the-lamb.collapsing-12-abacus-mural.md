@@ -5,7 +5,7 @@ title: "Collapsing 12 ABACUS MURAL"
 aliases: ["procedure.collapse-abacus-mural"]
 source_pages: [24]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "effect.abacus-ceiling-collapse", "effect.lamb-under-rubble", "place.module-lair-of-the-lamb.12-abacus-mural"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "effect.abacus-ceiling-collapse", "effect.lamb-under-rubble", "place.module-lair-of-the-lamb.12-abacus-mural"]
 ---
 
 # Collapsing 12 ABACUS MURAL

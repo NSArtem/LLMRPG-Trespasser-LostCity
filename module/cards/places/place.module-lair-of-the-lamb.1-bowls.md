@@ -5,10 +5,10 @@ title: "1 BOWLS"
 aliases: ["location.1-bowls"]
 source_pages: [19, 21]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "procedure.module-lair-of-the-lamb.starting-the-game", "situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "procedure.module-lair-of-the-lamb.starting-the-game", "situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls"]
 topology_node: "place.module-lair-of-the-lamb.area-1-bowls"
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"]
   situations: ["cards/situations/situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls.md"]
   procedures: ["cards/procedures/procedure.module-lair-of-the-lamb.starting-the-game.md"]
   knowledge: []

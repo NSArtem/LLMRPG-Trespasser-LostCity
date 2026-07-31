@@ -5,10 +5,10 @@ title: "46 DAYLIGHT"
 aliases: ["location.46-daylight"]
 source_pages: [41]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-25359288", "effect.46-daylight-access-checks", "effect.lamb-movement-rates", "item.module-lair-of-the-lamb.grappling-hook", "place.module-lair-of-the-lamb.46a-statue", "place.module-lair-of-the-lamb.46b-tower", "procedure.module-lair-of-the-lamb.reach-the-elevated-stairs-at-46-daylight"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "effect.46-daylight-access-checks", "effect.lamb-movement-rates", "item.module-lair-of-the-lamb.grappling-hook", "place.module-lair-of-the-lamb.46a-statue", "place.module-lair-of-the-lamb.46b-tower", "procedure.module-lair-of-the-lamb.reach-the-elevated-stairs-at-46-daylight"]
 topology_node: "place.module-lair-of-the-lamb.area-46-daylight"
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"]
   situations: []
   procedures: ["cards/procedures/procedure.module-lair-of-the-lamb.reach-the-elevated-stairs-at-46-daylight.md"]
   knowledge: []

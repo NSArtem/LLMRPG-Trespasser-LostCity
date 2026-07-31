@@ -6,7 +6,7 @@
     "audit/review.md"
   ],
   "module_id": "module-lair-of-the-lamb",
-  "module_sha256": "180c7df5c723bfce7c8ad939a6c72cbc7c58722be4b3a6032573cdfcf48704b2",
+  "module_sha256": "fcc36de4f1a4d1534910ff5b28487a4b319c5192297e895e6cc019fd1b1fd8c1",
   "play_contract": "module-play/v1",
   "runtime_files": [
     "MODULE.md",
@@ -34,8 +34,7 @@
     "cards/actors/actor.module-lair-of-the-lamb.spider-crab-at-31-traverse.md",
     "cards/actors/actor.module-lair-of-the-lamb.spider-crab.md",
     "cards/actors/actor.module-lair-of-the-lamb.the-apparatus.md",
-    "cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md",
-    "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md",
+    "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md",
     "cards/actors/actor.module-lair-of-the-lamb.the-little-lambs.md",
     "cards/actors/actor.module-lair-of-the-lamb.the-red-temple.md",
     "cards/actors/actor.module-lair-of-the-lamb.the-spider-crab.md",
@@ -630,6 +629,6 @@
   ],
   "schema": "module-extractor-generated-output/v4",
   "source_sha256": "3b30ac4e2937da1f827f66f28c7a47d4c6ed6784e36a6363b042ac8575621bda",
-  "tree_sha256": "fd9cec132189ee75b501e01bdaf7dbd2a8f33c1641c0c5769e8a2e336791f46f",
+  "tree_sha256": "6ef71e3e954e2b10066e78e9acafd85736d428d3cbb8585874aabf0d48a26bfe",
   "verification": "verified"
 }

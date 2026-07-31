@@ -5,13 +5,13 @@ title: "Echoes of the Lamb"
 aliases: ["situation.lamb-death-echoes"]
 source_pages: [18]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75"]
+references: ["actor.module-lair-of-the-lamb.the-lamb"]
 activation: {"condition": "Selected on the Lamb Dead indirect encounter table (1-3).", "type": "random"}
 repeat: {"mode": "once"}
 locations: []
-participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75", "role": "Encounter subject."}]
+participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-lamb", "role": "Encounter subject."}]
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"]
   procedures: []
   knowledge: []
 # Possible effects are source possibilities. Nothing here is applied or copied into a checkpoint.
@@ -32,7 +32,7 @@ Faraway echoes of the Lamb’s voice continue crying “Father! Father!”
 
 ## Actor reactions
 
-- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb-c0865d75`) takes part: Encounter subject.
+- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb`) takes part: Encounter subject.
 
 ## Consequences
 

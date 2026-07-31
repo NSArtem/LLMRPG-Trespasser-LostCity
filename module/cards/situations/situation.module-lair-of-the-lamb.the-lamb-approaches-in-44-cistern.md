@@ -5,17 +5,17 @@ title: "The Lamb Approaches in 44 CISTERN"
 aliases: ["situation.44-cistern-lamb-approach"]
 source_pages: [40]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-25359288", "effect.44-cistern-ammonia-warning", "place.module-lair-of-the-lamb.44-cistern", "procedure.module-lair-of-the-lamb.calculate-human-swim-speed-in-44-cistern", "procedure.module-lair-of-the-lamb.calculate-makeshift-table-boat-speed"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "effect.44-cistern-ammonia-warning", "place.module-lair-of-the-lamb.44-cistern", "procedure.module-lair-of-the-lamb.calculate-human-swim-speed-in-44-cistern", "procedure.module-lair-of-the-lamb.calculate-makeshift-table-boat-speed"]
 activation: {"condition": "Someone enters the central 50-foot-by-50-foot area of 44 CISTERN.", "type": "triggered"}
 repeat: null
 locations: ["cards/places/place.module-lair-of-the-lamb.44-cistern.md"]
-participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-lamb-25359288", "role": "Pursues the person who entered the center."}]
+participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-lamb", "role": "Pursues the person who entered the center."}]
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"]
   procedures: ["cards/procedures/procedure.module-lair-of-the-lamb.calculate-human-swim-speed-in-44-cistern.md", "cards/procedures/procedure.module-lair-of-the-lamb.calculate-makeshift-table-boat-speed.md"]
   knowledge: []
 # Possible effects are source possibilities. Nothing here is applied or copied into a checkpoint.
-possible_effects: [{"condition": "Two rounds pass after it starts approaching.", "description": "The Lamb changes from submerged approach to surface swimming.", "effect": "actor-state", "target": "actor.module-lair-of-the-lamb.the-lamb-25359288"}]
+possible_effects: [{"condition": "Two rounds pass after it starts approaching.", "description": "The Lamb changes from submerged approach to surface swimming.", "effect": "actor-state", "target": "actor.module-lair-of-the-lamb.the-lamb"}]
 ---
 
 # The Lamb Approaches in 44 CISTERN
@@ -36,8 +36,8 @@ After someone enters the center of the cistern, the Lamb closes through the wate
 
 ## Actor reactions
 
-- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb-25359288`) takes part: Pursues the person who entered the center.
-- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb-25359288`) — Starts swimming toward the intruders; after one round urinates in anticipation, then surfaces one round later.
+- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb`) takes part: Pursues the person who entered the center.
+- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb`) — Starts swimming toward the intruders; after one round urinates in anticipation, then surfaces one round later.
 
 ## Consequences
 
@@ -48,7 +48,7 @@ After someone enters the center of the cistern, the Lamb closes through the wate
 
 <!-- Source possibilities only. The runtime never applies these automatically and never copies them into a checkpoint. -->
 
-- `actor-state` → **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb-25359288`) — The Lamb changes from submerged approach to surface swimming. (condition: Two rounds pass after it starts approaching.)
+- `actor-state` → **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb`) — The Lamb changes from submerged approach to surface swimming. (condition: Two rounds pass after it starts approaching.)
 
 ## Completion conditions
 

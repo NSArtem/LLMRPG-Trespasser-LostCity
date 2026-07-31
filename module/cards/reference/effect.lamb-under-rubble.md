@@ -5,7 +5,7 @@ title: "Lamb Trapped by Collapse"
 aliases: []
 source_pages: [24]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "place.module-lair-of-the-lamb.12-abacus-mural", "situation.module-lair-of-the-lamb.collapse-of-12-abacus-mural"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "place.module-lair-of-the-lamb.12-abacus-mural", "situation.module-lair-of-the-lamb.collapse-of-12-abacus-mural"]
 ---
 
 # Lamb Trapped by Collapse

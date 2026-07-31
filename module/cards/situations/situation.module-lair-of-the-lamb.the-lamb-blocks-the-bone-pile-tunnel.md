@@ -5,13 +5,13 @@ title: "The Lamb Blocks the Bone-Pile Tunnel"
 aliases: ["situation.lamb-blocks-bone-tunnel"]
 source_pages: [23]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "place.module-lair-of-the-lamb.10-bone-pile", "place.module-lair-of-the-lamb.14-sarcophagus", "procedure.module-lair-of-the-lamb.clearing-the-blocked-bone-pile-tunnel"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "place.module-lair-of-the-lamb.10-bone-pile", "place.module-lair-of-the-lamb.14-sarcophagus", "procedure.module-lair-of-the-lamb.clearing-the-blocked-bone-pile-tunnel"]
 activation: {"condition": "After 3 encounters with the Lamb.", "type": "triggered"}
 repeat: {"mode": "once"}
 locations: ["cards/places/place.module-lair-of-the-lamb.10-bone-pile.md", "cards/places/place.module-lair-of-the-lamb.14-sarcophagus.md"]
-participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75", "role": "Blocks the tunnel after becoming cunning."}]
+participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-lamb", "role": "Blocks the tunnel after becoming cunning."}]
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"]
   procedures: ["cards/procedures/procedure.module-lair-of-the-lamb.clearing-the-blocked-bone-pile-tunnel.md"]
   knowledge: []
 # Possible effects are source possibilities. Nothing here is applied or copied into a checkpoint.
@@ -33,7 +33,7 @@ Bones begin filling the small crawl tunnel between 10 BONE PILE and 14 SARCOPHAG
 
 ## Actor reactions
 
-- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb-c0865d75`) takes part: Blocks the tunnel after becoming cunning.
+- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb`) takes part: Blocks the tunnel after becoming cunning.
 
 ## Consequences
 

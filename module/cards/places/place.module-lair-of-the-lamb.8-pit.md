@@ -5,10 +5,10 @@ title: "8 PIT"
 aliases: ["location.8-pit"]
 source_pages: [23]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.akina", "actor.module-lair-of-the-lamb.the-lamb-c0865d75", "knowledge.module-lair-of-the-lamb.akinas-knowledge", "situation.module-lair-of-the-lamb.akinas-rescue-bargain"]
+references: ["actor.module-lair-of-the-lamb.akina", "actor.module-lair-of-the-lamb.the-lamb", "knowledge.module-lair-of-the-lamb.akinas-knowledge", "situation.module-lair-of-the-lamb.akinas-rescue-bargain"]
 topology_node: "place.module-lair-of-the-lamb.area-8-pit"
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.akina.md", "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.akina.md", "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"]
   situations: ["cards/situations/situation.module-lair-of-the-lamb.akinas-rescue-bargain.md"]
   procedures: []
   knowledge: ["cards/knowledge/knowledge.module-lair-of-the-lamb.akinas-knowledge.md"]

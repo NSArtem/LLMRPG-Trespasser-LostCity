@@ -99,8 +99,7 @@
 - [Spider Crab](cards/actors/actor.module-lair-of-the-lamb.spider-crab.md) — `actor.module-lair-of-the-lamb.spider-crab`
 - [Spider Crab at 31 TRAVERSE](cards/actors/actor.module-lair-of-the-lamb.spider-crab-at-31-traverse.md) — `actor.module-lair-of-the-lamb.spider-crab-at-31-traverse`
 - [The Apparatus](cards/actors/actor.module-lair-of-the-lamb.the-apparatus.md) — `actor.module-lair-of-the-lamb.the-apparatus`
-- [The Lamb](cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md) — `actor.module-lair-of-the-lamb.the-lamb-25359288`
-- [The Lamb](cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md) — `actor.module-lair-of-the-lamb.the-lamb-c0865d75`
+- [The Lamb](cards/actors/actor.module-lair-of-the-lamb.the-lamb.md) — `actor.module-lair-of-the-lamb.the-lamb`
 - [The Little Lambs](cards/actors/actor.module-lair-of-the-lamb.the-little-lambs.md) — `actor.module-lair-of-the-lamb.the-little-lambs`
 - [The Red Temple](cards/actors/actor.module-lair-of-the-lamb.the-red-temple.md) — `actor.module-lair-of-the-lamb.the-red-temple`
 - [The Spider Crab](cards/actors/actor.module-lair-of-the-lamb.the-spider-crab.md) — `actor.module-lair-of-the-lamb.the-spider-crab`

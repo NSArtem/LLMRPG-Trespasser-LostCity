@@ -5,10 +5,10 @@ title: "44A WALL"
 aliases: ["location.44a-wall"]
 source_pages: [40]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.available-ghouls", "actor.module-lair-of-the-lamb.the-apparatus", "actor.module-lair-of-the-lamb.the-lamb-25359288", "actor.module-lair-of-the-lamb.the-spider-crab", "effect.44a-breach-attracts-threats", "effect.44a-wall-opening-times", "knowledge.module-lair-of-the-lamb.fresh-air-and-the-cistern-beyond-44a", "place.module-lair-of-the-lamb.44-cistern", "procedure.module-lair-of-the-lamb.open-the-wall-at-44a", "procedure.module-lair-of-the-lamb.resolve-arrivals-after-the-44a-breach", "situation.module-lair-of-the-lamb.noisy-breach-at-44a"]
+references: ["actor.module-lair-of-the-lamb.available-ghouls", "actor.module-lair-of-the-lamb.the-apparatus", "actor.module-lair-of-the-lamb.the-lamb", "actor.module-lair-of-the-lamb.the-spider-crab", "effect.44a-breach-attracts-threats", "effect.44a-wall-opening-times", "knowledge.module-lair-of-the-lamb.fresh-air-and-the-cistern-beyond-44a", "place.module-lair-of-the-lamb.44-cistern", "procedure.module-lair-of-the-lamb.open-the-wall-at-44a", "procedure.module-lair-of-the-lamb.resolve-arrivals-after-the-44a-breach", "situation.module-lair-of-the-lamb.noisy-breach-at-44a"]
 topology_node: null
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.available-ghouls.md", "cards/actors/actor.module-lair-of-the-lamb.the-apparatus.md", "cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md", "cards/actors/actor.module-lair-of-the-lamb.the-spider-crab.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.available-ghouls.md", "cards/actors/actor.module-lair-of-the-lamb.the-apparatus.md", "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md", "cards/actors/actor.module-lair-of-the-lamb.the-spider-crab.md"]
   situations: ["cards/situations/situation.module-lair-of-the-lamb.noisy-breach-at-44a.md"]
   procedures: ["cards/procedures/procedure.module-lair-of-the-lamb.open-the-wall-at-44a.md", "cards/procedures/procedure.module-lair-of-the-lamb.resolve-arrivals-after-the-44a-breach.md"]
   knowledge: ["cards/knowledge/knowledge.module-lair-of-the-lamb.fresh-air-and-the-cistern-beyond-44a.md"]

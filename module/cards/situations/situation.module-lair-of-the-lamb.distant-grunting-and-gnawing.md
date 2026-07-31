@@ -5,13 +5,13 @@ title: "Distant Grunting and Gnawing"
 aliases: ["situation.distant-lamb-noises"]
 source_pages: [18]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75"]
+references: ["actor.module-lair-of-the-lamb.the-lamb"]
 activation: {"condition": "Selected on the Lamb Alive indirect encounter table (1-6).", "type": "random"}
 repeat: {"mode": "repeatable"}
 locations: []
-participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75", "role": "Encounter subject."}]
+participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-lamb", "role": "Encounter subject."}]
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"]
   procedures: []
   knowledge: []
 # Possible effects are source possibilities. Nothing here is applied or copied into a checkpoint.
@@ -32,7 +32,7 @@ Distant grunting and gnawing can be heard.
 
 ## Actor reactions
 
-- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb-c0865d75`) takes part: Encounter subject.
+- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb`) takes part: Encounter subject.
 
 ## Consequences
 

@@ -5,13 +5,13 @@ title: "Little Lambs Emerge from the Corpse"
 aliases: ["situation.little-lambs-emerge"]
 source_pages: [20]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "actor.module-lair-of-the-lamb.the-little-lambs", "effect.little-lamb-emergence"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "actor.module-lair-of-the-lamb.the-little-lambs", "effect.little-lamb-emergence"]
 activation: {"condition": "The Lamb is killed and its corpse is not utterly destroyed.", "type": "triggered"}
 repeat: {"mode": "once"}
 locations: []
 participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-little-lambs", "role": "New predators emerging from the corpse."}]
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md", "cards/actors/actor.module-lair-of-the-lamb.the-little-lambs.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb.md", "cards/actors/actor.module-lair-of-the-lamb.the-little-lambs.md"]
   procedures: []
   knowledge: []
 # Possible effects are source possibilities. Nothing here is applied or copied into a checkpoint.

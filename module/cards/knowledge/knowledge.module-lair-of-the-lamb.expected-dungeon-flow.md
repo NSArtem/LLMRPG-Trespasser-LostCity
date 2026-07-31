@@ -5,7 +5,7 @@ title: "Expected Dungeon Flow"
 aliases: ["knowledge.expected-dungeon-flow"]
 source_pages: [19]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "place.module-lair-of-the-lamb.13-city-mural", "place.module-lair-of-the-lamb.9-fountain"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "place.module-lair-of-the-lamb.13-city-mural", "place.module-lair-of-the-lamb.9-fountain"]
 ---
 
 # Expected Dungeon Flow

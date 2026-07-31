@@ -342,43 +342,32 @@
     },
     {
       "aliases": [
-        "actor.lamb"
-      ],
-      "id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
-      "path": "cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md",
-      "references": [
-        "actor.module-lair-of-the-lamb.the-white-temple",
-        "effect.lamb-movement-rates",
-        "effect.lamb-resting-in-8-pit",
-        "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
-        "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria",
-        "place.module-lair-of-the-lamb.44-cistern",
-        "place.module-lair-of-the-lamb.44a-wall",
-        "place.module-lair-of-the-lamb.46-daylight",
-        "situation.module-lair-of-the-lamb.fighting-the-lamb",
-        "situation.module-lair-of-the-lamb.noisy-breach-at-44a",
-        "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern"
-      ],
-      "title": "The Lamb",
-      "type": "actor"
-    },
-    {
-      "aliases": [
+        "actor.lamb",
         "actor.the-lamb"
       ],
-      "id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
-      "path": "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md",
+      "id": "actor.module-lair-of-the-lamb.the-lamb",
+      "path": "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md",
       "references": [
         "actor.module-lair-of-the-lamb.the-white-temple",
         "actor.module-lair-of-the-lamb.vandress",
+        "effect.lamb-movement-rates",
+        "effect.lamb-resting-in-8-pit",
+        "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
         "knowledge.module-lair-of-the-lamb.the-lamb",
+        "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria",
         "place.module-lair-of-the-lamb.1-bowls",
         "place.module-lair-of-the-lamb.10-bone-pile",
         "place.module-lair-of-the-lamb.20-pools",
+        "place.module-lair-of-the-lamb.44-cistern",
+        "place.module-lair-of-the-lamb.44a-wall",
+        "place.module-lair-of-the-lamb.46-daylight",
         "place.module-lair-of-the-lamb.8-pit",
         "place.module-lair-of-the-lamb.9-fountain",
         "situation.module-lair-of-the-lamb.distant-grunting-and-gnawing",
+        "situation.module-lair-of-the-lamb.fighting-the-lamb",
+        "situation.module-lair-of-the-lamb.noisy-breach-at-44a",
         "situation.module-lair-of-the-lamb.the-lamb-approaches",
+        "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern",
         "situation.module-lair-of-the-lamb.the-lamb-blocks-the-bone-pile-tunnel",
         "situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls",
         "situation.module-lair-of-the-lamb.the-lamb-is-nearby"
@@ -460,7 +449,7 @@
       "id": "actor.module-lair-of-the-lamb.the-white-temple",
       "path": "cards/actors/actor.module-lair-of-the-lamb.the-white-temple.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.white-temple-forceful-response",
         "knowledge.module-lair-of-the-lamb.the-lamb",
         "knowledge.module-lair-of-the-lamb.the-noria-feeds-the-white-temple",
@@ -507,7 +496,7 @@
       "id": "actor.module-lair-of-the-lamb.vandress",
       "path": "cards/actors/actor.module-lair-of-the-lamb.vandress.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.vandress-pink-slime-addiction",
         "knowledge.module-lair-of-the-lamb.white-temple-cleanup-schedule",
         "place.module-lair-of-the-lamb.20-pools",
@@ -655,7 +644,7 @@
       "id": "effect.44-cistern-ammonia-warning",
       "path": "cards/reference/effect.44-cistern-ammonia-warning.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.44-cistern",
         "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern"
       ],
@@ -669,7 +658,7 @@
       "references": [
         "actor.module-lair-of-the-lamb.available-ghouls",
         "actor.module-lair-of-the-lamb.the-apparatus",
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-spider-crab",
         "place.module-lair-of-the-lamb.44-cistern",
         "place.module-lair-of-the-lamb.44a-wall",
@@ -1213,7 +1202,7 @@
       "id": "effect.first-lamb-fishing-success",
       "path": "cards/reference/effect.first-lamb-fishing-success.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "item.module-lair-of-the-lamb.hook-hand",
         "procedure.module-lair-of-the-lamb.fish-for-the-lamb",
         "situation.module-lair-of-the-lamb.fighting-the-lamb"
@@ -1344,7 +1333,7 @@
       "id": "effect.lamb-death-earth-tremor",
       "path": "cards/reference/effect.lamb-death-earth-tremor.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "title": "Earth Tremor on the Lamb’s Death",
       "type": "effect"
@@ -1354,7 +1343,7 @@
       "id": "effect.lamb-death-milestone",
       "path": "cards/reference/effect.lamb-death-milestone.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "title": "Lamb-Kill Milestone",
       "type": "effect"
@@ -1364,7 +1353,7 @@
       "id": "effect.lamb-movement-rates",
       "path": "cards/reference/effect.lamb-movement-rates.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.44-cistern",
         "place.module-lair-of-the-lamb.46-daylight"
       ],
@@ -1376,7 +1365,7 @@
       "id": "effect.lamb-resting-in-8-pit",
       "path": "cards/reference/effect.lamb-resting-in-8-pit.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
         "situation.module-lair-of-the-lamb.fighting-the-lamb"
       ],
@@ -1388,7 +1377,7 @@
       "id": "effect.lamb-under-rubble",
       "path": "cards/reference/effect.lamb-under-rubble.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.12-abacus-mural",
         "situation.module-lair-of-the-lamb.collapse-of-12-abacus-mural"
       ],
@@ -1470,7 +1459,7 @@
       "id": "effect.little-lamb-emergence",
       "path": "cards/reference/effect.little-lamb-emergence.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-little-lambs",
         "situation.module-lair-of-the-lamb.little-lambs-emerge-from-the-corpse"
       ],
@@ -1522,7 +1511,7 @@
       "id": "effect.noria-crushes-lamb",
       "path": "cards/reference/effect.noria-crushes-lamb.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.44-cistern",
         "procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria",
         "situation.module-lair-of-the-lamb.fighting-the-lamb"
@@ -1589,7 +1578,7 @@
       "path": "cards/reference/effect.pink-urine-ecstasy-and-longevity.md",
       "references": [
         "actor.module-lair-of-the-lamb.priest-of-the-pool",
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.19-priests"
       ],
       "title": "Pink Urine Ecstasy and Longevity",
@@ -2014,7 +2003,7 @@
       "id": "effect.white-temple-forceful-response",
       "path": "cards/reference/effect.white-temple-forceful-response.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-white-temple",
         "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria",
         "procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria"
@@ -2683,7 +2672,7 @@
       "id": "item.module-lair-of-the-lamb.hook-hand",
       "path": "cards/reference/item.module-lair-of-the-lamb.hook-hand.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.first-lamb-fishing-success",
         "procedure.module-lair-of-the-lamb.fish-for-the-lamb",
         "situation.module-lair-of-the-lamb.fighting-the-lamb"
@@ -3603,7 +3592,7 @@
       "id": "knowledge.module-lair-of-the-lamb.expected-dungeon-flow",
       "path": "cards/knowledge/knowledge.module-lair-of-the-lamb.expected-dungeon-flow.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.13-city-mural",
         "place.module-lair-of-the-lamb.9-fountain"
       ],
@@ -3650,7 +3639,7 @@
       "id": "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
       "path": "cards/knowledge/knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.lamb-resting-in-8-pit",
         "situation.module-lair-of-the-lamb.fighting-the-lamb"
       ],
@@ -3682,7 +3671,7 @@
       "id": "knowledge.module-lair-of-the-lamb.the-lamb",
       "path": "cards/knowledge/knowledge.module-lair-of-the-lamb.the-lamb.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-white-temple"
       ],
       "title": "The Lamb",
@@ -3763,7 +3752,7 @@
       "id": "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria",
       "path": "cards/knowledge/knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-white-temple",
         "effect.white-temple-forceful-response",
         "place.module-lair-of-the-lamb.44-cistern",
@@ -3779,7 +3768,7 @@
       "id": "place.module-lair-of-the-lamb.1-bowls",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [],
         "procedures": [
@@ -3791,7 +3780,7 @@
       },
       "path": "cards/places/place.module-lair-of-the-lamb.1-bowls.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "procedure.module-lair-of-the-lamb.starting-the-game",
         "situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls"
       ],
@@ -4154,7 +4143,7 @@
       "id": "place.module-lair-of-the-lamb.20-pools",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md",
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md",
           "cards/actors/actor.module-lair-of-the-lamb.vandress.md"
         ],
         "knowledge": [],
@@ -4165,7 +4154,7 @@
       },
       "path": "cards/places/place.module-lair-of-the-lamb.20-pools.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.vandress",
         "effect.black-pool-smoke-vomiting",
         "effect.milky-pool-acid",
@@ -4858,7 +4847,7 @@
       "id": "place.module-lair-of-the-lamb.44-cistern",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [
           "cards/knowledge/knowledge.module-lair-of-the-lamb.the-noria-feeds-the-white-temple.md",
@@ -4878,7 +4867,7 @@
       },
       "path": "cards/places/place.module-lair-of-the-lamb.44-cistern.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.44-cistern-ammonia-warning",
         "effect.cistern-carried-item-swim-penalty",
         "effect.first-lamb-fishing-success",
@@ -4911,7 +4900,7 @@
         "actors": [
           "cards/actors/actor.module-lair-of-the-lamb.available-ghouls.md",
           "cards/actors/actor.module-lair-of-the-lamb.the-apparatus.md",
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md",
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md",
           "cards/actors/actor.module-lair-of-the-lamb.the-spider-crab.md"
         ],
         "knowledge": [
@@ -4929,7 +4918,7 @@
       "references": [
         "actor.module-lair-of-the-lamb.available-ghouls",
         "actor.module-lair-of-the-lamb.the-apparatus",
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-spider-crab",
         "effect.44a-breach-attracts-threats",
         "effect.44a-wall-opening-times",
@@ -4979,7 +4968,7 @@
       "id": "place.module-lair-of-the-lamb.46-daylight",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [],
         "procedures": [
@@ -4989,7 +4978,7 @@
       },
       "path": "cards/places/place.module-lair-of-the-lamb.46-daylight.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.46-daylight-access-checks",
         "effect.lamb-movement-rates",
         "item.module-lair-of-the-lamb.grappling-hook",
@@ -5141,7 +5130,7 @@
       "load_with": {
         "actors": [
           "cards/actors/actor.module-lair-of-the-lamb.akina.md",
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [
           "cards/knowledge/knowledge.module-lair-of-the-lamb.akinas-knowledge.md"
@@ -5154,7 +5143,7 @@
       "path": "cards/places/place.module-lair-of-the-lamb.8-pit.md",
       "references": [
         "actor.module-lair-of-the-lamb.akina",
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "knowledge.module-lair-of-the-lamb.akinas-knowledge",
         "situation.module-lair-of-the-lamb.akinas-rescue-bargain"
       ],
@@ -5169,7 +5158,7 @@
       "id": "place.module-lair-of-the-lamb.9-fountain",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [
           "cards/knowledge/knowledge.module-lair-of-the-lamb.tumbler-password.md"
@@ -5183,7 +5172,7 @@
       },
       "path": "cards/places/place.module-lair-of-the-lamb.9-fountain.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "knowledge.module-lair-of-the-lamb.tumbler-password",
         "procedure.module-lair-of-the-lamb.ending-the-fountain-haunting",
         "situation.module-lair-of-the-lamb.the-haunting-of-9-fountain"
@@ -5529,7 +5518,7 @@
       "id": "procedure.module-lair-of-the-lamb.collapsing-12-abacus-mural",
       "path": "cards/procedures/procedure.module-lair-of-the-lamb.collapsing-12-abacus-mural.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.abacus-ceiling-collapse",
         "effect.lamb-under-rubble",
         "place.module-lair-of-the-lamb.12-abacus-mural"
@@ -5557,7 +5546,7 @@
       "id": "procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria",
       "path": "cards/procedures/procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-white-temple",
         "effect.noria-crushes-lamb",
         "effect.white-temple-forceful-response",
@@ -5616,7 +5605,7 @@
       "id": "procedure.module-lair-of-the-lamb.fish-for-the-lamb",
       "path": "cards/procedures/procedure.module-lair-of-the-lamb.fish-for-the-lamb.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.first-lamb-fishing-success",
         "item.module-lair-of-the-lamb.hook-hand",
         "place.module-lair-of-the-lamb.44-cistern",
@@ -5738,7 +5727,7 @@
       "id": "procedure.module-lair-of-the-lamb.opening-the-iron-banded-chest-at-5-landing",
       "path": "cards/procedures/procedure.module-lair-of-the-lamb.opening-the-iron-banded-chest-at-5-landing.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.5-landing",
         "place.module-lair-of-the-lamb.8-pit"
       ],
@@ -5781,7 +5770,7 @@
       "id": "procedure.module-lair-of-the-lamb.reach-the-elevated-stairs-at-46-daylight",
       "path": "cards/procedures/procedure.module-lair-of-the-lamb.reach-the-elevated-stairs-at-46-daylight.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.46-daylight-access-checks",
         "item.module-lair-of-the-lamb.grappling-hook",
         "place.module-lair-of-the-lamb.46-daylight",
@@ -5816,7 +5805,7 @@
       "references": [
         "actor.module-lair-of-the-lamb.available-ghouls",
         "actor.module-lair-of-the-lamb.the-apparatus",
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-spider-crab",
         "effect.44a-breach-attracts-threats",
         "place.module-lair-of-the-lamb.44-cistern",
@@ -5847,7 +5836,7 @@
       "id": "procedure.module-lair-of-the-lamb.run-a-fight-with-the-lamb-in-the-cistern",
       "path": "cards/procedures/procedure.module-lair-of-the-lamb.run-a-fight-with-the-lamb-in-the-cistern.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.44-cistern",
         "procedure.module-lair-of-the-lamb.calculate-human-swim-speed-in-44-cistern",
         "procedure.module-lair-of-the-lamb.calculate-makeshift-table-boat-speed",
@@ -5911,7 +5900,7 @@
       "id": "procedure.module-lair-of-the-lamb.starting-the-game",
       "path": "cards/procedures/procedure.module-lair-of-the-lamb.starting-the-game.md",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.1-bowls",
         "rule.character-control",
         "rule.dehydration",
@@ -7180,7 +7169,7 @@
       "id": "situation.module-lair-of-the-lamb.collapse-of-12-abacus-mural",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [],
         "procedures": [
@@ -7190,7 +7179,7 @@
       "path": "cards/situations/situation.module-lair-of-the-lamb.collapse-of-12-abacus-mural.md",
       "possible_effects": [],
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.abacus-ceiling-collapse",
         "effect.lamb-under-rubble",
         "place.module-lair-of-the-lamb.12-abacus-mural",
@@ -7301,7 +7290,7 @@
       "id": "situation.module-lair-of-the-lamb.distant-grunting-and-gnawing",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [],
         "procedures": []
@@ -7309,7 +7298,7 @@
       "path": "cards/situations/situation.module-lair-of-the-lamb.distant-grunting-and-gnawing.md",
       "possible_effects": [],
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "repeat": {
         "mode": "repeatable"
@@ -7328,7 +7317,7 @@
       "id": "situation.module-lair-of-the-lamb.echoes-of-the-lamb",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [],
         "procedures": []
@@ -7336,7 +7325,7 @@
       "path": "cards/situations/situation.module-lair-of-the-lamb.echoes-of-the-lamb.md",
       "possible_effects": [],
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "repeat": {
         "mode": "once"
@@ -7358,7 +7347,7 @@
           "cards/actors/actor.module-lair-of-the-lamb.bilosh.md",
           "cards/actors/actor.module-lair-of-the-lamb.father-bastoval.md",
           "cards/actors/actor.module-lair-of-the-lamb.mino.md",
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [],
         "procedures": []
@@ -7369,7 +7358,7 @@
         "actor.module-lair-of-the-lamb.bilosh",
         "actor.module-lair-of-the-lamb.father-bastoval",
         "actor.module-lair-of-the-lamb.mino",
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "repeat": {
         "mode": "once"
@@ -7388,7 +7377,7 @@
       "id": "situation.module-lair-of-the-lamb.fighting-the-lamb",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md",
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md",
           "cards/actors/actor.module-lair-of-the-lamb.the-white-temple.md"
         ],
         "knowledge": [
@@ -7407,7 +7396,7 @@
           "condition": "The party gets the Lamb ensnared in the noria.",
           "description": "The noria can crush and kill the ensnared Lamb against the slotted ceiling.",
           "effect": "actor-state",
-          "target": "actor.module-lair-of-the-lamb.the-lamb-25359288"
+          "target": "actor.module-lair-of-the-lamb.the-lamb"
         },
         {
           "description": "The White Temple may respond swiftly and forcefully if its godling is ejected into its drinking fountain.",
@@ -7415,7 +7404,7 @@
         }
       ],
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-white-temple",
         "effect.first-lamb-fishing-success",
         "effect.lamb-resting-in-8-pit",
@@ -7660,7 +7649,7 @@
       "id": "situation.module-lair-of-the-lamb.little-lambs-emerge-from-the-corpse",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md",
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md",
           "cards/actors/actor.module-lair-of-the-lamb.the-little-lambs.md"
         ],
         "knowledge": [],
@@ -7669,7 +7658,7 @@
       "path": "cards/situations/situation.module-lair-of-the-lamb.little-lambs-emerge-from-the-corpse.md",
       "possible_effects": [],
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-little-lambs",
         "effect.little-lamb-emergence"
       ],
@@ -7795,7 +7784,7 @@
         "actors": [
           "cards/actors/actor.module-lair-of-the-lamb.available-ghouls.md",
           "cards/actors/actor.module-lair-of-the-lamb.the-apparatus.md",
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md",
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md",
           "cards/actors/actor.module-lair-of-the-lamb.the-spider-crab.md"
         ],
         "knowledge": [],
@@ -7815,7 +7804,7 @@
           "condition": "The Lamb is alive when its arrival delay resolves.",
           "description": "After arriving, the Lamb waits on the bottom near the underwater tunnel mouth.",
           "effect": "actor-state",
-          "target": "actor.module-lair-of-the-lamb.the-lamb-25359288"
+          "target": "actor.module-lair-of-the-lamb.the-lamb"
         },
         {
           "description": "Parties that arrive simultaneously may fight atop the stairs.",
@@ -7825,7 +7814,7 @@
       "references": [
         "actor.module-lair-of-the-lamb.available-ghouls",
         "actor.module-lair-of-the-lamb.the-apparatus",
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-spider-crab",
         "effect.44a-breach-attracts-threats",
         "place.module-lair-of-the-lamb.44-cistern",
@@ -8229,7 +8218,7 @@
       "id": "situation.module-lair-of-the-lamb.the-lamb-approaches",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [],
         "procedures": []
@@ -8237,7 +8226,7 @@
       "path": "cards/situations/situation.module-lair-of-the-lamb.the-lamb-approaches.md",
       "possible_effects": [],
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "repeat": {
         "mode": "repeatable"
@@ -8256,7 +8245,7 @@
       "id": "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [],
         "procedures": [
@@ -8270,11 +8259,11 @@
           "condition": "Two rounds pass after it starts approaching.",
           "description": "The Lamb changes from submerged approach to surface swimming.",
           "effect": "actor-state",
-          "target": "actor.module-lair-of-the-lamb.the-lamb-25359288"
+          "target": "actor.module-lair-of-the-lamb.the-lamb"
         }
       ],
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.44-cistern-ammonia-warning",
         "place.module-lair-of-the-lamb.44-cistern",
         "procedure.module-lair-of-the-lamb.calculate-human-swim-speed-in-44-cistern",
@@ -8295,7 +8284,7 @@
       "id": "situation.module-lair-of-the-lamb.the-lamb-blocks-the-bone-pile-tunnel",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [],
         "procedures": [
@@ -8305,7 +8294,7 @@
       "path": "cards/situations/situation.module-lair-of-the-lamb.the-lamb-blocks-the-bone-pile-tunnel.md",
       "possible_effects": [],
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.10-bone-pile",
         "place.module-lair-of-the-lamb.14-sarcophagus",
         "procedure.module-lair-of-the-lamb.clearing-the-blocked-bone-pile-tunnel"
@@ -8327,7 +8316,7 @@
       "id": "situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [],
         "procedures": [
@@ -8337,7 +8326,7 @@
       "path": "cards/situations/situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls.md",
       "possible_effects": [],
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.1-bowls",
         "procedure.module-lair-of-the-lamb.starting-the-game",
         "rule.dark-door-wisdom-check"
@@ -8359,7 +8348,7 @@
       "id": "situation.module-lair-of-the-lamb.the-lamb-is-nearby",
       "load_with": {
         "actors": [
-          "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"
+          "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"
         ],
         "knowledge": [],
         "procedures": []
@@ -8367,7 +8356,7 @@
       "path": "cards/situations/situation.module-lair-of-the-lamb.the-lamb-is-nearby.md",
       "possible_effects": [],
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "repeat": {
         "mode": "repeatable"

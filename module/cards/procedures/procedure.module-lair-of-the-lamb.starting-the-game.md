@@ -5,7 +5,7 @@ title: "Starting the Game"
 aliases: ["procedure.starting-the-game"]
 source_pages: [19]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "place.module-lair-of-the-lamb.1-bowls", "rule.character-control", "rule.dehydration", "rule.starting-gear-and-carrying", "situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "place.module-lair-of-the-lamb.1-bowls", "rule.character-control", "rule.dehydration", "rule.starting-gear-and-carrying", "situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls"]
 ---
 
 # Starting the Game

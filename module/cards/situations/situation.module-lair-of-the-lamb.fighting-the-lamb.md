@@ -5,17 +5,17 @@ title: "FIGHTING THE LAMB"
 aliases: ["situation.fighting-lamb-in-cistern"]
 source_pages: [41]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-25359288", "actor.module-lair-of-the-lamb.the-white-temple", "effect.first-lamb-fishing-success", "effect.lamb-resting-in-8-pit", "effect.noria-crushes-lamb", "effect.white-temple-forceful-response", "item.module-lair-of-the-lamb.harpoon", "item.module-lair-of-the-lamb.hook-hand", "item.module-lair-of-the-lamb.hooked-net", "item.module-lair-of-the-lamb.oil", "item.module-lair-of-the-lamb.rope", "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb", "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria", "place.module-lair-of-the-lamb.44-cistern", "procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria", "procedure.module-lair-of-the-lamb.fish-for-the-lamb", "procedure.module-lair-of-the-lamb.run-a-fight-with-the-lamb-in-the-cistern"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "actor.module-lair-of-the-lamb.the-white-temple", "effect.first-lamb-fishing-success", "effect.lamb-resting-in-8-pit", "effect.noria-crushes-lamb", "effect.white-temple-forceful-response", "item.module-lair-of-the-lamb.harpoon", "item.module-lair-of-the-lamb.hook-hand", "item.module-lair-of-the-lamb.hooked-net", "item.module-lair-of-the-lamb.oil", "item.module-lair-of-the-lamb.rope", "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb", "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria", "place.module-lair-of-the-lamb.44-cistern", "procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria", "procedure.module-lair-of-the-lamb.fish-for-the-lamb", "procedure.module-lair-of-the-lamb.run-a-fight-with-the-lamb-in-the-cistern"]
 activation: {"condition": "The party chooses to fight the Lamb in the cistern instead of attacking it while it rests in 8 PIT.", "type": "chosen"}
 repeat: null
 locations: ["cards/places/place.module-lair-of-the-lamb.44-cistern.md"]
-participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-lamb-25359288", "role": "Primary enemy in the arena."}]
+participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-lamb", "role": "Primary enemy in the arena."}]
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb-25359288.md", "cards/actors/actor.module-lair-of-the-lamb.the-white-temple.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb.md", "cards/actors/actor.module-lair-of-the-lamb.the-white-temple.md"]
   procedures: ["cards/procedures/procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria.md", "cards/procedures/procedure.module-lair-of-the-lamb.fish-for-the-lamb.md", "cards/procedures/procedure.module-lair-of-the-lamb.run-a-fight-with-the-lamb-in-the-cistern.md"]
   knowledge: ["cards/knowledge/knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb.md", "cards/knowledge/knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria.md"]
 # Possible effects are source possibilities. Nothing here is applied or copied into a checkpoint.
-possible_effects: [{"condition": "The party gets the Lamb ensnared in the noria.", "description": "The noria can crush and kill the ensnared Lamb against the slotted ceiling.", "effect": "actor-state", "target": "actor.module-lair-of-the-lamb.the-lamb-25359288"}, {"description": "The White Temple may respond swiftly and forcefully if its godling is ejected into its drinking fountain.", "effect": "future-thread"}]
+possible_effects: [{"condition": "The party gets the Lamb ensnared in the noria.", "description": "The noria can crush and kill the ensnared Lamb against the slotted ceiling.", "effect": "actor-state", "target": "actor.module-lair-of-the-lamb.the-lamb"}, {"description": "The White Temple may respond swiftly and forcefully if its godling is ejected into its drinking fountain.", "effect": "future-thread"}]
 ---
 
 # FIGHTING THE LAMB
@@ -37,7 +37,7 @@ The cistern becomes a difficult moving battle across deep water, boats, swimmers
 
 ## Actor reactions
 
-- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb-25359288`) takes part: Primary enemy in the arena.
+- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb`) takes part: Primary enemy in the arena.
 
 ## Consequences
 
@@ -49,7 +49,7 @@ The cistern becomes a difficult moving battle across deep water, boats, swimmers
 
 <!-- Source possibilities only. The runtime never applies these automatically and never copies them into a checkpoint. -->
 
-- `actor-state` → **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb-25359288`) — The noria can crush and kill the ensnared Lamb against the slotted ceiling. (condition: The party gets the Lamb ensnared in the noria.)
+- `actor-state` → **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb`) — The noria can crush and kill the ensnared Lamb against the slotted ceiling. (condition: The party gets the Lamb ensnared in the noria.)
 - `future-thread` — The White Temple may respond swiftly and forcefully if its godling is ejected into its drinking fountain.
 
 ## Completion conditions

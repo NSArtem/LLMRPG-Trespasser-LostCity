@@ -77,7 +77,7 @@
     "actor.friendly-rat": "actor.module-lair-of-the-lamb.friendly-rat",
     "actor.gerdith": "actor.module-lair-of-the-lamb.gerdith",
     "actor.jasper": "actor.module-lair-of-the-lamb.jasper",
-    "actor.lamb": "actor.module-lair-of-the-lamb.the-lamb-25359288",
+    "actor.lamb": "actor.module-lair-of-the-lamb.the-lamb",
     "actor.lantern-worm": "actor.module-lair-of-the-lamb.lantern-worm",
     "actor.little-lambs": "actor.module-lair-of-the-lamb.the-little-lambs",
     "actor.live-goat": "actor.module-lair-of-the-lamb.live-goat",
@@ -95,7 +95,7 @@
     "actor.spider-crab-at-traverse": "actor.module-lair-of-the-lamb.spider-crab-at-31-traverse",
     "actor.spider-crab-high-priestess": "actor.module-lair-of-the-lamb.spider-crab",
     "actor.temple-of-true-power": "actor.module-lair-of-the-lamb.the-temple-of-true-power",
-    "actor.the-lamb": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+    "actor.the-lamb": "actor.module-lair-of-the-lamb.the-lamb",
     "actor.townsfolk-traditional-entry": "actor.module-lair-of-the-lamb.townsfolk",
     "actor.twelve-fingered-hand": "actor.module-lair-of-the-lamb.the-twelve-fingered-hand",
     "actor.vandress": "actor.module-lair-of-the-lamb.vandress",
@@ -468,9 +468,30 @@
   "conflicts": [
     {
       "blocking": true,
+      "field": "behavior",
+      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb.behavior",
+      "object_id": "actor.module-lair-of-the-lamb.the-lamb",
+      "values": [
+        [
+          "Mostly remains in 8 PIT and 9 FOUNTAIN.",
+          "Its sight and hearing are slightly worse than an average human’s.",
+          "It is not smart but is clever, learns from mistakes, and adopts better tactics with exposure.",
+          "If it finishes eating or loses track of the party, it heads to 9 FOUNTAIN for a bath."
+        ],
+        [
+          "When someone enters the center of 44 CISTERN, it starts swimming toward them.",
+          "One round after beginning its approach, it urinates in anticipation and fills the air with an ammonia stink.",
+          "On the following round, it loses patience and begins swimming on the surface.",
+          "When noisy wall-breaking vibrations reach it, it arrives in 5+1d4 minutes and waits on the cistern bottom near the mouth of the underwater tunnel.",
+          "It rests in 8 PIT 2-in-6 of the time."
+        ]
+      ]
+    },
+    {
+      "blocking": true,
       "field": "capabilities",
-      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb-c0865d75.capabilities",
-      "object_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb.capabilities",
+      "object_id": "actor.module-lair-of-the-lamb.the-lamb",
       "values": [
         [
           "Lvl 6; Def chain; Bite/Crush 1d8/1d18; Move slow; Climb slug; Str 9; Int 3; Dis hungry.",
@@ -482,14 +503,33 @@
         ],
         [
           "Produces the exotic types of waste stored in the four pools of area 20."
+        ],
+        [
+          "Swims 10 feet per round.",
+          "Climbs the slick walls at 46 DAYLIGHT as fast as a human can."
+        ]
+      ]
+    },
+    {
+      "blocking": true,
+      "field": "knowledge_references",
+      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb.knowledge-references",
+      "object_id": "actor.module-lair-of-the-lamb.the-lamb",
+      "values": [
+        [
+          "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
+          "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria"
+        ],
+        [
+          "knowledge.module-lair-of-the-lamb.the-lamb"
         ]
       ]
     },
     {
       "blocking": true,
       "field": "location_references",
-      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb-c0865d75.location-references",
-      "object_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb.location-references",
+      "object_id": "actor.module-lair-of-the-lamb.the-lamb",
       "values": [
         [
           "place.module-lair-of-the-lamb.1-bowls",
@@ -499,14 +539,70 @@
         ],
         [
           "place.module-lair-of-the-lamb.20-pools"
+        ],
+        [
+          "place.module-lair-of-the-lamb.44-cistern",
+          "place.module-lair-of-the-lamb.46-daylight"
+        ]
+      ]
+    },
+    {
+      "blocking": true,
+      "field": "reactions",
+      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb.reactions",
+      "object_id": "actor.module-lair-of-the-lamb.the-lamb",
+      "values": [
+        [
+          {
+            "response": "It calls “Father! Father!” in increasingly loud tones; it can say nothing else.",
+            "stimulus": "It is wounded or scared."
+          },
+          {
+            "response": "It devours one restrained human at random over 10 minutes and is not very alert while eating.",
+            "stimulus": "People hide from it during the opening encounter."
+          },
+          {
+            "response": "It attacks.",
+            "stimulus": "People flee noisily during the opening encounter."
+          },
+          {
+            "response": "It does not notice them.",
+            "stimulus": "People leave slowly and quietly during the opening encounter."
+          },
+          {
+            "response": "It becomes cunning and begins blocking the crawl tunnel with bones.",
+            "stimulus": "It has experienced 3 encounters with the party near 10 BONE PILE."
+          }
+        ],
+        [
+          {
+            "response": "The Lamb starts swimming toward that person.",
+            "stimulus": "A person enters the central 50-foot-by-50-foot area of 44 CISTERN."
+          },
+          {
+            "response": "It urinates in anticipation, filling the air with the stink of ammonia.",
+            "stimulus": "One round passes after the Lamb starts approaching."
+          },
+          {
+            "response": "It loses patience and swims on the surface.",
+            "stimulus": "Another round passes after the ammonia warning."
+          },
+          {
+            "response": "It arrives in 5+1d4 minutes, then waits on the bottom near the underwater tunnel mouth.",
+            "stimulus": "The wall at 44A is broken down noisily."
+          },
+          {
+            "response": "The attempt works automatically.",
+            "stimulus": "The party fishes for it with the hook hand and acceptable bait for the first time."
+          }
         ]
       ]
     },
     {
       "blocking": true,
       "field": "relationships",
-      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb-c0865d75.relationships",
-      "object_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb.relationships",
+      "object_id": "actor.module-lair-of-the-lamb.the-lamb",
       "values": [
         [
           {
@@ -525,9 +621,10 @@
     {
       "blocking": true,
       "field": "role",
-      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb-c0865d75.role",
-      "object_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb.role",
+      "object_id": "actor.module-lair-of-the-lamb.the-lamb",
       "values": [
+        "The creature that hunts entrants in the cistern and can be fought, lured, ensnared, or killed.",
         "The creature whose exotic waste is stored in the pools of area 20 and whose assistance Vandress intends to seek when hunting the party.",
         "The dungeon’s central predator, guarding and roaming between its pit and fountain.",
         "The figure the characters must elude during the first half of the adventure."
@@ -535,9 +632,29 @@
     },
     {
       "blocking": true,
+      "field": "situation_references",
+      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb.situation-references",
+      "object_id": "actor.module-lair-of-the-lamb.the-lamb",
+      "values": [
+        [
+          "situation.module-lair-of-the-lamb.noisy-breach-at-44a",
+          "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern",
+          "situation.module-lair-of-the-lamb.fighting-the-lamb"
+        ],
+        [
+          "situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls",
+          "situation.module-lair-of-the-lamb.the-lamb-approaches",
+          "situation.module-lair-of-the-lamb.the-lamb-is-nearby",
+          "situation.module-lair-of-the-lamb.distant-grunting-and-gnawing",
+          "situation.module-lair-of-the-lamb.the-lamb-blocks-the-bone-pile-tunnel"
+        ]
+      ]
+    },
+    {
+      "blocking": true,
       "field": "title",
-      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb-c0865d75.title",
-      "object_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+      "id": "conflict.actor.module-lair-of-the-lamb.the-lamb.title",
+      "object_id": "actor.module-lair-of-the-lamb.the-lamb",
       "values": [
         "The Lamb",
         "the Lamb"
@@ -19860,7 +19977,7 @@
           40,
           41
         ],
-        "status": "unresolved"
+        "status": "confirmed-alias"
       },
       {
         "confidence": "medium",
@@ -20345,31 +20462,22 @@
         ]
       },
       {
-        "canonical_id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "canonical_id": "actor.module-lair-of-the-lamb.the-lamb",
         "extracted_ids": [
-          "actor.lamb"
-        ],
-        "rationale": "Applied the deterministic canonical ID policy.",
-        "reviewed": false,
-        "source_pages": [
-          40,
-          41
-        ]
-      },
-      {
-        "canonical_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
-        "extracted_ids": [
+          "actor.lamb",
           "actor.the-lamb"
         ],
-        "rationale": "Applied the deterministic canonical ID policy.",
-        "reviewed": false,
+        "rationale": "Pages 16–26 and 40–41 describe the same White Temple godling predator across different dungeon areas; the later cistern material continues the same named Lamb rather than introducing a second creature.",
+        "reviewed": true,
         "source_pages": [
           16,
           18,
           19,
           20,
           23,
-          26
+          26,
+          40,
+          41
         ]
       },
       {
@@ -27812,7 +27920,24 @@
         ]
       }
     ],
-    "confirmed_aliases": [],
+    "confirmed_aliases": [
+      {
+        "alias": "actor.lamb",
+        "canonical_id": "actor.module-lair-of-the-lamb.the-lamb",
+        "rationale": "The Lamb in the cistern sequence is the same creature introduced in the opening sequence; both share the title, White Temple relationship, and continuous role.",
+        "source_pages": [
+          16,
+          18,
+          19,
+          20,
+          23,
+          26,
+          40,
+          41
+        ],
+        "target_id": "actor.the-lamb"
+      }
+    ],
     "errors": [],
     "keyed_area_conflicts": [],
     "rejected_merges": [
@@ -28237,7 +28362,7 @@
       }
     ]
   },
-  "module_sha256": "180c7df5c723bfce7c8ad939a6c72cbc7c58722be4b3a6032573cdfcf48704b2",
+  "module_sha256": "fcc36de4f1a4d1534910ff5b28487a4b319c5192297e895e6cc019fd1b1fd8c1",
   "packs": [
     {
       "pack_id": "content.001",
@@ -52414,240 +52539,7 @@
     },
     {
       "extracted_ids": [
-        "actor.lamb"
-      ],
-      "field_observations": {
-        "behavior": [
-          {
-            "confidence": "high",
-            "observation_id": "observation.content.009.actor.lamb",
-            "pack_id": "content.009",
-            "source_pages": [
-              40,
-              41
-            ],
-            "value": [
-              "When someone enters the center of 44 CISTERN, it starts swimming toward them.",
-              "One round after beginning its approach, it urinates in anticipation and fills the air with an ammonia stink.",
-              "On the following round, it loses patience and begins swimming on the surface.",
-              "When noisy wall-breaking vibrations reach it, it arrives in 5+1d4 minutes and waits on the cistern bottom near the mouth of the underwater tunnel.",
-              "It rests in 8 PIT 2-in-6 of the time."
-            ]
-          }
-        ],
-        "capabilities": [
-          {
-            "confidence": "high",
-            "observation_id": "observation.content.009.actor.lamb",
-            "pack_id": "content.009",
-            "source_pages": [
-              40,
-              41
-            ],
-            "value": [
-              "Swims 10 feet per round.",
-              "Climbs the slick walls at 46 DAYLIGHT as fast as a human can."
-            ]
-          }
-        ],
-        "hidden": [
-          {
-            "confidence": "high",
-            "observation_id": "observation.content.009.actor.lamb",
-            "pack_id": "content.009",
-            "source_pages": [
-              40,
-              41
-            ],
-            "value": [
-              "The author recommends attacking it in 8 PIT when it is resting there, using fire and sharp things while it struggles to climb out.",
-              "The White Temple regards it as their godling."
-            ]
-          }
-        ],
-        "knowledge_references": [
-          {
-            "confidence": "high",
-            "observation_id": "observation.content.009.actor.lamb",
-            "pack_id": "content.009",
-            "source_pages": [
-              40,
-              41
-            ],
-            "value": [
-              "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
-              "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria"
-            ]
-          }
-        ],
-        "location_references": [
-          {
-            "confidence": "high",
-            "observation_id": "observation.content.009.actor.lamb",
-            "pack_id": "content.009",
-            "source_pages": [
-              40,
-              41
-            ],
-            "value": [
-              "place.module-lair-of-the-lamb.44-cistern",
-              "place.module-lair-of-the-lamb.46-daylight"
-            ]
-          }
-        ],
-        "reactions": [
-          {
-            "confidence": "high",
-            "observation_id": "observation.content.009.actor.lamb",
-            "pack_id": "content.009",
-            "source_pages": [
-              40,
-              41
-            ],
-            "value": [
-              {
-                "response": "The Lamb starts swimming toward that person.",
-                "stimulus": "A person enters the central 50-foot-by-50-foot area of 44 CISTERN."
-              },
-              {
-                "response": "It urinates in anticipation, filling the air with the stink of ammonia.",
-                "stimulus": "One round passes after the Lamb starts approaching."
-              },
-              {
-                "response": "It loses patience and swims on the surface.",
-                "stimulus": "Another round passes after the ammonia warning."
-              },
-              {
-                "response": "It arrives in 5+1d4 minutes, then waits on the bottom near the underwater tunnel mouth.",
-                "stimulus": "The wall at 44A is broken down noisily."
-              },
-              {
-                "response": "The attempt works automatically.",
-                "stimulus": "The party fishes for it with the hook hand and acceptable bait for the first time."
-              }
-            ]
-          }
-        ],
-        "role": [
-          {
-            "confidence": "high",
-            "observation_id": "observation.content.009.actor.lamb",
-            "pack_id": "content.009",
-            "source_pages": [
-              40,
-              41
-            ],
-            "value": "The creature that hunts entrants in the cistern and can be fought, lured, ensnared, or killed."
-          }
-        ],
-        "situation_references": [
-          {
-            "confidence": "high",
-            "observation_id": "observation.content.009.actor.lamb",
-            "pack_id": "content.009",
-            "source_pages": [
-              40,
-              41
-            ],
-            "value": [
-              "situation.module-lair-of-the-lamb.noisy-breach-at-44a",
-              "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern",
-              "situation.module-lair-of-the-lamb.fighting-the-lamb"
-            ]
-          }
-        ],
-        "title": [
-          {
-            "confidence": "high",
-            "observation_id": "observation.content.009.actor.lamb",
-            "pack_id": "content.009",
-            "source_pages": [
-              40,
-              41
-            ],
-            "value": "The Lamb"
-          }
-        ]
-      },
-      "fields": {
-        "behavior": [
-          "When someone enters the center of 44 CISTERN, it starts swimming toward them.",
-          "One round after beginning its approach, it urinates in anticipation and fills the air with an ammonia stink.",
-          "On the following round, it loses patience and begins swimming on the surface.",
-          "When noisy wall-breaking vibrations reach it, it arrives in 5+1d4 minutes and waits on the cistern bottom near the mouth of the underwater tunnel.",
-          "It rests in 8 PIT 2-in-6 of the time."
-        ],
-        "capabilities": [
-          "Swims 10 feet per round.",
-          "Climbs the slick walls at 46 DAYLIGHT as fast as a human can."
-        ],
-        "hidden": [
-          "The author recommends attacking it in 8 PIT when it is resting there, using fire and sharp things while it struggles to climb out.",
-          "The White Temple regards it as their godling."
-        ],
-        "knowledge_references": [
-          "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
-          "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria"
-        ],
-        "location_references": [
-          "place.module-lair-of-the-lamb.44-cistern",
-          "place.module-lair-of-the-lamb.46-daylight"
-        ],
-        "reactions": [
-          {
-            "response": "The Lamb starts swimming toward that person.",
-            "stimulus": "A person enters the central 50-foot-by-50-foot area of 44 CISTERN."
-          },
-          {
-            "response": "It urinates in anticipation, filling the air with the stink of ammonia.",
-            "stimulus": "One round passes after the Lamb starts approaching."
-          },
-          {
-            "response": "It loses patience and swims on the surface.",
-            "stimulus": "Another round passes after the ammonia warning."
-          },
-          {
-            "response": "It arrives in 5+1d4 minutes, then waits on the bottom near the underwater tunnel mouth.",
-            "stimulus": "The wall at 44A is broken down noisily."
-          },
-          {
-            "response": "The attempt works automatically.",
-            "stimulus": "The party fishes for it with the hook hand and acceptable bait for the first time."
-          }
-        ],
-        "role": "The creature that hunts entrants in the cistern and can be fought, lured, ensnared, or killed.",
-        "situation_references": [
-          "situation.module-lair-of-the-lamb.noisy-breach-at-44a",
-          "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern",
-          "situation.module-lair-of-the-lamb.fighting-the-lamb"
-        ],
-        "title": "The Lamb"
-      },
-      "id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
-      "observation_ids": [
-        "observation.content.009.actor.lamb"
-      ],
-      "record_type": "actor",
-      "references": [
-        "actor.module-lair-of-the-lamb.the-white-temple",
-        "effect.lamb-movement-rates",
-        "effect.lamb-resting-in-8-pit",
-        "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
-        "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria",
-        "place.module-lair-of-the-lamb.44-cistern",
-        "place.module-lair-of-the-lamb.44a-wall",
-        "place.module-lair-of-the-lamb.46-daylight",
-        "situation.module-lair-of-the-lamb.fighting-the-lamb",
-        "situation.module-lair-of-the-lamb.noisy-breach-at-44a",
-        "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern"
-      ],
-      "source_pages": [
-        40,
-        41
-      ]
-    },
-    {
-      "extracted_ids": [
+        "actor.lamb",
         "actor.the-lamb"
       ],
       "field_observations": {
@@ -52682,6 +52574,22 @@
               "It is not smart but is clever, learns from mistakes, and adopts better tactics with exposure.",
               "If it finishes eating or loses track of the party, it heads to 9 FOUNTAIN for a bath."
             ]
+          },
+          {
+            "confidence": "high",
+            "observation_id": "observation.content.009.actor.lamb",
+            "pack_id": "content.009",
+            "source_pages": [
+              40,
+              41
+            ],
+            "value": [
+              "When someone enters the center of 44 CISTERN, it starts swimming toward them.",
+              "One round after beginning its approach, it urinates in anticipation and fills the air with an ammonia stink.",
+              "On the following round, it loses patience and begins swimming on the surface.",
+              "When noisy wall-breaking vibrations reach it, it arrives in 5+1d4 minutes and waits on the cistern bottom near the mouth of the underwater tunnel.",
+              "It rests in 8 PIT 2-in-6 of the time."
+            ]
           }
         ],
         "capabilities": [
@@ -52714,6 +52622,34 @@
             "value": [
               "Produces the exotic types of waste stored in the four pools of area 20."
             ]
+          },
+          {
+            "confidence": "high",
+            "observation_id": "observation.content.009.actor.lamb",
+            "pack_id": "content.009",
+            "source_pages": [
+              40,
+              41
+            ],
+            "value": [
+              "Swims 10 feet per round.",
+              "Climbs the slick walls at 46 DAYLIGHT as fast as a human can."
+            ]
+          }
+        ],
+        "hidden": [
+          {
+            "confidence": "high",
+            "observation_id": "observation.content.009.actor.lamb",
+            "pack_id": "content.009",
+            "source_pages": [
+              40,
+              41
+            ],
+            "value": [
+              "The author recommends attacking it in 8 PIT when it is resting there, using fire and sharp things while it struggles to climb out.",
+              "The White Temple regards it as their godling."
+            ]
           }
         ],
         "knowledge_references": [
@@ -52726,6 +52662,19 @@
             ],
             "value": [
               "knowledge.module-lair-of-the-lamb.the-lamb"
+            ]
+          },
+          {
+            "confidence": "high",
+            "observation_id": "observation.content.009.actor.lamb",
+            "pack_id": "content.009",
+            "source_pages": [
+              40,
+              41
+            ],
+            "value": [
+              "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
+              "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria"
             ]
           }
         ],
@@ -52756,6 +52705,19 @@
             ],
             "value": [
               "place.module-lair-of-the-lamb.20-pools"
+            ]
+          },
+          {
+            "confidence": "high",
+            "observation_id": "observation.content.009.actor.lamb",
+            "pack_id": "content.009",
+            "source_pages": [
+              40,
+              41
+            ],
+            "value": [
+              "place.module-lair-of-the-lamb.44-cistern",
+              "place.module-lair-of-the-lamb.46-daylight"
             ]
           }
         ],
@@ -52790,6 +52752,37 @@
               {
                 "response": "It becomes cunning and begins blocking the crawl tunnel with bones.",
                 "stimulus": "It has experienced 3 encounters with the party near 10 BONE PILE."
+              }
+            ]
+          },
+          {
+            "confidence": "high",
+            "observation_id": "observation.content.009.actor.lamb",
+            "pack_id": "content.009",
+            "source_pages": [
+              40,
+              41
+            ],
+            "value": [
+              {
+                "response": "The Lamb starts swimming toward that person.",
+                "stimulus": "A person enters the central 50-foot-by-50-foot area of 44 CISTERN."
+              },
+              {
+                "response": "It urinates in anticipation, filling the air with the stink of ammonia.",
+                "stimulus": "One round passes after the Lamb starts approaching."
+              },
+              {
+                "response": "It loses patience and swims on the surface.",
+                "stimulus": "Another round passes after the ammonia warning."
+              },
+              {
+                "response": "It arrives in 5+1d4 minutes, then waits on the bottom near the underwater tunnel mouth.",
+                "stimulus": "The wall at 44A is broken down noisily."
+              },
+              {
+                "response": "The attempt works automatically.",
+                "stimulus": "The party fishes for it with the hook hand and acceptable bait for the first time."
               }
             ]
           }
@@ -52854,6 +52847,16 @@
               26
             ],
             "value": "The creature whose exotic waste is stored in the pools of area 20 and whose assistance Vandress intends to seek when hunting the party."
+          },
+          {
+            "confidence": "high",
+            "observation_id": "observation.content.009.actor.lamb",
+            "pack_id": "content.009",
+            "source_pages": [
+              40,
+              41
+            ],
+            "value": "The creature that hunts entrants in the cistern and can be fought, lured, ensnared, or killed."
           }
         ],
         "situation_references": [
@@ -52873,6 +52876,20 @@
               "situation.module-lair-of-the-lamb.the-lamb-is-nearby",
               "situation.module-lair-of-the-lamb.distant-grunting-and-gnawing",
               "situation.module-lair-of-the-lamb.the-lamb-blocks-the-bone-pile-tunnel"
+            ]
+          },
+          {
+            "confidence": "high",
+            "observation_id": "observation.content.009.actor.lamb",
+            "pack_id": "content.009",
+            "source_pages": [
+              40,
+              41
+            ],
+            "value": [
+              "situation.module-lair-of-the-lamb.noisy-breach-at-44a",
+              "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern",
+              "situation.module-lair-of-the-lamb.fighting-the-lamb"
             ]
           }
         ],
@@ -52922,6 +52939,16 @@
               26
             ],
             "value": "the Lamb"
+          },
+          {
+            "confidence": "high",
+            "observation_id": "observation.content.009.actor.lamb",
+            "pack_id": "content.009",
+            "source_pages": [
+              40,
+              41
+            ],
+            "value": "The Lamb"
           }
         ]
       },
@@ -52931,7 +52958,12 @@
           "Mostly remains in 8 PIT and 9 FOUNTAIN.",
           "Its sight and hearing are slightly worse than an average human’s.",
           "It is not smart but is clever, learns from mistakes, and adopts better tactics with exposure.",
-          "If it finishes eating or loses track of the party, it heads to 9 FOUNTAIN for a bath."
+          "If it finishes eating or loses track of the party, it heads to 9 FOUNTAIN for a bath.",
+          "When someone enters the center of 44 CISTERN, it starts swimming toward them.",
+          "One round after beginning its approach, it urinates in anticipation and fills the air with an ammonia stink.",
+          "On the following round, it loses patience and begins swimming on the surface.",
+          "When noisy wall-breaking vibrations reach it, it arrives in 5+1d4 minutes and waits on the cistern bottom near the mouth of the underwater tunnel.",
+          "It rests in 8 PIT 2-in-6 of the time."
         ],
         "capabilities": [
           "Lvl 6; Def chain; Bite/Crush 1d8/1d18; Move slow; Climb slug; Str 9; Int 3; Dis hungry.",
@@ -52942,8 +52974,14 @@
           "Carries 52 Nascent Lambfruit and 6 Immature Lambfruit.",
           "Produces the exotic types of waste stored in the four pools of area 20."
         ],
+        "hidden": [
+          "The author recommends attacking it in 8 PIT when it is resting there, using fire and sharp things while it struggles to climb out.",
+          "The White Temple regards it as their godling."
+        ],
         "knowledge_references": [
-          "knowledge.module-lair-of-the-lamb.the-lamb"
+          "knowledge.module-lair-of-the-lamb.the-lamb",
+          "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
+          "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria"
         ],
         "location_references": [
           "place.module-lair-of-the-lamb.1-bowls",
@@ -52972,6 +53010,26 @@
           {
             "response": "It becomes cunning and begins blocking the crawl tunnel with bones.",
             "stimulus": "It has experienced 3 encounters with the party near 10 BONE PILE."
+          },
+          {
+            "response": "The Lamb starts swimming toward that person.",
+            "stimulus": "A person enters the central 50-foot-by-50-foot area of 44 CISTERN."
+          },
+          {
+            "response": "It urinates in anticipation, filling the air with the stink of ammonia.",
+            "stimulus": "One round passes after the Lamb starts approaching."
+          },
+          {
+            "response": "It loses patience and swims on the surface.",
+            "stimulus": "Another round passes after the ammonia warning."
+          },
+          {
+            "response": "It arrives in 5+1d4 minutes, then waits on the bottom near the underwater tunnel mouth.",
+            "stimulus": "The wall at 44A is broken down noisily."
+          },
+          {
+            "response": "The attempt works automatically.",
+            "stimulus": "The party fishes for it with the hook hand and acceptable bait for the first time."
           }
         ],
         "relationships": [
@@ -52990,31 +53048,45 @@
           "situation.module-lair-of-the-lamb.the-lamb-approaches",
           "situation.module-lair-of-the-lamb.the-lamb-is-nearby",
           "situation.module-lair-of-the-lamb.distant-grunting-and-gnawing",
-          "situation.module-lair-of-the-lamb.the-lamb-blocks-the-bone-pile-tunnel"
+          "situation.module-lair-of-the-lamb.the-lamb-blocks-the-bone-pile-tunnel",
+          "situation.module-lair-of-the-lamb.noisy-breach-at-44a",
+          "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern",
+          "situation.module-lair-of-the-lamb.fighting-the-lamb"
         ],
         "starting_state": [
           "Lumbering into 1 BOWLS as the game begins."
         ],
         "title": "The Lamb"
       },
-      "id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+      "id": "actor.module-lair-of-the-lamb.the-lamb",
       "observation_ids": [
         "observation.content.004.actor.the-lamb",
         "observation.content.005.actor.the-lamb",
-        "observation.content.006.actor.the-lamb"
+        "observation.content.006.actor.the-lamb",
+        "observation.content.009.actor.lamb"
       ],
       "record_type": "actor",
       "references": [
         "actor.module-lair-of-the-lamb.the-white-temple",
         "actor.module-lair-of-the-lamb.vandress",
+        "effect.lamb-movement-rates",
+        "effect.lamb-resting-in-8-pit",
+        "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
         "knowledge.module-lair-of-the-lamb.the-lamb",
+        "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria",
         "place.module-lair-of-the-lamb.1-bowls",
         "place.module-lair-of-the-lamb.10-bone-pile",
         "place.module-lair-of-the-lamb.20-pools",
+        "place.module-lair-of-the-lamb.44-cistern",
+        "place.module-lair-of-the-lamb.44a-wall",
+        "place.module-lair-of-the-lamb.46-daylight",
         "place.module-lair-of-the-lamb.8-pit",
         "place.module-lair-of-the-lamb.9-fountain",
         "situation.module-lair-of-the-lamb.distant-grunting-and-gnawing",
+        "situation.module-lair-of-the-lamb.fighting-the-lamb",
+        "situation.module-lair-of-the-lamb.noisy-breach-at-44a",
         "situation.module-lair-of-the-lamb.the-lamb-approaches",
+        "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern",
         "situation.module-lair-of-the-lamb.the-lamb-blocks-the-bone-pile-tunnel",
         "situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls",
         "situation.module-lair-of-the-lamb.the-lamb-is-nearby"
@@ -53025,7 +53097,9 @@
         19,
         20,
         23,
-        26
+        26,
+        40,
+        41
       ]
     },
     {
@@ -53687,7 +53761,7 @@
             "value": [
               {
                 "relationship": "The White Temple regards the Lamb as its godling.",
-                "target_id": "actor.module-lair-of-the-lamb.the-lamb-25359288"
+                "target_id": "actor.module-lair-of-the-lamb.the-lamb"
               }
             ]
           }
@@ -53763,7 +53837,7 @@
         "relationships": [
           {
             "relationship": "The White Temple regards the Lamb as its godling.",
-            "target_id": "actor.module-lair-of-the-lamb.the-lamb-25359288"
+            "target_id": "actor.module-lair-of-the-lamb.the-lamb"
           }
         ],
         "role": "One of the three great temples holding power in Lon Barago, worshipping Vandoh; its structure above the cistern receives water from the noria, and it may retaliate if its godling is expelled into its drinking fountain.",
@@ -53776,7 +53850,7 @@
       ],
       "record_type": "actor",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.white-temple-forceful-response",
         "knowledge.module-lair-of-the-lamb.the-lamb",
         "knowledge.module-lair-of-the-lamb.the-noria-feeds-the-white-temple",
@@ -54180,7 +54254,7 @@
             "value": [
               {
                 "relationship": "She intends to find the Lamb and use its assistance to hunt the party.",
-                "target_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+                "target_id": "actor.module-lair-of-the-lamb.the-lamb"
               }
             ]
           }
@@ -54275,7 +54349,7 @@
         "relationships": [
           {
             "relationship": "She intends to find the Lamb and use its assistance to hunt the party.",
-            "target_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+            "target_id": "actor.module-lair-of-the-lamb.the-lamb"
           }
         ],
         "role": "The eldest priestess, immersed in the pink pool in area 20; unlike her peers, she retains full mental capacity and can parlay or pursue the party.",
@@ -54293,7 +54367,7 @@
       ],
       "record_type": "actor",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.vandress-pink-slime-addiction",
         "knowledge.module-lair-of-the-lamb.white-temple-cleanup-schedule",
         "place.module-lair-of-the-lamb.20-pools",
@@ -55078,7 +55152,7 @@
       ],
       "record_type": "effect",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.44-cistern",
         "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern"
       ],
@@ -55126,7 +55200,7 @@
       "references": [
         "actor.module-lair-of-the-lamb.available-ghouls",
         "actor.module-lair-of-the-lamb.the-apparatus",
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-spider-crab",
         "place.module-lair-of-the-lamb.44-cistern",
         "place.module-lair-of-the-lamb.44a-wall",
@@ -57439,7 +57513,7 @@
       ],
       "record_type": "effect",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "item.module-lair-of-the-lamb.hook-hand",
         "procedure.module-lair-of-the-lamb.fish-for-the-lamb",
         "situation.module-lair-of-the-lamb.fighting-the-lamb"
@@ -57978,7 +58052,7 @@
       ],
       "record_type": "effect",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "source_pages": [
         20
@@ -58022,7 +58096,7 @@
       ],
       "record_type": "effect",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "source_pages": [
         20
@@ -58068,7 +58142,7 @@
       ],
       "record_type": "effect",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.44-cistern",
         "place.module-lair-of-the-lamb.46-daylight"
       ],
@@ -58115,7 +58189,7 @@
       ],
       "record_type": "effect",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
         "situation.module-lair-of-the-lamb.fighting-the-lamb"
       ],
@@ -58161,7 +58235,7 @@
       ],
       "record_type": "effect",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.12-abacus-mural",
         "situation.module-lair-of-the-lamb.collapse-of-12-abacus-mural"
       ],
@@ -58515,7 +58589,7 @@
       ],
       "record_type": "effect",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-little-lambs",
         "situation.module-lair-of-the-lamb.little-lambs-emerge-from-the-corpse"
       ],
@@ -58737,7 +58811,7 @@
       ],
       "record_type": "effect",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.44-cistern",
         "procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria",
         "situation.module-lair-of-the-lamb.fighting-the-lamb"
@@ -59008,7 +59082,7 @@
       "record_type": "effect",
       "references": [
         "actor.module-lair-of-the-lamb.priest-of-the-pool",
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.19-priests"
       ],
       "source_pages": [
@@ -60793,7 +60867,7 @@
       ],
       "record_type": "effect",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-white-temple",
         "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria",
         "procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria"
@@ -63334,7 +63408,7 @@
       ],
       "record_type": "item",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.first-lamb-fishing-success",
         "procedure.module-lair-of-the-lamb.fish-for-the-lamb",
         "situation.module-lair-of-the-lamb.fighting-the-lamb"
@@ -66759,7 +66833,7 @@
       ],
       "record_type": "knowledge",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.13-city-mural",
         "place.module-lair-of-the-lamb.9-fountain"
       ],
@@ -66902,7 +66976,7 @@
       ],
       "record_type": "knowledge",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.lamb-resting-in-8-pit",
         "situation.module-lair-of-the-lamb.fighting-the-lamb"
       ],
@@ -66998,7 +67072,7 @@
       ],
       "record_type": "knowledge",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-white-temple"
       ],
       "source_pages": [
@@ -67274,7 +67348,7 @@
       ],
       "record_type": "knowledge",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-white-temple",
         "effect.white-temple-forceful-response",
         "place.module-lair-of-the-lamb.44-cistern",
@@ -67299,7 +67373,7 @@
               21
             ],
             "value": [
-              "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+              "actor.module-lair-of-the-lamb.the-lamb"
             ]
           }
         ],
@@ -67413,7 +67487,7 @@
       },
       "fields": {
         "actor_references": [
-          "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+          "actor.module-lair-of-the-lamb.the-lamb"
         ],
         "contents": [
           "Three enormous stone bowls.",
@@ -67442,7 +67516,7 @@
       ],
       "record_type": "location",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "procedure.module-lair-of-the-lamb.starting-the-game",
         "situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls"
       ],
@@ -69537,7 +69611,7 @@
             ],
             "value": [
               "actor.module-lair-of-the-lamb.vandress",
-              "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+              "actor.module-lair-of-the-lamb.the-lamb"
             ]
           }
         ],
@@ -69660,7 +69734,7 @@
       "fields": {
         "actor_references": [
           "actor.module-lair-of-the-lamb.vandress",
-          "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+          "actor.module-lair-of-the-lamb.the-lamb"
         ],
         "contents": [
           "Four irregular pools of different colors: pink, yellow, milky, and black.",
@@ -69695,7 +69769,7 @@
       ],
       "record_type": "location",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.vandress",
         "effect.black-pool-smoke-vomiting",
         "effect.milky-pool-acid",
@@ -73844,7 +73918,7 @@
               41
             ],
             "value": [
-              "actor.module-lair-of-the-lamb.the-lamb-25359288"
+              "actor.module-lair-of-the-lamb.the-lamb"
             ]
           }
         ],
@@ -74037,7 +74111,7 @@
       },
       "fields": {
         "actor_references": [
-          "actor.module-lair-of-the-lamb.the-lamb-25359288"
+          "actor.module-lair-of-the-lamb.the-lamb"
         ],
         "contents": [
           "Water 10 feet deep.",
@@ -74101,7 +74175,7 @@
       ],
       "record_type": "location",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.44-cistern-ammonia-warning",
         "effect.cistern-carried-item-swim-penalty",
         "effect.first-lamb-fishing-success",
@@ -74143,7 +74217,7 @@
               "actor.module-lair-of-the-lamb.available-ghouls",
               "actor.module-lair-of-the-lamb.the-apparatus",
               "actor.module-lair-of-the-lamb.the-spider-crab",
-              "actor.module-lair-of-the-lamb.the-lamb-25359288"
+              "actor.module-lair-of-the-lamb.the-lamb"
             ]
           }
         ],
@@ -74319,7 +74393,7 @@
           "actor.module-lair-of-the-lamb.available-ghouls",
           "actor.module-lair-of-the-lamb.the-apparatus",
           "actor.module-lair-of-the-lamb.the-spider-crab",
-          "actor.module-lair-of-the-lamb.the-lamb-25359288"
+          "actor.module-lair-of-the-lamb.the-lamb"
         ],
         "contents": [
           "A more-modern brick wall on the west side.",
@@ -74377,7 +74451,7 @@
       "references": [
         "actor.module-lair-of-the-lamb.available-ghouls",
         "actor.module-lair-of-the-lamb.the-apparatus",
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-spider-crab",
         "effect.44a-breach-attracts-threats",
         "effect.44a-wall-opening-times",
@@ -74558,7 +74632,7 @@
               41
             ],
             "value": [
-              "actor.module-lair-of-the-lamb.the-lamb-25359288"
+              "actor.module-lair-of-the-lamb.the-lamb"
             ]
           }
         ],
@@ -74652,7 +74726,7 @@
       },
       "fields": {
         "actor_references": [
-          "actor.module-lair-of-the-lamb.the-lamb-25359288"
+          "actor.module-lair-of-the-lamb.the-lamb"
         ],
         "contents": [
           "Barely submerged rubble made from broken stairs.",
@@ -74679,7 +74753,7 @@
       ],
       "record_type": "location",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.46-daylight-access-checks",
         "effect.lamb-movement-rates",
         "item.module-lair-of-the-lamb.grappling-hook",
@@ -75496,7 +75570,7 @@
             ],
             "value": [
               "actor.module-lair-of-the-lamb.akina",
-              "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+              "actor.module-lair-of-the-lamb.the-lamb"
             ]
           }
         ],
@@ -75619,7 +75693,7 @@
       "fields": {
         "actor_references": [
           "actor.module-lair-of-the-lamb.akina",
-          "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+          "actor.module-lair-of-the-lamb.the-lamb"
         ],
         "contents": [
           "Slimy pit 40 feet deep and 30 feet across.",
@@ -75655,7 +75729,7 @@
       "record_type": "location",
       "references": [
         "actor.module-lair-of-the-lamb.akina",
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "knowledge.module-lair-of-the-lamb.akinas-knowledge",
         "situation.module-lair-of-the-lamb.akinas-rescue-bargain"
       ],
@@ -75677,7 +75751,7 @@
               23
             ],
             "value": [
-              "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+              "actor.module-lair-of-the-lamb.the-lamb"
             ]
           }
         ],
@@ -75828,7 +75902,7 @@
       },
       "fields": {
         "actor_references": [
-          "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+          "actor.module-lair-of-the-lamb.the-lamb"
         ],
         "contents": [
           "Slimy pool, 30 feet deep.",
@@ -75872,7 +75946,7 @@
       ],
       "record_type": "location",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "knowledge.module-lair-of-the-lamb.tumbler-password",
         "procedure.module-lair-of-the-lamb.ending-the-fountain-haunting",
         "situation.module-lair-of-the-lamb.the-haunting-of-9-fountain"
@@ -77968,7 +78042,7 @@
       ],
       "record_type": "procedure",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.abacus-ceiling-collapse",
         "effect.lamb-under-rubble",
         "place.module-lair-of-the-lamb.12-abacus-mural"
@@ -78102,7 +78176,7 @@
       ],
       "record_type": "procedure",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-white-temple",
         "effect.noria-crushes-lamb",
         "effect.white-temple-forceful-response",
@@ -78371,7 +78445,7 @@
       ],
       "record_type": "procedure",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.first-lamb-fishing-success",
         "item.module-lair-of-the-lamb.hook-hand",
         "place.module-lair-of-the-lamb.44-cistern",
@@ -78969,7 +79043,7 @@
       ],
       "record_type": "procedure",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.5-landing",
         "place.module-lair-of-the-lamb.8-pit"
       ],
@@ -79174,7 +79248,7 @@
       ],
       "record_type": "procedure",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.46-daylight-access-checks",
         "item.module-lair-of-the-lamb.grappling-hook",
         "place.module-lair-of-the-lamb.46-daylight",
@@ -79317,7 +79391,7 @@
       "references": [
         "actor.module-lair-of-the-lamb.available-ghouls",
         "actor.module-lair-of-the-lamb.the-apparatus",
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-spider-crab",
         "effect.44a-breach-attracts-threats",
         "place.module-lair-of-the-lamb.44-cistern",
@@ -79450,7 +79524,7 @@
       ],
       "record_type": "procedure",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.44-cistern",
         "procedure.module-lair-of-the-lamb.calculate-human-swim-speed-in-44-cistern",
         "procedure.module-lair-of-the-lamb.calculate-makeshift-table-boat-speed",
@@ -79778,7 +79852,7 @@
       ],
       "record_type": "procedure",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.1-bowls",
         "rule.character-control",
         "rule.dehydration",
@@ -85768,7 +85842,7 @@
       ],
       "record_type": "situation",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.abacus-ceiling-collapse",
         "effect.lamb-under-rubble",
         "place.module-lair-of-the-lamb.12-abacus-mural",
@@ -86348,7 +86422,7 @@
             ],
             "value": [
               {
-                "actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+                "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
                 "role": "Encounter subject."
               }
             ]
@@ -86400,7 +86474,7 @@
         ],
         "participants": [
           {
-            "actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+            "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
             "role": "Encounter subject."
           }
         ],
@@ -86416,7 +86490,7 @@
       ],
       "record_type": "situation",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "source_pages": [
         18
@@ -86464,7 +86538,7 @@
             ],
             "value": [
               {
-                "actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+                "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
                 "role": "Encounter subject."
               }
             ]
@@ -86516,7 +86590,7 @@
         ],
         "participants": [
           {
-            "actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+            "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
             "role": "Encounter subject."
           }
         ],
@@ -86532,7 +86606,7 @@
       ],
       "record_type": "situation",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "source_pages": [
         18
@@ -86685,7 +86759,7 @@
         "actor.module-lair-of-the-lamb.bilosh",
         "actor.module-lair-of-the-lamb.father-bastoval",
         "actor.module-lair-of-the-lamb.mino",
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "source_pages": [
         20
@@ -86790,7 +86864,7 @@
             ],
             "value": [
               {
-                "actor_id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
+                "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
                 "role": "Primary enemy in the arena."
               }
             ]
@@ -86820,7 +86894,7 @@
                 "condition": "The party gets the Lamb ensnared in the noria.",
                 "description": "The noria can crush and kill the ensnared Lamb against the slotted ceiling.",
                 "effect": "actor-state",
-                "target": "actor.module-lair-of-the-lamb.the-lamb-25359288"
+                "target": "actor.module-lair-of-the-lamb.the-lamb"
               },
               {
                 "description": "The White Temple may respond swiftly and forcefully if its godling is ejected into its drinking fountain.",
@@ -86897,7 +86971,7 @@
         ],
         "participants": [
           {
-            "actor_id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
+            "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
             "role": "Primary enemy in the arena."
           }
         ],
@@ -86907,7 +86981,7 @@
             "condition": "The party gets the Lamb ensnared in the noria.",
             "description": "The noria can crush and kill the ensnared Lamb against the slotted ceiling.",
             "effect": "actor-state",
-            "target": "actor.module-lair-of-the-lamb.the-lamb-25359288"
+            "target": "actor.module-lair-of-the-lamb.the-lamb"
           },
           {
             "description": "The White Temple may respond swiftly and forcefully if its godling is ejected into its drinking fountain.",
@@ -86931,7 +87005,7 @@
       ],
       "record_type": "situation",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-white-temple",
         "effect.first-lamb-fishing-success",
         "effect.lamb-resting-in-8-pit",
@@ -88167,7 +88241,7 @@
       ],
       "record_type": "situation",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-little-lambs",
         "effect.little-lamb-emergence"
       ],
@@ -88700,7 +88774,7 @@
                 "reaction": "Arrive in 5+1d4 minutes if available."
               },
               {
-                "actor_id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
+                "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
                 "reaction": "Arrive in 5+1d4 minutes and wait on the cistern bottom near the underwater tunnel mouth."
               }
             ]
@@ -88784,7 +88858,7 @@
                 "role": "Converging hostile party if alive and able to reach the breach."
               },
               {
-                "actor_id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
+                "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
                 "role": "Approaches separately and waits underwater in the cistern."
               }
             ]
@@ -88820,7 +88894,7 @@
                 "condition": "The Lamb is alive when its arrival delay resolves.",
                 "description": "After arriving, the Lamb waits on the bottom near the underwater tunnel mouth.",
                 "effect": "actor-state",
-                "target": "actor.module-lair-of-the-lamb.the-lamb-25359288"
+                "target": "actor.module-lair-of-the-lamb.the-lamb"
               },
               {
                 "description": "Parties that arrive simultaneously may fight atop the stairs.",
@@ -88887,7 +88961,7 @@
             "reaction": "Arrive in 5+1d4 minutes if available."
           },
           {
-            "actor_id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
+            "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
             "reaction": "Arrive in 5+1d4 minutes and wait on the cistern bottom near the underwater tunnel mouth."
           }
         ],
@@ -88921,7 +88995,7 @@
             "role": "Converging hostile party if alive and able to reach the breach."
           },
           {
-            "actor_id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
+            "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
             "role": "Approaches separately and waits underwater in the cistern."
           }
         ],
@@ -88937,7 +89011,7 @@
             "condition": "The Lamb is alive when its arrival delay resolves.",
             "description": "After arriving, the Lamb waits on the bottom near the underwater tunnel mouth.",
             "effect": "actor-state",
-            "target": "actor.module-lair-of-the-lamb.the-lamb-25359288"
+            "target": "actor.module-lair-of-the-lamb.the-lamb"
           },
           {
             "description": "Parties that arrive simultaneously may fight atop the stairs.",
@@ -88961,7 +89035,7 @@
       "references": [
         "actor.module-lair-of-the-lamb.available-ghouls",
         "actor.module-lair-of-the-lamb.the-apparatus",
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "actor.module-lair-of-the-lamb.the-spider-crab",
         "effect.44a-breach-attracts-threats",
         "place.module-lair-of-the-lamb.44-cistern",
@@ -91177,7 +91251,7 @@
             ],
             "value": [
               {
-                "actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+                "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
                 "role": "Encounter subject."
               }
             ]
@@ -91229,7 +91303,7 @@
         ],
         "participants": [
           {
-            "actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+            "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
             "role": "Encounter subject."
           }
         ],
@@ -91245,7 +91319,7 @@
       ],
       "record_type": "situation",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "source_pages": [
         18
@@ -91280,7 +91354,7 @@
             ],
             "value": [
               {
-                "actor_id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
+                "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
                 "reaction": "Starts swimming toward the intruders; after one round urinates in anticipation, then surfaces one round later."
               }
             ]
@@ -91351,7 +91425,7 @@
             ],
             "value": [
               {
-                "actor_id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
+                "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
                 "role": "Pursues the person who entered the center."
               }
             ]
@@ -91381,7 +91455,7 @@
                 "condition": "Two rounds pass after it starts approaching.",
                 "description": "The Lamb changes from submerged approach to surface swimming.",
                 "effect": "actor-state",
-                "target": "actor.module-lair-of-the-lamb.the-lamb-25359288"
+                "target": "actor.module-lair-of-the-lamb.the-lamb"
               }
             ]
           }
@@ -91418,7 +91492,7 @@
         },
         "actor_reactions": [
           {
-            "actor_id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
+            "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
             "reaction": "Starts swimming toward the intruders; after one round urinates in anticipation, then surfaces one round later."
           }
         ],
@@ -91439,7 +91513,7 @@
         ],
         "participants": [
           {
-            "actor_id": "actor.module-lair-of-the-lamb.the-lamb-25359288",
+            "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
             "role": "Pursues the person who entered the center."
           }
         ],
@@ -91449,7 +91523,7 @@
             "condition": "Two rounds pass after it starts approaching.",
             "description": "The Lamb changes from submerged approach to surface swimming.",
             "effect": "actor-state",
-            "target": "actor.module-lair-of-the-lamb.the-lamb-25359288"
+            "target": "actor.module-lair-of-the-lamb.the-lamb"
           }
         ],
         "stakes": [
@@ -91463,7 +91537,7 @@
       ],
       "record_type": "situation",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-25359288",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "effect.44-cistern-ammonia-warning",
         "place.module-lair-of-the-lamb.44-cistern",
         "procedure.module-lair-of-the-lamb.calculate-human-swim-speed-in-44-cistern",
@@ -91530,7 +91604,7 @@
             ],
             "value": [
               {
-                "actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+                "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
                 "role": "Blocks the tunnel after becoming cunning."
               }
             ]
@@ -91600,7 +91674,7 @@
         ],
         "participants": [
           {
-            "actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+            "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
             "role": "Blocks the tunnel after becoming cunning."
           }
         ],
@@ -91619,7 +91693,7 @@
       ],
       "record_type": "situation",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.10-bone-pile",
         "place.module-lair-of-the-lamb.14-sarcophagus",
         "procedure.module-lair-of-the-lamb.clearing-the-blocked-bone-pile-tunnel"
@@ -91714,7 +91788,7 @@
             ],
             "value": [
               {
-                "actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+                "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
                 "role": "Immediate predator entering the starting room."
               }
             ]
@@ -91795,7 +91869,7 @@
         ],
         "participants": [
           {
-            "actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+            "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
             "role": "Immediate predator entering the starting room."
           }
         ],
@@ -91816,7 +91890,7 @@
       ],
       "record_type": "situation",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "actor.module-lair-of-the-lamb.the-lamb",
         "place.module-lair-of-the-lamb.1-bowls",
         "procedure.module-lair-of-the-lamb.starting-the-game",
         "rule.dark-door-wisdom-check"
@@ -91867,7 +91941,7 @@
             ],
             "value": [
               {
-                "actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+                "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
                 "role": "Encounter subject."
               }
             ]
@@ -91919,7 +91993,7 @@
         ],
         "participants": [
           {
-            "actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+            "actor_id": "actor.module-lair-of-the-lamb.the-lamb",
             "role": "Encounter subject."
           }
         ],
@@ -91935,7 +92009,7 @@
       ],
       "record_type": "situation",
       "references": [
-        "actor.module-lair-of-the-lamb.the-lamb-c0865d75"
+        "actor.module-lair-of-the-lamb.the-lamb"
       ],
       "source_pages": [
         18
@@ -97753,8 +97827,40 @@
         "uncertainty_id": "uncertainty.map.v2.001.009"
       }
     ],
-    "aliases": [],
-    "canonical_ids": [],
+    "aliases": [
+      {
+        "alias": "actor.lamb",
+        "rationale": "The Lamb in the cistern sequence is the same creature introduced in the opening sequence; both share the title, White Temple relationship, and continuous role.",
+        "source_pages": [
+          16,
+          18,
+          19,
+          20,
+          23,
+          26,
+          40,
+          41
+        ],
+        "target_id": "actor.the-lamb"
+      }
+    ],
+    "canonical_ids": [
+      {
+        "canonical_id": "actor.module-lair-of-the-lamb.the-lamb",
+        "extracted_id": "actor.the-lamb",
+        "rationale": "Pages 16–26 and 40–41 describe the same White Temple godling predator across different dungeon areas; the later cistern material continues the same named Lamb rather than introducing a second creature.",
+        "source_pages": [
+          16,
+          18,
+          19,
+          20,
+          23,
+          26,
+          40,
+          41
+        ]
+      }
+    ],
     "distinct": [
       {
         "left_id": "effect.44a-breach-attracts-threats",
@@ -98068,9 +98174,34 @@
     "topology_composites": [],
     "values": [
       {
+        "field": "behavior",
+        "mode": "compose",
+        "object_id": "actor.module-lair-of-the-lamb.the-lamb",
+        "rationale": "Pages 18–23 describe the Lamb’s opening-dungeon behavior, while pages 40–41 describe its cistern approach and resting pattern; these observations describe complementary behavior of the same actor and are composed.",
+        "source_pages": [
+          18,
+          19,
+          20,
+          23,
+          40,
+          41
+        ],
+        "value": [
+          "Mostly remains in 8 PIT and 9 FOUNTAIN.",
+          "Its sight and hearing are slightly worse than an average human’s.",
+          "It is not smart but is clever, learns from mistakes, and adopts better tactics with exposure.",
+          "If it finishes eating or loses track of the party, it heads to 9 FOUNTAIN for a bath.",
+          "When someone enters the center of 44 CISTERN, it starts swimming toward them.",
+          "One round after beginning its approach, it urinates in anticipation and fills the air with an ammonia stink.",
+          "On the following round, it loses patience and begins swimming on the surface.",
+          "When noisy wall-breaking vibrations reach it, it arrives in 5+1d4 minutes and waits on the cistern bottom near the mouth of the underwater tunnel.",
+          "It rests in 8 PIT 2-in-6 of the time."
+        ]
+      },
+      {
         "field": "capabilities",
         "mode": "compose",
-        "object_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "object_id": "actor.module-lair-of-the-lamb.the-lamb",
         "rationale": "Pages 18–23 provide the Lamb's statistics, defenses, behavior, movement, and carried fruit; page 26 adds the source-supported fact that its exotic waste is stored in area 20. The values describe complementary capabilities and are composed.",
         "source_pages": [
           18,
@@ -98090,9 +98221,25 @@
         ]
       },
       {
+        "field": "knowledge_references",
+        "mode": "compose",
+        "object_id": "actor.module-lair-of-the-lamb.the-lamb",
+        "rationale": "Page 16 records the Lamb’s role in the White Temple’s secret, while pages 40–41 record the recommended opportunity and the Temple’s response; all three knowledge references concern the same Lamb.",
+        "source_pages": [
+          16,
+          40,
+          41
+        ],
+        "value": [
+          "knowledge.module-lair-of-the-lamb.the-lamb",
+          "knowledge.module-lair-of-the-lamb.preferred-opportunity-to-kill-the-lamb",
+          "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria"
+        ]
+      },
+      {
         "field": "location_references",
         "mode": "compose",
-        "object_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "object_id": "actor.module-lair-of-the-lamb.the-lamb",
         "rationale": "The cited encounter, pit, fountain, bone-pile, and pool passages each locate or directly discuss the same Lamb; the complete reference set preserves all five source-supported locations.",
         "source_pages": [
           18,
@@ -98110,9 +98257,65 @@
         ]
       },
       {
+        "field": "reactions",
+        "mode": "compose",
+        "object_id": "actor.module-lair-of-the-lamb.the-lamb",
+        "rationale": "Pages 18–23 record the Lamb’s opening-encounter responses, and pages 40–41 record its cistern and wall-breach responses; the triggers and outcomes are distinct and complementary.",
+        "source_pages": [
+          18,
+          19,
+          20,
+          23,
+          40,
+          41
+        ],
+        "value": [
+          {
+            "response": "It calls “Father! Father!” in increasingly loud tones; it can say nothing else.",
+            "stimulus": "It is wounded or scared."
+          },
+          {
+            "response": "It devours one restrained human at random over 10 minutes and is not very alert while eating.",
+            "stimulus": "People hide from it during the opening encounter."
+          },
+          {
+            "response": "It attacks.",
+            "stimulus": "People flee noisily during the opening encounter."
+          },
+          {
+            "response": "It does not notice them.",
+            "stimulus": "People leave slowly and quietly during the opening encounter."
+          },
+          {
+            "response": "It becomes cunning and begins blocking the crawl tunnel with bones.",
+            "stimulus": "It has experienced 3 encounters with the party near 10 BONE PILE."
+          },
+          {
+            "response": "The Lamb starts swimming toward that person.",
+            "stimulus": "A person enters the central 50-foot-by-50-foot area of 44 CISTERN."
+          },
+          {
+            "response": "It urinates in anticipation, filling the air with the stink of ammonia.",
+            "stimulus": "One round passes after the Lamb starts approaching."
+          },
+          {
+            "response": "It loses patience and swims on the surface.",
+            "stimulus": "Another round passes after the ammonia warning."
+          },
+          {
+            "response": "It arrives in 5+1d4 minutes, then waits on the bottom near the underwater tunnel mouth.",
+            "stimulus": "The wall at 44A is broken down noisily."
+          },
+          {
+            "response": "The attempt works automatically.",
+            "stimulus": "The party fishes for it with the hook hand and acceptable bait for the first time."
+          }
+        ]
+      },
+      {
         "field": "relationships",
         "mode": "compose",
-        "object_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "object_id": "actor.module-lair-of-the-lamb.the-lamb",
         "rationale": "Page 16 establishes the White Temple's secret relationship and page 26 establishes Vandress's intended hunt; both are distinct source-supported relationships of the Lamb.",
         "source_pages": [
           16,
@@ -98132,7 +98335,7 @@
       {
         "field": "role",
         "mode": "select",
-        "object_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "object_id": "actor.module-lair-of-the-lamb.the-lamb",
         "rationale": "The role combines the adventure overview, the Lamb's dungeon behavior, and the area-20/Vandress facts; all parts are stated in the cited pages.",
         "source_pages": [
           16,
@@ -98145,9 +98348,33 @@
         "value": "The dungeon's central predator and the White Temple's holy child: it guards and roams between its pit and fountain, produces the waste stored in area 20, and is the creature Vandress intends to seek when hunting the party."
       },
       {
+        "field": "situation_references",
+        "mode": "compose",
+        "object_id": "actor.module-lair-of-the-lamb.the-lamb",
+        "rationale": "Pages 18–23 provide the opening and dungeon-encounter situations, while pages 40–41 provide the cistern and wall-breach situations; all eight references concern the same Lamb across its connected appearances.",
+        "source_pages": [
+          18,
+          19,
+          20,
+          23,
+          40,
+          41
+        ],
+        "value": [
+          "situation.module-lair-of-the-lamb.the-lamb-enters-1-bowls",
+          "situation.module-lair-of-the-lamb.the-lamb-approaches",
+          "situation.module-lair-of-the-lamb.the-lamb-is-nearby",
+          "situation.module-lair-of-the-lamb.distant-grunting-and-gnawing",
+          "situation.module-lair-of-the-lamb.the-lamb-blocks-the-bone-pile-tunnel",
+          "situation.module-lair-of-the-lamb.noisy-breach-at-44a",
+          "situation.module-lair-of-the-lamb.the-lamb-approaches-in-44-cistern",
+          "situation.module-lair-of-the-lamb.fighting-the-lamb"
+        ]
+      },
+      {
         "field": "title",
         "mode": "select",
-        "object_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75",
+        "object_id": "actor.module-lair-of-the-lamb.the-lamb",
         "rationale": "The heading and prose consistently name this actor The Lamb; capitalization is normalized without changing the source identity.",
         "source_pages": [
           16,
@@ -98792,7 +99019,7 @@
       }
     ]
   },
-  "review_sha256": "2b2989825220528244f24aec05365c9d84a9f6ac5631477fceb5d2681c73d952",
+  "review_sha256": "ef9f24413f52e42e619d8dc29634bcbc272d190a15758f20211f3d0e164191bf",
   "schema": "operational-module/v3",
   "source": {
     "filename": "Module - Lair of the Lamb.pdf",

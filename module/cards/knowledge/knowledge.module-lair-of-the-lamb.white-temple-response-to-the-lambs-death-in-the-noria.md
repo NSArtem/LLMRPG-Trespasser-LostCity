@@ -5,7 +5,7 @@ title: "White Temple Response to the Lamb's Death in the Noria"
 aliases: ["knowledge.white-temple-godling-response"]
 source_pages: [41]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-25359288", "actor.module-lair-of-the-lamb.the-white-temple", "effect.white-temple-forceful-response", "place.module-lair-of-the-lamb.44-cistern", "procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "actor.module-lair-of-the-lamb.the-white-temple", "effect.white-temple-forceful-response", "place.module-lair-of-the-lamb.44-cistern", "procedure.module-lair-of-the-lamb.crush-the-lamb-with-the-noria"]
 ---
 
 # White Temple Response to the Lamb's Death in the Noria

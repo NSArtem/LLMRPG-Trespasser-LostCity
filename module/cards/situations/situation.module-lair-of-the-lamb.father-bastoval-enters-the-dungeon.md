@@ -5,13 +5,13 @@ title: "Father Bastoval Enters the Dungeon"
 aliases: ["situation.bastoval-enters-after-lamb-death"]
 source_pages: [20]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.bilosh", "actor.module-lair-of-the-lamb.father-bastoval", "actor.module-lair-of-the-lamb.mino", "actor.module-lair-of-the-lamb.the-lamb-c0865d75"]
+references: ["actor.module-lair-of-the-lamb.bilosh", "actor.module-lair-of-the-lamb.father-bastoval", "actor.module-lair-of-the-lamb.mino", "actor.module-lair-of-the-lamb.the-lamb"]
 activation: {"condition": "Two hours after the Lamb is killed.", "type": "timed"}
 repeat: {"mode": "once"}
 locations: []
 participants: [{"actor_id": "actor.module-lair-of-the-lamb.father-bastoval", "role": "Leader checking on the Lamb."}, {"actor_id": "actor.module-lair-of-the-lamb.mino", "role": "Elderly bodyguard."}, {"actor_id": "actor.module-lair-of-the-lamb.bilosh", "role": "Elderly bodyguard."}]
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.bilosh.md", "cards/actors/actor.module-lair-of-the-lamb.father-bastoval.md", "cards/actors/actor.module-lair-of-the-lamb.mino.md", "cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.bilosh.md", "cards/actors/actor.module-lair-of-the-lamb.father-bastoval.md", "cards/actors/actor.module-lair-of-the-lamb.mino.md", "cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"]
   procedures: []
   knowledge: []
 # Possible effects are source possibilities. Nothing here is applied or copied into a checkpoint.

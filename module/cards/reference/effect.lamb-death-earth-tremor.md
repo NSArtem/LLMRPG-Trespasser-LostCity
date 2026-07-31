@@ -5,7 +5,7 @@ title: "Earth Tremor on the Lamb’s Death"
 aliases: []
 source_pages: [20]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75"]
+references: ["actor.module-lair-of-the-lamb.the-lamb"]
 ---
 
 # Earth Tremor on the Lamb’s Death

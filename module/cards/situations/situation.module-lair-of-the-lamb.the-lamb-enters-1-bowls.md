@@ -5,13 +5,13 @@ title: "The Lamb Enters 1 BOWLS"
 aliases: ["situation.starting-lamb-entry"]
 source_pages: [19]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "place.module-lair-of-the-lamb.1-bowls", "procedure.module-lair-of-the-lamb.starting-the-game", "rule.dark-door-wisdom-check"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "place.module-lair-of-the-lamb.1-bowls", "procedure.module-lair-of-the-lamb.starting-the-game", "rule.dark-door-wisdom-check"]
 activation: {"condition": "The game begins in 1 BOWLS.", "type": "keyed"}
 repeat: {"mode": "once"}
 locations: ["cards/places/place.module-lair-of-the-lamb.1-bowls.md"]
-participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-lamb-c0865d75", "role": "Immediate predator entering the starting room."}]
+participants: [{"actor_id": "actor.module-lair-of-the-lamb.the-lamb", "role": "Immediate predator entering the starting room."}]
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"]
   procedures: ["cards/procedures/procedure.module-lair-of-the-lamb.starting-the-game.md"]
   knowledge: []
 # Possible effects are source possibilities. Nothing here is applied or copied into a checkpoint.
@@ -38,7 +38,7 @@ In pitch darkness, the Lamb is lumbering into the room.
 
 ## Actor reactions
 
-- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb-c0865d75`) takes part: Immediate predator entering the starting room.
+- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb`) takes part: Immediate predator entering the starting room.
 
 ## Consequences
 

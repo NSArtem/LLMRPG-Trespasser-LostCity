@@ -1,11 +1,11 @@
 # Review report
 
 - Overlay schema: `module-review-overlay/v3`
-- Overlay SHA-256: `2b2989825220528244f24aec05365c9d84a9f6ac5631477fceb5d2681c73d952`
-- Canonical ID declarations: 0
-- Alias operations: 0
+- Overlay SHA-256: `ef9f24413f52e42e619d8dc29634bcbc272d190a15758f20211f3d0e164191bf`
+- Canonical ID declarations: 1
+- Alias operations: 1
 - Distinct decisions: 38
-- Canonical field operations: 59
+- Canonical field operations: 63
 - Accepted uncertainties: 63
 - Reviewed topology composites: 0
 - Candidate groups: 695
@@ -2067,7 +2067,7 @@
 - `duplicate-candidate.fbe553ac5cbb` (medium, unresolved): `item.4-chests-torch`, `item.purple-lotus-powder`
   - Signals: overlapping-source-context, shared-relationships
   - Source pages: 21, 34, 48
-- `duplicate-candidate.fc01fa9574ef` (medium, unresolved): `actor.lamb`, `actor.the-lamb`
+- `duplicate-candidate.fc01fa9574ef` (medium, confirmed-alias): `actor.lamb`, `actor.the-lamb`
   - Signals: normalized-title, shared-relationships
   - Source pages: 16, 18, 19, 20, 23, 26, 40, 41
 - `duplicate-candidate.fc5721139f92` (medium, unresolved): `situation.abacus-ceiling-collapse`, `situation.lamb-blocks-bone-tunnel`
@@ -2172,12 +2172,9 @@
 - `actor.module-lair-of-the-lamb.the-apparatus` ← `actor.apparatus`
   - Source pages: 40
   - Rationale: Applied the deterministic canonical ID policy.
-- `actor.module-lair-of-the-lamb.the-lamb-25359288` ← `actor.lamb`
-  - Source pages: 40, 41
-  - Rationale: Applied the deterministic canonical ID policy.
-- `actor.module-lair-of-the-lamb.the-lamb-c0865d75` ← `actor.the-lamb`
-  - Source pages: 16, 18, 19, 20, 23, 26
-  - Rationale: Applied the deterministic canonical ID policy.
+- `actor.module-lair-of-the-lamb.the-lamb` ← `actor.lamb`, `actor.the-lamb`
+  - Source pages: 16, 18, 19, 20, 23, 26, 40, 41
+  - Rationale: Pages 16–26 and 40–41 describe the same White Temple godling predator across different dungeon areas; the later cistern material continues the same named Lamb rather than introducing a second creature.
 - `actor.module-lair-of-the-lamb.the-little-lambs` ← `actor.little-lambs`
   - Source pages: 18, 20
   - Rationale: Applied the deterministic canonical ID policy.
@@ -4152,7 +4149,9 @@
 
 ## Confirmed aliases
 
-No reviewed aliases.
+- `actor.lamb` → `actor.module-lair-of-the-lamb.the-lamb`
+  - Source pages: 16, 18, 19, 20, 23, 26, 40, 41
+  - Rationale: The Lamb in the cistern sequence is the same creature introduced in the opening sequence; both share the title, White Temple relationship, and continuous role.
 
 ## Rejected merges
 

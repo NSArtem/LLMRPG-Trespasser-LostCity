@@ -5,10 +5,10 @@ title: "9 FOUNTAIN"
 aliases: ["location.9-fountain"]
 source_pages: [23]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "knowledge.module-lair-of-the-lamb.tumbler-password", "procedure.module-lair-of-the-lamb.ending-the-fountain-haunting", "situation.module-lair-of-the-lamb.the-haunting-of-9-fountain"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "knowledge.module-lair-of-the-lamb.tumbler-password", "procedure.module-lair-of-the-lamb.ending-the-fountain-haunting", "situation.module-lair-of-the-lamb.the-haunting-of-9-fountain"]
 topology_node: "place.module-lair-of-the-lamb.area-9-fountain"
 load_with:
-  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb-c0865d75.md"]
+  actors: ["cards/actors/actor.module-lair-of-the-lamb.the-lamb.md"]
   situations: ["cards/situations/situation.module-lair-of-the-lamb.the-haunting-of-9-fountain.md"]
   procedures: ["cards/procedures/procedure.module-lair-of-the-lamb.ending-the-fountain-haunting.md"]
   knowledge: ["cards/knowledge/knowledge.module-lair-of-the-lamb.tumbler-password.md"]

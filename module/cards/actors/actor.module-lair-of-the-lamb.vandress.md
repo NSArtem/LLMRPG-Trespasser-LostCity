@@ -5,7 +5,7 @@ title: "Vandress"
 aliases: ["actor.vandress"]
 source_pages: [26]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "effect.vandress-pink-slime-addiction", "knowledge.module-lair-of-the-lamb.white-temple-cleanup-schedule", "place.module-lair-of-the-lamb.20-pools", "situation.module-lair-of-the-lamb.priests-awaken-and-attack", "spell.cone-of-mutilation", "spell.confusion"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "effect.vandress-pink-slime-addiction", "knowledge.module-lair-of-the-lamb.white-temple-cleanup-schedule", "place.module-lair-of-the-lamb.20-pools", "situation.module-lair-of-the-lamb.priests-awaken-and-attack", "spell.cone-of-mutilation", "spell.confusion"]
 appears_in:
   places: ["cards/places/place.module-lair-of-the-lamb.20-pools.md"]
   situations: ["cards/situations/situation.module-lair-of-the-lamb.priests-awaken-and-attack.md"]
@@ -39,7 +39,7 @@ The eldest priestess, immersed in the pink pool in area 20; unlike her peers, sh
 
 ## Relationships
 
-- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb-c0865d75`) — She intends to find the Lamb and use its assistance to hunt the party.
+- **The Lamb** (`actor.module-lair-of-the-lamb.the-lamb`) — She intends to find the Lamb and use its assistance to hunt the party.
 
 ## Capabilities and mechanics
 

@@ -5,7 +5,7 @@ title: "Fish for the Lamb"
 aliases: ["procedure.fish-for-lamb"]
 source_pages: [41]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-25359288", "effect.first-lamb-fishing-success", "item.module-lair-of-the-lamb.hook-hand", "place.module-lair-of-the-lamb.44-cistern", "situation.module-lair-of-the-lamb.fighting-the-lamb"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "effect.first-lamb-fishing-success", "item.module-lair-of-the-lamb.hook-hand", "place.module-lair-of-the-lamb.44-cistern", "situation.module-lair-of-the-lamb.fighting-the-lamb"]
 ---
 
 # Fish for the Lamb

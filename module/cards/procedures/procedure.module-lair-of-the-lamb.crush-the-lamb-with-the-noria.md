@@ -5,7 +5,7 @@ title: "Crush the Lamb with the Noria"
 aliases: ["procedure.crush-lamb-with-noria"]
 source_pages: [41]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-25359288", "actor.module-lair-of-the-lamb.the-white-temple", "effect.noria-crushes-lamb", "effect.white-temple-forceful-response", "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria", "place.module-lair-of-the-lamb.44-cistern", "situation.module-lair-of-the-lamb.fighting-the-lamb"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "actor.module-lair-of-the-lamb.the-white-temple", "effect.noria-crushes-lamb", "effect.white-temple-forceful-response", "knowledge.module-lair-of-the-lamb.white-temple-response-to-the-lambs-death-in-the-noria", "place.module-lair-of-the-lamb.44-cistern", "situation.module-lair-of-the-lamb.fighting-the-lamb"]
 ---
 
 # Crush the Lamb with the Noria

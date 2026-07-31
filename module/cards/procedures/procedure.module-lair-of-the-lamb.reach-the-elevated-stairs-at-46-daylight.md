@@ -5,7 +5,7 @@ title: "Reach the Elevated Stairs at 46 DAYLIGHT"
 aliases: ["procedure.reach-46-daylight-stairs"]
 source_pages: [41]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-25359288", "effect.46-daylight-access-checks", "item.module-lair-of-the-lamb.grappling-hook", "place.module-lair-of-the-lamb.46-daylight", "place.module-lair-of-the-lamb.46a-statue", "place.module-lair-of-the-lamb.46b-tower"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "effect.46-daylight-access-checks", "item.module-lair-of-the-lamb.grappling-hook", "place.module-lair-of-the-lamb.46-daylight", "place.module-lair-of-the-lamb.46a-statue", "place.module-lair-of-the-lamb.46b-tower"]
 ---
 
 # Reach the Elevated Stairs at 46 DAYLIGHT

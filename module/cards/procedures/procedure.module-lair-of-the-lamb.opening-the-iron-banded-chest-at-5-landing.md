@@ -5,7 +5,7 @@ title: "Opening the Iron-Banded Chest at 5 LANDING"
 aliases: ["procedure.open-5-landing-chest"]
 source_pages: [22]
 verification: verified
-references: ["actor.module-lair-of-the-lamb.the-lamb-c0865d75", "place.module-lair-of-the-lamb.5-landing", "place.module-lair-of-the-lamb.8-pit"]
+references: ["actor.module-lair-of-the-lamb.the-lamb", "place.module-lair-of-the-lamb.5-landing", "place.module-lair-of-the-lamb.8-pit"]
 ---
 
 # Opening the Iron-Banded Chest at 5 LANDING
