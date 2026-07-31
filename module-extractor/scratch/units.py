@@ -163,7 +163,14 @@ def assemble(lines: list[Line], ranks: dict[Style, int],
         if rank > here:
             return False  # subordinate heading within a keyed area
         root = key_root(line.text)
-        return root is not None and root != current.key
+        if root is not None:
+            return root != current.key
+        # No key, same style as the keyed areas around it. Case decides whether
+        # it is a sibling section or a subsection: Lair sets FIGHTING THE LAMB
+        # -- the climax -- in the same style as its rooms, and absorbing it into
+        # 44A WALL buried a major section inside a wall. Crossing the Hallway,
+        # a genuine subsection, is title case.
+        return line.is_upper
 
     for line in lines:
         rank = ranks.get(line.style)

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| units | 236 |
+| units | 237 |
 | pages covered | 53 |
 | keyed units | 51 (strict `N NAME` form: 51) |
 | spanning a page break | 33 |
@@ -28,9 +28,8 @@
 - `p27.the-ghouls` p[27, 28] — the Ghouls
 - …and 9 more
 
-**Suspiciously large** (> 3000B), likely under-segmented: 2
+**Suspiciously large** (> 3000B), likely under-segmented: 1
 - `p3.advice-for-dms` p[3] 3917B — Advice for DMs
-- `p40.44a-wall` p[40, 41] 3871B — 44A WALL
 
 ## Units
 
@@ -205,7 +204,8 @@
 | `p38.43-spider-crab` | 38 | 916 | 43 SPIDER CRAB |
 | `p39.part-3` | 39 | 7 | Part 3: |
 | `p39.the-cistern` | 39–40 | 17 | The Cistern |
-| `p40.44a-wall` | 40–41 | 3871 | 44A WALL |
+| `p40.44a-wall` | 40–41 | 2784 | 44A WALL |
+| `p41.fighting-the-lamb` | 41 | 1086 | FIGHTING THE LAMB |
 | `p41.45-barrels` | 41 | 293 | 45 BARRELS |
 | `p41.46-daylight` | 41 | 832 | 46 DAYLIGHT |
 | `p42.appendices` | 42–43 | 16 | Appendices |

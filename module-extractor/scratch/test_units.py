@@ -123,6 +123,13 @@ class AbsorptionTests(unittest.TestCase):
         self.assertIn("24A", units[0].text)
         self.assertIn("24C", units[0].text)
 
+    def test_an_unkeyed_all_caps_sibling_is_not_absorbed(self) -> None:
+        """FIGHTING THE LAMB is the climax, not part of 44A WALL."""
+        lines = [line("44A WALL", AREA), body(),
+                 line("FIGHTING THE LAMB", AREA, y=1), body(y=2)]
+        self.assertEqual([u.heading for u in assemble(lines, RANKS)],
+                         ["44A WALL", "FIGHTING THE LAMB"])
+
     def test_an_unkeyed_subsection_is_absorbed(self) -> None:
         lines = [line("24 CRUSH HALLWAY", AREA), body(),
                  line("Crossing the Hallway", AREA, y=1), body(y=2)]
