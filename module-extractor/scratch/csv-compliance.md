@@ -1,8 +1,9 @@
 # T1.3 — CSV contract compliance
 
-**Gate status: half passed.** The gate asks for figures from *at least two
-independent responses to the same pack*. One response has been supplied. Every
-figure below is from that one response, and the second is outstanding.
+**Gate status: passed, with a finding the gate was not looking for.** Two
+independent responses were measured. The row format is reliable. **Entity
+decomposition is not**, and nothing downstream is designed to absorb that — see
+[Granularity varies between runs](#granularity-varies-between-runs).
 
 The measurement is not a formality. The dataflow document commits to the row
 format on an explicitly unmeasured assumption — *"How reliably do models follow
@@ -15,10 +16,37 @@ be measured on a prototype before the format is committed to."*
 | Pack (response 1) | `pack-001`, sha256 `647282156437c204ae557b1b7c5a82b66604341e1e99f7034913d99098467866` |
 | Pack (response 2 onward) | same units and schema, sha256 `5267f439e7a743de9d1719be0a39d694bc9bc1988b74d55e07c1f73448baed2a` — the delivery instruction differs, see *Transport* |
 | Units | 6 (`p31.24-crush-hallway`, `p33.27-ballista`, `p28.lantern-worm`, `p18.active-encounters-2`, `p8.doors`, `p46.haste`) |
-| Response | `_exchange/pack-001.csv` |
-| Model | ChatGPT, `sol`, thinking effort high |
+| Responses | `_exchange/pack-001.csv`, `_exchange/pack-001.r1.csv` |
+| Model | ChatGPT, `sol`, thinking effort high, independent conversations |
 | Transport | manual (H-1) |
 | Checker | `scratch/csv_check.py`, covered by `scratch/test_csv_check.py` |
+
+## Both responses
+
+```text
+                                    response 1   response 2
+non-blank lines                            129          122
+rows splitting into four fields        129/129      122/122
+                                          100%         100%
+structural rows                             47           42
+facts                                       82           80
+units marked                               6/6          6/6
+violations                                   2            2
+```
+
+Neither response omitted a unit, duplicated one, invented one, or emitted a row
+that failed to split. The violations are the same two in both, on the same
+predicate, with the same keys:
+
+```text
+response 1   line 63  stat: ['Dis', 'Halberd', 'Int', 'Move', 'Str']
+             line 78  stat: ['Crawl', 'Dis', 'Int', 'Slam']
+response 2   line 73  stat: ['Dis', 'Halberd', 'Int', 'Move', 'Str']
+             line 81  stat: ['Crawl', 'Dis', 'Int', 'Slam']
+```
+
+A defect that reproduces identically across independent runs is a defect in the
+schema, not variance in the model. See *Both violations* below.
 
 ## Response 1
 
@@ -59,6 +87,10 @@ This is the assumption the whole format rests on, and it survived:
 The model also emitted no fence and no preamble, so `clean()` had nothing to
 strip. That is the outcome the prompt asked for, though see *Transport* below
 for why asking for it was a mistake in a different way.
+
+Response 2 used one predicate response 1 did not (`visible`) and omitted one it
+did (`disarm-from`); 22 of 23 predicates were common to both. Vocabulary usage
+is stable even where granularity is not.
 
 ## Both violations are defects in `schema.md`, not in the response
 
@@ -155,17 +187,85 @@ downloadable file where the client can produce one. **This does not touch the
 row contract** — not a field, not a predicate, not a vocabulary — so response 2
 remains comparable to response 1 on every figure in this report.
 
-## What response 2 is for
+## Granularity varies between runs
 
-Response 1 says the format is workable. It cannot say the format is *reliable*,
-because one sample cannot distinguish a model that follows the rule from a model
-that happened to. Specifically it cannot tell whether:
+This is what the second response bought, and it is not about the row format.
 
-- the `stat` key set is the only place the schema under-specifies, or the only
-  place *this* response happened to expose;
-- 100% four-field compliance is the format's property or this run's;
-- the same six units yield a comparable fact count, or whether coverage swings
-  widely between runs — which would be a finding about the prompt rather than
-  the format.
+```text
+unit                        facts A  facts B   entities A  entities B
+p31.24-crush-hallway             24       23           12          11
+p33.27-ballista                  22       25            7          10
+p28.lantern-worm                  6        5            1           1
+p18.active-encounters-2           7        9            5           5
+p8.doors                         15       14            6           1
+p46.haste                         8        4            1           1
+```
 
-Run the same pack again, in a fresh conversation, and append the figures here.
+**No content was lost in either direction.** Both runs carry every rule on page
+8 and every clause of *Haste*. What differs is how many things the model decided
+were in the unit:
+
+```text
+run 1   #entity,doors,rule,Doors        run 2   #entity,doors,rule,Doors
+        #entity,wooden,rule,Wooden doors
+        #entity,metal,rule,Metal doors          doors,rule,,Wooden doors can be
+        #entity,locked,rule,Locked doors                    kicked in...
+        #entity,portcullises,rule,...           doors,rule,,Metal doors cannot...
+        #entity,barred,rule,Barred doors        doors,rule,,Locked doors can...
+```
+
+Six entities against one, for identical input. *Haste* likewise: run 1 split the
+spell into `effect` plus four `note` rows, run 2 put all five sentences in one
+`effect` value.
+
+### The baseline says which one is right
+
+```text
+rule records in the baseline citing page 8:  8
+  doors, exploration-time, investigation-and-searching, light,
+  mapping, movement, noise, stealth
+```
+
+One record per *section*, which is one record per **unit** — and the segmenter
+produces exactly those units. `Haste` is likewise a single baseline record with
+one `text` blob. So run 2 matches the target granularity for both, and run 1
+over-decomposes a rules section by six to one.
+
+That is not universal: for `p31.24-crush-hallway` both runs declared 11–12
+entities, and the baseline does produce a place, a situation, two procedures and
+two effects from that one unit. A keyed room contains several things; a rules
+section is one thing. Nothing in `schema.md` says so, so the model decides per
+run, and the decisions differ by up to sixfold.
+
+### Why this matters more than the format did
+
+**Entity identity is what Stage 7 canonicalises and Stage 8 groups on.** Run 1
+yields five canonical `rule` records for the doors section, run 2 yields one.
+The module's record count, its card count and its index are all downstream of a
+choice the contract does not constrain.
+
+**Stage 6 mandates per-unit retry** — *"Rejection is per unit. A failed unit is
+re-requested on its own."* A retried unit is a fresh sample, so a module can
+finish with unit X finely decomposed and unit Y coarsely, decided by which units
+happened to fail validation once.
+
+**Stage 8 cannot see it.** Its conflict machinery detects two units asserting
+different *values* for the same `(entity, predicate)`. It has no notion of two
+runs disagreeing about how many entities exist, and since only one response per
+pack is ever ingested, the disagreement is invisible rather than escalated. The
+one mechanism designed to catch extraction disagreement is blind to the largest
+disagreement measured here.
+
+### For T1.4
+
+`schema.md` must state a decomposition rule, not just a vocabulary. The rule
+that reproduces the baseline is roughly: *declare one entity per distinct thing
+the unit describes; a rules section, a spell, a table and a stat block are each
+one thing, while a keyed room is a place plus whatever mechanisms, actors and
+items it contains.* Whatever wording is chosen, it needs the same treatment as
+list-versus-scalar in Contract D item 2 — declared, never inferred.
+
+Worth measuring on the next pack: whether stating the rule actually narrows the
+spread. If it does not, granularity has to be constrained structurally rather
+than by instruction — for example by having the runner declare the expected
+entity kinds per unit from its classification, which Stage 3 already computes.
