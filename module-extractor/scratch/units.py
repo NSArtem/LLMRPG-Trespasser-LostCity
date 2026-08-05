@@ -81,6 +81,102 @@ def is_heading_text(text: str) -> bool:
     return len(stripped.split()) <= MAX_HEADING_WORDS
 
 
+def _merge(first: Line, second: Line, separator: str = " ") -> Line:
+    """One line from two, taking the style that carries the most text."""
+    dominant = first if len(first.text) >= len(second.text) else second
+    return Line(
+        page=first.page,
+        column=first.column,
+        x=min(first.x, second.x),
+        # The *lowest* line, so a heading wrapping onto a third line still
+        # measures its gap against the second rather than the first.
+        y=max(first.y, second.y),
+        height=max(first.height, second.height),
+        text=f"{first.text}{separator}{second.text}".strip(),
+        size=dominant.size,
+        family=dominant.family,
+        bold=dominant.bold,
+        color=dominant.color,
+    )
+
+
+def rejoin_run_ins(lines: list[Line]) -> list[Line]:
+    """Undo a run-in split that no unit boundary will ever use.
+
+    ``columns._split_run_in_heading`` cuts a row where a non-body prefix gives
+    way to body text, because Doom sets its keyed areas that way:
+    ``Area A-4 - Chapel of Justicia: The chapel is a low...``. The split is
+    typographic and indiscriminate, and *Lair of the Lamb* sets emphasis in the
+    same shape -- ``Lvl 4 Def leather Slam 1d6``, ``Wooden Table holding 1
+    immature Lambfruit``, ``Three enormous stone bowls. Each bowl contains 4``.
+
+    Inside a keyed area those prefixes are absorbed and nothing shows. Outside
+    one, every prefix opened a unit, which shredded the stat blocks: the Lantern
+    Worm lost both its second stat line and all three of its abilities to units
+    named ``Crawl``, ``Eat Light -``, ``Lantern -`` and ``Stonemeld -``.
+
+    A prefix earns a unit boundary only by opening a key. That is precisely
+    Doom's case and none of Lair's, so the split is kept where it was needed and
+    reversed everywhere else.
+    """
+    joined: list[Line] = []
+    skip = False
+    for index, line in enumerate(lines):
+        if skip:
+            skip = False
+            continue
+        following = lines[index + 1] if index + 1 < len(lines) else None
+        if (line.run_in and key_root(line.text) is None and following is not None
+                and following.page == line.page
+                and following.column == line.column
+                and abs(following.y - line.y) <= max(line.height, 1.0) * 0.5):
+            joined.append(_merge(line, following))
+            skip = True
+            continue
+        joined.append(line)
+    return joined
+
+
+# A wrapped heading's continuation sits one line down, not a paragraph away.
+WRAP_GAP = 2.0
+# A heading that has finished its sentence is not waiting for a second line. A
+# colon is *not* on this list: it ends Doom's run-in keys, and those are excluded
+# already by carrying ``run_in``, while Lair wraps a part title as
+# ``Part 1: / Lair of the Lamb``.
+_HEADING_END = ".!?"
+
+
+def join_wrapped_headings(lines: list[Line], ranks: dict[Style, int]) -> list[Line]:
+    """A heading too long for its measure is one heading, not several.
+
+    Page 27 of *Lair of the Lamb* is a divider reading ``Part 2 / Gallery of /
+    the Ghouls`` in one 81pt style. Three lines, three units, six to sixteen
+    bytes each, and the section title that page exists to announce was never
+    attached to anything.
+
+    Only same-style neighbours in the same column join, and only when neither
+    opens a key -- otherwise a table whose rows are keyed by die number
+    (``1 Athletic``, ``2 Beautiful``) would collapse into a single heading.
+    """
+    joined: list[Line] = []
+    for line in lines:
+        previous = joined[-1] if joined else None
+        if (previous is not None
+                and not line.run_in and not previous.run_in
+                and line.style == previous.style and line.style in ranks
+                and line.page == previous.page and line.column == previous.column
+                and 0 <= line.y - previous.y <= max(previous.height, 1.0) * WRAP_GAP
+                and previous.is_upper == line.is_upper
+                and not previous.text.rstrip().endswith(tuple(_HEADING_END))
+                and key_root(previous.text) is None and key_root(line.text) is None
+                and is_heading_text(previous.text) and is_heading_text(line.text)
+                and len(f"{previous.text} {line.text}".split()) <= MAX_HEADING_WORDS):
+            joined[-1] = _merge(previous, line)
+            continue
+        joined.append(line)
+    return joined
+
+
 @dataclass
 class Unit:
     unit_id: str
@@ -89,17 +185,25 @@ class Unit:
     pages: list[int]
     column: int
     key: str | None
+    rank: int = 0
+    path: tuple[str, ...] = ()
     lines: list[Line] = field(default_factory=list)
 
     @property
     def text(self) -> str:
         return "\n".join(line.text for line in self.lines)
 
+    @property
+    def bodyless(self) -> bool:
+        """Nothing but its own heading -- a section title, not a section."""
+        return len(self.lines) <= 1
+
     def to_contract_a(self) -> dict[str, object]:
         text = self.text
         return {
             "unit_id": self.unit_id,
             "heading": self.heading,
+            "heading_path": list(self.path),
             "pages": self.pages,
             "column": self.column,
             "text": text,
@@ -187,6 +291,7 @@ def assemble(lines: list[Line], ranks: dict[Style, int],
                 pages=[line.page],
                 column=line.column,
                 key=key_root(line.text),
+                rank=rank,
                 lines=[line],
             )
             units.append(current)
@@ -200,10 +305,11 @@ def assemble(lines: list[Line], ranks: dict[Style, int],
 
 
 FURNITURE_PAGES = 3
+FURNITURE_SPREAD = 6.0  # points; furniture is nailed to a position, content is not
 
 
 def furniture(lines: list[Line]) -> set[str]:
-    """Heading-shaped text that repeats across pages is running furniture.
+    """Heading-shaped text that repeats *at the same place* is running furniture.
 
     Page headers, footers, running heads and watermarks are set in heading
     styles and are not headings. The Russian module is a personalised copy
@@ -211,13 +317,30 @@ def furniture(lines: list[Line]) -> set[str]:
     spurious units; its running heads ("глава 2", the module title) produced
     more. Two appearances can be a genuine repeat -- Lair keys 25F CRYPT twice
     -- so the threshold is three distinct pages.
+
+    **Repetition alone is not enough.** *Lair of the Lamb* heads three
+    consecutive pages ``Encounter Table (Lamb Alive)``, and counting pages
+    deleted that heading while leaving its ``(Lamb Dead)`` twin -- printed
+    twice -- standing. The two tables then looked like different kinds of thing
+    when they are the same kind of thing.
+
+    What actually separates a running head from a repeated title is that
+    furniture is nailed to a vertical position and content is not. So a repeat
+    must also be positionally locked before it is discarded.
     """
-    seen: dict[str, set[int]] = {}
+    seen: dict[str, list[Line]] = {}
     for line in lines:
         text = line.text.strip()
         if text:
-            seen.setdefault(text, set()).add(line.page)
-    return {text for text, pages in seen.items() if len(pages) >= FURNITURE_PAGES}
+            seen.setdefault(text, []).append(line)
+    repeated = set()
+    for text, members in seen.items():
+        if len({line.page for line in members}) < FURNITURE_PAGES:
+            continue
+        positions = [line.y for line in members]
+        if max(positions) - min(positions) <= FURNITURE_SPREAD:
+            repeated.add(text)
+    return repeated
 
 
 TABLE_RUN = 4      # consecutive tiny headings before it is read as a table
@@ -267,12 +390,56 @@ def merge_table_runs(units: list[Unit]) -> list[Unit]:
     return merged
 
 
+def attach_paths(units: list[Unit]) -> list[Unit]:
+    """Give every unit the section titles standing above it.
+
+    A title with nothing under it but more headings cannot become a unit worth
+    extracting, and deleting it would lose real information: page 18 of *Lair of
+    the Lamb* prints two encounter tables side by side, both broken into
+    ``Active`` / ``Passive`` / ``Indirect Encounters`` in one 21pt style. Rank
+    cannot nest them -- the title and its subsections are typographically
+    identical -- so ``Active Encounters`` reached the model with no way to know
+    whether the Lamb was alive or dead.
+
+    Keeping the title as a unit *and* copying it into its children's path costs
+    one short unit and keeps every physical page accounted for, which the
+    coverage invariant at T4.4 depends on.
+
+    **A same-rank title governs only its own page.** Rank alone cannot say
+    whether a 21pt heading is a sibling of the 21pt title above it or a child of
+    it, and guessing "child" leaked ``Encounter Table (Lamb Dead)`` onto every
+    keyed room for the next three pages. Two tables printed side by side on one
+    page is the evidence for nesting, and it does not survive a page turn. A
+    genuinely senior title -- a part divider -- keeps its scope either way.
+    """
+    stack: list[tuple[int, str, int]] = []
+    for unit in units:
+        while stack and (
+            stack[-1][0] > unit.rank
+            or (stack[-1][0] == unit.rank
+                and (unit.bodyless or unit.pages[0] != stack[-1][2]))
+        ):
+            stack.pop()
+        unit.path = tuple(heading for _, heading, _page in stack)
+        if unit.bodyless:
+            stack.append((unit.rank, unit.heading, unit.pages[0]))
+    return units
+
+
 def units_for(pdf: Path) -> list[Unit]:
+    # **Ranks come from the raw lines, before any joining.** Which styles the
+    # typesetter used for headings is a fact about the document; rejoining and
+    # wrapping are decisions about it. Ranking the joined lines instead lets a
+    # fix rewrite its own evidence: dropping Winter's Daughter's short non-keyed
+    # run-ins lifted the median length of the remaining bold lines from 2.5
+    # words to 5.0, past the threshold that admits a style as a heading, and all
+    # 23 of its keyed rooms were absorbed into two units.
     lines = document_lines(pdf)
     groups = style_table(lines)
     ranks = heading_ranks(groups, lines)
+    lines = join_wrapped_headings(rejoin_run_ins(lines), ranks)
     repeated = furniture(lines)
-    return merge_table_runs(assemble(lines, ranks, repeated))
+    return attach_paths(merge_table_runs(assemble(lines, ranks, repeated)))
 
 
 def report(pdf: Path, show: int = 0) -> None:

@@ -10,8 +10,9 @@ import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from columns import Line  # noqa: E402
-from units import (assemble, furniture, is_heading_text,  # noqa: E402
-                   key_root, merge_table_runs, slug)
+from units import (assemble, attach_paths, furniture,  # noqa: E402
+                   is_heading_text, join_wrapped_headings, key_root,
+                   merge_table_runs, rejoin_run_ins, slug)
 
 
 BODY = ("running body text that goes on for a while here", 12.0, "Body", False, "#000000")
@@ -21,10 +22,10 @@ PART = (30.0, "Display", False, "#000000")   # senior: part titles
 RANKS = {PART: 0, AREA: 1}
 
 
-def line(text, style, page=1, y=0.0):
+def line(text, style, page=1, y=0.0, run_in=False):
     size, family, bold, color = style
     return Line(page=page, column=0, x=50.0, y=y, height=size, text=text,
-                size=size, family=family, bold=bold, color=color)
+                size=size, family=family, bold=bold, color=color, run_in=run_in)
 
 
 def body(page=1, y=0.0):
@@ -185,11 +186,145 @@ class AssemblyTests(unittest.TestCase):
         payload = unit.to_contract_a()
         self.assertEqual(
             sorted(payload),
-            ["column", "heading", "keyed_area", "labels", "pages", "style",
-             "text", "text_bytes", "unit_id"],
+            ["column", "heading", "heading_path", "keyed_area", "labels",
+             "pages", "style", "text", "text_bytes", "unit_id"],
         )
         self.assertEqual(payload["keyed_area"], "1")
         self.assertEqual(payload["text_bytes"], len(payload["text"].encode("utf-8")))
+
+
+class RunInTests(unittest.TestCase):
+    """A run-in prefix earns a unit boundary only by opening a key."""
+
+    def test_an_unkeyed_prefix_is_folded_back_into_its_row(self) -> None:
+        lines = rejoin_run_ins([
+            line("Lvl", AREA, run_in=True),
+            line("4 Def leather Slam 1d6", (12.0, "Body", False, "#000000")),
+        ])
+        self.assertEqual([item.text for item in lines],
+                         ["Lvl 4 Def leather Slam 1d6"])
+
+    def test_a_keyed_prefix_survives_as_its_own_line(self) -> None:
+        """Doom sets every keyed area this way; splitting them is the point."""
+        lines = rejoin_run_ins([
+            line("Area A-4 - Chapel of Justicia:", AREA, run_in=True),
+            line("The chapel is a low, vaulted hall", (12.0, "Body", False, "#000000")),
+        ])
+        self.assertEqual(len(lines), 2)
+
+    def test_a_prefix_on_a_different_row_is_left_alone(self) -> None:
+        lines = rejoin_run_ins([
+            line("Stonemeld -", AREA, run_in=True),
+            line("body", (12.0, "Body", False, "#000000"), page=2),
+        ])
+        self.assertEqual(len(lines), 2)
+
+    def test_the_folded_line_takes_the_longer_runs_style(self) -> None:
+        """So it can never be read as a heading afterwards."""
+        lines = rejoin_run_ins([
+            line("Lvl", AREA, run_in=True),
+            line("4 Def leather Slam 1d6 and more besides",
+                 (12.0, "Body", False, "#000000")),
+        ])
+        self.assertEqual(lines[0].size, 12.0)
+
+
+class WrappedHeadingTests(unittest.TestCase):
+    def test_a_heading_wrapping_onto_three_lines_is_one_heading(self) -> None:
+        lines = join_wrapped_headings(
+            [line("Part 2", PART, y=0.0),
+             line("Gallery of", PART, y=40.0),
+             line("the Ghouls", PART, y=80.0)],
+            RANKS,
+        )
+        self.assertEqual([item.text for item in lines],
+                         ["Part 2 Gallery of the Ghouls"])
+
+    def test_keyed_table_rows_are_never_joined(self) -> None:
+        """Lair keys its character tables by die number, in the heading style."""
+        rows = [line("1 Athletic", AREA, y=0.0), line("2 Beautiful", AREA, y=20.0),
+                line("3 Boney", AREA, y=40.0)]
+        self.assertEqual(len(join_wrapped_headings(rows, RANKS)), 3)
+
+    def test_a_finished_sentence_does_not_wrap(self) -> None:
+        lines = join_wrapped_headings(
+            [line("Immunity - Acid.", PART, y=0.0),
+             line("Immunity - Fire.", PART, y=20.0)],
+            RANKS,
+        )
+        self.assertEqual(len(lines), 2)
+
+    def test_a_paragraph_gap_is_not_a_wrap(self) -> None:
+        lines = join_wrapped_headings(
+            [line("Overview", PART, y=0.0), line("Secrets", PART, y=400.0)],
+            RANKS,
+        )
+        self.assertEqual(len(lines), 2)
+
+    def test_body_style_lines_are_never_joined(self) -> None:
+        lines = join_wrapped_headings([body(y=0.0), body(y=14.0)], RANKS)
+        self.assertEqual(len(lines), 2)
+
+
+class HeadingPathTests(unittest.TestCase):
+    SECTION = AREA  # rank 1 in RANKS
+
+    def _units(self, lines):
+        return attach_paths(assemble(lines, RANKS))
+
+    def test_a_bodyless_title_reaches_its_children(self) -> None:
+        """Lair prints two encounter tables side by side in one style."""
+        units = self._units([
+            line("Encounter Table (Lamb Dead)", self.SECTION, page=18, y=0.0),
+            line("Active Encounters", self.SECTION, page=18, y=20.0),
+            body(page=18, y=40.0),
+        ])
+        self.assertEqual(units[1].heading, "Active Encounters")
+        self.assertEqual(units[1].path, ("Encounter Table (Lamb Dead)",))
+
+    def test_a_same_rank_title_does_not_survive_a_page_turn(self) -> None:
+        """The regression: it leaked onto every keyed room for three pages."""
+        units = self._units([
+            line("Encounter Table (Lamb Dead)", self.SECTION, page=18, y=0.0),
+            line("Active Encounters", self.SECTION, page=18, y=20.0),
+            body(page=18, y=40.0),
+            line("Dungeon Features", self.SECTION, page=19, y=0.0),
+            body(page=19, y=20.0),
+        ])
+        self.assertEqual(units[-1].heading, "Dungeon Features")
+        self.assertEqual(units[-1].path, ())
+
+    def test_a_senior_divider_keeps_its_scope_across_pages(self) -> None:
+        units = self._units([
+            line("Part 2 Gallery of the Ghouls", PART, page=27, y=0.0),
+            line("Lantern Worm", self.SECTION, page=28, y=0.0),
+            body(page=28, y=20.0),
+        ])
+        self.assertEqual(units[-1].path, ("Part 2 Gallery of the Ghouls",))
+
+    def test_a_title_with_a_body_is_not_an_ancestor(self) -> None:
+        units = self._units([
+            line("Overview", self.SECTION, page=19, y=0.0), body(page=19, y=20.0),
+            line("Starting the Game", self.SECTION, page=19, y=40.0),
+            body(page=19, y=60.0),
+        ])
+        self.assertEqual(units[-1].path, ())
+
+
+class FurnitureTests(unittest.TestCase):
+    def test_a_running_head_is_furniture(self) -> None:
+        lines = [line("Lair of the Lamb", PART, page=p, y=10.0) for p in (1, 2, 3)]
+        self.assertIn("Lair of the Lamb", furniture(lines))
+
+    def test_a_repeated_title_that_moves_is_not_furniture(self) -> None:
+        """Lair heads three pages 'Encounter Table (Lamb Alive)'.
+
+        Counting pages alone deleted it while leaving its twin, printed twice,
+        standing -- so two tables of the same kind looked like different kinds.
+        """
+        lines = [line("Encounter Table (Lamb Alive)", PART, page=p, y=y)
+                 for p, y in ((17, 493.0), (18, 120.0), (19, 700.0))]
+        self.assertNotIn("Encounter Table (Lamb Alive)", furniture(lines))
 
 
 if __name__ == "__main__":
