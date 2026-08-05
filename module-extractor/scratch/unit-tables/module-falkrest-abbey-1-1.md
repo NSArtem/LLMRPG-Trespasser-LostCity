@@ -2,12 +2,12 @@
 
 | | |
 |---|---|
-| units | 55 |
-| text retained | 99.8% (118 of 54307 characters reached no unit) |
+| units | 56 |
+| text retained | 99.8% (118 of 54245 characters reached no unit) |
 | pages covered | 42 |
 | keyed units | 22 (strict `N NAME` form: 19) |
 | spanning a page break | 13 |
-| size | median 601B, max 7659B, min 1B |
+| size | median 465B, max 7659B, min 1B |
 
 ## Checks
 
@@ -67,9 +67,10 @@
 | `p13.climbing-the-lune-mountains` | 13 | 413 | Climbing The Lune Mountains |
 | `p13.1d6-random-happenings-on-the-lun` | 13 | 1399 | 1d6 Random Happenings on the Lune Mountains |
 | `p14.the-falkrest-abbey` | 14 | 1027 | The Falkrest Abbey |
-| `p14.1d6-random-happenings-in-the-abb` | 14–16 | 702 | 1d6 Random Happenings in the Abbey |
-| `p16.monsters-room-descriptions-n` | 16 | 68 | Monsters Room Descriptions N |
-| `p16.portal-1-entrance` | 16 | 913 | Portal 1 Entrance |
+| `p14.1d6-random-happenings-in-the-abb` | 14–16 | 751 | 1d6 Random Happenings in the Abbey |
+| `p16.portal-1-entrance` | 16 | 132 | Portal 1 Entrance |
+| `p16.s` | 16 | 365 | S |
+| `p16.p` | 16 | 430 | P |
 | `p17.2-the-frozen-cloister` | 17 | 1366 | 2 The Frozen Cloister |
 | `p18.3-herbalist-s-dispensary` | 18–19 | 1299 | 3 Herbalist’s Dispensary |
 | `p19.4-workshop` | 19 | 205 | 4 Workshop |

@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | units | 37 |
-| text retained | 98.9% (691 of 65520 characters reached no unit) |
+| text retained | 98.9% (691 of 65425 characters reached no unit) |
 | pages covered | 15 |
 | keyed units | 26 (strict `N NAME` form: 0) |
 | spanning a page break | 11 |
@@ -34,8 +34,8 @@
 | `p3.introduction` | 3 | 1046 | IntroductIon |
 | `p3.adventure-background` | 3 | 1715 | Adventure BAckground |
 | `p3.the-hound-of-hirot` | 3 | 2679 | the hound of hIrot |
-| `p4.the-village-of-hirot` | 4 | 2511 | the vIllAge of hIrot |
-| `p4.rumors-legends-superstitions` | 4–5 | 2757 | rumors, legends & superstItIons |
+| `p4.the-village-of-hirot` | 4 | 2496 | the vIllAge of hIrot |
+| `p4.rumors-legends-superstitions` | 4–5 | 2737 | rumors, legends & superstItIons |
 | `p5.roleplaying-the-non-player-chara` | 5 | 3059 | roleplAyIng the non- plAyer chArActers |
 | `p5.encounter-table` | 5 | 239 | encounter tABle |
 | `p5.player-start` | 5–6 | 3792 | plAyer stArt |

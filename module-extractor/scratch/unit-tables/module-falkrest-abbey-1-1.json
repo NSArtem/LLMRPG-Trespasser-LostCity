@@ -393,8 +393,8 @@
     "pages": [
       10
     ],
-    "column": 0,
-    "text": "Hooks\nThese assume the group starts at a reasonably large city, and knows\nthe general terms of the legend of the abbey and of St. Brynedd’s\nmiraculous  water  (page  2).  Hooks  1  and  2  can  go  together  to\nforce the group to make a choice. See also Aftermath at the end of the\nadventure before you choose!\nHooks\n◆ The healer’s daughter: Myrta the healer\ndesperately needs  a vial of St. Brynedd’s Water\nfor her young daughter Syf, who lays on her\n1 deathbed because of the soul plague, a terrible\nmagic disease that is slowly detaching her spirit\nfrom the body.\n◆ Offers: 200gp and 1 healing potion.\n◆ Lortag the snobbish alchemist: Wants  a vial of\n2 St. Brynedd’s Water  for his experiments.\n◆ Offers: 3.000gp.\n◆ The Earl of Locklear: Has recently discovered\nhis family descends from the legendary Queen\nEthofled and wants to display the queen’s crown\n3 in his castle. As proven by the documents found\nin room 8, his claim is false, even though he\nbelieves it.\n◆ Offers: 3.000gp for  Queen Ethofled’s Crown.\n◆ The graverobber’s diary: A page from an old\ndiary mentions an abbot with a  jeweled golden\n4 mask  buried inside the abbey, as well as the\npresence of a garden leading to a treasury where\ntwelve jeweled golden chalices  were kept.",
+    "column": -1,
+    "text": "Hooks\nThese assume the group starts at a reasonably large city, and knows\nthe general terms of the legend of the abbey and of St. Brynedd’s\nmiraculous  water  (page  2).  Hooks  1  and  2  can  go  together  to\nforce the group to make a choice. See also Aftermath at the end of the\nadventure before you choose!\nHooks\n1\n2\n3\n4\n◆ The healer’s daughter: Myrta the healer\ndesperately needs  a vial of St. Brynedd’s Water\nfor her young daughter Syf, who lays on her\ndeathbed because of the soul plague, a terrible\nmagic disease that is slowly detaching her spirit\nfrom the body.\n◆ Offers: 200gp and 1 healing potion.\n◆ Lortag the snobbish alchemist: Wants  a vial of\nSt. Brynedd’s Water  for his experiments.\n◆ Offers: 3.000gp.\n◆ The Earl of Locklear: Has recently discovered\nhis family descends from the legendary Queen\nEthofled and wants to display the queen’s crown\nin his castle. As proven by the documents found\nin room 8, his claim is false, even though he\nbelieves it.\n◆ Offers: 3.000gp for  Queen Ethofled’s Crown.\n◆ The graverobber’s diary: A page from an old\ndiary mentions an abbot with a  jeweled golden\nmask  buried inside the abbey, as well as the\npresence of a garden leading to a treasury where\ntwelve jeweled golden chalices  were kept.",
     "labels": [],
     "text_bytes": 1275,
     "keyed_area": null,
@@ -413,7 +413,7 @@
     "pages": [
       11
     ],
-    "column": 0,
+    "column": -1,
     "text": "Rumors\nThese are the rumors the characters can gather in their starting town,\nspending 1 day asking around or making researchers. On a successful\nCHA (asking around) or INT (research) check, each character may roll\none rumor. Roll 1d12.",
     "labels": [],
     "text_bytes": 236,
@@ -433,8 +433,8 @@
     "pages": [
       11
     ],
-    "column": 0,
-    "text": "1d12 Rumors\n◆ During the Age of Yore, the people used to burn the\n1 dead and put their ashes in urns, along with some\njewels  ( True ).\n2 ◆ The legend holds that the Water of St. Brynedd has a\ndistinctive  azure glow  ( True ).\n3 ◆ The Queens and Kings of Yore were often depicted\nriding a  chess horse  ( True ).\n4 ◆ The Fountain of St. Brynedd is located in a  secret\nenchanted garden  ( Partially true ).\n◆ A tale tells of the enchanted fountain that collects  St.\n5 Brynedd’s miraculous tears , mentioning only a few\ndrops are available at any time ( True ).\n◆ The Abbey was once protected by four powerful paladins\n6 called the  Heronguard , whose symbols were the chess\npieces of  Rook ,  Bishop ,  King  and  Queen  ( True ).\n7 ◆ The Lune Mountains used to be populated by a clan of\nsentient  living trees  ( True ).\n8 ◆ A decrepit  white dragon  lies in chains in the\nunderground recesses of Falkrest Abbey ( False ).\n9 ◆ The last abbot of the Abbey was  corrupted by chaos ,\nand caused its ruin ( True ).\n10 ◆ From time to time, bands of  graverobbers  explore the\nAbbey’s ruins looking for lost treasure ( True ).\n11 ◆ The abbey is haunted by  ghosts , and the winter gale\ncarries their lament ( Partially true ).\n12 ◆ During the strongest storms on the Lune Mountains, a\nwind demon  can be heard screaming ( False ).",
+    "column": -1,
+    "text": "1d12 Rumors\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n◆ During the Age of Yore, the people used to burn the\ndead and put their ashes in urns, along with some\njewels  ( True ).\n◆ The legend holds that the Water of St. Brynedd has a\ndistinctive  azure glow  ( True ).\n◆ The Queens and Kings of Yore were often depicted\nriding a  chess horse  ( True ).\n◆ The Fountain of St. Brynedd is located in a  secret\nenchanted garden  ( Partially true ).\n◆ A tale tells of the enchanted fountain that collects  St.\nBrynedd’s miraculous tears , mentioning only a few\ndrops are available at any time ( True ).\n◆ The Abbey was once protected by four powerful paladins\ncalled the  Heronguard , whose symbols were the chess\npieces of  Rook ,  Bishop ,  King  and  Queen  ( True ).\n◆ The Lune Mountains used to be populated by a clan of\nsentient  living trees  ( True ).\n◆ A decrepit  white dragon  lies in chains in the\nunderground recesses of Falkrest Abbey ( False ).\n◆ The last abbot of the Abbey was  corrupted by chaos ,\nand caused its ruin ( True ).\n◆ From time to time, bands of  graverobbers  explore the\nAbbey’s ruins looking for lost treasure ( True ).\n◆ The abbey is haunted by  ghosts , and the winter gale\ncarries their lament ( Partially true ).\n◆ During the strongest storms on the Lune Mountains, a\nwind demon  can be heard screaming ( False ).",
     "labels": [],
     "text_bytes": 1355,
     "keyed_area": "1",
@@ -513,7 +513,7 @@
     "pages": [
       13
     ],
-    "column": 0,
+    "column": -1,
     "text": "Climbing The Lune Mountains\nSteep  icy  mountains,  breathtaking  vistas.  Clear  morning  skies,\nforeboding nights.\nThe path to Falkrest Abbey: From the Last Inn is a 6 miles trek at\nhalved movement.\nCold: Characters who are not protected from the cold must make a\nsave vs paralysis or suffer 1 hp from the cold at the end of each day.\nRandom Happenings on the Lune Mountains:  2-in-6  chance  per\nday. Roll 1d6.",
     "labels": [],
     "text_bytes": 413,
@@ -533,8 +533,8 @@
     "pages": [
       13
     ],
-    "column": 0,
-    "text": "1d6 Random Happenings on the Lune Mountains\n◆ 5 Bandits. Old Beorly and his four treacherous children\nBella, Joik, Torod, and Smeel (hand axes, short bows,\n1 winter clothes). Just out hunting, may attack if the\ncharacters look weak. Their hideout is nearby: a cave\nwith fire wood, blankets, a coffer with 257sp, pearl\nnecklace (500gp), flask of wine, dried meat for 20 meals.\n2 ◆ 1 Cave Bear.\nLooking for food. -1 to reaction if characters\nsmeared with yeti oil are within 60’ (keen sense of smell).\n◆ 1 Treant. Ompholobulous Danglebeard. Random\nreaction. Basically wants travellers not to disturb\n3 the trees, and hates fires. Remembers the days when\nmonks lived in the abbey, kept the trail clear, and were\nfrequently visited by knights, kings, and queens.\n◆ 2d6 Wolves . White fur; hungry. -1 to reaction if\n4 characters smeared with yeti oil are within 60’ (keen\nsense of smell). Afraid of fire; will flee if one is wounded.\n5 ◆ 2d3 Mountain Goats  (2 HD Small Herd Animals).\nStubborn, territorial, tasty. Fight only if disturbed.\n◆ Blizzard: Furious, freezing wind, raging snow. Lasts 1d6\nhours. Visibility drops to 20’. Movement rates (further)\n6 halved. Characters who are not protected from the cold\nmust save vs paralysis or suffer 1 hp from the cold. 1-in-\n20 chance per hour of encountering a raging Lune Yeti.\nCuriously, it will ignore characters smeared with yeti oil.",
+    "column": -1,
+    "text": "1d6 Random Happenings on the Lune Mountains\n1\n2\n3\n4\n5\n6\n◆ 5 Bandits. Old Beorly and his four treacherous children\nBella, Joik, Torod, and Smeel (hand axes, short bows,\nwinter clothes). Just out hunting, may attack if the\ncharacters look weak. Their hideout is nearby: a cave\nwith fire wood, blankets, a coffer with 257sp, pearl\nnecklace (500gp), flask of wine, dried meat for 20 meals.\n◆ 1 Cave Bear. Looking for food. -1 to reaction if characters\nsmeared with yeti oil are within 60’ (keen sense of smell).\n◆ 1 Treant. Ompholobulous Danglebeard. Random\nreaction. Basically wants travellers not to disturb\nthe trees, and hates fires. Remembers the days when\nmonks lived in the abbey, kept the trail clear, and were\nfrequently visited by knights, kings, and queens.\n◆ 2d6 Wolves . White fur; hungry. -1 to reaction if\ncharacters smeared with yeti oil are within 60’ (keen\nsense of smell). Afraid of fire; will flee if one is wounded.\n◆ 2d3 Mountain Goats  (2 HD Small Herd Animals).\nStubborn, territorial, tasty. Fight only if disturbed.\n◆ Blizzard: Furious, freezing wind, raging snow. Lasts 1d6\nhours. Visibility drops to 20’. Movement rates (further)\nhalved. Characters who are not protected from the cold\nmust save vs paralysis or suffer 1 hp from the cold. 1-in-\n20 chance per hour of encountering a raging Lune Yeti.\nCuriously, it will ignore characters smeared with yeti oil.",
     "labels": [],
     "text_bytes": 1399,
     "keyed_area": "1",
@@ -553,7 +553,7 @@
     "pages": [
       14
     ],
-    "column": 0,
+    "column": -1,
     "text": "The Falkrest Abbey\nA  vast  pile  of  ruins  on  the  southern  side  of  a  steep,  snow-covered\npeak. Broken arches, dilapidated walls, dark stone blocks scattered\namong the white snow.\nThe upper floors have crumbled long ago, yet portions of the ground\nfloor still stand.\nEntrances: Players can enter via several paths:\n◈ Main entrance (room 1).\n◈ Climbing up the ruins from the outside, and then climbing down\ninto the cloister (room 2) using the half-collapsed stairs or a rope.\n◈ Exploring the perimeter of the ruins, characters can spot the door on\nthe eastern wall of room 4 and remove the rubble to enter the room.\n◈ Important note: Rooms 17, 18, and 19 are nowhere to be found from\nthe outside. They are a mystical place, only reachable via portals.\nGeneral construction: Gothic architecture, cold and damp masonry\nof blackened stone blocks, sprayed with snow and often veiled with\nice. An eerie luminescence dimly lights the rooms inside.\nRandom Happenings inside the Abbey: 1-in-6 chance per turn. Roll 1d6.",
     "labels": [],
     "text_bytes": 1027,
@@ -575,35 +575,15 @@
       15,
       16
     ],
-    "column": 0,
-    "text": "1d6 Random Happenings in the Abbey\n1 ◆ 2d6 Giant Rats  ponder the group as possible food\n(random reaction).\n2 ◆ 1 Icescale Viper  comes crawling and hissing (random\nreaction). See  Monsters .\n3 ◆ 1d4  Flayed Zombies  attack. Ignore this result if circle in\nroom 6 is broken. See  Monsters .\n4 ◆ Prolonged moaning echoing in the halls.\n5 ◆ Clerical chanting resonates through the air.\n6 ◆ A ghostly light reverberates just behind the corner.\nArea numbers Monsters Secret doors Portal\nStatue\nP S\nGhost\n16\n14 13\n10\nWight 11\n12\n9\nBandits\nN\nRowayn\n19 1 square = 10’\n18 Living Statues\nS\n17\nS P P\nP\n6\nSkele-  8 7 tons Flayed Zombie\n15\n5\nFlayed Zombie Icescale Viper 4\n2\n3\n1\nEntrance\nArea numbers",
+    "column": -1,
+    "text": "1d6 Random Happenings in the Abbey\n1\n2\n3\n4\n5\n6\n◆ 2d6 Giant Rats  ponder the group as possible food\n(random reaction).\n◆ 1 Icescale Viper  comes crawling and hissing (random\nreaction). See  Monsters .\n◆ 1d4  Flayed Zombies  attack. Ignore this result if circle in\nroom 6 is broken. See  Monsters .\n◆ Prolonged moaning echoing in the halls.\n◆ Clerical chanting resonates through the air.\n◆ A ghostly light reverberates just behind the corner.\nArea numbers Monsters Secret doors Portal\nStatue\nP S\nGhost\n16\n14 13\n10\nWight 11\n12\n9\nBandits\nN\nRowayn\n19 1 square = 10’\n18 Living Statues\nS\n17\nS P P\nP\n6\nSkele-  8 7 tons Flayed Zombie\n15\n5\nFlayed Zombie Icescale Viper 4\n2\n3\n1\nEntrance\nArea numbers\nMonsters Room Descriptions N\nSecret doors Rowayn",
     "labels": [],
-    "text_bytes": 702,
+    "text_bytes": 751,
     "keyed_area": "1",
     "style": {
       "size": 15.0,
       "family": "SkolarLatin",
       "bold": true,
-      "color": "#ffffff",
-      "italic": false
-    }
-  },
-  {
-    "unit_id": "p16.monsters-room-descriptions-n",
-    "heading": "Monsters Room Descriptions N",
-    "heading_path": [],
-    "pages": [
-      16
-    ],
-    "column": 0,
-    "text": "Monsters Room Descriptions N\nSecret doors Rowayn\n19 1 square = 10’",
-    "labels": [],
-    "text_bytes": 68,
-    "keyed_area": null,
-    "style": {
-      "size": 35.0,
-      "family": "GothicusRoman",
-      "bold": false,
       "color": "#ffffff",
       "italic": false
     }
@@ -616,15 +596,55 @@
       16
     ],
     "column": 0,
-    "text": "Portal 1 Entrance\nStatue Archway, wooden double door,  displaying a chess piece (a\nfallen long ago. 18 Rook, a Bishop, a Queen and a  Living Statues\nFootprints (mud and snow, King).\nhumans). Frescoes on east and  S\nwest walls, under a thin layer of  ▷ Frescoes, east wall: A\nice. Lowered portcullis allows crowned woman riding a\nto see the cloister. white chess horse, and a\n17 crowned man riding a black\n▷ Footprints: human-sized. A chess horse.\nsmall group. Go through the  S P\nportcullis into the cloister  P ▷ Lifting the portcullis:\n(room 2), and turn west. Requires a combined STR 22\nto lift. Unless propped open,\n▷ Frescoes, west wall: Four  P falls back down with a loud  P\npaladins in splendid vests,  S noise, alerting the Bandits in  6\nkneeling. Each has a shield  Skele-  room 9. 7\nGhost tons 8 Flayed Zombie\n16 15\n5\n14 13\nFlayed Zombie\n10\nWight Icescale Viper 4\n11\n12 2\n9\n3\nBandits\n1\nEntrance",
+    "text": "Portal 1 Entrance\nStatue Archway, wooden double door,\nfallen long ago. 18\nFootprints (mud and snow,\nhumans). Frescoes on east and\n19",
     "labels": [],
-    "text_bytes": 913,
+    "text_bytes": 132,
     "keyed_area": null,
     "style": {
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
       "color": "#000000",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p16.s",
+    "heading": "S",
+    "heading_path": [],
+    "pages": [
+      16
+    ],
+    "column": 1,
+    "text": "S\n1 square = 10’\ndisplaying a chess piece (a\nRook, a Bishop, a Queen and a  Living Statues\nKing).\nwest walls, under a thin layer of\n▷ Frescoes, east wall: A\nice. Lowered portcullis allows\nto see the cloister.\n▷ Footprints: human-sized. A\nsmall group. Go through the  S\n17\ncrowned woman riding a\nwhite chess horse, and a\ncrowned man riding a black\nchess horse.",
+    "labels": [],
+    "text_bytes": 365,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p16.p",
+    "heading": "P",
+    "heading_path": [],
+    "pages": [
+      16
+    ],
+    "column": 2,
+    "text": "P\nportcullis into the cloister  P\n▷ Lifting the portcullis:\n(room 2), and turn west.\n▷ Frescoes, west wall: Four  P\npaladins in splendid vests,  S\nkneeling. Each has a shield  Skele-\nRequires a combined STR 22\nto lift. Unless propped open,\nfalls back down with a loud  P\nnoise, alerting the Bandits in  6\nroom 9. 7\nGhost\n16\n14 13\n10\ntons 8\n15\nFlayed Zombie\n5\nFlayed Zombie\nWight\n11\n12\n9\nBandits\nIcescale Viper 4\n2\n3\n1\nEntrance",
+    "labels": [],
+    "text_bytes": 430,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff",
       "italic": false
     }
   },
@@ -656,8 +676,8 @@
       18,
       19
     ],
-    "column": 0,
-    "text": "3 Herbalist’s Dispensary\nDusty shelves with a  ▷ Searching the shelves: 1 turn\npandemonium of mostly broken  searching: roll 1d10; each item\npots and jars. can only be found once. If the\nsame result is rolled again,\nnothing is found for that turn.\n1d10 Searching the shelves\n◆ Yellow, oily liquid labeled “Thawing oil”. Stops/reverts\n1 freezing from Icescale viper, or nullifies penalties from\ncold for 24h.\n2 ◆ As number 1 above.\n3 ◆ Frozen blue liquid labeled “Wound balm”. Potion of\nHealing.\n4 ◆ Frozen green liquid labeled “Hovering Draft”. Potion of\nLevitation.\n◆ Frozen black liquid labeled “Black Potion”, a rough\n5 skull sketched on label. Unfortunately, a mispel for\n“Poison”. Save vs death or drop dead in 1d4 rounds with\na bulging, black tongue.\n6 ◆ Frozen grey liquid labeled “Vaporous Transmutation”.\nPotion of Gaseous Form.\n7 ◆ Tin pot labeled “Brown decoction”. Simple tea leaves.\n8 ◆ Brass pot labeled “Blue decoction”. Rare tea leaves\n(100gp).\n9 ◆ Unlabelled brass pot, contains 4lbs of salt.\n◆ Old scroll with recipe to create “yeti lotion” using wolf\n10 hair, tallow, and chili peppers. Might be worth 100gp to\nalchemists.\nS P P\nP S\nGhost Skele-  8 7 tons\n16 15\n14 13\n10\nWight Icescale Viper\n11\n12 2\n9\nBandits\n1\nEntrance",
+    "column": -1,
+    "text": "3 Herbalist’s Dispensary\nDusty shelves with a  ▷ Searching the shelves: 1 turn\npandemonium of mostly broken  searching: roll 1d10; each item\npots and jars. can only be found once. If the\nsame result is rolled again,\nnothing is found for that turn.\n1d10 Searching the shelves\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n◆ Yellow, oily liquid labeled “Thawing oil”. Stops/reverts\nfreezing from Icescale viper, or nullifies penalties from\ncold for 24h.\n◆ As number 1 above.\n◆ Frozen blue liquid labeled “Wound balm”. Potion of\nHealing.\n◆ Frozen green liquid labeled “Hovering Draft”. Potion of\nLevitation.\n◆ Frozen black liquid labeled “Black Potion”, a rough\nskull sketched on label. Unfortunately, a mispel for\n“Poison”. Save vs death or drop dead in 1d4 rounds with\na bulging, black tongue.\n◆ Frozen grey liquid labeled “Vaporous Transmutation”.\nPotion of Gaseous Form.\n◆ Tin pot labeled “Brown decoction”. Simple tea leaves.\n◆ Brass pot labeled “Blue decoction”. Rare tea leaves\n(100gp).\n◆ Unlabelled brass pot, contains 4lbs of salt.\n◆ Old scroll with recipe to create “yeti lotion” using wolf\nhair, tallow, and chili peppers. Might be worth 100gp to\nalchemists.\nS P P\nP S\nGhost Skele-  8 7 tons\n16 15\n14 13\n10\nWight Icescale Viper\n11\n12 2\n9\nBandits\n1\nEntrance",
     "labels": [],
     "text_bytes": 1299,
     "keyed_area": "3",

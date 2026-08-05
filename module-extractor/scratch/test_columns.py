@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from pdfhtml import Font, Page, Run  # noqa: E402
 from columns import (Line, _split_run_in_heading, body_run_style,  # noqa: E402
-                     find_gutter, page_lines, run_style)
+                     find_gutter, page_lines, region_lines, run_style)
 from tiers import body_style, style_table  # noqa: E402
 
 BODY_FONT = Font(font_id=0, size=12.0, family="Body", color="#000000")
@@ -88,6 +88,98 @@ class GutterTests(unittest.TestCase):
         gutter = find_gutter(page)
         self.assertIsNotNone(gutter)
         self.assertTrue(368.0 <= gutter <= 371.0, gutter)
+
+
+def stacked_page(table_rows=25):
+    """Two columns of prose above a full-width table -- Шпиль Кетцаль p65.
+
+    The table crosses the middle on most rows, so no gutter holds for the whole
+    page and ``find_gutter`` correctly declines.
+    """
+    words = []
+    for i in range(10):
+        y = 100.0 + i * 14
+        words.append(word("leftcolumntext", 50.0, y, w=200.0))
+        words.append(word("rightcolumntext", 350.0, y, w=200.0))
+    for i in range(table_rows):
+        words.append(word("a full width table row crossing the middle",
+                          60.0, 260.0 + i * 14, w=480.0))
+    return Page(number=1, width=612.0, height=792.0, words=tuple(words))
+
+
+class RegionColumnTests(unittest.TestCase):
+    """T0.5's fourth defect: a page may hold more than one layout."""
+
+    def test_a_page_with_two_layouts_has_no_page_wide_gutter(self) -> None:
+        """Why the fallback exists at all. Detection is right to decline here."""
+        self.assertIsNone(find_gutter(stacked_page()))
+
+    def test_columns_above_a_full_width_table_are_not_braided(self) -> None:
+        for line in page_lines(stacked_page()):
+            self.assertFalse(
+                "leftcolumntext" in line.text and "rightcolumntext" in line.text,
+                f"columns braided: {line.text!r}",
+            )
+
+    def test_the_full_width_table_still_reads_as_full_width(self) -> None:
+        table = [line for line in page_lines(stacked_page())
+                 if "table row" in line.text]
+        self.assertEqual(len(table), 25)
+        self.assertTrue(all(line.column == -1 for line in table))
+
+    def test_a_line_reaching_the_boundary_does_not_break_the_run(self) -> None:
+        """Doom p4, with the ragged left column that caused it.
+
+        Averaging the cluster put the boundary at 448.6 while one justified line
+        reached 449.0, so that line counted as crossing, broke the run of
+        agreeing rows, and left every row above it braided. The boundary has to
+        lie in the *intersection* of the holes, where no supporting row can
+        reach it.
+        """
+        def row(index, left_right):
+            y = 100.0 + index * 14
+            return [word("leftcolumntext", 50.0, y, w=left_right - 50.0),
+                    word("rightcolumntext", 461.0, y, w=140.0)]
+
+        words = row(0, 420.0) + row(1, 420.0)
+        words.append(word("a justified line reaching further", 50.0, 128.0,
+                          w=399.0))                                  # right=449
+        for index in range(3, 9):
+            words += row(index, 420.0)
+        for index in range(9, 13):
+            words += row(index, 447.0)
+        # A full-width table below, so no page-wide gutter holds and the
+        # regional path is the one under test.
+        for index in range(25):
+            words.append(word("a full width table row crossing the middle",
+                              60.0, 320.0 + index * 14, w=780.0))
+        page = Page(number=1, width=904.0, height=792.0, words=tuple(words))
+        self.assertIsNone(find_gutter(page), "page-wide gutter short-circuits")
+        for line in page_lines(page):
+            self.assertFalse(
+                "leftcolumntext" in line.text and "rightcolumntext" in line.text,
+                f"columns braided: {line.text!r}",
+            )
+
+    def test_three_columns_in_one_region_are_all_separated(self) -> None:
+        """A single gutter cannot express Doom's three-column rumour table."""
+        words = []
+        for i in range(12):
+            y = 100.0 + i * 14
+            words.append(word("colonetext", 50.0, y, w=150.0))
+            words.append(word("coltwotext", 250.0, y, w=150.0))
+            words.append(word("colthreetext", 450.0, y, w=150.0))
+        page = Page(number=1, width=712.0, height=792.0, words=tuple(words))
+        lines = region_lines(page, body=None)
+        self.assertEqual(sorted({line.column for line in lines}), [0, 1, 2])
+        for line in lines:
+            self.assertEqual(len(line.text.split()), 1, f"fused: {line.text!r}")
+
+    def test_a_single_column_page_yields_no_regional_boundary(self) -> None:
+        words = tuple(word("bodytext", 50.0, 100.0 + i * 14, w=500.0)
+                      for i in range(30))
+        page = Page(number=1, width=612.0, height=792.0, words=words)
+        self.assertEqual(region_lines(page, body=None), [])
 
 
 class FolioTests(unittest.TestCase):

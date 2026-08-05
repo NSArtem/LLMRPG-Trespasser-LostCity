@@ -47,6 +47,9 @@ DROP_CAP_RATIO = 2.0        # a single glyph this much taller than body is an in
 RUN_IN_TERMINATORS = ":."   # punctuation a run-in heading closes with
 RESUMPTION_WINDOW = 4       # points scanned past a quiet run for the next column
 FOLIO_MARGIN = 0.12         # share of page height that is header/footer space
+REGION_MIN_ROWS = 4         # consecutive rows that must agree before a boundary is real
+REGION_MIN_GAP = 0.012      # share of page width; a smaller hole is word spacing
+REGION_CLUSTER = 0.02       # share of page width; nearer midpoints are one boundary
 
 
 @dataclass(frozen=True)
@@ -171,6 +174,147 @@ def column_of(word: Run, gutter: float | None) -> int:
     if word.x >= gutter:
         return 1
     return -1  # spans the gutter: a full-width heading or rule
+
+
+def _detection_rows(page: Page) -> list[list[Run]]:
+    """Words banded by vertical position across the whole page width.
+
+    Deliberately cruder than ``_band``: this only has to be right enough to see
+    where rows agree on leaving a hole. ``_band`` does the real work afterwards,
+    inside each column, where drop caps and run-in headings are handled.
+    """
+    heights = sorted(word.height for word in page.words)
+    typical = heights[len(heights) // 2] if heights else 1.0
+    rows: list[list[Run]] = []
+    for word in sorted(page.words, key=lambda w: (w.y, w.x)):
+        if rows and abs(word.y - min(w.y for w in rows[-1])) <= typical * 0.5:
+            rows[-1].append(word)
+        else:
+            rows.append([word])
+    return rows
+
+
+def _boundary_candidates(page: Page, rows: list[list[Run]]) -> list[float]:
+    """Where rows agree on a hole too wide to be word spacing.
+
+    Holes are clustered before they are tested. Untested, one gutter offers a
+    slightly different hole from every row that shows it, and each survives
+    support on its own -- so a two-column region was cut five or six times and
+    arrived shredded.
+
+    **A cluster is reduced by intersection, not by averaging.** Averaging puts
+    the boundary at the mean of the holes, which sits left of the true gutter
+    wherever a column is ragged. On page 4 of *Doom of the Savage Kings* that
+    landed it at 448.6 while one justified line reached 449.0, so that line
+    counted as crossing, broke the run of agreeing rows, and left the page's
+    first two rows braided. The intersection cannot cross any row that supports
+    it, which is the property actually wanted.
+    """
+    holes: list[tuple[float, float]] = []
+    for row in rows:
+        ordered = sorted(row, key=lambda word: word.x)
+        reach = ordered[0].right
+        for word in ordered[1:]:
+            if word.x - reach > page.width * REGION_MIN_GAP:
+                holes.append((reach, word.x))
+            reach = max(reach, word.right)
+
+    clusters: list[list[tuple[float, float]]] = []
+    for hole in sorted(holes, key=lambda item: (item[0] + item[1]) / 2):
+        centre = (hole[0] + hole[1]) / 2
+        if clusters:
+            previous = clusters[-1][-1]
+            if centre - (previous[0] + previous[1]) / 2 <= page.width * REGION_CLUSTER:
+                clusters[-1].append(hole)
+                continue
+        clusters.append([hole])
+
+    candidates = []
+    for cluster in clusters:
+        low, high = max(item[0] for item in cluster), min(item[1] for item in cluster)
+        if low < high:
+            candidates.append((low + high) / 2)
+        else:
+            centres = sorted((item[0] + item[1]) / 2 for item in cluster)
+            candidates.append(centres[len(centres) // 2])
+    return candidates
+
+
+def _supported_rows(rows: list[list[Run]], x: float) -> list[tuple[int, int]]:
+    """Maximal row intervals over which ``x`` is a real boundary.
+
+    A row whose word crosses ``x`` ends the interval. A row carrying text on
+    both sides votes for it. A row lying wholly on one side does neither: the
+    short last line of a paragraph must not end its own column.
+    """
+    intervals: list[tuple[int, int]] = []
+    start: int | None = None
+    votes = 0
+    for index, row in enumerate(rows):
+        if any(word.x < x < word.right for word in row):
+            if start is not None and votes >= REGION_MIN_ROWS:
+                intervals.append((start, index - 1))
+            start, votes = None, 0
+            continue
+        if start is None:
+            start = index
+        if (any(word.right <= x for word in row)
+                and any(word.x >= x for word in row)):
+            votes += 1
+    if start is not None and votes >= REGION_MIN_ROWS:
+        intervals.append((start, len(rows) - 1))
+    return intervals
+
+
+def region_lines(page: Page, body: Style | None) -> list[Line]:
+    """Lines for a page whose columns hold over part of it, not all of it.
+
+    ``find_gutter`` asks one question of the whole page, and a page that stacks
+    layouts has no answer to give. Page 65 of Шпиль Кетцаль sets two rooms side
+    by side above a full-width table of berry effects; the table crosses the
+    middle on twenty-five rows, so the middle is genuinely no clearer than the
+    rest and detection correctly declines. Every row was then assembled across
+    the full width, and two rooms' prose came out braided line by line:
+
+        ся друг о друга, нарушая тишину обширного  Пол пещеры устилает несметное
+
+    **Text retention cannot see this.** Not one character is lost; they arrive
+    interleaved. It took reading the lines to find it.
+
+    So support is counted over a *run of consecutive rows* rather than over the
+    page, letting a boundary hold for part of a page and lapse for the rest. One
+    run may hold several boundaries at once, which is what the three-column
+    rumour table on page 4 of *Doom of the Savage Kings* is -- and what a single
+    gutter could never express.
+    """
+    rows = _detection_rows(page)
+    per_row: list[list[float]] = [[] for _ in rows]
+    for x in _boundary_candidates(page, rows):
+        for first, last in _supported_rows(rows, x):
+            for index in range(first, last + 1):
+                per_row[index].append(x)
+    per_row = [sorted(set(edges)) for edges in per_row]
+    if not any(per_row):
+        return []
+
+    lines: list[Line] = []
+    index = 0
+    while index < len(rows):
+        edges = per_row[index]
+        stop = index
+        while stop + 1 < len(rows) and per_row[stop + 1] == edges:
+            stop += 1
+        words = [word for row in rows[index:stop + 1] for word in row]
+        # A region with no boundary is full width, which is what -1 has always
+        # meant, so `join_wrapped_headings` keeps matching across such a run.
+        cuts = [-float("inf"), *edges, float("inf")]
+        for column, (low, high) in enumerate(zip(cuts, cuts[1:])):
+            bucket = [w for w in words if low <= (w.x + w.right) / 2 < high]
+            if bucket:
+                lines.extend(_band(bucket, page.number,
+                                   -1 if not edges else column, body))
+        index = stop + 1
+    return lines
 
 
 def is_drop_cap(run: Run, body: Style | None) -> bool:
@@ -347,12 +491,26 @@ def is_folio(line: Line, height: float) -> bool:
 def page_lines(
     page: Page, body: Style | None = None
 ) -> list[Line]:
-    """Lines in reading order: spanning content, then each column top to bottom."""
+    """Lines in reading order: spanning content, then each column top to bottom.
+
+    A page-wide gutter is tried first and always wins where it is found. The
+    real gutters are narrow -- Шпиль Кетцаль's median is four points on a
+    698-point page -- and ``find_gutter`` reads them from the crossing profile,
+    far below the hole width ``region_lines`` needs to see a boundary at all. So
+    the region model is a fallback for pages the page-wide question cannot
+    answer, never a replacement: on the 151 pages where a gutter is found, this
+    function behaves exactly as it did before.
+    """
     if not page.words:
         return []
     if body is None:
         body = body_run_style([page])
     gutter = find_gutter(page)
+    if gutter is None:
+        regional = region_lines(page, body)
+        if regional:
+            return [line for line in regional
+                    if not is_folio(line, page.height)]
     buckets: dict[int, list[Run]] = {}
     for word in page.words:
         buckets.setdefault(column_of(word, gutter), []).append(word)

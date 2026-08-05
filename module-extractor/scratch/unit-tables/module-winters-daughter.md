@@ -2,12 +2,12 @@
 
 | | |
 |---|---|
-| units | 96 |
-| text retained | 99.8% (76 of 48226 characters reached no unit) |
+| units | 100 |
+| text retained | 99.8% (76 of 48131 characters reached no unit) |
 | pages covered | 29 |
-| keyed units | 42 (strict `N NAME` form: 6) |
+| keyed units | 45 (strict `N NAME` form: 5) |
 | spanning a page break | 3 |
-| size | median 287B, max 2547B, min 6B |
+| size | median 246B, max 2547B, min 6B |
 
 ## Checks
 
@@ -16,7 +16,8 @@
 **Keyed range** 1–19, 19 distinct.
 **Missing keys:** none
 
-**Suspiciously small** (< 40B): 18
+**Suspiciously small** (< 40B): 20
+- `p3.writing` p[3] — Writing
 - `p5.introduction-introduction` p[5] — Introduction Introduction
 - `p8.hooks-hooks` p[8] — Hooks Hooks
 - `p8.dreams-of-the-lady` p[8] — Dreams of the Lady
@@ -28,8 +29,7 @@
 - `p23.17-fairy-kitchen` p[23] — 17. Fairy Kitchen
 - `p25.epilogue-epilogue` p[25] — Epilogue Epilogue
 - `p28.outside-the-mound` p[28] — Outside the Mound
-- `p28.5-yards` p[28] — 5 yards
-- …and 6 more
+- …and 8 more
 
 **Suspiciously large** (> 3000B), likely under-segmented: 0
 
@@ -37,11 +37,11 @@
 
 | id | pages | bytes | heading |
 |---|---|---:|---|
-| `p3.writing-play-test-referees` | 3 | 189 | Writing Play Test Referees |
-| `p3.layout-proofreaders` | 3 | 59 | Layout Proofreaders |
-| `p3.cover-illustration-sándor-gebei` | 3 | 55 | Cover Illustration Sándor Gebei |
-| `p3.interior-illustrations-frederick` | 3 | 334 | Interior Illustrations Frederick Münch |
-| `p4.table-of-contents-table-of-conte` | 4 | 710 | Table of Contents Table of Contents |
+| `p3.writing` | 3 | 20 | Writing |
+| `p3.original-concept` | 3 | 179 | Original Concept |
+| `p3.play-test-referees` | 3 | 98 | Play Test Referees |
+| `p3.proofreaders` | 3 | 338 | Proofreaders |
+| `p4.table-of-contents-table-of-conte` | 4 | 690 | Table of Contents Table of Contents |
 | `p5.introduction-introduction` | 5 | 25 | Introduction Introduction |
 | `p5.about-this-adventure` | 5 | 394 | About This Adventure |
 | `p5.old-school-essentials` | 5 | 251 | Old-School Essentials |
@@ -78,7 +78,10 @@
 | `p10.pure-iron` | 10 | 122 | Pure Iron |
 | `p10.silver-sickness` | 10 | 157 | Silver Sickness |
 | `p10.languages` | 10 | 694 | Languages |
-| `p11.outside-the-mound-outside-the-mo` | 11 | 766 | Outside the Mound Outside the Mound |
+| `p11.outside-the-mound-outside-the-mo` | 11 | 224 | Outside the Mound Outside the Mound |
+| `p11.2-1d4-tipsy-goblin-merchants-wit` | 11 | 209 | 2.  1d4  tipsy goblin merchants  with |
+| `p11.3-a-gust-of-wind-whips-the-branc` | 11 | 82 | 3.  A  gust of wind whips  the branches |
+| `p11.must-save-versus-paralysis-or-be` | 11 | 242 | must  save versus paralysis  or be struck |
 | `p11.1-approaching-the-burial-mound` | 11 | 286 | 1. Approaching the Burial Mound |
 | `p12.2-the-whything-stones` | 12 | 1141 | 2. The Whything Stones |
 | `p13.3-tomb-entrance` | 13 | 16 | 3. Tomb Entrance |
@@ -112,13 +115,14 @@
 | `p28.2-the-whything-stones` | 28 | 155 | 2.  The Whything Stones: |
 | `p28.3-tomb-entrance` | 28 | 173 | 3.  Tomb entrance: |
 | `p28.4-worm-hole` | 28 | 292 | 4.  Worm hole: |
-| `p29.the-burial-mound` | 29 | 16 | The Burial Mound |
-| `p29.5-hall-of-guardians` | 29 | 176 | 5.  Hall of guardians: |
-| `p29.14-13-6-blindfolded-statue-princ` | 29 | 88 | 14 13 6.  Blindfolded statue:  Princess |
-| `p29.7-freezing-mirror` | 29 | 88 | 7.  Freezing mirror: |
-| `p29.8-family-crypt` | 29 | 246 | 8.  Family crypt: |
-| `p29.1-square` | 29 | 51 | 1 square |
-| `p29.5-feet` | 29 | 12 | 5 feet |
+| `p29.the-burial-mound` | 29 | 34 | The Burial Mound |
+| `p29.5-hall-of-guardians` | 29 | 164 | 5.  Hall of guardians: |
+| `p29.6-blindfolded-statue` | 29 | 81 | 6.  Blindfolded statue: |
+| `p29.7-freezing-mirror` | 29 | 97 | 7.  Freezing mirror: |
+| `p29.1-square` | 29 | 10 | 1 square |
+| `p29.5-feet` | 29 | 26 | 5 feet |
+| `p29.8-family-crypt` | 29 | 172 | 8.  Family crypt: |
+| `p29.9-chapel-of-st` | 29 | 91 | 9.  Chapel of St |
 | `p29.10-abandoned-priest-s-quarters` | 29 | 174 | 10.  Abandoned priest’s quarters: |
 | `p29.11-statues-with-weapons` | 29 | 74 | 11.  Statues with weapons: |
 | `p29.12-hall-of-hounds` | 29 | 191 | 12.  Hall of hounds: |

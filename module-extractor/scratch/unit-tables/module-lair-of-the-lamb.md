@@ -2,12 +2,12 @@
 
 | | |
 |---|---|
-| units | 192 |
-| text retained | 99.9% (146 of 107716 characters reached no unit) |
+| units | 202 |
+| text retained | 99.9% (146 of 107516 characters reached no unit) |
 | pages covered | 53 |
-| keyed units | 51 (strict `N NAME` form: 51) |
-| spanning a page break | 1 |
-| size | median 391B, max 3915B, min 7B |
+| keyed units | 54 (strict `N NAME` form: 52) |
+| spanning a page break | 0 |
+| size | median 347B, max 3915B, min 5B |
 
 ## Checks
 
@@ -16,7 +16,11 @@
 **Keyed range** 1–46, 46 distinct.
 **Missing keys:** none
 
-**Suspiciously small** (< 40B): 11
+**Suspiciously small** (< 40B): 18
+- `p5.stats` p[5] — Stats
+- `p5.appearance` p[5] — Appearance
+- `p7.learning-to-crawl` p[7] — Learning to Crawl
+- `p8.exploration` p[8] — Exploration
 - `p16.common-knowledge` p[16] — Common Knowledge
 - `p16.secrets` p[16] — Secrets
 - `p17.part-1-lair-of-the-lamb` p[17] — Part 1: Lair of the Lamb
@@ -25,9 +29,7 @@
 - `p27.part-2-gallery-of-the-ghouls` p[27] — Part 2 Gallery of the Ghouls
 - `p39.part-3-the-cistern` p[39] — Part 3: The Cistern
 - `p42.appendices` p[42] — Appendices
-- `p43.appendix-a-magic-items` p[43] — Appendix A: Magic Items
-- `p47.appendix-c-divine-favor` p[47] — Appendix C: Divine Favor
-- `p48.appendix-d-drugs` p[48] — Appendix D: Drugs
+- …and 6 more
 
 **Suspiciously large** (> 3000B), likely under-segmented: 1
 - `p3.advice-for-dms` p[3] 3915B — Advice for DMs
@@ -42,9 +44,14 @@
 | `p3.advice-for-dms` | 3 | 3915 | Advice for DMs |
 | `p4.salt-of-the-earth` | 4 | 49 | Salt of the Earth |
 | `p5.level-0-peasants` | 5 | 262 | Level 0 Peasants |
-| `p5.stats-demographic` | 5 | 1331 | Stats Demographic |
-| `p6.profession` | 6 | 1048 | Profession |
-| `p6.24-animal-handler-59-gambler-94` | 6–8 | 462 | 24 Animal Handler  59 Gambler 94 Stay-at-Home Parent |
+| `p5.stats` | 5 | 5 | Stats |
+| `p5.demographic` | 5 | 307 | Demographic |
+| `p5.checks-and-saves` | 5 | 568 | Checks and Saves |
+| `p5.appearance` | 5 | 10 | Appearance |
+| `p5.personality` | 5 | 422 | Personality |
+| `p6.profession` | 6 | 1435 | Profession |
+| `p7.learning-to-crawl` | 7 | 39 | Learning to Crawl |
+| `p8.exploration` | 8 | 11 | Exploration |
 | `p8.time` | 8 | 1497 | Time |
 | `p8.light` | 8 | 662 | Light |
 | `p8.mapping` | 8 | 202 | Mapping |
@@ -226,5 +233,10 @@
 | `p53.opportunist` | 53 | 131 | Opportunist |
 | `p53.preparation` | 53 | 452 | Preparation |
 | `p53.snag` | 53 | 778 | Snag |
-| `p54.level-ups` | 54 | 947 | Level Ups |
+| `p54.level-ups` | 54 | 763 | Level Ups |
+| `p54.key-items` | 54 | 52 | Key Items |
+| `p54.1-torch` | 54 | 65 | 1 torch |
+| `p54.2-oil` | 54 | 22 | 2 oil |
+| `p54.18a` | 54 | 14 | 18A |
+| `p54.30-rope` | 54 | 26 | 30' rope |
 | `p54.repurposing-the-dungeon` | 54 | 778 | Repurposing the Dungeon |

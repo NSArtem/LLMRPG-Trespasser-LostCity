@@ -14,29 +14,37 @@ python3 module-extractor/scratch/units.py --all --dump module-extractor/scratch/
 python3 module-extractor/scratch/digest.py --all --out module-extractor/scratch/unit-tables
 ```
 
-## Text retention, the number this gate turns on
+## Text retention, the number this gate turns on — and the one it cannot see
 
-The unit count says nothing about whether anything was lost. This does — every
-character the line layer produced, against the characters that reached a unit.
-It is the first row of every digest, and it is what turned a plausible-looking
-33-unit segmentation of Doom into a defect report.
+The unit count says nothing about whether anything was lost. Retention does —
+every character the line layer produced, against the characters that reached a
+unit. It is the first row of every digest, and it is what turned a
+plausible-looking 33-unit segmentation of Doom into a defect report.
+
+**It is not sufficient, and defect 5 is why.** Braided columns lose nothing:
+every character arrives, interleaved with another column's. Retention reads
+100% while the prose is destroyed. Reading the lines is what found it.
 
 | Source | Units | Keyed | Under 40B | Pages | Retained |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Lair of the Lamb | 214 → **192** | 51 | 18 → **11** | 53 / 54 | 99.9% |
-| Winter's Daughter | 115 → **96** | 42 | 20 → **18** | 29 / 31 | 99.8% |
-| Falkrest Abbey | 80 → **55** | 35 → **22** | 18 → **13** | 42 / 46 | 99.8% |
+| Lair of the Lamb | 214 → 192 → **202** | 51 → **54** | 18 → 11 → **18** | 53 / 54 | 99.9% |
+| Winter's Daughter | 115 → 96 → **100** | 42 → **45** | 20 → 18 → **20** | 29 / 31 | 99.8% |
+| Falkrest Abbey | 80 → 55 → **56** | 35 → **22** | 18 → **13** | 42 / 46 | 99.8% |
 | Doom of the Savage Kings | 33 → **37** | 23 → **26** | 2 → **1** | 13 → **15** / 18 | 82.9% → **98.9%** |
-| Шпиль Кетцаль | 280 → **180** | 77 | 25 → **9** | 73 / 74 | 100.0% |
+| Шпиль Кетцаль | 280 → 180 → **189** | 77 → **80** | 25 → 9 → **11** | 73 / 74 | 100.0% |
 
-Every source moved the same way: fewer units, a larger median, the same or a
-smaller maximum, and not one keyed area lost. Falkrest's keyed count *falls*
-because thirteen of its thirty-five were rows of its contents page.
+The middle figure is where defects 1–4 left each source; the last is after
+defect 5. Not one keyed area was lost at any point, and three sources gained
+keyed areas once their columns stopped braiding — those areas had been
+swallowed into a neighbouring column's line and were never visible. Falkrest's
+keyed count *falls* because thirteen of its thirty-five were rows of its
+contents page.
 
-## The four questions, as they were answered
+## The questions, as they were answered
 
-All four are settled; three were defects and are fixed. What follows is what was
-found, what was done, and what is left for the reviewer to accept or reject.
+The gate opened with four. Checking the last of them found a fifth defect, which
+is described after them. What follows is what was found, what was done, and what
+is left for the reviewer to accept or reject.
 
 **1. Doom's uncovered pages were content, and the cause is a drop cap.** Of the
 five pages it left uncovered, p1 and p18 are full-bleed cover images with no
@@ -155,10 +163,46 @@ its contents page names has a unit.
 page, two blank pages (p4 carries no text and no image at all) and p42, whose
 only text is the folio `38`.
 
+**5. A page may hold more than one layout, and columns braided where it does.**
+Checking the last open question — Шпиль Кетцаль's 8,433-byte maximum — showed
+the earlier note about it was wrong. `11. ЗАЛ МУЗЫКИ ВЕТРА 12. ПОГОСТ ГРОМОВЫХ`
+was not two keyed areas joined by the wrapped-heading rule. The two headings
+arrived **already fused from the line layer**, and so did both rooms' prose:
+
+```
+p65 :: 11. ЗАЛ МУЗЫКИ ВЕТРА 12. ПОГОСТ ГРОМОВЫХ
+p65 :: ся друг о друга, нарушая тишину обширного  Пол пещеры устилает несметное
+p65 :: зала. С потолка свисают сотни таких музы -  гигантских костей громовых
+```
+
+`find_gutter` asks one question of a whole page. Page 65 sets two rooms side by
+side above a full-width table of berry effects; the table crosses the middle on
+twenty-five rows, so the middle is genuinely no clearer than the rest and
+detection **correctly** declines. Every row was then assembled across the full
+width. Eight pages across four sources were affected, up to 7.9% of a source's
+text. Poppler's own reading-order mode braids the same page, so this is not a
+threshold that was set carelessly.
+
+*Fixed.* `region_lines` in `columns.py` counts a boundary as supported by a *run
+of consecutive rows* rather than by the page, so it can hold for part of a page
+and lapse for the rest, and one run may hold several boundaries at once — which
+is what the three-column rumour table on Doom's page 4 is, and what a single
+gutter could never express. A cluster of holes is reduced by **intersection**,
+not by averaging: averaging put Doom's boundary at 448.6 while one justified
+line reached 449.0, so that line counted as crossing and orphaned every row
+above it.
+
+**It is a fallback, never a replacement.** The real gutters are narrow — Шпиль
+Кетцаль's median is four points on a 698-point page — far below the hole width
+this model needs to see a boundary at all. `find_gutter` reads them from the
+crossing profile and still wins wherever it fires, so the 151 pages that already
+worked are untouched. A parameter sweep over 36 settings picked the one that
+loses no keyed area on any source.
+
 ## What is left for the reviewer
 
-The three defects are fixed and covered by tests that fail when the defect is
-put back. What remains is judgment, not correctness:
+The defects are fixed and covered by tests that fail when the defect is put
+back. What remains is judgment, not correctness:
 
 - **Falkrest's twelve map labels** stay as units by the decision above. If Stage
   3 cannot classify them cheaply, this is the place that changes.
@@ -168,9 +212,15 @@ put back. What remains is judgment, not correctness:
 - **Doom's p2 credits page** is the last uncovered page holding text (685
   characters). It is front matter, but it is not *classified* as front matter —
   T4.4's page-completeness invariant will want that stated.
-- **Шпиль Кетцаль's 8,433-byte maximum**, `11. ЗАЛ МУЗЫКИ ВЕТРА 12. ПОГОСТ
-  ГРОМОВЫХ`, is two keyed areas joined by the wrapped-heading rule. Untouched by
-  this round and the largest remaining boundary question.
+- **The units under 40 bytes rose back** to roughly where they started, because
+  unbraiding a column exposes the short headings that were hidden inside a
+  neighbour's line. Sampling them shows section dividers with no body
+  (`Appendices`, `Part 3: The Cistern`), keyed rooms whose body sits on the next
+  page, and map labels (`5 yards`, `2 oil`). None is a truncation, but the count
+  is a standing invitation to look.
+- **Шпиль Кетцаль's maximum is now 7,734 bytes**, down from 8,433. It is a
+  genuine long section rather than two areas fused, so the largest remaining
+  boundary question is closed.
 
 ## What a decision here unblocks
 

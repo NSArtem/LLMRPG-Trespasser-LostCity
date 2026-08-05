@@ -106,7 +106,7 @@
     "pages": [
       5
     ],
-    "column": 0,
+    "column": -1,
     "text": "Level 0 Peasants\nThe game starts with 12 level 0 peasants in a dungeon.   Unless you have more than 6 players, everyone will control\nmultiple peasants.\nAlthough you control multiples, pick one peasant.  That peasant is your PC.  The other peasants are hirelings.",
     "labels": [],
     "text_bytes": 262,
@@ -120,16 +120,102 @@
     }
   },
   {
-    "unit_id": "p5.stats-demographic",
-    "heading": "Stats Demographic",
+    "unit_id": "p5.stats",
+    "heading": "Stats",
     "heading_path": [],
     "pages": [
       5
     ],
     "column": 0,
-    "text": "Stats Demographic\nAbility Scores (Str, Dex, Con, Int, Wis, Cha) are randomly 1-2 Boy, age 1d8+6\ngenerated in order by rolling 3d6, dividing by two, and then\nrounding down.  The average score is 5.  There are 4 other 3-4 Girl, age 1d8+6\nstats. 5-12 Man, age 1d20+14\nHP 0 13-20 Woman, age 1d20+14\nMove 5\nAtk 0\nDef 0 If you are a child, you have a Small Stature.\n• Switch Str with your lowest ability score.\nChecks and Saves • Cramped spaces impose no penalty.\nNearly all checks are made against a DC of 16.   Roll a d20, • You do not have a Profession.\nadd your stat, and try to get the DC or better. If   you   want   to   introduce   non-binary   genders,   I   suggest\nSaves are an exception, and are made with either Dex, Con, replacing the numbers 7 and 13.\nor  Cha  against  a  DC of  20.     Cha  is  used  for all  types  of\nmagical effects, and is the most common Save.\nAppearance Personality\n1 Athletic 1\nCautious\n2 Beautiful 2\nCaring\n3 Boney 3\nCheerful\n4 Brawny 4\nCynical\n5 Brutish 5\nEnergetic\n6 Delicate 6\nFormal\n7 Disfigured 7\nGloomy\n8 Gorgeous 8\nHeartless\n9 Grizzled 9\nHonorable\n10 Handsome  10\nIrate\n11 Large 11\nJocular\n12 Pale 12\nMilitaristic\n13 Petite 13\nNoble\n14 Plump 14\nPassionate\n15 Short 15\nProud\n16 Slender 16\nScheming\n17 Statuesque 17\nSerene\n18 Swarthy 18\nSmug\n19 Tall  19\nSpacey\n20 Willowy  20\nUnhinged",
+    "text": "Stats",
     "labels": [],
-    "text_bytes": 1331,
+    "text_bytes": 5,
+    "keyed_area": null,
+    "style": {
+      "size": 21.0,
+      "family": "F3",
+      "bold": false,
+      "color": "#000000",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p5.demographic",
+    "heading": "Demographic",
+    "heading_path": [
+      "Stats"
+    ],
+    "pages": [
+      5
+    ],
+    "column": 1,
+    "text": "Demographic\nAbility Scores (Str, Dex, Con, Int, Wis, Cha) are randomly\ngenerated in order by rolling 3d6, dividing by two, and then\nrounding down.  The average score is 5.  There are 4 other\n1-2\n3-4\nBoy, age 1d8+6 Girl, age 1d8+6\nstats.\nHP 0\nMove 5\nAtk 0\n5-12\n13-20\nMan, age 1d20+14 Woman, age 1d20+14\nDef 0",
+    "labels": [],
+    "text_bytes": 307,
+    "keyed_area": null,
+    "style": {
+      "size": 21.0,
+      "family": "F3",
+      "bold": false,
+      "color": "#000000",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p5.checks-and-saves",
+    "heading": "Checks and Saves",
+    "heading_path": [
+      "Stats"
+    ],
+    "pages": [
+      5
+    ],
+    "column": 0,
+    "text": "Checks and Saves\nIf you are a child, you have a Small Stature.\n• Switch Str with your lowest ability score.\n• Cramped spaces impose no penalty.\nNearly all checks are made against a DC of 16.   Roll a d20,\nadd your stat, and try to get the DC or better.\nSaves are an exception, and are made with either Dex, Con,\nor  Cha  against  a  DC of  20.     Cha  is  used  for all  types  of\n• You do not have a Profession.\nIf   you   want   to   introduce   non-binary   genders,   I   suggest\nreplacing the numbers 7 and 13.\nmagical effects, and is the most common Save.",
+    "labels": [],
+    "text_bytes": 568,
+    "keyed_area": null,
+    "style": {
+      "size": 21.0,
+      "family": "F3",
+      "bold": false,
+      "color": "#000000",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p5.appearance",
+    "heading": "Appearance",
+    "heading_path": [],
+    "pages": [
+      5
+    ],
+    "column": 0,
+    "text": "Appearance",
+    "labels": [],
+    "text_bytes": 10,
+    "keyed_area": null,
+    "style": {
+      "size": 21.0,
+      "family": "F3",
+      "bold": false,
+      "color": "#000000",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p5.personality",
+    "heading": "Personality",
+    "heading_path": [
+      "Appearance"
+    ],
+    "pages": [
+      5
+    ],
+    "column": 3,
+    "text": "Personality\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\nAthletic Beautiful Boney Brawny Brutish Delicate Disfigured Gorgeous Grizzled Handsome\nLarge Pale Petite Plump Short Slender Statuesque Swarthy Tall Willowy\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\nCautious\nCaring\nCheerful\nCynical\nEnergetic\nFormal\nGloomy\nHeartless\nHonorable\nIrate\nJocular\nMilitaristic\nNoble\nPassionate\nProud\nScheming\nSerene\nSmug\nSpacey\nUnhinged",
+    "labels": [],
+    "text_bytes": 422,
     "keyed_area": null,
     "style": {
       "size": 21.0,
@@ -146,10 +232,10 @@
     "pages": [
       6
     ],
-    "column": 0,
-    "text": "Profession\nEach peasant is defined by a profession.   Roll a d20 for half of the peasants and a d100 for the other half.   These\nprofessions count as a Skill that you have 2 points in (see below).\n1 Charcoal Burner  36 Black Marketeer 71 Mason\n2 Beggar  37 Blacksmith 72 Minstrel\n3 Burgler  38 Brewer  73 Mistress/Paramour\n4 Deserter 39 Bureaucrat 74 Moneylender\n5 Drunkard 40 Butcher  75 Painter\n6 Farmer, Onion 41 Butler 76 Perfumer\n7 Farmer, Chicken 42 Carpenter 77 Philosopher\n8 Farmer, Pumpkin 43 Cartwright 78 Pickpocket\n9 Poacher   44 Chandler 79 Pissprophet\n10 Innkeeper 45 Choirboy 80 Poacher\n11 Link Boy 46 Clerk 81 Poet\n12 Lumberjack 47 Cobbler 82 Porter\n13 Monk/Nun 48 Cook 83 Potter\n14 Milkmaid 49 Cooper  84 Prostitute\n15 Miller 50 Cultist  85 Rag and Bone Man\n16 Miner 51 Dancer   86 Rat Catcher\n17 Peasant  52 Drug Dealer 87 Sailor\n18 Shepherd 53 Dyer 88 Scribe\n19 Swineherd 54 Engineer 89 Scullion\n20 Tanner  55 Fanatic 90 Sculptor\n21 Thug 56 Fashion Designer 91 Servant\n22 Actor 57 Fisher  92 Slaver\n23 Alchemist 58 Fool 93 Squire",
+    "column": -1,
+    "text": "Profession\nEach peasant is defined by a profession.   Roll a d20 for half of the peasants and a d100 for the other half.   These\nprofessions count as a Skill that you have 2 points in (see below).\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\nCharcoal Burner Beggar Burgler Deserter Drunkard Farmer, Onion Farmer, Chicken\nFarmer, Pumpkin Poacher Innkeeper Link Boy Lumberjack Monk/Nun Milkmaid Miller\nMiner Peasant Shepherd Swineherd Tanner Thug Actor Alchemist Animal Handler\nArchitect Apothecary Armorer Ascetic Astrologer Astronomer Bandit Baker Banker Barber-Surgeon\nBartender\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\nBlack Marketeer Blacksmith Brewer Bureaucrat Butcher Butler Carpenter Cartwright Chandler\nChoirboy Clerk Cobbler Cook Cooper Cultist Dancer Drug Dealer Dyer\nEngineer Fanatic Fashion Designer Fisher Fool Gambler Gardener Geologist Glassblower\nGongfarmer Graverobber Gypsy Hatter Herald Herbalist Jeweler Locksmith\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\n88\n89\n90\n91\n92\n93\n94\n95\n96\n97\n98\n99\n100\nMason Minstrel Mistress/Paramour Moneylender Painter Perfumer Philosopher Pickpocket Pissprophet Poacher\nPoet Porter Potter Prostitute Rag and Bone Man Rat Catcher\nSailor Scribe Scullion Sculptor Servant Slaver Squire Stay-at-Home Parent Storyteller\nTailor Tax Collector Torturer Weaponsmith Wet Nurse",
     "labels": [],
-    "text_bytes": 1048,
+    "text_bytes": 1435,
     "keyed_area": null,
     "style": {
       "size": 21.0,
@@ -160,22 +246,40 @@
     }
   },
   {
-    "unit_id": "p6.24-animal-handler-59-gambler-94",
-    "heading": "24 Animal Handler  59 Gambler 94 Stay-at-Home Parent",
+    "unit_id": "p7.learning-to-crawl",
+    "heading": "Learning to Crawl",
     "heading_path": [],
     "pages": [
-      6,
-      7,
+      7
+    ],
+    "column": 0,
+    "text": "Learning to Crawl\nHold your torch high.",
+    "labels": [],
+    "text_bytes": 39,
+    "keyed_area": null,
+    "style": {
+      "size": 81.0,
+      "family": "F3",
+      "bold": false,
+      "color": "#000000",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p8.exploration",
+    "heading": "Exploration",
+    "heading_path": [],
+    "pages": [
       8
     ],
     "column": 0,
-    "text": "24 Animal Handler  59 Gambler 94 Stay-at-Home Parent\n25 Architect 60 Gardener 95 Storyteller\n26 Apothecary 61 Geologist 96 Tailor\n27 Armorer 62 Glassblower 97 Tax Collector\n28 Ascetic  63 Gongfarmer 98 Torturer\n29 Astrologer 64 Graverobber 99 Weaponsmith\n30 Astronomer 65 Gypsy   100 Wet Nurse\n31 Bandit 66 Hatter\n32 Baker 67 Herald\n33 Banker 68 Herbalist\n34 Barber-Surgeon 69 Jeweler\n35 Bartender 70 Locksmith\nLearning to Crawl\nHold your torch high.\nExploration",
+    "text": "Exploration",
     "labels": [],
-    "text_bytes": 462,
-    "keyed_area": "24",
+    "text_bytes": 11,
+    "keyed_area": null,
     "style": {
-      "size": 16.0,
-      "family": "F6",
+      "size": 30.0,
+      "family": "F3",
       "bold": false,
       "color": "#000000",
       "italic": false
@@ -184,7 +288,9 @@
   {
     "unit_id": "p8.time",
     "heading": "Time",
-    "heading_path": [],
+    "heading_path": [
+      "Exploration"
+    ],
     "pages": [
       8
     ],
@@ -204,7 +310,9 @@
   {
     "unit_id": "p8.light",
     "heading": "Light",
-    "heading_path": [],
+    "heading_path": [
+      "Exploration"
+    ],
     "pages": [
       8
     ],
@@ -224,7 +332,9 @@
   {
     "unit_id": "p8.mapping",
     "heading": "Mapping",
-    "heading_path": [],
+    "heading_path": [
+      "Exploration"
+    ],
     "pages": [
       8
     ],
@@ -244,7 +354,9 @@
   {
     "unit_id": "p8.doors",
     "heading": "Doors",
-    "heading_path": [],
+    "heading_path": [
+      "Exploration"
+    ],
     "pages": [
       8
     ],
@@ -264,7 +376,9 @@
   {
     "unit_id": "p8.movement",
     "heading": "Movement",
-    "heading_path": [],
+    "heading_path": [
+      "Exploration"
+    ],
     "pages": [
       8
     ],
@@ -284,7 +398,9 @@
   {
     "unit_id": "p8.stealth",
     "heading": "Stealth",
-    "heading_path": [],
+    "heading_path": [
+      "Exploration"
+    ],
     "pages": [
       8
     ],
@@ -308,7 +424,7 @@
     "pages": [
       9
     ],
-    "column": 0,
+    "column": -1,
     "text": "Combat\nCombat is often a failure state.  By the time the DM asks you to roll initiative, your poor judgment is behind you and your\npunishment is ahead.",
     "labels": [],
     "text_bytes": 151,
@@ -328,7 +444,7 @@
     "pages": [
       9
     ],
-    "column": 0,
+    "column": -1,
     "text": "Stat Blocks\nLvl is the same as HD.  An enemy has 1d6 HP per HD.\nDef tells you the DC required to hit the damn thing.\nAtk is usually labled like  Claws  1d8.  It tells you both the mode of attack and the damage.\nMove is sometimes omitted, if its the same as a human.  The DC to escape a slow pursuer is 12.  The DC to escape a fast\npursuer is 20.  Move is also sometimes described by listing a comparable creature ( Climb  spider).\nStats like Str and Int aren't usually listed unless they're significantly different from 5, which is the default for all stats.\nNote that when the DM is trying to figure out if a monster behaves intelligently, they can resolve it with an Int check.\nFailure means that they act like a dumb animal.\nDis stands for disposition.  If it's not listed, assume that the monster is average.  Average monsters will fight until the\nfight seems lost, then flee or surrender.  They'll attack you if they think they can win.",
     "labels": [],
     "text_bytes": 941,
@@ -348,8 +464,8 @@
     "pages": [
       9
     ],
-    "column": 0,
-    "text": "An Incomplete Lists of Dispositions\nBenevolent It will help you without any expectation or exchange.  Ie.g. nobody, probably)\nHungry It wants food and is planning to eat you.  (e.g. tiger)\nGreedy It wants your gold, and is planning to kill you to get it.  (e.g. bandits)\nGuardian It will kill to protect something.  It will not chase you far from whatever it is guarding. (e.g. golem)\nNeutral It's not here to kill you, but it absolutely will if you give it a reason.  (e.g. average human)\nScheming It will try to take advantage of you before it resorts to violence.  (e.g. rival adventurers)\nTenacious It wants to kill you and it will never flee or surrender.  (e.g. zombie)\nThis list is not exhaustive.  If you meet a knight and it says \" Dis  chivalrous\" you should be able to figure out how they'll\nact.",
+    "column": -1,
+    "text": "An Incomplete Lists of Dispositions\nBenevolent Hungry Greedy Guardian Neutral Scheming Tenacious\nIt will help you without any expectation or exchange.  Ie.g. nobody, probably)\nIt wants food and is planning to eat you.  (e.g. tiger)\nIt wants your gold, and is planning to kill you to get it.  (e.g. bandits)\nIt will kill to protect something.  It will not chase you far from whatever it is guarding. (e.g. golem)\nIt's not here to kill you, but it absolutely will if you give it a reason.  (e.g. average human)\nIt will try to take advantage of you before it resorts to violence.  (e.g. rival adventurers)\nIt wants to kill you and it will never flee or surrender.  (e.g. zombie)\nThis list is not exhaustive.  If you meet a knight and it says \" Dis  chivalrous\" you should be able to figure out how they'll\nact.",
     "labels": [],
     "text_bytes": 807,
     "keyed_area": null,
@@ -368,7 +484,7 @@
     "pages": [
       9
     ],
-    "column": 0,
+    "column": -1,
     "text": "Morale\nIf a monster fears death, it will flee rather than be destroyed.  Even elementals and undead recoil from annihilation.",
     "labels": [],
     "text_bytes": 125,
@@ -388,7 +504,7 @@
     "pages": [
       9
     ],
-    "column": 0,
+    "column": -1,
     "text": "The Two Types of Morale Checks\nOh Damn When the monsters clearly start losing, they have a 50% chance of fleeing.\nOh Fuck When the monsters have no chance to win, they automatically flee.\nIf the monsters can't flee, they'll attempt surrender.\nIf the players don't seem like they take prisoners, they'll keep fighting.\nIf you need help figuring out which of these options a monster would choose, make an Int check for them to see if they\nbehave intelligently or stupidly.\nIf the party chases fleeing monsters, use the same Pursuit rules that the party uses.",
     "labels": [],
     "text_bytes": 556,
@@ -3534,8 +3650,8 @@
     "pages": [
       49
     ],
-    "column": 0,
-    "text": "Appendix E: Leveling and Classes\nWhen you gain your level, your character improves according to this table.\nHP Atk Templates Mastery Level 0 0 0 0 -\nLevel 1 Con 1 1 -\nLevel 2 Con + 2 2 2 -\nLevel 3 Con + 4 3 3 -\nLevel 4 Con + 6 4 4 -\n+1 Level - - - +1 Mastery\nWhenever you gain your first four levels, you gain a template.  Unless you've unlocked more classes through play, you're\nlimited to the four classes below.",
+    "column": -1,
+    "text": "Appendix E: Leveling and Classes\nWhen you gain your level, your character improves according to this table.\nLevel 0 Level 1 Level 2 Level 3 Level 4\n+1 Level\nHP\n0\nCon Con + 2 Con + 4 Con + 6\n-\nAtk\n0\n1\n2\n3\n4\n-\nTemplates\n0\n1\n2\n3\n4\n-\nMastery\n-\n-\n-\n-\n-\n+1 Mastery\nWhenever you gain your first four levels, you gain a template.  Unless you've unlocked more classes through play, you're\nlimited to the four classes below.",
     "labels": [],
     "text_bytes": 414,
     "keyed_area": null,
@@ -3556,7 +3672,7 @@
     "pages": [
       49
     ],
-    "column": 0,
+    "column": -1,
     "text": "Mastery\nNovice characters improve their HP as they struggle to survive\nin a harsh environment.\nExperienced characters gain Mastery as they learn to keep the\nnewbies alive.\nYou gain your first Mastery Point at 5 th  level, and every level\nbeyond that.\nYou can spend a Mastery Point to alter an adjacent ally's roll.\nYou can influence any in-game d20 or damage roll.  You cannot\naffect magic dice, skill-up attempts, or stat-up attempts.  You\ncannot affect natural 1s or 20s on a d20.  You cannot alter your\nown roll.\nEssentially, if an ally failed a Defense roll by 1 point, you can\nspend   1   Mastery   point   in   order   to   turn   that  failure   into   a\nsuccess.  You can also use Mastery points to reduce the damage\nan ally takes, or increase the damage that they do.\nYou can spend Mastery points after the dice have landed.  Mastery points replenish with a full night's rest.",
     "labels": [],
     "text_bytes": 885,
@@ -3578,7 +3694,7 @@
     "pages": [
       49
     ],
-    "column": 0,
+    "column": -1,
     "text": "Choosing a Class\nWhenever you gain a template, you choose a class and gain the appropriate template.\nYou must gain all the lower templates before gaining a higher template.   You   may multiclass freely (by picking a\nTemplate A from a different class).\nYou can't have more than 4 templates at a time, but you can start swapping them out once you hit level 5.\nAnyone can become an acrobat, barbarian, fighter, or thief.\nAdditional classes (wizard, cleric, warlock, knight, tactician) and races must be unlocked through play.",
     "labels": [],
     "text_bytes": 523,
@@ -3600,8 +3716,8 @@
     "pages": [
       50
     ],
-    "column": 0,
-    "text": "Acrobat\nEach level of Acrobat gives you +1 Move.\nA Dodge, Nah 1/day B Tricky\nC Cat Power, Nah 2/day D Roast the Oaf",
+    "column": -1,
+    "text": "Acrobat\nEach level of Acrobat gives you +1 Move.\nA B C D\nDodge, Nah 1/day Tricky Cat Power, Nah 2/day\nRoast the Oaf",
     "labels": [],
     "text_bytes": 115,
     "keyed_area": null,
@@ -3622,7 +3738,7 @@
     "pages": [
       50
     ],
-    "column": 0,
+    "column": -1,
     "text": "Dodge\nEvery   empty   inventory   slot   gives   you   +2\nDefense, up  to a maximum of 16 or 10+Dex,\nwhichever is lower.   This doesn't stack with\narmor.",
     "labels": [],
     "text_bytes": 153,
@@ -3644,7 +3760,7 @@
     "pages": [
       50
     ],
-    "column": 0,
+    "column": -1,
     "text": "Nah\nOnce per day, you can declare that something\ndoesn't affect  you.    Works on anything that\nyou could physically dodge.",
     "labels": [],
     "text_bytes": 123,
@@ -3666,7 +3782,7 @@
     "pages": [
       50
     ],
-    "column": 0,
+    "column": -1,
     "text": "Tricky\nWhenever you roll a natural 20 on an attack\nroll, you can deal double damage AND attempt\na free combat maneuver.\nWhenever you roll a 19 on a attack roll, you deal regular damage and attempt a free combat maneuver.",
     "labels": [],
     "text_bytes": 220,
@@ -3688,7 +3804,7 @@
     "pages": [
       50
     ],
-    "column": 0,
+    "column": -1,
     "text": "Cat Power\nYou treat falls as if they were 20' shorter.  Cats tend to like you.",
     "labels": [],
     "text_bytes": 78,
@@ -3710,7 +3826,7 @@
     "pages": [
       50
     ],
-    "column": 0,
+    "column": -1,
     "text": "Roast the Oaf\nWhenever a larger enemy misses you with a melee attack, you may force them to make another melee attack against a\ntarget within range.  It's possible to make enemies hit themselves with this ability.",
     "labels": [],
     "text_bytes": 213,
@@ -3732,7 +3848,7 @@
     "pages": [
       50
     ],
-    "column": 0,
+    "column": -1,
     "text": "Multi-class Note\nIf you end up taking two levels of Acrobat and two levels of Fighter, you end up with two copies of Tricky.  These combine\ninto Very Tricky.",
     "labels": [],
     "text_bytes": 157,
@@ -3754,8 +3870,8 @@
     "pages": [
       51
     ],
-    "column": 0,
-    "text": "Barbarian\nEach level of Barbarian gives you +2 Loincloth HP.\nA Rage B Firewater C Thews 1/day\nD Rampage, Thews 2/day",
+    "column": -1,
+    "text": "Barbarian\nEach level of Barbarian gives you +2 Loincloth HP.\nA B C D\nRage Firewater Thews 1/day Rampage, Thews 2/day",
     "labels": [],
     "text_bytes": 116,
     "keyed_area": null,
@@ -3776,7 +3892,7 @@
     "pages": [
       51
     ],
-    "column": 0,
+    "column": -1,
     "text": "Loincloth HP\nIf you are unarmored, your maximum HP increases\nby this amount.",
     "labels": [],
     "text_bytes": 76,
@@ -3798,7 +3914,7 @@
     "pages": [
       51
     ],
-    "column": 0,
+    "column": -1,
     "text": "Rage\nYou can choose to enter a Rage at any time.\nWhile raging, you get +1 Attack and +1 Damage, and\nare immune to pain and fear.  However, you cannot\ndo   anything   defensive,   curative,   or   cooperative.\nMostly all you can do is attack things in different\nways.  Any spell you cast must be a damaging spell.\nYour rage ends when all enemies are destroyed or\ndriven   off.     You   can   attempt   to   end   a   rage\nprematurely at the end of each turn with a 2-in-6\nchance of success.",
     "labels": [],
     "text_bytes": 490,
@@ -3820,7 +3936,7 @@
     "pages": [
       51
     ],
-    "column": 0,
+    "column": -1,
     "text": "Firewater\nIf you spend a turn slamming some hard alcohol, you can heal yourself 1d6+1 HP and gain 1 point of Drunkenness.\n(Note: Drunkenness expands your crit fumble range by an equal amount.)",
     "labels": [],
     "text_bytes": 192,
@@ -3842,7 +3958,7 @@
     "pages": [
       51
     ],
-    "column": 0,
+    "column": -1,
     "text": "Thews\nOnce per day, you can either treat your Strength as if it were 10 for one round, or make a single attack with a +4 bonus\nthat does double damage if it hits.  This bonus stacks with Rage.",
     "labels": [],
     "text_bytes": 192,
@@ -3864,7 +3980,7 @@
     "pages": [
       51
     ],
-    "column": 0,
+    "column": -1,
     "text": "Rampage\nThe bonuses from your Rage improve to +2 Attack and +2 Damage.",
     "labels": [],
     "text_bytes": 70,
@@ -3886,8 +4002,8 @@
     "pages": [
       52
     ],
-    "column": 0,
-    "text": "Fighter\nEach level of Fighter gives you +1 Attack.\nA Stand Tough B Tricky C Very Tricky\nD Double Attack",
+    "column": -1,
+    "text": "Fighter\nEach level of Fighter gives you +1 Attack.\nA B C D\nStand Tough Tricky Very Tricky Double Attack",
     "labels": [],
     "text_bytes": 103,
     "keyed_area": null,
@@ -3908,7 +4024,7 @@
     "pages": [
       52
     ],
-    "column": 0,
+    "column": -1,
     "text": "Stand Tough\nYou can choose to sacrifice a worn piece of\narmor to reduce incoming damage by 1d6.\nYo u can choose to sacrifice a held shield\nto reduce damage by 1d12.   You can use\nthis ability once per combat.",
     "labels": [],
     "text_bytes": 208,
@@ -3930,7 +4046,7 @@
     "pages": [
       52
     ],
-    "column": 0,
+    "column": -1,
     "text": "Tricky\nWhenever   you   roll   a   natural   20   on   an\nattack  roll, you  can   deal  double  damage\nAND attempt a free combat maneuver.\nWhenever you roll a 19 on a attack roll,\nyou   deal   regular   damage   and   attempt   a\nfree combat maneuver.",
     "labels": [],
     "text_bytes": 252,
@@ -3952,7 +4068,7 @@
     "pages": [
       52
     ],
-    "column": 0,
+    "column": -1,
     "text": "Very Tricky\nYour Tricky ability expands to 18 and 19.\nWhenever   you   attempt   a   free   combat\nmaneuver after rolling an 18, 19, or 20, you\nget +4 to your attempt.",
     "labels": [],
     "text_bytes": 167,
@@ -3974,7 +4090,7 @@
     "pages": [
       52
     ],
-    "column": 0,
+    "column": -1,
     "text": "Double Attack\nYou can attack twice per turn, on your turn.",
     "labels": [],
     "text_bytes": 58,
@@ -3996,8 +4112,8 @@
     "pages": [
       53
     ],
-    "column": 0,
-    "text": "Thief\nEach level of Thief gives you +1 Mastery and +1 Stealth.\nA “Luck” B Opportunist C Preparation D Snag",
+    "column": -1,
+    "text": "Thief\nEach level of Thief gives you +1 Mastery and +1 Stealth.\nA B C D\n“Luck” Opportunist Preparation Snag",
     "labels": [],
     "text_bytes": 110,
     "keyed_area": null,
@@ -4018,7 +4134,7 @@
     "pages": [
       53
     ],
-    "column": 0,
+    "column": -1,
     "text": "“ Luck ”\nYou can spend your Mastery points to benefit\nyourself (instead of being forced to help others).",
     "labels": [],
     "text_bytes": 108,
@@ -4040,7 +4156,7 @@
     "pages": [
       53
     ],
-    "column": 0,
+    "column": -1,
     "text": "Opportunist\nWhenever you have a situational bonus on an\nattack roll (surprise, elevation, etc), you deal an\nadditional +1d6 damage.",
     "labels": [],
     "text_bytes": 131,
@@ -4062,7 +4178,7 @@
     "pages": [
       53
     ],
-    "column": 0,
+    "column": -1,
     "text": "Preparation\nIn   town,  you  can   slip   away  to   an   unspecified\nblack   market   or  shady   alley   and   purchase   an\nUnmarked Package for 10s.\nWhen the package is opened, or when it leaves\nyour   possession,   you   must   declare   what   it\ncontains.  It must be a mundane item worth no\nmore than 10s.\nThis represents the foresight to always buy the\ncorrect item. (But in practical terms, it's like having tools delivered to your location.)",
     "labels": [],
     "text_bytes": 452,
@@ -4084,7 +4200,7 @@
     "pages": [
       53
     ],
-    "column": 0,
+    "column": -1,
     "text": "Snag\nAfter making an attack against an opponent, or after an opponent makes an attack against you, you can make an attempt\nto grab a single item from that opponent.  This ability has a 2-in-6 chance of success.\nDoesn't work on things that are held or tightly worn.  (No sword or armor).\nWorks fine on anything else.  (Works on rings, things in pockets, things in backpacks.)\nIf you don't have something in mind, you can steal an item at random.  Whether you succeed or fail, your target is aware\nof your attempt.\nYou can also use this ability out of combat, whenever you walk past someone.  Whether you succeed or fail, your target is\naware of your attempt.  However, if you attempt this more than once per target out of combat, you have a 50% chance of\nbeing noticed each time.",
     "labels": [],
     "text_bytes": 778,
@@ -4106,14 +4222,124 @@
     "pages": [
       54
     ],
-    "column": 0,
-    "text": "Level Ups\nThere are 8  Treasures  and  Milestones :\n• Sitting on the throne in 7 THRONE. (Milestone)\n• The Ruby Ring of Wisdom in 8 PIT. (Treasure)\n• The Jewelled Crab Bracer in 19 PRIESTS. (Treasure)\n• Removing the bar from 21 HEAVY DOOR (or killing the Lamb).  (Milestone)\n• The Crysmere Blade of Charcorra in 27 BALLISTA. (Treasure)\n• The Abacus of Vandoh in 39 STONE EGG. (Treasure.)\n• The hand mirror of Lies in 42 SUNKEN GALLERY. (Treasure)\n• Escaping out 46B TOWER. (Milestone)\nIf you don't like the Treasure/Milestone system, you could just level everyone up when they escape the dungeon.  That's a\nlong journey (and probably multiple sessions), so you may want to just level them all up at the halfway point, when they\nopen 21 HEAVY DOOR.\nKey Items\nRoom Light Source Room Rope\n4 1 torch 18A 30' rope\n5 1.5 torches + 1 oil 31 30' rope\n10 1 torch 40 30' rope\n14 1 torch\n17 1 candle\n20 Liquid Light\n24 2 oil\n30 2 oil\n45 2 oil",
+    "column": -1,
+    "text": "Level Ups\nThere are 8  Treasures  and  Milestones :\n•\n•\n•\n•\n•\n•\n•\n•\nSitting on the throne in 7 THRONE. (Milestone)\nThe Ruby Ring of Wisdom in 8 PIT. (Treasure)\nThe Jewelled Crab Bracer in 19 PRIESTS. (Treasure)\nRemoving the bar from 21 HEAVY DOOR (or killing the Lamb).  (Milestone)\nThe Crysmere Blade of Charcorra in 27 BALLISTA. (Treasure)\nThe Abacus of Vandoh in 39 STONE EGG. (Treasure.)\nThe hand mirror of Lies in 42 SUNKEN GALLERY. (Treasure)\nEscaping out 46B TOWER. (Milestone)\nIf you don't like the Treasure/Milestone system, you could just level everyone up when they escape the dungeon.  That's a\nlong journey (and probably multiple sessions), so you may want to just level them all up at the halfway point, when they\nopen 21 HEAVY DOOR.",
     "labels": [],
-    "text_bytes": 947,
+    "text_bytes": 763,
     "keyed_area": null,
     "style": {
       "size": 30.0,
       "family": "F3",
+      "bold": false,
+      "color": "#000000",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p54.key-items",
+    "heading": "Key Items",
+    "heading_path": [
+      "Appendices"
+    ],
+    "pages": [
+      54
+    ],
+    "column": 0,
+    "text": "Key Items\nRoom\n4\n5\n10\n14\n17\n20\n24\n30\n45\nLight Source",
+    "labels": [],
+    "text_bytes": 52,
+    "keyed_area": null,
+    "style": {
+      "size": 30.0,
+      "family": "F3",
+      "bold": false,
+      "color": "#000000",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p54.1-torch",
+    "heading": "1 torch",
+    "heading_path": [
+      "Appendices"
+    ],
+    "pages": [
+      54
+    ],
+    "column": 1,
+    "text": "1 torch\n1.5 torches + 1 oil\n1 torch\n1 torch\n1 candle\nLiquid Light",
+    "labels": [],
+    "text_bytes": 65,
+    "keyed_area": "1",
+    "style": {
+      "size": 15.0,
+      "family": "F11",
+      "bold": false,
+      "color": "#000000",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p54.2-oil",
+    "heading": "2 oil",
+    "heading_path": [
+      "Appendices"
+    ],
+    "pages": [
+      54
+    ],
+    "column": 1,
+    "text": "2 oil\n2 oil\n2 oil\nRoom",
+    "labels": [],
+    "text_bytes": 22,
+    "keyed_area": "2",
+    "style": {
+      "size": 15.0,
+      "family": "F11",
+      "bold": false,
+      "color": "#000000",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p54.18a",
+    "heading": "18A",
+    "heading_path": [
+      "Appendices"
+    ],
+    "pages": [
+      54
+    ],
+    "column": 3,
+    "text": "18A\n31\n40\nRope",
+    "labels": [],
+    "text_bytes": 14,
+    "keyed_area": "18",
+    "style": {
+      "size": 15.0,
+      "family": "F11",
+      "bold": false,
+      "color": "#000000",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p54.30-rope",
+    "heading": "30' rope",
+    "heading_path": [
+      "Appendices"
+    ],
+    "pages": [
+      54
+    ],
+    "column": 4,
+    "text": "30' rope\n30' rope\n30' rope",
+    "labels": [],
+    "text_bytes": 26,
+    "keyed_area": "30",
+    "style": {
+      "size": 15.0,
+      "family": "F11",
       "bold": false,
       "color": "#000000",
       "italic": false
@@ -4129,7 +4355,7 @@
       54
     ],
     "column": 0,
-    "text": "Repurposing the Dungeon\nGroups that want a shorter dungeon (for a one-shot) could You   could   even   do   the   dungeon   backwards,   entering\nexit the dungeon at 21 HEAVY DOOR. through 44 CISTERN (which is obviously at the bottom of a\nYou could also ignore rooms 1-20 and have 21 HEAVY DOO well).  Remove the underwater tunnel and the wall from 44\nbe the first room of the dungeon. CISTERN to make section 2 accessible.   Add an ooze to 14\nMOLD and a candle golem to 5 LANDING.  You're done.\nA   more   traditional   game   could   have   equipped   Level   1\ncharacters entering the dungeon through the iron door in 5\nLANDING.   In order to keep the beast from escaping, the\ntownsfolk will be back to open the door in exactly 12 hours,\nbut you will be locked in until then.",
+    "text": "Repurposing the Dungeon\nGroups that want a shorter dungeon (for a one-shot) could\nexit the dungeon at 21 HEAVY DOOR.\nYou could also ignore rooms 1-20 and have 21 HEAVY DOO\nbe the first room of the dungeon.\nA   more   traditional   game   could   have   equipped   Level   1\ncharacters entering the dungeon through the iron door in 5\nLANDING.   In order to keep the beast from escaping, the\ntownsfolk will be back to open the door in exactly 12 hours,\nbut you will be locked in until then.\nYou   could   even   do   the   dungeon   backwards,   entering\nthrough 44 CISTERN (which is obviously at the bottom of a\nwell).  Remove the underwater tunnel and the wall from 44\nCISTERN to make section 2 accessible.   Add an ooze to 14\nMOLD and a candle golem to 5 LANDING.  You're done.",
     "labels": [],
     "text_bytes": 778,
     "keyed_area": null,

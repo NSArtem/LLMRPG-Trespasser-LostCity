@@ -1,15 +1,15 @@
 [
   {
-    "unit_id": "p3.writing-play-test-referees",
-    "heading": "Writing Play Test Referees",
+    "unit_id": "p3.writing",
+    "heading": "Writing",
     "heading_path": [],
     "pages": [
       3
     ],
     "column": 0,
-    "text": "Writing Play Test Referees\nGavin Norman John Anthony\nOriginal Concept Nicholas Montegriffo\nNicholas Montegriffo  Frederick Münch\nFrederick Münch  Gavin Norman\nGavin Norman Alberto Voglino",
+    "text": "Writing\nGavin Norman",
     "labels": [],
-    "text_bytes": 189,
+    "text_bytes": 20,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -20,16 +20,16 @@
     }
   },
   {
-    "unit_id": "p3.layout-proofreaders",
-    "heading": "Layout Proofreaders",
+    "unit_id": "p3.original-concept",
+    "heading": "Original Concept",
     "heading_path": [],
     "pages": [
       3
     ],
     "column": 0,
-    "text": "Layout Proofreaders\nGavin Norman John Anthony\nChris Bloxham",
+    "text": "Original Concept\nNicholas Montegriffo\nFrederick Münch\nGavin Norman\nLayout\nGavin Norman\nCover Illustration\nMish Scott\nInterior Illustrations\nMish Scott\nCartography\nKarl Stjernberg",
     "labels": [],
-    "text_bytes": 59,
+    "text_bytes": 179,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -40,16 +40,16 @@
     }
   },
   {
-    "unit_id": "p3.cover-illustration-sándor-gebei",
-    "heading": "Cover Illustration Sándor Gebei",
+    "unit_id": "p3.play-test-referees",
+    "heading": "Play Test Referees",
     "heading_path": [],
     "pages": [
       3
     ],
-    "column": 0,
-    "text": "Cover Illustration Sándor Gebei\nMish Scott Colin Green",
+    "column": 1,
+    "text": "Play Test Referees\nJohn Anthony\nNicholas Montegriffo\nFrederick Münch\nGavin Norman\nAlberto Voglino",
     "labels": [],
-    "text_bytes": 55,
+    "text_bytes": 98,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -60,16 +60,16 @@
     }
   },
   {
-    "unit_id": "p3.interior-illustrations-frederick",
-    "heading": "Interior Illustrations Frederick Münch",
+    "unit_id": "p3.proofreaders",
+    "heading": "Proofreaders",
     "heading_path": [],
     "pages": [
       3
     ],
-    "column": 0,
-    "text": "Interior Illustrations Frederick Münch\nMish Scott Ray Otus\nFrank Reding\nCartography Brian Richmond\nKarl Stjernberg\nv3.1—Third printing—March 2021\nDolmenwood  and  Old-School Essentials  are trademarks of\nGavin Norman and  Necrotic Gnome . Text © Gavin Norman 2018.\nIllustrations © Mish Scott 2018. Maps © Karl Stjernberg 2019.",
+    "column": 1,
+    "text": "Proofreaders\nJohn Anthony\nChris Bloxham\nSándor Gebei\nColin Green\nFrederick Münch\nRay Otus\nFrank Reding\nBrian Richmond\nv3.1—Third printing—March 2021\nDolmenwood  and  Old-School Essentials  are trademarks of\nGavin Norman and  Necrotic Gnome . Text © Gavin Norman 2018.\nIllustrations © Mish Scott 2018. Maps © Karl Stjernberg 2019.",
     "labels": [],
-    "text_bytes": 334,
+    "text_bytes": 338,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -87,9 +87,9 @@
       4
     ],
     "column": 0,
-    "text": "Table of Contents Table of Contents\nIntroduction 3 9. Chapel of St Sedge  15\nReferee’s Background  4 10. Abandoned Priest’s Quarters  15\nHooks 6 11. Statues With Weapons  16\nPlayers’ Background  7 12. Hall of Hounds  16\nDolmenwood Lore  8 13. The Knight’s Tomb  17\nOutside the Mound  9 14. Warded Pool  18\n1. Approaching the Burial Mound  9 The Fairy Prison  19\n2. The Whything Stones  10 15. Tower on a Frozen Lake  19\n3. Tomb Entrance  11 16. Entrance Hall  20\n4. Worm Hole  11 17. Fairy Kitchen  21\nThe Burial Mound  12 18. Wedding Feast  21\n5. Hall of Guardians  12 19. The Princess’s Bedchamber  22\n6. Blindfolded Statue  13 Epilogue 23\n7. Freezing Mirror  13 Magic Items  24\n8. Family Crypt  14",
+    "text": "Table of Contents Table of Contents\nIntroduction 3 Referee’s Background  4 Hooks 6\n9. Chapel of St Sedge\n10. Abandoned Priest’s Quarters\n11. Statues With Weapons\n15\n15\n16\nPlayers’ Background  7 Dolmenwood Lore  8 Outside the Mound  9\n1. Approaching the Burial Mound  9\n12. Hall of Hounds\n13. The Knight’s Tomb\n14. Warded Pool\nThe Fairy Prison\n16\n17\n18\n19\n2. The Whything Stones\n3. Tomb Entrance\n4. Worm Hole\nThe Burial Mound\n5. Hall of Guardians\n10\n11\n11\n12\n12\n15. Tower on a Frozen Lake\n16. Entrance Hall\n17. Fairy Kitchen\n18. Wedding Feast\n19. The Princess’s Bedchamber\n19\n20\n21\n21\n22\n6. Blindfolded Statue\n7. Freezing Mirror\n8. Family Crypt\n13\n13\n14\nEpilogue 23 Magic Items  24",
     "labels": [],
-    "text_bytes": 710,
+    "text_bytes": 690,
     "keyed_area": null,
     "style": {
       "size": 51.0,
@@ -893,10 +893,10 @@
     "pages": [
       11
     ],
-    "column": 0,
-    "text": "Outside the Mound Outside the Mound\nRandom Events (1-in-6 Chance Every Two Turns)\n1.  A PC suddenly spots a  ghostly, vio- 3.  A  gust of wind whips  the branches\nlet-eyed owl gazing down from a high  of the trees into a frenzy. PCs near trees\nbranch.  Save versus spells  or fall into a  must  save versus paralysis  or be struck\nfaint for 1d6 turns. for 1 damage. Flames sputter and may\n2.  1d4  tipsy goblin merchants  with  go out: torches 4-in-6 chance, lanterns\nlanterns climb cautiously out of a  2-in-6.\ntrapdoor in the forest floor. They have  4.  A  huge, warty toad  creeps over, eyes\nstepped into Dolmenwood from Fairy,  the PCs quizzically, and utters a single,\nseeking rare night-fruits. (See  Dolmen- croaking word: “Betrayal”.\nwood Goblin, p20 .)",
+    "column": -1,
+    "text": "Outside the Mound Outside the Mound\nRandom Events (1-in-6 Chance Every Two Turns)\n1.  A PC suddenly spots a  ghostly, vio-\nlet-eyed owl gazing down from a high\nbranch.  Save versus spells  or fall into a\nfaint for 1d6 turns.",
     "labels": [],
-    "text_bytes": 766,
+    "text_bytes": 224,
     "keyed_area": null,
     "style": {
       "size": 51.0,
@@ -907,13 +907,73 @@
     }
   },
   {
+    "unit_id": "p11.2-1d4-tipsy-goblin-merchants-wit",
+    "heading": "2.  1d4  tipsy goblin merchants  with",
+    "heading_path": [],
+    "pages": [
+      11
+    ],
+    "column": 0,
+    "text": "2.  1d4  tipsy goblin merchants  with\nlanterns climb cautiously out of a\ntrapdoor in the forest floor. They have\nstepped into Dolmenwood from Fairy,\nseeking rare night-fruits. (See  Dolmen-\nwood Goblin, p20 .)",
+    "labels": [],
+    "text_bytes": 209,
+    "keyed_area": "2",
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro-Semibold",
+      "bold": true,
+      "color": "#231f20",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p11.3-a-gust-of-wind-whips-the-branc",
+    "heading": "3.  A  gust of wind whips  the branches",
+    "heading_path": [],
+    "pages": [
+      11
+    ],
+    "column": 1,
+    "text": "3.  A  gust of wind whips  the branches\nof the trees into a frenzy. PCs near trees",
+    "labels": [],
+    "text_bytes": 82,
+    "keyed_area": "3",
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro-Semibold",
+      "bold": true,
+      "color": "#231f20",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p11.must-save-versus-paralysis-or-be",
+    "heading": "must  save versus paralysis  or be struck",
+    "heading_path": [],
+    "pages": [
+      11
+    ],
+    "column": 1,
+    "text": "must  save versus paralysis  or be struck\nfor 1 damage. Flames sputter and may\ngo out: torches 4-in-6 chance, lanterns\n2-in-6.\n4.  A  huge, warty toad  creeps over, eyes\nthe PCs quizzically, and utters a single,\ncroaking word: “Betrayal”.",
+    "labels": [],
+    "text_bytes": 242,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
+      "color": "#231f20",
+      "italic": false
+    }
+  },
+  {
     "unit_id": "p11.1-approaching-the-burial-mound",
     "heading": "1. Approaching the Burial Mound",
     "heading_path": [],
     "pages": [
       11
     ],
-    "column": 0,
+    "column": -1,
     "text": "1. Approaching the Burial Mound\nTangled Forest Burial Mound Looms Ahead\nBrambles (half burying the paths).  Flat-topped hillock  (evidently artificial).\nTwisted trees (seem to close in around as\nPCs pass by, blocking their way out). Atmospherics\nClanking metal (irregular, from area 2).",
     "labels": [],
     "text_bytes": 286,
@@ -1599,10 +1659,10 @@
     "pages": [
       29
     ],
-    "column": 0,
-    "text": "The Burial Mound",
+    "column": -1,
+    "text": "The Burial Mound\nLower Level\n14\n13",
     "labels": [],
-    "text_bytes": 16,
+    "text_bytes": 34,
     "keyed_area": null,
     "style": {
       "size": 27.0,
@@ -1615,16 +1675,14 @@
   {
     "unit_id": "p29.5-hall-of-guardians",
     "heading": "5.  Hall of guardians:",
-    "heading_path": [
-      "The Burial Mound"
-    ],
+    "heading_path": [],
     "pages": [
       29
     ],
-    "column": 0,
-    "text": "5.  Hall of guardians:\nMusty, wet.\nLower Level Floating religious objects attack\nnon-Lawful characters. Dusty floor\nconceals mosaic. Double doors\ninscribed “The Most Dear”.",
+    "column": 2,
+    "text": "5.  Hall of guardians:\nMusty, wet.\nFloating religious objects attack\nnon-Lawful characters. Dusty floor\nconceals mosaic. Double doors\ninscribed “The Most Dear”.",
     "labels": [],
-    "text_bytes": 176,
+    "text_bytes": 164,
     "keyed_area": "5",
     "style": {
       "size": 15.0,
@@ -1635,19 +1693,17 @@
     }
   },
   {
-    "unit_id": "p29.14-13-6-blindfolded-statue-princ",
-    "heading": "14 13 6.  Blindfolded statue:  Princess",
-    "heading_path": [
-      "The Burial Mound"
-    ],
+    "unit_id": "p29.6-blindfolded-statue",
+    "heading": "6.  Blindfolded statue:",
+    "heading_path": [],
     "pages": [
       29
     ],
-    "column": 0,
-    "text": "14 13 6.  Blindfolded statue:  Princess\nSnowfall-at-Dusk, posed with\nfinger at her lips.",
+    "column": 2,
+    "text": "6.  Blindfolded statue:\nPrincess\nSnowfall-at-Dusk, posed with\nfinger at her lips.",
     "labels": [],
-    "text_bytes": 88,
-    "keyed_area": "14",
+    "text_bytes": 81,
+    "keyed_area": "6",
     "style": {
       "size": 15.0,
       "family": "MinionPro",
@@ -1659,39 +1715,15 @@
   {
     "unit_id": "p29.7-freezing-mirror",
     "heading": "7.  Freezing mirror:",
-    "heading_path": [
-      "The Burial Mound"
-    ],
+    "heading_path": [],
     "pages": [
       29
     ],
-    "column": 0,
-    "text": "7.  Freezing mirror:\nPassing\nin front of the mirror:  save\nvs paralysis or frozen still!",
+    "column": 3,
+    "text": "7.  Freezing mirror:\nPassing\nin front of the mirror:  save\nvs paralysis or frozen still!\na\n10 9\nb",
     "labels": [],
-    "text_bytes": 88,
+    "text_bytes": 97,
     "keyed_area": "7",
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20",
-      "italic": false
-    }
-  },
-  {
-    "unit_id": "p29.8-family-crypt",
-    "heading": "8.  Family crypt:",
-    "heading_path": [
-      "The Burial Mound"
-    ],
-    "pages": [
-      29
-    ],
-    "column": 0,
-    "text": "8.  Family crypt:\n2\nfloating skeletons,\n12 dancing. Welcome\nstrangers to join in.\nSheets of slime drip\na c from ceiling into\nfissure. Descending\nd into the fissure leads\n10 9\nb 8 11 to area 15.\ne 9.  Chapel of St\nSedge: Decaying\npews. Stone altar",
-    "labels": [],
-    "text_bytes": 246,
-    "keyed_area": "8",
     "style": {
       "size": 15.0,
       "family": "MinionPro",
@@ -1703,16 +1735,14 @@
   {
     "unit_id": "p29.1-square",
     "heading": "1 square",
-    "heading_path": [
-      "The Burial Mound"
-    ],
+    "heading_path": [],
     "pages": [
       29
     ],
     "column": 0,
-    "text": "1 square\nwith candle. Tapes-\n= try conceals W door.",
+    "text": "1 square\n=",
     "labels": [],
-    "text_bytes": 51,
+    "text_bytes": 10,
     "keyed_area": "1",
     "style": {
       "size": 15.0,
@@ -1725,17 +1755,55 @@
   {
     "unit_id": "p29.5-feet",
     "heading": "5 feet",
-    "heading_path": [
-      "The Burial Mound"
-    ],
+    "heading_path": [],
     "pages": [
       29
     ],
     "column": 0,
-    "text": "5 feet\n6 5 7",
+    "text": "5 feet\n6\n12\nc\nd\n8\ne\n5\n11\n7",
     "labels": [],
-    "text_bytes": 12,
+    "text_bytes": 26,
     "keyed_area": "5",
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
+      "color": "#231f20",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p29.8-family-crypt",
+    "heading": "8.  Family crypt:",
+    "heading_path": [],
+    "pages": [
+      29
+    ],
+    "column": 4,
+    "text": "8.  Family crypt:\n2\nfloating skeletons,\ndancing. Welcome\nstrangers to join in.\nSheets of slime drip\nfrom ceiling into\nfissure. Descending\ninto the fissure leads\nto area 15.",
+    "labels": [],
+    "text_bytes": 172,
+    "keyed_area": "8",
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
+      "color": "#231f20",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p29.9-chapel-of-st",
+    "heading": "9.  Chapel of St",
+    "heading_path": [],
+    "pages": [
+      29
+    ],
+    "column": 4,
+    "text": "9.  Chapel of St\nSedge: Decaying\npews. Stone altar\nwith candle. Tapes-\ntry conceals W door.",
+    "labels": [],
+    "text_bytes": 91,
+    "keyed_area": "9",
     "style": {
       "size": 15.0,
       "family": "MinionPro",
@@ -1747,13 +1815,11 @@
   {
     "unit_id": "p29.10-abandoned-priest-s-quarters",
     "heading": "10.  Abandoned priest’s quarters:",
-    "heading_path": [
-      "The Burial Mound"
-    ],
+    "heading_path": [],
     "pages": [
       29
     ],
-    "column": 0,
+    "column": -1,
     "text": "10.  Abandoned priest’s quarters:\n3 wormtongues lurk in the hole. Attack if disturbed\nby noise. Rubble of collapsed wall. Mouldy writing desk. Hidden flagstone (NE corner).",
     "labels": [],
     "text_bytes": 174,
@@ -1769,13 +1835,11 @@
   {
     "unit_id": "p29.11-statues-with-weapons",
     "heading": "11.  Statues with weapons:",
-    "heading_path": [
-      "The Burial Mound"
-    ],
+    "heading_path": [],
     "pages": [
       29
     ],
-    "column": 0,
+    "column": -1,
     "text": "11.  Statues with weapons:\nMould-patched walls. Partially concealed mural.",
     "labels": [],
     "text_bytes": 74,
@@ -1791,13 +1855,11 @@
   {
     "unit_id": "p29.12-hall-of-hounds",
     "heading": "12.  Hall of hounds:",
-    "heading_path": [
-      "The Burial Mound"
-    ],
+    "heading_path": [],
     "pages": [
       29
     ],
-    "column": 0,
+    "column": -1,
     "text": "12.  Hall of hounds:\nCarved pillars. Double doors inscribed “Call to the companions”. 2\nstone hounds, attack if the door is touched without speaking the password (“Flaegr and\nChedr”).",
     "labels": [],
     "text_bytes": 191,
@@ -1813,13 +1875,11 @@
   {
     "unit_id": "p29.13-the-knight-s-tomb",
     "heading": "13.  The knight’s tomb:",
-    "heading_path": [
-      "The Burial Mound"
-    ],
+    "heading_path": [],
     "pages": [
       29
     ],
-    "column": 0,
+    "column": -1,
     "text": "13.  The knight’s tomb:\nThe ghost of Sir Chyde, beseeches PCs to help him. Stone coffer.\nPortrait of Princess Snowfall-at-Dusk. Tarnished silver candlesticks.",
     "labels": [],
     "text_bytes": 160,
@@ -1835,13 +1895,11 @@
   {
     "unit_id": "p29.14-warded-pool",
     "heading": "14.  Warded pool:",
-    "heading_path": [
-      "The Burial Mound"
-    ],
+    "heading_path": [],
     "pages": [
       29
     ],
-    "column": 0,
+    "column": -1,
     "text": "14.  Warded pool:\nGhostly, floating votive candles at bottom of stairs. Passing through\ntransports characters to Fairy (area 15).",
     "labels": [],
     "text_bytes": 129,

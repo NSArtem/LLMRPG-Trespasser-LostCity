@@ -559,8 +559,9 @@ non-keyed units: stat blocks, tables, sidebars, rules sections.
 `module-extractor/scratch/unit-tables/`. **Artefact produced, gate open.** The
 tables are there and `scratch/unit-tables/README.md` carries the full findings.
 
-The four questions the first round raised are answered. Three were defects and
-are fixed; the fourth was decided:
+The four questions the first round raised are answered — three were defects and
+are fixed, the fourth was decided — and checking the last of them found a fifth
+defect, also fixed:
 
 - **Doom lost 17% of its text**, all of it pages 3 and 4, because a 72pt drop
   cap set the row tolerance and swallowed the headings above it. Retention is
@@ -575,11 +576,24 @@ are fixed; the fourth was decided:
   no larger than body is a label inside something, not a section.
 - **Falkrest's map labels stay as units** and its contents rows do not. Thirteen
   of its thirty-five keyed units were rows of the contents page.
+- **A page may hold more than one layout, and columns braided where it does.**
+  Eight pages across four sources set two columns above a full-width table; the
+  table crosses the middle, so no page-wide gutter holds, `find_gutter`
+  correctly declines, and every row was then assembled across the full width.
+  `region_lines` counts a boundary as supported by a run of consecutive rows
+  instead, which also expresses the three columns of Doom's rumour table. It is
+  a **fallback**: real gutters are as narrow as four points and `find_gutter`
+  still wins wherever it fires, so the 151 pages that already worked are
+  untouched.
 
-**The measurement that found all of this is text retention** — characters the
-line layer produced against characters that reached a unit. A unit count cannot
-see loss: Doom segmented into a plausible 33 units while two pages of prose fell
-through `assemble`'s front-matter branch. It now heads every digest.
+**Text retention found the first four and could not have found the fifth.**
+Characters the line layer produced against characters that reached a unit: a
+unit count cannot see loss, and Doom segmented into a plausible 33 units while
+two pages of prose fell through `assemble`'s front-matter branch. But braiding
+loses nothing — both columns arrive, interleaved — so retention read 100% on
+Шпиль Кетцаль throughout. **A metric that counts characters cannot check their
+order.** Reading the lines is what found it, and T2.4 should expect the same
+class of defect to be invisible to any coverage count.
 
 Three questions remain, all judgment rather than correctness, and they are
 listed under "What is left for the reviewer" in the artefact.
