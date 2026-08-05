@@ -180,10 +180,23 @@ cards, do not mint global identifiers, do not build cross-references between
 units, and do not write player-facing prose. Preserve names, numbers,
 measurements, dice, durations and mechanics exactly as the source states them.
 
-Return plain CSV lines and nothing else -- no Markdown fences, no preamble, no
-commentary. Emit one `#unit` marker per unit, then that unit's `#entity`
-declarations, then its facts. Every unit listed in `units.csv` must appear
-exactly once.
+Emit one `#unit` marker per unit, then that unit's `#entity` declarations, then
+its facts. Every unit listed in `units.csv` must appear exactly once.
+
+## How to return it
+
+Return the whole response as a **single fenced code block** and nothing else:
+
+````text
+```csv
+#unit,...
+...
+```
+````
+
+No preamble, no commentary, no second block, nothing after the closing fence.
+If you can write files, also save the same content as `{PACK_ID}.csv` and offer
+it for download; the fenced block is still required either way.
 
 Each unit file opens with a short header giving its id, pages and the section it
 sits under. The header is context; extract facts from the body below the `---`.
@@ -267,8 +280,8 @@ Physical pages: {', '.join(str(page) for page in pages)}
 
 This pack is a T1.1 manual-exchange prototype. Read `prompt.md`, `schema.md`,
 and every file under `units/`. Return one CSV response preserving one `#unit`
-block for each unit listed below. Do not add Markdown fences or a prose
-preamble.
+block for each unit listed below, as a single fenced block so it can be copied
+or downloaded whole, and save it as `{PACK_ID}.csv`.
 
 {listing}
 
