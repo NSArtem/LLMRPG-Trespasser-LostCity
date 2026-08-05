@@ -605,8 +605,15 @@ Reading the lines is what found the fifth, and looking at the short units, which
 the artefact's reviewer list invited, is what found the sixth and seventh. T2.4
 should expect this class of defect to be invisible to any coverage count.
 
-Four questions remain, all judgment rather than correctness, and they are
-listed under "What is left for the reviewer" in the artefact.
+**Every question of judgment has been put to the reviewer and answered**, and
+the answers are recorded under "The reviewer's judgment calls, as decided" in the
+artefact: Falkrest's map labels stay as units, Lair page 28's absorbed stat
+blocks are accepted, and Doom's p2 credits page stays uncovered until T4.4
+records it against the page-completeness invariant.
+
+**The gate is nevertheless still open.** Nothing is outstanding for the
+implementer; it awaits the reviewer's sign-off on the boundaries themselves.
+T2.3 does not start until it closes.
 
 ### Phase 1 — CSV contract
 

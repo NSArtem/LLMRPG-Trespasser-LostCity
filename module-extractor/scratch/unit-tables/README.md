@@ -232,25 +232,37 @@ unit was named for the second half of a heading.
 `12. ПОГОСТ ГРОМОВЫХ ЯЩЕРИЦ`, and its units under 40 bytes fall from eleven to
 five.
 
-## What is left for the reviewer
+## The reviewer's judgment calls, as decided
 
-The defects are fixed and covered by tests that fail when the defect is put
-back. What remains is judgment, not correctness:
+Every question of judgment this gate raised has been put and answered. The
+answers are recorded here so no later task re-opens them.
 
-- **Falkrest's twelve map labels** stay as units by the decision above. If Stage
-  3 cannot classify them cheaply, this is the place that changes.
-- **Lair page 28's absorbed stat blocks**, described above. Accepting them means
-  accepting that a stat block can live inside the table that summons it; the
-  alternative needs a signal the typography does not provide.
-- **Doom's p2 credits page** is the last uncovered page holding text (685
-  characters). It is front matter, but it is not *classified* as front matter —
-  T4.4's page-completeness invariant will want that stated.
-- **The remaining units under 40 bytes.** Lair's eighteen are section dividers
-  with no body of their own (`Appendices`, `Part 3: The Cistern`) and three map
-  labels on p54; Falkrest's thirteen are the map labels decided above; Шпиль's
-  five are two contents rows, a stat label, a die-column header and a section
-  title. Doom has one. None is a truncation — that was defects 6 and 7, and they
-  are fixed — but the count is where the next one would show.
+- **Falkrest's twelve map labels stay as units.** Keeping them is the safer
+  direction — a false negative loses source material and nothing downstream can
+  detect it — and their home is Stage 3 classification at T2.4, not another
+  segmentation heuristic. If Stage 3 cannot classify them cheaply, this is the
+  place that changes.
+- **Lair page 28's absorbed stat blocks are accepted.** A stat block may live
+  inside the table that summons it. Nothing is lost or truncated: twelve of the
+  fourteen Lair units carrying a stat line are named for the creature or the
+  room holding it, and the two carrying two blocks group them defensibly.
+  Separating page 28 from page 20 would need a signal the typography does not
+  provide — both set a 21pt heading over 16pt names — so it would mean matching
+  the stat-block template (`Lvl`/`Def`/`Int`) as a boundary signal. Not worth a
+  new heuristic for one unit.
+- **Doom's p2 credits page stays uncovered until T4.4.** It is the last
+  uncovered page holding text (685 characters). It is front matter, but the
+  segmenter has no concept of *"excluded as credits"* to record that with, and
+  the page-completeness invariant that wants the statement is T4.4's. Recording
+  it there, once, beats inventing an exclusion vocabulary here.
+
+**The remaining units under 40 bytes are not defects.** Lair's eighteen are
+section dividers with no body of their own (`Appendices`, `Part 3: The Cistern`)
+and three map labels on p54; Falkrest's thirteen are the map labels decided
+above; Шпиль's five are two contents rows, a stat label, a die-column header and
+a section title. Doom has one. None is a truncation — that was defects 6 and 7,
+and they are fixed — but the count is where the next one would show, and it is
+worth re-reading whenever it moves.
 
 ## What a decision here unblocks
 
