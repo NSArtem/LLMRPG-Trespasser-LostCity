@@ -9,9 +9,13 @@ and the gates that decide whether each step worked.
 
 ## The state this plan starts from
 
-The branch was reset to `3e9c15a` — the extractor implementation, before *Lair
-of the Lamb* was ever imported. The adventure data, the generated module, and
-the campaign built on it are all off this branch.
+The branch was reset to `base/extractor-v1` — the extractor implementation,
+before *Lair of the Lamb* was ever imported. The adventure data, the generated
+module, and the campaign built on it are all off this branch.
+
+**Both fixed points in this document are tags, not hashes.** The history before
+the rebuild was squashed from 31 commits to 6, which changed every hash in it. A
+tag survives that; a hash reads as `unknown revision` and does so silently.
 
 What remains is the extractor and nothing it has ever been run on: roughly 7,900
 lines under `module-extractor/module_extractor/` and 6,300 lines of tests. The
@@ -28,8 +32,9 @@ That cuts in two directions:
 - **It removed the reference build.** Nothing on this branch says what good
   output looks like.
 
-The second problem is already solved. The previous build was recovered from the
-`lair-lamb` branch (tip `f426c49`) and is **committed to this branch** at
+The second problem is already solved. The previous build was recovered from
+`baseline/lair-lamb` — the tip of the `lair-lamb` branch — and is **committed to
+this branch** at
 `module-extractor/scratch/baseline/` — 613 canonical records, the runtime index,
 and the old review overlay.
 
@@ -102,7 +107,7 @@ Preserved as-is.
 **What is no longer a constraint.** An earlier revision of this plan treated the
 live campaign as a fourth fixed point — `CURRENT.md` pinning
 `place.module-lair-of-the-lamb.1-bowls`, with applied checkpoints bound to it.
-Resetting to `3e9c15a` removed the campaign, so nothing external now requires the
+Resetting to `base/extractor-v1` removed the campaign, so nothing external now requires the
 rebuild to reproduce a specific canonical place ID. **The identity policy should
 still produce those IDs** — Phase 3 diffs against a baseline that uses them — but
 that is now a correctness check against the old build, not an external contract.

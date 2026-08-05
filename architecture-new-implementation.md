@@ -686,10 +686,16 @@ store with unit IDs and page citations, with no model call outside Stage 5.
 `module-extractor/scratch/baseline/` and is **committed**.
 
 ```bash
-git show f426c49:module/audit/module.json   # 613 canonical records, 3.9 MB
-git show f426c49:module/index.json
-git show f426c49:module-input/review.json
+git show baseline/lair-lamb:module/audit/module.json   # 613 records, 3.9 MB
+git show baseline/lair-lamb:module/index.json
+git show baseline/lair-lamb:module-input/review.json
 ```
+
+**Cite it by tag, never by hash.** The history before the rebuild was squashed
+from 31 commits to 6, which changed every hash in it. `baseline/lair-lamb` and
+`base/extractor-v1` are annotated tags precisely so that a rewrite cannot
+invalidate the two references this work order depends on — a stale hash fails as
+`unknown revision`, with nothing to say it used to resolve.
 
 **It is committed on purpose.** An earlier revision said not to commit it,
 reasoning that it is derivable from git history. That was wrong: it is
