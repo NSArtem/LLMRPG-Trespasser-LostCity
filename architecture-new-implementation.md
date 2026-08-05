@@ -507,34 +507,60 @@ phases late.
 
 Prototype work. Lives under `module-extractor/scratch/`, not in the package.
 
+**Task status lives here and nowhere else.** A separate progress report was tried
+and removed: it went stale in two days — claiming H-1 was still outstanding after
+two responses had arrived, and citing a test count three rounds old — while
+duplicating what the commit messages and the code's own docstrings already said.
+Where a task produced a durable measurement, the artefact holding it is named
+below and owns it.
+
 **T0.1 — Bounding-box extraction.** Wrap `pdftotext -bbox-layout` and parse it
 with `xml.etree.ElementTree` into per-page word lists with `x`, `y`, `width`,
 `height`, `text`.
 *Done when:* running it over all five PDFs produces a word count per page for
-each, with no parse errors.
+each, with no parse errors. **Done** — `scratch/bbox.py`. Superseded in
+substance by T0.2: the pipeline reads `pdftohtml -xml` and `bbox.py` survives
+only as the source list and error type. See *Tooling* above.
 
 **T0.2 — Line-height clustering.** Cluster line heights per document to find its
 structural tiers. **Thresholds must be derived per document, never hardcoded** —
 14.5 is a fact about *Lair of the Lamb*, not about PDFs.
 *Done when:* each of the five sources yields a tier table, and *Lair of the
 Lamb*'s reproduces the known result: 56.1 titles / 20.8 sections / 14.5 keyed
-areas / 12.2 body.
+areas / 12.2 body. **Done differently, and better** — `scratch/tiers.py` groups
+by the typesetter's own discrete style, so there is no tolerance to tune and no
+cluster to get wrong. Lair resolves as 16pt body / 18pt keyed area / 21pt
+section / 30pt title, with keyed areas separated from same-size subsection
+headings by **colour**, which glyph height cannot see. The heights in the
+*Done when* clause were a `-bbox-layout` artefact and no longer apply.
 
 **T0.3 — Column separation.** Assign words to columns by `xMin` clustering and
 emit un-interleaved text per column.
 *Done when:* the text for `1 BOWLS` on page 21 contains its own body prose and
-none of the facing column's.
+none of the facing column's. **Done** — `scratch/columns.py`. The gutter is
+found by occupancy and chosen by the density that follows it; width is a
+tie-break and never a filter, because Lair is 918pt wide with a 10pt gutter and
+Шпиль Кетцаль 722pt with a 2pt one.
 
 **T0.4 — Unit assembly.** Build Contract A units: heading detection from the
 keyed-area tier, body text to the next heading, page-break continuation joining
 units that span pages.
 *Done when:* all 58 keyed areas of *Lair of the Lamb* appear as exactly one unit
-each, and units spanning a page break cite both pages.
+each, and units spanning a page break cite both pages. **Done, with one figure
+unmet:** the segmenter reports 51 keyed units for Lair, not 58, because
+subsections are absorbed into their keyed area by design — `24A`, `24B` and
+`24C` live inside `p31.24-crush-hallway` rather than beside it, which is what the
+dataflow document's own worked example requires. Whether 51 is the right number
+is part of T0.5's review, not a separate gate.
 
 **T0.5 — Generalize and report.** Run T0.4 across all five sources. Handle
 non-keyed units: stat blocks, tables, sidebars, rules sections.
 *Done when (review):* a unit table for all five sources is written to
-`module-extractor/scratch/unit-tables/`.
+`module-extractor/scratch/unit-tables/`. **Artefact produced, gate open.** The
+tables are there and `scratch/unit-tables/README.md` states what to look at
+first and what a decision unblocks. Four questions are outstanding: Falkrest's
+map labels, Lair's fragmenting stat blocks, the pages neither covered nor
+excluded in Doom and Falkrest, and Doom's largest unit.
 
 ### Phase 1 — CSV contract
 
@@ -542,22 +568,56 @@ non-keyed units: stat blocks, tables, sidebars, rules sections.
 room, a stat block, a random table, and a rules section. Build `README.md`,
 `prompt.md`, `schema.md` (draft), `units.csv`, `units/*.txt`.
 *Done when:* `_exchange/<pack-id>.zip` exists and is deterministic across two
-builds.
+builds. **Done** — `scratch/phase1_pack.py`, six units, `test_phase1_pack.py`.
+The worked example in `prompt.md` is a real unit deliberately *not* in the pack:
+shipping the finished answer to one of the pack's own units would have measured
+copying rather than compliance.
 
-**T1.2 — Exchange.** **→ H-1 handoff.** Stop here.
+**T1.2 — Exchange.** **→ H-1 handoff.** Stop here. **Done** — two independent
+responses in `_exchange/`.
 
 **T1.3 — Throwaway parser and compliance measurement.** Parse the returned CSV
 per Contract B. Count: rows that split into four fields, first-three-field
 vocabulary violations, JSON parse failures, missing or duplicated `#unit`
 markers.
 *Done when (review):* figures for at least two independent responses to the same
-pack are written to `module-extractor/scratch/csv-compliance.md`.
+pack are written to `module-extractor/scratch/csv-compliance.md`. **Done** —
+`scratch/csv_check.py`, which reads its vocabulary out of the pack's own
+`schema.md` rather than restating it. **The row format is reliable**: 100% of
+rows split on the first three commas in both responses, no unit missing,
+duplicated or invented, and the only two violations are the same two in both,
+which makes them a schema defect rather than model variance.
+
+**Granularity is not reliable, and that is the finding to carry into T1.4.** The
+two responses disagree about how many entities a unit contains — six against one
+for the same rules section — with no content lost either way. Entity identity is
+what Stage 7 canonicalises and Stage 8 groups on, and Stage 8's conflict
+machinery compares values for a given `(entity, predicate)`, so it has no way to
+see two runs disagreeing about how many entities exist. Full argument in
+`csv-compliance.md`.
 
 **T1.4 — Decide the vocabulary.** Closed or open; per-predicate scalar/list;
 per-predicate text/JSON.
 *Done when (review):* the decision and its rationale are written into this
 document under Contract D and the D-4/D-5/D-6 rows. **A decision you made
 yourself is a proposal until a human accepts it.**
+
+**Three findings are waiting on this gate**, each with evidence rather than
+argument:
+
+1. **`stat` cannot satisfy Contract D item 3.** Its key set is open by
+   construction — whatever statistics a ruleset names. See `csv-compliance.md`.
+2. **Two card fields need two prose parts and the wire format allows one.**
+   `table.entries` is `{roll, result}` and `location.discoverable` is
+   `{condition, information}`; both arrived fused. 27 table records and 37 of 70
+   location records depend on the split. See `field-surface.md`.
+3. **A decomposition rule has to be declared**, the way Contract D item 2
+   declares arity. The vocabulary alone does not constrain granularity.
+
+`field-surface.md` also notes that ten of the 25 unproducible card fields are
+`situation` fields and `pack-001` contains no unit that yields a situation, so
+the prototype has no evidence about the largest single block. A
+situation-bearing unit belongs in the next pack.
 
 **T1.5 — Freeze `schema.md`.** Produce the real one, meeting all six Contract D
 requirements.
@@ -717,7 +777,16 @@ against 220 structured, and `place.module-lair-of-the-lamb.1-bowls` present.
 compiler must fill — 59 in the baseline — and mark which are covered by which
 predicate.
 *Done when:* every pair is either mapped to predicates or explicitly listed as
-unmapped.
+unmapped. **First half done, ahead of its dependency, on purpose** —
+`scratch/field-surface.md`. The enumeration reads only the baseline, so it does
+not need the frozen schema, and running it early is what surfaced finding 2 for
+T1.4 above. A compiler cannot invent a split the wire format discarded, so
+learning this after T1.5 would have meant reopening a frozen contract. Marking
+each pair against the *frozen* vocabulary still waits for T1.5.
+
+Of the 59: 23 are derived by code and never asked of the model (`title` ×11,
+`topology_node`, `keyed_area`, ten `*_references`), 11 are producible from the
+draft vocabulary, and 25 are not.
 
 **T3.3 — `compilation.py` for places.** Target `operational-module/v3` so
 `rendering.py`, `operations.py`, `topology.py`, and `scene.py` need no changes.
