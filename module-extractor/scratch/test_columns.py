@@ -54,6 +54,56 @@ class GutterTests(unittest.TestCase):
                     words=(word("a", 50.0, 100.0), word("b", 400.0, 100.0)))
         self.assertIsNone(find_gutter(page))
 
+    def test_a_ragged_margin_is_not_mistaken_for_the_gutter(self) -> None:
+        """Lair p21: the widest quiet band is short lines, not the gutter.
+
+        The left column ends at 250 but one wide line reaches 295, so the
+        emptiest *and widest* band is 250-295 while the real gutter is the
+        narrow 300-350. Taking the widest put the boundary mid-sentence and
+        ``Each bowl contains 4`` was filed as a full-width line.
+        """
+        words = [word("shortleft", 50.0, 100.0 + i * 14, w=200.0) for i in range(14)]
+        words.append(word("a long justified line reaching further", 50.0, 300.0,
+                          w=245.0))
+        words += [word("rightcolumntext", 350.0, 100.0 + i * 14, w=200.0)
+                  for i in range(14)]
+        page = Page(number=1, width=612.0, height=792.0, words=tuple(words))
+        gutter = find_gutter(page)
+        self.assertIsNotNone(gutter)
+        self.assertGreater(gutter, 295.0, "boundary cut the long left line")
+
+    def test_a_two_point_gutter_is_still_a_gutter(self) -> None:
+        """Шпиль Кетцаль sets a 2pt gutter on a 722pt page.
+
+        Any absolute minimum width that admits it would admit word spacing on
+        *Lair of the Lamb*, which is 918pt wide with a 10pt gutter. Width can
+        only ever be a tie-break.
+        """
+        words = []
+        for i in range(20):
+            y = 100.0 + i * 12
+            words.append(word("left", 40.0, y, w=328.0))
+            words.append(word("right", 371.0, y, w=310.0))
+        page = Page(number=1, width=722.0, height=1020.0, words=tuple(words))
+        gutter = find_gutter(page)
+        self.assertIsNotNone(gutter)
+        self.assertTrue(368.0 <= gutter <= 371.0, gutter)
+
+
+class FolioTests(unittest.TestCase):
+    def test_a_page_number_in_the_footer_is_dropped(self) -> None:
+        words = [word("bodytext", 50.0, 100.0 + i * 14, w=500.0) for i in range(24)]
+        words.append(word("27", 300.0, 760.0))
+        page = Page(number=27, width=612.0, height=792.0, words=tuple(words))
+        self.assertNotIn("27", [line.text for line in page_lines(page)])
+
+    def test_a_die_number_in_the_body_is_kept(self) -> None:
+        """Both conditions are required: digits alone would eat a table row."""
+        words = [word("bodytext", 50.0, 100.0 + i * 14, w=500.0) for i in range(24)]
+        words.append(word("5", 50.0, 500.0))
+        page = Page(number=27, width=612.0, height=792.0, words=tuple(words))
+        self.assertIn("5", [line.text for line in page_lines(page)])
+
 
 class LineTests(unittest.TestCase):
     def test_columns_are_not_fused_into_one_line(self) -> None:

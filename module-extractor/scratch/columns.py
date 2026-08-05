@@ -36,10 +36,11 @@ from pdfhtml import Page, Run, extract_document  # noqa: E402
 
 
 LINE_TOLERANCE = 0.5   # share of line height that still counts as the same line
-MIN_GUTTER = 8.0       # points; narrower gaps are word spacing, not structure
 GUTTER_BAND = (0.30, 0.70)  # a gutter lives in the middle of the page, not the margin
 MIN_COLUMN_SHARE = 0.15     # both sides must carry real text to be columns
 MIN_RUN_IN_HEADING = 3      # characters; shorter prefixes are dropped capitals
+RESUMPTION_WINDOW = 4       # points scanned past a quiet run for the next column
+FOLIO_MARGIN = 0.12         # share of page height that is header/footer space
 
 
 @dataclass(frozen=True)
@@ -54,6 +55,7 @@ class Line:
     family: str = ""
     bold: bool = False
     color: str = "#000000"
+    run_in: bool = False  # a prefix split off a row that continues in body style
 
     @property
     def style(self) -> tuple[float, str, bool, str]:
@@ -75,6 +77,24 @@ def find_gutter(page: Page) -> float | None:
     line fills the gutter. Counting how many words cross each x and taking the
     minimum survives that: a real gutter is crossed by a handful of headings
     while the text columns either side are crossed by hundreds of lines.
+
+    **The widest quiet run is not the gutter.** A ragged right margin leaves a
+    far wider quiet band than the gutter does. Page 21 of *Lair of the Lamb*
+    runs quiet from x=320 to x=449 because its left column is short, while the
+    real gutter is the ten points from 455 to 464; taking the widest run put the
+    boundary at 385, so ``. Each bowl contains 4`` -- which reaches x=453 --
+    straddled it, was filed as full-width, and was emitted before the heading
+    that owns it. The number of sacrifices simply left the room.
+
+    What distinguishes the gutter is what follows it: the next column starts at
+    full density, whereas a ragged margin is followed by more ragged text. So
+    candidates are scored by the density immediately to their right.
+
+    **Width is a tie-break, never a filter.** A minimum gutter in points cannot
+    be written down: *Lair of the Lamb* is 918 points wide with a 10-point
+    gutter, while Шпиль Кетцаль is 722 wide with a **2**-point one. Any
+    threshold that admits the second admits word spacing in the first, so the
+    density test has to carry the discrimination on its own.
     """
     if len(page.words) < 20:
         return None
@@ -95,19 +115,32 @@ def find_gutter(page: Page) -> float | None:
     if floor > typical * 0.25:
         return None  # nothing in the middle is notably clearer than the rest
 
-    # Take the widest run at that minimum, and its centre.
-    best_start = best_size = 0
+    runs: list[tuple[int, int]] = []
     run_start: int | None = None
     for x in range(low, high + 2):
         quiet = x <= high and crossings[x] <= floor
         if quiet:
             run_start = x if run_start is None else run_start
         elif run_start is not None:
-            if x - run_start > best_size:
-                best_start, best_size = run_start, x - run_start
+            runs.append((run_start, x - run_start))
             run_start = None
-    if best_size < 1:
+    if not runs:
         return None
+
+    def resumption(start: int, size: int) -> int:
+        """Density at the run's right edge -- where the next column begins.
+
+        The window is deliberately a few points wide. Widen it and it reaches
+        across a ragged margin into the real column beyond, which is exactly
+        the confusion it exists to resolve.
+        """
+        after = crossings[start + size:start + size + RESUMPTION_WINDOW]
+        return max(after) if after else 0
+
+    # Deterministic: score, then width, then leftmost.
+    best_start, best_size = max(
+        runs, key=lambda run: (resumption(*run), run[1], -run[0])
+    )
     centre = best_start + best_size / 2
     left = sum(1 for w in page.words if w.right <= centre)
     right = sum(1 for w in page.words if w.x >= centre)
@@ -143,8 +176,12 @@ def _band(words: list[Run], page: int, column: int,
     lines = []
     for row in rows:
         ordered = sorted(row, key=lambda w: w.x)
-        for part in _split_run_in_heading(ordered, body):
-            lines.append(_line(part, page, column))
+        parts = _split_run_in_heading(ordered, body)
+        for index, part in enumerate(parts):
+            # Only the prefix of a split row is a run-in candidate; the tail is
+            # ordinary body text that happens to share the row.
+            lines.append(_line(part, page, column,
+                               run_in=len(parts) > 1 and index == 0))
     return lines
 
 
@@ -152,7 +189,7 @@ def run_style(run: Run) -> tuple[float, str, bool, str]:
     return (run.size, run.font.family, run.bold, run.color)
 
 
-def _line(runs: list[Run], page: int, column: int) -> Line:
+def _line(runs: list[Run], page: int, column: int, run_in: bool = False) -> Line:
     # A line's style is its dominant run's, weighted by how much text that run
     # carries -- a dropped capital must not redefine the line it opens.
     weight: Counter = Counter()
@@ -171,6 +208,7 @@ def _line(runs: list[Run], page: int, column: int) -> Line:
         family=family,
         bold=bold,
         color=color,
+        run_in=run_in,
     )
 
 
@@ -220,6 +258,26 @@ def body_run_style(pages: Sequence[Page]) -> tuple[float, str, bool, str] | None
     return weight.most_common(1)[0][0] if weight else None
 
 
+def is_folio(line: Line, height: float) -> bool:
+    """A bare page number in the header or footer band.
+
+    ``furniture`` in ``units`` cannot catch these: it keys on repeated text and
+    every folio is different. Left alone they are appended as body to whichever
+    unit happens to be open, which is how ``the Ghouls`` ended up with a body of
+    ``27\\n28``.
+
+    Both conditions are required. Digits alone would eat a table row keyed only
+    by its die number; the margin band alone would eat a real heading that
+    starts high on the page.
+    """
+    if not height:
+        return False
+    text = line.text.strip()
+    if not text or not text.isdigit():
+        return False
+    return line.y < height * FOLIO_MARGIN or line.y > height * (1 - FOLIO_MARGIN)
+
+
 def page_lines(
     page: Page, body: tuple[float, str, bool, str] | None = None
 ) -> list[Line]:
@@ -236,7 +294,7 @@ def page_lines(
     lines: list[Line] = []
     for column in sorted(buckets, key=lambda c: (c != -1, c)):
         lines.extend(_band(buckets[column], page.number, column, body))
-    return lines
+    return [line for line in lines if not is_folio(line, page.height)]
 
 
 def document_lines(pdf: Path) -> list[Line]:
