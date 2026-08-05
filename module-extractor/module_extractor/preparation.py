@@ -21,7 +21,36 @@ from .util import (
 )
 
 
-POPLER_TOOLS = ("pdfinfo", "pdftotext", "pdftoppm")
+POPLER_TOOLS = ("pdfinfo", "pdftotext", "pdftoppm", "pdftohtml")
+
+# Segmentation needs the typesetter's own choices -- point size, family, weight,
+# colour -- and `pdftotext -bbox-layout` exposes only a box per word. Glyph
+# height is a lossy proxy for size and discards the rest, and two of the five
+# in-scope sources could not be segmented from it at all. `pdftohtml -xml` ships
+# in the same Poppler package and emits all four.
+#
+# `-i` drops images: this is text geometry, not artwork. `-hidden` keeps text
+# that sits under a covering element. `-stdout` avoids a temporary tree.
+PDFTOHTML_ARGUMENTS = ("-xml", "-i", "-hidden", "-stdout")
+
+_FONTSPEC = re.compile(r"<fontspec\b[^>]*>")
+_TEXT_RUN = re.compile(r"<text\b")
+_XML_ATTRIBUTE = re.compile(r'(\w+)="([^"]*)"')
+# PDF embeds subsetted fonts under an arbitrary six-letter tag, so one face is
+# "DHWVTZ+BookAntiqua" on one page and "CZMPFB+BookAntiqua" on the next. The tag
+# is packaging, not typography, and counting it would inflate the style count on
+# a perfectly ordinary document.
+_SUBSET_TAG = re.compile(r"^[A-Z]{6}\+")
+
+# Below this many runs a document is too small for the ratio to mean anything,
+# and the empty-text check is the operative one.
+TEXT_LAYER_MIN_RUNS = 200
+# Measured across every in-scope source: 145 (Lair), 122 (Winter's Daughter),
+# 103 (Falkrest), 115 (Doom), 190 (Шпиль Кетцаль), 190 (The Lost City) runs per
+# distinct style. Curse of Strahd, an EPSON Scan carrying 32,020 runs under
+# 11,964 synthetic styles, gives 2.7. The threshold sits a factor of five below
+# the worst typeset source and a factor of seven above the scan.
+TEXT_LAYER_MIN_RUNS_PER_STYLE = 20.0
 
 
 def inferred_slug(pdf: Path) -> str:
@@ -78,6 +107,68 @@ def _split_pages(text: str, expected: int) -> list[str]:
             f"pdftotext page count mismatch: expected {expected}, got {len(pages)}"
         )
     return pages
+
+
+def style_keys(runs_xml: str) -> set[tuple[str, str, str]]:
+    """The distinct (size, family, colour) triples a document declares.
+
+    Read with a regular expression rather than an XML parser on purpose. Poppler
+    emits markup that is not well-formed -- unescaped ampersands inside font
+    names, unbalanced inline tags inside runs -- and repairing that belongs to
+    the segmenter that consumes the runs, not to the stage that counts them.
+    """
+    keys = set()
+    for spec in _FONTSPEC.findall(runs_xml):
+        attributes = dict(_XML_ATTRIBUTE.findall(spec))
+        keys.add((
+            attributes.get("size", ""),
+            _SUBSET_TAG.sub("", attributes.get("family", "")),
+            attributes.get("color", ""),
+        ))
+    return keys
+
+
+def check_text_layer(page_text: str, runs_xml: str) -> None:
+    """Fail a PDF whose text layer cannot carry the pipeline.
+
+    Stage 1 requires a source without a usable text layer to fail explicitly
+    rather than proceed with empty pages. **Empty is not the only unusable.**
+    Curse of Strahd carries 779 KB of OCR text across 258 pages and segments to
+    nothing, because its OCR engine declared one synthetic face per recognised
+    fragment: 12,151 fonts named ``Times New Roman-271``, ``-272``, and a
+    slightly different near-black per fragment. Every style then falls below the
+    noise floor, none is accepted as a heading, and the run ends with zero units
+    and exit 0. Silence is the actual defect.
+
+    The ratio of runs to distinct styles measures that directly. Style-based
+    segmentation assumes a typesetter chose a small number of styles
+    deliberately; an OCR engine chooses one per fragment, accidentally.
+
+    **This does not catch a damaged text layer.** The Lost City scores 190 runs
+    per style -- a clean font table -- while its prose arrives as
+    ``C e ntip e d e , G ia nt``. That is a different defect with a different
+    measure, and it is still deferred.
+    """
+    if not page_text.strip():
+        raise ExtractorError(
+            "PDF has no text layer: pdftotext returned no characters. "
+            "A scanned source needs OCR or the image path, not this pipeline."
+        )
+    runs = len(_TEXT_RUN.findall(runs_xml))
+    styles = len(style_keys(runs_xml))
+    if runs < TEXT_LAYER_MIN_RUNS or not styles:
+        return
+    ratio = runs / styles
+    if ratio < TEXT_LAYER_MIN_RUNS_PER_STYLE:
+        raise ExtractorError(
+            "PDF text layer is unusable: "
+            f"{runs} text runs declare {styles} distinct styles "
+            f"({ratio:.1f} runs per style, minimum "
+            f"{TEXT_LAYER_MIN_RUNS_PER_STYLE:.0f}). "
+            "A font table this fragmented is OCR noise rather than typography, "
+            "and segmentation would silently yield nothing. "
+            "This source needs OCR or the image path."
+        )
 
 
 def _check_replaceable_input(input_dir: Path, slug: str) -> None:
@@ -167,14 +258,26 @@ def prepare(
         pages_dir.mkdir(parents=True)
         layout = text_dir / "layout.txt"
         _run(["pdftotext", "-layout", str(pdf), str(layout)])
-        page_texts = _split_pages(
-            layout.read_text(encoding="utf-8", errors="replace"),
-            info["pdf_pages"],
-        )
+        layout_text = layout.read_text(encoding="utf-8", errors="replace")
+        page_texts = _split_pages(layout_text, info["pdf_pages"])
         for page, page_text in enumerate(page_texts, 1):
             (pages_dir / f"page-{page:04d}.txt").write_text(
                 page_text, encoding="utf-8", newline="\n"
             )
+
+        # Written verbatim, for the whole document rather than per page. The
+        # output is not well-formed XML -- Poppler leaves bare ampersands in
+        # font names and unbalanced inline tags inside runs -- so splitting it
+        # would need the very repairs that belong to the segmenter. The cache
+        # should hold what Poppler said, not a partial reading of it.
+        runs_xml = _run(
+            ["pdftohtml", *PDFTOHTML_ARGUMENTS, str(pdf)]
+        ).stdout
+        (text_dir / "runs.xml").write_text(
+            runs_xml, encoding="utf-8", newline="\n"
+        )
+        # Before the page renders, so an unusable source fails in seconds.
+        check_text_layer(layout_text, runs_xml)
 
         thumbnails = cache_stage / "thumbnails"
         thumbnails.mkdir()
