@@ -108,24 +108,39 @@ The PDFs are **read-only inputs and must never be copied into the repository** �
 renders, thumbnails) are fine to commit; the repository is private.
 
 **Tooling.** Python standard library only, plus the Poppler binaries already used
-via `subprocess`: `pdfinfo`, `pdftotext`, `pdftoppm`. There is no
-`requirements.txt` and none is to be added. **Do not introduce PyMuPDF,
-pdfplumber, PyPDF2, lxml, PyYAML, or any other third-party package.**
+via `subprocess`: `pdfinfo`, `pdftotext`, `pdftoppm`, and — added at T2.1 —
+`pdftohtml`. There is no `requirements.txt` and none is to be added. **Do not
+introduce PyMuPDF, pdfplumber, PyPDF2, lxml, PyYAML, or any other third-party
+package.**
 
-The one capability the current code does not use is `pdftotext -bbox-layout`,
-which emits word-level bounding boxes as XHTML and is parsed with
-`xml.etree.ElementTree`:
+The capability the pipeline gained is `pdftohtml -xml`, which emits typed text
+runs and is parsed with `xml.etree.ElementTree`:
 
 ```xml
-<page width="612.000000" height="792.000000">
-  <flow><block xMin=… yMin=… xMax=… yMax=…>
-    <line xMin=… yMin=… xMax=… yMax=…>
-      <word xMin="43.319999" yMin="44.670803"
-            xMax="95.800088" yMax="59.258726">Hirelings</word>
+<fontspec id="0" size="18" family="CIDFont+F10" color="#3333ff"/>
+<text top="504" left="65" width="182" height="22" font="0">24 CRUSH HALLWAY</text>
+<text top="52"  left="93" width="311" height="23" font="1"><b>roleplAyIng the non-</b></text>
 ```
 
-`yMax - yMin` is the usable proxy for font size. Font name and weight are not
-exposed and are not needed.
+A `<text>` element is a **run**: contiguous characters sharing one font. Runs
+split mid-line whenever the font changes and never span a column, so they are a
+strictly better unit than words.
+
+**An earlier revision of this section named `pdftotext -bbox-layout`.** That
+tool gives a box per word and nothing else, leaving glyph height as the only
+typographic signal — a lossy proxy for point size, with family, weight and
+colour discarded. Lair sets keyed areas and subsection headings at the same
+18pt and separates them **by colour**; Doom separates headings by family and
+weight, and under glyph height 96.8% of its lines looked identical. Two of the
+five in-scope sources could not be segmented from bounding boxes. T0.2 switched
+to `pdftohtml` and T2.1 followed; `scratch/bbox.py` survives only as the source
+list and error type.
+
+Poppler's XML is **not well-formed** and every consumer must expect that:
+unescaped ampersands inside font names (`TURLCX+Brokgauz&Efron`), unbalanced
+inline tags inside runs where a link overlaps an emphasis span, and C0 control
+characters copied straight out of the PDF. `scratch/pdfhtml.py` carries the
+repairs; T2.3 promotes them.
 
 ---
 
@@ -551,23 +566,66 @@ parser validates the Phase 1 responses against it.
 
 ### Phase 2 — Front end
 
-**T2.1 — `preparation.py`: bbox assets.** Add `-bbox-layout` extraction beside
-the existing `-layout` call, writing per-page XML into the cache. Keep the source
-identity record, thumbnails, map renders, and atomic publish untouched.
-*Done when:* `advanced prepare` emits bbox XML per page; existing preparation
-tests still pass.
+**T2.1 — `preparation.py`: typed-run assets.** Add `pdftohtml -xml` extraction
+beside the existing `-layout` call, writing the runs into the cache. Keep the
+source identity record, thumbnails, map renders, and atomic publish untouched.
+*Done when:* `advanced prepare` emits the runs file; existing preparation tests
+still pass. **Done** — `preparation.PDFTOHTML_ARGUMENTS`, cached at
+`text/runs.xml`, with `tests/test_preparation.py`.
+
+**Two deviations from this task as originally written, both deliberate.**
+
+*The tool is `pdftohtml -xml`, not `pdftotext -bbox-layout`.* This task and the
+Environment section above were written before T0.2 was revised. `-bbox-layout`
+gives a box per word and nothing else, so the only typographic signal is glyph
+height — a lossy proxy for point size, with family, weight and colour discarded.
+Two of the five in-scope sources could not be segmented from it: Lair sets keyed
+areas and subsection headings at the same 18pt and separates them by colour,
+Doom separates headings by family and weight. `pdftohtml` ships in the same
+Poppler package, needs no new dependency, and is what `scratch/pdfhtml.py`
+already uses. `scratch/bbox.py` remains only as the source list and error type.
+
+*One document-level file, not one per page.* Poppler's XML is not well-formed —
+bare ampersands inside font names, unbalanced inline tags inside runs — so
+splitting it per page requires the same repairs the segmenter performs at T2.3.
+The cache should hold what Poppler said rather than a partial reading of it, and
+segmentation reads the document whole in any case, because the body style is a
+whole-document fact.
 
 **T2.2 — `preparation.py`: unusable-text-layer failure.** Stage 1 requires a PDF
-without a *usable* text layer to fail explicitly. There is no such check today
-and `_split_pages` emits blank pages happily.
+without a *usable* text layer to fail explicitly.
 
 **Empty is not the only unusable.** Curse of Strahd carries 779 KB of OCR text
 across 258 pages and still segments to nothing, because its 12,151 synthetic
-fonts give 9,317 style keys over 32,020 runs. It failed silently: zero units,
-exit 0. Check both conditions -- no text at all, and a style-key-to-run ratio
-that says the font table is OCR noise rather than typography.
+fonts give 11,964 style keys over 32,020 runs. It failed silently: zero units,
+exit 0.
+
 *Done when:* a text-layer-free PDF and an OCR-noise PDF each raise
-`ExtractorError` naming which condition failed, with tests.
+`ExtractorError` naming which condition failed, with tests. **Done** —
+`preparation.check_text_layer`. Measured runs per distinct style:
+
+| Source | Runs | Styles | Runs/style |
+|---|---:|---:|---:|
+| Lair of the Lamb | 3,486 | 24 | 145.2 |
+| Winter's Daughter | 2,691 | 22 | 122.3 |
+| Falkrest Abbey | 2,775 | 27 | 102.8 |
+| Doom of the Savage Kings | 1,382 | 12 | 115.2 |
+| Шпиль Кетцаль | 5,509 | 29 | 190.0 |
+| The Lost City | 3,979 | 21 | 189.5 |
+| **Curse of Strahd** | **32,020** | **11,964** | **2.7** |
+
+`TEXT_LAYER_MIN_RUNS_PER_STYLE = 20` sits a factor of five below the worst
+typeset source and a factor of seven above the scan. The ratio is only applied
+above `TEXT_LAYER_MIN_RUNS = 200`, below which it means nothing and the
+empty-text condition is the operative one. Font subset tags are stripped before
+counting, or one face embedded twice would inflate an ordinary document.
+
+**The check does not catch a damaged text layer, and must not claim to.** The
+Lost City scores 189.5 — a perfectly clean font table — while its prose arrives
+as `C e ntip e d e , G ia nt`. That is a different defect needing a different
+measure (a high ratio of one- and two-character tokens), and it stays deferred.
+Preparation now runs it before the page renders, so an unusable 258-page source
+fails in under three seconds instead of after rendering every thumbnail.
 
 **T2.3 — `segmentation.py`.** Promote T0.4/T0.5 into the package, emitting
 Contract A units.
