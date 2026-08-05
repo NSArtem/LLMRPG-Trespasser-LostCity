@@ -1,50 +1,331 @@
 [
   {
-    "unit_id": "p5.cover-art-layout",
-    "heading": "Cover Art  Layout",
+    "unit_id": "p3.area-numbers-monsters-secret-doo",
+    "heading": "Area numbers Monsters Secret doors Portal",
+    "heading_path": [],
     "pages": [
-      5
+      3
     ],
     "column": 0,
-    "text": "Cover Art  Layout",
+    "text": "Area numbers Monsters Secret doors Portal",
+    "labels": [],
+    "text_bytes": 41,
+    "keyed_area": null,
+    "style": {
+      "size": 14.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p3.statue",
+    "heading": "Statue",
+    "heading_path": [
+      "Area numbers Monsters Secret doors Portal"
+    ],
+    "pages": [
+      3
+    ],
+    "column": 0,
+    "text": "Statue",
+    "labels": [],
+    "text_bytes": 6,
+    "keyed_area": null,
+    "style": {
+      "size": 14.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p3.p-s",
+    "heading": "P S",
+    "heading_path": [],
+    "pages": [
+      3
+    ],
+    "column": 0,
+    "text": "P S",
+    "labels": [],
+    "text_bytes": 3,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p3.ghost",
+    "heading": "Ghost",
+    "heading_path": [
+      "P S"
+    ],
+    "pages": [
+      3
+    ],
+    "column": 0,
+    "text": "Ghost\n16\n14 13\n10",
     "labels": [],
     "text_bytes": 17,
     "keyed_area": null,
     "style": {
-      "size": 12.0,
-      "family": "Aller",
-      "bold": true,
-      "color": "#000000"
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
     }
   },
   {
-    "unit_id": "p5.zaira-diana-axian-spice",
-    "heading": "Zaira DIANA  AXIAN SPICE",
+    "unit_id": "p3.wight-11",
+    "heading": "Wight 11",
+    "heading_path": [
+      "P S"
+    ],
     "pages": [
-      5
+      3
     ],
     "column": 0,
-    "text": "Zaira DIANA  AXIAN SPICE",
+    "text": "Wight 11\n12\n9",
     "labels": [],
-    "text_bytes": 24,
+    "text_bytes": 13,
     "keyed_area": null,
     "style": {
-      "size": 12.0,
-      "family": "Aller",
-      "bold": true,
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p3.bandits",
+    "heading": "Bandits",
+    "heading_path": [],
+    "pages": [
+      3
+    ],
+    "column": 0,
+    "text": "Bandits",
+    "labels": [],
+    "text_bytes": 7,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p3.n",
+    "heading": "N",
+    "heading_path": [],
+    "pages": [
+      3
+    ],
+    "column": 1,
+    "text": "N",
+    "labels": [],
+    "text_bytes": 1,
+    "keyed_area": null,
+    "style": {
+      "size": 24.0,
+      "family": "GothicusRoman",
+      "bold": false,
       "color": "#000000"
     }
   },
   {
-    "unit_id": "p5.map-by",
-    "heading": "Map by:",
+    "unit_id": "p3.rowayn",
+    "heading": "Rowayn",
+    "heading_path": [
+      "N"
+    ],
+    "pages": [
+      3
+    ],
+    "column": 1,
+    "text": "Rowayn\n19 1 square = 10’",
+    "labels": [],
+    "text_bytes": 26,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p3.18-living-statues",
+    "heading": "18 Living Statues",
+    "heading_path": [
+      "N"
+    ],
+    "pages": [
+      3
+    ],
+    "column": 1,
+    "text": "18 Living Statues",
+    "labels": [],
+    "text_bytes": 17,
+    "keyed_area": "18",
+    "style": {
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p3.s",
+    "heading": "S",
+    "heading_path": [
+      "N",
+      "18 Living Statues"
+    ],
+    "pages": [
+      3
+    ],
+    "column": 1,
+    "text": "S\n17",
+    "labels": [],
+    "text_bytes": 4,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p3.s-p-p",
+    "heading": "S P P",
+    "heading_path": [
+      "N"
+    ],
+    "pages": [
+      3
+    ],
+    "column": 1,
+    "text": "S P P",
+    "labels": [],
+    "text_bytes": 5,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p3.p",
+    "heading": "P",
+    "heading_path": [
+      "N",
+      "S P P"
+    ],
+    "pages": [
+      3
+    ],
+    "column": 1,
+    "text": "P\n6",
+    "labels": [],
+    "text_bytes": 3,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p3.skele-8-7-tons-flayed-zombie",
+    "heading": "Skele-  8 7 tons Flayed Zombie",
+    "heading_path": [
+      "N",
+      "S P P"
+    ],
+    "pages": [
+      3
+    ],
+    "column": 1,
+    "text": "Skele-  8 7 tons Flayed Zombie\n15\n5",
+    "labels": [],
+    "text_bytes": 35,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p3.flayed-zombie-icescale-viper-4",
+    "heading": "Flayed Zombie Icescale Viper 4",
+    "heading_path": [
+      "N",
+      "S P P"
+    ],
+    "pages": [
+      3
+    ],
+    "column": 1,
+    "text": "Flayed Zombie Icescale Viper 4\n2\n3\n1",
+    "labels": [],
+    "text_bytes": 36,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p3.entrance",
+    "heading": "Entrance",
+    "heading_path": [
+      "N",
+      "S P P"
+    ],
+    "pages": [
+      3,
+      5
+    ],
+    "column": 1,
+    "text": "Entrance\nFALKREST FALKREST\nA B B E Y\nA Level 1–3 Adventure for Old-School Essentials by\nAndrea Tupac Mollica & Giuseppe Rotondo",
+    "labels": [],
+    "text_bytes": 129,
+    "keyed_area": null,
+    "style": {
+      "size": 16.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p5.cover-art-layout-zaira-diana-axi",
+    "heading": "Cover Art  Layout Zaira DIANA  AXIAN SPICE Map by:",
+    "heading_path": [
+      "N",
+      "S P P"
+    ],
     "pages": [
       5
     ],
     "column": 0,
-    "text": "Map by:\nGiuseppe ROTONDO,\ncreated with Dungeonscrawl",
+    "text": "Cover Art  Layout Zaira DIANA  AXIAN SPICE Map by:\nGiuseppe ROTONDO,\ncreated with Dungeonscrawl",
     "labels": [],
-    "text_bytes": 52,
+    "text_bytes": 95,
     "keyed_area": null,
     "style": {
       "size": 12.0,
@@ -56,13 +337,17 @@
   {
     "unit_id": "p5.thanks-to",
     "heading": "Thanks to:",
+    "heading_path": [
+      "N",
+      "S P P"
+    ],
     "pages": [
       5
     ],
     "column": 0,
-    "text": "Thanks to:\nJ. Sebastian PAGANI, Stephen SMITH, James SPAHN\nOld-School Essentials is a trademark of Necrotic Gnome. The trademark and Old-School\nEssentials logo are used with permission of Necrotic Gnome, under license.\n1",
+    "text": "Thanks to:\nJ. Sebastian PAGANI, Stephen SMITH, James SPAHN\nOld-School Essentials is a trademark of Necrotic Gnome. The trademark and Old-School\nEssentials logo are used with permission of Necrotic Gnome, under license.",
     "labels": [],
-    "text_bytes": 220,
+    "text_bytes": 218,
     "keyed_area": null,
     "style": {
       "size": 12.0,
@@ -74,6 +359,7 @@
   {
     "unit_id": "p6.the-legend-of-the-abbey",
     "heading": "The Legend of the Abbey",
+    "heading_path": [],
     "pages": [
       6
     ],
@@ -92,13 +378,14 @@
   {
     "unit_id": "p6.quick-instructions",
     "heading": "Quick Instructions",
+    "heading_path": [],
     "pages": [
       6
     ],
     "column": -1,
-    "text": "Quick Instructions\nof the blessed Abbey?\n◈ You  can  set  this  adventure  in\nany cold mountainous region\nof  your  campaign  world,  or\neasily  run  it  as  a  one-shot\nscenario.\n◈ Level 1 characters may find the\nscenario  challenging  (but  not\nat  all  impossible),  while  level\n3 will probably have an easier\ntime,  especially  if  they  have\nmagic weapons.\n◈ Falkrest  Abbey  introduces  a\nbunch of new monsters. Their\nstatistics  can  be  found  in  the\nMonsters  section  (along  with\nall  monsters  included  in  the\nadventure).\n◈ The  dungeon  itself  is  a  small\nportion  of  the  original  abbey.\nCollapsed ruins are all around\nand  above  the  remaining\nrooms.\n2\n◈ The  Enchanted  Secret  Garden\n(room 17) can’t be found from\nthe outside: it’s a magical place,\nonly  reachable  via  portals,\nso  climbing  to  the  roof  of  the\nruins is useless.\n◈ The background of the abbey is\nintentionally vague, so as to allow\nreferees to insert the adventure\nin their campaigns. These are the\nonly  pieces  of  background  that\ninfluence the adventure:\n◆ The  Kings  and  Queens  of\nYore  were  the  rulers  of  a\nmythical past.\n◆ A  kingdom  of  kings\nand  knights  that  is  still\nremembered  in  the  ballads\nand poems of the bards; the\nruins  of  their  castles  still\nremain here and there.\n◆ The abbey fell when Grusom,\nthe last abbot, was corrupted\nby  chaos  and  attempted  to\nreach the secret garden using\na foul demonic portal.",
+    "text": "Quick Instructions\nof the blessed Abbey?\n◈ You  can  set  this  adventure  in\nany cold mountainous region\nof  your  campaign  world,  or\neasily  run  it  as  a  one-shot\nscenario.\n◈ Level 1 characters may find the\nscenario  challenging  (but  not\nat  all  impossible),  while  level\n3 will probably have an easier\ntime,  especially  if  they  have\nmagic weapons.\n◈ Falkrest  Abbey  introduces  a\nbunch of new monsters. Their\nstatistics  can  be  found  in  the\nMonsters  section  (along  with\nall  monsters  included  in  the\nadventure).\n◈ The  dungeon  itself  is  a  small\nportion  of  the  original  abbey.\nCollapsed ruins are all around\nand  above  the  remaining\nrooms.\n◈ The  Enchanted  Secret  Garden\n(room 17) can’t be found from\nthe outside: it’s a magical place,\nonly  reachable  via  portals,\nso  climbing  to  the  roof  of  the\nruins is useless.\n◈ The background of the abbey is\nintentionally vague, so as to allow\nreferees to insert the adventure\nin their campaigns. These are the\nonly  pieces  of  background  that\ninfluence the adventure:\n◆ The  Kings  and  Queens  of\nYore  were  the  rulers  of  a\nmythical past.\n◆ A  kingdom  of  kings\nand  knights  that  is  still\nremembered  in  the  ballads\nand poems of the bards; the\nruins  of  their  castles  still\nremain here and there.\n◆ The abbey fell when Grusom,\nthe last abbot, was corrupted\nby  chaos  and  attempted  to\nreach the secret garden using\na foul demonic portal.",
     "labels": [],
-    "text_bytes": 1464,
+    "text_bytes": 1462,
     "keyed_area": null,
     "style": {
       "size": 35.0,
@@ -110,6 +397,7 @@
   {
     "unit_id": "p7.table-of-contents",
     "heading": "Table of Contents",
+    "heading_path": [],
     "pages": [
       7
     ],
@@ -128,6 +416,7 @@
   {
     "unit_id": "p7.quick-instructions-2-the-chessbo",
     "heading": "Quick Instructions ................... 2 The Chessboard Puzzle ..................37",
+    "heading_path": [],
     "pages": [
       7
     ],
@@ -146,13 +435,16 @@
   {
     "unit_id": "p7.table-of-contents-3-open-game-li",
     "heading": "Table of Contents ..................... 3 OPEN GAME LICENCE ............... 39",
+    "heading_path": [
+      "Quick Instructions ................... 2 The Chessboard Puzzle ..................37"
+    ],
     "pages": [
       7
     ],
     "column": 0,
-    "text": "Table of Contents ..................... 3 OPEN GAME LICENCE ............... 39\nTreasure & Monster Overview 4\nHooks .........................................6\nRumors ....................................... 7\nJora’s Last Inn & Emporium ......8\nSpeaking with Jora: .........................8",
+    "text": "Table of Contents ..................... 3 OPEN GAME LICENCE ............... 39",
     "labels": [],
-    "text_bytes": 290,
+    "text_bytes": 78,
     "keyed_area": null,
     "style": {
       "size": 14.0,
@@ -162,15 +454,58 @@
     }
   },
   {
-    "unit_id": "p7.emporium-8",
-    "heading": "Emporium: ......................................8",
+    "unit_id": "p7.treasure-monster-overview-4-hook",
+    "heading": "Treasure & Monster Overview 4 Hooks .........................................6 Rumors ....................................... 7",
+    "heading_path": [
+      "Quick Instructions ................... 2 The Chessboard Puzzle ..................37"
+    ],
     "pages": [
       7
     ],
     "column": 0,
-    "text": "Emporium: ......................................8",
+    "text": "Treasure & Monster Overview 4 Hooks .........................................6 Rumors ....................................... 7",
     "labels": [],
-    "text_bytes": 49,
+    "text_bytes": 127,
+    "keyed_area": null,
+    "style": {
+      "size": 14.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p7.jora-s-last-inn-emporium-8",
+    "heading": "Jora’s Last Inn & Emporium ......8",
+    "heading_path": [
+      "Quick Instructions ................... 2 The Chessboard Puzzle ..................37"
+    ],
+    "pages": [
+      7
+    ],
+    "column": 0,
+    "text": "Jora’s Last Inn & Emporium ......8",
+    "labels": [],
+    "text_bytes": 36,
+    "keyed_area": null,
+    "style": {
+      "size": 14.0,
+      "family": "SkolarLatin-Medium",
+      "bold": false,
+      "color": "#000000"
+    }
+  },
+  {
+    "unit_id": "p7.speaking-with-jora-8-emporium-8",
+    "heading": "Speaking with Jora: .........................8 Emporium: ......................................8",
+    "heading_path": [],
+    "pages": [
+      7
+    ],
+    "column": 0,
+    "text": "Speaking with Jora: .........................8 Emporium: ......................................8",
+    "labels": [],
+    "text_bytes": 96,
     "keyed_area": null,
     "style": {
       "size": 14.0,
@@ -180,33 +515,18 @@
     }
   },
   {
-    "unit_id": "p7.climbing-the-lune-mountains-9",
-    "heading": "Climbing The Lune Mountains 9",
+    "unit_id": "p7.climbing-the-lune-mountains-9-th",
+    "heading": "Climbing The Lune Mountains 9 The Falkrest Abbey ................. 10",
+    "heading_path": [
+      "Speaking with Jora: .........................8 Emporium: ......................................8"
+    ],
     "pages": [
       7
     ],
     "column": 0,
-    "text": "Climbing The Lune Mountains 9",
+    "text": "Climbing The Lune Mountains 9 The Falkrest Abbey ................. 10",
     "labels": [],
-    "text_bytes": 29,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.the-falkrest-abbey-10",
-    "heading": "The Falkrest Abbey ................. 10",
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "The Falkrest Abbey ................. 10",
-    "labels": [],
-    "text_bytes": 39,
+    "text_bytes": 69,
     "keyed_area": null,
     "style": {
       "size": 14.0,
@@ -218,6 +538,9 @@
   {
     "unit_id": "p7.room-descriptions-12",
     "heading": "Room Descriptions ...................12",
+    "heading_path": [
+      "Speaking with Jora: .........................8 Emporium: ......................................8"
+    ],
     "pages": [
       7
     ],
@@ -236,6 +559,7 @@
   {
     "unit_id": "p7.1-entrance-12",
     "heading": "1 Entrance ......................................12",
+    "heading_path": [],
     "pages": [
       7
     ],
@@ -254,6 +578,9 @@
   {
     "unit_id": "p7.2-the-frozen-cloister-13",
     "heading": "2 The Frozen Cloister .....................13",
+    "heading_path": [
+      "1 Entrance ......................................12"
+    ],
     "pages": [
       7
     ],
@@ -272,6 +599,7 @@
   {
     "unit_id": "p7.3-herbalist-s-dispensary-14",
     "heading": "3 Herbalist’s Dispensary ................14",
+    "heading_path": [],
     "pages": [
       7
     ],
@@ -290,6 +618,7 @@
   {
     "unit_id": "p7.4-workshop-15",
     "heading": "4 Workshop ....................................15",
+    "heading_path": [],
     "pages": [
       7
     ],
@@ -308,6 +637,7 @@
   {
     "unit_id": "p7.5-east-corridor-15",
     "heading": "5 East corridor ...............................15",
+    "heading_path": [],
     "pages": [
       7
     ],
@@ -326,6 +656,7 @@
   {
     "unit_id": "p7.6-ritual-chamber-16",
     "heading": "6 Ritual Chamber ...........................16",
+    "heading_path": [],
     "pages": [
       7
     ],
@@ -344,6 +675,7 @@
   {
     "unit_id": "p7.7-the-library-17",
     "heading": "7 The Library ..................................17",
+    "heading_path": [],
     "pages": [
       7
     ],
@@ -362,6 +694,7 @@
   {
     "unit_id": "p7.8-library-office-17",
     "heading": "8 Library Office ..............................17",
+    "heading_path": [],
     "pages": [
       7
     ],
@@ -380,6 +713,7 @@
   {
     "unit_id": "p7.9-columbarium-of-the-knights-18",
     "heading": "9 Columbarium of the Knights ......18",
+    "heading_path": [],
     "pages": [
       7
     ],
@@ -398,6 +732,7 @@
   {
     "unit_id": "p7.10-west-corridor-18",
     "heading": "10 West Corridor ............................18",
+    "heading_path": [],
     "pages": [
       7
     ],
@@ -416,6 +751,7 @@
   {
     "unit_id": "p7.11-dark-antechamber-19",
     "heading": "11 Dark Antechamber .....................19",
+    "heading_path": [],
     "pages": [
       7
     ],
@@ -434,6 +770,9 @@
   {
     "unit_id": "p7.12-the-abbot-s-sepulchre-20",
     "heading": "12 The Abbot’s Sepulchre ..............20",
+    "heading_path": [
+      "11 Dark Antechamber .....................19"
+    ],
     "pages": [
       7
     ],
@@ -452,13 +791,16 @@
   {
     "unit_id": "p7.19-the-hall-of-crowning-28",
     "heading": "19 The Hall of Crowning ............... 28",
+    "heading_path": [
+      "11 Dark Antechamber .....................19"
+    ],
     "pages": [
       7
     ],
     "column": 0,
-    "text": "19 The Hall of Crowning ............... 28\nAftermath ...............................30\nMonsters ................................. 32\nAppendix ................................... 37\n3",
+    "text": "19 The Hall of Crowning ............... 28\nAftermath ...............................30 Monsters ................................. 32 Appendix ................................... 37",
     "labels": [],
-    "text_bytes": 182,
+    "text_bytes": 180,
     "keyed_area": "19",
     "style": {
       "size": 14.0,
@@ -470,6 +812,7 @@
   {
     "unit_id": "p8.treasure-monster-overview",
     "heading": "Treasure & Monster Overview",
+    "heading_path": [],
     "pages": [
       8
     ],
@@ -488,14 +831,38 @@
   {
     "unit_id": "p8.where-treasure",
     "heading": "Where Treasure",
+    "heading_path": [
+      "Treasure & Monster Overview"
+    ],
+    "pages": [
+      8
+    ],
+    "column": 0,
+    "text": "Where Treasure\n◆ 257sp\n◆ Pearl necklace (500gp)\nLune\nMountains\nRoom 2 ◆ 53gp, 17gp\n◆ 2 x thawing oil\n◆ Potion of healing\n◆ Potion of levitation\nRoom 3 ◆ Potion of poison\n◆ Potion of gaseous form\n◆ Rare tea leaves (100gp)\n◆ Old recipe scroll (50gp)\nRoom 6 ◆ Painting (100gp)\n◆ Elaborate silver letter\nRoom 7 opener (60gp)\n◆ Book of chess rules\n(30gp)\n◆ Spellbook\n◆ Tourmaline inkwell\nRoom 8 (500gp)\n◆ Genealogical scrolls\n(500gp)",
+    "labels": [],
+    "text_bytes": 460,
+    "keyed_area": null,
+    "style": {
+      "size": 15.0,
+      "family": "SkolarLatin",
+      "bold": true,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p8.monsters",
+    "heading": "Monsters",
+    "heading_path": [
+      "Treasure & Monster Overview"
+    ],
     "pages": [
       8,
       9
     ],
-    "column": 0,
-    "text": "Where Treasure\n◆ 257sp\n◆ Pearl necklace (500gp)\nLune\nMountains\nRoom 2\n◆ 53gp, 17gp\n◆ 2 x thawing oil\n◆ Potion of healing\n◆ Potion of levitation\nRoom 3\n◆ Potion of poison\n◆ Potion of gaseous form\n◆ Rare tea leaves (100gp)\n◆ Old recipe scroll (50gp)\nRoom 6\n◆ Painting (100gp)\n◆ Elaborate silver letter\nRoom 7 opener (60gp)\n◆ Book of chess rules\n(30gp)\n◆ Spellbook\n◆ Tourmaline inkwell\nRoom 8 (500gp)\n◆ Genealogical scrolls\n(500gp)\n4\nMonsters\n◆ 5 Bandits\n◆ 1 Cave Bear\n◆ 1 Treant\n◆ 2d6 Wolfs\n◆ 2d3 Mountain Goat\n◆ 1 Lune Yeti\n◆ 1 Icescale Viper\n◆ 1+ Flayed Zombie\n◆ Silver ring (50gp)\n◆ Pearl earring (100gp)\n◆ Silver brooch with\namethyst (200gp)\n◆ Rare perfume (50gp)\nRoom 9\n◆ Chess horse obsidian\nstatuette (100gp)\n◆ Topaz pendant (200gp)\n◆ Silver and bronze\nnecklace (100gp)\n◆ Golden ring with a ruby\n(1000gp)\n◆ Silver pastoral staff\nRoom 12 (300gp), golden nose\n(600gp)\nRoom 14\n◆ Magic morning star\nRoom 15\n◆ Candelabra (200gp)\n◆ Polished chain mail with\na dozen aquamarines\n(1000gp)\n◆ Platinum signet ring\nRoom 16 with a mother of pearl\nhorse head seal (1000gp)\n◆ Gold and platinum tiara\n(2.000gp)\n◆ Magic dagger; jeweled\nsheath (1000gp)\nRoom 18\nRoom 19\n◆ Chalice (2.000gp)\n◆ 1 Wight\n◆ 7 Skele-\ntons\n◆ 1 Ghost\n◆ 2 Iron Living Statues\n◆ Rowan the Eternal\nKnight\n5",
+    "column": 1,
+    "text": "Monsters\n◆ 5 Bandits\n◆ 1 Cave Bear\n◆ 1 Treant\n◆ 2d6 Wolfs\n◆ 2d3 Mountain Goat\n◆ 1 Lune Yeti\n◆ 1 Icescale Viper\n◆ 1+ Flayed Zombie\n◆\n◆\n◆\n◆\nRoom 9 ◆\n◆\n◆\n◆\n◆\nRoom 12\nRoom 14 ◆\nRoom 15 ◆\n◆\n◆\nRoom 16\n◆\n◆\nRoom 18\nRoom 19 ◆\nSilver ring (50gp)\nPearl earring (100gp)\nSilver brooch with\namethyst (200gp)\nRare perfume (50gp)\nChess horse obsidian\nstatuette (100gp)\nTopaz pendant (200gp)\nSilver and bronze\nnecklace (100gp)\nGolden ring with a ruby\n(1000gp)\nSilver pastoral staff ◆ 1 Wight\n(300gp), golden nose\n(600gp)\nMagic morning star\nCandelabra (200gp) ◆ 7 Skele-\ntons\nPolished chain mail with ◆ 1 Ghost\na dozen aquamarines\n(1000gp)\nPlatinum signet ring\nwith a mother of pearl\nhorse head seal (1000gp)\nGold and platinum tiara\n(2.000gp)\nMagic dagger; jeweled\nsheath (1000gp)\n◆ 2 Iron Living Statues\nChalice (2.000gp) ◆ Rowan the Eternal\nKnight",
     "labels": [],
-    "text_bytes": 1354,
+    "text_bytes": 889,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -507,6 +874,7 @@
   {
     "unit_id": "p10.hooks",
     "heading": "Hooks",
+    "heading_path": [],
     "pages": [
       10
     ],
@@ -525,13 +893,14 @@
   {
     "unit_id": "p10.hooks-2",
     "heading": "Hooks",
+    "heading_path": [],
     "pages": [
       10
     ],
     "column": 0,
-    "text": "Hooks\n◆ The healer’s daughter:  Myrta the healer\ndesperately needs  a vial of St. Brynedd’s Water\nfor her young daughter Syf, who lays on her\n1 deathbed because of the soul plague, a terrible\nmagic disease that is slowly detaching her spirit\nfrom the body.\n◆ Offers:  200gp and 1 healing potion.\n◆ Lortag the snobbish alchemist:  Wants  a vial of\n2 St. Brynedd’s Water  for his experiments.\n◆ Offers:  3.000gp.\n◆ The Earl of Locklear:  Has recently discovered\nhis family descends from the legendary Queen\nEthofled and wants to display the queen’s crown\n3 in his castle. As proven by the documents found\nin room 8, his claim is false, even though he\nbelieves it.\n◆ Offers:  3.000gp for  Queen Ethofled’s Crown.\n◆ The graverobber’s diary:  A page from an old\ndiary mentions an abbot with a  jeweled golden\n4 mask  buried inside the abbey, as well as the\npresence of a garden leading to a treasury where\ntwelve jeweled golden chalices  were kept.\n6",
+    "text": "Hooks\n◆ The healer’s daughter:  Myrta the healer\ndesperately needs  a vial of St. Brynedd’s Water\nfor her young daughter Syf, who lays on her\n1 deathbed because of the soul plague, a terrible\nmagic disease that is slowly detaching her spirit\nfrom the body.\n◆ Offers:  200gp and 1 healing potion.\n◆ Lortag the snobbish alchemist:  Wants  a vial of\n2 St. Brynedd’s Water  for his experiments.\n◆ Offers:  3.000gp.\n◆ The Earl of Locklear:  Has recently discovered\nhis family descends from the legendary Queen\nEthofled and wants to display the queen’s crown\n3 in his castle. As proven by the documents found\nin room 8, his claim is false, even though he\nbelieves it.\n◆ Offers:  3.000gp for  Queen Ethofled’s Crown.\n◆ The graverobber’s diary:  A page from an old\ndiary mentions an abbot with a  jeweled golden\n4 mask  buried inside the abbey, as well as the\npresence of a garden leading to a treasury where\ntwelve jeweled golden chalices  were kept.",
     "labels": [],
-    "text_bytes": 971,
+    "text_bytes": 969,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -543,6 +912,7 @@
   {
     "unit_id": "p11.rumors",
     "heading": "Rumors",
+    "heading_path": [],
     "pages": [
       11
     ],
@@ -561,13 +931,14 @@
   {
     "unit_id": "p11.1d12-rumors",
     "heading": "1d12 Rumors",
+    "heading_path": [],
     "pages": [
       11
     ],
     "column": 0,
-    "text": "1d12 Rumors\n◆ During the Age of Yore, the people used to burn the\n1 dead and put their ashes in urns, along with some\njewels  (\nTrue ).\n2 ◆ The legend holds that the Water of St. Brynedd has a\ndistinctive  azure glow  (\nTrue ).\n3 ◆ The Queens and Kings of Yore were often depicted\nriding a  chess horse  ( True ).\n4 ◆ The Fountain of St. Brynedd is located in a  secret\nenchanted garden  (\nPartially true ).\n◆ A tale tells of the enchanted fountain that collects  St.\n5 Brynedd’s miraculous tears , mentioning only a few\ndrops are available at any time (\nTrue ).\n◆ The Abbey was once protected by four powerful paladins\n6 called the  Heronguard , whose symbols were the chess\npieces of  Rook ,  Bishop ,  King  and  Queen  (\nTrue ).\n7 ◆ The Lune Mountains used to be populated by a clan of\nsentient  living trees  (\nTrue ).\n8 ◆ A decrepit  white dragon  lies in chains in the\nunderground recesses of Falkrest Abbey (\nFalse ).\n9 ◆ The last abbot of the Abbey was  corrupted by chaos ,\nand caused its ruin (\nTrue ).\n10 ◆ From time to time, bands of  graverobbers  explore the\nAbbey’s ruins looking for lost treasure (\nTrue ).\n11 ◆ The abbey is haunted by  ghosts , and the winter gale\ncarries their lament (\nPartially true ).\n12 ◆ During the strongest storms on the Lune Mountains, a\nwind demon  can be heard screaming (\nFalse ).\n7",
+    "text": "1d12 Rumors\n◆ During the Age of Yore, the people used to burn the\n1 dead and put their ashes in urns, along with some\njewels  ( True ).\n2 ◆ The legend holds that the Water of St. Brynedd has a\ndistinctive  azure glow  ( True ).\n3 ◆ The Queens and Kings of Yore were often depicted\nriding a  chess horse  ( True ).\n4 ◆ The Fountain of St. Brynedd is located in a  secret\nenchanted garden  ( Partially true ).\n◆ A tale tells of the enchanted fountain that collects  St.\n5 Brynedd’s miraculous tears , mentioning only a few\ndrops are available at any time ( True ).\n◆ The Abbey was once protected by four powerful paladins\n6 called the  Heronguard , whose symbols were the chess\npieces of  Rook ,  Bishop ,  King  and  Queen  ( True ).\n7 ◆ The Lune Mountains used to be populated by a clan of\nsentient  living trees  ( True ).\n8 ◆ A decrepit  white dragon  lies in chains in the\nunderground recesses of Falkrest Abbey ( False ).\n9 ◆ The last abbot of the Abbey was  corrupted by chaos ,\nand caused its ruin ( True ).\n10 ◆ From time to time, bands of  graverobbers  explore the\nAbbey’s ruins looking for lost treasure ( True ).\n11 ◆ The abbey is haunted by  ghosts , and the winter gale\ncarries their lament ( Partially true ).\n12 ◆ During the strongest storms on the Lune Mountains, a\nwind demon  can be heard screaming ( False ).",
     "labels": [],
-    "text_bytes": 1357,
+    "text_bytes": 1355,
     "keyed_area": "1",
     "style": {
       "size": 15.0,
@@ -579,6 +950,7 @@
   {
     "unit_id": "p12.jora-s-last-inn-emporium",
     "heading": "Jora’s Last Inn & Emporium",
+    "heading_path": [],
     "pages": [
       12
     ],
@@ -597,6 +969,7 @@
   {
     "unit_id": "p12.speaking-with-jora",
     "heading": "Speaking with Jora:",
+    "heading_path": [],
     "pages": [
       12
     ],
@@ -615,13 +988,14 @@
   {
     "unit_id": "p12.emporium",
     "heading": "Emporium:",
+    "heading_path": [],
     "pages": [
       12
     ],
     "column": 0,
-    "text": "Emporium:\n◈ Adventuring Gear: Items from the list of Adventuring Gear in Old-\nSchool Essentials are available except garlic, “I can’t suffer the stench.\nAnd I’ve never seen a vampire, have you? I don’t think those exist after all.”\n◈ Weapons and Armor: Desired item from the list of Weapons and\nArmour in Old-School Essentials has 1-in-6 chance of being available.\n◈ Special Items available:\n◆ Ancient  pilgrim's  diary  (30gp,  1  available):  A  mostly  boring\nrecount with details about sore feet, poor meals, and repentance.\n1 day to read, contains 3 random rumors. Roll 3d8 on the rumor\ntable (not 3d12).\n◆ Winter  clothes  (30gp,  6  available):  Boots,  gloves,  and  cloak.\nMade of heavy wool and fur. Protects from mundane cold.\n◆ Yeti oil (2gp, 11 available): Greasy, lumpy, dark grey. Smeared\non the skin, protects from mundane cold. Stench of rancid lard\ncan be perceived from 30’. Effects last 4 days or until vigorously\nwashed away. Jora’s secret recipe (not really made of Yeti).\n8",
+    "text": "Emporium:\n◈ Adventuring Gear: Items from the list of Adventuring Gear in Old-\nSchool Essentials are available except garlic, “I can’t suffer the stench.\nAnd I’ve never seen a vampire, have you? I don’t think those exist after all.”\n◈ Weapons and Armor: Desired item from the list of Weapons and\nArmour in Old-School Essentials has 1-in-6 chance of being available.\n◈ Special Items available:\n◆ Ancient  pilgrim's  diary  (30gp,  1  available):  A  mostly  boring\nrecount with details about sore feet, poor meals, and repentance.\n1 day to read, contains 3 random rumors. Roll 3d8 on the rumor\ntable (not 3d12).\n◆ Winter  clothes  (30gp,  6  available):  Boots,  gloves,  and  cloak.\nMade of heavy wool and fur. Protects from mundane cold.\n◆ Yeti oil (2gp, 11 available): Greasy, lumpy, dark grey. Smeared\non the skin, protects from mundane cold. Stench of rancid lard\ncan be perceived from 30’. Effects last 4 days or until vigorously\nwashed away. Jora’s secret recipe (not really made of Yeti).",
     "labels": [],
-    "text_bytes": 1022,
+    "text_bytes": 1020,
     "keyed_area": null,
     "style": {
       "size": 21.0,
@@ -633,6 +1007,7 @@
   {
     "unit_id": "p13.climbing-the-lune-mountains",
     "heading": "Climbing The Lune Mountains",
+    "heading_path": [],
     "pages": [
       13
     ],
@@ -651,13 +1026,14 @@
   {
     "unit_id": "p13.1d6-random-happenings-on-the-lun",
     "heading": "1d6 Random Happenings on the Lune Mountains",
+    "heading_path": [],
     "pages": [
       13
     ],
     "column": 0,
-    "text": "1d6 Random Happenings on the Lune Mountains\n◆ 5 Bandits.  Old Beorly and his four treacherous children\nBella, Joik, Torod, and Smeel (hand axes, short bows,\n1 winter clothes). Just out hunting, may attack if the\ncharacters look weak. Their hideout is nearby: a cave\nwith fire wood, blankets, a coffer with 257sp, pearl\nnecklace (500gp), flask of wine, dried meat for 20 meals.\n2 ◆ 1 Cave Bear.  Looking for food. -1 to reaction if characters\nsmeared with yeti oil are within 60’ (keen sense of smell).\n◆ 1 Treant.  Ompholobulous Danglebeard. Random\nreaction. Basically wants travellers not to disturb\n3 the trees, and hates fires. Remembers the days when\nmonks lived in the abbey, kept the trail clear, and were\nfrequently visited by knights, kings, and queens.\n◆ 2d6 Wolves . White fur; hungry. -1 to reaction if\n4 characters smeared with yeti oil are within 60’ (keen\nsense of smell). Afraid of fire; will flee if one is wounded.\n5 ◆ 2d3 Mountain Goats  (2 HD Small Herd Animals).\nStubborn, territorial, tasty. Fight only if disturbed.\n◆ Blizzard:  Furious, freezing wind, raging snow. Lasts 1d6\nhours. Visibility drops to 20’. Movement rates (further)\n6 halved. Characters who are not protected from the cold\nmust save vs paralysis or suffer 1 hp from the cold. 1-in-\n20 chance per hour of encountering a raging Lune Yeti.\nCuriously, it will ignore characters smeared with yeti oil.\n9",
+    "text": "1d6 Random Happenings on the Lune Mountains\n◆ 5 Bandits.  Old Beorly and his four treacherous children\nBella, Joik, Torod, and Smeel (hand axes, short bows,\n1 winter clothes). Just out hunting, may attack if the\ncharacters look weak. Their hideout is nearby: a cave\nwith fire wood, blankets, a coffer with 257sp, pearl\nnecklace (500gp), flask of wine, dried meat for 20 meals.\n2 ◆ 1 Cave Bear.  Looking for food. -1 to reaction if characters\nsmeared with yeti oil are within 60’ (keen sense of smell).\n◆ 1 Treant.  Ompholobulous Danglebeard. Random\nreaction. Basically wants travellers not to disturb\n3 the trees, and hates fires. Remembers the days when\nmonks lived in the abbey, kept the trail clear, and were\nfrequently visited by knights, kings, and queens.\n◆ 2d6 Wolves . White fur; hungry. -1 to reaction if\n4 characters smeared with yeti oil are within 60’ (keen\nsense of smell). Afraid of fire; will flee if one is wounded.\n5 ◆ 2d3 Mountain Goats  (2 HD Small Herd Animals).\nStubborn, territorial, tasty. Fight only if disturbed.\n◆ Blizzard:  Furious, freezing wind, raging snow. Lasts 1d6\nhours. Visibility drops to 20’. Movement rates (further)\n6 halved. Characters who are not protected from the cold\nmust save vs paralysis or suffer 1 hp from the cold. 1-in-\n20 chance per hour of encountering a raging Lune Yeti.\nCuriously, it will ignore characters smeared with yeti oil.",
     "labels": [],
-    "text_bytes": 1405,
+    "text_bytes": 1403,
     "keyed_area": "1",
     "style": {
       "size": 15.0,
@@ -669,6 +1045,7 @@
   {
     "unit_id": "p14.the-falkrest-abbey",
     "heading": "The Falkrest Abbey",
+    "heading_path": [],
     "pages": [
       14
     ],
@@ -687,15 +1064,16 @@
   {
     "unit_id": "p14.1d6-random-happenings-in-the-abb",
     "heading": "1d6 Random Happenings in the Abbey",
+    "heading_path": [],
     "pages": [
       14,
       15,
       16
     ],
     "column": 0,
-    "text": "1d6 Random Happenings in the Abbey\n1 ◆ 2d6 Giant Rats  ponder the group as possible food\n(random reaction).\n2 ◆ 1 Icescale Viper  comes crawling and hissing (random\nreaction). See  Monsters .\n3 ◆ 1d4  Flayed Zombies  attack. Ignore this result if circle in\nroom 6 is broken. See  Monsters .\n4 ◆ Prolonged moaning echoing in the halls.\n5 ◆ Clerical chanting resonates through the air.\n6 ◆ A ghostly light reverberates just behind the corner.\n10\nArea numbers\nMonsters\nSecret doors\nPortal\nStatue\nP\nS\nGhost\n16\n14 13\n10\nWight 11\n12\n9\nBandits\nN\nRowayn\n19 1 square = 10’\n18 Living Statues\nS\n17\nS P\nP\nP\n6\nSkele-  8 7\ntons Flayed Zombie\n15\n5\nFlayed Zombie\nIcescale Viper 4\n2\n3\n1\nEntrance\n11\nArea numbers",
+    "text": "1d6 Random Happenings in the Abbey\n1 ◆ 2d6 Giant Rats  ponder the group as possible food\n(random reaction).\n2 ◆ 1 Icescale Viper  comes crawling and hissing (random\nreaction). See  Monsters .\n3 ◆ 1d4  Flayed Zombies  attack. Ignore this result if circle in\nroom 6 is broken. See  Monsters .\n4 ◆ Prolonged moaning echoing in the halls.\n5 ◆ Clerical chanting resonates through the air.\n6 ◆ A ghostly light reverberates just behind the corner.\nArea numbers Monsters Secret doors Portal\nStatue\nP S\nGhost\n16\n14 13\n10\nWight 11\n12\n9\nBandits\nN\nRowayn\n19 1 square = 10’\n18 Living Statues\nS\n17\nS P P\nP\n6\nSkele-  8 7 tons Flayed Zombie\n15\n5\nFlayed Zombie Icescale Viper 4\n2\n3\n1\nEntrance\nArea numbers\nMonsters Room Descriptions N\nSecret doors Rowayn\n19 1 square = 10’",
     "labels": [],
-    "text_bytes": 708,
+    "text_bytes": 771,
     "keyed_area": "1",
     "style": {
       "size": 15.0,
@@ -705,51 +1083,16 @@
     }
   },
   {
-    "unit_id": "p16.monsters-room-descriptions-n",
-    "heading": "Monsters Room Descriptions N",
-    "pages": [
-      16
-    ],
-    "column": 0,
-    "text": "Monsters Room Descriptions N",
-    "labels": [],
-    "text_bytes": 28,
-    "keyed_area": null,
-    "style": {
-      "size": 35.0,
-      "family": "GothicusRoman",
-      "bold": false,
-      "color": "#ffffff"
-    }
-  },
-  {
-    "unit_id": "p16.secret-doors-rowayn",
-    "heading": "Secret doors Rowayn",
-    "pages": [
-      16
-    ],
-    "column": 0,
-    "text": "Secret doors Rowayn\n19 1 square = 10’",
-    "labels": [],
-    "text_bytes": 39,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#ffffff"
-    }
-  },
-  {
     "unit_id": "p16.portal-1-entrance",
     "heading": "Portal 1 Entrance",
+    "heading_path": [],
     "pages": [
       16
     ],
     "column": 0,
-    "text": "Portal 1 Entrance\nStatue Archway, wooden double door,\ndisplaying a chess piece (a\nfallen long ago. 18 Rook, a Bishop, a Queen and a  Living Statues\nFootprints (mud and snow,\nKing).\nhumans). Frescoes on east and  S\nwest walls, under a thin layer of  ▷ Frescoes, east wall: A\nice. Lowered portcullis allows\ncrowned woman riding a\nto see the cloister. white chess horse, and a\n17 crowned man riding a black\n▷ Footprints: human-sized. A\nchess horse.\nsmall group. Go through the  S P\nportcullis into the cloister  P ▷ Lifting the portcullis:\n(room 2), and turn west. Requires a combined STR 22\nto lift. Unless propped open,\n▷ Frescoes, west wall: Four  P\nfalls back down with a loud  P\npaladins in splendid vests,  S noise, alerting the Bandits in  6\nkneeling. Each has a shield  Skele-  room 9. 7",
+    "text": "Portal 1 Entrance\nStatue Archway, wooden double door, displaying a chess piece (a\nfallen long ago. 18 Rook, a Bishop, a Queen and a  Living Statues\nFootprints (mud and snow, King).\nhumans). Frescoes on east and  S\nwest walls, under a thin layer of  ▷ Frescoes, east wall: A\nice. Lowered portcullis allows crowned woman riding a\nto see the cloister. white chess horse, and a\n17 crowned man riding a black\n▷ Footprints: human-sized. A chess horse.\nsmall group. Go through the  S P\nportcullis into the cloister  P ▷ Lifting the portcullis:\n(room 2), and turn west. Requires a combined STR 22\nto lift. Unless propped open,\n▷ Frescoes, west wall: Four  P falls back down with a loud  P\npaladins in splendid vests,  S noise, alerting the Bandits in  6\nkneeling. Each has a shield  Skele-  room 9. 7\nGhost tons 8 Flayed Zombie\n16 15\n5\n14 13\nFlayed Zombie\n10\nWight Icescale Viper 4\n11\n12 2\n9\n3\nBandits\n1\nEntrance",
     "labels": [],
-    "text_bytes": 800,
+    "text_bytes": 912,
     "keyed_area": null,
     "style": {
       "size": 26.0,
@@ -759,51 +1102,16 @@
     }
   },
   {
-    "unit_id": "p16.ghost-tons-8",
-    "heading": "Ghost tons 8",
-    "pages": [
-      16
-    ],
-    "column": 0,
-    "text": "Ghost tons 8\nFlayed Zombie\n16 15\n5\n14 13\nFlayed Zombie\n10",
-    "labels": [],
-    "text_bytes": 57,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#ffffff"
-    }
-  },
-  {
-    "unit_id": "p16.wight-icescale-viper-4",
-    "heading": "Wight Icescale Viper 4",
-    "pages": [
-      16
-    ],
-    "column": 0,
-    "text": "Wight Icescale Viper 4\n11\n12 2\n9\n3\nBandits\n1\nEntrance\n12",
-    "labels": [],
-    "text_bytes": 56,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#ffffff"
-    }
-  },
-  {
     "unit_id": "p17.2-the-frozen-cloister",
     "heading": "2 The Frozen Cloister",
+    "heading_path": [],
     "pages": [
       17
     ],
     "column": 0,
-    "text": "2 The Frozen Cloister\nOpen-ceiling cloister. Columns.\nSnow, frozen grass, ruins\nfrom collapsed upper floors.\nFootsteps along south wall.\nMoss-covered circular fountain\nwith central statue, still pouring\nwater. A corpse lies facedown a\nfew steps south of the fountain.\n▷ Footsteps: From portcullis, to\nroom 9.\n▷ Door to room 9: ajar.\n▷ Central archway (north\nside): Half-collapsed stairway\nto collapsed upper floor.\n▷ Listening: the 3 Bandits can\nbe heard breaking urns in\nroom 9.\n▷ Listening near door to\nroom 4: moans interrupted\nby syncopated guzzling (a\nFlayed Zombie is devouring\na giant rat).\nThe Fountain\n▷ The fountain statue: Black\nstone king and white stone\nqueen, pouring ice-cold water\nfrom a bronze amphora they\nhold together.\n▷ The fountain basin: round,\n15’ wide. Bronze key (to\nroom 11) and 53gp glisten at\nthe bottom of the fountain. A\nweird circling movement in\nthe half-frozen liquid, like a\nghostly eel.\n▷ Disturbing the water: The\nIcescale Viper (see Monsters)\njumps out to attack.\n▷ The corpse: A dwarf, but his\nbody is turned to solid ice\n(victim of the icescale viper).\nHis equipment (see Grapnor\nin the Monsters section) is not\nturned to ice, but is stuck with\nthe frozen body. Breaking the\nfrozen body allows to loot his\nequipment.\n▷ Thawing the corpse:\nThe thawing oil in room 3\nreturns Grapnor to life (see\nMonsters).\n13",
+    "text": "2 The Frozen Cloister\nOpen-ceiling cloister. Columns.\nSnow, frozen grass, ruins\nfrom collapsed upper floors.\nFootsteps along south wall.\nMoss-covered circular fountain\nwith central statue, still pouring\nwater. A corpse lies facedown a\nfew steps south of the fountain.\n▷ Footsteps: From portcullis, to\nroom 9.\n▷ Door to room 9: ajar.\n▷ Central archway (north\nside): Half-collapsed stairway\nto collapsed upper floor.\n▷ Listening: the 3 Bandits can\nbe heard breaking urns in\nroom 9.\n▷ Listening near door to\nroom 4: moans interrupted\nby syncopated guzzling (a\nFlayed Zombie is devouring\na giant rat).\nThe Fountain\n▷ The fountain statue: Black\nstone king and white stone\nqueen, pouring ice-cold water\nfrom a bronze amphora they\nhold together.\n▷ The fountain basin: round,\n15’ wide. Bronze key (to\nroom 11) and 53gp glisten at\nthe bottom of the fountain. A\nweird circling movement in\nthe half-frozen liquid, like a\nghostly eel.\n▷ Disturbing the water: The\nIcescale Viper (see Monsters)\njumps out to attack.\n▷ The corpse: A dwarf, but his\nbody is turned to solid ice\n(victim of the icescale viper).\nHis equipment (see Grapnor\nin the Monsters section) is not\nturned to ice, but is stuck with\nthe frozen body. Breaking the\nfrozen body allows to loot his\nequipment.\n▷ Thawing the corpse:\nThe thawing oil in room 3\nreturns Grapnor to life (see\nMonsters).",
     "labels": [],
-    "text_bytes": 1369,
+    "text_bytes": 1366,
     "keyed_area": "2",
     "style": {
       "size": 26.0,
@@ -815,14 +1123,15 @@
   {
     "unit_id": "p18.3-herbalist-s-dispensary",
     "heading": "3 Herbalist’s Dispensary",
+    "heading_path": [],
     "pages": [
       18,
       19
     ],
     "column": 0,
-    "text": "3 Herbalist’s Dispensary\nDusty shelves with a  ▷ Searching the shelves: 1 turn\npandemonium of mostly broken  searching: roll 1d10; each item\npots and jars. can only be found once. If the\nsame result is rolled again,\nnothing is found for that turn.\n1d10 Searching the shelves\n◆ Yellow, oily liquid labeled “Thawing oil”. Stops/reverts\n1 freezing from Icescale viper, or nullifies penalties from\ncold for 24h.\n2 ◆ As number 1 above.\n3 ◆ Frozen blue liquid labeled “Wound balm”. Potion of\nHealing.\n4 ◆ Frozen green liquid labeled “Hovering Draft”. Potion of\nLevitation.\n◆ Frozen black liquid labeled “Black Potion”, a rough\n5 skull sketched on label. Unfortunately, a mispel for\n“Poison”. Save vs death or drop dead in 1d4 rounds with\na bulging, black tongue.\n6 ◆ Frozen grey liquid labeled “Vaporous Transmutation”.\nPotion of Gaseous Form.\n7 ◆ Tin pot labeled “Brown decoction”. Simple tea leaves.\n8 ◆ Brass pot labeled “Blue decoction”. Rare tea leaves\n(100gp).\n9 ◆ Unlabelled brass pot, contains 4lbs of salt.\n◆ Old scroll with recipe to create “yeti lotion” using wolf\n10 hair, tallow, and chili peppers. Might be worth 100gp to\nalchemists.\n14\nS P\nP\nP\nS\nGhost Skele-  8 7\ntons\n16 15\n14 13\n10\nWight Icescale Viper\n11\n12 2\n9\nBandits\n1\nEntrance",
+    "text": "3 Herbalist’s Dispensary\nDusty shelves with a  ▷ Searching the shelves: 1 turn\npandemonium of mostly broken  searching: roll 1d10; each item\npots and jars. can only be found once. If the\nsame result is rolled again,\nnothing is found for that turn.\n1d10 Searching the shelves\n◆ Yellow, oily liquid labeled “Thawing oil”. Stops/reverts\n1 freezing from Icescale viper, or nullifies penalties from\ncold for 24h.\n2 ◆ As number 1 above.\n3 ◆ Frozen blue liquid labeled “Wound balm”. Potion of\nHealing.\n4 ◆ Frozen green liquid labeled “Hovering Draft”. Potion of\nLevitation.\n◆ Frozen black liquid labeled “Black Potion”, a rough\n5 skull sketched on label. Unfortunately, a mispel for\n“Poison”. Save vs death or drop dead in 1d4 rounds with\na bulging, black tongue.\n6 ◆ Frozen grey liquid labeled “Vaporous Transmutation”.\nPotion of Gaseous Form.\n7 ◆ Tin pot labeled “Brown decoction”. Simple tea leaves.\n8 ◆ Brass pot labeled “Blue decoction”. Rare tea leaves\n(100gp).\n9 ◆ Unlabelled brass pot, contains 4lbs of salt.\n◆ Old scroll with recipe to create “yeti lotion” using wolf\n10 hair, tallow, and chili peppers. Might be worth 100gp to\nalchemists.\nS P P\nP S\nGhost Skele-  8 7 tons\n16 15\n14 13\n10\nWight Icescale Viper\n11\n12 2\n9\nBandits\n1\nEntrance",
     "labels": [],
-    "text_bytes": 1302,
+    "text_bytes": 1299,
     "keyed_area": "3",
     "style": {
       "size": 26.0,
@@ -834,6 +1143,7 @@
   {
     "unit_id": "p19.4-workshop",
     "heading": "4 Workshop",
+    "heading_path": [],
     "pages": [
       19
     ],
@@ -852,14 +1162,15 @@
   {
     "unit_id": "p19.5-east-corridor",
     "heading": "5 East corridor",
+    "heading_path": [],
     "pages": [
       19,
       20
     ],
     "column": 0,
-    "text": "5 East corridor\nDark with tendrils of shadows\ncreeping on the walls. Stench of\nfresh blood.\nP\n6\nFlayed Zombie\n5\nFlayed Zombie\n4\n3\nwooden planks. All in poor\nconditions: 1-in-6 chance of\nbreaking when used.\n▷ Door on east wall: stuck,\nopens on collapsed ruins\noutside.\n▷ Listening: moaning, swashing\n(from room 6).\n15\nIcescale Viper",
+    "text": "5 East corridor\nDark with tendrils of shadows\ncreeping on the walls. Stench of\nfresh blood.\nP\nFlayed Zombie\n5\nFlayed Zombie\n4\n3\nwooden planks. All in poor\nconditions: 1-in-6 chance of\nbreaking when used.\n▷ Door on east wall: stuck,\nopens on collapsed ruins\noutside.\n▷ Listening: moaning, swashing\n(from room 6).\nIcescale Viper",
     "labels": [],
-    "text_bytes": 335,
+    "text_bytes": 330,
     "keyed_area": "5",
     "style": {
       "size": 26.0,
@@ -871,14 +1182,15 @@
   {
     "unit_id": "p20.6-ritual-chamber",
     "heading": "6 Ritual Chamber",
+    "heading_path": [],
     "pages": [
       20,
       21
     ],
     "column": 0,
-    "text": "6 Ritual Chamber\nTorture wheel, torture table.\nSmell of blood. Shadows\nwrithe on walls. Pit full of dark\nliquid, encircled with skulls.\nArchway on north wall opens\nArea numbers\ninto a ceiling-less area (room 17).\nPainting hung on west wall.\nMonsters\n▷ Flayed Zombies: Every turn,  Rowayn\nSecret doors\nif someone is in the chamber,\n2-in-6 chance of 1d4 Flayed  19\nPortal\nZombies emerging from the\npit, unless the skull circle is\nStatue\nbroken.\n18\n▷ Archway in north wall:\nDecorated with bones nailed  S\non the wall. A beautiful, sunlit\ngarden appears beyond the\narchway. A glistening purple\nmist, evaporating from the pit,  17\nveils the passage. This is a magic\nportal. Passing through leaves a  S\ntaste of blood in your mouth. P\nP\nS\nGhost Skele-  8\ntons\n16 15\n14 13\n10\nWight\n11\n12\n9\n16 Bandits\n1\n▷ Pit: circular, filled with clotted,\nhalf-frozen blood. 7 skulls\ncemented on the floor around\nthe pit.\n▷ Breaking the skull circle: the\nbones around the archway  N\npulverize, the purple veil\ndisappears, the passage\nbecomes a solid wall (the\nmagic portal is closed). Flayed  1 square = 10’\nZombies no longer emerge\nfrom the pit.\nLiving Statues  ▷ Painting: Head-and-shoulder\nportrait of a sickly pale\nman with purple holy garbs\nand a golden nose . Bronze\nnameplate reads “Abbot\nGrusom” (see room 12). Might\nbe worth 100gp.\nP\nP\n6\n7\nFlayed Zombie\n5\nFlayed Zombie\n4\n2\n3\nFour guards, all the ways?\nThis isn’t chess, damn monks",
+    "text": "6 Ritual Chamber\nTorture wheel, torture table.\nSmell of blood. Shadows\nwrithe on walls. Pit full of dark\nliquid, encircled with skulls.\nArchway on north wall opens\nArea numbers into a ceiling-less area (room 17).\nPainting hung on west wall.\nMonsters\n▷ Flayed Zombies: Every turn,  Rowayn\nSecret doors if someone is in the chamber,\n2-in-6 chance of 1d4 Flayed  19\nPortal Zombies emerging from the\npit, unless the skull circle is\nStatue broken.\n18\n▷ Archway in north wall:\nDecorated with bones nailed  S\non the wall. A beautiful, sunlit\ngarden appears beyond the\narchway. A glistening purple\nmist, evaporating from the pit,  17\nveils the passage. This is a magic\nportal. Passing through leaves a  S\ntaste of blood in your mouth. P\nP S\nGhost Skele-  8 tons\n16 15\n14 13\n10\nWight\n11\n12\n16 Bandits\n▷ Pit: circular, filled with clotted,\nhalf-frozen blood. 7 skulls\ncemented on the floor around\nthe pit.\n▷ Breaking the skull circle: the\nbones around the archway  N\npulverize, the purple veil\ndisappears, the passage\nbecomes a solid wall (the\nmagic portal is closed). Flayed  1 square = 10’\nZombies no longer emerge\nfrom the pit.\nLiving Statues  ▷ Painting: Head-and-shoulder\nportrait of a sickly pale\nman with purple holy garbs\nand a golden nose . Bronze\nnameplate reads “Abbot\nGrusom” (see room 12). Might\nbe worth 100gp.\nP\nP\n6\n7\nFlayed Zombie\n5\nFlayed Zombie\n4\n2\nThis isn’t chess, damn monks\n▷ Leather tube: molded,",
     "labels": [],
-    "text_bytes": 1436,
+    "text_bytes": 1429,
     "keyed_area": "6",
     "style": {
       "size": 26.0,
@@ -890,13 +1202,14 @@
   {
     "unit_id": "p21.7-the-library",
     "heading": "7 The Library",
+    "heading_path": [],
     "pages": [
       21
     ],
     "column": 0,
-    "text": "7 The Library\nBroken shelves, dusty tomes\nruined by mold. Large desk with\nchair.\n▷ On the desk: Dried ink pots,\nquills.\n▶ Elaborate silver letter\nopener (60gp, counts as\ndagger)\nRKQB\nBRKQ\nQB\nK    ?",
+    "text": "7 The Library\nBroken shelves, dusty tomes\nruined by mold. Large desk with\nchair.\n▷ On the desk: Dried ink pots,\nquills.\n▶ Elaborate silver letter\nopener (60gp, counts as\ndagger)\nFour guards, all the ways?\nRKQB BRKQ QB K    ?",
     "labels": [],
-    "text_bytes": 201,
+    "text_bytes": 228,
     "keyed_area": "7",
     "style": {
       "size": 26.0,
@@ -908,13 +1221,14 @@
   {
     "unit_id": "p21.8-library-office",
     "heading": "8 Library Office",
+    "heading_path": [],
     "pages": [
       21
     ],
     "column": 0,
-    "text": "8 Library Office\nMetal closet encased in the west\nwall. Leather tube on a shelf.\n▷ Metal closet: Locked (key\nin room 12). Prying open\nrequires a combined STR 28\n(max 2 people) and a crowbar\nor similar tool.\n▶ Contains: spellbook\n(“Grusom’s Grimoire”, blue\ntinged leather: Read Magic,\nLight, Knock); purple\n▶ Book:  “ Royal Openings, as\nrevealed by Her Majesty\nNomrah Thebazile ”,  a basic\nchess guide. Open on the\npage showing the L-shaped\nKnight movement (30gp).\n▶ A parchment with a\nscribbled note:\ntourmaline inkwell, shaped\nlike an octopus (500gp).\n▷ Leather tube: molded,\nworthless. Contains scrolls\nwith genealogical trees of the\nKings and Queens of Yore,\nworth 500gp to historians.\nThese documents prove the\nEarl’s claim is false (see Hook\nno. 3 and Aftermath at the\nend of the adventure).\n17",
+    "text": "8 Library Office\nMetal closet encased in the west\nwall. Leather tube on a shelf.\n▷ Metal closet: Locked (key\nin room 12). Prying open\nrequires a combined STR 28\n(max 2 people) and a crowbar\nor similar tool.\n▶ Contains: spellbook\n(“Grusom’s Grimoire”, blue\ntinged leather: Read Magic,\nLight, Knock); purple\n▶ Book:  “ Royal Openings, as\nrevealed by Her Majesty\nNomrah Thebazile ”,  a basic\nchess guide. Open on the\npage showing the L-shaped\nKnight movement (30gp).\n▶ A parchment with a\nscribbled note:\ntourmaline inkwell, shaped\nlike an octopus (500gp).\nworthless. Contains scrolls\nwith genealogical trees of the\nKings and Queens of Yore,\nworth 500gp to historians.\nThese documents prove the\nEarl’s claim is false (see Hook\nno. 3 and Aftermath at the\nend of the adventure).",
     "labels": [],
-    "text_bytes": 821,
+    "text_bytes": 792,
     "keyed_area": "8",
     "style": {
       "size": 26.0,
@@ -926,6 +1240,7 @@
   {
     "unit_id": "p22.9-columbarium-of-the-knights",
     "heading": "9 Columbarium of the Knights",
+    "heading_path": [],
     "pages": [
       22
     ],
@@ -944,14 +1259,15 @@
   {
     "unit_id": "p22.10-west-corridor",
     "heading": "10 West Corridor",
+    "heading_path": [],
     "pages": [
       22,
       23
     ],
     "column": 0,
-    "text": "10 West Corridor\n▷ Door to 11: Reinforced wooden\ndoor, “DAMNED” roughly\ncarved on it. Closed and locked\n(key in fountain in room 2). A\nshadow looms on it, darkness\nleaks from underneath it like\na slime.\n18\n▷ Pillaging the remaining\n6 tombstones: 1 turn to\nopen a tombstone and urn.\nOpening an urn curses the\ncharacter, who hears muttered\nimprecations from beyond,\nwhich become louder and\nlouder after each broken urn,\ncausing a cumulative -1 to all\nsaves while inside the abbey.\n▷ They contain:\n▶ Silver brooch with amethyst\n(200gp)\n▶ Small vial with frozen rare\nperfume (50gp)\n▶ Chess knight obsidian\nstatuette (100gp)\n▶ Topaz pendant (200gp)\n▶ silver and bronze chain\nnecklace (100gp)\n▶ Golden ring with a ruby\n(1000gp)\n▷ Doors to 13 and 15: Reinforced\nwooden door, closed.\nArea numbers",
+    "text": "10 West Corridor\n▷ Door to 11: Reinforced wooden\ndoor, “DAMNED” roughly\ncarved on it. Closed and locked\n(key in fountain in room 2). A\nshadow looms on it, darkness\nleaks from underneath it like\na slime.\n▷ Pillaging the remaining\n6 tombstones: 1 turn to\nopen a tombstone and urn.\nOpening an urn curses the\ncharacter, who hears muttered\nimprecations from beyond,\nwhich become louder and\nlouder after each broken urn,\ncausing a cumulative -1 to all\nsaves while inside the abbey.\n▷ They contain:\n▶ Silver brooch with amethyst\n(200gp)\n▶ Small vial with frozen rare\nperfume (50gp)\n▶ Chess knight obsidian\nstatuette (100gp)\n▶ Topaz pendant (200gp)\n▶ silver and bronze chain\nnecklace (100gp)\n▶ Golden ring with a ruby\n(1000gp)\n▷ Doors to 13 and 15: Reinforced\nwooden door, closed.\nArea numbers",
     "labels": [],
-    "text_bytes": 812,
+    "text_bytes": 809,
     "keyed_area": "10",
     "style": {
       "size": 26.0,
@@ -963,13 +1279,14 @@
   {
     "unit_id": "p23.11-dark-antechamber",
     "heading": "11 Dark Antechamber",
+    "heading_path": [],
     "pages": [
       23
     ],
     "column": 0,
-    "text": "11 Dark Antechamber\nMonsters\n▷ Upon entering: Torches,  Secret doors\ncandles, etc must save vs spell\nor be extinguished by a gust of  Portal\nicy wind. Smell of cloves.\nStatue\n▷ Rusty iron gate: open, to\nroom 12.\n▷ Looking beyond the gate:\nNon-magic sources of light fail\nto illuminate what’s beyond\nthe gate except the vague\npresence of floor and walls and\na glinting (from the abbot’s\nnose, see room 12).\nP\nS\nGhost\n16\n14 13\n10\nWight 11\n12\n9\nBandits\nRowayn\n19 1 square = 10’\n18 Living Statues\nS\n17\nS P\nP\nP\n6\nSkele-  8 7\ntons Flayed Zombie\n15\n5\nFlayed Zombie\nIcescale Viper 4\n2\n3\n1\nEntrance\n19",
+    "text": "11 Dark Antechamber\nMonsters\n▷ Upon entering: Torches,  Secret doors\ncandles, etc must save vs spell\nor be extinguished by a gust of  Portal\nicy wind. Smell of cloves.\nStatue\n▷ Rusty iron gate: open, to\nroom 12.\n▷ Looking beyond the gate:\nNon-magic sources of light fail\nto illuminate what’s beyond\nthe gate except the vague\npresence of floor and walls and\na glinting (from the abbot’s\nnose, see room 12).\nP S\nGhost\n16\n14 13\n10\nWight 11\n12\n9\nBandits\nRowayn\n19 1 square = 10’\n18 Living Statues\nS\n17\nS P P\nP\n6\nSkele-  8 7 tons Flayed Zombie\n15\n5\nFlayed Zombie Icescale Viper 4\n2\n3\n1\nEntrance",
     "labels": [],
-    "text_bytes": 604,
+    "text_bytes": 601,
     "keyed_area": "11",
     "style": {
       "size": 26.0,
@@ -981,14 +1298,15 @@
   {
     "unit_id": "p24.12-the-abbot-s-sepulchre",
     "heading": "12 The Abbot’s Sepulchre",
+    "heading_path": [],
     "pages": [
       24,
       25
     ],
     "column": -1,
-    "text": "12 The Abbot’s Sepulchre\n▷ Unnatural darkness: Dims\nall non-holy sources of light. -1\nto attack rolls.\nDried corpse of a lean man\nsitting on a stone throne\nin purple pristly garbs, his\nglassy eyes are open. Has an\nelaborately decorated golden\nnose prosthetic; decorated\nsilver pastoral staff on his\nlegs. A small brass key on a\nstring glitters on his chest.\nSmells of cloves.\n▷ The corpse: Grusom, the\ncursed Abbot, is a Wight in a\nsort of trance. Dried-up skin,\nshrunken lips showing broken\nteeth and a callous smile.\n▷ Watcher: The corpse’s eyes\nalways make eye-contact when\nyou look at them, even though\nyou never see them move. They\nnever blink.\n▷ Trying to assassinate the\nAbbot: A wight is no living\nbeing. Cutting his throat,\nbeheading him, and the like,\nhits automatically but only\ndeals standard damage (also\nnote wights can only be\nharmed by silver weapons\nor magic), and immediately\nawakens him.\n20\n▷ Robbing the corpse: Thieves\nmay use their pick pockets\nskill to pilfer the silver\npastoral staff (300gp, counts\nas staff), small brass key\n(opens closet in room 8) or\ngolden nose (600gp) without\nwaking the wight. Other\nstratagems may have a 1-in-10\nchance of working without\nwaking the wight.\nGrusom, The Wight Abbot\n▷ If awakened:\n▶ Speaks with a voice like\na grinding stone, slow,\nimperious.\n▶ If robbed, commands to be\ngiven back what is his.\n▶ Proposes to give the\nadventurers “the means to\ndefeat the most powerful ghost\nin the abbey, and thus loot the\nrichest grave” .\n▷ Wants: the group to go\nthrough the portal in the ritual\nchamber (room 6) and take\nseven golden chalices for him.\n▷ Offers: If he receives the\nchalices:\n▶ bestows his dark blessing\n(Flayed Zombies ignore the\ngroup, and the attacks of the\ncharacters become capable\nof damaging Queen Ethofled\nand the Eternal Knight)\nSkele-\ntons\nSecret doors\nPortal\n▶ gives instructions to locate  Statue\nQueen Ethofled’s tomb\n(room 16) and deactivate the\nskeletal guards (room 15).\n▷ Plans to: replace the skulls in\nthe ritual chamber with the\nchalices, opening a new portal\nto hell, as part of a ritual to\nbecome a lich.\nP\nS\nGhost\n16\n14 13\n10\nWight 11\n12\n9\nBandits",
+    "text": "12 The Abbot’s Sepulchre\n▷ Unnatural darkness: Dims\nall non-holy sources of light. -1\nto attack rolls.\nDried corpse of a lean man\nsitting on a stone throne\nin purple pristly garbs, his\nglassy eyes are open. Has an\nelaborately decorated golden\nnose prosthetic; decorated\nsilver pastoral staff on his\nlegs. A small brass key on a\nstring glitters on his chest.\nSmells of cloves.\n▷ The corpse: Grusom, the\ncursed Abbot, is a Wight in a\nsort of trance. Dried-up skin,\nshrunken lips showing broken\nteeth and a callous smile.\n▷ Watcher: The corpse’s eyes\nalways make eye-contact when\nyou look at them, even though\nyou never see them move. They\nnever blink.\n▷ Trying to assassinate the\nAbbot: A wight is no living\nbeing. Cutting his throat,\nbeheading him, and the like,\nhits automatically but only\ndeals standard damage (also\nnote wights can only be\nharmed by silver weapons\nor magic), and immediately\nawakens him.\n▷ Robbing the corpse: Thieves\nmay use their pick pockets\nskill to pilfer the silver\npastoral staff (300gp, counts\nas staff), small brass key\n(opens closet in room 8) or\ngolden nose (600gp) without\nwaking the wight. Other\nstratagems may have a 1-in-10\nchance of working without\nwaking the wight.\nGrusom, The Wight Abbot\n▷ If awakened:\n▶ Speaks with a voice like\na grinding stone, slow,\nimperious.\n▶ If robbed, commands to be\ngiven back what is his.\n▶ Proposes to give the\nadventurers “the means to\ndefeat the most powerful ghost\nin the abbey, and thus loot the\nrichest grave” .\n▷ Wants: the group to go\nthrough the portal in the ritual\nchamber (room 6) and take\nseven golden chalices for him.\n▷ Offers: If he receives the\nchalices:\n▶ bestows his dark blessing\n(Flayed Zombies ignore the\ngroup, and the attacks of the\ncharacters become capable\nof damaging Queen Ethofled\nand the Eternal Knight)\nSkele- tons\nSecret doors Portal\n▶ gives instructions to locate  Statue\nQueen Ethofled’s tomb\n(room 16) and deactivate the\nskeletal guards (room 15).\n▷ Plans to: replace the skulls in\nthe ritual chamber with the\nchalices, opening a new portal\nto hell, as part of a ritual to\nbecome a lich.\nP S\nGhost\n16\n14 13\n10\nWight 11\n12\n9\nBandits",
     "labels": [],
-    "text_bytes": 2173,
+    "text_bytes": 2170,
     "keyed_area": "12",
     "style": {
       "size": 26.0,
@@ -1000,13 +1318,14 @@
   {
     "unit_id": "p25.13-empty-antechamber",
     "heading": "13 Empty Antechamber",
+    "heading_path": [],
     "pages": [
       25
     ],
     "column": 0,
-    "text": "13 Empty Antechamber\nRusty iron gate, open, to\npartially collapsed room.\nRowayn\n19 1 square = 10’\n▷ Offer refused: Attacks.\n▷ Killing the Abbot: purges the  18 Living Statues\nunnatural darkness. His body\nquickly decays. S\n▷ Fleeing the Abbot: Never\npursues. Sits back on throne\nand resumes brooding; heals 1  17\nhp per turn. S P\nP\nP\n6\n8 7\nFlayed Zombie\n15\n5\nFlayed Zombie\nIcescale Viper 4\n2\n3\n1\nEntrance\n▷ No wandering monsters:\nAs long as the sarcophagus in\nroom 14 is intact.\n21",
+    "text": "13 Empty Antechamber\nRusty iron gate, open, to\npartially collapsed room.\nRowayn\n19 1 square = 10’\n▷ Offer refused: Attacks.\n▷ Killing the Abbot: purges the  18 Living Statues\nunnatural darkness. His body\nquickly decays. S\n▷ Fleeing the Abbot: Never\npursues. Sits back on throne\nand resumes brooding; heals 1  17\nhp per turn. S P\nP\nP\n6\n8 7\nFlayed Zombie\n15\n5\nFlayed Zombie Icescale Viper 4\n2\n3\n1\nEntrance\n▷ No wandering monsters:\nAs long as the sarcophagus in\nroom 14 is intact.",
     "labels": [],
-    "text_bytes": 490,
+    "text_bytes": 487,
     "keyed_area": "13",
     "style": {
       "size": 26.0,
@@ -1018,13 +1337,14 @@
   {
     "unit_id": "p26.14-the-collapsed-sepulchre",
     "heading": "14 The collapsed Sepulchre",
+    "heading_path": [],
     "pages": [
       26
     ],
     "column": -1,
-    "text": "14 The collapsed Sepulchre\nStill air, quiet room.\nA stone sarcophagus, partially\nunder the collapsed ceiling.\n▷ No wandering monsters:\nAs long as the sarcophagus is\nintact.\n▷ Inspecting the sarcophagus:\nDecorated with chiseled\nshields and stars. Merely\ntouching it causes dust\nand rubble to fall from the\nunstable ceiling.\n▷ Opening the sarcophagus:\n3-in-6 chance of causing\nfurther portions of the ceiling\nto fall, inflicting 2d6 damage\n(save vs death to avoid) and\nfully covering the sarcophagus\n22\n(2d6 hours of work to remove\nthe rubble).\n▷ Propping the ceiling: 2d4\nturns required. Tools available\nin room 4. Reduces the chance\nof collapse to 1-in-6, and\ndamage to 1d6.\n▷ Inside the sarcophagus:\nAshes; plate armour and shield\ndecorated with a chess rook;\nbronze morningstar with\nspiked ball (“dawn omen”, +2\nto hit and damage vs undead,\ncharring their flesh -or\nectoplasm if incorporeal; +4\nvs undead who cannot suffer\ndaylight).",
+    "text": "14 The collapsed Sepulchre\nStill air, quiet room.\nA stone sarcophagus, partially\nunder the collapsed ceiling.\n▷ No wandering monsters:\nAs long as the sarcophagus is\nintact.\n▷ Inspecting the sarcophagus:\nDecorated with chiseled\nshields and stars. Merely\ntouching it causes dust\nand rubble to fall from the\nunstable ceiling.\n▷ Opening the sarcophagus:\n3-in-6 chance of causing\nfurther portions of the ceiling\nto fall, inflicting 2d6 damage\n(save vs death to avoid) and\nfully covering the sarcophagus\n(2d6 hours of work to remove\nthe rubble).\n▷ Propping the ceiling: 2d4\nturns required. Tools available\nin room 4. Reduces the chance\nof collapse to 1-in-6, and\ndamage to 1d6.\n▷ Inside the sarcophagus:\nAshes; plate armour and shield\ndecorated with a chess rook;\nbronze morningstar with\nspiked ball (“dawn omen”, +2\nto hit and damage vs undead,\ncharring their flesh -or\nectoplasm if incorporeal; +4\nvs undead who cannot suffer\ndaylight).",
     "labels": [],
-    "text_bytes": 949,
+    "text_bytes": 946,
     "keyed_area": "14",
     "style": {
       "size": 26.0,
@@ -1036,13 +1356,14 @@
   {
     "unit_id": "p27.15-the-guarded-antechamber",
     "heading": "15 The Guarded Antechamber",
+    "heading_path": [],
     "pages": [
       27
     ],
     "column": -1,
-    "text": "15 The Guarded Antechamber\nArea numbers\nMonsters\nSecret doors\nA bronze candelabra in the  Portal\nmiddle of the room. 7 niches\nline the north wall, each hosting  Statue\na standing skeletal guard\nwith sword and shield. They\nturn their heads to scrutinize\nintruders.\n▷ Iron gate: open, to room 16.\n▷ Bronze candelabra: Has\nseven arms shaped like\nskeletal arms, each hand holds\na candle (100gp).\nP\nS\nGhost\n16\n14 13\n10\nWight 11\n12\n9\nBandits\nN\nRowayn\n19 1 square = 10’\n▷ Lighting the candles: Each lit\ncandle “deactivates” a skeleton\n(rests its head).\n▷ Going past the candelabra  18 Living Statues\nwithout lighting the\ncandles: The 7 Skeletons  S\nanimate and attack.\n17\nS P\nP\nP\n6\nSkele-  8 7\ntons\nFlayed Zombie\n15\n5\nFlayed Zombie\nIcescale Viper 4\n2\n3\n1\nEntrance\n23",
+    "text": "15 The Guarded Antechamber\nArea numbers Monsters Secret doors\nA bronze candelabra in the  Portal\nmiddle of the room. 7 niches\nline the north wall, each hosting  Statue\na standing skeletal guard\nwith sword and shield. They\nturn their heads to scrutinize\nintruders.\n▷ Iron gate: open, to room 16.\n▷ Bronze candelabra: Has\nseven arms shaped like\nskeletal arms, each hand holds\na candle (100gp).\nP S\nGhost\n16\n14 13\n10\nWight 11\n12\n9\nBandits\nN\nRowayn\n19 1 square = 10’\n▷ Lighting the candles: Each lit\ncandle “deactivates” a skeleton\n(rests its head).\n▷ Going past the candelabra  18 Living Statues\nwithout lighting the\ncandles: The 7 Skeletons  S\nanimate and attack.\n17\nS P P\nP\n6\nSkele-  8 7 tons Flayed Zombie\n15\n5\nFlayed Zombie Icescale Viper 4\n2\n3\n1\nEntrance",
     "labels": [],
-    "text_bytes": 773,
+    "text_bytes": 770,
     "keyed_area": "15",
     "style": {
       "size": 26.0,
@@ -1054,14 +1375,15 @@
   {
     "unit_id": "p28.16-the-tomb-of-queen-ethofled",
     "heading": "16 The Tomb of Queen Ethofled",
+    "heading_path": [],
     "pages": [
       28,
       29
     ],
     "column": 0,
-    "text": "16 The Tomb of Queen Ethofled\nA  massive  stone  sarcophagus,  with  chiseled  floral  decorations;  a\ncrown chiseled on the lid.\n24\n▷ Upon Entering: the Ghost\nof Queen Ethofled (see\nMonsters) emerges from the\nsarcophagus: a translucent\napparition of a woman with\nelaborately braided hair and\na crown. Superbly commands\nthe group to serve her:\n▷ Wants: The group to\n▶ Slay the Abbot in the locked\nsepulchre at the end of the\ncorridor (room 12).\n▶ Disrupt the skull circle in\nthe eastern wing (room 6).\n▷ Offers: She will open her\nsarcophagus and let the group\nchoose one of the items inside,\nand show them “the way to the\nmost sacred place of the abbey,\nthe enchanted secret garden”\n(room 17). See Secret passage\nbelow.\n▷ Offer refused: Dismisses\nthe group with disdain and\ndisappears.\n▷ Secret passage: A magic\nportal behind an illusory\nwall. If Ethofled’s tasks are\ncompleted, she invites the\ngroup to visit the Secret\nGarden, and removes the\nillusory wall. “Bring your wits\nwith you, and visit the enchanted\ngarden, to see if you are worthy”.\n▷ Opening the sarcophagus\nwithout the Ghost’s\npermission: attacks. Never\npursues.\n▷ The Ghost is slain: the\nillusory wall disappears and\nthe portal becomes visible: a\nveil of sunset light leading to a\nverdant garden.\n▷ Mentioning the Earl of\nLocklear’s Claim: Ethofeld\nknows the lineage of her direct\ndescendants ended long before\nthe fall of the abbey, therefore\nthe Earl’s claim is a lie.\n▷ Inside the sarcophagus:\nashes and:\n▶ Polished chain mail\nwith\na dozen aquamarines\n(1.800gp)\n▶ Platinum signet ring with\na mother of pearl horse head\nseal (1000gp)\n▶ The Crown of Ethofled:\na gold and platinum tiara\nshaped like a circle of waves\n(2.000gp)\n▶ Dagger, “Maid of honour”\netched on the hilt. If kept\ntogether with its jeweled\nsheath (1000gp), the blade\nis always as sharp as a razor\nand feels much lighter than\nit looks, and grants +1 to\nattack rolls, damage, AC, and\nCHA.\n25",
+    "text": "16 The Tomb of Queen Ethofled\nA  massive  stone  sarcophagus,  with  chiseled  floral  decorations;  a\ncrown chiseled on the lid.\n▷ Upon Entering: the Ghost\nof Queen Ethofled (see\nMonsters) emerges from the\nsarcophagus: a translucent\napparition of a woman with\nelaborately braided hair and\na crown. Superbly commands\nthe group to serve her:\n▷ Wants: The group to\n▶ Slay the Abbot in the locked\nsepulchre at the end of the\ncorridor (room 12).\n▶ Disrupt the skull circle in\nthe eastern wing (room 6).\n▷ Offers: She will open her\nsarcophagus and let the group\nchoose one of the items inside,\nand show them “the way to the\nmost sacred place of the abbey,\nthe enchanted secret garden”\n(room 17). See Secret passage\nbelow.\n▷ Offer refused: Dismisses\nthe group with disdain and\ndisappears.\n▷ Secret passage: A magic\nportal behind an illusory\nwall. If Ethofled’s tasks are\ncompleted, she invites the\ngroup to visit the Secret\nGarden, and removes the\nillusory wall. “Bring your wits\nwith you, and visit the enchanted\ngarden, to see if you are worthy”.\n▷ Opening the sarcophagus\nwithout the Ghost’s\npermission: attacks. Never\npursues.\n▷ The Ghost is slain: the\nillusory wall disappears and\nthe portal becomes visible: a\nveil of sunset light leading to a\nverdant garden.\n▷ Mentioning the Earl of\nLocklear’s Claim: Ethofeld\nknows the lineage of her direct\ndescendants ended long before\nthe fall of the abbey, therefore\nthe Earl’s claim is a lie.\n▷ Inside the sarcophagus:\nashes and:\n▶ Polished chain mail with\na dozen aquamarines\n(1.800gp)\n▶ Platinum signet ring with\na mother of pearl horse head\nseal (1000gp)\n▶ The Crown of Ethofled:\na gold and platinum tiara\nshaped like a circle of waves\n(2.000gp)\n▶ Dagger, “Maid of honour”\netched on the hilt. If kept\ntogether with its jeweled\nsheath (1000gp), the blade\nis always as sharp as a razor\nand feels much lighter than\nit looks, and grants +1 to\nattack rolls, damage, AC, and\nCHA.",
     "labels": [],
-    "text_bytes": 1973,
+    "text_bytes": 1967,
     "keyed_area": "16",
     "style": {
       "size": 26.0,
@@ -1073,13 +1395,14 @@
   {
     "unit_id": "p30.17-the-secret-garden",
     "heading": "17 The Secret Garden",
+    "heading_path": [],
     "pages": [
       30
     ],
     "column": 0,
-    "text": "17 The Secret Garden\nOpen ceiling garden, beautiful\nwith wildflowers and green\ngrass. Cast in a still, dreamy\nautumn. Stone chess board on\nthe floor, stone chess pieces at\nthe side. Inscription on a large\nmarble slab on the northern wall.\n▷ Random Happenings: no\nrolls here.\n▷ Portal to Room 6: Open,\nunless the circle in room 6 is\ndestroyed.\n▷ Portal to room 16: Hidden\nbehind illusory wall unless\nqueen Ethofled removed it, or\ndied (see room 16).\n▷ Climbing up outside:\nCharacters may climb the\ngarden’s walls to reach the\nroof of the ruins, but once\nthe garden is at their backs, it\ndisappears.\n▷ Chess board: only has 4x4\nblack and white tiles, each tile\nabout  2’ large.\n▷ Stone chess pieces: 2’ tall,\nall grey. 4 Rooks, 4 Bishops, 4\nKings, and 4 Queens. No other\npieces.\n26\n▷ Inscription: “THE FOUR\nOF THE HERONGUARD,\nALWAYS”.\n▷ Secret Passage to room 18:\nPlacing all the 16 pieces like\na (simplified) sudoku, so that\neach line and row on the board\nhas four different pieces,\nopens the secret passage\nunder the marble slab, and the\ninscription magically turns\ninto “PATH OF KNIGHTLY\nVIRTUE”.",
+    "text": "17 The Secret Garden\nOpen ceiling garden, beautiful\nwith wildflowers and green\ngrass. Cast in a still, dreamy\nautumn. Stone chess board on\nthe floor, stone chess pieces at\nthe side. Inscription on a large\nmarble slab on the northern wall.\n▷ Random Happenings: no\nrolls here.\n▷ Portal to Room 6: Open,\nunless the circle in room 6 is\ndestroyed.\n▷ Portal to room 16: Hidden\nbehind illusory wall unless\nqueen Ethofled removed it, or\ndied (see room 16).\n▷ Climbing up outside:\nCharacters may climb the\ngarden’s walls to reach the\nroof of the ruins, but once\nthe garden is at their backs, it\ndisappears.\n▷ Chess board: only has 4x4\nblack and white tiles, each tile\nabout  2’ large.\n▷ Stone chess pieces: 2’ tall,\nall grey. 4 Rooks, 4 Bishops, 4\nKings, and 4 Queens. No other\npieces.\n▷ Inscription: “THE FOUR\nOF THE HERONGUARD,\nALWAYS”.\n▷ Secret Passage to room 18:\nPlacing all the 16 pieces like\na (simplified) sudoku, so that\neach line and row on the board\nhas four different pieces,\nopens the secret passage\nunder the marble slab, and the\ninscription magically turns\ninto “PATH OF KNIGHTLY\nVIRTUE”.",
     "labels": [],
-    "text_bytes": 1127,
+    "text_bytes": 1124,
     "keyed_area": "17",
     "style": {
       "size": 26.0,
@@ -1091,13 +1414,14 @@
   {
     "unit_id": "p31.18-the-path-of-knightly-virtue",
     "heading": "18 The Path of Knightly Virtue",
+    "heading_path": [],
     "pages": [
       31
     ],
     "column": -1,
-    "text": "18 The Path of Knightly Virtue\nRowayn\nStill air, light flows into the\ncorridor from the garden.\nCheckered floor, 3×7 black and\nwhite tiles, each about 3’ large.\n2 Iron Statues stand still at the\nnorthern end of the corridor.\n▷ Random Happenings: no\nrolls here.\n▷ Iron Statues: armored\nknights holding a shield\nengraved with a rampant\nhorse.\nArea numbers\nMonsters\nSecret doors\n19\nPortal\nStatue\n18\nS\n17\nS\nP\nP\nS\nGhost Skele-  8\ntons\n16 15\n13\n▷ The checkered path:\nCharacters crossing the\ncheckered floor moving like a\nknight chess piece reach the\nend of the corridor unharmed.\nOtherwise the Iron Statues\nanimate and attack. On a\nsuccessful hit, the character\nis shield-bashed out into the\ngarden.\n▷ Fleeing the statues: they\nnever pursue out of the\ncorridor, and return to their\ninitial position.\nN\n1 square = 10’\nLiving Statues\nP\nP\n6\n7\nFlayed Zombie 27\n5",
+    "text": "18 The Path of Knightly Virtue\nRowayn\nStill air, light flows into the\ncorridor from the garden.\nCheckered floor, 3×7 black and\nwhite tiles, each about 3’ large.\n2 Iron Statues stand still at the\nnorthern end of the corridor.\n▷ Random Happenings: no\nrolls here.\n▷ Iron Statues: armored\nknights holding a shield\nengraved with a rampant\nhorse.\nArea numbers Monsters Secret doors\n19\nPortal\nStatue\n18\nS\n17\nS P\nP S\nGhost Skele-  8 tons\n16 15\n▷ The checkered path:\nCharacters crossing the\ncheckered floor moving like a\nknight chess piece reach the\nend of the corridor unharmed.\nOtherwise the Iron Statues\nanimate and attack. On a\nsuccessful hit, the character\nis shield-bashed out into the\ngarden.\n▷ Fleeing the statues: they\nnever pursue out of the\ncorridor, and return to their\ninitial position.\nN\n1 square = 10’\nLiving Statues\nP\nP\nFlayed Zombie 27",
     "labels": [],
-    "text_bytes": 865,
+    "text_bytes": 856,
     "keyed_area": "18",
     "style": {
       "size": 26.0,
@@ -1109,14 +1433,15 @@
   {
     "unit_id": "p32.19-the-hall-of-crowning",
     "heading": "19 The Hall of Crowning",
+    "heading_path": [],
     "pages": [
       32,
       33
     ],
     "column": -1,
-    "text": "19 The Hall of Crowning\nEerie multicolored beams of\nlight cut through the dark,\nas if from high stained-glass\nwindows. Marble statue of\na girl near the east wall. An\narmored knight is kneeling in\nfront of an altar, with jeweled\nchalices on it.\n▷ Random Happenings: no\nrolls here.\n▷ Knight: Rowayn, the Eternal\nKnight is an ageless man with\nwhite hair, eyes as distant and\nhard as a winter sky, wears an\nelaborately etched plate mail.\nSee Monsters.\n▷ As soon as the group enters:\nThe knight stands. “Welcome.\nIt’s been centuries since anyone\nvisited this sacred place, but\nmy vow still holds. You proved\nworthy, by reaching this place,\nso you may take one Grasalys\n[pointing at the chalices], and\nfill it at the Saint’s Fountain, if\nyou want. St. Brynedd’s tears\nmay heal all ailments of the\nbody and the soul, but use your\njudgement. It will take one year\nfor the basin to fill again”.\n28\n▷ Marble statue: St. Brynedd,\na young girl in a humble\ntunic, with a benevolent\nsmile, holding a small pewter\nbasin. Drops of azure water\ndrip from her eyes and collect\ninside the basin, emitting a\ndistinct azure glow. Enough\nliquid to fill a vial. Once\ncollected, it takes a year to\nreplenish the basin again.\n▷ The chalices: 12 richly\nchiseled gold, studded with\nprecious stones. Each must be\nworth a fortune.\n▷ Taking one chalice: The\ngroup may collect the Saint’s\ntears and carry the liquid\nsafely. Flayed Zombies will\nkeep away from the filled\nchalice. The chalice is worth\n2.000gp.\n▷ Taking more than one\nchalice: The Eternal Knight\nwon’t allow it, and is ready to\nfight, aided by the two Iron\nStatues from room 18. Will\nalways concede mercy if the\nopponent surrenders, but they\nwill no longer be allowed to\ntake the Saint’s tears from the\nRowayn\nfountain. In all cases, once\noutside the abbey all chalices\nturn to dust, except the one\ncontaining the Saint’s tears.\n▷ Killing the Knight: The\nAbbey rumbles, rubble begins\nto fall from the ceilings. Every\nturn, characters must save vs\ndeath or suffer 1d4 damage\nfrom falling blocks.\n▷ St. Brynedd’s tears: The\nliquid heals all ailments,\ndiseases, poisons, wounds,\namputations, curses of the\nArea numbers\nMonsters\nSecret doors\n19\nPortal\nStatue\n18\nS\n17\nS\nP\nP\nS\nGhost Skele-  8\ntons\n16\nbody, the soul and the mind,\ncompletely restoring full\nhealth. It may bring back to\nlife the recently deceased\n(24 hours). If used against a\nchaotic undead creature, it is\ncompletely destroyed (save vs\ndeath to only take 3d8 damage\ninstead). It takes one year\nfor the fountain to produce\nenough water for one use.\nN\n1 square = 10’\nLiving Statues\nP\nP\n6 29\n7\nFlayed Zombie",
+    "text": "19 The Hall of Crowning\nEerie multicolored beams of\nlight cut through the dark,\nas if from high stained-glass\nwindows. Marble statue of\na girl near the east wall. An\narmored knight is kneeling in\nfront of an altar, with jeweled\nchalices on it.\n▷ Random Happenings: no\nrolls here.\n▷ Knight: Rowayn, the Eternal\nKnight is an ageless man with\nwhite hair, eyes as distant and\nhard as a winter sky, wears an\nelaborately etched plate mail.\nSee Monsters.\n▷ As soon as the group enters:\nThe knight stands. “Welcome.\nIt’s been centuries since anyone\nvisited this sacred place, but\nmy vow still holds. You proved\nworthy, by reaching this place,\nso you may take one Grasalys\n[pointing at the chalices], and\nfill it at the Saint’s Fountain, if\nyou want. St. Brynedd’s tears\nmay heal all ailments of the\nbody and the soul, but use your\njudgement. It will take one year\nfor the basin to fill again”.\n▷ Marble statue: St. Brynedd,\na young girl in a humble\ntunic, with a benevolent\nsmile, holding a small pewter\nbasin. Drops of azure water\ndrip from her eyes and collect\ninside the basin, emitting a\ndistinct azure glow. Enough\nliquid to fill a vial. Once\ncollected, it takes a year to\nreplenish the basin again.\n▷ The chalices: 12 richly\nchiseled gold, studded with\nprecious stones. Each must be\nworth a fortune.\n▷ Taking one chalice: The\ngroup may collect the Saint’s\ntears and carry the liquid\nsafely. Flayed Zombies will\nkeep away from the filled\nchalice. The chalice is worth\n2.000gp.\n▷ Taking more than one\nchalice: The Eternal Knight\nwon’t allow it, and is ready to\nfight, aided by the two Iron\nStatues from room 18. Will\nalways concede mercy if the\nopponent surrenders, but they\nwill no longer be allowed to\ntake the Saint’s tears from the\nRowayn\nfountain. In all cases, once\noutside the abbey all chalices\nturn to dust, except the one\ncontaining the Saint’s tears.\n▷ Killing the Knight: The\nAbbey rumbles, rubble begins\nto fall from the ceilings. Every\nturn, characters must save vs\ndeath or suffer 1d4 damage\nfrom falling blocks.\n▷ St. Brynedd’s tears: The\nliquid heals all ailments,\ndiseases, poisons, wounds,\namputations, curses of the\nArea numbers Monsters Secret doors\n19\nPortal\nStatue\n18\nS\n17\nS P\nP S\nGhost Skele-  8 tons\nbody, the soul and the mind,\ncompletely restoring full\nhealth. It may bring back to\nlife the recently deceased\n(24 hours). If used against a\nchaotic undead creature, it is\ncompletely destroyed (save vs\ndeath to only take 3d8 damage\ninstead). It takes one year\nfor the fountain to produce\nenough water for one use.\nN\n1 square = 10’\nLiving Statues\nP\nP\n6 29\nFlayed Zombie",
     "labels": [],
-    "text_bytes": 2637,
+    "text_bytes": 2629,
     "keyed_area": "19",
     "style": {
       "size": 26.0,
@@ -1128,19 +1453,38 @@
   {
     "unit_id": "p34.aftermath",
     "heading": "Aftermath",
+    "heading_path": [],
     "pages": [
       34,
-      35,
+      35
+    ],
+    "column": 0,
+    "text": "Aftermath\nBased on the chosen hook(s), the adventure may have the following\nconsequences, if suited to your campaign style.\n◈ The  Healer’s  daughter:  If  the  characters  give  Myrta  the  Saint’s\ntears and save her daughter, they gain a loyal, grateful healer ally\nwho can sell healing potions at a discounted price, and cure common\ndiseases.\n◈ Lortag  the  alchemist:  Lortag  can  send  the  group  to  more\nadventures in search of rare substances, as well as prepare for them\nthe potions they desire at a discounted price (see Alchemist in Old-\nSchool Essentials). Over time, his research into the Saint’s tears may\ndevelop into necromancy and turn him into a villain.\n◈ Choosing  Lortag  over  Myrtag:  Myrta’s  daughter  dies  after\ninfecting her mother with the soul plague. The disease kills her too,\nbut before dying she curses the group and each member character\nmust  save  vs  death  or  become  infected.  Characters  suffering  the\nsoul plague have 6 months to find a cure or their soul will leave the\nbody. Regular cures (including cure disease spell) don’t work. They\nwill need to find some truly miraculous source of healing, a wish, or\ndivine intervention. Or embark on a quest to locate the supernatural\nsource of the soul plague and destroy it.\n◈ The Earl of Locklear: The earl can send the group to more adventures\nin search of rare monsters to make trophies for his halls; may also\nlend money and/or introduce them to other aristocratic NPCs. The\ngenealogical scrolls in room 8 prove his claim is false. He’ll be eager\nto buy them (2.000gp) in order to destroy them. Clever players may\nblackmail him instead.\nBased on course of action, the abbey may become something else:\n◈ Grusom the Abbot is killed, the Eternal Knight is not: Destroying\nthe abbot and the circle in the ritual room may allow a cleric (player\nor NPC) to rebuild and restore the abbey to its original splendor.\n◈ Grusom the Abbot receives the seven chalices: After one week\nthe Flayed Zombies gain +1 HD, and Grusom gains +2 HD. His long\nterm plan is becoming a lich. His renewed powers prevent the abbey\nfrom collapsing, and turn it into a nightmare citadel.\n◈ The Eternal Knight is killed, Grusom the Abbot hasn’t received\nthe seven chalices: After one week the abbey crumbles, the Saint’s\nfountain is lost forever. The ruins may become the foundation of a\nLune Yeti King’s ice palace (Lair with 3d6 Lune Yetis + 1 king with\n8+4 HD; Lair Treasure: D x 4; they may also unearth from the ruins\nany unreclaimed treasure from the adventure).",
+    "labels": [],
+    "text_bytes": 2563,
+    "keyed_area": null,
+    "style": {
+      "size": 35.0,
+      "family": "GothicusRoman",
+      "bold": false,
+      "color": "#ffffff"
+    }
+  },
+  {
+    "unit_id": "p36.monsters",
+    "heading": "Monsters",
+    "heading_path": [],
+    "pages": [
       36,
       37,
       38,
       39,
       40
     ],
-    "column": 0,
-    "text": "Aftermath\nBased on the chosen hook(s), the adventure may have the following\nconsequences, if suited to your campaign style.\n◈ The  Healer’s  daughter:  If  the  characters  give  Myrta  the  Saint’s\ntears and save her daughter, they gain a loyal, grateful healer ally\nwho can sell healing potions at a discounted price, and cure common\ndiseases.\n◈ Lortag  the  alchemist:  Lortag  can  send  the  group  to  more\nadventures in search of rare substances, as well as prepare for them\nthe potions they desire at a discounted price (see Alchemist in Old-\nSchool Essentials). Over time, his research into the Saint’s tears may\ndevelop into necromancy and turn him into a villain.\n◈ Choosing  Lortag  over  Myrtag:  Myrta’s  daughter  dies  after\ninfecting her mother with the soul plague. The disease kills her too,\nbut before dying she curses the group and each member character\nmust  save  vs  death  or  become  infected.  Characters  suffering  the\nsoul plague have 6 months to find a cure or their soul will leave the\nbody. Regular cures (including cure disease spell) don’t work. They\nwill need to find some truly miraculous source of healing, a wish, or\ndivine intervention. Or embark on a quest to locate the supernatural\nsource of the soul plague and destroy it.\n◈ The Earl of Locklear: The earl can send the group to more adventures\nin search of rare monsters to make trophies for his halls; may also\nlend money and/or introduce them to other aristocratic NPCs. The\ngenealogical scrolls in room 8 prove his claim is false. He’ll be eager\nto buy them (2.000gp) in order to destroy them. Clever players may\nblackmail him instead.\n30\nBased on course of action, the abbey may become something else:\n◈ Grusom the Abbot is killed, the Eternal Knight is not: Destroying\nthe abbot and the circle in the ritual room may allow a cleric (player\nor NPC) to rebuild and restore the abbey to its original splendor.\n◈ Grusom the Abbot receives the seven chalices: After one week\nthe Flayed Zombies gain +1 HD, and Grusom gains +2 HD. His long\nterm plan is becoming a lich. His renewed powers prevent the abbey\nfrom collapsing, and turn it into a nightmare citadel.\n◈ The Eternal Knight is killed, Grusom the Abbot hasn’t received\nthe seven chalices: After one week the abbey crumbles, the Saint’s\nfountain is lost forever. The ruins may become the foundation of a\nLune Yeti King’s ice palace (Lair with 3d6 Lune Yetis + 1 king with\n8+4 HD; Lair Treasure: D x 4; they may also unearth from the ruins\nany unreclaimed treasure from the adventure).\n31\nMonsters\nBANDIT\nAC   6,  [13]  HD   1  (4hp),  Att   1  ×\nweapon  (1d6  or  by  weapon),\nTHAC0  19, [0] MV  120’ (40’),  SV\nD13 W14 P13 B16 S15 (T1),  ML  8,\nAL  Neutral or Chaotic,  XP  10\nCAVE BEAR\nAC   5  [14],  HD   7  (31hp),  Att  2  x\nclaw  (1d8)  ×  bite  (2d6),  THAC0\n13  [+6],  MV   120’  (40’),  SV   D12\nW13  P14  B15  S16  (3),  ML   9,  AL\nNeutral,  XP  450\n▷ Bear hug: If a victim is hit by\nboth paws in the same round,\nthe bear hugs for an extra 2d8\nautomatic damage.\n▷ Sense of smell: Poor eyesight,\nbut keen sense of smell. When\nhungry, will follow a track of\nblood by scent.\nFLAYED ZOMBIE\nFerocious animated corpses\nwithout skin. Victims of cruel\nrituals, or reincarnated evil souls\nfrom hell.\nAC 8 [11],  HD  2-1 (8hp),  Att  1 ×\nbite  (1d4),  THAC0   18  [+1],  MV\n60’ (20’),  SV  D12 W13 P14 B15 S16\n(1),  ML   12,  AL   Chaotic,  XP   20,\nNA  1d4 (2d6),  TT  None\n32\n▷ Feral: Always attack on sight.\n▷ Moaners: Can easily be heard\nmoaning or sobbing.\n▷ Undead: Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\nGIANT RAT\nAC   7  [12],  HD   ½  (2hp),  Att   1  ×\nbite  (1d3  +  disease),  THAC0   19\n[0],  MV   120’  (40’)  /  60’  (20’)\nswimming,  SV  D12 W13 P14 B15\nS16 (1),  ML  8, AL  Neutral,  XP  5\n▷ Disease: Bite has a 1-in-20\nchance of infecting the target\n(save versus poison). The\ndisease has a 1-in-4 chance of\nbeing deadly (die in 1d6 days).\nOtherwise, the victim is sick\nand bedridden for one month.\n▷ Afraid of fire: Will flee fire,\nunless forced to fight by\nsummoner.\n▷ Attacking in water: May\nattack without penalty;\nexcellent swimmers.\nGOAT\nAC  7 [12],  HD  2 (9hp),  Att  1 × butt\n(1d4),  THAC0   18  [+1],  MV   240’\n(80’),  SV  D12 W13 P14 B15 S16 (1),\nML  5,  AL  Neutral,  XP  20\nGHOST OF QUEEN\nETHOFLED\nThe mournful spirit of a\nrenowned Queen of Yore. A\ntranslucent apparition of a\nwoman with elaborately braided\nhair and a crown.\nAC  3 [16],  HD  4** (18hp),  Att  1 ×\ntouch (1d6 + dementor),  THAC0\n16 [+3],  MV  120’ (40’) / 240’ (80’)\nflying,  SV   D10  W11  P12  B13  S14\n(4),  ML  12,  AL  Neutral,  XP  175\n▷ Undead: Makes no noise, until\nit attacks. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\n▷ Mundane damage\nimmunity: Only harmed by\nsilver weapons or magic.\n▷ Dementor: A successfully\nhit target loses 1d4 INT point;\nINT points lost this way are\nrecovered at the rate of 1 per\nday. A target drained of all INT\nis permanently driven mad.\nGRAPNOR\nBlack beard; as stingy as dwarves\ncan be; otherwise cheerful and\ncarefree like a child.  Happy to\njoin the group. Came in search\nof a “dead sorcerer buried with a\nplatinum eye”.\nLevel 1 dwarf\nAC  4 [15] (chainmail),  HP  8,  Att  1\n× hand axe (1d6),  THAC0  19 [0],\nMV  60’ (20’),  SV  D8 W9 P10 B13\nS12,  AL   Neutral,  STR   9  INT  11\nWIS  10,  DEX  10  CON  14  CHA  7\n▷ Equipment: winter clothes,\nchainmail, hand axe, silver\ndagger, broken lantern, tinder\nbox, 17gp.\n33\nICESCALE VIPER\nA mischievous, translucent, white-\nblueish, magical snake that dwells\nin very cold climates.\nAC  6  [13],  HD   2*  (9hp),  Att  1  ×\nbite (1d4 + freezing),  THAC0  18\n[+1],  MV   90’  (30’),  SV   D12  W13\nP14 B15 S16 (1),  ML  7,  AL  Chaotic,\nXP  25,  NA  1d4 (1d4),  TT  None\n▷ Afraid of fire: Will flee fire\nimmediately.\n▷ Freezing: Victim’s body\n(not equipment) is turned\nto solid ice (save vs petrify).\nThe thawing oil in room 3 can\nrevert this effect.\n▷ Immunity: Immune to cold\neffects and damage and cold\nbased attacks and spells.\n▷ Infravision: 60’.\n▷ Vulnerable to fire: 50% extra\ndamage.\nIRON LIVING STATUE\nAC  2  [17],  HD   4  (18hp),  Att   2  ×\nblow (1d8),  THAC0  16 [+3],  MV\n30’ (10’),  SV  D10 W11 P12 B13 S14\n(4),  ML  11,  AL  Neutral,  XP  75\n▷ Absorb metals: Hits with\nnon-magical, metal weapons\ncause damage, but the\nweapon may become stuck\nin the statue (save versus\nspells). Stuck weapons can be\nremoved if the statue is killed.\n34\n▷ Immunity: Unaffected by\nsleep spells.\nLUNE YETI\nLarge (8’ tall), ape-like, man-\neating monsters, the yetis of the\nLune Mountains have their fur\ncovered in icy crystals that have a\nchance to reflect magic.\nAC  4 [15],  HD  4+2** (21hp),  Att  2\n× claw (1d6),  THAC0  15 [+4],  MV\n150’  (50’),  SV   D10  W11  P12  B13\nS14  (4),  ML   8,  AL   Neutral,  XP\n275,  NA  1d6 (1d6),  TT  D\n▷ Damage reduction: Half\ndamage from magical\nweapons.\n▷ Magic resistance: +4 bonus\nto all saving throws against\nmagic.\n▷ Spell turning: 10% chance of\nreflecting spells back onto the\ncaster.\n▷ Surprise: On a 1-4, due to\ncamouflage in snow and ice.\n▷ Vulnerable to fire: 50% extra\ndamage.\nROWAYN, THE ETERNAL\nKNIGHT\nAn ageless man with white hair,\neyes as hard and distant as a\nwinter sky, wears an elaborately\netched plate mail. A sacred\nwight knight, sworn to guard the\ncrowning hall and the fountain of\nSt. Brynedd.\nAC  2 [17],  HD  6* (27hp),  Att  2 ×\nlong sword +1 (1d8 + 1),  THAC0\n14  [+5],  MV   90’  (30’),  SV   D10\nW11  P12  B13  S14  (6),  ML   12,  AL\nLawful,  XP  500\n▷ Equipment: Wears an ornate\nplate mail +1, wields a long\nsword +1.\n▷ Mundane weapon\nimmunity: Only harmed by\nsilver weapons or magic.\n▷ Undead: Makes no noise, until\nit attacks. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\nSKELETON\nAC  7  [12],  HD   1  (4hp),  Att   1  x\nweapon  (1d6  or  by  weapon),\nTHAC0  19 [0],  MV  60’ (20’),  SV\nD12 W13 P14 B15 S16 (1),  ML  12,\nAL  Chaotic,  XP  10\n▷ Undead: Make no noise, until\nthey attack. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\n35\nTREANT\nAC  2 [17],  HD  8 (36hp),  Att  2 ×\nfist  (2d6),  THAC0   12  [+7],  MV\n60’ (20’),  SV  D8 W9 P10 B10 S12\n(8),  ML  9,  AL  Lawful,  XP  650\n▷ Distrust fire: And those who\nwield it.\n▷ Surprise: On a 1–3, in a forest,\ndue to being mistaken for a\ntree. Encounter occurs at 30\nyards or less.\n▷ Animate trees: Each\nindividual can animate 2 trees\n(within 60’; may switch trees\nat will). These fight as treants\nwith movement rate 30’ (10’).\nWIGHT\nAC  5 [14],  HD  3* (13hp),  Att  1 ×\ntouch  (energy  drain),  THAC0\n17  [+2],  MV   90’  (30’),  SV  D12\nW13  P14  B15  S16  (3),  ML   12,  AL\nChaotic,  XP  50\n▷ Undead: Make no noise, until\nthey attack. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\n▷ Mundane weapon\nimmunity: Only harmed by\nsilver weapons or magic.\n36\n▷ Energy drain: A successfully\nhit target permanently loses\none experience level (or\nHit Die). This incurs a loss\nof one Hit Die of hit points,\nas well as all other benefits\ndue to the drained level (e.g.\nspells, saving throws, etc.). A\ncharacter’s XP is reduced to\nhalfway between the former\nand new levels. A person\ndrained of all levels becomes\na wight in 1d4 days, under the\ncontrol of the wight that killed\nthem.\nWOLF\nAC  7 [12],  HD  2+2 (11hp),  Att  1 ×\nbite  (1d6),  THAC0   17  [+2],  MV\n180’  (60’),  SV   D12  W13  P14  B15\nS16 (1),  ML  6 (8 in larger packs),\nAL  Neutral,  XP  25\n▷ Training: At the referee’s\ndiscretion, captured cubs may\nbe trained like dogs. Wolves\nare difficult to train.\n▷ Strength in numbers:\nPacks of 4 or more wolves\nhave morale 8. If the pack is\nreduced to less than 50% of\nits original size, this morale\nbonus is lost.",
+    "column": -1,
+    "text": "Monsters\nBANDIT\nAC   6,  [13]  HD   1  (4hp),  Att   1  ×\nweapon  (1d6  or  by  weapon),\nTHAC0  19, [0] MV  120’ (40’),  SV\nD13 W14 P13 B16 S15 (T1),  ML  8,\nAL  Neutral or Chaotic,  XP  10\nCAVE BEAR\nAC   5  [14],  HD   7  (31hp),  Att  2  x\nclaw  (1d8)  ×  bite  (2d6),  THAC0\n13  [+6],  MV   120’  (40’),  SV   D12\nW13  P14  B15  S16  (3),  ML   9,  AL\nNeutral,  XP  450\n▷ Bear hug: If a victim is hit by\nboth paws in the same round,\nthe bear hugs for an extra 2d8\nautomatic damage.\n▷ Sense of smell: Poor eyesight,\nbut keen sense of smell. When\nhungry, will follow a track of\nblood by scent.\nFLAYED ZOMBIE\nFerocious animated corpses\nwithout skin. Victims of cruel\nrituals, or reincarnated evil souls\nfrom hell.\nAC 8 [11],  HD  2-1 (8hp),  Att  1 ×\nbite  (1d4),  THAC0   18  [+1],  MV\n60’ (20’),  SV  D12 W13 P14 B15 S16\n(1),  ML   12,  AL   Chaotic,  XP   20,\nNA  1d4 (2d6),  TT  None\n▷ Feral: Always attack on sight.\n▷ Moaners: Can easily be heard\nmoaning or sobbing.\n▷ Undead: Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\nGIANT RAT\nAC   7  [12],  HD   ½  (2hp),  Att   1  ×\nbite  (1d3  +  disease),  THAC0   19\n[0],  MV   120’  (40’)  /  60’  (20’)\nswimming,  SV  D12 W13 P14 B15\nS16 (1),  ML  8, AL  Neutral,  XP  5\n▷ Disease: Bite has a 1-in-20\nchance of infecting the target\n(save versus poison). The\ndisease has a 1-in-4 chance of\nbeing deadly (die in 1d6 days).\nOtherwise, the victim is sick\nand bedridden for one month.\n▷ Afraid of fire: Will flee fire,\nunless forced to fight by\nsummoner.\n▷ Attacking in water: May\nattack without penalty;\nexcellent swimmers.\nGOAT\nAC  7 [12],  HD  2 (9hp),  Att  1 × butt\n(1d4),  THAC0   18  [+1],  MV   240’\n(80’),  SV  D12 W13 P14 B15 S16 (1),\nML  5,  AL  Neutral,  XP  20\nGHOST OF QUEEN\nETHOFLED\nThe mournful spirit of a\nrenowned Queen of Yore. A\ntranslucent apparition of a\nwoman with elaborately braided\nhair and a crown.\nAC  3 [16],  HD  4** (18hp),  Att  1 ×\ntouch (1d6 + dementor),  THAC0\n16 [+3],  MV  120’ (40’) / 240’ (80’)\nflying,  SV   D10  W11  P12  B13  S14\n(4),  ML  12,  AL  Neutral,  XP  175\n▷ Undead: Makes no noise, until\nit attacks. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\n▷ Mundane damage\nimmunity: Only harmed by\nsilver weapons or magic.\n▷ Dementor: A successfully\nhit target loses 1d4 INT point;\nINT points lost this way are\nrecovered at the rate of 1 per\nday. A target drained of all INT\nis permanently driven mad.\nGRAPNOR\nBlack beard; as stingy as dwarves\ncan be; otherwise cheerful and\ncarefree like a child.  Happy to\njoin the group. Came in search\nof a “dead sorcerer buried with a\nplatinum eye”.\nLevel 1 dwarf\nAC  4 [15] (chainmail),  HP  8,  Att  1\n× hand axe (1d6),  THAC0  19 [0],\nMV  60’ (20’),  SV  D8 W9 P10 B13\nS12,  AL   Neutral,  STR   9  INT  11\nWIS  10,  DEX  10  CON  14  CHA  7\n▷ Equipment: winter clothes,\nchainmail, hand axe, silver\ndagger, broken lantern, tinder\nbox, 17gp.\nICESCALE VIPER\nA mischievous, translucent, white-\nblueish, magical snake that dwells\nin very cold climates.\nAC  6  [13],  HD   2*  (9hp),  Att  1  ×\nbite (1d4 + freezing),  THAC0  18\n[+1],  MV   90’  (30’),  SV   D12  W13\nP14 B15 S16 (1),  ML  7,  AL  Chaotic,\nXP  25,  NA  1d4 (1d4),  TT  None\n▷ Afraid of fire: Will flee fire\nimmediately.\n▷ Freezing: Victim’s body\n(not equipment) is turned\nto solid ice (save vs petrify).\nThe thawing oil in room 3 can\nrevert this effect.\n▷ Immunity: Immune to cold\neffects and damage and cold\nbased attacks and spells.\n▷ Infravision: 60’.\n▷ Vulnerable to fire: 50% extra\ndamage.\nIRON LIVING STATUE\nAC  2  [17],  HD   4  (18hp),  Att   2  ×\nblow (1d8),  THAC0  16 [+3],  MV\n30’ (10’),  SV  D10 W11 P12 B13 S14\n(4),  ML  11,  AL  Neutral,  XP  75\n▷ Absorb metals: Hits with\nnon-magical, metal weapons\ncause damage, but the\nweapon may become stuck\nin the statue (save versus\nspells). Stuck weapons can be\nremoved if the statue is killed.\n▷ Immunity: Unaffected by\nsleep spells.\nLUNE YETI\nLarge (8’ tall), ape-like, man-\neating monsters, the yetis of the\nLune Mountains have their fur\ncovered in icy crystals that have a\nchance to reflect magic.\nAC  4 [15],  HD  4+2** (21hp),  Att  2\n× claw (1d6),  THAC0  15 [+4],  MV\n150’  (50’),  SV   D10  W11  P12  B13\nS14  (4),  ML   8,  AL   Neutral,  XP\n275,  NA  1d6 (1d6),  TT  D\n▷ Damage reduction: Half\ndamage from magical\nweapons.\n▷ Magic resistance: +4 bonus\nto all saving throws against\nmagic.\n▷ Spell turning: 10% chance of\nreflecting spells back onto the\ncaster.\n▷ Surprise: On a 1-4, due to\ncamouflage in snow and ice.\n▷ Vulnerable to fire: 50% extra\ndamage.\nROWAYN, THE ETERNAL\nKNIGHT\nAn ageless man with white hair,\neyes as hard and distant as a\nwinter sky, wears an elaborately\netched plate mail. A sacred\nwight knight, sworn to guard the\ncrowning hall and the fountain of\nSt. Brynedd.\nAC  2 [17],  HD  6* (27hp),  Att  2 ×\nlong sword +1 (1d8 + 1),  THAC0\n14  [+5],  MV   90’  (30’),  SV   D10\nW11  P12  B13  S14  (6),  ML   12,  AL\nLawful,  XP  500\n▷ Equipment: Wears an ornate\nplate mail +1, wields a long\nsword +1.\n▷ Mundane weapon\nimmunity: Only harmed by\nsilver weapons or magic.\n▷ Undead: Makes no noise, until\nit attacks. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\nSKELETON\nAC  7  [12],  HD   1  (4hp),  Att   1  x\nweapon  (1d6  or  by  weapon),\nTHAC0  19 [0],  MV  60’ (20’),  SV\nD12 W13 P14 B15 S16 (1),  ML  12,\nAL  Chaotic,  XP  10\n▷ Undead: Make no noise, until\nthey attack. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\nTREANT\nAC  2 [17],  HD  8 (36hp),  Att  2 ×\nfist  (2d6),  THAC0   12  [+7],  MV\n60’ (20’),  SV  D8 W9 P10 B10 S12\n(8),  ML  9,  AL  Lawful,  XP  650\n▷ Distrust fire: And those who\nwield it.\n▷ Surprise: On a 1–3, in a forest,\ndue to being mistaken for a\ntree. Encounter occurs at 30\nyards or less.\n▷ Animate trees: Each\nindividual can animate 2 trees\n(within 60’; may switch trees\nat will). These fight as treants\nwith movement rate 30’ (10’).\nWIGHT\nAC  5 [14],  HD  3* (13hp),  Att  1 ×\ntouch  (energy  drain),  THAC0\n17  [+2],  MV   90’  (30’),  SV  D12\nW13  P14  B15  S16  (3),  ML   12,  AL\nChaotic,  XP  50\n▷ Undead: Make no noise, until\nthey attack. Immune to effects\nthat affect living creatures\n(e.g. poison). Immune to\nmind-affecting or mind-\nreading spells (e.g. charm,\nhold, sleep).\n▷ Mundane weapon\nimmunity: Only harmed by\nsilver weapons or magic.\n▷ Energy drain: A successfully\nhit target permanently loses\none experience level (or\nHit Die). This incurs a loss\nof one Hit Die of hit points,\nas well as all other benefits\ndue to the drained level (e.g.\nspells, saving throws, etc.). A\ncharacter’s XP is reduced to\nhalfway between the former\nand new levels. A person\ndrained of all levels becomes\na wight in 1d4 days, under the\ncontrol of the wight that killed\nthem.\nWOLF\nAC  7 [12],  HD  2+2 (11hp),  Att  1 ×\nbite  (1d6),  THAC0   17  [+2],  MV\n180’  (60’),  SV   D12  W13  P14  B15\nS16 (1),  ML  6 (8 in larger packs),\nAL  Neutral,  XP  25\n▷ Training: At the referee’s\ndiscretion, captured cubs may\nbe trained like dogs. Wolves\nare difficult to train.\n▷ Strength in numbers:\nPacks of 4 or more wolves\nhave morale 8. If the pack is\nreduced to less than 50% of\nits original size, this morale\nbonus is lost.",
     "labels": [],
-    "text_bytes": 10244,
+    "text_bytes": 7659,
     "keyed_area": null,
     "style": {
       "size": 35.0,
@@ -1152,6 +1496,7 @@
   {
     "unit_id": "p41.appendix",
     "heading": "Appendix",
+    "heading_path": [],
     "pages": [
       41
     ],
@@ -1170,6 +1515,9 @@
   {
     "unit_id": "p41.the-knight-s-movement",
     "heading": "The Knight’s Movement",
+    "heading_path": [
+      "Appendix"
+    ],
     "pages": [
       41
     ],
@@ -1188,14 +1536,16 @@
   {
     "unit_id": "p41.the-chessboard-puzzle",
     "heading": "The Chessboard Puzzle",
+    "heading_path": [
+      "Appendix"
+    ],
     "pages": [
-      41,
-      42
+      41
     ],
     "column": 0,
-    "text": "The Chessboard Puzzle\nSolving the chessboard puzzle in the enchanted secret garden (room\n17) is required to open the passage to room 18. Players may find hints\non the marble inscription in the same room, as well as in the scroll in\nroom 7.\nIf you want, you may print the hand-outs in the following page.\n37\n38",
+    "text": "The Chessboard Puzzle\nSolving the chessboard puzzle in the enchanted secret garden (room\n17) is required to open the passage to room 18. Players may find hints\non the marble inscription in the same room, as well as in the scroll in\nroom 7.\nIf you want, you may print the hand-outs in the following page.",
     "labels": [],
-    "text_bytes": 309,
+    "text_bytes": 303,
     "keyed_area": null,
     "style": {
       "size": 21.0,
@@ -1207,13 +1557,14 @@
   {
     "unit_id": "p43.open-game-licence",
     "heading": "OPEN GAME LICENCE",
+    "heading_path": [],
     "pages": [
       43
     ],
     "column": -1,
-    "text": "OPEN GAME LICENCE\nDESIGNATION OF PRODUCT IDENTITY\nAll artwork, logos, and presentation are product identity.\nThe name “Falkrest Abbey” is product identity. All text\nnot declared as Open Game Content is product identity.\nDESIGNATION OF OPEN GAME CONTENT\nThe stat blocks and description in the Monsters section\nare Open Game Content.\nThe winter clothes and yeti oil described in the Jora’s Last\nInn and Emporium section are Open Game Content.\nOPEN GAME LICENSE Version 1.0a\nThe  following  text  is  the  property  of  Wizards  of  the\nCoast, Inc. and is Copyright 2000 Wizards of the Coast,\nInc (“Wizards”). All Rights Reserved.\n1.  Definitions:  (a)”Contributors”  means  the  copyright\nand/or  trademark  owners  who  have  contributed\nOpen  Game  Content;  (b)”Derivative  Material”  means\ncopyrighted  material  including  derivative  works  and\ntranslations (including into other computer languages),\npotation,  modification,  correction,  addition,  extension,\nupgrade,  improvement,  compilation,  abridgment  or\nother  form  in  which  an  existing  work  may  be  recast,\ntransformed  or  adapted;  (c)  “Distribute”  means  to\nreproduce,  license,  rent,  lease,  sell,  broadcast,  publicly\ndisplay, transmit or otherwise distribute; (d)”Open Game\nContent”  means  the  game  mechanic  and  includes  the\nmethods,  procedures,  processes  and  routines  to  the\nextent  such  content  does  not  embody  the  Product\nIdentity and is an enhancement over the prior art and\nany additional content clearly identified as Open Game\nContent by the Contributor, and means any work covered\nby  this  License,  including  translations  and  derivative\nworks  under  copyright  law,  but  specifically  excludes\nProduct Identity. (e) “Product Identity” means product\nand product line names, logos and identifying\nmarks  including  trade  dress;  artifacts;  creatures\ncharacters; stories, storylines, plots, thematic elements,\ndialogue,  incidents,  language,  artwork,  symbols,\ndesigns, depictions, likenesses, formats, poses, concepts,\nthemes  and  graphic,  photographic  and  other  visual\nor  audio  representations;  names  and  descriptions  of\ncharacters,  spells,  enchantments,  personalities,  teams,\npersonas,  likenesses  and  special  abilities;  places,\nlocations, environments, creatures, equipment, magical\nor  supernatural  abilities  or  effects,  logos,  symbols,  or\ngraphic designs; and any other trademark or registered\ntrademark clearly identified as Product identity by the\nowner  of  the  Product  Identity,  and  which  specifically\nexcludes  the  Open  Game  Content;  (f)  “Trademark”\nmeans the logos, names, mark, sign, motto, designs that\nare used by a Contributor to identify itself or its products\nor the associated products contributed to the Open Game\nLicense by the Contributor (g) “Use”, “Used” or “Using”\nmeans  to  use,  Distribute,  copy,  edit,  format,  modify,\ntranslate  and  otherwise  create  Derivative  Material  of\nOpen  Game  Content.  (h)  “You”  or  “Your”  means  the\nlicensee in terms of this agreement.\n2. The License: This License applies to any Open Game\nContent that contains a notice indicating that the Open\nGame Content may only be Used under and in terms of\nthis License. You must affix such a notice to any Open\nGame Content that you Use. No terms may be added to\nor subtracted from this License except as described by\nthe License itself. No other terms or conditions may be\napplied to any Open Game Content distributed using this\nLicense.\n3.Offer and Acceptance: By Using the Open Game Content\nYou indicate Your acceptance of the terms of this License.\n4.  Grant  and  Consideration:  In  consideration  for\nagreeing to use this License, the Contributors grant You\na  perpetual,  worldwide,  royalty-  free,  non-exclusive\nlicense with the exact terms of this License to Use, the\nOpen Game Content.\n5.Representation of Authority to Contribute: If You are\ncontributing  original  material  as  Open  Game  Content,\nYou represent that Your Contributions are Your original\ncreation  and/or You  have  sufficient  rights  to  grant  the\nrights conveyed by this License.\n6.Notice  of  License  Copyright:  You  must  update  the\nCOPYRIGHT NOTICE portion of this License to include\nthe exact text of\nthe COPYRIGHT NOTICE of any Open Game Content You\nare  copying,  modifying  or  distributing,  and  You  must\nadd the\ntitle, the copyright date, and the copyright holder’s name\nto the COPYRIGHT NOTICE of any original Open Game\nContent you Distribute.\n7.  Use  of  Product  Identity:  You  agree  not  to  Use  any\nProduct  Identity,  including  as  an  indication  as  to\ncompatibility,  except  as  expressly  licensed  in  another,\nindependent Agreement with the owner of each element\nof  that  Product  Identity.  You  agree  not  to  indicate\ncompatibility  or  co-adaptability  with  any  Trademark\nor  Registered  Trademark  in  conjunction  with  a  work\ncontaining  Open  Game  Content  except  as  expressly\nlicensed  in  another,  independent  Agreement  with  the\nowner  of  such  Trademark  or  Registered  Trademark.\nThe use of any Product Identity in Open Game Content\ndoes not constitute a challenge to the ownership of that\nProduct Identity. The owner of any Product Identity used\nin Open Game\nContent shall retain all rights, title and interest in and to\nthat Product Identity.\n8.  Identification:  If  you  distribute  Open  Game  Content\nYou  must  clearly  indicate  which  portions  of  the  work\nthat you are distributing are Open Game Content.\n9.  Updating  the  License:  Wizards  or  its  designated\nAgents  may  publish  updated  versions  of  this  License.\nYou may use any authorized version of this License to\ncopy,  modify  and  distribute  any  Open  Game  Content\noriginally distributed under any version of this License.\n10 Copy of this License: You MUST include a copy of this\nLicense with every copy of the Open Game Content You\nDistribute.\n11.  Use  of  Contributor  Credits: You  may  not  market  or\nadvertise the Open Game Content using the name of any\nContributor  unless  You  have  written  permission  from\nthe Contributor to do so.\n12  Inability  to  Comply:  If  it  is  impossible  for  You  to\ncomply with any of the terms of this License with respect\nto some or all of the Open Game Content due to statute,\njudicial order, or governmental regulation then You may\nnot Use any Open Game Material so affected.\n13 Termination: This License will terminate automatically\nif You fail to comply with all terms herein and fail to cure\nsuch  breach  within  30  days  of  becoming  aware  of  the\nbreach. All sublicenses shall survive the termination of\nthis License.\n14 Reformation: If any provision of this License is held to\n39",
+    "text": "OPEN GAME LICENCE\nDESIGNATION OF PRODUCT IDENTITY\nAll artwork, logos, and presentation are product identity.\nThe name “Falkrest Abbey” is product identity. All text\nnot declared as Open Game Content is product identity.\nDESIGNATION OF OPEN GAME CONTENT\nThe stat blocks and description in the Monsters section\nare Open Game Content.\nThe winter clothes and yeti oil described in the Jora’s Last\nInn and Emporium section are Open Game Content.\nOPEN GAME LICENSE Version 1.0a\nThe  following  text  is  the  property  of  Wizards  of  the\nCoast, Inc. and is Copyright 2000 Wizards of the Coast,\nInc (“Wizards”). All Rights Reserved.\n1.  Definitions:  (a)”Contributors”  means  the  copyright\nand/or  trademark  owners  who  have  contributed\nOpen  Game  Content;  (b)”Derivative  Material”  means\ncopyrighted  material  including  derivative  works  and\ntranslations (including into other computer languages),\npotation,  modification,  correction,  addition,  extension,\nupgrade,  improvement,  compilation,  abridgment  or\nother  form  in  which  an  existing  work  may  be  recast,\ntransformed  or  adapted;  (c)  “Distribute”  means  to\nreproduce,  license,  rent,  lease,  sell,  broadcast,  publicly\ndisplay, transmit or otherwise distribute; (d)”Open Game\nContent”  means  the  game  mechanic  and  includes  the\nmethods,  procedures,  processes  and  routines  to  the\nextent  such  content  does  not  embody  the  Product\nIdentity and is an enhancement over the prior art and\nany additional content clearly identified as Open Game\nContent by the Contributor, and means any work covered\nby  this  License,  including  translations  and  derivative\nworks  under  copyright  law,  but  specifically  excludes\nProduct Identity. (e) “Product Identity” means product\nand product line names, logos and identifying\nmarks  including  trade  dress;  artifacts;  creatures\ncharacters; stories, storylines, plots, thematic elements,\ndialogue,  incidents,  language,  artwork,  symbols,\ndesigns, depictions, likenesses, formats, poses, concepts,\nthemes  and  graphic,  photographic  and  other  visual\nor  audio  representations;  names  and  descriptions  of\ncharacters,  spells,  enchantments,  personalities,  teams,\npersonas,  likenesses  and  special  abilities;  places,\nlocations, environments, creatures, equipment, magical\nor  supernatural  abilities  or  effects,  logos,  symbols,  or\ngraphic designs; and any other trademark or registered\ntrademark clearly identified as Product identity by the\nowner  of  the  Product  Identity,  and  which  specifically\nexcludes  the  Open  Game  Content;  (f)  “Trademark”\nmeans the logos, names, mark, sign, motto, designs that\nare used by a Contributor to identify itself or its products\nor the associated products contributed to the Open Game\nLicense by the Contributor (g) “Use”, “Used” or “Using”\nmeans  to  use,  Distribute,  copy,  edit,  format,  modify,\ntranslate  and  otherwise  create  Derivative  Material  of\nOpen  Game  Content.  (h)  “You”  or  “Your”  means  the\nlicensee in terms of this agreement.\n2. The License: This License applies to any Open Game\nContent that contains a notice indicating that the Open\nGame Content may only be Used under and in terms of\nthis License. You must affix such a notice to any Open\nGame Content that you Use. No terms may be added to\nor subtracted from this License except as described by\nthe License itself. No other terms or conditions may be\napplied to any Open Game Content distributed using this\nLicense.\n3.Offer and Acceptance: By Using the Open Game Content\nYou indicate Your acceptance of the terms of this License.\n4.  Grant  and  Consideration:  In  consideration  for\nagreeing to use this License, the Contributors grant You\na  perpetual,  worldwide,  royalty-  free,  non-exclusive\nlicense with the exact terms of this License to Use, the\nOpen Game Content.\n5.Representation of Authority to Contribute: If You are\ncontributing  original  material  as  Open  Game  Content,\nYou represent that Your Contributions are Your original\ncreation  and/or You  have  sufficient  rights  to  grant  the\nrights conveyed by this License.\n6.Notice  of  License  Copyright:  You  must  update  the\nCOPYRIGHT NOTICE portion of this License to include\nthe exact text of\nthe COPYRIGHT NOTICE of any Open Game Content You\nare  copying,  modifying  or  distributing,  and  You  must\nadd the\ntitle, the copyright date, and the copyright holder’s name\nto the COPYRIGHT NOTICE of any original Open Game\nContent you Distribute.\n7.  Use  of  Product  Identity:  You  agree  not  to  Use  any\nProduct  Identity,  including  as  an  indication  as  to\ncompatibility,  except  as  expressly  licensed  in  another,\nindependent Agreement with the owner of each element\nof  that  Product  Identity.  You  agree  not  to  indicate\ncompatibility  or  co-adaptability  with  any  Trademark\nor  Registered  Trademark  in  conjunction  with  a  work\ncontaining  Open  Game  Content  except  as  expressly\nlicensed  in  another,  independent  Agreement  with  the\nowner  of  such  Trademark  or  Registered  Trademark.\nThe use of any Product Identity in Open Game Content\ndoes not constitute a challenge to the ownership of that\nProduct Identity. The owner of any Product Identity used\nin Open Game\nContent shall retain all rights, title and interest in and to\nthat Product Identity.\n8.  Identification:  If  you  distribute  Open  Game  Content\nYou  must  clearly  indicate  which  portions  of  the  work\nthat you are distributing are Open Game Content.\n9.  Updating  the  License:  Wizards  or  its  designated\nAgents  may  publish  updated  versions  of  this  License.\nYou may use any authorized version of this License to\ncopy,  modify  and  distribute  any  Open  Game  Content\noriginally distributed under any version of this License.\n10 Copy of this License: You MUST include a copy of this\nLicense with every copy of the Open Game Content You\nDistribute.\n11.  Use  of  Contributor  Credits: You  may  not  market  or\nadvertise the Open Game Content using the name of any\nContributor  unless  You  have  written  permission  from\nthe Contributor to do so.\n12  Inability  to  Comply:  If  it  is  impossible  for  You  to\ncomply with any of the terms of this License with respect\nto some or all of the Open Game Content due to statute,\njudicial order, or governmental regulation then You may\nnot Use any Open Game Material so affected.\n13 Termination: This License will terminate automatically\nif You fail to comply with all terms herein and fail to cure\nsuch  breach  within  30  days  of  becoming  aware  of  the\nbreach. All sublicenses shall survive the termination of\nthis License.\n14 Reformation: If any provision of this License is held to",
     "labels": [],
-    "text_bytes": 6782,
+    "text_bytes": 6779,
     "keyed_area": null,
     "style": {
       "size": 35.0,
@@ -1225,15 +1576,16 @@
   {
     "unit_id": "p44.open-game-licence",
     "heading": "OPEN GAME LICENCE",
+    "heading_path": [],
     "pages": [
       44,
       45,
       46
     ],
     "column": -1,
-    "text": "OPEN GAME LICENCE\nbe unenforceable, such provision shall be reformed only\nto the extent necessary to make it enforceable.\n15 COPYRIGHT NOTICE\nOpen Game License v 1.0 © 2000, Wizards of the Coast,\nInc. System Reference Document © 2000, Wizards of the\nCoast, Inc.;\nAuthors  Jonathan  Tweet,  Monte  Cook,  Skip  Williams,\nbased on original material by E. Gary Gygax and Dave\nArneson.\nSystem Reference Document © 2000-2003, Wizards of\nthe  Coast,  Inc.;  Authors  Jonathan  Tweet,  Monte  Cook,\nSkip Williams, Rich Baker, Andy Collins, David Noonan,\nRich Redman, Bruce R. Cordell, John D. Rateliff, Thomas\nReid, James Wyatt, based on original material by E. Gary\nGygax and Dave Arneson.\nModern  System  Reference  Document  ©  2002-2004,\nWizards  of  the  Coast,  Inc.;  Authors  Bill  Slavicsek,  Jeff\nGrubb,  Rich  Redman,  Charles  Ryan,  Eric  Cagle,  David\nNoonan, Stan!, Christopher Perkins, Rodney Thompson,\nand  JD  Wiker,  based  on  material  by  Jonathan  Tweet,\nMonte  Cook,  Skip  Williams,  Richard  Baker,  Peter\nAdkison, Bruce R. Cordell, John Tynes, Andy Collins, and\nJD Wiker.\nCastles  &  Crusades:  Players  Handbook,  ©  2004,  Troll\nLord Games; Authors Davis Chenault and Mac Golden.\nCave  Cricket  from  the  Tome  of  Horrors,  ©  2002,\nNecromancer  Games,  Inc.;  Authors  Scott  Greene  and\nClark  Peterson,  based  on  original  material  by  Gary\nGygax.\nCrab,  Monstrous  from  the  Tome  of  Horrors,  ©  2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene,  based\non original material by Gary Gygax.\nFly,  Giant  from  the  Tome  of  Horrors,  ©  2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene,  based\non original material by Gary Gygax.\nGolem,  Wood  from  the  Tome  of  Horrors,  ©  2002,\nNecromancer  Games,  Inc.;  Authors  Scott  Greene  and\nPatrick Lawinger.\nKamadan  from  the  Tome  of  Horrors,  ©  2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene,  based\non original material by Nick Louth. Rot Grub from the\nTome  of  Horrors,  ©  2002,  Necromancer  Games,  Inc.;\nAuthors  Scott  Greene  and  Clark  Peterson,  based  on\noriginal material by Gary Gygax.\nLabyrinth LordTM © 2007-2009, Daniel Proctor. Author\nDaniel Proctor.\nCaryatid Column from the Tome of Horrors, Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Jean Wells.\nCoffer  Corpse  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Simon Eaton.\nDark  Creeper  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Rik Shepard.\nDisenchanter  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original\nmaterial by Roger Musson.\nEye  of  the  Deep  from  the  Tome  of  Horrors,  Copyright\n2002,Necromancer  Games,  Inc.;  Author  Scott  Greene,\nbased on original material by Gary Gygax.\nFlail Snail from the Tome of Horrors, Copyright 2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene,  based\non original material by Simon Tilbrook.\n40\nGas Spore from the Tome of Horrors, Copyright 2002,\nNecromancer  Games,  Inc.;  Authors  Scott  Greene  and\nClark  Peterson,  based  on  original  material  by  Gary\nGygax.\nHippocampus  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.;  Author  Scott  Greene\nand  Erica  Balsley,  based  on  original  material  by  Gary\nGygax.\nJackalwere from the Tome of Horrors, Copyright 2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene,  based\non original material by Gary Gygax.\nLurker  Above  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Gary Gygax.\nNecrophidius  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Simon Tilbrook.\nPiercer  from  the  Tome  of  Horrors,  Copyright  2002,\nNecromancer  Games,  Inc.;  Authors  Scott  Greene  and\nClark  Peterson,  based  on  original  material  by  Gary\nGygax.\nRot  Grub  from  the  Tome  of  Horrors,  Copyright  2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene  and\nClark  Peterson,  based  on  original  material  by  Gary\nGygax.\nSlithering Tracker from the Tome of Horrors, Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Gary Gygax.\nStrangle  Weed  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Gary Gygax.\nTrapper  from  the  Tome  of  Horrors,  Copyright  2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene,  based\non original material by Gary Gygax.\nB/X Essentials: Core Rules © 2017 Gavin Norman. Author\nGavin Norman.\nB/X  Essentials:  Classes  and  Equipment  ©  2017  Gavin\nNorman. Author Gavin Norman.\nB/X  Essentials:  Cleric  and  Magic-User  Spells  ©  2017\nGavin Norman. Author Gavin Norman.\nB/X Essentials: Monsters © 2017 Gavin Norman. Author\nGavin Norman.\nB/X Essentials: Adventures and Treasures © 2018 Gavin\nNorman. Author Gavin Norman.\nOld-School Essentials Core Rules © 2018 Gavin Norman.\nOld-School Essentials Classic Fantasy: Genre Rules © 2018\nGavin Norman.\nOld-School Essentials Classic Fantasy: Cleric and Magic-\nUser Spells © 2018 Gavin Norman.\nOld-School  Essentials  Classic  Fantasy:  Monsters  ©  2018\nGavin Norman.\nOld-School  Essentials  Classic  Fantasy:  Treasures  ©  2018\nGavin Norman.\nOld-School Essentials Classic Fantasy: Rules Tome © 2019\nGavin Norman.\nOld-School  Essentials  Advanced  Fantasy:  Monsters  ©\n2020 Gavin Norman.\nOld-School  Essentials  Advanced  Fantasy:  Treasures  ©\n2020 Gavin Norman.\nOld-School Essentials Advanced Fantasy: Referee’s Tome ©\n2020 Gavin Norman.\nFalkrest  Abbey,  ©  2022  Giuseppe  Rotondo;  Authors\nAndrea Mollica, Giuseppe Rotondo.\nIf you've enjoyed  Falkrest Abbey ,\ncome check our other PRODUCTS!\nThe forlorn Falkrest Abbey in the icy Lune Mountains is\nwhere the Queens and Kings of Yore used to be crowned\nand buried, along with their treasures. According to\nlegends, the Fountain of St. Brynedd still pours its\nmiraculous water somewhere inside.\nBut what caused the fall of the blessed Abbey?\n42",
+    "text": "OPEN GAME LICENCE\nbe unenforceable, such provision shall be reformed only\nto the extent necessary to make it enforceable.\n15 COPYRIGHT NOTICE\nOpen Game License v 1.0 © 2000, Wizards of the Coast,\nInc. System Reference Document © 2000, Wizards of the\nCoast, Inc.;\nAuthors  Jonathan  Tweet,  Monte  Cook,  Skip  Williams,\nbased on original material by E. Gary Gygax and Dave\nArneson.\nSystem Reference Document © 2000-2003, Wizards of\nthe  Coast,  Inc.;  Authors  Jonathan  Tweet,  Monte  Cook,\nSkip Williams, Rich Baker, Andy Collins, David Noonan,\nRich Redman, Bruce R. Cordell, John D. Rateliff, Thomas\nReid, James Wyatt, based on original material by E. Gary\nGygax and Dave Arneson.\nModern  System  Reference  Document  ©  2002-2004,\nWizards  of  the  Coast,  Inc.;  Authors  Bill  Slavicsek,  Jeff\nGrubb,  Rich  Redman,  Charles  Ryan,  Eric  Cagle,  David\nNoonan, Stan!, Christopher Perkins, Rodney Thompson,\nand  JD  Wiker,  based  on  material  by  Jonathan  Tweet,\nMonte  Cook,  Skip  Williams,  Richard  Baker,  Peter\nAdkison, Bruce R. Cordell, John Tynes, Andy Collins, and\nJD Wiker.\nCastles  &  Crusades:  Players  Handbook,  ©  2004,  Troll\nLord Games; Authors Davis Chenault and Mac Golden.\nCave  Cricket  from  the  Tome  of  Horrors,  ©  2002,\nNecromancer  Games,  Inc.;  Authors  Scott  Greene  and\nClark  Peterson,  based  on  original  material  by  Gary\nGygax.\nCrab,  Monstrous  from  the  Tome  of  Horrors,  ©  2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene,  based\non original material by Gary Gygax.\nFly,  Giant  from  the  Tome  of  Horrors,  ©  2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene,  based\non original material by Gary Gygax.\nGolem,  Wood  from  the  Tome  of  Horrors,  ©  2002,\nNecromancer  Games,  Inc.;  Authors  Scott  Greene  and\nPatrick Lawinger.\nKamadan  from  the  Tome  of  Horrors,  ©  2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene,  based\non original material by Nick Louth. Rot Grub from the\nTome  of  Horrors,  ©  2002,  Necromancer  Games,  Inc.;\nAuthors  Scott  Greene  and  Clark  Peterson,  based  on\noriginal material by Gary Gygax.\nLabyrinth LordTM © 2007-2009, Daniel Proctor. Author\nDaniel Proctor.\nCaryatid Column from the Tome of Horrors, Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Jean Wells.\nCoffer  Corpse  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Simon Eaton.\nDark  Creeper  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Rik Shepard.\nDisenchanter  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original\nmaterial by Roger Musson.\nEye  of  the  Deep  from  the  Tome  of  Horrors,  Copyright\n2002,Necromancer  Games,  Inc.;  Author  Scott  Greene,\nbased on original material by Gary Gygax.\nFlail Snail from the Tome of Horrors, Copyright 2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene,  based\non original material by Simon Tilbrook.\nGas Spore from the Tome of Horrors, Copyright 2002,\nNecromancer  Games,  Inc.;  Authors  Scott  Greene  and\nClark  Peterson,  based  on  original  material  by  Gary\nGygax.\nHippocampus  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.;  Author  Scott  Greene\nand  Erica  Balsley,  based  on  original  material  by  Gary\nGygax.\nJackalwere from the Tome of Horrors, Copyright 2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene,  based\non original material by Gary Gygax.\nLurker  Above  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Gary Gygax.\nNecrophidius  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Simon Tilbrook.\nPiercer  from  the  Tome  of  Horrors,  Copyright  2002,\nNecromancer  Games,  Inc.;  Authors  Scott  Greene  and\nClark  Peterson,  based  on  original  material  by  Gary\nGygax.\nRot  Grub  from  the  Tome  of  Horrors,  Copyright  2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene  and\nClark  Peterson,  based  on  original  material  by  Gary\nGygax.\nSlithering Tracker from the Tome of Horrors, Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Gary Gygax.\nStrangle  Weed  from  the  Tome  of  Horrors,  Copyright\n2002,  Necromancer  Games,  Inc.; Author  Scott  Greene,\nbased on original material by Gary Gygax.\nTrapper  from  the  Tome  of  Horrors,  Copyright  2002,\nNecromancer  Games,  Inc.;  Author  Scott  Greene,  based\non original material by Gary Gygax.\nB/X Essentials: Core Rules © 2017 Gavin Norman. Author\nGavin Norman.\nB/X  Essentials:  Classes  and  Equipment  ©  2017  Gavin\nNorman. Author Gavin Norman.\nB/X  Essentials:  Cleric  and  Magic-User  Spells  ©  2017\nGavin Norman. Author Gavin Norman.\nB/X Essentials: Monsters © 2017 Gavin Norman. Author\nGavin Norman.\nB/X Essentials: Adventures and Treasures © 2018 Gavin\nNorman. Author Gavin Norman.\nOld-School Essentials Core Rules © 2018 Gavin Norman.\nOld-School Essentials Classic Fantasy: Genre Rules © 2018\nGavin Norman.\nOld-School Essentials Classic Fantasy: Cleric and Magic-\nUser Spells © 2018 Gavin Norman.\nOld-School  Essentials  Classic  Fantasy:  Monsters  ©  2018\nGavin Norman.\nOld-School  Essentials  Classic  Fantasy:  Treasures  ©  2018\nGavin Norman.\nOld-School Essentials Classic Fantasy: Rules Tome © 2019\nGavin Norman.\nOld-School  Essentials  Advanced  Fantasy:  Monsters  ©\n2020 Gavin Norman.\nOld-School  Essentials  Advanced  Fantasy:  Treasures  ©\n2020 Gavin Norman.\nOld-School Essentials Advanced Fantasy: Referee’s Tome ©\n2020 Gavin Norman.\nFalkrest  Abbey,  ©  2022  Giuseppe  Rotondo;  Authors\nAndrea Mollica, Giuseppe Rotondo.\nIf you've enjoyed  Falkrest Abbey ,\ncome check our other PRODUCTS!\nThe forlorn Falkrest Abbey in the icy Lune Mountains is\nwhere the Queens and Kings of Yore used to be crowned\nand buried, along with their treasures. According to\nlegends, the Fountain of St. Brynedd still pours its\nmiraculous water somewhere inside.\nBut what caused the fall of the blessed Abbey?",
     "labels": [],
-    "text_bytes": 6297,
+    "text_bytes": 6291,
     "keyed_area": null,
     "style": {
       "size": 35.0,

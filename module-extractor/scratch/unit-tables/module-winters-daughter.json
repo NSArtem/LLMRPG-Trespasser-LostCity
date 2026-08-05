@@ -2,31 +2,14 @@
   {
     "unit_id": "p3.writing-play-test-referees",
     "heading": "Writing Play Test Referees",
+    "heading_path": [],
     "pages": [
       3
     ],
     "column": 0,
-    "text": "Writing Play Test Referees\nGavin Norman John Anthony",
+    "text": "Writing Play Test Referees\nGavin Norman John Anthony\nOriginal Concept Nicholas Montegriffo\nNicholas Montegriffo  Frederick Münch\nFrederick Münch  Gavin Norman\nGavin Norman Alberto Voglino",
     "labels": [],
-    "text_bytes": 52,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p3.original-concept",
-    "heading": "Original Concept",
-    "pages": [
-      3
-    ],
-    "column": 0,
-    "text": "Original Concept\nNicholas Montegriffo\nNicholas Montegriffo  Frederick Münch\nFrederick Münch  Gavin Norman\nGavin Norman Alberto Voglino",
-    "labels": [],
-    "text_bytes": 136,
+    "text_bytes": 189,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -38,6 +21,7 @@
   {
     "unit_id": "p3.layout-proofreaders",
     "heading": "Layout Proofreaders",
+    "heading_path": [],
     "pages": [
       3
     ],
@@ -54,13 +38,14 @@
     }
   },
   {
-    "unit_id": "p3.cover-illustration",
-    "heading": "Cover Illustration",
+    "unit_id": "p3.cover-illustration-sándor-gebei",
+    "heading": "Cover Illustration Sándor Gebei",
+    "heading_path": [],
     "pages": [
       3
     ],
     "column": 0,
-    "text": "Cover Illustration\nSándor Gebei\nMish Scott Colin Green",
+    "text": "Cover Illustration Sándor Gebei\nMish Scott Colin Green",
     "labels": [],
     "text_bytes": 55,
     "keyed_area": null,
@@ -72,33 +57,16 @@
     }
   },
   {
-    "unit_id": "p3.interior-illustrations",
-    "heading": "Interior Illustrations",
+    "unit_id": "p3.interior-illustrations-frederick",
+    "heading": "Interior Illustrations Frederick Münch",
+    "heading_path": [],
     "pages": [
       3
     ],
     "column": 0,
-    "text": "Interior Illustrations\nFrederick Münch\nMish Scott Ray Otus\nFrank Reding",
+    "text": "Interior Illustrations Frederick Münch\nMish Scott Ray Otus\nFrank Reding\nCartography Brian Richmond\nKarl Stjernberg\nv3.1—Third printing—March 2021\nDolmenwood  and  Old-School Essentials  are trademarks of\nGavin Norman and  Necrotic Gnome . Text © Gavin Norman 2018.\nIllustrations © Mish Scott 2018. Maps © Karl Stjernberg 2019.",
     "labels": [],
-    "text_bytes": 72,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p3.cartography",
-    "heading": "Cartography",
-    "pages": [
-      3
-    ],
-    "column": 0,
-    "text": "Cartography\nBrian Richmond\nKarl Stjernberg\nv3.1—Third printing—March 2021\nDolmenwood  and  Old-School Essentials  are trademarks of\nGavin Norman and  Necrotic Gnome . Text © Gavin Norman 2018.\nIllustrations © Mish Scott 2018. Maps © Karl Stjernberg 2019.",
-    "labels": [],
-    "text_bytes": 261,
+    "text_bytes": 334,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -110,13 +78,14 @@
   {
     "unit_id": "p4.table-of-contents-table-of-conte",
     "heading": "Table of Contents Table of Contents",
+    "heading_path": [],
     "pages": [
       4
     ],
     "column": 0,
-    "text": "Table of Contents Table of Contents",
+    "text": "Table of Contents Table of Contents\nIntroduction 3 9. Chapel of St Sedge  15\nReferee’s Background  4 10. Abandoned Priest’s Quarters  15\nHooks 6 11. Statues With Weapons  16",
     "labels": [],
-    "text_bytes": 35,
+    "text_bytes": 177,
     "keyed_area": null,
     "style": {
       "size": 51.0,
@@ -126,15 +95,16 @@
     }
   },
   {
-    "unit_id": "p4.introduction-3",
-    "heading": "Introduction 3",
+    "unit_id": "p4.players-background-7-12-hall-of",
+    "heading": "Players’ Background  7 12. Hall of Hounds  16",
+    "heading_path": [],
     "pages": [
       4
     ],
     "column": 0,
-    "text": "Introduction 3\n9. Chapel of St Sedge  15",
+    "text": "Players’ Background  7 12. Hall of Hounds  16\nDolmenwood Lore  8 13. The Knight’s Tomb  17",
     "labels": [],
-    "text_bytes": 40,
+    "text_bytes": 94,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -144,105 +114,16 @@
     }
   },
   {
-    "unit_id": "p4.referee-s-background-4",
-    "heading": "Referee’s Background  4",
+    "unit_id": "p4.outside-the-mound-9-14-warded-po",
+    "heading": "Outside the Mound  9 14. Warded Pool  18",
+    "heading_path": [],
     "pages": [
       4
     ],
     "column": 0,
-    "text": "Referee’s Background  4\n10. Abandoned Priest’s Quarters  15",
+    "text": "Outside the Mound  9 14. Warded Pool  18\n1. Approaching the Burial Mound  9 The Fairy Prison  19\n2. The Whything Stones  10 15. Tower on a Frozen Lake  19\n3. Tomb Entrance  11 16. Entrance Hall  20\n4. Worm Hole  11 17. Fairy Kitchen  21\nThe Burial Mound  12 18. Wedding Feast  21\n5. Hall of Guardians  12 19. The Princess’s Bedchamber  22\n6. Blindfolded Statue  13 Epilogue 23\n7. Freezing Mirror  13 Magic Items  24\n8. Family Crypt  14",
     "labels": [],
-    "text_bytes": 63,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro-Semibold",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p4.hooks-6",
-    "heading": "Hooks 6",
-    "pages": [
-      4
-    ],
-    "column": 0,
-    "text": "Hooks 6\n11. Statues With Weapons  16",
-    "labels": [],
-    "text_bytes": 36,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro-Semibold",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p4.players-background-7",
-    "heading": "Players’ Background  7",
-    "pages": [
-      4
-    ],
-    "column": 0,
-    "text": "Players’ Background  7\n12. Hall of Hounds  16",
-    "labels": [],
-    "text_bytes": 47,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro-Semibold",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p4.dolmenwood-lore-8",
-    "heading": "Dolmenwood Lore  8",
-    "pages": [
-      4
-    ],
-    "column": 0,
-    "text": "Dolmenwood Lore  8\n13. The Knight’s Tomb  17",
-    "labels": [],
-    "text_bytes": 46,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro-Semibold",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p4.outside-the-mound-9",
-    "heading": "Outside the Mound  9",
-    "pages": [
-      4
-    ],
-    "column": 0,
-    "text": "Outside the Mound  9\n14. Warded Pool  18\n1. Approaching the Burial Mound  9 The Fairy Prison  19\n2. The Whything Stones  10 15. Tower on a Frozen Lake  19\n3. Tomb Entrance  11 16. Entrance Hall  20\n4. Worm Hole  11 17. Fairy Kitchen  21",
-    "labels": [],
-    "text_bytes": 236,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro-Semibold",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p4.the-burial-mound-12",
-    "heading": "The Burial Mound  12",
-    "pages": [
-      4
-    ],
-    "column": 0,
-    "text": "The Burial Mound  12\n18. Wedding Feast  21\n5. Hall of Guardians  12 19. The Princess’s Bedchamber  22\n6. Blindfolded Statue  13 Epilogue 23\n7. Freezing Mirror  13 Magic Items  24\n8. Family Crypt  14\n2",
-    "labels": [],
-    "text_bytes": 202,
+    "text_bytes": 437,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -254,6 +135,7 @@
   {
     "unit_id": "p5.introduction-introduction",
     "heading": "Introduction Introduction",
+    "heading_path": [],
     "pages": [
       5
     ],
@@ -272,13 +154,16 @@
   {
     "unit_id": "p5.about-this-adventure",
     "heading": "About This Adventure",
+    "heading_path": [
+      "Introduction Introduction"
+    ],
     "pages": [
       5
     ],
     "column": 0,
-    "text": "About This Adventure\nWinter’s Daughter\nis a short adventure\nset in  Dolmenwood , the weird fairy tale\ncampaign setting published by  Necrotic",
+    "text": "About This Adventure\nWinter’s Daughter is a short adventure\nset in  Dolmenwood , the weird fairy tale\ncampaign setting published by  Necrotic\nGnome . The adventure revolves around\nthe forbidden love of a mortal knight and\na fairy princess, in ancient times when\nthe two races waged war. The tomb of\nthe knight has lain sealed for centuries.\nIt conceals many secrets and (of course)\ntreasures.",
     "labels": [],
-    "text_bytes": 143,
+    "text_bytes": 394,
     "keyed_area": null,
     "style": {
       "size": 27.0,
@@ -288,33 +173,18 @@
     }
   },
   {
-    "unit_id": "p5.gnome",
-    "heading": "Gnome",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "Gnome\n. The adventure revolves around\nthe forbidden love of a mortal knight and\na fairy princess, in ancient times when\nthe two races waged war. The tomb of\nthe knight has lain sealed for centuries.\nIt conceals many secrets and (of course)\ntreasures.",
-    "labels": [],
-    "text_bytes": 250,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
     "unit_id": "p5.old-school-essentials",
     "heading": "Old-School Essentials",
+    "heading_path": [
+      "Introduction Introduction"
+    ],
     "pages": [
       5
     ],
     "column": 0,
-    "text": "Old-School Essentials\nThe referee requires a copy of  Old-School",
+    "text": "Old-School Essentials\nThe referee requires a copy of  Old-School\nEssentials to run this adventure. The\nClassic Fantasy and Advanced Fantasy\nflavours work equally well. Alternatively,\nthe classic Basic/Expert game or other\nderived rule set may be used.",
     "labels": [],
-    "text_bytes": 64,
+    "text_bytes": 251,
     "keyed_area": null,
     "style": {
       "size": 23.0,
@@ -324,26 +194,11 @@
     }
   },
   {
-    "unit_id": "p5.essentials",
-    "heading": "Essentials",
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "Essentials\nto run this adventure. The\nClassic Fantasy and Advanced Fantasy\nflavours work equally well. Alternatively,\nthe classic Basic/Expert game or other\nderived rule set may be used.",
-    "labels": [],
-    "text_bytes": 186,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
     "unit_id": "p5.character-levels-1-3",
     "heading": "Character Levels 1–3",
+    "heading_path": [
+      "Introduction Introduction"
+    ],
     "pages": [
       5
     ],
@@ -362,11 +217,14 @@
   {
     "unit_id": "p5.new-to-dolmenwood",
     "heading": "New to Dolmenwood?",
+    "heading_path": [
+      "Introduction Introduction"
+    ],
     "pages": [
       5
     ],
     "column": 1,
-    "text": "New to Dolmenwood?\nGroups who are new to the Dolmenwood\nsetting are encouraged to check out the\nWelcome to Dolmenwood\nPDF—for a\nquick, spoiler-free introduction to the\nsetting, including a short gazetteer—and\nthe  Dolmenwood Referee’s Map . Both are\navailable for free at  necroticgnome.com .",
+    "text": "New to Dolmenwood?\nGroups who are new to the Dolmenwood\nsetting are encouraged to check out the\nWelcome to Dolmenwood PDF—for a\nquick, spoiler-free introduction to the\nsetting, including a short gazetteer—and\nthe  Dolmenwood Referee’s Map . Both are\navailable for free at  necroticgnome.com .",
     "labels": [],
     "text_bytes": 298,
     "keyed_area": null,
@@ -378,15 +236,18 @@
     }
   },
   {
-    "unit_id": "p5.using-this-adventure",
-    "heading": "Using This Adventure",
+    "unit_id": "p5.using-this-adventure-in-dolmenwo",
+    "heading": "Using This Adventure in Dolmenwood",
+    "heading_path": [
+      "Introduction Introduction"
+    ],
     "pages": [
       5
     ],
     "column": 1,
-    "text": "Using This Adventure",
+    "text": "Using This Adventure in Dolmenwood\nReferees running games set in Dolmen-\nwood may locate this adventure in any\nhex outside of the Witching Ring, Chell.\nThe events of the adventure do not relate\nto any specific location within the forest.\nPlayers with an investigative bent may\ndiscover some secrets relating to the war\nbetween fairies and mortals that ravaged\nDolmenwood some nine centuries ago.\nThe referee could use these hooks to\nconnect this adventure into a wider cam-\npaign arc revolving around the attempts\nof the banished fairy lord—the Cold\nPrince—to return to claim Dolmenwood\nas his own.",
     "labels": [],
-    "text_bytes": 20,
+    "text_bytes": 602,
     "keyed_area": null,
     "style": {
       "size": 27.0,
@@ -396,51 +257,18 @@
     }
   },
   {
-    "unit_id": "p5.in-dolmenwood",
-    "heading": "in Dolmenwood",
+    "unit_id": "p5.using-this-adventure-in-other-se",
+    "heading": "Using This Adventure in Other Settings",
+    "heading_path": [
+      "Introduction Introduction"
+    ],
     "pages": [
       5
     ],
     "column": 1,
-    "text": "in Dolmenwood\nReferees running games set in Dolmen-\nwood may locate this adventure in any\nhex outside of the Witching Ring, Chell.\nThe events of the adventure do not relate\nto any specific location within the forest.\nPlayers with an investigative bent may\ndiscover some secrets relating to the war\nbetween fairies and mortals that ravaged\nDolmenwood some nine centuries ago.\nThe referee could use these hooks to\nconnect this adventure into a wider cam-\npaign arc revolving around the attempts\nof the banished fairy lord—the Cold\nPrince—to return to claim Dolmenwood\nas his own.",
+    "text": "Using This Adventure in Other Settings\nThe adventure can be set in any cool\nregion where one might expect to\nencounter icy fairies and rings of ancient\nstanding stones.\nThe referee may wish to work the back-\nground of the adventure into the setting,\nreplacing the Cold Prince with\nanother wicked fairy king. 3",
     "labels": [],
-    "text_bytes": 581,
-    "keyed_area": null,
-    "style": {
-      "size": 27.0,
-      "family": "AlbertText",
-      "bold": true,
-      "color": "#3952a3"
-    }
-  },
-  {
-    "unit_id": "p5.using-this-adventure-2",
-    "heading": "Using This Adventure",
-    "pages": [
-      5
-    ],
-    "column": 1,
-    "text": "Using This Adventure",
-    "labels": [],
-    "text_bytes": 20,
-    "keyed_area": null,
-    "style": {
-      "size": 27.0,
-      "family": "AlbertText",
-      "bold": true,
-      "color": "#3952a3"
-    }
-  },
-  {
-    "unit_id": "p5.in-other-settings",
-    "heading": "in Other Settings",
-    "pages": [
-      5
-    ],
-    "column": 1,
-    "text": "in Other Settings\nThe adventure can be set in any cool\nregion where one might expect to\nencounter icy fairies and rings of ancient\nstanding stones.\nThe referee may wish to work the back-\nground of the adventure into the setting,\nreplacing the Cold Prince with\nanother wicked fairy king. 3",
-    "labels": [],
-    "text_bytes": 288,
+    "text_bytes": 309,
     "keyed_area": null,
     "style": {
       "size": 27.0,
@@ -452,6 +280,7 @@
   {
     "unit_id": "p6.referee-s-background-referee-s-b",
     "heading": "Referee’s Background Referee’s Background",
+    "heading_path": [],
     "pages": [
       6
     ],
@@ -470,6 +299,9 @@
   {
     "unit_id": "p6.the-cold-prince",
     "heading": "The Cold Prince",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       6
     ],
@@ -488,6 +320,9 @@
   {
     "unit_id": "p6.the-love-of-mortal-and-fairy",
     "heading": "The Love of Mortal and Fairy",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       6
     ],
@@ -506,6 +341,9 @@
   {
     "unit_id": "p6.princess-snowfall-at-dusk-the-se",
     "heading": "▶ Princess Snowfall-at-Dusk:  The sev-",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       6
     ],
@@ -524,6 +362,9 @@
   {
     "unit_id": "p6.the-binding-ring-the-princess",
     "heading": "▶ The binding ring:  The princess",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       6
     ],
@@ -541,32 +382,17 @@
   },
   {
     "unit_id": "p6.eternity-see-ring-of-soul-bindin",
-    "heading": "eternity (see  Ring of Soul-Binding,",
+    "heading": "eternity (see  Ring of Soul-Binding, p24 ).",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       6
     ],
     "column": 0,
-    "text": "eternity (see  Ring of Soul-Binding,",
+    "text": "eternity (see  Ring of Soul-Binding, p24 ).",
     "labels": [],
-    "text_bytes": 36,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p6.p24",
-    "heading": "p24",
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "p24\n).\n4",
-    "labels": [],
-    "text_bytes": 8,
+    "text_bytes": 43,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -578,6 +404,9 @@
   {
     "unit_id": "p6.forbidden-love-discovered",
     "heading": "Forbidden Love Discovered",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       6
     ],
@@ -596,6 +425,9 @@
   {
     "unit_id": "p6.the-princess-imprisoned-his-spie",
     "heading": "▶ The princess imprisoned:  His spies",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       6
     ],
@@ -614,6 +446,9 @@
   {
     "unit_id": "p6.secret-communion-unbeknown",
     "heading": "▶ Secret communion:  Unbeknown",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       6
     ],
@@ -632,6 +467,9 @@
   {
     "unit_id": "p6.the-cold-prince-defeated",
     "heading": "The Cold Prince Defeated",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       6
     ],
@@ -650,6 +488,9 @@
   {
     "unit_id": "p6.ever-looming-threat-the-cold-pri",
     "heading": "▶ Ever-looming threat:  The Cold Prince",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       6
     ],
@@ -668,6 +509,9 @@
   {
     "unit_id": "p7.the-death-of-sir-chyde",
     "heading": "The Death of Sir Chyde",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       7
     ],
@@ -686,6 +530,9 @@
   {
     "unit_id": "p7.chapel-of-st-sedge-a-chapel-dedi",
     "heading": "▶ Chapel of St Sedge:  A chapel dedi-",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       7
     ],
@@ -704,6 +551,9 @@
   {
     "unit_id": "p7.the-effects-of-the-ring",
     "heading": "The Effects of the Ring",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       7
     ],
@@ -722,6 +572,9 @@
   {
     "unit_id": "p7.the-sealing-of-the-tomb",
     "heading": "The Sealing of the Tomb",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       7
     ],
@@ -740,6 +593,9 @@
   {
     "unit_id": "p7.the-priest-s-dreams-the-priest-w",
     "heading": "▶ The priest’s dreams:  The priest who",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       7
     ],
@@ -758,6 +614,9 @@
   {
     "unit_id": "p7.centuries-passed",
     "heading": "Centuries Passed",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       7
     ],
@@ -776,6 +635,9 @@
   {
     "unit_id": "p7.the-whything-stones-are-now-fre",
     "heading": "▶ The Whything stones:  Are now fre-",
+    "heading_path": [
+      "Referee’s Background Referee’s Background"
+    ],
     "pages": [
       7
     ],
@@ -794,6 +656,7 @@
   {
     "unit_id": "p8.hooks-hooks",
     "heading": "Hooks Hooks",
+    "heading_path": [],
     "pages": [
       8
     ],
@@ -812,6 +675,9 @@
   {
     "unit_id": "p8.dreams-of-the-lady",
     "heading": "Dreams of the Lady",
+    "heading_path": [
+      "Hooks Hooks"
+    ],
     "pages": [
       8
     ],
@@ -830,6 +696,10 @@
   {
     "unit_id": "p8.what-the-pcs-experience",
     "heading": "What the PCs Experience",
+    "heading_path": [
+      "Hooks Hooks",
+      "Dreams of the Lady"
+    ],
     "pages": [
       8
     ],
@@ -848,13 +718,17 @@
   {
     "unit_id": "p8.what-s-really-happening",
     "heading": "What’s Really Happening",
+    "heading_path": [
+      "Hooks Hooks",
+      "Dreams of the Lady"
+    ],
     "pages": [
       8
     ],
     "column": 0,
-    "text": "What’s Really Happening\n▶ Princess Snowfall-at-Dusk has discov-\nered a means of contacting the mortal\nworld via dream.\n▶ Her professed love is a trick: she\nmerely wishes the besotted PC to retrieve\nthe ring of Sir Chyde for her.\n6",
+    "text": "What’s Really Happening\n▶ Princess Snowfall-at-Dusk has discov-\nered a means of contacting the mortal\nworld via dream.\n▶ Her professed love is a trick: she\nmerely wishes the besotted PC to retrieve\nthe ring of Sir Chyde for her.",
     "labels": [],
-    "text_bytes": 236,
+    "text_bytes": 234,
     "keyed_area": null,
     "style": {
       "size": 23.0,
@@ -866,6 +740,10 @@
   {
     "unit_id": "p8.inheritance",
     "heading": "Inheritance",
+    "heading_path": [
+      "Hooks Hooks",
+      "Dreams of the Lady"
+    ],
     "pages": [
       8
     ],
@@ -884,6 +762,10 @@
   {
     "unit_id": "p8.tomb-robbers",
     "heading": "Tomb Robbers",
+    "heading_path": [
+      "Hooks Hooks",
+      "Dreams of the Lady"
+    ],
     "pages": [
       8
     ],
@@ -902,6 +784,10 @@
   {
     "unit_id": "p8.the-complication",
     "heading": "The Complication",
+    "heading_path": [
+      "Hooks Hooks",
+      "Dreams of the Lady"
+    ],
     "pages": [
       8
     ],
@@ -920,6 +806,10 @@
   {
     "unit_id": "p8.it-see-epilogue-p23",
     "heading": "it (see  Epilogue, p23 ).",
+    "heading_path": [
+      "Hooks Hooks",
+      "Dreams of the Lady"
+    ],
     "pages": [
       8
     ],
@@ -938,6 +828,7 @@
   {
     "unit_id": "p9.players-background-players-backg",
     "heading": "Players’ Background Players’ Background",
+    "heading_path": [],
     "pages": [
       9
     ],
@@ -956,6 +847,9 @@
   {
     "unit_id": "p9.common-folklore",
     "heading": "Common Folklore",
+    "heading_path": [
+      "Players’ Background Players’ Background"
+    ],
     "pages": [
       9
     ],
@@ -974,6 +868,9 @@
   {
     "unit_id": "p9.the-cold-prince",
     "heading": "The Cold Prince",
+    "heading_path": [
+      "Players’ Background Players’ Background"
+    ],
     "pages": [
       9
     ],
@@ -992,6 +889,9 @@
   {
     "unit_id": "p9.sir-chyde",
     "heading": "Sir Chyde",
+    "heading_path": [
+      "Players’ Background Players’ Background"
+    ],
     "pages": [
       9
     ],
@@ -1010,6 +910,9 @@
   {
     "unit_id": "p9.the-lady-of-the-wood-a-sorcerous",
     "heading": "▶ The Lady of the Wood:  A sorcerous",
+    "heading_path": [
+      "Players’ Background Players’ Background"
+    ],
     "pages": [
       9
     ],
@@ -1028,6 +931,9 @@
   {
     "unit_id": "p9.the-cold-prince-defeated",
     "heading": "The Cold Prince Defeated",
+    "heading_path": [
+      "Players’ Background Players’ Background"
+    ],
     "pages": [
       9
     ],
@@ -1046,6 +952,9 @@
   {
     "unit_id": "p9.ever-looming-threat-every-year-i",
     "heading": "▶ Ever-looming threat:  Every year, in",
+    "heading_path": [
+      "Players’ Background Players’ Background"
+    ],
     "pages": [
       9
     ],
@@ -1064,6 +973,9 @@
   {
     "unit_id": "p9.the-death-of-sir-chyde",
     "heading": "The Death of Sir Chyde",
+    "heading_path": [
+      "Players’ Background Players’ Background"
+    ],
     "pages": [
       9
     ],
@@ -1082,6 +994,9 @@
   {
     "unit_id": "p9.the-fate-of-the-lady-she-was-nev",
     "heading": "▶ The fate of the Lady:  She was never",
+    "heading_path": [
+      "Players’ Background Players’ Background"
+    ],
     "pages": [
       9
     ],
@@ -1100,6 +1015,9 @@
   {
     "unit_id": "p9.deeper-investigation",
     "heading": "Deeper Investigation",
+    "heading_path": [
+      "Players’ Background Players’ Background"
+    ],
     "pages": [
       9
     ],
@@ -1118,6 +1036,9 @@
   {
     "unit_id": "p9.the-identity-of-the-lady-of-the",
     "heading": "▶ The identity of the Lady of the Wood:",
+    "heading_path": [
+      "Players’ Background Players’ Background"
+    ],
     "pages": [
       9
     ],
@@ -1136,13 +1057,16 @@
   {
     "unit_id": "p9.the-sealing-of-the-tomb-sir-chyd",
     "heading": "▶ The sealing of the tomb:  Sir Chyde’s",
+    "heading_path": [
+      "Players’ Background Players’ Background"
+    ],
     "pages": [
       9
     ],
     "column": 1,
-    "text": "▶ The sealing of the tomb:  Sir Chyde’s\ntomb was a site of pilgrimage for many\nyears, until a series of hauntings caused\nthe Church to place magical wards and\nseal it off.\n7",
+    "text": "▶ The sealing of the tomb:  Sir Chyde’s\ntomb was a site of pilgrimage for many\nyears, until a series of hauntings caused\nthe Church to place magical wards and\nseal it off.",
     "labels": [],
-    "text_bytes": 177,
+    "text_bytes": 175,
     "keyed_area": null,
     "style": {
       "size": 15.0,
@@ -1154,6 +1078,7 @@
   {
     "unit_id": "p10.dolmenwood-lore-dolmenwood-lore",
     "heading": "Dolmenwood Lore Dolmenwood Lore",
+    "heading_path": [],
     "pages": [
       10
     ],
@@ -1172,6 +1097,9 @@
   {
     "unit_id": "p10.the-two-realms",
     "heading": "The Two Realms",
+    "heading_path": [
+      "Dolmenwood Lore Dolmenwood Lore"
+    ],
     "pages": [
       10
     ],
@@ -1190,13 +1118,16 @@
   {
     "unit_id": "p10.fairies",
     "heading": "Fairies",
+    "heading_path": [
+      "Dolmenwood Lore Dolmenwood Lore"
+    ],
     "pages": [
       10
     ],
     "column": 0,
-    "text": "Fairies\nThose races whose members originate in\nthe undying realm of Fairy, are collec-\ntively known as  fairies . The vast majority\nof fairies never cross the subtle threshold\nthat separates their realm from the mor-\ntal world (and indeed would never dream\nof doing so). However, some individuals\ndo enter the mortal world, upon occa-\nsion, and some even gain a taste for the\nplace and tarry for extended periods. The\nfairies who may be encountered in Dol-\nmenwood are typically those of unusual\nbent (romantics, obsessives, or megalo-\nmaniacs) or those who have been outcast\nfrom their native realm.\n8",
+    "text": "Fairies\nThose races whose members originate in\nthe undying realm of Fairy, are collec-\ntively known as  fairies . The vast majority\nof fairies never cross the subtle threshold\nthat separates their realm from the mor-\ntal world (and indeed would never dream\nof doing so). However, some individuals\ndo enter the mortal world, upon occa-\nsion, and some even gain a taste for the\nplace and tarry for extended periods. The\nfairies who may be encountered in Dol-\nmenwood are typically those of unusual\nbent (romantics, obsessives, or megalo-\nmaniacs) or those who have been outcast\nfrom their native realm.",
     "labels": [],
-    "text_bytes": 602,
+    "text_bytes": 600,
     "keyed_area": null,
     "style": {
       "size": 27.0,
@@ -1208,6 +1139,9 @@
   {
     "unit_id": "p10.pure-iron",
     "heading": "Pure Iron",
+    "heading_path": [
+      "Dolmenwood Lore Dolmenwood Lore"
+    ],
     "pages": [
       10
     ],
@@ -1226,6 +1160,9 @@
   {
     "unit_id": "p10.silver-sickness",
     "heading": "Silver Sickness",
+    "heading_path": [
+      "Dolmenwood Lore Dolmenwood Lore"
+    ],
     "pages": [
       10
     ],
@@ -1244,6 +1181,9 @@
   {
     "unit_id": "p10.languages",
     "heading": "Languages",
+    "heading_path": [
+      "Dolmenwood Lore Dolmenwood Lore"
+    ],
     "pages": [
       10
     ],
@@ -1262,6 +1202,9 @@
   {
     "unit_id": "p10.the-immortal-tongue-of-fairy-the",
     "heading": "▶ The Immortal Tongue of Fairy:  The",
+    "heading_path": [
+      "Dolmenwood Lore Dolmenwood Lore"
+    ],
     "pages": [
       10
     ],
@@ -1280,13 +1223,14 @@
   {
     "unit_id": "p11.outside-the-mound-outside-the-mo",
     "heading": "Outside the Mound Outside the Mound",
+    "heading_path": [],
     "pages": [
       11
     ],
     "column": 0,
-    "text": "Outside the Mound Outside the Mound\nRandom Events (1-in-6 Chance Every Two Turns)\n1.  A PC suddenly spots a  ghostly, vio- 3.  A  gust of wind whips  the branches",
+    "text": "Outside the Mound Outside the Mound\nRandom Events (1-in-6 Chance Every Two Turns)\n1.  A PC suddenly spots a  ghostly, vio- 3.  A  gust of wind whips  the branches\nlet-eyed owl gazing down from a high  of the trees into a frenzy. PCs near trees\nbranch.  Save versus spells  or fall into a  must  save versus paralysis  or be struck\nfaint for 1d6 turns. for 1 damage. Flames sputter and may\n2.  1d4  tipsy goblin merchants  with  go out: torches 4-in-6 chance, lanterns\nlanterns climb cautiously out of a  2-in-6.\ntrapdoor in the forest floor. They have  4.  A  huge, warty toad  creeps over, eyes\nstepped into Dolmenwood from Fairy,  the PCs quizzically, and utters a single,\nseeking rare night-fruits. (See  Dolmen- croaking word: “Betrayal”.",
     "labels": [],
-    "text_bytes": 162,
+    "text_bytes": 746,
     "keyed_area": null,
     "style": {
       "size": 51.0,
@@ -1296,31 +1240,14 @@
     }
   },
   {
-    "unit_id": "p11.let-eyed-owl",
-    "heading": "let-eyed owl",
-    "pages": [
-      11
-    ],
-    "column": 0,
-    "text": "let-eyed owl\ngazing down from a high  of the trees into a frenzy. PCs near trees\nbranch.  Save versus spells  or fall into a  must  save versus paralysis  or be struck\nfaint for 1d6 turns. for 1 damage. Flames sputter and may\n2.  1d4  tipsy goblin merchants  with  go out: torches 4-in-6 chance, lanterns\nlanterns climb cautiously out of a  2-in-6.\ntrapdoor in the forest floor. They have  4.  A  huge, warty toad  creeps over, eyes\nstepped into Dolmenwood from Fairy,  the PCs quizzically, and utters a single,\nseeking rare night-fruits. (See  Dolmen- croaking word: “Betrayal”.",
-    "labels": [],
-    "text_bytes": 583,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro-Semibold",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
     "unit_id": "p11.wood-goblin-p20",
-    "heading": "wood Goblin, p20",
+    "heading": "wood Goblin, p20 .)",
+    "heading_path": [],
     "pages": [
       11
     ],
     "column": 0,
-    "text": "wood Goblin, p20\n.)",
+    "text": "wood Goblin, p20 .)",
     "labels": [],
     "text_bytes": 19,
     "keyed_area": null,
@@ -1334,13 +1261,14 @@
   {
     "unit_id": "p11.1-approaching-the-burial-mound",
     "heading": "1. Approaching the Burial Mound",
+    "heading_path": [],
     "pages": [
       11
     ],
     "column": 0,
-    "text": "1. Approaching the Burial Mound\nTangled Forest Burial Mound Looms Ahead\nBrambles\n(half burying the paths).  Flat-topped hillock  (evidently artificial).\nTwisted trees\n(seem to close in around as\nPCs pass by, blocking their way out). Atmospherics\nClanking metal\n(irregular, from area 2).\n9",
+    "text": "1. Approaching the Burial Mound\nTangled Forest Burial Mound Looms Ahead\nBrambles (half burying the paths).  Flat-topped hillock  (evidently artificial).\nTwisted trees (seem to close in around as\nPCs pass by, blocking their way out). Atmospherics\nClanking metal (irregular, from area 2).",
     "labels": [],
-    "text_bytes": 288,
+    "text_bytes": 286,
     "keyed_area": "1",
     "style": {
       "size": 27.0,
@@ -1352,13 +1280,14 @@
   {
     "unit_id": "p12.2-the-whything-stones",
     "heading": "2. The Whything Stones",
+    "heading_path": [],
     "pages": [
       12
     ],
     "column": -1,
-    "text": "2. The Whything Stones\nStone Circle\nRune-etched\n(eldritch markings which\nreflect moonlight).  Mossy  (clad with\ndangling beards).\n▶ The runes:  Magical script which (if\ndeciphered) appears to have some func-\ntion in rituals of summoning.\n▶ Clearing the moss:  Carved at the base\nof each stone are images of icy fey figures\nwailing and writhing, as if in torment.\nTwitching Stag Skeleton\nLying amid the stones\n(twitching errati-\ncally).  Slime-coated  (bright green, glow-\ning, evaporating).  Green haze  (lingering\ncloud of evaporating slime).\n▶ Breathing the haze:  Acrid. Makes one\nlight-headed.\n10\nThe Drune\nThe Drune are a cult of sorcerers who\njealously guard the stone circles and\nley lines of Dolmenwood. Common\nfolk are terrified of their occult mach-\ninations—including kidnappings and\nrumours of human sacrifice—and fear\nto speak their name. They are not to\nbe meddled with.\n13 Iron Owls\nHanging from trees\n(wings spread wide,\nclanking in the breeze).  Rusty  (rain\nstreaked).  Pentagram eyes  (graven).\n▶ Touching:  A chill comes over the\ncharacter.\n▶ Natives of Dolmenwood:  Recognise\nthe owls as symbols of the Drune.",
+    "text": "2. The Whything Stones\nStone Circle\nRune-etched (eldritch markings which\nreflect moonlight).  Mossy  (clad with\ndangling beards).\n▶ The runes:  Magical script which (if\ndeciphered) appears to have some func-\ntion in rituals of summoning.\n▶ Clearing the moss:  Carved at the base\nof each stone are images of icy fey figures\nwailing and writhing, as if in torment.\nTwitching Stag Skeleton\nLying amid the stones (twitching errati-\ncally).  Slime-coated  (bright green, glow-\ning, evaporating).  Green haze  (lingering\ncloud of evaporating slime).\n▶ Breathing the haze:  Acrid. Makes one\nlight-headed.\nThe Drune\nThe Drune are a cult of sorcerers who\njealously guard the stone circles and\nley lines of Dolmenwood. Common\nfolk are terrified of their occult mach-\ninations—including kidnappings and\nrumours of human sacrifice—and fear\nto speak their name. They are not to\nbe meddled with.\n13 Iron Owls\nHanging from trees (wings spread wide,\nclanking in the breeze).  Rusty  (rain\nstreaked).  Pentagram eyes  (graven).\n▶ Touching:  A chill comes over the\ncharacter.\n▶ Natives of Dolmenwood:  Recognise\nthe owls as symbols of the Drune.",
     "labels": [],
-    "text_bytes": 1144,
+    "text_bytes": 1141,
     "keyed_area": "2",
     "style": {
       "size": 27.0,
@@ -1370,6 +1299,7 @@
   {
     "unit_id": "p13.3-tomb-entrance",
     "heading": "3. Tomb Entrance",
+    "heading_path": [],
     "pages": [
       13
     ],
@@ -1388,14 +1318,17 @@
   {
     "unit_id": "p13.4-worm-hole",
     "heading": "4. Worm Hole",
+    "heading_path": [
+      "3. Tomb Entrance"
+    ],
     "pages": [
       13,
       14
     ],
     "column": -1,
-    "text": "4. Worm Hole\nDoor\nGranite slab\n(seals the mound).\nOvergrown\n(covered in lichen and\nsweet-smelling wild roses).\n▶ Moving the slab:  Requires a cumula-\ntive STR bonus of at least 4.\n▶ Breaking the slab:  Takes 6 turns.\nCumulative STR bonuses reduce this\ntime. (Minimum 2 turns.)\nA Hole in the Earth\n2’ wide\n(barely).  At the edge of the\nmound\n(burrows into the earth beneath).\n▶ Illuminating the hole:  Reveals the\nhole to descend 15’ to a chamber (area\n10).\n▶ Making noise:  Attracts the  worm-\ntongues\nthat lurk inside (see area 10).\n▶ Crawling down:  Disturbs the  worm-\ntongues\nthat lurk inside (see area 10).\nThe hole emerges after 15’ in area 10.\nSlime Trails\nGooey\n(like petroleum jelly).  Opalescent\n(largely transparent).\n▶ Tracking:  The trails lead from the\nhole into the woods and back. Characters\nskilled with tracking can detect trails of\nthree slug- or worm-like creatures.\n▶ Touching:  A slight acidity can be\ndetected, if the slime is touched with\nbare flesh. (This is not enough to cause\ndamage.)\nStairs into the Mound\nDescend 20’\n(into the earth).  Dusty\n(caked with centuries of undisturbed\ndust).  Deathly silence  (disturbed by\nPCs’ footsteps).  Dank smell  (moist and\nmouldy).\n▶ If examined:  Scratches are discovered.\nLooks like something heavy was dragged\nup the stairs (a long time ago).\n11\nThe Burial Mound The Burial Mound\nRandom Events (1-in-6 Chance Every Two Turns)",
+    "text": "4. Worm Hole\nDoor\nGranite slab (seals the mound).\nOvergrown (covered in lichen and\nsweet-smelling wild roses).\n▶ Moving the slab:  Requires a cumula-\ntive STR bonus of at least 4.\n▶ Breaking the slab:  Takes 6 turns.\nCumulative STR bonuses reduce this\ntime. (Minimum 2 turns.)\nA Hole in the Earth\n2’ wide\n(barely).  At the edge of the\nmound (burrows into the earth beneath).\n▶ Illuminating the hole:  Reveals the\nhole to descend 15’ to a chamber (area\n10).\n▶ Making noise:  Attracts the  worm-\ntongues that lurk inside (see area 10).\n▶ Crawling down:  Disturbs the  worm-\ntongues that lurk inside (see area 10).\nThe hole emerges after 15’ in area 10.\nSlime Trails\nGooey (like petroleum jelly).  Opalescent\n(largely transparent).\n▶ Tracking:  The trails lead from the\nhole into the woods and back. Characters\nskilled with tracking can detect trails of\nthree slug- or worm-like creatures.\n▶ Touching:  A slight acidity can be\ndetected, if the slime is touched with\nbare flesh. (This is not enough to cause\ndamage.)\nStairs into the Mound\nDescend 20’ (into the earth).  Dusty\n(caked with centuries of undisturbed\ndust).  Deathly silence  (disturbed by\nPCs’ footsteps).  Dank smell  (moist and\nmouldy).\n▶ If examined:  Scratches are discovered.\nLooks like something heavy was dragged\nup the stairs (a long time ago).\nThe Burial Mound The Burial Mound\nRandom Events (1-in-6 Chance Every Two Turns)",
     "labels": [],
-    "text_bytes": 1420,
+    "text_bytes": 1417,
     "keyed_area": "4",
     "style": {
       "size": 27.0,
@@ -1407,11 +1340,12 @@
   {
     "unit_id": "p14.5-hall-of-guardians",
     "heading": "5. Hall of Guardians",
+    "heading_path": [],
     "pages": [
       14
     ],
     "column": -1,
-    "text": "5. Hall of Guardians\n1.  A  vision of a beautiful woman ,\ndressed all in white, with a star upon\nher brow. She appears in empty space\nand says “The ring… The ring holds\nthe key… My eternal salvation”, before\ndisappearing into mist.\n2.  The sound of  hounds baying , echo-\ning through the crypt.\nAtmospherics\nMusty\n(dank, stifling air).  Wet  (ceiling\nand walls).\n4 Religious Objects\nStanding on plinths\n(in the corners of\nthe room).  Mouldy  (covered with mus-\ntard-coloured fur).\n▶ Items:  All about 1’ tall. A silver cruci-\nfix (200gp), a wooden statue of a cherub,\na holy book, a huge candle.\n▶ Reaction:  If a non-Lawful character\nsets foot in the room, the objects float\ninto the air and attack.\nDouble Doors\nHeavy stone\n(streaked with damp).\nInscription\n(“The Most Dear”).\nDusty Floor\n▶ If disturbed:  Movement in the room\nreveals colours beneath the dust.\n▶ If cleared:  A mosaic is revealed, along\n12 with scratches on the floor.\n3.  The 2  dancing skeletons  from area\n8, waltzing through the air on a tour of\nthe tomb.\n4.  1d3  wormtongues  break through\nwall or ceiling, hungry for living flesh.\n(See  Wormtongues, p15 .)\nReligious Objects\nAC  5 [14],  HD  1 (hp 3, 3, 4, 5),  Att\n1 × bash (1d4),  THAC0  19 [0],  MV\n90’ (30’) flying,  SV  D12 W13 P14 B15\nS16 (1),  ML  12,  AL  Lawful,  XP  10\n▶ Scolding:  When animated, the\nobjects speak in a shrill, sanctimoni-\nous tone, scolding PCs for their mis-\ndeeds (including entering the tomb).\n▶ When killed:  A cloud of mould\nspores erupts. Anyone in melee:  save\nversus poison\nor suffer 1d2 damage\nand choke for 1 round (cannot act).\n▶ The mosaic:  Depicts Sir Chyde atop a\nwhite charger, piercing the heart of a fairy\nknight with his sword. An inscription in\nOld Woldish reads “Here lies the noble\nSir Chyde, slayer of Frost, defender of the\nKing”. Speakers of modern Woldish can\nrecognise the name and the words for\n“Frost” and “King”.\n▶ The scratches:  Looks like something\nheavy was dragged from area 7 (a long\ntime ago).",
+    "text": "5. Hall of Guardians\n1.  A  vision of a beautiful woman ,\ndressed all in white, with a star upon\nher brow. She appears in empty space\nand says “The ring… The ring holds\nthe key… My eternal salvation”, before\ndisappearing into mist.\n2.  The sound of  hounds baying , echo-\ning through the crypt.\nAtmospherics\nMusty (dank, stifling air).  Wet  (ceiling\nand walls).\n4 Religious Objects\nStanding on plinths (in the corners of\nthe room).  Mouldy  (covered with mus-\ntard-coloured fur).\n▶ Items:  All about 1’ tall. A silver cruci-\nfix (200gp), a wooden statue of a cherub,\na holy book, a huge candle.\n▶ Reaction:  If a non-Lawful character\nsets foot in the room, the objects float\ninto the air and attack.\nDouble Doors\nHeavy stone (streaked with damp).\nInscription (“The Most Dear”).\nDusty Floor\n▶ If disturbed:  Movement in the room\nreveals colours beneath the dust.\n▶ If cleared:  A mosaic is revealed, along\n12 with scratches on the floor.\n3.  The 2  dancing skeletons  from area\n8, waltzing through the air on a tour of\nthe tomb.\n4.  1d3  wormtongues  break through\nwall or ceiling, hungry for living flesh.\n(See  Wormtongues, p15 .)\nReligious Objects\nAC  5 [14],  HD  1 (hp 3, 3, 4, 5),  Att\n1 × bash (1d4),  THAC0  19 [0],  MV\n90’ (30’) flying,  SV  D12 W13 P14 B15\nS16 (1),  ML  12,  AL  Lawful,  XP  10\n▶ Scolding:  When animated, the\nobjects speak in a shrill, sanctimoni-\nous tone, scolding PCs for their mis-\ndeeds (including entering the tomb).\n▶ When killed:  A cloud of mould\nspores erupts. Anyone in melee:  save\nversus poison or suffer 1d2 damage\nand choke for 1 round (cannot act).\n▶ The mosaic:  Depicts Sir Chyde atop a\nwhite charger, piercing the heart of a fairy\nknight with his sword. An inscription in\nOld Woldish reads “Here lies the noble\nSir Chyde, slayer of Frost, defender of the\nKing”. Speakers of modern Woldish can\nrecognise the name and the words for\n“Frost” and “King”.\n▶ The scratches:  Looks like something\nheavy was dragged from area 7 (a long\ntime ago).",
     "labels": [],
     "text_bytes": 2032,
     "keyed_area": "5",
@@ -1425,6 +1359,7 @@
   {
     "unit_id": "p15.6-blindfolded-statue",
     "heading": "6. Blindfolded Statue",
+    "heading_path": [],
     "pages": [
       15
     ],
@@ -1443,13 +1378,16 @@
   {
     "unit_id": "p15.7-freezing-mirror",
     "heading": "7. Freezing Mirror",
+    "heading_path": [
+      "6. Blindfolded Statue"
+    ],
     "pages": [
       15
     ],
     "column": -1,
-    "text": "7. Freezing Mirror\nWhite Marble Statue\nA fair maiden\n(long, flowing hair and\nrobe, upon her brow a star).  Beseeching\nsilence\n(the statue is posed facing the\nstairs, with her finger raised to her lips).\nBlindfolded\n(a black cloth is wrapped\naround the statue’s head, covering her\neyes).  Round plinth  (also of marble, 3’\nacross, 1’ high).\n▶ Removing the blindfold:  The inside\nof the cloth is embroidered with golden\ncrucifixes.\nFull-Length Mirror\nSilver frame\n(beautifully wrought,\nengraved with crucifixes and unicorns at\nplay).  Hung from the wall  (behind the\nstatue plinth).\n▶ Passing in front: Save vs paralysis  or\nbe frozen still.\n▶ Covering the mirror:  Bypasses the\nfreezing effect.\n▶ Value:  1,000gp material value.\n▶ Removing from the tomb:  Its magical\nproperties fade after one month.\n▶ Unfreezing people:  Holy water,  cure\nlight wounds\n, or sunlight.\nStairs Down to Area 14\nPristine\n(finely cut stone, free of dust).\nTree-branch archway\n(stone carved into\nthe likeness of interwoven trees, at the\ntop of the stairway).\n▶ Illuminating the stairs:  Reveals the\nshimmering of reflections off water.\nEmpty Statue Plinth\nWhite marble\n(round, 3’ across, 1’ high).\nScratches on the floor\n(as if a heavy\nstatue was dragged away, towards area 5).\nStairs Down to Area 14\nPristine\n(finely cut stone, free of dust).\nTree-branch archway\n(stone carved into\nthe likeness of interwoven trees, at the\ntop of the stairway).\n▶ Illuminating the stairs:  Reveals the\nshimmering of reflections off water.\n13",
+    "text": "7. Freezing Mirror\nWhite Marble Statue\nA fair maiden (long, flowing hair and\nrobe, upon her brow a star).  Beseeching\nsilence (the statue is posed facing the\nstairs, with her finger raised to her lips).\nBlindfolded (a black cloth is wrapped\naround the statue’s head, covering her\neyes).  Round plinth  (also of marble, 3’\nacross, 1’ high).\n▶ Removing the blindfold:  The inside\nof the cloth is embroidered with golden\ncrucifixes.\nFull-Length Mirror\nSilver frame (beautifully wrought,\nengraved with crucifixes and unicorns at\nplay).  Hung from the wall  (behind the\nstatue plinth).\n▶ Passing in front: Save vs paralysis  or\nbe frozen still.\n▶ Covering the mirror:  Bypasses the\nfreezing effect.\n▶ Value:  1,000gp material value.\n▶ Removing from the tomb:  Its magical\nproperties fade after one month.\n▶ Unfreezing people:  Holy water,  cure\nlight wounds , or sunlight.\nStairs Down to Area 14\nPristine (finely cut stone, free of dust).\nTree-branch archway (stone carved into\nthe likeness of interwoven trees, at the\ntop of the stairway).\n▶ Illuminating the stairs:  Reveals the\nshimmering of reflections off water.\nEmpty Statue Plinth\nWhite marble (round, 3’ across, 1’ high).\nScratches on the floor (as if a heavy\nstatue was dragged away, towards area 5).\nStairs Down to Area 14\nPristine (finely cut stone, free of dust).\nTree-branch archway (stone carved into\nthe likeness of interwoven trees, at the\ntop of the stairway).\n▶ Illuminating the stairs:  Reveals the\nshimmering of reflections off water.",
     "labels": [],
-    "text_bytes": 1528,
+    "text_bytes": 1525,
     "keyed_area": "7",
     "style": {
       "size": 27.0,
@@ -1461,13 +1399,14 @@
   {
     "unit_id": "p16.8-family-crypt",
     "heading": "8. Family Crypt",
+    "heading_path": [],
     "pages": [
       16
     ],
     "column": -1,
-    "text": "8. Family Crypt\n2 Floating Skeletons\nDancing\n(arm in arm, slowly waltz in\nmid-air above the fissure in the floor).\nSlick with moisture\n(covered with  slime\nvapour\n).  Jewellery  (one wears a pearl\nnecklace, the other a gold medallion,\nworth 500gp each).\n▶ Reaction:  Welcome strangers to join\nthe dance. Attack vehemently if any of the\ncoffers are disturbed.\n▶ Language:  Can speak old-fashioned\nWoldish (i.e. Common—not Old Wold-\nish) in a distant whisper.\nFloating Skeletons\nAC  8 [11],  HD  2 (hp 8, 10),  Att  1 ×\nclaws (1d4),  THAC0  18 [+1],  MV  90’\n(30’) flying,  SV  D12 W13 P14 B15\nS16 (2),  ML  12,  AL  Neutral,  XP  20\n▶ Undead:  Unaffected by charms and\nmind control.\n▶ Hits in melee:  Any weapon that\nhits becomes weightless for a moment\n(–1 to attack roll next round).\nFissure in the Floor\nIndeterminate depth\n(upon first glance).\nSheets of slime\n(transparent, dripping\nfrom a hairline crack in the ceiling above.\nSee the  slime vapour ).\n▶ Looking down:  PCs who gaze into the\nfissure catch glimpses of glimmering light\nbelow, like sunlight reflected off snow.\n▶ Delving:  People or objects that\ndescend more than 15’ into the fissure\ndrift down from the sky, snowflake-like,\nin Fairy (area 15). Though the fall seems\nlong, it is harmless.\n14\nStone Coffers\nA and B lie open\n(lids are pushed aside).\nTarnished brass plaques\n(at the foot).\nBrass Plaques on Coffers\nPortraits\n(engraved).  Names  (along with\na relationship to Sir Chyde).\n▶ A:  Lady Amaranda (mother): Tall, ele-\ngant, stick-like, big nose, holding a book.\n▶ B:  Lord Brigforwith (father): Stocky,\nround head, chunky beard.\n▶ C:  Brandywith the Good (elder\nbrother): Bespectacled, head bowed,\nleaning on a staff.\n▶ D:  Brigford the Wise (younger\nbrother): Chainmail, hound at his side,\nbow in hand.\n▶ E:  Emaline the Chaste (sister): Petite,\nmourning veil, cradling a cat.\nInside the Coffers\n▶ A, B:  Empty.\n▶ C:  A skeleton with an ash staff.\n▶ D:  A skeleton dressed in rusted mail.\n▶ E:  Two skeletons: one human, one\nfeline.\nThe Slime Vapour\nSheets of slime\n(transparent).  Drips into\nthe fissure\n(from a hairline crack in the\nceiling).  Coats the skeletons  (their eter-\nnal rest was disturbed by the slime).\n▶ Touching with objects:  The object\nbecomes weightless for a moment.\n▶ Touching with flesh:  Slime rushes\nover the PC’s whole body in an instant,\ncoating them with a thin layer. The PC\nbecomes lighter than air, drifting up to\nthe ceiling. This is permanent, unless the\nslime is removed (e.g.  dispel magic ).",
+    "text": "8. Family Crypt\n2 Floating Skeletons\nDancing (arm in arm, slowly waltz in\nmid-air above the fissure in the floor).\nSlick with moisture (covered with  slime\nvapour ).  Jewellery  (one wears a pearl\nnecklace, the other a gold medallion,\nworth 500gp each).\n▶ Reaction:  Welcome strangers to join\nthe dance. Attack vehemently if any of the\ncoffers are disturbed.\n▶ Language:  Can speak old-fashioned\nWoldish (i.e. Common—not Old Wold-\nish) in a distant whisper.\nFloating Skeletons\nAC  8 [11],  HD  2 (hp 8, 10),  Att  1 ×\nclaws (1d4),  THAC0  18 [+1],  MV  90’\n(30’) flying,  SV  D12 W13 P14 B15\nS16 (2),  ML  12,  AL  Neutral,  XP  20\n▶ Undead:  Unaffected by charms and\nmind control.\n▶ Hits in melee:  Any weapon that\nhits becomes weightless for a moment\n(–1 to attack roll next round).\nFissure in the Floor\nIndeterminate depth (upon first glance).\nSheets of slime (transparent, dripping\nfrom a hairline crack in the ceiling above.\nSee the  slime vapour ).\n▶ Looking down:  PCs who gaze into the\nfissure catch glimpses of glimmering light\nbelow, like sunlight reflected off snow.\n▶ Delving:  People or objects that\ndescend more than 15’ into the fissure\ndrift down from the sky, snowflake-like,\nin Fairy (area 15). Though the fall seems\nlong, it is harmless.\nStone Coffers\nA and B lie open (lids are pushed aside).\nTarnished brass plaques (at the foot).\nBrass Plaques on Coffers\nPortraits (engraved).  Names  (along with\na relationship to Sir Chyde).\n▶ A:  Lady Amaranda (mother): Tall, ele-\ngant, stick-like, big nose, holding a book.\n▶ B:  Lord Brigforwith (father): Stocky,\nround head, chunky beard.\n▶ C:  Brandywith the Good (elder\nbrother): Bespectacled, head bowed,\nleaning on a staff.\n▶ D:  Brigford the Wise (younger\nbrother): Chainmail, hound at his side,\nbow in hand.\n▶ E:  Emaline the Chaste (sister): Petite,\nmourning veil, cradling a cat.\nInside the Coffers\n▶ A, B:  Empty.\n▶ C:  A skeleton with an ash staff.\n▶ D:  A skeleton dressed in rusted mail.\n▶ E:  Two skeletons: one human, one\nfeline.\nThe Slime Vapour\nSheets of slime (transparent).  Drips into\nthe fissure (from a hairline crack in the\nceiling).  Coats the skeletons  (their eter-\nnal rest was disturbed by the slime).\n▶ Touching with objects:  The object\nbecomes weightless for a moment.\n▶ Touching with flesh:  Slime rushes\nover the PC’s whole body in an instant,\ncoating them with a thin layer. The PC\nbecomes lighter than air, drifting up to\nthe ceiling. This is permanent, unless the\nslime is removed (e.g.  dispel magic ).",
     "labels": [],
-    "text_bytes": 2550,
+    "text_bytes": 2547,
     "keyed_area": "8",
     "style": {
       "size": 27.0,
@@ -1479,6 +1418,7 @@
   {
     "unit_id": "p17.9-chapel-of-st-sedge",
     "heading": "9. Chapel of St Sedge",
+    "heading_path": [],
     "pages": [
       17
     ],
@@ -1497,13 +1437,16 @@
   {
     "unit_id": "p17.10-abandoned-priest-s-quarters",
     "heading": "10. Abandoned Priest’s Quarters",
+    "heading_path": [
+      "9. Chapel of St Sedge"
+    ],
     "pages": [
       17
     ],
     "column": -1,
-    "text": "10. Abandoned Priest’s Quarters\nWooden Pews\nDecaying\n(with age, once solidly built).\nStone Altar\nStatue of St Sedge\n(a holy crusader hold-\ning a thick, red candle aloft).  Dried wax\n(red, has dripped down the statue onto\nthe altar).  Velvet cloth  (disintegrating).\nDoor\nWood swollen\n(with damp).  Locked .\nCollapsed Wall\nRubble\n(piled in the corner).  Dark earth\n(behind the collapsed stonework).  Nar-\nrow tunnel\n(2’ wide, delves upwards).\n▶ In the tunnel:  3  wormtongues  lurk.\n▶ Crawling up:  Leads to area 4.\n3 Wormtongues\nSquirming, tongue-like worms\n(dark\npink, bumpy).  4’ long  (thigh-thick).\nTooth-ringed mouths\n(like lampreys).\nEyeless\n(attack by taste).  Lurking  (tunnel\nby the collapsed wall).\n▶ Reaction:  Disturbed by noise in the\nroom. Ravenously attack.\nWormtongues\nAC  7 [12],  HD  1+1* (hp 3, 4, 5),  Att  1\n× bite (1d4 + acid),  THAC0  18 [+1],\nMV  120’ (40’),  SV  D12 W13 P14 B15\nS16 (1),  ML  7,  AL  Neutral,  XP  19\n▶ Acid:  Causes 1 damage per round\nuntil washed off (e.g. with water).\n▶ Lighting the candle:  Wind rushes. Dis-\ntant neighing and victorious battle cries.\nRagged Tapestry\nThe gates of heaven\n(Sir Chyde and St\nSedge meeting in death).\n▶ Concealed behind:  A wooden door,\nlocked and swollen with damp.\nMouldy Writing Desk\nDecaying wood\n(carved with angels).\n▶ Locked drawer:  Easily smashed open.\n▶ Inside the drawer:  An old,\nmould-covered book—pages stuck\ntogether with damp, indecipherable.\n▶ Inside the book cover:  A brass sheet,\ninscribed with a pastoral poem about Sir\nChyde hunting with his favoured dogs.\nOne of the dogs is named: Flaegr.\nA Loose Flagstone\n▶ Locating:  A search for secret doors or\ntraps will find it.\n▶ Underneath:  A small space containing\na locked metal box.\n▶ The lock is trapped:  With a poison\nneedle:  save versus poison  or suffer 1d6\ndamage and fall unconscious for 1d6\nturns.\n▶ Inside the box:  A silver crucifix\n(50gp), a clerical scroll of  hold person , a\nprayer book of stamped gold leaf (worth\n500gp), a box of 20 holy wafers—pre-\nserved after all these years! (They are\nmagical—each cures 1hp.)\n15",
+    "text": "10. Abandoned Priest’s Quarters\nWooden Pews\nDecaying (with age, once solidly built).\nStone Altar\nStatue of St Sedge (a holy crusader hold-\ning a thick, red candle aloft).  Dried wax\n(red, has dripped down the statue onto\nthe altar).  Velvet cloth  (disintegrating).\nDoor\nWood swollen (with damp).  Locked .\nCollapsed Wall\nRubble (piled in the corner).  Dark earth\n(behind the collapsed stonework).  Nar-\nrow tunnel (2’ wide, delves upwards).\n▶ In the tunnel:  3  wormtongues  lurk.\n▶ Crawling up:  Leads to area 4.\n3 Wormtongues\nSquirming, tongue-like worms (dark\npink, bumpy).  4’ long  (thigh-thick).\nTooth-ringed mouths (like lampreys).\nEyeless (attack by taste).  Lurking  (tunnel\nby the collapsed wall).\n▶ Reaction:  Disturbed by noise in the\nroom. Ravenously attack.\nWormtongues\nAC  7 [12],  HD  1+1* (hp 3, 4, 5),  Att  1\n× bite (1d4 + acid),  THAC0  18 [+1],\nMV  120’ (40’),  SV  D12 W13 P14 B15\nS16 (1),  ML  7,  AL  Neutral,  XP  19\n▶ Acid:  Causes 1 damage per round\nuntil washed off (e.g. with water).\n▶ Lighting the candle:  Wind rushes. Dis-\ntant neighing and victorious battle cries.\nRagged Tapestry\nThe gates of heaven (Sir Chyde and St\nSedge meeting in death).\n▶ Concealed behind:  A wooden door,\nlocked and swollen with damp.\nMouldy Writing Desk\nDecaying wood (carved with angels).\n▶ Locked drawer:  Easily smashed open.\n▶ Inside the drawer:  An old,\nmould-covered book—pages stuck\ntogether with damp, indecipherable.\n▶ Inside the book cover:  A brass sheet,\ninscribed with a pastoral poem about Sir\nChyde hunting with his favoured dogs.\nOne of the dogs is named: Flaegr.\nA Loose Flagstone\n▶ Locating:  A search for secret doors or\ntraps will find it.\n▶ Underneath:  A small space containing\na locked metal box.\n▶ The lock is trapped:  With a poison\nneedle:  save versus poison  or suffer 1d6\ndamage and fall unconscious for 1d6\nturns.\n▶ Inside the box:  A silver crucifix\n(50gp), a clerical scroll of  hold person , a\nprayer book of stamped gold leaf (worth\n500gp), a box of 20 holy wafers—pre-\nserved after all these years! (They are\nmagical—each cures 1hp.)",
     "labels": [],
-    "text_bytes": 2124,
+    "text_bytes": 2121,
     "keyed_area": "10",
     "style": {
       "size": 27.0,
@@ -1515,6 +1458,7 @@
   {
     "unit_id": "p18.11-statues-with-weapons",
     "heading": "11. Statues With Weapons",
+    "heading_path": [],
     "pages": [
       18
     ],
@@ -1533,13 +1477,16 @@
   {
     "unit_id": "p18.12-hall-of-hounds",
     "heading": "12. Hall of Hounds",
+    "heading_path": [
+      "11. Statues With Weapons"
+    ],
     "pages": [
       18
     ],
     "column": -1,
-    "text": "12. Hall of Hounds\n7 Statues of Footmen\nDark stone\n(smooth and finely carved).\nReal weapons\n(in their hands—see\nbelow).\n▶ Flanged mace:  With a spiralling hilt.\n▶ Morningstar:  With 2”-long spikes.\n▶ Battle axe:  Engraved with a horse’s\nhead.\n▶ Warhammer:  Head shaped like a boar.\n▶ Longsword:  With wavy blood grooves.\nThe sword is enchanted (of fairy con-\nstruction): +2 to hit and damage. It car-\nries a glamour that affects mortals who\nwield it, compelling them to attack the\nlargest foe in battle.\n▶ Halberd:  With a mouldy pennant.\n▶ Spear:  With serrated blade.\nPillars\nRelief carvings\n(scenes of holy war\nagainst fairies).\nDouble Doors\nMassive stone\n(smooth surface).  Inscrip-\ntion\n(deeply cut: “Call to the Compan-\nions”).  Locked  (and warded by magic).\n▶ The riddle:  Speaking the names of Sir\nChyde’s hounds: “Flaegr and Chedr” (or\nvice versa) causes the doors to open.\n▶ Touching the doors:  Without answer-\ning the riddle causes the stone hounds to\nanimate and attack.\n16\nMould-Patched Walls\nYellow and purple\n(vivid fuzz).\n▶ Disturbing the mould:  Raises a cloud\nof spores. Everyone within 10’ must  save\nversus poison\nor suffer 1d4 damage and\nbe stricken with violent coughing and\nchoking for 1 turn.\nFaded Battle Mural\nSir Chyde\n(on horseback, in battle).  His\nright hand\n(raised, obscured by mould).\nHounds\n(two hunting hounds at his side,\npartially obscured by mould).  Fairy army\n(arrayed against the knight).\n▶ The knight’s hand:  If the mould is\ncleared (see above), PCs see a longsword\nwith wavy blood grooves, surrounded\nwith a white glow.\n▶ The hounds:  If the mould is cleared\n(see above), the name of one of the hounds\nis revealed, written on its collar (Chedr).\n2 Stone Hounds\nChained\n(to the base of the door).  Larger\nthan life\n(6’ tall).\nStone Hounds\nAC  3 [16],  HD  4* (hp 17, 19),  Att  1 ×\nbite (1d8),  THAC0  16 [+3],  MV  120’\n(40’),  SV  D10 W11 P12 B13 S14 (4),\nML  12,  AL  Neutral,  XP  125\n▶ Chained:  Can’t leave this room.\n▶ Constructs:  Only harmed by\nmagic. Unaffected by charms and\nmind control.",
+    "text": "12. Hall of Hounds\n7 Statues of Footmen\nDark stone (smooth and finely carved).\nReal weapons (in their hands—see\nbelow).\n▶ Flanged mace:  With a spiralling hilt.\n▶ Morningstar:  With 2”-long spikes.\n▶ Battle axe:  Engraved with a horse’s\nhead.\n▶ Warhammer:  Head shaped like a boar.\n▶ Longsword:  With wavy blood grooves.\nThe sword is enchanted (of fairy con-\nstruction): +2 to hit and damage. It car-\nries a glamour that affects mortals who\nwield it, compelling them to attack the\nlargest foe in battle.\n▶ Halberd:  With a mouldy pennant.\n▶ Spear:  With serrated blade.\nPillars\nRelief carvings (scenes of holy war\nagainst fairies).\nDouble Doors\nMassive stone (smooth surface).  Inscrip-\ntion (deeply cut: “Call to the Compan-\nions”).  Locked  (and warded by magic).\n▶ The riddle:  Speaking the names of Sir\nChyde’s hounds: “Flaegr and Chedr” (or\nvice versa) causes the doors to open.\n▶ Touching the doors:  Without answer-\ning the riddle causes the stone hounds to\nanimate and attack.\nMould-Patched Walls\nYellow and purple (vivid fuzz).\n▶ Disturbing the mould:  Raises a cloud\nof spores. Everyone within 10’ must  save\nversus poison or suffer 1d4 damage and\nbe stricken with violent coughing and\nchoking for 1 turn.\nFaded Battle Mural\nSir Chyde (on horseback, in battle).  His\nright hand (raised, obscured by mould).\nHounds (two hunting hounds at his side,\npartially obscured by mould).  Fairy army\n(arrayed against the knight).\n▶ The knight’s hand:  If the mould is\ncleared (see above), PCs see a longsword\nwith wavy blood grooves, surrounded\nwith a white glow.\n▶ The hounds:  If the mould is cleared\n(see above), the name of one of the hounds\nis revealed, written on its collar (Chedr).\n2 Stone Hounds\nChained (to the base of the door).  Larger\nthan life (6’ tall).\nStone Hounds\nAC  3 [16],  HD  4* (hp 17, 19),  Att  1 ×\nbite (1d8),  THAC0  16 [+3],  MV  120’\n(40’),  SV  D10 W11 P12 B13 S14 (4),\nML  12,  AL  Neutral,  XP  125\n▶ Chained:  Can’t leave this room.\n▶ Constructs:  Only harmed by\nmagic. Unaffected by charms and\nmind control.",
     "labels": [],
-    "text_bytes": 2101,
+    "text_bytes": 2098,
     "keyed_area": "12",
     "style": {
       "size": 27.0,
@@ -1551,13 +1498,14 @@
   {
     "unit_id": "p19.13-the-knight-s-tomb",
     "heading": "13. The Knight’s Tomb",
+    "heading_path": [],
     "pages": [
       19
     ],
     "column": -1,
-    "text": "13. The Knight’s Tomb\nThe Ghost of Sir Chyde\nPale\n(semi-transparent azure).  Thin\n(drawn with age).  Armoured  (plate mail\nwith helm visor raised).  Maudlin  (forlorn\nand love-lost).  Kneeling  (before the\nportrait).\n▶ Reaction:  Beseeches PCs to help him\njoin his beloved in Fairy (via the stairs in\narea 6 or 7) and finally take her hand in\nmarriage, after centuries apart. Does not\nappreciate tomb robbers.\n▶ Wants:  A living person to take his ring\n(in the coffer) to the lower level of the\ntomb (area 14), where he believes his love\nawaits him.\n▶ Knows:  That the stairs in areas 6 and\n7 allow entrance to Fairy, where the prin-\ncess waits, imprisoned.\nThe Ghost of Sir Chyde\nAC  3 [16],  HD  5* (26 hp),  Att  1 ×\ntouch (1d6 + aging),  THAC0  15 [+4],\nMV  60’ (20’),  SV  D10 W11 P12 B13\nS14 (5),  ML  11,  AL  Lawful,  XP  300\n▶ Aging touch:  Target ages 2d20\nyears. If the victim is a fairy, they do\nnot age, but must  save vs spells  or be\nafflicted with terror for 1d6 rounds.\n▶ Incorporeal undead:  Only harmed\nby magic or silver. Unaffected by\ncharms and mind control.\n▶ Turning:  If turned, disappears for\n24 hours.\n▶ Tethered:  To the ring (in the cof-\nfer). Cannot exist more than 10’ away\nfrom it.\nStone Coffer\nCarvings\n(a likeness of Sir Chyde, leaf\npatterns).\n▶ Inside:  Lays the skeleton of the knight.\n▶ Upon its wrists:  A pair of copper\nbracelets engraved with owls. Their eyes\nare amethysts. (Each bracelet is worth\n1,000gp.)\n▶ Upon its finger:  A bronze band set\nwith a moonstone, with fittings in the\nform of woven branches. (See  Ring of\nSoul-Binding, p24\n.) The ghost is teth-\nered to the ring—he cannot exist more\nthan 10’ from it.\n▶ If the ring is removed:  The ghost\ndisappears. This is only temporary, how-\never—it is able to manifest once per day,\nhaunting the one who stole the ring (see\nEpilogue, p23\n).\n▶ If the ring is crushed:  Its power ends.\nThe knight’s soul is released and disap-\npears into the afterlife.\nHanging Portrait\nA fair maiden\n(with long, flowing,\nblond hair and white robe, upon her\nbrow a star).  Amid a stone circle  (the\nbackground depicts a scene PCs may\nrecognise—the Whything Stones, area 2).\nGrimed with dust\n(aged and damp).\n▶ If restored:  Worth 1,500gp.\nSilver Candlesticks\nFloor-standing\n(4’ tall).  Tarnished and\nblotchy\n(after years entombed).\n▶ If cleaned:  Worth 200gp each.\n17",
+    "text": "13. The Knight’s Tomb\nThe Ghost of Sir Chyde\nPale (semi-transparent azure).  Thin\n(drawn with age).  Armoured  (plate mail\nwith helm visor raised).  Maudlin  (forlorn\nand love-lost).  Kneeling  (before the\nportrait).\n▶ Reaction:  Beseeches PCs to help him\njoin his beloved in Fairy (via the stairs in\narea 6 or 7) and finally take her hand in\nmarriage, after centuries apart. Does not\nappreciate tomb robbers.\n▶ Wants:  A living person to take his ring\n(in the coffer) to the lower level of the\ntomb (area 14), where he believes his love\nawaits him.\n▶ Knows:  That the stairs in areas 6 and\n7 allow entrance to Fairy, where the prin-\ncess waits, imprisoned.\nThe Ghost of Sir Chyde\nAC  3 [16],  HD  5* (26 hp),  Att  1 ×\ntouch (1d6 + aging),  THAC0  15 [+4],\nMV  60’ (20’),  SV  D10 W11 P12 B13\nS14 (5),  ML  11,  AL  Lawful,  XP  300\n▶ Aging touch:  Target ages 2d20\nyears. If the victim is a fairy, they do\nnot age, but must  save vs spells  or be\nafflicted with terror for 1d6 rounds.\n▶ Incorporeal undead:  Only harmed\nby magic or silver. Unaffected by\ncharms and mind control.\n▶ Turning:  If turned, disappears for\n24 hours.\n▶ Tethered:  To the ring (in the cof-\nfer). Cannot exist more than 10’ away\nfrom it.\nStone Coffer\nCarvings (a likeness of Sir Chyde, leaf\npatterns).\n▶ Inside:  Lays the skeleton of the knight.\n▶ Upon its wrists:  A pair of copper\nbracelets engraved with owls. Their eyes\nare amethysts. (Each bracelet is worth\n1,000gp.)\n▶ Upon its finger:  A bronze band set\nwith a moonstone, with fittings in the\nform of woven branches. (See  Ring of\nSoul-Binding, p24 .) The ghost is teth-\nered to the ring—he cannot exist more\nthan 10’ from it.\n▶ If the ring is removed:  The ghost\ndisappears. This is only temporary, how-\never—it is able to manifest once per day,\nhaunting the one who stole the ring (see\nEpilogue, p23 ).\n▶ If the ring is crushed:  Its power ends.\nThe knight’s soul is released and disap-\npears into the afterlife.\nHanging Portrait\nA fair maiden (with long, flowing,\nblond hair and white robe, upon her\nbrow a star).  Amid a stone circle  (the\nbackground depicts a scene PCs may\nrecognise—the Whything Stones, area 2).\nGrimed with dust (aged and damp).\n▶ If restored:  Worth 1,500gp.\nSilver Candlesticks\nFloor-standing (4’ tall).  Tarnished and\nblotchy (after years entombed).\n▶ If cleaned:  Worth 200gp each.",
     "labels": [],
-    "text_bytes": 2394,
+    "text_bytes": 2391,
     "keyed_area": "13",
     "style": {
       "size": 27.0,
@@ -1569,13 +1517,14 @@
   {
     "unit_id": "p20.14-warded-pool",
     "heading": "14. Warded Pool",
+    "heading_path": [],
     "pages": [
       20
     ],
     "column": -1,
-    "text": "14. Warded Pool\nVaulted Chamber\nShimmering pool\n(fills the room).  Statue\nof a maiden\n(in the centre of the pool,\nwhite marble, long, flowing hair and robe,\nupon her brow a star).\nReferee’s Note\nThe  vaulted chamber  that characters\nperceive before passing through the\nward is the bottom level of the tomb\nas it exists in the mortal world. The\nnature of reality has been warped here\nby the action of the ring of soul-bind-\ning, over the many centuries it has\nlain in the tomb. Fairy is now more\npresent here than the mortal world.\nThe  wards  at the bottom of the stairs\nwere placed by the Church when the\ntomb was sealed, in order to prevent\nfurther encroachment from Fairy.\n18\nAt the Bottom of the Stairs\nGhostly candles\n(dozens, floating in\nmid-air).  Warding the way  (it is not\npossible to pass the bottom step without\npassing through the candles).\n▶ Fairy PCs:  Feel the presence of the\nageless realm pressing against the ward,\nfrom the other side.\n▶ Passing through the candle ward:\n(From area 6 or 7.) Characters feel a\nwave of religious awe. The perceived\nscene of the vaulted chamber dissolves\nand reforms into an outdoor scene with\na white tower upon an island in a frozen\nlake—PCs appear in area 15.\n▶ Returning:  Characters who came from\nthe tomb can pass back through the ward,\nbut it is impassable to others.\n▶ Dispelling:  The ward is immune to\nfairy magic, but can be dispelled by oth-\ners. Treat as if cast by a 10th level cleric.",
+    "text": "14. Warded Pool\nVaulted Chamber\nShimmering pool (fills the room).  Statue\nof a maiden (in the centre of the pool,\nwhite marble, long, flowing hair and robe,\nupon her brow a star).\nReferee’s Note\nThe  vaulted chamber  that characters\nperceive before passing through the\nward is the bottom level of the tomb\nas it exists in the mortal world. The\nnature of reality has been warped here\nby the action of the ring of soul-bind-\ning, over the many centuries it has\nlain in the tomb. Fairy is now more\npresent here than the mortal world.\nThe  wards  at the bottom of the stairs\nwere placed by the Church when the\ntomb was sealed, in order to prevent\nfurther encroachment from Fairy.\nAt the Bottom of the Stairs\nGhostly candles (dozens, floating in\nmid-air).  Warding the way  (it is not\npossible to pass the bottom step without\npassing through the candles).\n▶ Fairy PCs:  Feel the presence of the\nageless realm pressing against the ward,\nfrom the other side.\n▶ Passing through the candle ward:\n(From area 6 or 7.) Characters feel a\nwave of religious awe. The perceived\nscene of the vaulted chamber dissolves\nand reforms into an outdoor scene with\na white tower upon an island in a frozen\nlake—PCs appear in area 15.\n▶ Returning:  Characters who came from\nthe tomb can pass back through the ward,\nbut it is impassable to others.\n▶ Dispelling:  The ward is immune to\nfairy magic, but can be dispelled by oth-\ners. Treat as if cast by a 10th level cleric.",
     "labels": [],
-    "text_bytes": 1460,
+    "text_bytes": 1457,
     "keyed_area": "14",
     "style": {
       "size": 27.0,
@@ -1587,6 +1536,7 @@
   {
     "unit_id": "p21.the-fairy-prison-the-fairy-priso",
     "heading": "The Fairy Prison The Fairy Prison",
+    "heading_path": [],
     "pages": [
       21
     ],
@@ -1605,13 +1555,14 @@
   {
     "unit_id": "p21.15-tower-on-a-frozen-lake",
     "heading": "15. Tower on a Frozen Lake",
+    "heading_path": [],
     "pages": [
       21
     ],
     "column": -1,
-    "text": "15. Tower on a Frozen Lake\n1.  1d3  frost elf knights —guests of the\nprincess—emerge from the forest on\nwhite chargers. (See  Frost Elf Guards\nand Knights, p21\n.)\n2.  A  cawing white raven . Brings a\nmessage to the princess, announcing\nthe arrival of her friend, Lord Mantle-\nof-Runes.\nWintry Glade\nBitter cold\n(shivering, breath condensing\ninto streams of vapour).  2’ deep snow\n(pristine and crunchy).  Bootprints  (larg-\ner-than-human, lead from tower to edge\nof woods and back.).  Snowflakes  (drift-\ning gently down).  Sparkling sunshine\n(glints off the crystalline snow).\nFrozen Lake\nIce-skating patch\n(cleared on the lake).\nFrozen solid\n(down to 5’).\nWhite Marble Tower\nSolid door\n(unlocked, polished cherry\nwood, with black iron fittings).  Icy walls\n(–20% to climb sheer surfaces checks).\nFrost-patterned windows\n(can be\nsmashed open).  Plume of smoke  (thin,\nbluish, rising from the summit).\nPurple Crack in the Sky\nSticky, purple drips\n(occasionally fall\nfrom the crack, staining the snow).\n3.  A laden sleigh pulled by white stags\nrushes from the forest. The  goblin\nsleigh-rider\nbrings gifts to the tower:\nfairy fruits, ice wines, and a cauldron\nof steaming soup. (See  Dolmenwood\nGoblin, p20\n.)\n4.  2d6  dire wolves  (see  Old-School\nEssentials\n) creep out from the forest\nand sniff around the lake, seeking prey.\nHoar-Clad Forest\nOminous fir-wood\n(heavy with snow).\nMossy corpses\n(in the trees, food for the\ntroll Grimmlegridge—see area 16).\n▶ Wandering in the forest:  Characters\nwho wander in the treacherous fairy\nwoods may encounter giant spiders, frost\nelves, or winter wolves.\nPaths into the Forest\nGhostly candles\n(dozens, floating in\nmid-air).  Blocking the way  (it is not\npossible to step onto the paths without\npassing through the candles).\n▶ Passing through:  Characters who\ncame from the tomb can pass through the\nward (it is impassable to others), appear-\ning at the bottom of the stairs in 14. 1d6\ndays have passed in the mortal world.\n▶ Dispelling:  The ward is immune to\nfairy magic, but can be dispelled by oth-\ners. Treat as if cast by a 10th level cleric.\n19",
+    "text": "15. Tower on a Frozen Lake\n1.  1d3  frost elf knights —guests of the\nprincess—emerge from the forest on\nwhite chargers. (See  Frost Elf Guards\nand Knights, p21 .)\n2.  A  cawing white raven . Brings a\nmessage to the princess, announcing\nthe arrival of her friend, Lord Mantle-\nof-Runes.\nWintry Glade\nBitter cold (shivering, breath condensing\ninto streams of vapour).  2’ deep snow\n(pristine and crunchy).  Bootprints  (larg-\ner-than-human, lead from tower to edge\nof woods and back.).  Snowflakes  (drift-\ning gently down).  Sparkling sunshine\n(glints off the crystalline snow).\nFrozen Lake\nIce-skating patch (cleared on the lake).\nFrozen solid (down to 5’).\nWhite Marble Tower\nSolid door (unlocked, polished cherry\nwood, with black iron fittings).  Icy walls\n(–20% to climb sheer surfaces checks).\nFrost-patterned windows (can be\nsmashed open).  Plume of smoke  (thin,\nbluish, rising from the summit).\nPurple Crack in the Sky\nSticky, purple drips (occasionally fall\nfrom the crack, staining the snow).\n3.  A laden sleigh pulled by white stags\nrushes from the forest. The  goblin\nsleigh-rider brings gifts to the tower:\nfairy fruits, ice wines, and a cauldron\nof steaming soup. (See  Dolmenwood\nGoblin, p20 .)\n4.  2d6  dire wolves  (see  Old-School\nEssentials ) creep out from the forest\nand sniff around the lake, seeking prey.\nHoar-Clad Forest\nOminous fir-wood (heavy with snow).\nMossy corpses (in the trees, food for the\ntroll Grimmlegridge—see area 16).\n▶ Wandering in the forest:  Characters\nwho wander in the treacherous fairy\nwoods may encounter giant spiders, frost\nelves, or winter wolves.\nPaths into the Forest\nGhostly candles (dozens, floating in\nmid-air).  Blocking the way  (it is not\npossible to step onto the paths without\npassing through the candles).\n▶ Passing through:  Characters who\ncame from the tomb can pass through the\nward (it is impassable to others), appear-\ning at the bottom of the stairs in 14. 1d6\ndays have passed in the mortal world.\n▶ Dispelling:  The ward is immune to\nfairy magic, but can be dispelled by oth-\ners. Treat as if cast by a 10th level cleric.",
     "labels": [],
-    "text_bytes": 2111,
+    "text_bytes": 2108,
     "keyed_area": "15",
     "style": {
       "size": 27.0,
@@ -1623,13 +1574,14 @@
   {
     "unit_id": "p22.16-entrance-hall",
     "heading": "16. Entrance Hall",
+    "heading_path": [],
     "pages": [
       22
     ],
     "column": -1,
-    "text": "16. Entrance Hall\nThe Doormen\nHulking, clay-like humanoid\n(the troll\nGrimmlegridge).  Palanquin on its back\n(scarlet awnings).  Scrawny little rider\n(the goblin Griddlegrim).\nFurnishings\nGarlands\n(white roses and pale blue for-\nget-me-nots, hung around the room with\nribbons).  Winter hats and coats  (dozens\nof each, bulging out from hooks around\nthe walls).  Boots and ice skates  (lined up\nneatly on shoe racks).  Fireplace  (melting\nicicles burning with electric blue flames).\nAtmospherics\nDelicious aroma of baking\n(from the\ndoor to 17).  Muted voices  (from the\nstairs up to 18).\nDolmenwood Troll\nAC  6 [13],  HD  8* (45 hp),  Att  2 ×\nfists (1d10 + moss growth),  THAC0\n12 [+7],  MV  120’ (40’),  SV  D8 W9\nP10 B10 S12 (8),  ML  9,  AL  Chaotic,\nXP  1,200\n▶ Moss growth:  A mortal touched\nby a troll sprouts moss at the site of\ncontact.\n▶ Regenerates:  3hp per round.\nReforms unless killed with fire or\nacid.\n▶ Lore:  The trolls of Dolmenwood\nare mossivorous fairies. Their favour-\nite delicacy is moss that has grown on\nthe corpses of a sentient being. This\nleads them to murder.\n20\nGriddlegrim (Goblin)\nScrawny\n(big head, spindly neck).  Dark\ngrey skin\n(warty and wrinkled).  Huge\nyellow eyes\n(beady and penetrating).\nDressed in purple finery\n(velvet).  Jovial\n(with a whimsical sense of humour).\n▶ Reaction:  Checks names of all who\ncome to the door. Allows invited wedding\nguests to enter. Will let uninvited people\nin if they eat a shroom from his pouch.\n▶ The goblin’s shrooms:  Have magical\neffects when eaten (see  Pouch of Limitless\nFungi, p24\n).\nGrimmlegridge (Troll)\nHulking, obese\n(10’ tall).  Hairless  (clay-\nlike flesh).  Hessian clothes  (ragged and\nfilthy).  Bulging pouch  (moss-covered,\nhumanoid bones).  Glowering  (moody\nsimpleton).\n▶ Reaction:  Does what Griddlegrim\ntells him. Secretly wants to squash PCs\nand add their fertile bodies to his moss-\ncorpse collection at the edge of the forest\n(see area 15).\nDolmenwood Goblin\nAC  7 [12],  HD  1* (4 hp),  Att  1 ×\nspear (1d6) or 1 × spell,  THAC0  19\n[0],  MV  90’ (30’),  SV  D12 W13 P14\nB15 S16 (1),  ML  7,  AL  Neutral,  XP  13\n▶ Spells: Charm person ,  darkness ,\nsleep\n,  phantasmal force .\n▶ Lore:  The goblins of Dolmenwood\nare natives of Fairy. In the mortal\nworld, they are famed as tricksters,\ncharlatans, and peddlers of fey odd-\nments.",
+    "text": "16. Entrance Hall\nThe Doormen\nHulking, clay-like humanoid (the troll Grimmlegridge).  Palanquin on its back\n(scarlet awnings).  Scrawny little rider\n(the goblin Griddlegrim).\nFurnishings\nGarlands (white roses and pale blue for-\nget-me-nots, hung around the room with\nribbons).  Winter hats and coats  (dozens\nof each, bulging out from hooks around\nthe walls).  Boots and ice skates  (lined up\nneatly on shoe racks).  Fireplace  (melting\nicicles burning with electric blue flames).\nAtmospherics\nDelicious aroma of baking (from the\ndoor to 17).  Muted voices  (from the\nstairs up to 18).\nDolmenwood Troll\nAC  6 [13],  HD  8* (45 hp),  Att  2 ×\nfists (1d10 + moss growth),  THAC0\n12 [+7],  MV  120’ (40’),  SV  D8 W9\nP10 B10 S12 (8),  ML  9,  AL  Chaotic,\nXP  1,200\n▶ Moss growth:  A mortal touched\nby a troll sprouts moss at the site of\ncontact.\n▶ Regenerates:  3hp per round.\nReforms unless killed with fire or\nacid.\n▶ Lore:  The trolls of Dolmenwood\nare mossivorous fairies. Their favour-\nite delicacy is moss that has grown on\nthe corpses of a sentient being. This\nleads them to murder.\nGriddlegrim (Goblin)\nScrawny (big head, spindly neck).  Dark\ngrey skin (warty and wrinkled).  Huge\nyellow eyes (beady and penetrating).\nDressed in purple finery (velvet).  Jovial\n(with a whimsical sense of humour).\n▶ Reaction:  Checks names of all who\ncome to the door. Allows invited wedding\nguests to enter. Will let uninvited people\nin if they eat a shroom from his pouch.\n▶ The goblin’s shrooms:  Have magical\neffects when eaten (see  Pouch of Limitless\nFungi, p24 ).\nGrimmlegridge (Troll)\nHulking, obese (10’ tall).  Hairless  (clay-\nlike flesh).  Hessian clothes  (ragged and\nfilthy).  Bulging pouch  (moss-covered,\nhumanoid bones).  Glowering  (moody\nsimpleton).\n▶ Reaction:  Does what Griddlegrim\ntells him. Secretly wants to squash PCs\nand add their fertile bodies to his moss-\ncorpse collection at the edge of the forest\n(see area 15).\nDolmenwood Goblin\nAC  7 [12],  HD  1* (4 hp),  Att  1 ×\nspear (1d6) or 1 × spell,  THAC0  19\n[0],  MV  90’ (30’),  SV  D12 W13 P14\nB15 S16 (1),  ML  7,  AL  Neutral,  XP  13\n▶ Spells: Charm person ,  darkness ,\nsleep ,  phantasmal force .\n▶ Lore:  The goblins of Dolmenwood\nare natives of Fairy. In the mortal\nworld, they are famed as tricksters,\ncharlatans, and peddlers of fey odd-\nments.",
     "labels": [],
-    "text_bytes": 2358,
+    "text_bytes": 2355,
     "keyed_area": "16",
     "style": {
       "size": 27.0,
@@ -1641,6 +1593,7 @@
   {
     "unit_id": "p23.17-fairy-kitchen",
     "heading": "17. Fairy Kitchen",
+    "heading_path": [],
     "pages": [
       23
     ],
@@ -1659,11 +1612,14 @@
   {
     "unit_id": "p23.18-wedding-feast",
     "heading": "18. Wedding Feast",
+    "heading_path": [
+      "17. Fairy Kitchen"
+    ],
     "pages": [
       23
     ],
     "column": -1,
-    "text": "18. Wedding Feast\n2 Frost Elf Cooks\nChubby\n(short and stout).  Pearly eyes\n(twinkling).  Blue skin  (frost-chilled).\nFlustered\n(but orderly).\n▶ Reaction:  Shout orders, demanding\nPCs help carry more food up to the feast.\n▶ Know:  That the princess’s guests await\nthe arrival of Sir Chyde, her betrothed.\nFurnishings\nFireplace\n(melting icicles burning with\nelectric blue flames).  Cast-iron stove\n(bubbling stockpots, currant buns in the\noven).  Chunky table  (flour, pastry).  Pan-\ntry cupboard\n(tall shelves stuffed with\ncandied fruits, frozen game, ice wines).\nFeasting Table\nAmply bedecked\n(with luxurious prov-\nender).  Roast swans  (stuffed with black-\nbirds).  Mountains of fruit  (dripping\nsyrup).  Ice wines  (chilling in buckets).\nViolet spirits\n(in crystal decanters).\n▶ Eating or drinking:  Mortals who eat\nor drink must  save versus spells  or forev-\nermore yearn to return to Fairy.\nGuests\n5 frost elf knights\n(proud, haughty, plate\nmail, lances at their sides).  7 frost elf\nnobles\n(decadent, foppish, dabbing hand-\nkerchiefs, dressed in flouncy silk and\nlace).  Uncomfortably subdued  (quietly\nsipping wine).  Timeless  (the princess’s\nguests have been waiting centuries).\n▶ Reaction:  Ambivalent, but call the\nguards if disturbed.\nFrost Elf Cooks\nAC  9 [10],  HD  1 (hp 3, 3),  Att  1 ×\nknife / rolling pin (1d3),  THAC0  19\n[0],  MV  120’ (40’),  SV  D12 W13 P13\nB15 S15 (E1),  ML  6,  AL  Neutral,  XP  10\n▶ Raiding the pantry:  The deeper one\ndelves, the larger the pantry seems. There\nis a 1-in-6 chance per person per turn of\nfinding something worth 2d10 × 10gp in\nthe mortal world. Rare fairy wines, jellied\ndreams, sprite dust, tarts of infatuation.\nAtmospherics\nDelicious baking aroma\n(currants and\nspice).  Steam  (bubbling pots of broth).\nFrost Elf Guards and Knights\nAC  3 [16],  HD  2,  Att  1 × spear / lance\n(1d6),  THAC0  18 [+1],  MV  60’ (20’),\nSV  D12 W13 P13 B15 S15 (E2),  ML\n9,  AL  Neutral,  XP  20\nFrost Elf Nobles\nAC  8 [11],  HD  4*,  Att  1 × icicle dagger\n(1d4) or 1 × spell,  THAC0  16 [+3],\nMV  120’ (40’),  SV  D10 W11 P11 B13\nS12 (E4),  ML  7,  AL  Neutral,  XP  125\n▶ Spells: Sleep ,  hold person .\n4 Frost Elf Guards\nStanding respectfully\n(at the edges, but\nwill leap to action if needed).\n▶ Reaction:  Escort uninvited\nguests to the princess (area 19). 21",
+    "text": "18. Wedding Feast\n2 Frost Elf Cooks\nChubby (short and stout).  Pearly eyes\n(twinkling).  Blue skin  (frost-chilled).\nFlustered (but orderly).\n▶ Reaction:  Shout orders, demanding\nPCs help carry more food up to the feast.\n▶ Know:  That the princess’s guests await\nthe arrival of Sir Chyde, her betrothed.\nFurnishings\nFireplace (melting icicles burning with\nelectric blue flames).  Cast-iron stove\n(bubbling stockpots, currant buns in the\noven).  Chunky table  (flour, pastry).  Pan-\ntry cupboard (tall shelves stuffed with\ncandied fruits, frozen game, ice wines).\nFeasting Table\nAmply bedecked (with luxurious prov-\nender).  Roast swans  (stuffed with black-\nbirds).  Mountains of fruit  (dripping\nsyrup).  Ice wines  (chilling in buckets).\nViolet spirits (in crystal decanters).\n▶ Eating or drinking:  Mortals who eat\nor drink must  save versus spells  or forev-\nermore yearn to return to Fairy.\nGuests\n5 frost elf knights\n(proud, haughty, plate\nmail, lances at their sides).  7 frost elf\nnobles (decadent, foppish, dabbing hand-\nkerchiefs, dressed in flouncy silk and\nlace).  Uncomfortably subdued  (quietly\nsipping wine).  Timeless  (the princess’s\nguests have been waiting centuries).\n▶ Reaction:  Ambivalent, but call the\nguards if disturbed.\nFrost Elf Cooks\nAC  9 [10],  HD  1 (hp 3, 3),  Att  1 ×\nknife / rolling pin (1d3),  THAC0  19\n[0],  MV  120’ (40’),  SV  D12 W13 P13\nB15 S15 (E1),  ML  6,  AL  Neutral,  XP  10\n▶ Raiding the pantry:  The deeper one\ndelves, the larger the pantry seems. There\nis a 1-in-6 chance per person per turn of\nfinding something worth 2d10 × 10gp in\nthe mortal world. Rare fairy wines, jellied\ndreams, sprite dust, tarts of infatuation.\nAtmospherics\nDelicious baking aroma (currants and\nspice).  Steam  (bubbling pots of broth).\nFrost Elf Guards and Knights\nAC  3 [16],  HD  2,  Att  1 × spear / lance\n(1d6),  THAC0  18 [+1],  MV  60’ (20’),\nSV  D12 W13 P13 B15 S15 (E2),  ML\n9,  AL  Neutral,  XP  20\nFrost Elf Nobles\nAC  8 [11],  HD  4*,  Att  1 × icicle dagger\n(1d4) or 1 × spell,  THAC0  16 [+3],\nMV  120’ (40’),  SV  D10 W11 P11 B13\nS12 (E4),  ML  7,  AL  Neutral,  XP  125\n▶ Spells: Sleep ,  hold person .\n4 Frost Elf Guards\nStanding respectfully (at the edges, but\nwill leap to action if needed).\n▶ Reaction:  Escort uninvited\nguests to the princess (area 19). 21",
     "labels": [],
     "text_bytes": 2340,
     "keyed_area": "18",
@@ -1677,13 +1633,14 @@
   {
     "unit_id": "p24.19-the-princess-s-bedchamber",
     "heading": "19. The Princess’s Bedchamber",
+    "heading_path": [],
     "pages": [
       24
     ],
     "column": -1,
-    "text": "19. The Princess’s Bedchamber\nPrincess Snowfall-at-Dusk\nBeautiful\n(ageless, otherworldly).  Blonde\nhair\n(the colour of the winter sun).  Pale\nskin\n(scintillating like fresh snow).  Blue\neyes\n(crystalline).  Clad in white  (floaty\ngown).  Star on her brow  (a flashing crys-\ntal, bound with silver cord, worth 300gp).\nRegal\n(dignified, benevolent).  Resigned\nto her fate\n(but not without hope).\n▶ Reaction:  Excited at the possibilities\nstrangers (especially mortals!) present.\n▶ Wants:  To be reunited with her love,\nSir Chyde, who was tragically taken from\nher by his mortality. (See The Princess’s\nPlea.)\n▶ Knows:  That Sir Chyde’s soul lingers\nin his tomb. The names of his hounds\n(Chedr and Flaegr). That the warded\npaths into the forest lead to his tomb in\nthe mortal world.\n▶ Magical ban:  Cannot leave the glade\nin which her tower stands (area 15),\nunless she renounces her love for Sir\nChyde. The ban is also effective against\nmagical summons or teleportation (e.g.\nthe power of the ring of soul-binding to\nphysically unite the bound persons on\nnights of the full moon).\nPrincess Snowfall-at-Dusk\nAC  7 [12],  HD  5* (19 hp),  Att  1 × ici-\ncle dagger (1d4) or 1 × spell,  THAC0\n15 [+4],  MV  120’ (40’),  SV  D10 W11\nP11 B13 S12 (E5),  ML  8,  AL  Neutral,\nXP  300\n▶ Spells: Charm person ,  sleep ,  hold\nperson\n,  invisibility .\n▶ Wish:  Has the power to grant\nanother’s wish. She may only use this\npower once ever.\n22\nThe Princess’s Plea\n▶ Her wish:  She yearns to be reunited\nwith her love, Sir Chyde.\n▶ Proposal:  The PCs return to the tomb\nand bring her the ring that lies in Sir\nChyde’s coffer. His soul will follow, bring-\ning the two lovers together and allowing\nthem to finally be married.\n▶ Possible rewards:  Jewels. A wish\ngranted (see combat stats, below).\nFurnishings\nCanopy bed\n(veils of snow dust, decked\nwith white wolf skins).  Dressing table\n(jewellery boxes).  Wardrobe  (stuffed with\ncoats and gowns).  Fireplace  (melting\nicicles burning with electric blue flames).\n▶ In the jewellery boxes:  30 ice-jewels\n(200gp each), 12 necklaces of fairy silver\n(150gp each), a sapphire set in a plati-\nnum brooch wrought like spiky hoarfrost\n(1,000gp).\n▶ In the wardrobe:  20 fur coats and 20\nscintillating gowns (100gp each)—many\nmore than should fit inside.",
+    "text": "19. The Princess’s Bedchamber\nPrincess Snowfall-at-Dusk\nBeautiful (ageless, otherworldly).  Blonde\nhair (the colour of the winter sun).  Pale\nskin (scintillating like fresh snow).  Blue\neyes (crystalline).  Clad in white  (floaty\ngown).  Star on her brow  (a flashing crys-\ntal, bound with silver cord, worth 300gp).\nRegal (dignified, benevolent).  Resigned\nto her fate (but not without hope).\n▶ Reaction:  Excited at the possibilities\nstrangers (especially mortals!) present.\n▶ Wants:  To be reunited with her love,\nSir Chyde, who was tragically taken from\nher by his mortality. (See The Princess’s\nPlea.)\n▶ Knows:  That Sir Chyde’s soul lingers\nin his tomb. The names of his hounds\n(Chedr and Flaegr). That the warded\npaths into the forest lead to his tomb in\nthe mortal world.\n▶ Magical ban:  Cannot leave the glade\nin which her tower stands (area 15),\nunless she renounces her love for Sir\nChyde. The ban is also effective against\nmagical summons or teleportation (e.g.\nthe power of the ring of soul-binding to\nphysically unite the bound persons on\nnights of the full moon).\nPrincess Snowfall-at-Dusk\nAC  7 [12],  HD  5* (19 hp),  Att  1 × ici-\ncle dagger (1d4) or 1 × spell,  THAC0\n15 [+4],  MV  120’ (40’),  SV  D10 W11\nP11 B13 S12 (E5),  ML  8,  AL  Neutral,\nXP  300\n▶ Spells: Charm person ,  sleep ,  hold\nperson ,  invisibility .\n▶ Wish:  Has the power to grant\nanother’s wish. She may only use this\npower once ever.\nThe Princess’s Plea\n▶ Her wish:  She yearns to be reunited\nwith her love, Sir Chyde.\n▶ Proposal:  The PCs return to the tomb\nand bring her the ring that lies in Sir\nChyde’s coffer. His soul will follow, bring-\ning the two lovers together and allowing\nthem to finally be married.\n▶ Possible rewards:  Jewels. A wish\ngranted (see combat stats, below).\nFurnishings\nCanopy bed (veils of snow dust, decked\nwith white wolf skins).  Dressing table\n(jewellery boxes).  Wardrobe  (stuffed with\ncoats and gowns).  Fireplace  (melting\nicicles burning with electric blue flames).\n▶ In the jewellery boxes:  30 ice-jewels\n(200gp each), 12 necklaces of fairy silver\n(150gp each), a sapphire set in a plati-\nnum brooch wrought like spiky hoarfrost\n(1,000gp).\n▶ In the wardrobe:  20 fur coats and 20\nscintillating gowns (100gp each)—many\nmore than should fit inside.",
     "labels": [],
-    "text_bytes": 2321,
+    "text_bytes": 2318,
     "keyed_area": "19",
     "style": {
       "size": 27.0,
@@ -1695,6 +1652,7 @@
   {
     "unit_id": "p25.epilogue-epilogue",
     "heading": "Epilogue Epilogue",
+    "heading_path": [],
     "pages": [
       25
     ],
@@ -1713,6 +1671,9 @@
   {
     "unit_id": "p25.a-door-to-frigia",
     "heading": "A Door to Frigia",
+    "heading_path": [
+      "Epilogue Epilogue"
+    ],
     "pages": [
       25
     ],
@@ -1731,6 +1692,9 @@
   {
     "unit_id": "p25.the-lovers-reunited",
     "heading": "The Lovers Reunited",
+    "heading_path": [
+      "Epilogue Epilogue"
+    ],
     "pages": [
       25
     ],
@@ -1749,13 +1713,16 @@
   {
     "unit_id": "p25.the-ring-stolen",
     "heading": "The Ring Stolen",
+    "heading_path": [
+      "Epilogue Epilogue"
+    ],
     "pages": [
       25
     ],
     "column": 1,
-    "text": "The Ring Stolen\n▶ If the ring of soul-binding is removed\nfrom the tomb, the one who possesses\nit will be haunted by nightly visitations\nfrom the ghost of Sir Chyde.\n▶ At first, the ghost will plead with the\nthief to return the ring, promising the\ngenerosity of his fairy bride.\n▶ If the thief is stubborn in their refusal\nto cooperate, the ghost will become angry\nand violent.\n▶ Only by slaying the ghost or unbind-\ning the ring (see following page) can the\nhaunting be ended.\n23",
+    "text": "The Ring Stolen\n▶ If the ring of soul-binding is removed\nfrom the tomb, the one who possesses\nit will be haunted by nightly visitations\nfrom the ghost of Sir Chyde.\n▶ At first, the ghost will plead with the\nthief to return the ring, promising the\ngenerosity of his fairy bride.\n▶ If the thief is stubborn in their refusal\nto cooperate, the ghost will become angry\nand violent.\n▶ Only by slaying the ghost or unbind-\ning the ring (see following page) can the\nhaunting be ended.",
     "labels": [],
-    "text_bytes": 487,
+    "text_bytes": 484,
     "keyed_area": null,
     "style": {
       "size": 27.0,
@@ -1767,6 +1734,7 @@
   {
     "unit_id": "p26.magic-items-magic-items",
     "heading": "Magic Items Magic Items",
+    "heading_path": [],
     "pages": [
       26
     ],
@@ -1785,13 +1753,14 @@
   {
     "unit_id": "p26.effects-on-the-bound-persons",
     "heading": "Effects on the Bound Persons",
+    "heading_path": [],
     "pages": [
       26
     ],
     "column": 0,
-    "text": "Effects on the Bound Persons\n▶ The bound persons may communicate\nverbally via the ring.\n▶ If one of the bound persons is in the\nmortal world and the other in Fairy,\nthe ring draws the two close together,\nnarrowing the boundary between the two\nworlds.\n▶ Upon nights of the full moon, the\nwearer of the ring may call the other per-\nson to them. For the space of one night,\nthe two are united.\n▶ If the wearer of the ring dies, their\nspirit cannot rest and will haunt the\nring as a ghost. Such a ghost is only able\nto manifest in the presence of the ring\n(within 10’).\n24\nPouch of Limitless Fungi\nAn innocuous-looking, burlap belt pouch\nstuffed with colourful mushrooms.\n▶ No matter how many mushrooms are\ntaken from the pouch, it is always full.\n▶ The first time a character eats a mush-\nroom each day, it has a random magical\neffect (roll 1d12).\n▶ Subsequent mushrooms that day make\nthe character sick.\n▶ Unless noted, all effects are permanent.",
+    "text": "Effects on the Bound Persons\n▶ The bound persons may communicate\nverbally via the ring.\n▶ If one of the bound persons is in the\nmortal world and the other in Fairy,\nthe ring draws the two close together,\nnarrowing the boundary between the two\nworlds.\n▶ Upon nights of the full moon, the\nwearer of the ring may call the other per-\nson to them. For the space of one night,\nthe two are united.\n▶ If the wearer of the ring dies, their\nspirit cannot rest and will haunt the\nring as a ghost. Such a ghost is only able\nto manifest in the presence of the ring\n(within 10’).\nPouch of Limitless Fungi\nAn innocuous-looking, burlap belt pouch\nstuffed with colourful mushrooms.\n▶ No matter how many mushrooms are\ntaken from the pouch, it is always full.\n▶ The first time a character eats a mush-\nroom each day, it has a random magical\neffect (roll 1d12).\n▶ Subsequent mushrooms that day make\nthe character sick.\n▶ Unless noted, all effects are permanent.",
     "labels": [],
-    "text_bytes": 962,
+    "text_bytes": 959,
     "keyed_area": null,
     "style": {
       "size": 23.0,
@@ -1803,6 +1772,7 @@
   {
     "unit_id": "p26.random-shroom-effects",
     "heading": "Random Shroom Effects",
+    "heading_path": [],
     "pages": [
       26,
       27
@@ -1822,6 +1792,7 @@
   {
     "unit_id": "p28.outside-the-mound",
     "heading": "Outside the Mound",
+    "heading_path": [],
     "pages": [
       28
     ],
@@ -1840,6 +1811,7 @@
   {
     "unit_id": "p28.5-yards",
     "heading": "5 yards",
+    "heading_path": [],
     "pages": [
       28
     ],
@@ -1858,6 +1830,9 @@
   {
     "unit_id": "p28.1-approaching-the-mound",
     "heading": "1.  Approaching the mound:",
+    "heading_path": [
+      "5 yards"
+    ],
     "pages": [
       28
     ],
@@ -1876,6 +1851,9 @@
   {
     "unit_id": "p28.2-the-whything-stones",
     "heading": "2.  The Whything Stones:",
+    "heading_path": [
+      "5 yards"
+    ],
     "pages": [
       28
     ],
@@ -1894,6 +1872,9 @@
   {
     "unit_id": "p28.3-tomb-entrance",
     "heading": "3.  Tomb entrance:",
+    "heading_path": [
+      "5 yards"
+    ],
     "pages": [
       28
     ],
@@ -1912,6 +1893,9 @@
   {
     "unit_id": "p28.4-worm-hole",
     "heading": "4.  Worm hole:",
+    "heading_path": [
+      "5 yards"
+    ],
     "pages": [
       28
     ],
@@ -1930,6 +1914,7 @@
   {
     "unit_id": "p29.the-burial-mound",
     "heading": "The Burial Mound",
+    "heading_path": [],
     "pages": [
       29
     ],
@@ -1948,11 +1933,14 @@
   {
     "unit_id": "p29.5-hall-of-guardians",
     "heading": "5.  Hall of guardians:",
+    "heading_path": [
+      "The Burial Mound"
+    ],
     "pages": [
       29
     ],
     "column": 0,
-    "text": "5.  Hall of guardians:\nMusty, wet.\nLower Level\nFloating religious objects attack\nnon-Lawful characters. Dusty floor\nconceals mosaic. Double doors\ninscribed “The Most Dear”.",
+    "text": "5.  Hall of guardians:\nMusty, wet.\nLower Level Floating religious objects attack\nnon-Lawful characters. Dusty floor\nconceals mosaic. Double doors\ninscribed “The Most Dear”.",
     "labels": [],
     "text_bytes": 176,
     "keyed_area": "5",
@@ -1966,6 +1954,9 @@
   {
     "unit_id": "p29.14-13-6-blindfolded-statue",
     "heading": "14 13 6.  Blindfolded statue:",
+    "heading_path": [
+      "The Burial Mound"
+    ],
     "pages": [
       29
     ],
@@ -1984,11 +1975,14 @@
   {
     "unit_id": "p29.7-freezing-mirror",
     "heading": "7.  Freezing mirror:",
+    "heading_path": [
+      "The Burial Mound"
+    ],
     "pages": [
       29
     ],
     "column": 0,
-    "text": "7.  Freezing mirror:\nPassing\nin front of the mirror:  save\nvs paralysis\nor frozen still!",
+    "text": "7.  Freezing mirror:\nPassing\nin front of the mirror:  save\nvs paralysis or frozen still!",
     "labels": [],
     "text_bytes": 88,
     "keyed_area": "7",
@@ -2002,11 +1996,14 @@
   {
     "unit_id": "p29.8-family-crypt",
     "heading": "8.  Family crypt:",
+    "heading_path": [
+      "The Burial Mound"
+    ],
     "pages": [
       29
     ],
     "column": 0,
-    "text": "8.  Family crypt:\n2\nfloating skeletons,\n12 dancing. Welcome\nstrangers to join in.\nSheets of slime drip\na c from ceiling into\nfissure. Descending\nd into the fissure leads\n10 9\nb 8 11 to area 15.\ne 9.  Chapel of St\nSedge:\nDecaying\npews. Stone altar",
+    "text": "8.  Family crypt:\n2\nfloating skeletons,\n12 dancing. Welcome\nstrangers to join in.\nSheets of slime drip\na c from ceiling into\nfissure. Descending\nd into the fissure leads\n10 9\nb 8 11 to area 15.\ne 9.  Chapel of St\nSedge: Decaying\npews. Stone altar",
     "labels": [],
     "text_bytes": 246,
     "keyed_area": "8",
@@ -2020,6 +2017,9 @@
   {
     "unit_id": "p29.1-square",
     "heading": "1 square",
+    "heading_path": [
+      "The Burial Mound"
+    ],
     "pages": [
       29
     ],
@@ -2038,6 +2038,9 @@
   {
     "unit_id": "p29.5-feet",
     "heading": "5 feet",
+    "heading_path": [
+      "The Burial Mound"
+    ],
     "pages": [
       29
     ],
@@ -2056,6 +2059,9 @@
   {
     "unit_id": "p29.10-abandoned-priest-s-quarters",
     "heading": "10.  Abandoned priest’s quarters:",
+    "heading_path": [
+      "The Burial Mound"
+    ],
     "pages": [
       29
     ],
@@ -2074,6 +2080,9 @@
   {
     "unit_id": "p29.11-statues-with-weapons",
     "heading": "11.  Statues with weapons:",
+    "heading_path": [
+      "The Burial Mound"
+    ],
     "pages": [
       29
     ],
@@ -2092,6 +2101,9 @@
   {
     "unit_id": "p29.12-hall-of-hounds",
     "heading": "12.  Hall of hounds:",
+    "heading_path": [
+      "The Burial Mound"
+    ],
     "pages": [
       29
     ],
@@ -2110,6 +2122,9 @@
   {
     "unit_id": "p29.13-the-knight-s-tomb",
     "heading": "13.  The knight’s tomb:",
+    "heading_path": [
+      "The Burial Mound"
+    ],
     "pages": [
       29
     ],
@@ -2128,6 +2143,9 @@
   {
     "unit_id": "p29.14-warded-pool",
     "heading": "14.  Warded pool:",
+    "heading_path": [
+      "The Burial Mound"
+    ],
     "pages": [
       29
     ],
@@ -2146,6 +2164,7 @@
   {
     "unit_id": "p30.the-fairy-prison",
     "heading": "The Fairy Prison",
+    "heading_path": [],
     "pages": [
       30
     ],
@@ -2164,6 +2183,7 @@
   {
     "unit_id": "p30.5-yards",
     "heading": "5 yards",
+    "heading_path": [],
     "pages": [
       30
     ],
@@ -2182,6 +2202,9 @@
   {
     "unit_id": "p30.15-tower-on-a-frozen-lake",
     "heading": "15.  Tower on a frozen lake:",
+    "heading_path": [
+      "5 yards"
+    ],
     "pages": [
       30,
       31
@@ -2201,6 +2224,7 @@
   {
     "unit_id": "p31.5-feet",
     "heading": "5 feet",
+    "heading_path": [],
     "pages": [
       31
     ],
@@ -2219,6 +2243,7 @@
   {
     "unit_id": "p31.the-tower",
     "heading": "The Tower",
+    "heading_path": [],
     "pages": [
       31
     ],
@@ -2237,6 +2262,9 @@
   {
     "unit_id": "p31.16-entrance-hall",
     "heading": "16.  Entrance hall:",
+    "heading_path": [
+      "The Tower"
+    ],
     "pages": [
       31
     ],
@@ -2255,6 +2283,9 @@
   {
     "unit_id": "p31.17-fairy-kitchen",
     "heading": "17.  Fairy kitchen:",
+    "heading_path": [
+      "The Tower"
+    ],
     "pages": [
       31
     ],
@@ -2273,6 +2304,9 @@
   {
     "unit_id": "p31.18-wedding-feast",
     "heading": "18.  Wedding feast:",
+    "heading_path": [
+      "The Tower"
+    ],
     "pages": [
       31
     ],
@@ -2291,6 +2325,9 @@
   {
     "unit_id": "p31.19-the-princess-s-bedchamber",
     "heading": "19.  The princess’s bedchamber:",
+    "heading_path": [
+      "The Tower"
+    ],
     "pages": [
       31
     ],
