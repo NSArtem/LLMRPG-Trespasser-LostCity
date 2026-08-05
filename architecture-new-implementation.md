@@ -585,17 +585,27 @@ defect, also fixed:
   a **fallback**: real gutters are as narrow as four points and `find_gutter`
   still wins wherever it fires, so the 151 pages that already worked are
   untouched.
+- **A full-width heading was emitted before every column**, so on Winter's
+  Daughter p13 both centred keyed headings preceded all the prose and
+  `3. Tomb Entrance` lost its door to `4. Worm Hole`. Each spanning line now
+  opens a section and the columns beneath it belong to it.
+- **A keyed heading could never wrap.** `join_wrapped_headings` barred a join
+  when *either* line opened a key; the guard is only needed on the second.
+  Шпиль Кетцаль had four keyed areas cut in half, its largest unit named
+  `ЯЩЕРИЦ` — the second half of `12. ПОГОСТ ГРОМОВЫХ ЯЩЕРИЦ`.
 
-**Text retention found the first four and could not have found the fifth.**
+**Text retention found the first four and could not have found the last three.**
 Characters the line layer produced against characters that reached a unit: a
 unit count cannot see loss, and Doom segmented into a plausible 33 units while
-two pages of prose fell through `assemble`'s front-matter branch. But braiding
-loses nothing — both columns arrive, interleaved — so retention read 100% on
-Шпиль Кетцаль throughout. **A metric that counts characters cannot check their
-order.** Reading the lines is what found it, and T2.4 should expect the same
-class of defect to be invisible to any coverage count.
+two pages of prose fell through `assemble`'s front-matter branch. But braiding,
+a heading emitted early, and a heading cut in half all lose *nothing* — the text
+arrives, misordered or misattached — so retention read 100% on Шпиль Кетцаль
+through all three. **A metric that counts characters cannot check their order.**
+Reading the lines is what found the fifth, and looking at the short units, which
+the artefact's reviewer list invited, is what found the sixth and seventh. T2.4
+should expect this class of defect to be invisible to any coverage count.
 
-Three questions remain, all judgment rather than correctness, and they are
+Four questions remain, all judgment rather than correctness, and they are
 listed under "What is left for the reviewer" in the artefact.
 
 ### Phase 1 — CSV contract

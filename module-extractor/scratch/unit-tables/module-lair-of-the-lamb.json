@@ -4267,7 +4267,7 @@
       54
     ],
     "column": 1,
-    "text": "1 torch\n1.5 torches + 1 oil\n1 torch\n1 torch\n1 candle\nLiquid Light",
+    "text": "1 torch\n1.5 torches + 1 oil\n1 torch\n1 torch\n1 candle Liquid Light",
     "labels": [],
     "text_bytes": 65,
     "keyed_area": "1",

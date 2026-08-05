@@ -3,11 +3,11 @@
 | | |
 |---|---|
 | units | 56 |
-| text retained | 99.8% (118 of 54245 characters reached no unit) |
+| text retained | 99.8% (118 of 54239 characters reached no unit) |
 | pages covered | 42 |
 | keyed units | 22 (strict `N NAME` form: 19) |
-| spanning a page break | 13 |
-| size | median 465B, max 7659B, min 1B |
+| spanning a page break | 12 |
+| size | median 453B, max 7659B, min 1B |
 
 ## Checks
 
@@ -54,8 +54,8 @@
 | `p3.skele-8-7-tons-flayed-zombie` | 3 | 35 | Skele-  8 7 tons Flayed Zombie |
 | `p3.flayed-zombie-icescale-viper-4` | 3 | 36 | Flayed Zombie Icescale Viper 4 |
 | `p3.entrance` | 3–5 | 444 | Entrance |
-| `p6.the-legend-of-the-abbey` | 6 | 299 | The Legend of the Abbey |
-| `p6.quick-instructions` | 6 | 1462 | Quick Instructions |
+| `p6.the-legend-of-the-abbey` | 6 | 321 | The Legend of the Abbey |
+| `p6.quick-instructions` | 6 | 1440 | Quick Instructions |
 | `p7.table-of-contents` | 7 | 1713 | Table of Contents |
 | `p8.treasure-monster-overview` | 8–9 | 1378 | Treasure & Monster Overview |
 | `p10.hooks` | 10 | 1275 | Hooks |
@@ -74,17 +74,17 @@
 | `p17.2-the-frozen-cloister` | 17 | 1366 | 2 The Frozen Cloister |
 | `p18.3-herbalist-s-dispensary` | 18–19 | 1299 | 3 Herbalist’s Dispensary |
 | `p19.4-workshop` | 19 | 205 | 4 Workshop |
-| `p19.5-east-corridor` | 19–20 | 330 | 5 East corridor |
-| `p20.6-ritual-chamber` | 20–21 | 1429 | 6 Ritual Chamber |
-| `p21.7-the-library` | 21 | 228 | 7 The Library |
-| `p21.8-library-office` | 21 | 792 | 8 Library Office |
+| `p19.5-east-corridor` | 19 | 315 | 5 East corridor |
+| `p20.6-ritual-chamber` | 20 | 1387 | 6 Ritual Chamber |
+| `p21.7-the-library` | 21 | 462 | 7 The Library |
+| `p21.8-library-office` | 21 | 615 | 8 Library Office |
 | `p22.9-columbarium-of-the-knights` | 22 | 639 | 9 Columbarium of the Knights |
 | `p22.10-west-corridor` | 22–23 | 809 | 10 West Corridor |
 | `p23.11-dark-antechamber` | 23 | 601 | 11 Dark Antechamber |
-| `p24.12-the-abbot-s-sepulchre` | 24–25 | 2170 | 12 The Abbot’s Sepulchre |
-| `p25.13-empty-antechamber` | 25 | 487 | 13 Empty Antechamber |
-| `p26.14-the-collapsed-sepulchre` | 26 | 946 | 14 The collapsed Sepulchre |
-| `p27.15-the-guarded-antechamber` | 27 | 770 | 15 The Guarded Antechamber |
+| `p24.12-the-abbot-s-sepulchre` | 24–25 | 2444 | 12 The Abbot’s Sepulchre |
+| `p25.13-empty-antechamber` | 25 | 213 | 13 Empty Antechamber |
+| `p26.14-the-collapsed-sepulchre` | 26–27 | 970 | 14 The collapsed Sepulchre |
+| `p27.15-the-guarded-antechamber` | 27 | 746 | 15 The Guarded Antechamber |
 | `p28.16-the-tomb-of-queen-ethofled` | 28–29 | 1967 | 16 The Tomb of Queen Ethofled |
 | `p30.17-the-secret-garden` | 30 | 1124 | 17 The Secret Garden |
 | `p31.18-the-path-of-knightly-virtue` | 31 | 856 | 18 The Path of Knightly Virtue |

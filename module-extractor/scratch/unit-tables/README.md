@@ -21,20 +21,25 @@ every character the line layer produced, against the characters that reached a
 unit. It is the first row of every digest, and it is what turned a
 plausible-looking 33-unit segmentation of Doom into a defect report.
 
-**It is not sufficient, and defect 5 is why.** Braided columns lose nothing:
-every character arrives, interleaved with another column's. Retention reads
-100% while the prose is destroyed. Reading the lines is what found it.
+**It is not sufficient, and defects 5–7 are why.** All three reorder or
+misattach text without losing any. Braided columns lose nothing: every character
+arrives, interleaved with another column's. A heading emitted ahead of the prose
+it introduces loses nothing; the prose simply lands under the next heading.
+Retention read 100% on Шпиль Кетцаль throughout all three. **A measure that
+counts characters cannot check their order.** Reading the lines is what found
+them — and looking at the short units, which the reviewer's list invited, is
+what found the last two.
 
 | Source | Units | Keyed | Under 40B | Pages | Retained |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Lair of the Lamb | 214 → 192 → **202** | 51 → **54** | 18 → 11 → **18** | 53 / 54 | 99.9% |
-| Winter's Daughter | 115 → 96 → **100** | 42 → **45** | 20 → 18 → **20** | 29 / 31 | 99.8% |
+| Winter's Daughter | 115 → 96 → **103** | 42 → **48** | 20 → 18 → **15** | 29 / 31 | 99.8% |
 | Falkrest Abbey | 80 → 55 → **56** | 35 → **22** | 18 → **13** | 42 / 46 | 99.8% |
-| Doom of the Savage Kings | 33 → **37** | 23 → **26** | 2 → **1** | 13 → **15** / 18 | 82.9% → **98.9%** |
-| Шпиль Кетцаль | 280 → 180 → **189** | 77 → **80** | 25 → 9 → **11** | 73 / 74 | 100.0% |
+| Doom of the Savage Kings | 33 → **37** | 23 → **26** | 2 → **1** | 13 → **15** / 18 | 82.9% → **99.0%** |
+| Шпиль Кетцаль | 280 → 180 → **182** | 77 → **80** | 25 → 9 → **5** | 73 / 74 | 100.0% |
 
 The middle figure is where defects 1–4 left each source; the last is after
-defect 5. Not one keyed area was lost at any point, and three sources gained
+defects 5–7. Not one keyed area was lost at any point, and three sources gained
 keyed areas once their columns stopped braiding — those areas had been
 swallowed into a neighbouring column's line and were never visible. Falkrest's
 keyed count *falls* because thirteen of its thirty-five were rows of its
@@ -199,6 +204,34 @@ crossing profile and still wins wherever it fires, so the 151 pages that already
 worked are untouched. A parameter sweep over 36 settings picked the one that
 loses no keyed area on any source.
 
+**6. A full-width heading was emitted before every column, not where it sits.**
+Reading order put all spanning content first. Winter's Daughter page 13 sets two
+centred keyed headings with prose between them, so both headings came out ahead
+of all the prose: `3. Tomb Entrance` was a 16-byte unit and its granite slab was
+filed under `4. Worm Hole`. The same on page 15 with `6. Blindfolded Statue`.
+
+*Fixed.* Each spanning line opens a section and the columns beneath it belong to
+that section (`page_lines` in `columns.py`). Winter's Daughter gains three keyed
+areas, and `3. Tomb Entrance` now carries its own door.
+
+**7. A keyed heading could never wrap.** `join_wrapped_headings` refused to join
+any pair where *either* line opened a key. The guard exists so a table keyed by
+die number (`1 Athletic`, `2 Beautiful`) does not collapse — but that is the
+*second* line opening a key. With the first line barred too, every keyed heading
+too long for its measure was cut in half:
+
+```
+   33B  12. ПОГОСТ ГРОМОВЫХ
+ 7734B  ЯЩЕРИЦ            <- the rest of its own name, carrying the room
+```
+
+Four of Шпиль Кетцаль's keyed areas were cut this way, and the source's largest
+unit was named for the second half of a heading.
+
+*Fixed.* Only the second line is tested. Шпиль's largest unit is now
+`12. ПОГОСТ ГРОМОВЫХ ЯЩЕРИЦ`, and its units under 40 bytes fall from eleven to
+five.
+
 ## What is left for the reviewer
 
 The defects are fixed and covered by tests that fail when the defect is put
@@ -212,15 +245,12 @@ back. What remains is judgment, not correctness:
 - **Doom's p2 credits page** is the last uncovered page holding text (685
   characters). It is front matter, but it is not *classified* as front matter —
   T4.4's page-completeness invariant will want that stated.
-- **The units under 40 bytes rose back** to roughly where they started, because
-  unbraiding a column exposes the short headings that were hidden inside a
-  neighbour's line. Sampling them shows section dividers with no body
-  (`Appendices`, `Part 3: The Cistern`), keyed rooms whose body sits on the next
-  page, and map labels (`5 yards`, `2 oil`). None is a truncation, but the count
-  is a standing invitation to look.
-- **Шпиль Кетцаль's maximum is now 7,734 bytes**, down from 8,433. It is a
-  genuine long section rather than two areas fused, so the largest remaining
-  boundary question is closed.
+- **The remaining units under 40 bytes.** Lair's eighteen are section dividers
+  with no body of their own (`Appendices`, `Part 3: The Cistern`) and three map
+  labels on p54; Falkrest's thirteen are the map labels decided above; Шпиль's
+  five are two contents rows, a stat label, a die-column header and a section
+  title. Doom has one. None is a truncation — that was defects 6 and 7, and they
+  are fixed — but the count is where the next one would show.
 
 ## What a decision here unblocks
 

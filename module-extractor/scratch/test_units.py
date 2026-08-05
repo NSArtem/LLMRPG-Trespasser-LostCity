@@ -248,6 +248,30 @@ class WrappedHeadingTests(unittest.TestCase):
                 line("3 Boney", AREA, y=40.0)]
         self.assertEqual(len(join_wrapped_headings(rows, RANKS)), 3)
 
+    def test_a_keyed_heading_may_wrap_onto_a_second_line(self) -> None:
+        """Шпиль Кетцаль p65. Requiring *both* lines to be key-free meant a keyed
+        heading could never wrap: `12. ПОГОСТ ГРОМОВЫХ` came out as a 33-byte
+        unit and `ЯЩЕРИЦ` -- the rest of its own name -- carried the room."""
+        lines = join_wrapped_headings(
+            [line("12. ПОГОСТ ГРОМОВЫХ", AREA, y=0.0),
+             line("ЯЩЕРИЦ", AREA, y=20.0)],
+            RANKS,
+        )
+        self.assertEqual([item.text for item in lines],
+                         ["12. ПОГОСТ ГРОМОВЫХ ЯЩЕРИЦ"])
+
+    def test_a_wrapped_keyed_heading_still_stops_at_the_next_key(self) -> None:
+        """The guard that makes the case above safe: it is the *second* line
+        opening a key that says a new entry has started."""
+        lines = join_wrapped_headings(
+            [line("12. ПОГОСТ ГРОМОВЫХ", AREA, y=0.0),
+             line("ЯЩЕРИЦ", AREA, y=20.0),
+             line("13. ЗАЛ", AREA, y=40.0)],
+            RANKS,
+        )
+        self.assertEqual([item.text for item in lines],
+                         ["12. ПОГОСТ ГРОМОВЫХ ЯЩЕРИЦ", "13. ЗАЛ"])
+
     def test_a_finished_sentence_does_not_wrap(self) -> None:
         lines = join_wrapped_headings(
             [line("Immunity - Acid.", PART, y=0.0),

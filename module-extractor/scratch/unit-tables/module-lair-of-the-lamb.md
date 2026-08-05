@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | units | 202 |
-| text retained | 99.9% (146 of 107516 characters reached no unit) |
+| text retained | 99.9% (146 of 107517 characters reached no unit) |
 | pages covered | 53 |
 | keyed units | 54 (strict `N NAME` form: 52) |
 | spanning a page break | 0 |

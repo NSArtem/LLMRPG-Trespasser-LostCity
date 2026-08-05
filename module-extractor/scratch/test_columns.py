@@ -212,6 +212,34 @@ class LineTests(unittest.TestCase):
         lines = page_lines(two_column_page(rows=12, spanning=1))
         self.assertEqual([line.column for line in lines], [-1] + [0] * 12 + [1] * 12)
 
+    def test_a_spanning_heading_divides_the_page_rather_than_preceding_it(self) -> None:
+        """Winter's Daughter p13 sets two centred keyed headings on one page.
+
+        Emitting every spanning line before every column put both headings ahead
+        of all the prose, so `3. Tomb Entrance` came out with an empty body and
+        its granite slab was filed under `4. Worm Hole`.
+        """
+        words = [word("3. Tomb Entrance", 230.0, 30.0, w=150.0)]
+        for i in range(8):
+            y = 80.0 + i * 14
+            words.append(word("firstroomtext", 50.0, y, w=200.0))
+            words.append(word("firstroomright", 350.0, y, w=200.0))
+        words.append(word("4. Worm Hole", 230.0, 310.0, w=150.0))
+        for i in range(8):
+            y = 350.0 + i * 14
+            words.append(word("secondroomtext", 50.0, y, w=200.0))
+            words.append(word("secondroomright", 350.0, y, w=200.0))
+        page = Page(number=13, width=612.0, height=792.0, words=tuple(words))
+
+        texts = [line.text for line in page_lines(page)]
+        first, second = texts.index("3. Tomb Entrance"), texts.index("4. Worm Hole")
+        self.assertLess(first, second)
+        for index, text in enumerate(texts):
+            if "firstroom" in text:
+                self.assertTrue(first < index < second, f"{text!r} left its heading")
+            if "secondroom" in text:
+                self.assertGreater(index, second, f"{text!r} preceded its heading")
+
     def test_a_word_crossing_the_gutter_is_marked_spanning(self) -> None:
         lines = page_lines(two_column_page(rows=12, spanning=1))
         self.assertEqual(lines[0].column, -1)

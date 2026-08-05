@@ -2,12 +2,12 @@
 
 | | |
 |---|---|
-| units | 100 |
+| units | 103 |
 | text retained | 99.8% (76 of 48131 characters reached no unit) |
 | pages covered | 29 |
-| keyed units | 45 (strict `N NAME` form: 5) |
+| keyed units | 48 (strict `N NAME` form: 5) |
 | spanning a page break | 3 |
-| size | median 246B, max 2547B, min 6B |
+| size | median 292B, max 2547B, min 6B |
 
 ## Checks
 
@@ -16,20 +16,20 @@
 **Keyed range** 1–19, 19 distinct.
 **Missing keys:** none
 
-**Suspiciously small** (< 40B): 20
+**Suspiciously small** (< 40B): 15
 - `p3.writing` p[3] — Writing
 - `p5.introduction-introduction` p[5] — Introduction Introduction
 - `p8.hooks-hooks` p[8] — Hooks Hooks
 - `p8.dreams-of-the-lady` p[8] — Dreams of the Lady
 - `p10.dolmenwood-lore-dolmenwood-lore` p[10] — Dolmenwood Lore Dolmenwood Lore
-- `p13.3-tomb-entrance` p[13] — 3. Tomb Entrance
-- `p15.6-blindfolded-statue` p[15] — 6. Blindfolded Statue
-- `p17.9-chapel-of-st-sedge` p[17] — 9. Chapel of St Sedge
-- `p18.11-statues-with-weapons` p[18] — 11. Statues With Weapons
-- `p23.17-fairy-kitchen` p[23] — 17. Fairy Kitchen
 - `p25.epilogue-epilogue` p[25] — Epilogue Epilogue
 - `p28.outside-the-mound` p[28] — Outside the Mound
-- …and 8 more
+- `p28.5-yards` p[28] — 5 yards
+- `p29.the-burial-mound` p[29] — The Burial Mound
+- `p29.1-square` p[29] — 1 square
+- `p29.5-feet` p[29] — 5 feet
+- `p30.the-fairy-prison` p[30] — The Fairy Prison
+- …and 3 more
 
 **Suspiciously large** (> 3000B), likely under-segmented: 0
 
@@ -84,23 +84,26 @@
 | `p11.must-save-versus-paralysis-or-be` | 11 | 242 | must  save versus paralysis  or be struck |
 | `p11.1-approaching-the-burial-mound` | 11 | 286 | 1. Approaching the Burial Mound |
 | `p12.2-the-whything-stones` | 12 | 1141 | 2. The Whything Stones |
-| `p13.3-tomb-entrance` | 13 | 16 | 3. Tomb Entrance |
-| `p13.4-worm-hole` | 13–14 | 1417 | 4. Worm Hole |
-| `p14.5-hall-of-guardians` | 14 | 2032 | 5. Hall of Guardians |
-| `p15.6-blindfolded-statue` | 15 | 21 | 6. Blindfolded Statue |
-| `p15.7-freezing-mirror` | 15 | 1525 | 7. Freezing Mirror |
+| `p13.3-tomb-entrance` | 13 | 589 | 3. Tomb Entrance |
+| `p13.4-worm-hole` | 13–14 | 1321 | 4. Worm Hole |
+| `p14.5-hall-of-guardians` | 14 | 1555 | 5. Hall of Guardians |
+| `p15.6-blindfolded-statue` | 15 | 687 | 6. Blindfolded Statue |
+| `p15.7-freezing-mirror` | 15 | 859 | 7. Freezing Mirror |
 | `p16.8-family-crypt` | 16 | 2547 | 8. Family Crypt |
-| `p17.9-chapel-of-st-sedge` | 17 | 21 | 9. Chapel of St Sedge |
-| `p17.10-abandoned-priest-s-quarters` | 17 | 2121 | 10. Abandoned Priest’s Quarters |
-| `p18.11-statues-with-weapons` | 18 | 24 | 11. Statues With Weapons |
-| `p18.12-hall-of-hounds` | 18 | 2098 | 12. Hall of Hounds |
+| `p17.9-chapel-of-st-sedge` | 17 | 489 | 9. Chapel of St Sedge |
+| `p17.10-abandoned-priest-s-quarters` | 17 | 1653 | 10. Abandoned Priest’s Quarters |
+| `p18.11-statues-with-weapons` | 18 | 1309 | 11. Statues With Weapons |
+| `p18.12-hall-of-hounds` | 18 | 813 | 12. Hall of Hounds |
 | `p19.13-the-knight-s-tomb` | 19 | 2391 | 13. The Knight’s Tomb |
 | `p20.14-warded-pool` | 20 | 1457 | 14. Warded Pool |
 | `p21.the-fairy-prison-the-fairy-priso` | 21 | 79 | The Fairy Prison The Fairy Prison |
-| `p21.15-tower-on-a-frozen-lake` | 21 | 2108 | 15. Tower on a Frozen Lake |
+| `p21.1-1d3-frost-elf-knights-guests-o` | 21 | 139 | 1.  1d3  frost elf knights —guests of the |
+| `p21.2-a-cawing-white-raven-brings-a` | 21 | 329 | 2.  A  cawing white raven . Brings a |
+| `p21.4-2d6-dire-wolves-see-old-school` | 21 | 118 | 4.  2d6  dire wolves  (see  Old-School |
+| `p21.15-tower-on-a-frozen-lake` | 21 | 1519 | 15. Tower on a Frozen Lake |
 | `p22.16-entrance-hall` | 22 | 2355 | 16. Entrance Hall |
-| `p23.17-fairy-kitchen` | 23 | 17 | 17. Fairy Kitchen |
-| `p23.18-wedding-feast` | 23 | 2340 | 18. Wedding Feast |
+| `p23.17-fairy-kitchen` | 23 | 1094 | 17. Fairy Kitchen |
+| `p23.18-wedding-feast` | 23 | 1263 | 18. Wedding Feast |
 | `p24.19-the-princess-s-bedchamber` | 24 | 2318 | 19. The Princess’s Bedchamber |
 | `p25.epilogue-epilogue` | 25 | 17 | Epilogue Epilogue |
 | `p25.a-door-to-frigia` | 25 | 918 | A Door to Frigia |

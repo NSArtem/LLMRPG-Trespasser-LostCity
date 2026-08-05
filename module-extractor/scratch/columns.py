@@ -518,7 +518,16 @@ def page_lines(
     lines: list[Line] = []
     for column in sorted(buckets, key=lambda c: (c != -1, c)):
         lines.extend(_band(buckets[column], page.number, column, body))
-    return [line for line in lines if not is_folio(line, page.height)]
+    lines = [line for line in lines if not is_folio(line, page.height)]
+
+    # A full-width line divides the page; it does not precede all of it. Emitting
+    # every spanning line first put both of Winter's Daughter p13's centred
+    # headings ahead of the columns, so `3. Tomb Entrance` came out empty and its
+    # granite slab was filed under `4. Worm Hole`. Each spanning line opens a
+    # section, and the columns under it belong to that section.
+    spanning = sorted(line.y for line in lines if line.column == -1)
+    return sorted(lines, key=lambda line: (
+        sum(1 for y in spanning if y <= line.y), line.column, line.y))
 
 
 def document_lines(pdf: Path) -> list[Line]:

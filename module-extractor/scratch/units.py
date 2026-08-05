@@ -163,9 +163,17 @@ def join_wrapped_headings(lines: list[Line], ranks: dict[Style, int]) -> list[Li
     bytes each, and the section title that page exists to announce was never
     attached to anything.
 
-    Only same-style neighbours in the same column join, and only when neither
-    opens a key -- otherwise a table whose rows are keyed by die number
-    (``1 Athletic``, ``2 Beautiful``) would collapse into a single heading.
+    Only same-style neighbours in the same column join, and only when the
+    *second* line opens no key -- otherwise a table whose rows are keyed by die
+    number (``1 Athletic``, ``2 Beautiful``) would collapse into a single
+    heading.
+
+    **The first line may open one, and usually does.** Requiring both to be
+    key-free meant a keyed heading could never wrap, which is how Шпиль Кетцаль
+    ended up with ``12. ПОГОСТ ГРОМОВЫХ`` as a 33-byte unit and ``ЯЩЕРИЦ`` --
+    the rest of its own name -- as a 7,734-byte one carrying the room. Four of
+    its keyed areas were cut this way, and the source's largest unit was named
+    for the second half of a heading.
     """
     joined: list[Line] = []
     for line in lines:
@@ -177,7 +185,7 @@ def join_wrapped_headings(lines: list[Line], ranks: dict[Style, int]) -> list[Li
                 and 0 <= line.y - previous.y <= max(previous.height, 1.0) * WRAP_GAP
                 and previous.is_upper == line.is_upper
                 and not previous.text.rstrip().endswith(tuple(_HEADING_END))
-                and key_root(previous.text) is None and key_root(line.text) is None
+                and key_root(line.text) is None
                 and is_heading_text(previous.text) and is_heading_text(line.text)
                 and len(f"{previous.text} {line.text}".split()) <= MAX_HEADING_WORDS):
             joined[-1] = _merge(previous, line)

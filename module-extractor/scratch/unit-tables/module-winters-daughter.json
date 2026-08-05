@@ -1014,9 +1014,9 @@
       13
     ],
     "column": -1,
-    "text": "3. Tomb Entrance",
+    "text": "3. Tomb Entrance\nDoor\nGranite slab (seals the mound).\nOvergrown (covered in lichen and\nsweet-smelling wild roses).\n▶ Moving the slab:  Requires a cumula-\ntive STR bonus of at least 4.\n▶ Breaking the slab:  Takes 6 turns.\nCumulative STR bonuses reduce this\ntime. (Minimum 2 turns.)\nStairs into the Mound\nDescend 20’ (into the earth).  Dusty\n(caked with centuries of undisturbed\ndust).  Deathly silence  (disturbed by\nPCs’ footsteps).  Dank smell  (moist and\nmouldy).\n▶ If examined:  Scratches are discovered.\nLooks like something heavy was dragged\nup the stairs (a long time ago).",
     "labels": [],
-    "text_bytes": 16,
+    "text_bytes": 589,
     "keyed_area": "3",
     "style": {
       "size": 27.0,
@@ -1029,17 +1029,15 @@
   {
     "unit_id": "p13.4-worm-hole",
     "heading": "4. Worm Hole",
-    "heading_path": [
-      "3. Tomb Entrance"
-    ],
+    "heading_path": [],
     "pages": [
       13,
       14
     ],
     "column": -1,
-    "text": "4. Worm Hole\nDoor\nGranite slab (seals the mound).\nOvergrown (covered in lichen and\nsweet-smelling wild roses).\n▶ Moving the slab:  Requires a cumula-\ntive STR bonus of at least 4.\n▶ Breaking the slab:  Takes 6 turns.\nCumulative STR bonuses reduce this\ntime. (Minimum 2 turns.)\nA Hole in the Earth\n2’ wide\n(barely).  At the edge of the\nmound (burrows into the earth beneath).\n▶ Illuminating the hole:  Reveals the\nhole to descend 15’ to a chamber (area\n10).\n▶ Making noise:  Attracts the  worm-\ntongues that lurk inside (see area 10).\n▶ Crawling down:  Disturbs the  worm-\ntongues that lurk inside (see area 10).\nThe hole emerges after 15’ in area 10.\nSlime Trails\nGooey (like petroleum jelly).  Opalescent\n(largely transparent).\n▶ Tracking:  The trails lead from the\nhole into the woods and back. Characters\nskilled with tracking can detect trails of\nthree slug- or worm-like creatures.\n▶ Touching:  A slight acidity can be\ndetected, if the slime is touched with\nbare flesh. (This is not enough to cause\ndamage.)\nStairs into the Mound\nDescend 20’ (into the earth).  Dusty\n(caked with centuries of undisturbed\ndust).  Deathly silence  (disturbed by\nPCs’ footsteps).  Dank smell  (moist and\nmouldy).\n▶ If examined:  Scratches are discovered.\nLooks like something heavy was dragged\nup the stairs (a long time ago).\nThe Burial Mound The Burial Mound\nRandom Events (1-in-6 Chance Every Two Turns)",
+    "text": "4. Worm Hole\nA Hole in the Earth\n2’ wide\n(barely).  At the edge of the\nmound (burrows into the earth beneath).\n▶ Illuminating the hole:  Reveals the\nhole to descend 15’ to a chamber (area\n10).\n▶ Making noise:  Attracts the  worm-\ntongues that lurk inside (see area 10).\n▶ Crawling down:  Disturbs the  worm-\ntongues that lurk inside (see area 10).\nThe hole emerges after 15’ in area 10.\nSlime Trails\nGooey (like petroleum jelly).  Opalescent\n(largely transparent).\n▶ Tracking:  The trails lead from the\nhole into the woods and back. Characters\nskilled with tracking can detect trails of\nthree slug- or worm-like creatures.\n▶ Touching:  A slight acidity can be\ndetected, if the slime is touched with\nbare flesh. (This is not enough to cause\ndamage.)\nThe Burial Mound The Burial Mound\nRandom Events (1-in-6 Chance Every Two Turns)\n1.  A  vision of a beautiful woman ,\ndressed all in white, with a star upon\nher brow. She appears in empty space\nand says “The ring… The ring holds\nthe key… My eternal salvation”, before\ndisappearing into mist.\n2.  The sound of  hounds baying , echo-\ning through the crypt.\n3.  The 2  dancing skeletons  from area\n8, waltzing through the air on a tour of\nthe tomb.\n4.  1d3  wormtongues  break through\nwall or ceiling, hungry for living flesh.\n(See  Wormtongues, p15 .)",
     "labels": [],
-    "text_bytes": 1417,
+    "text_bytes": 1321,
     "keyed_area": "4",
     "style": {
       "size": 27.0,
@@ -1057,9 +1055,9 @@
       14
     ],
     "column": -1,
-    "text": "5. Hall of Guardians\n1.  A  vision of a beautiful woman ,\ndressed all in white, with a star upon\nher brow. She appears in empty space\nand says “The ring… The ring holds\nthe key… My eternal salvation”, before\ndisappearing into mist.\n2.  The sound of  hounds baying , echo-\ning through the crypt.\nAtmospherics\nMusty (dank, stifling air).  Wet  (ceiling\nand walls).\n4 Religious Objects\nStanding on plinths (in the corners of\nthe room).  Mouldy  (covered with mus-\ntard-coloured fur).\n▶ Items:  All about 1’ tall. A silver cruci-\nfix (200gp), a wooden statue of a cherub,\na holy book, a huge candle.\n▶ Reaction:  If a non-Lawful character\nsets foot in the room, the objects float\ninto the air and attack.\nDouble Doors\nHeavy stone (streaked with damp).\nInscription (“The Most Dear”).\nDusty Floor\n▶ If disturbed:  Movement in the room\nreveals colours beneath the dust.\n▶ If cleared:  A mosaic is revealed, along\n12 with scratches on the floor.\n3.  The 2  dancing skeletons  from area\n8, waltzing through the air on a tour of\nthe tomb.\n4.  1d3  wormtongues  break through\nwall or ceiling, hungry for living flesh.\n(See  Wormtongues, p15 .)\nReligious Objects\nAC  5 [14],  HD  1 (hp 3, 3, 4, 5),  Att\n1 × bash (1d4),  THAC0  19 [0],  MV\n90’ (30’) flying,  SV  D12 W13 P14 B15\nS16 (1),  ML  12,  AL  Lawful,  XP  10\n▶ Scolding:  When animated, the\nobjects speak in a shrill, sanctimoni-\nous tone, scolding PCs for their mis-\ndeeds (including entering the tomb).\n▶ When killed:  A cloud of mould\nspores erupts. Anyone in melee:  save\nversus poison or suffer 1d2 damage\nand choke for 1 round (cannot act).\n▶ The mosaic:  Depicts Sir Chyde atop a\nwhite charger, piercing the heart of a fairy\nknight with his sword. An inscription in\nOld Woldish reads “Here lies the noble\nSir Chyde, slayer of Frost, defender of the\nKing”. Speakers of modern Woldish can\nrecognise the name and the words for\n“Frost” and “King”.\n▶ The scratches:  Looks like something\nheavy was dragged from area 7 (a long\ntime ago).",
+    "text": "5. Hall of Guardians\nAtmospherics\nMusty (dank, stifling air).  Wet  (ceiling\nand walls).\n4 Religious Objects\nStanding on plinths (in the corners of\nthe room).  Mouldy  (covered with mus-\ntard-coloured fur).\n▶ Items:  All about 1’ tall. A silver cruci-\nfix (200gp), a wooden statue of a cherub,\na holy book, a huge candle.\n▶ Reaction:  If a non-Lawful character\nsets foot in the room, the objects float\ninto the air and attack.\nDouble Doors\nHeavy stone (streaked with damp).\nInscription (“The Most Dear”).\nDusty Floor\n▶ If disturbed:  Movement in the room\nreveals colours beneath the dust.\n▶ If cleared:  A mosaic is revealed, along\n12 with scratches on the floor.\nReligious Objects\nAC  5 [14],  HD  1 (hp 3, 3, 4, 5),  Att\n1 × bash (1d4),  THAC0  19 [0],  MV\n90’ (30’) flying,  SV  D12 W13 P14 B15\nS16 (1),  ML  12,  AL  Lawful,  XP  10\n▶ Scolding:  When animated, the\nobjects speak in a shrill, sanctimoni-\nous tone, scolding PCs for their mis-\ndeeds (including entering the tomb).\n▶ When killed:  A cloud of mould\nspores erupts. Anyone in melee:  save\nversus poison or suffer 1d2 damage\nand choke for 1 round (cannot act).\n▶ The mosaic:  Depicts Sir Chyde atop a\nwhite charger, piercing the heart of a fairy\nknight with his sword. An inscription in\nOld Woldish reads “Here lies the noble\nSir Chyde, slayer of Frost, defender of the\nKing”. Speakers of modern Woldish can\nrecognise the name and the words for\n“Frost” and “King”.\n▶ The scratches:  Looks like something\nheavy was dragged from area 7 (a long\ntime ago).",
     "labels": [],
-    "text_bytes": 2032,
+    "text_bytes": 1555,
     "keyed_area": "5",
     "style": {
       "size": 27.0,
@@ -1077,9 +1075,9 @@
       15
     ],
     "column": -1,
-    "text": "6. Blindfolded Statue",
+    "text": "6. Blindfolded Statue\nWhite Marble Statue\nA fair maiden (long, flowing hair and\nrobe, upon her brow a star).  Beseeching\nsilence (the statue is posed facing the\nstairs, with her finger raised to her lips).\nBlindfolded (a black cloth is wrapped\naround the statue’s head, covering her\neyes).  Round plinth  (also of marble, 3’\nacross, 1’ high).\n▶ Removing the blindfold:  The inside\nof the cloth is embroidered with golden\ncrucifixes.\nStairs Down to Area 14\nPristine (finely cut stone, free of dust).\nTree-branch archway (stone carved into\nthe likeness of interwoven trees, at the\ntop of the stairway).\n▶ Illuminating the stairs:  Reveals the\nshimmering of reflections off water.",
     "labels": [],
-    "text_bytes": 21,
+    "text_bytes": 687,
     "keyed_area": "6",
     "style": {
       "size": 27.0,
@@ -1092,16 +1090,14 @@
   {
     "unit_id": "p15.7-freezing-mirror",
     "heading": "7. Freezing Mirror",
-    "heading_path": [
-      "6. Blindfolded Statue"
-    ],
+    "heading_path": [],
     "pages": [
       15
     ],
     "column": -1,
-    "text": "7. Freezing Mirror\nWhite Marble Statue\nA fair maiden (long, flowing hair and\nrobe, upon her brow a star).  Beseeching\nsilence (the statue is posed facing the\nstairs, with her finger raised to her lips).\nBlindfolded (a black cloth is wrapped\naround the statue’s head, covering her\neyes).  Round plinth  (also of marble, 3’\nacross, 1’ high).\n▶ Removing the blindfold:  The inside\nof the cloth is embroidered with golden\ncrucifixes.\nFull-Length Mirror\nSilver frame (beautifully wrought,\nengraved with crucifixes and unicorns at\nplay).  Hung from the wall  (behind the\nstatue plinth).\n▶ Passing in front: Save vs paralysis  or\nbe frozen still.\n▶ Covering the mirror:  Bypasses the\nfreezing effect.\n▶ Value:  1,000gp material value.\n▶ Removing from the tomb:  Its magical\nproperties fade after one month.\n▶ Unfreezing people:  Holy water,  cure\nlight wounds , or sunlight.\nStairs Down to Area 14\nPristine (finely cut stone, free of dust).\nTree-branch archway (stone carved into\nthe likeness of interwoven trees, at the\ntop of the stairway).\n▶ Illuminating the stairs:  Reveals the\nshimmering of reflections off water.\nEmpty Statue Plinth\nWhite marble (round, 3’ across, 1’ high).\nScratches on the floor (as if a heavy\nstatue was dragged away, towards area 5).\nStairs Down to Area 14\nPristine (finely cut stone, free of dust).\nTree-branch archway (stone carved into\nthe likeness of interwoven trees, at the\ntop of the stairway).\n▶ Illuminating the stairs:  Reveals the\nshimmering of reflections off water.",
+    "text": "7. Freezing Mirror\nFull-Length Mirror\nSilver frame (beautifully wrought,\nengraved with crucifixes and unicorns at\nplay).  Hung from the wall  (behind the\nstatue plinth).\n▶ Passing in front: Save vs paralysis  or\nbe frozen still.\n▶ Covering the mirror:  Bypasses the\nfreezing effect.\n▶ Value:  1,000gp material value.\n▶ Removing from the tomb:  Its magical\nproperties fade after one month.\n▶ Unfreezing people:  Holy water,  cure\nlight wounds , or sunlight.\nEmpty Statue Plinth\nWhite marble (round, 3’ across, 1’ high).\nScratches on the floor (as if a heavy\nstatue was dragged away, towards area 5).\nStairs Down to Area 14\nPristine (finely cut stone, free of dust).\nTree-branch archway (stone carved into\nthe likeness of interwoven trees, at the\ntop of the stairway).\n▶ Illuminating the stairs:  Reveals the\nshimmering of reflections off water.",
     "labels": [],
-    "text_bytes": 1525,
+    "text_bytes": 859,
     "keyed_area": "7",
     "style": {
       "size": 27.0,
@@ -1139,9 +1135,9 @@
       17
     ],
     "column": -1,
-    "text": "9. Chapel of St Sedge",
+    "text": "9. Chapel of St Sedge\nWooden Pews\nDecaying (with age, once solidly built).\nStone Altar\nStatue of St Sedge (a holy crusader hold-\ning a thick, red candle aloft).  Dried wax\n(red, has dripped down the statue onto\nthe altar).  Velvet cloth  (disintegrating).\n▶ Lighting the candle:  Wind rushes. Dis-\ntant neighing and victorious battle cries.\nRagged Tapestry\nThe gates of heaven (Sir Chyde and St\nSedge meeting in death).\n▶ Concealed behind:  A wooden door,\nlocked and swollen with damp.",
     "labels": [],
-    "text_bytes": 21,
+    "text_bytes": 489,
     "keyed_area": "9",
     "style": {
       "size": 27.0,
@@ -1154,16 +1150,14 @@
   {
     "unit_id": "p17.10-abandoned-priest-s-quarters",
     "heading": "10. Abandoned Priest’s Quarters",
-    "heading_path": [
-      "9. Chapel of St Sedge"
-    ],
+    "heading_path": [],
     "pages": [
       17
     ],
     "column": -1,
-    "text": "10. Abandoned Priest’s Quarters\nWooden Pews\nDecaying (with age, once solidly built).\nStone Altar\nStatue of St Sedge (a holy crusader hold-\ning a thick, red candle aloft).  Dried wax\n(red, has dripped down the statue onto\nthe altar).  Velvet cloth  (disintegrating).\nDoor\nWood swollen (with damp).  Locked .\nCollapsed Wall\nRubble (piled in the corner).  Dark earth\n(behind the collapsed stonework).  Nar-\nrow tunnel (2’ wide, delves upwards).\n▶ In the tunnel:  3  wormtongues  lurk.\n▶ Crawling up:  Leads to area 4.\n3 Wormtongues\nSquirming, tongue-like worms (dark\npink, bumpy).  4’ long  (thigh-thick).\nTooth-ringed mouths (like lampreys).\nEyeless (attack by taste).  Lurking  (tunnel\nby the collapsed wall).\n▶ Reaction:  Disturbed by noise in the\nroom. Ravenously attack.\nWormtongues\nAC  7 [12],  HD  1+1* (hp 3, 4, 5),  Att  1\n× bite (1d4 + acid),  THAC0  18 [+1],\nMV  120’ (40’),  SV  D12 W13 P14 B15\nS16 (1),  ML  7,  AL  Neutral,  XP  19\n▶ Acid:  Causes 1 damage per round\nuntil washed off (e.g. with water).\n▶ Lighting the candle:  Wind rushes. Dis-\ntant neighing and victorious battle cries.\nRagged Tapestry\nThe gates of heaven (Sir Chyde and St\nSedge meeting in death).\n▶ Concealed behind:  A wooden door,\nlocked and swollen with damp.\nMouldy Writing Desk\nDecaying wood (carved with angels).\n▶ Locked drawer:  Easily smashed open.\n▶ Inside the drawer:  An old,\nmould-covered book—pages stuck\ntogether with damp, indecipherable.\n▶ Inside the book cover:  A brass sheet,\ninscribed with a pastoral poem about Sir\nChyde hunting with his favoured dogs.\nOne of the dogs is named: Flaegr.\nA Loose Flagstone\n▶ Locating:  A search for secret doors or\ntraps will find it.\n▶ Underneath:  A small space containing\na locked metal box.\n▶ The lock is trapped:  With a poison\nneedle:  save versus poison  or suffer 1d6\ndamage and fall unconscious for 1d6\nturns.\n▶ Inside the box:  A silver crucifix\n(50gp), a clerical scroll of  hold person , a\nprayer book of stamped gold leaf (worth\n500gp), a box of 20 holy wafers—pre-\nserved after all these years! (They are\nmagical—each cures 1hp.)",
+    "text": "10. Abandoned Priest’s Quarters\nDoor\nWood swollen (with damp).  Locked .\nCollapsed Wall\nRubble (piled in the corner).  Dark earth\n(behind the collapsed stonework).  Nar-\nrow tunnel (2’ wide, delves upwards).\n▶ In the tunnel:  3  wormtongues  lurk.\n▶ Crawling up:  Leads to area 4.\n3 Wormtongues\nSquirming, tongue-like worms (dark\npink, bumpy).  4’ long  (thigh-thick).\nTooth-ringed mouths (like lampreys).\nEyeless (attack by taste).  Lurking  (tunnel\nby the collapsed wall).\n▶ Reaction:  Disturbed by noise in the\nroom. Ravenously attack.\nWormtongues\nAC  7 [12],  HD  1+1* (hp 3, 4, 5),  Att  1\n× bite (1d4 + acid),  THAC0  18 [+1],\nMV  120’ (40’),  SV  D12 W13 P14 B15\nS16 (1),  ML  7,  AL  Neutral,  XP  19\n▶ Acid:  Causes 1 damage per round\nuntil washed off (e.g. with water).\nMouldy Writing Desk\nDecaying wood (carved with angels).\n▶ Locked drawer:  Easily smashed open.\n▶ Inside the drawer:  An old,\nmould-covered book—pages stuck\ntogether with damp, indecipherable.\n▶ Inside the book cover:  A brass sheet,\ninscribed with a pastoral poem about Sir\nChyde hunting with his favoured dogs.\nOne of the dogs is named: Flaegr.\nA Loose Flagstone\n▶ Locating:  A search for secret doors or\ntraps will find it.\n▶ Underneath:  A small space containing\na locked metal box.\n▶ The lock is trapped:  With a poison\nneedle:  save versus poison  or suffer 1d6\ndamage and fall unconscious for 1d6\nturns.\n▶ Inside the box:  A silver crucifix\n(50gp), a clerical scroll of  hold person , a\nprayer book of stamped gold leaf (worth\n500gp), a box of 20 holy wafers—pre-\nserved after all these years! (They are\nmagical—each cures 1hp.)",
     "labels": [],
-    "text_bytes": 2121,
+    "text_bytes": 1653,
     "keyed_area": "10",
     "style": {
       "size": 27.0,
@@ -1181,9 +1175,9 @@
       18
     ],
     "column": -1,
-    "text": "11. Statues With Weapons",
+    "text": "11. Statues With Weapons\n7 Statues of Footmen\nDark stone (smooth and finely carved).\nReal weapons (in their hands—see\nbelow).\n▶ Flanged mace:  With a spiralling hilt.\n▶ Morningstar:  With 2”-long spikes.\n▶ Battle axe:  Engraved with a horse’s\nhead.\n▶ Warhammer:  Head shaped like a boar.\n▶ Longsword:  With wavy blood grooves.\nThe sword is enchanted (of fairy con-\nstruction): +2 to hit and damage. It car-\nries a glamour that affects mortals who\nwield it, compelling them to attack the\nlargest foe in battle.\n▶ Halberd:  With a mouldy pennant.\n▶ Spear:  With serrated blade.\nMould-Patched Walls\nYellow and purple (vivid fuzz).\n▶ Disturbing the mould:  Raises a cloud\nof spores. Everyone within 10’ must  save\nversus poison or suffer 1d4 damage and\nbe stricken with violent coughing and\nchoking for 1 turn.\nFaded Battle Mural\nSir Chyde (on horseback, in battle).  His\nright hand (raised, obscured by mould).\nHounds (two hunting hounds at his side,\npartially obscured by mould).  Fairy army\n(arrayed against the knight).\n▶ The knight’s hand:  If the mould is\ncleared (see above), PCs see a longsword\nwith wavy blood grooves, surrounded\nwith a white glow.\n▶ The hounds:  If the mould is cleared\n(see above), the name of one of the hounds\nis revealed, written on its collar (Chedr).",
     "labels": [],
-    "text_bytes": 24,
+    "text_bytes": 1309,
     "keyed_area": "11",
     "style": {
       "size": 27.0,
@@ -1196,16 +1190,14 @@
   {
     "unit_id": "p18.12-hall-of-hounds",
     "heading": "12. Hall of Hounds",
-    "heading_path": [
-      "11. Statues With Weapons"
-    ],
+    "heading_path": [],
     "pages": [
       18
     ],
     "column": -1,
-    "text": "12. Hall of Hounds\n7 Statues of Footmen\nDark stone (smooth and finely carved).\nReal weapons (in their hands—see\nbelow).\n▶ Flanged mace:  With a spiralling hilt.\n▶ Morningstar:  With 2”-long spikes.\n▶ Battle axe:  Engraved with a horse’s\nhead.\n▶ Warhammer:  Head shaped like a boar.\n▶ Longsword:  With wavy blood grooves.\nThe sword is enchanted (of fairy con-\nstruction): +2 to hit and damage. It car-\nries a glamour that affects mortals who\nwield it, compelling them to attack the\nlargest foe in battle.\n▶ Halberd:  With a mouldy pennant.\n▶ Spear:  With serrated blade.\nPillars\nRelief carvings (scenes of holy war\nagainst fairies).\nDouble Doors\nMassive stone (smooth surface).  Inscrip-\ntion (deeply cut: “Call to the Compan-\nions”).  Locked  (and warded by magic).\n▶ The riddle:  Speaking the names of Sir\nChyde’s hounds: “Flaegr and Chedr” (or\nvice versa) causes the doors to open.\n▶ Touching the doors:  Without answer-\ning the riddle causes the stone hounds to\nanimate and attack.\nMould-Patched Walls\nYellow and purple (vivid fuzz).\n▶ Disturbing the mould:  Raises a cloud\nof spores. Everyone within 10’ must  save\nversus poison or suffer 1d4 damage and\nbe stricken with violent coughing and\nchoking for 1 turn.\nFaded Battle Mural\nSir Chyde (on horseback, in battle).  His\nright hand (raised, obscured by mould).\nHounds (two hunting hounds at his side,\npartially obscured by mould).  Fairy army\n(arrayed against the knight).\n▶ The knight’s hand:  If the mould is\ncleared (see above), PCs see a longsword\nwith wavy blood grooves, surrounded\nwith a white glow.\n▶ The hounds:  If the mould is cleared\n(see above), the name of one of the hounds\nis revealed, written on its collar (Chedr).\n2 Stone Hounds\nChained (to the base of the door).  Larger\nthan life (6’ tall).\nStone Hounds\nAC  3 [16],  HD  4* (hp 17, 19),  Att  1 ×\nbite (1d8),  THAC0  16 [+3],  MV  120’\n(40’),  SV  D10 W11 P12 B13 S14 (4),\nML  12,  AL  Neutral,  XP  125\n▶ Chained:  Can’t leave this room.\n▶ Constructs:  Only harmed by\nmagic. Unaffected by charms and\nmind control.",
+    "text": "12. Hall of Hounds\nPillars\nRelief carvings (scenes of holy war\nagainst fairies).\nDouble Doors\nMassive stone (smooth surface).  Inscrip-\ntion (deeply cut: “Call to the Compan-\nions”).  Locked  (and warded by magic).\n▶ The riddle:  Speaking the names of Sir\nChyde’s hounds: “Flaegr and Chedr” (or\nvice versa) causes the doors to open.\n▶ Touching the doors:  Without answer-\ning the riddle causes the stone hounds to\nanimate and attack.\n2 Stone Hounds\nChained (to the base of the door).  Larger\nthan life (6’ tall).\nStone Hounds\nAC  3 [16],  HD  4* (hp 17, 19),  Att  1 ×\nbite (1d8),  THAC0  16 [+3],  MV  120’\n(40’),  SV  D10 W11 P12 B13 S14 (4),\nML  12,  AL  Neutral,  XP  125\n▶ Chained:  Can’t leave this room.\n▶ Constructs:  Only harmed by\nmagic. Unaffected by charms and\nmind control.",
     "labels": [],
-    "text_bytes": 2098,
+    "text_bytes": 813,
     "keyed_area": "12",
     "style": {
       "size": 27.0,
@@ -1276,6 +1268,66 @@
     }
   },
   {
+    "unit_id": "p21.1-1d3-frost-elf-knights-guests-o",
+    "heading": "1.  1d3  frost elf knights —guests of the",
+    "heading_path": [],
+    "pages": [
+      21
+    ],
+    "column": 0,
+    "text": "1.  1d3  frost elf knights —guests of the\nprincess—emerge from the forest on\nwhite chargers. (See  Frost Elf Guards\nand Knights, p21 .)",
+    "labels": [],
+    "text_bytes": 139,
+    "keyed_area": "1",
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
+      "color": "#231f20",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p21.2-a-cawing-white-raven-brings-a",
+    "heading": "2.  A  cawing white raven . Brings a",
+    "heading_path": [],
+    "pages": [
+      21
+    ],
+    "column": 0,
+    "text": "2.  A  cawing white raven . Brings a\nmessage to the princess, announcing\nthe arrival of her friend, Lord Mantle-\nof-Runes.\n3.  A laden sleigh pulled by white stags\nrushes from the forest. The  goblin\nsleigh-rider brings gifts to the tower:\nfairy fruits, ice wines, and a cauldron\nof steaming soup. (See  Dolmenwood\nGoblin, p20 .)",
+    "labels": [],
+    "text_bytes": 329,
+    "keyed_area": "2",
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
+      "color": "#231f20",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p21.4-2d6-dire-wolves-see-old-school",
+    "heading": "4.  2d6  dire wolves  (see  Old-School",
+    "heading_path": [],
+    "pages": [
+      21
+    ],
+    "column": 1,
+    "text": "4.  2d6  dire wolves  (see  Old-School\nEssentials ) creep out from the forest\nand sniff around the lake, seeking prey.",
+    "labels": [],
+    "text_bytes": 118,
+    "keyed_area": "4",
+    "style": {
+      "size": 15.0,
+      "family": "MinionPro",
+      "bold": true,
+      "color": "#231f20",
+      "italic": false
+    }
+  },
+  {
     "unit_id": "p21.15-tower-on-a-frozen-lake",
     "heading": "15. Tower on a Frozen Lake",
     "heading_path": [],
@@ -1283,9 +1335,9 @@
       21
     ],
     "column": -1,
-    "text": "15. Tower on a Frozen Lake\n1.  1d3  frost elf knights —guests of the\nprincess—emerge from the forest on\nwhite chargers. (See  Frost Elf Guards\nand Knights, p21 .)\n2.  A  cawing white raven . Brings a\nmessage to the princess, announcing\nthe arrival of her friend, Lord Mantle-\nof-Runes.\nWintry Glade\nBitter cold (shivering, breath condensing\ninto streams of vapour).  2’ deep snow\n(pristine and crunchy).  Bootprints  (larg-\ner-than-human, lead from tower to edge\nof woods and back.).  Snowflakes  (drift-\ning gently down).  Sparkling sunshine\n(glints off the crystalline snow).\nFrozen Lake\nIce-skating patch (cleared on the lake).\nFrozen solid (down to 5’).\nWhite Marble Tower\nSolid door (unlocked, polished cherry\nwood, with black iron fittings).  Icy walls\n(–20% to climb sheer surfaces checks).\nFrost-patterned windows (can be\nsmashed open).  Plume of smoke  (thin,\nbluish, rising from the summit).\nPurple Crack in the Sky\nSticky, purple drips (occasionally fall\nfrom the crack, staining the snow).\n3.  A laden sleigh pulled by white stags\nrushes from the forest. The  goblin\nsleigh-rider brings gifts to the tower:\nfairy fruits, ice wines, and a cauldron\nof steaming soup. (See  Dolmenwood\nGoblin, p20 .)\n4.  2d6  dire wolves  (see  Old-School\nEssentials ) creep out from the forest\nand sniff around the lake, seeking prey.\nHoar-Clad Forest\nOminous fir-wood (heavy with snow).\nMossy corpses (in the trees, food for the\ntroll Grimmlegridge—see area 16).\n▶ Wandering in the forest:  Characters\nwho wander in the treacherous fairy\nwoods may encounter giant spiders, frost\nelves, or winter wolves.\nPaths into the Forest\nGhostly candles (dozens, floating in\nmid-air).  Blocking the way  (it is not\npossible to step onto the paths without\npassing through the candles).\n▶ Passing through:  Characters who\ncame from the tomb can pass through the\nward (it is impassable to others), appear-\ning at the bottom of the stairs in 14. 1d6\ndays have passed in the mortal world.\n▶ Dispelling:  The ward is immune to\nfairy magic, but can be dispelled by oth-\ners. Treat as if cast by a 10th level cleric.",
+    "text": "15. Tower on a Frozen Lake\nWintry Glade\nBitter cold (shivering, breath condensing\ninto streams of vapour).  2’ deep snow\n(pristine and crunchy).  Bootprints  (larg-\ner-than-human, lead from tower to edge\nof woods and back.).  Snowflakes  (drift-\ning gently down).  Sparkling sunshine\n(glints off the crystalline snow).\nFrozen Lake\nIce-skating patch (cleared on the lake).\nFrozen solid (down to 5’).\nWhite Marble Tower\nSolid door (unlocked, polished cherry\nwood, with black iron fittings).  Icy walls\n(–20% to climb sheer surfaces checks).\nFrost-patterned windows (can be\nsmashed open).  Plume of smoke  (thin,\nbluish, rising from the summit).\nPurple Crack in the Sky\nSticky, purple drips (occasionally fall\nfrom the crack, staining the snow).\nHoar-Clad Forest\nOminous fir-wood (heavy with snow).\nMossy corpses (in the trees, food for the\ntroll Grimmlegridge—see area 16).\n▶ Wandering in the forest:  Characters\nwho wander in the treacherous fairy\nwoods may encounter giant spiders, frost\nelves, or winter wolves.\nPaths into the Forest\nGhostly candles (dozens, floating in\nmid-air).  Blocking the way  (it is not\npossible to step onto the paths without\npassing through the candles).\n▶ Passing through:  Characters who\ncame from the tomb can pass through the\nward (it is impassable to others), appear-\ning at the bottom of the stairs in 14. 1d6\ndays have passed in the mortal world.\n▶ Dispelling:  The ward is immune to\nfairy magic, but can be dispelled by oth-\ners. Treat as if cast by a 10th level cleric.",
     "labels": [],
-    "text_bytes": 2108,
+    "text_bytes": 1519,
     "keyed_area": "15",
     "style": {
       "size": 27.0,
@@ -1323,9 +1375,9 @@
       23
     ],
     "column": -1,
-    "text": "17. Fairy Kitchen",
+    "text": "17. Fairy Kitchen\n2 Frost Elf Cooks\nChubby (short and stout).  Pearly eyes\n(twinkling).  Blue skin  (frost-chilled).\nFlustered (but orderly).\n▶ Reaction:  Shout orders, demanding\nPCs help carry more food up to the feast.\n▶ Know:  That the princess’s guests await\nthe arrival of Sir Chyde, her betrothed.\nFurnishings\nFireplace (melting icicles burning with\nelectric blue flames).  Cast-iron stove\n(bubbling stockpots, currant buns in the\noven).  Chunky table  (flour, pastry).  Pan-\ntry cupboard (tall shelves stuffed with\ncandied fruits, frozen game, ice wines).\nFrost Elf Cooks\nAC  9 [10],  HD  1 (hp 3, 3),  Att  1 ×\nknife / rolling pin (1d3),  THAC0  19\n[0],  MV  120’ (40’),  SV  D12 W13 P13\nB15 S15 (E1),  ML  6,  AL  Neutral,  XP  10\n▶ Raiding the pantry:  The deeper one\ndelves, the larger the pantry seems. There\nis a 1-in-6 chance per person per turn of\nfinding something worth 2d10 × 10gp in\nthe mortal world. Rare fairy wines, jellied\ndreams, sprite dust, tarts of infatuation.\nAtmospherics\nDelicious baking aroma (currants and\nspice).  Steam  (bubbling pots of broth).",
     "labels": [],
-    "text_bytes": 17,
+    "text_bytes": 1094,
     "keyed_area": "17",
     "style": {
       "size": 27.0,
@@ -1338,16 +1390,14 @@
   {
     "unit_id": "p23.18-wedding-feast",
     "heading": "18. Wedding Feast",
-    "heading_path": [
-      "17. Fairy Kitchen"
-    ],
+    "heading_path": [],
     "pages": [
       23
     ],
     "column": -1,
-    "text": "18. Wedding Feast\n2 Frost Elf Cooks\nChubby (short and stout).  Pearly eyes\n(twinkling).  Blue skin  (frost-chilled).\nFlustered (but orderly).\n▶ Reaction:  Shout orders, demanding\nPCs help carry more food up to the feast.\n▶ Know:  That the princess’s guests await\nthe arrival of Sir Chyde, her betrothed.\nFurnishings\nFireplace (melting icicles burning with\nelectric blue flames).  Cast-iron stove\n(bubbling stockpots, currant buns in the\noven).  Chunky table  (flour, pastry).  Pan-\ntry cupboard (tall shelves stuffed with\ncandied fruits, frozen game, ice wines).\nFeasting Table\nAmply bedecked (with luxurious prov-\nender).  Roast swans  (stuffed with black-\nbirds).  Mountains of fruit  (dripping\nsyrup).  Ice wines  (chilling in buckets).\nViolet spirits (in crystal decanters).\n▶ Eating or drinking:  Mortals who eat\nor drink must  save versus spells  or forev-\nermore yearn to return to Fairy.\nGuests\n5 frost elf knights\n(proud, haughty, plate\nmail, lances at their sides).  7 frost elf\nnobles (decadent, foppish, dabbing hand-\nkerchiefs, dressed in flouncy silk and\nlace).  Uncomfortably subdued  (quietly\nsipping wine).  Timeless  (the princess’s\nguests have been waiting centuries).\n▶ Reaction:  Ambivalent, but call the\nguards if disturbed.\nFrost Elf Cooks\nAC  9 [10],  HD  1 (hp 3, 3),  Att  1 ×\nknife / rolling pin (1d3),  THAC0  19\n[0],  MV  120’ (40’),  SV  D12 W13 P13\nB15 S15 (E1),  ML  6,  AL  Neutral,  XP  10\n▶ Raiding the pantry:  The deeper one\ndelves, the larger the pantry seems. There\nis a 1-in-6 chance per person per turn of\nfinding something worth 2d10 × 10gp in\nthe mortal world. Rare fairy wines, jellied\ndreams, sprite dust, tarts of infatuation.\nAtmospherics\nDelicious baking aroma (currants and\nspice).  Steam  (bubbling pots of broth).\nFrost Elf Guards and Knights\nAC  3 [16],  HD  2,  Att  1 × spear / lance\n(1d6),  THAC0  18 [+1],  MV  60’ (20’),\nSV  D12 W13 P13 B15 S15 (E2),  ML\n9,  AL  Neutral,  XP  20\nFrost Elf Nobles\nAC  8 [11],  HD  4*,  Att  1 × icicle dagger\n(1d4) or 1 × spell,  THAC0  16 [+3],\nMV  120’ (40’),  SV  D10 W11 P11 B13\nS12 (E4),  ML  7,  AL  Neutral,  XP  125\n▶ Spells: Sleep ,  hold person .\n4 Frost Elf Guards\nStanding respectfully (at the edges, but\nwill leap to action if needed).\n▶ Reaction:  Escort uninvited\nguests to the princess (area 19). 21",
+    "text": "18. Wedding Feast\nFeasting Table\nAmply bedecked (with luxurious prov-\nender).  Roast swans  (stuffed with black-\nbirds).  Mountains of fruit  (dripping\nsyrup).  Ice wines  (chilling in buckets).\nViolet spirits (in crystal decanters).\n▶ Eating or drinking:  Mortals who eat\nor drink must  save versus spells  or forev-\nermore yearn to return to Fairy.\nGuests\n5 frost elf knights\n(proud, haughty, plate\nmail, lances at their sides).  7 frost elf\nnobles (decadent, foppish, dabbing hand-\nkerchiefs, dressed in flouncy silk and\nlace).  Uncomfortably subdued  (quietly\nsipping wine).  Timeless  (the princess’s\nguests have been waiting centuries).\n▶ Reaction:  Ambivalent, but call the\nguards if disturbed.\nFrost Elf Guards and Knights\nAC  3 [16],  HD  2,  Att  1 × spear / lance\n(1d6),  THAC0  18 [+1],  MV  60’ (20’),\nSV  D12 W13 P13 B15 S15 (E2),  ML\n9,  AL  Neutral,  XP  20\nFrost Elf Nobles\nAC  8 [11],  HD  4*,  Att  1 × icicle dagger\n(1d4) or 1 × spell,  THAC0  16 [+3],\nMV  120’ (40’),  SV  D10 W11 P11 B13\nS12 (E4),  ML  7,  AL  Neutral,  XP  125\n▶ Spells: Sleep ,  hold person .\n4 Frost Elf Guards\nStanding respectfully (at the edges, but\nwill leap to action if needed).\n▶ Reaction:  Escort uninvited\nguests to the princess (area 19). 21",
     "labels": [],
-    "text_bytes": 2340,
+    "text_bytes": 1263,
     "keyed_area": "18",
     "style": {
       "size": 27.0,
