@@ -15,7 +15,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -34,7 +35,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -53,7 +55,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -72,7 +75,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -91,7 +95,8 @@
       "size": 81.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -110,7 +115,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -121,55 +127,16 @@
       5
     ],
     "column": 0,
-    "text": "Stats Demographic\nAbility Scores (Str, Dex, Con, Int, Wis, Cha) are randomly 1-2 Boy, age 1d8+6\ngenerated in order by rolling 3d6, dividing by two, and then\nrounding down.  The average score is 5.  There are 4 other 3-4 Girl, age 1d8+6",
+    "text": "Stats Demographic\nAbility Scores (Str, Dex, Con, Int, Wis, Cha) are randomly 1-2 Boy, age 1d8+6\ngenerated in order by rolling 3d6, dividing by two, and then\nrounding down.  The average score is 5.  There are 4 other 3-4 Girl, age 1d8+6\nstats. 5-12 Man, age 1d20+14\nHP 0 13-20 Woman, age 1d20+14\nMove 5\nAtk 0\nDef 0 If you are a child, you have a Small Stature.\n• Switch Str with your lowest ability score.\nChecks and Saves • Cramped spaces impose no penalty.\nNearly all checks are made against a DC of 16.   Roll a d20, • You do not have a Profession.\nadd your stat, and try to get the DC or better. If   you   want   to   introduce   non-binary   genders,   I   suggest\nSaves are an exception, and are made with either Dex, Con, replacing the numbers 7 and 13.\nor  Cha  against  a  DC of  20.     Cha  is  used  for all  types  of\nmagical effects, and is the most common Save.\nAppearance Personality\n1 Athletic 1\nCautious\n2 Beautiful 2\nCaring\n3 Boney 3\nCheerful\n4 Brawny 4\nCynical\n5 Brutish 5\nEnergetic\n6 Delicate 6\nFormal\n7 Disfigured 7\nGloomy\n8 Gorgeous 8\nHeartless\n9 Grizzled 9\nHonorable\n10 Handsome  10\nIrate\n11 Large 11\nJocular\n12 Pale 12\nMilitaristic\n13 Petite 13\nNoble\n14 Plump 14\nPassionate\n15 Short 15\nProud\n16 Slender 16\nScheming\n17 Statuesque 17\nSerene\n18 Swarthy 18\nSmug\n19 Tall  19\nSpacey\n20 Willowy  20\nUnhinged",
     "labels": [],
-    "text_bytes": 235,
+    "text_bytes": 1331,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.stats-5-12-man-age-1d20-14",
-    "heading": "stats. 5-12 Man, age 1d20+14",
-    "heading_path": [],
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "stats. 5-12 Man, age 1d20+14",
-    "labels": [],
-    "text_bytes": 28,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.hp-0-13-20-woman-age-1d20-14",
-    "heading": "HP 0 13-20 Woman, age 1d20+14",
-    "heading_path": [
-      "stats. 5-12 Man, age 1d20+14"
-    ],
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "HP 0 13-20 Woman, age 1d20+14\nMove 5\nAtk 0\nDef 0 If you are a child, you have a Small Stature.\n• Switch Str with your lowest ability score.\nChecks and Saves • Cramped spaces impose no penalty.\nNearly all checks are made against a DC of 16.   Roll a d20, • You do not have a Profession.\nadd your stat, and try to get the DC or better. If   you   want   to   introduce   non-binary   genders,   I   suggest\nSaves are an exception, and are made with either Dex, Con, replacing the numbers 7 and 13.\nor  Cha  against  a  DC of  20.     Cha  is  used  for all  types  of\nmagical effects, and is the most common Save.\nAppearance Personality\n1 Athletic 1\nCautious\n2 Beautiful 2\nCaring\n3 Boney 3\nCheerful\n4 Brawny 4\nCynical\n5 Brutish 5\nEnergetic\n6 Delicate 6\nFormal\n7 Disfigured 7\nGloomy\n8 Gorgeous 8\nHeartless\n9 Grizzled 9\nHonorable\n10 Handsome  10\nIrate\n11 Large 11\nJocular\n12 Pale 12\nMilitaristic\n13 Petite 13\nNoble\n14 Plump 14\nPassionate\n15 Short 15\nProud\n16 Slender 16\nScheming\n17 Statuesque 17\nSerene\n18 Swarthy 18\nSmug\n19 Tall  19\nSpacey\n20 Willowy  20\nUnhinged",
-    "labels": [],
-    "text_bytes": 1066,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -188,7 +155,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -209,7 +177,8 @@
       "size": 16.0,
       "family": "F6",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -228,7 +197,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -247,7 +217,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -266,7 +237,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -285,7 +257,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -304,7 +277,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -323,7 +297,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -342,7 +317,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -361,7 +337,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -380,7 +357,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -399,7 +377,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -418,7 +397,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -437,7 +417,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -456,7 +437,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -475,7 +457,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -494,7 +477,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -513,7 +497,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -532,7 +517,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -551,7 +537,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -570,7 +557,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -589,7 +577,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -608,7 +597,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -627,7 +617,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -646,7 +637,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -665,7 +657,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -684,7 +677,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -703,7 +697,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -722,7 +717,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -741,7 +737,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -760,7 +757,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -779,7 +777,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -798,7 +797,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -817,7 +817,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -836,7 +837,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -855,7 +857,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -874,7 +877,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -893,7 +897,8 @@
       "size": 81.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -912,7 +917,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -931,7 +937,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -952,7 +959,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -973,7 +981,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -994,7 +1003,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1015,7 +1025,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1034,7 +1045,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1055,7 +1067,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1076,7 +1089,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1095,7 +1109,8 @@
       "size": 81.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1116,7 +1131,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1138,7 +1154,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1160,7 +1177,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1182,7 +1200,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1203,7 +1222,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1225,7 +1245,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1247,7 +1268,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1269,7 +1291,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1290,7 +1313,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1311,7 +1335,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1332,7 +1357,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1345,57 +1371,16 @@
       20
     ],
     "column": 0,
-    "text": "The Lamb\nIt   looks   like   a   gigantic,   hairless,   obese   cow.     It   has   no\nobvious head, its neck instead terminating in a drooping\ncowl   of   wrinkled   flesh.     It's   actual   head   (usually   kept\nretracted) resembles a bloody horse skull with sunken eyes\nand a black tongue.   It extends its head when it needs to\nbite something.  It weighs about 2500 lbs.  It drags its belly\nas it walks.\nIt reeks of blood and ammonia.",
+    "text": "The Lamb\nIt   looks   like   a   gigantic,   hairless,   obese   cow.     It   has   no\nobvious head, its neck instead terminating in a drooping\ncowl   of   wrinkled   flesh.     It's   actual   head   (usually   kept\nretracted) resembles a bloody horse skull with sunken eyes\nand a black tongue.   It extends its head when it needs to\nbite something.  It weighs about 2500 lbs.  It drags its belly\nas it walks.\nIt reeks of blood and ammonia.\nThe Lamb\nLvl 6   Def  chain   Bite/Crush  1d8/1d18\nMove slow   Climb  slug   Str  9   Int  3   Dis  hungry\nImmunity – Acid.\nPhobia – Bright light and fire.  Torches and lanterns make\nit hesitate, but only a large fire will scare it away.\nThe Lamb's sight and hearing are slightly worse than the\naverage human's.\nThe Lamb is slower than the average human, but if people\nattempt to run past it in a hallway or room, it will make\nboth attacks.\nWhen   the   lamb   is   wounded   or   scared,   it   will   call   out\n“Father!  Father!” in increasingly loud tones.  It is capable of\nno other speech.\nIt is not smart, but it is clever.  It learns from its mistakes,\nand will learn better tactics with exposure.\nThe Lamb is valued for its Fruit, clusters of heavy nodules\nthat grow along its armpits and milk lines.   It carries 52\nNascent   Lambfruit   and   6   Immature   Lambfruit.     (See\nAppendix D)  DM: The first time the party sees the Lamb in\ngood light, be sure to mention the fruit.\nIt mostly hangs out in 8 PIT and 9 FOUNTAIN.  If it is killed,\nthe earth trembles as Vandoh mourns his child.\nIf it is killed, it counts as a  Milestone  (see 21 HEAVY DOOR).",
     "labels": [],
-    "text_bytes": 442,
+    "text_bytes": 1615,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p20.the-lamb-2",
-    "heading": "The Lamb",
-    "heading_path": [
-      "Part 1: Lair of the Lamb"
-    ],
-    "pages": [
-      20
-    ],
-    "column": 0,
-    "text": "The Lamb\nLvl 6   Def  chain   Bite/Crush  1d8/1d18\nMove slow   Climb  slug   Str  9   Int  3   Dis  hungry",
-    "labels": [],
-    "text_bytes": 106,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p20.immunity-acid",
-    "heading": "Immunity – Acid.",
-    "heading_path": [
-      "Part 1: Lair of the Lamb"
-    ],
-    "pages": [
-      20
-    ],
-    "column": 0,
-    "text": "Immunity – Acid.\nPhobia – Bright light and fire.  Torches and lanterns make\nit hesitate, but only a large fire will scare it away.\nThe Lamb's sight and hearing are slightly worse than the\naverage human's.\nThe Lamb is slower than the average human, but if people\nattempt to run past it in a hallway or room, it will make\nboth attacks.\nWhen   the   lamb   is   wounded   or   scared,   it   will   call   out\n“Father!  Father!” in increasingly loud tones.  It is capable of\nno other speech.\nIt is not smart, but it is clever.  It learns from its mistakes,\nand will learn better tactics with exposure.\nThe Lamb is valued for its Fruit, clusters of heavy nodules\nthat grow along its armpits and milk lines.   It carries 52\nNascent   Lambfruit   and   6   Immature   Lambfruit.     (See\nAppendix D)  DM: The first time the party sees the Lamb in\ngood light, be sure to mention the fruit.\nIt mostly hangs out in 8 PIT and 9 FOUNTAIN.  If it is killed,\nthe earth trembles as Vandoh mourns his child.\nIf it is killed, it counts as a  Milestone  (see 21 HEAVY DOOR).",
-    "labels": [],
-    "text_bytes": 1065,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1408,57 +1393,16 @@
       20
     ],
     "column": 1,
-    "text": "The Little Lambs\nNew life quickens in the Lamb's belly.  If it is killed, but the\ncorpse is not utterly destroyed, 3 Little Lambs wait until its\nquiet, then chew their way out of their mother.\nThey will not swim out to the cistern.",
+    "text": "The Little Lambs\nNew life quickens in the Lamb's belly.  If it is killed, but the\ncorpse is not utterly destroyed, 3 Little Lambs wait until its\nquiet, then chew their way out of their mother.\nThey will not swim out to the cistern.\nLittle Lamb\nLvl 2   Def  chain   Bite  1d8\nMove human   Climb  as slug   Str 5 Int  3   Dis  hungry\nImmunity – Acid.\nPhobia – Bright light and fire.  It will not approach within\n10' of burning oil.\nAmbush - 2-in-6 chance of ambushing the party from the\nceiling.     They   will   only   attempt   to   grapple   during   the\nsurprise round.",
     "labels": [],
-    "text_bytes": 231,
+    "text_bytes": 576,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p20.little-lamb",
-    "heading": "Little Lamb",
-    "heading_path": [
-      "Part 1: Lair of the Lamb"
-    ],
-    "pages": [
-      20
-    ],
-    "column": 1,
-    "text": "Little Lamb\nLvl 2   Def  chain   Bite  1d8\nMove human   Climb  as slug   Str 5 Int  3   Dis  hungry",
-    "labels": [],
-    "text_bytes": 99,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p20.immunity-acid-2",
-    "heading": "Immunity – Acid.",
-    "heading_path": [
-      "Part 1: Lair of the Lamb"
-    ],
-    "pages": [
-      20
-    ],
-    "column": 1,
-    "text": "Immunity – Acid.\nPhobia – Bright light and fire.  It will not approach within\n10' of burning oil.\nAmbush - 2-in-6 chance of ambushing the party from the\nceiling.     They   will   only   attempt   to   grapple   during   the\nsurprise round.",
-    "labels": [],
-    "text_bytes": 244,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1471,78 +1415,16 @@
       20
     ],
     "column": 1,
-    "text": "Father Bastoval\nTwo hours after the Lamb is killed, Father Bastoval and his\ntwo bodyguards (an elderly couple) will enter the dungeon.\nThey were alerted by the tremors, and will attempt to check\non the Lamb.   If the lamb is dead, they will hunt for the\nLamb's murderers.",
+    "text": "Father Bastoval\nTwo hours after the Lamb is killed, Father Bastoval and his\ntwo bodyguards (an elderly couple) will enter the dungeon.\nThey were alerted by the tremors, and will attempt to check\non the Lamb.   If the lamb is dead, they will hunt for the\nLamb's murderers.\nFather Bastoval\nLvl 3   Def  chain   Warfork  1d8   Dis  wrathful\nSpells -  delay, haste, scry\nFather Bastoval is a Nemesis.   If he kills a PC, he gains a\nlevel,   and   the   DM   should   introduce   them   as   “Bastoval,\nSlayer of X” from here on out.\nMilo/Bilosh\nLvl 1 Def plate   Mace  1d6.\nMino has a bow (1d6) and Bilosh has a net.",
     "labels": [],
-    "text_bytes": 271,
+    "text_bytes": 616,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p20.father-bastoval-2",
-    "heading": "Father Bastoval",
-    "heading_path": [
-      "Part 1: Lair of the Lamb"
-    ],
-    "pages": [
-      20
-    ],
-    "column": 1,
-    "text": "Father Bastoval\nLvl 3   Def  chain   Warfork  1d8   Dis  wrathful",
-    "labels": [],
-    "text_bytes": 65,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p20.spells-delay-haste-scry",
-    "heading": "Spells -  delay, haste, scry",
-    "heading_path": [
-      "Part 1: Lair of the Lamb"
-    ],
-    "pages": [
-      20
-    ],
-    "column": 1,
-    "text": "Spells -  delay, haste, scry\nFather Bastoval is a Nemesis.   If he kills a PC, he gains a\nlevel,   and   the   DM   should   introduce   them   as   “Bastoval,\nSlayer of X” from here on out.",
-    "labels": [],
-    "text_bytes": 194,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F9",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p20.milo-bilosh",
-    "heading": "Milo/Bilosh",
-    "heading_path": [
-      "Part 1: Lair of the Lamb"
-    ],
-    "pages": [
-      20
-    ],
-    "column": 1,
-    "text": "Milo/Bilosh\nLvl 1 Def plate   Mace  1d6.\nMino has a bow (1d6) and Bilosh has a net.",
-    "labels": [],
-    "text_bytes": 83,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1563,7 +1445,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1584,7 +1467,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1605,7 +1489,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1626,7 +1511,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1647,7 +1533,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1668,7 +1555,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1689,7 +1577,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1710,7 +1599,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1731,7 +1621,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1752,7 +1643,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1773,7 +1665,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1794,7 +1687,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1815,7 +1709,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1836,7 +1731,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1857,7 +1753,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1878,7 +1775,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1899,7 +1797,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1920,7 +1819,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1941,7 +1841,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1962,7 +1863,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -1981,7 +1883,8 @@
       "size": 81.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2002,7 +1905,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2015,36 +1919,16 @@
       28
     ],
     "column": 0,
-    "text": "Passive Encounters\n1-2 Unique.     In   an   adjacent   room,   Jasper  and   Luntz\npreparing an earthworm as if it were a feast.\n3-4  Unique.  In an adjacent room, Gerdith and Malenna\ndiscussing advantages between cavalry vs archers\nvs infantry.\n5-6 A   coiled   up   lantern   worm.     Looks   like   a   huge,\ntaught, black rubber hose.  Quiescent until touched\nor light is brought near.",
+    "text": "Passive Encounters\n1-2 Unique.     In   an   adjacent   room,   Jasper  and   Luntz\npreparing an earthworm as if it were a feast.\n3-4  Unique.  In an adjacent room, Gerdith and Malenna\ndiscussing advantages between cavalry vs archers\nvs infantry.\n5-6 A   coiled   up   lantern   worm.     Looks   like   a   huge,\ntaught, black rubber hose.  Quiescent until touched\nor light is brought near.\nArmored Ghoul (Gerdith or Molina)\nLvl 2   Def  plate   Halberd  1d8\nInt 5   Str  7   Dis  hungry",
     "labels": [],
-    "text_bytes": 391,
+    "text_bytes": 488,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p28.armored-ghoul-gerdith-or-molina",
-    "heading": "Armored Ghoul (Gerdith or Molina)",
-    "heading_path": [
-      "Part 2 Gallery of the Ghouls"
-    ],
-    "pages": [
-      28
-    ],
-    "column": 0,
-    "text": "Armored Ghoul (Gerdith or Molina)\nLvl 2   Def  plate   Halberd  1d8\nInt 5   Str  7   Dis  hungry",
-    "labels": [],
-    "text_bytes": 96,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2057,57 +1941,16 @@
       28
     ],
     "column": 1,
-    "text": "Indirect Encounters\n1-2 Distant arguing (unless all ghouls dead).\n3-4 Gnawing on bones (unless all ghouls dead).\n5-6 Unique.     Wetspot   on   the   wall   turns   into   a\nsearchlight.  If you do not avoid it, a lantern worm emerges.",
+    "text": "Indirect Encounters\n1-2 Distant arguing (unless all ghouls dead).\n3-4 Gnawing on bones (unless all ghouls dead).\n5-6 Unique.     Wetspot   on   the   wall   turns   into   a\nsearchlight.  If you do not avoid it, a lantern worm emerges.\nGhoul (Jasper or Luntz)\nLvl 2   Def  leather   Claw  1d6+agony\nInt 5   Str  7   Dis  hungry\nLantern Worm\nLvl 4    Def  leather    Slam  1d6\nCrawl slow   Int  2   Dis  hungry\nEat Light - Target light source explodes and is destroyed.\nThe worm eats all the light and becomes brighter.  Whoever\nwas holding the light source take 1d6 fire damage (Wis Save\nnegates)   and   is   automatically   blinded.     Everyone   else   is\nblinded if they fail a Wis Save.  Con check each turn to end.\nLantern - Sheds light in a narrow 60' cone.  Whoever it is\nlooking at gets -4 to hit (also applies to adjacent people).\nStonemeld - Can become a liquid and flow through stone.\nLooks like a wet, dark stain.\nRetreats after it has eaten all available light sources.",
     "labels": [],
-    "text_bytes": 235,
+    "text_bytes": 984,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p28.ghoul-jasper-or-luntz",
-    "heading": "Ghoul (Jasper or Luntz)",
-    "heading_path": [
-      "Part 2 Gallery of the Ghouls"
-    ],
-    "pages": [
-      28
-    ],
-    "column": 1,
-    "text": "Ghoul (Jasper or Luntz)\nLvl 2   Def  leather   Claw  1d6+agony\nInt 5   Str  7   Dis  hungry",
-    "labels": [],
-    "text_bytes": 91,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p28.lantern-worm",
-    "heading": "Lantern Worm",
-    "heading_path": [
-      "Part 2 Gallery of the Ghouls"
-    ],
-    "pages": [
-      28
-    ],
-    "column": 1,
-    "text": "Lantern Worm\nLvl 4    Def  leather    Slam  1d6\nCrawl slow   Int  2   Dis  hungry\nEat Light - Target light source explodes and is destroyed.\nThe worm eats all the light and becomes brighter.  Whoever\nwas holding the light source take 1d6 fire damage (Wis Save\nnegates)   and   is   automatically   blinded.     Everyone   else   is\nblinded if they fail a Wis Save.  Con check each turn to end.\nLantern - Sheds light in a narrow 60' cone.  Whoever it is\nlooking at gets -4 to hit (also applies to adjacent people).\nStonemeld - Can become a liquid and flow through stone.\nLooks like a wet, dark stain.\nRetreats after it has eaten all available light sources.",
-    "labels": [],
-    "text_bytes": 656,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2128,7 +1971,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2149,7 +1993,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2170,7 +2015,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2191,7 +2037,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2212,7 +2059,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2233,7 +2081,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2254,7 +2103,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2275,7 +2125,8 @@
       "size": 16.0,
       "family": "F7",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2296,7 +2147,8 @@
       "size": 16.0,
       "family": "F7",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2317,7 +2169,8 @@
       "size": 16.0,
       "family": "F7",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2338,7 +2191,8 @@
       "size": 16.0,
       "family": "F7",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2359,7 +2213,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2380,7 +2235,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2401,7 +2257,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2422,7 +2279,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2443,7 +2301,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2464,7 +2323,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2485,7 +2345,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2498,15 +2359,16 @@
       33
     ],
     "column": 1,
-    "text": "28 GAMES\nA   miniature   landscape dominates   the   room.     Ravines\nmade from wrinkled rugs.   Halfway evaporated lakes dug\ninto the floor.  Tiny forests, each tree made from carefully\ntwisted corpse hair.\n120   miniatures   (1s   each)\nare   positioned   around   the\nlandscape in military formations.  Most are made from bits\nof corpses.\n16 dice\nmade from knuckle bones.\nSearching the room reveals a stack of mouldering character\nsheets,   a   brief   dalliance   before   the   ghouls   unanimously\ndecided that miniature wargaming was more fun.   (All of\nthe ghouls played fighters.)",
+    "text": "28 GAMES\nA   miniature   landscape dominates   the   room.     Ravines\nmade from wrinkled rugs.   Halfway evaporated lakes dug\ninto the floor.  Tiny forests, each tree made from carefully\ntwisted corpse hair.\n120   miniatures   (1s   each)   are   positioned   around   the\nlandscape in military formations.  Most are made from bits\nof corpses.\n16 dice\nmade from knuckle bones.\nSearching the room reveals a stack of mouldering character\nsheets,   a   brief   dalliance   before   the   ghouls   unanimously\ndecided that miniature wargaming was more fun.   (All of\nthe ghouls played fighters.)",
     "labels": [],
-    "text_bytes": 590,
+    "text_bytes": 592,
     "keyed_area": "28",
     "style": {
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2527,7 +2389,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2548,7 +2411,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2569,7 +2433,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2590,7 +2455,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2611,7 +2477,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2632,7 +2499,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2653,7 +2521,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2674,7 +2543,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2695,7 +2565,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2716,7 +2587,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2737,7 +2609,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2758,7 +2631,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2779,7 +2653,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2800,7 +2675,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2821,7 +2697,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2840,7 +2717,8 @@
       "size": 81.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2861,7 +2739,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2882,7 +2761,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2903,7 +2783,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2924,7 +2805,8 @@
       "size": 18.0,
       "family": "F10",
       "bold": false,
-      "color": "#3333ff"
+      "color": "#3333ff",
+      "italic": false
     }
   },
   {
@@ -2943,7 +2825,8 @@
       "size": 81.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2964,7 +2847,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -2986,7 +2870,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3008,7 +2893,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3030,7 +2916,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3052,7 +2939,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3074,7 +2962,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3096,7 +2985,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3118,7 +3008,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3140,7 +3031,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3161,7 +3053,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3182,7 +3075,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3203,7 +3097,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3224,7 +3119,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3245,7 +3141,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3266,7 +3163,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3287,7 +3185,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3308,7 +3207,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3329,7 +3229,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3350,7 +3251,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3371,7 +3273,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3392,7 +3295,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3413,7 +3317,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3434,7 +3339,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3455,7 +3361,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3477,7 +3384,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3499,7 +3407,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3520,7 +3429,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3534,59 +3444,16 @@
       48
     ],
     "column": 0,
-    "text": "Lambfruit\nHere are the types of Lambfruit (and how many of each type\nare currently hanging off the Lamb).",
+    "text": "Lambfruit\nHere are the types of Lambfruit (and how many of each type\nare currently hanging off the Lamb).\n• Nascent   Lambfruit   (52)   –   Dark   green.     Causes\nnausea, vomiting, and rampant paranoia about the\nfuture.\n• Immature Lambfruit (6) –  Orange.  Allows you to\nsee   six   seconds   into  the   future,   per   precognition .\nCon Save vs nausea and vomiting.\n• Mature Lambfruit (0) –  Bright red.  Allows you to\nyou   see   one   major   future   event   with   relative\nclarity.",
     "labels": [],
-    "text_bytes": 105,
+    "text_bytes": 504,
     "keyed_area": null,
     "style": {
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p48.nascent-lambfruit-52-dark-green",
-    "heading": "• Nascent   Lambfruit   (52)   – Dark   green.     Causes",
-    "heading_path": [
-      "Appendices",
-      "Appendix D: Drugs"
-    ],
-    "pages": [
-      48
-    ],
-    "column": 0,
-    "text": "• Nascent   Lambfruit   (52)   – Dark   green.     Causes\nnausea, vomiting, and rampant paranoia about the\nfuture.",
-    "labels": [],
-    "text_bytes": 118,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p48.immature-lambfruit-6-orange-allo",
-    "heading": "• Immature Lambfruit (6) – Orange.  Allows you to",
-    "heading_path": [
-      "Appendices",
-      "Appendix D: Drugs"
-    ],
-    "pages": [
-      48
-    ],
-    "column": 0,
-    "text": "• Immature Lambfruit (6) – Orange.  Allows you to\nsee   six   seconds   into  the   future,   per   precognition .\nCon Save vs nausea and vomiting.\n• Mature Lambfruit (0) – Bright red.  Allows you to\nyou   see   one   major   future   event   with   relative\nclarity.",
-    "labels": [],
-    "text_bytes": 275,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F7",
-      "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3608,7 +3475,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3630,7 +3498,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3652,7 +3521,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3665,36 +3535,16 @@
       49
     ],
     "column": 0,
-    "text": "Appendix E: Leveling and Classes\nWhen you gain your level, your character improves according to this table.\nHP Atk Templates Mastery Level 0 0 0 0 -\nLevel 1 Con 1 1 -\nLevel 2 Con + 2 2 2 -\nLevel 3 Con + 4 3 3 -\nLevel 4 Con + 6 4 4 -",
+    "text": "Appendix E: Leveling and Classes\nWhen you gain your level, your character improves according to this table.\nHP Atk Templates Mastery Level 0 0 0 0 -\nLevel 1 Con 1 1 -\nLevel 2 Con + 2 2 2 -\nLevel 3 Con + 4 3 3 -\nLevel 4 Con + 6 4 4 -\n+1 Level - - - +1 Mastery\nWhenever you gain your first four levels, you gain a template.  Unless you've unlocked more classes through play, you're\nlimited to the four classes below.",
     "labels": [],
-    "text_bytes": 232,
+    "text_bytes": 414,
     "keyed_area": null,
     "style": {
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p49.1-level-1-mastery",
-    "heading": "+1 Level - - - +1 Mastery",
-    "heading_path": [
-      "Appendices"
-    ],
-    "pages": [
-      49
-    ],
-    "column": 0,
-    "text": "+1 Level - - - +1 Mastery\nWhenever you gain your first four levels, you gain a template.  Unless you've unlocked more classes through play, you're\nlimited to the four classes below.",
-    "labels": [],
-    "text_bytes": 181,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3715,7 +3565,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3736,7 +3587,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3749,57 +3601,16 @@
       50
     ],
     "column": 0,
-    "text": "Acrobat\nEach level of Acrobat gives you +1 Move.",
+    "text": "Acrobat\nEach level of Acrobat gives you +1 Move.\nA Dodge, Nah 1/day B Tricky\nC Cat Power, Nah 2/day D Roast the Oaf",
     "labels": [],
-    "text_bytes": 48,
+    "text_bytes": 115,
     "keyed_area": null,
     "style": {
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p50.a-dodge-nah-1-day-b-tricky",
-    "heading": "A Dodge, Nah 1/day B Tricky",
-    "heading_path": [
-      "Appendices"
-    ],
-    "pages": [
-      50
-    ],
-    "column": 0,
-    "text": "A Dodge, Nah 1/day B Tricky",
-    "labels": [],
-    "text_bytes": 27,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p50.c-cat-power-nah-2-day-d-roast-th",
-    "heading": "C Cat Power, Nah 2/day D Roast the Oaf",
-    "heading_path": [
-      "Appendices"
-    ],
-    "pages": [
-      50
-    ],
-    "column": 0,
-    "text": "C Cat Power, Nah 2/day D Roast the Oaf",
-    "labels": [],
-    "text_bytes": 38,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3820,7 +3631,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3841,7 +3653,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3862,7 +3675,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3883,7 +3697,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3904,7 +3719,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3925,7 +3741,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -3938,57 +3755,16 @@
       51
     ],
     "column": 0,
-    "text": "Barbarian\nEach level of Barbarian gives you +2 Loincloth HP.",
+    "text": "Barbarian\nEach level of Barbarian gives you +2 Loincloth HP.\nA Rage B Firewater C Thews 1/day\nD Rampage, Thews 2/day",
     "labels": [],
-    "text_bytes": 60,
+    "text_bytes": 116,
     "keyed_area": null,
     "style": {
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p51.a-rage-b-firewater-c-thews-1-day",
-    "heading": "A Rage B Firewater C Thews 1/day",
-    "heading_path": [
-      "Appendices"
-    ],
-    "pages": [
-      51
-    ],
-    "column": 0,
-    "text": "A Rage B Firewater C Thews 1/day",
-    "labels": [],
-    "text_bytes": 32,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p51.d-rampage-thews-2-day",
-    "heading": "D Rampage, Thews 2/day",
-    "heading_path": [
-      "Appendices"
-    ],
-    "pages": [
-      51
-    ],
-    "column": 0,
-    "text": "D Rampage, Thews 2/day",
-    "labels": [],
-    "text_bytes": 22,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4009,7 +3785,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4030,7 +3807,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4051,7 +3829,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4072,7 +3851,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4093,7 +3873,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4106,57 +3887,16 @@
       52
     ],
     "column": 0,
-    "text": "Fighter\nEach level of Fighter gives you +1 Attack.",
+    "text": "Fighter\nEach level of Fighter gives you +1 Attack.\nA Stand Tough B Tricky C Very Tricky\nD Double Attack",
     "labels": [],
-    "text_bytes": 50,
+    "text_bytes": 103,
     "keyed_area": null,
     "style": {
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p52.a-stand-tough-b-tricky-c-very-tr",
-    "heading": "A Stand Tough B Tricky C Very Tricky",
-    "heading_path": [
-      "Appendices"
-    ],
-    "pages": [
-      52
-    ],
-    "column": 0,
-    "text": "A Stand Tough B Tricky C Very Tricky",
-    "labels": [],
-    "text_bytes": 36,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p52.d-double-attack",
-    "heading": "D Double Attack",
-    "heading_path": [
-      "Appendices"
-    ],
-    "pages": [
-      52
-    ],
-    "column": 0,
-    "text": "D Double Attack",
-    "labels": [],
-    "text_bytes": 15,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4177,7 +3917,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4198,7 +3939,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4219,7 +3961,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4240,7 +3983,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4253,36 +3997,16 @@
       53
     ],
     "column": 0,
-    "text": "Thief\nEach level of Thief gives you +1 Mastery and +1 Stealth.",
+    "text": "Thief\nEach level of Thief gives you +1 Mastery and +1 Stealth.\nA “Luck” B Opportunist C Preparation D Snag",
     "labels": [],
-    "text_bytes": 62,
+    "text_bytes": 110,
     "keyed_area": null,
     "style": {
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p53.a-luck-b-opportunist-c-preparati",
-    "heading": "A “Luck” B Opportunist C Preparation D Snag",
-    "heading_path": [
-      "Appendices"
-    ],
-    "pages": [
-      53
-    ],
-    "column": 0,
-    "text": "A “Luck” B Opportunist C Preparation D Snag",
-    "labels": [],
-    "text_bytes": 47,
-    "keyed_area": null,
-    "style": {
-      "size": 16.0,
-      "family": "F6",
-      "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4303,7 +4027,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4324,7 +4049,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4345,7 +4071,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4366,7 +4093,8 @@
       "size": 21.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4387,7 +4115,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -4408,7 +4137,8 @@
       "size": 30.0,
       "family": "F3",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   }
 ]

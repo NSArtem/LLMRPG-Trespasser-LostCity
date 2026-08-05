@@ -22,7 +22,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from bbox import BboxError, SOURCES  # noqa: E402
-from units import Unit, slug, units_for  # noqa: E402
+from units import Unit, retention, segment, slug  # noqa: E402
 
 
 TINY = 40      # bytes; below this a unit is probably a stub or a stray heading
@@ -40,7 +40,8 @@ def _keyed_coverage(units: list[Unit]) -> tuple[list[int], list[str]]:
 
 
 def digest(pdf: Path) -> str:
-    units = units_for(pdf)
+    lines, units = segment(pdf)
+    total, kept, dropped = retention(lines, units)
     sizes = [len(unit.text.encode("utf-8")) for unit in units] or [0]
     keyed = [unit for unit in units if unit.key]
     strict = [unit for unit in units if STRICT_KEY.match(unit.heading)]
@@ -54,6 +55,8 @@ def digest(pdf: Path) -> str:
         f"# {pdf.name}", "",
         "| | |", "|---|---|",
         f"| units | {len(units)} |",
+        f"| text retained | {100 * kept / total if total else 100:.1f}% "
+        f"({total - kept} of {total} characters reached no unit) |",
         f"| pages covered | {len(pages)} |",
         f"| keyed units | {len(keyed)} (strict `N NAME` form: {len(strict)}) |",
         f"| spanning a page break | {len(spanning)} |",
@@ -63,6 +66,18 @@ def digest(pdf: Path) -> str:
     ]
 
     out += ["## Checks", ""]
+    losses = sorted(dropped.items(), key=lambda item: -item[1])[:6]
+    heavy = [(page, size) for page, size in losses if size >= TINY * 10]
+    out += [f"**Text reaching no unit:** {total - kept} characters"
+            + (f", worst pages {', '.join(f'p{p} ({n})' for p, n in losses)}"
+               if losses else "")]
+    if heavy:
+        out += ["", "> A page losing hundreds of characters is not a cover. It "
+                "is a page whose heading was never recognised, so every line on "
+                "it fell through `assemble`'s front-matter branch. Open it.", ""]
+    else:
+        out.append("")
+
     if numbers:
         out += [f"**Keyed range** {numbers[0]}–{numbers[-1]}, {len(numbers)} distinct."]
         out += [f"**Missing keys:** {', '.join(gaps) if gaps else 'none'}", ""]

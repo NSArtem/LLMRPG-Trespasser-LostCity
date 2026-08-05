@@ -31,7 +31,7 @@ from columns import Line, document_lines  # noqa: E402
 # Styles holding less than this share of a document's lines are noise.
 STYLE_FLOOR = 0.002
 
-Style = tuple[float, str, bool, str]
+Style = tuple[float, str, bool, str, bool]  # size, family, bold, colour, italic
 
 
 @dataclass(frozen=True)

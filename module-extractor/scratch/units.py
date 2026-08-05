@@ -57,6 +57,12 @@ KEY_LETTER = re.compile(r"^(?:area|room|location)\s+([A-Z](?:-\d+)?)\b", re.IGNO
 # heading in a Russian module then slugs to the same empty string.
 _SLUG = re.compile(r"[\W_]+", re.UNICODE)
 
+# A dot leader points at a page; it never opens one. Falkrest Abbey's contents
+# page is set in the same style as its section titles, so thirteen rows like
+# ``2 The Frozen Cloister .....13`` were emitted as units -- and being keyed,
+# they survived every rule aimed at short ones. Four dots is past any ellipsis.
+_LEADER = re.compile(r"\.{4,}")
+
 
 def slug(text: str, limit: int = 32) -> str:
     value = _SLUG.sub("-", text.casefold()).strip("-_")
@@ -78,6 +84,8 @@ def is_heading_text(text: str) -> bool:
     stripped = text.strip()
     if not stripped or not any(character.isalpha() for character in stripped):
         return False
+    if _LEADER.search(stripped):
+        return False
     return len(stripped.split()) <= MAX_HEADING_WORDS
 
 
@@ -97,6 +105,7 @@ def _merge(first: Line, second: Line, separator: str = " ") -> Line:
         family=dominant.family,
         bold=dominant.bold,
         color=dominant.color,
+        italic=dominant.italic,
     )
 
 
@@ -211,7 +220,8 @@ class Unit:
             "text_bytes": len(text.encode("utf-8")),
             "keyed_area": self.key,
             "style": {"size": self.style[0], "family": self.style[1].split("+")[-1],
-                      "bold": self.style[2], "color": self.style[3]},
+                      "bold": self.style[2], "color": self.style[3],
+                      "italic": self.style[4]},
         }
 
 
@@ -243,8 +253,31 @@ def heading_ranks(groups: list[StyleGroup], lines: list[Line]) -> dict[Style, in
     return {group.style: rank for rank, group in enumerate(candidates)}
 
 
+def opens_a_section(line: Line, body_size: float) -> bool:
+    """Whether a subordinate heading names a section or labels part of a block.
+
+    *Lair of the Lamb*'s bestiary sets a monster's name at 21pt and then repeats
+    it at 16pt over the stat lines, with the traits -- ``Immunity – Acid.``,
+    ``Spells - delay, haste, scry`` -- in 16pt too. Body is also 16pt. Three
+    monsters became ten units, and ``Immunity – Acid.`` was not a stub but a
+    1,065-byte unit holding the trait below it and the Lamb's whole description:
+    a unit named for one line of a stat block and containing another creature's
+    prose.
+
+    Size settles it. A style no larger than body is a label inside something,
+    not a section of its own -- while its rules chapter sets ``Time``, ``Doors``
+    and ``Movement`` at 21pt, above body, and those must keep segmenting.
+
+    **A key overrides size.** Doom of the Savage Kings sets its 26 keyed areas
+    at body size in a display family, and they are exactly the boundaries the
+    pipeline exists to find.
+    """
+    return line.size > body_size or key_root(line.text) is not None
+
+
 def assemble(lines: list[Line], ranks: dict[Style, int],
-             repeated: set[str] | None = None) -> list[Unit]:
+             repeated: set[str] | None = None,
+             body_size: float = 0.0) -> list[Unit]:
     units: list[Unit] = []
     current: Unit | None = None
     seen: dict[str, int] = {}
@@ -262,10 +295,12 @@ def assemble(lines: list[Line], ranks: dict[Style, int],
         here = ranks[current.style]
         if rank < here:
             return True  # more senior: always a new unit
+        if rank > here:
+            if current.key is not None:
+                return False  # subordinate heading within a keyed area
+            return opens_a_section(line, body_size)
         if current.key is None:
             return True  # not inside a keyed area, so nothing to absorb into
-        if rank > here:
-            return False  # subordinate heading within a keyed area
         root = key_root(line.text)
         if root is not None:
             return root != current.key
@@ -426,7 +461,12 @@ def attach_paths(units: list[Unit]) -> list[Unit]:
     return units
 
 
-def units_for(pdf: Path) -> list[Unit]:
+def segment(pdf: Path) -> tuple[list[Line], list[Unit]]:
+    """The units, and the lines they were built from.
+
+    Returning both is what makes retention measurable: a unit list alone cannot
+    say whether anything was dropped on the way in. See ``retention``.
+    """
     # **Ranks come from the raw lines, before any joining.** Which styles the
     # typesetter used for headings is a fact about the document; rejoining and
     # wrapping are decisions about it. Ranking the joined lines instead lets a
@@ -439,7 +479,33 @@ def units_for(pdf: Path) -> list[Unit]:
     ranks = heading_ranks(groups, lines)
     lines = join_wrapped_headings(rejoin_run_ins(lines), ranks)
     repeated = furniture(lines)
-    return attach_paths(merge_table_runs(assemble(lines, ranks, repeated)))
+    body = body_style(groups)
+    units = attach_paths(merge_table_runs(
+        assemble(lines, ranks, repeated, body.size if body else 0.0)))
+    return lines, units
+
+
+def units_for(pdf: Path) -> list[Unit]:
+    return segment(pdf)[1]
+
+
+def retention(lines: list[Line], units: list[Unit]) -> tuple[int, int, dict[int, int]]:
+    """Characters in, characters into units, and what was dropped per page.
+
+    A unit count cannot detect loss -- Doom of the Savage Kings segmented into a
+    plausible-looking 33 units while two whole pages of prose fell through the
+    "before the first heading" branch of ``assemble``, because a 72pt drop cap
+    had fused their headings into body lines. Retention sees that; nothing else
+    in the digest does.
+    """
+    held = {id(line) for unit in units for line in unit.lines}
+    dropped: dict[int, int] = {}
+    total = 0
+    for line in lines:
+        total += len(line.text)
+        if id(line) not in held:
+            dropped[line.page] = dropped.get(line.page, 0) + len(line.text)
+    return total, total - sum(dropped.values()), dropped
 
 
 def report(pdf: Path, show: int = 0) -> None:

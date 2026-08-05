@@ -27,10 +27,18 @@ PACK_ID = "pack-001"
 # Six units spanning the material T1.1 asks for: a keyed room with a trap and a
 # procedure, a keyed room with actors and an embedded stat block, a standalone
 # stat block, a random table, a rules section, and a spell.
+#
+# **The zip in `_exchange/` predates the T0.5 boundary fixes and is not
+# reproducible from this list.** It was built when `p28.lantern-worm` was a unit
+# of its own; the fixes merged it into `p28.indirect-encounters`, which carries
+# the same stat block together with the encounter table that rolls it. The two
+# model responses in `_exchange/` answer the shipped pack, so `csv_check.py`
+# reads that zip rather than rebuilding one. Rebuilding here produces a valid
+# pack, not that pack.
 UNITS = (
     "p31.24-crush-hallway",
     "p33.27-ballista",
-    "p28.lantern-worm",
+    "p28.indirect-encounters",
     "p18.active-encounters-2",
     "p8.doors",
     "p46.haste",

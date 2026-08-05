@@ -12,24 +12,26 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from columns import Line  # noqa: E402
 from units import (assemble, attach_paths, furniture,  # noqa: E402
                    is_heading_text, join_wrapped_headings, key_root,
-                   merge_table_runs, rejoin_run_ins, slug)
+                   merge_table_runs, rejoin_run_ins, retention, slug)
 
 
-BODY = ("running body text that goes on for a while here", 12.0, "Body", False, "#000000")
-AREA = (18.0, "Display", False, "#3333ff")   # Lair keyed areas and subsections
-PART = (30.0, "Display", False, "#000000")   # senior: part titles
+BODY_TEXT = "running body text that goes on for a while here"
+BODY = (12.0, "Body", False, "#000000", False)
+AREA = (18.0, "Display", False, "#3333ff", False)   # Lair keyed areas and subsections
+PART = (30.0, "Display", False, "#000000", False)   # senior: part titles
 
 RANKS = {PART: 0, AREA: 1}
 
 
 def line(text, style, page=1, y=0.0, run_in=False):
-    size, family, bold, color = style
+    size, family, bold, color, italic = style
     return Line(page=page, column=0, x=50.0, y=y, height=size, text=text,
-                size=size, family=family, bold=bold, color=color, run_in=run_in)
+                size=size, family=family, bold=bold, color=color, italic=italic,
+                run_in=run_in)
 
 
 def body(page=1, y=0.0):
-    return line(BODY[0], (BODY[1], BODY[2], BODY[3], BODY[4]), page, y)
+    return line(BODY_TEXT, BODY, page, y)
 
 
 class TextTests(unittest.TestCase):
@@ -199,7 +201,7 @@ class RunInTests(unittest.TestCase):
     def test_an_unkeyed_prefix_is_folded_back_into_its_row(self) -> None:
         lines = rejoin_run_ins([
             line("Lvl", AREA, run_in=True),
-            line("4 Def leather Slam 1d6", (12.0, "Body", False, "#000000")),
+            line("4 Def leather Slam 1d6", BODY),
         ])
         self.assertEqual([item.text for item in lines],
                          ["Lvl 4 Def leather Slam 1d6"])
@@ -208,14 +210,14 @@ class RunInTests(unittest.TestCase):
         """Doom sets every keyed area this way; splitting them is the point."""
         lines = rejoin_run_ins([
             line("Area A-4 - Chapel of Justicia:", AREA, run_in=True),
-            line("The chapel is a low, vaulted hall", (12.0, "Body", False, "#000000")),
+            line("The chapel is a low, vaulted hall", BODY),
         ])
         self.assertEqual(len(lines), 2)
 
     def test_a_prefix_on_a_different_row_is_left_alone(self) -> None:
         lines = rejoin_run_ins([
             line("Stonemeld -", AREA, run_in=True),
-            line("body", (12.0, "Body", False, "#000000"), page=2),
+            line("body", BODY, page=2),
         ])
         self.assertEqual(len(lines), 2)
 
@@ -224,7 +226,7 @@ class RunInTests(unittest.TestCase):
         lines = rejoin_run_ins([
             line("Lvl", AREA, run_in=True),
             line("4 Def leather Slam 1d6 and more besides",
-                 (12.0, "Body", False, "#000000")),
+                 BODY),
         ])
         self.assertEqual(lines[0].size, 12.0)
 
@@ -325,6 +327,89 @@ class FurnitureTests(unittest.TestCase):
         lines = [line("Encounter Table (Lamb Alive)", PART, page=p, y=y)
                  for p, y in ((17, 493.0), (18, 120.0), (19, 700.0))]
         self.assertNotIn("Encounter Table (Lamb Alive)", furniture(lines))
+
+
+class SectionStyleTests(unittest.TestCase):
+    """Lair's bestiary labels stat blocks in a style the size of body."""
+
+    LABEL = (12.0, "Stat", False, "#000000", False)   # body size: an in-block label
+    RANKS = {PART: 0, AREA: 1, LABEL: 2}
+
+    def _units(self, junior_text):
+        lines = [line("The Lamb", AREA), body(y=20.0),
+                 line(junior_text, self.LABEL, y=40.0), body(y=60.0)]
+        return assemble(lines, self.RANKS, body_size=BODY[0])
+
+    def test_a_body_sized_junior_heading_is_absorbed(self) -> None:
+        """`Immunity – Acid.` was a 1,065-byte unit holding the Lamb's prose."""
+        units = self._units("Immunity – Acid.")
+        self.assertEqual([u.heading for u in units], ["The Lamb"])
+        self.assertIn("Immunity – Acid.", units[0].text)
+
+    def test_a_repeated_name_over_a_stat_block_is_absorbed(self) -> None:
+        self.assertEqual(len(self._units("The Lamb")), 1)
+
+    def test_a_junior_heading_larger_than_body_still_segments(self) -> None:
+        """Lair sets `Time`, `Doors`, `Movement` above body, and they are sections."""
+        lines = [line("Exploration", PART), body(y=20.0),
+                 line("Doors", AREA, y=40.0), body(y=60.0)]
+        units = assemble(lines, RANKS, body_size=BODY[0])
+        self.assertEqual([u.heading for u in units], ["Exploration", "Doors"])
+
+    def test_a_key_overrides_size(self) -> None:
+        """Doom sets all 26 keyed areas at body size in a display family."""
+        units = self._units("Area C-7 – Antechamber:")
+        self.assertEqual(len(units), 2)
+
+    def test_absorption_still_needs_a_junior_style(self) -> None:
+        """A sibling in the same style is not swallowed by size alone."""
+        lines = [line("The Lamb", AREA), body(y=20.0),
+                 line("THE LITTLE LAMBS", AREA, y=40.0), body(y=60.0)]
+        self.assertEqual(len(assemble(lines, RANKS, body_size=BODY[0])), 2)
+
+
+class DotLeaderTests(unittest.TestCase):
+    def test_a_contents_row_is_not_a_heading(self) -> None:
+        """Falkrest sets its contents page in the style of its section titles.
+
+        Thirteen rows became units, and being keyed they survived every rule
+        aimed at short ones -- inflating its keyed count from 22 to 35.
+        """
+        self.assertFalse(is_heading_text("2 The Frozen Cloister .....................13"))
+
+    def test_an_ellipsis_is_not_a_leader(self) -> None:
+        self.assertTrue(is_heading_text("And Then... Silence"))
+
+
+class RetentionTests(unittest.TestCase):
+    """The gate turns on this number, so it gets tests of its own."""
+
+    def test_everything_under_a_heading_is_retained(self) -> None:
+        lines = [line("1 GUARD ROOM", AREA), body(y=20.0), body(y=40.0)]
+        total, kept, dropped = retention(lines, assemble(lines, RANKS))
+        self.assertEqual(kept, total)
+        self.assertEqual(dropped, {})
+
+    def test_a_page_whose_heading_was_missed_is_reported_as_loss(self) -> None:
+        """Doom's failure in miniature.
+
+        With no recognised heading on page 1, every line on it falls through
+        ``assemble``'s front-matter branch. The unit list looks fine -- one
+        clean unit -- and a page of prose is gone.
+        """
+        lines = [body(page=1, y=20.0), body(page=1, y=40.0),
+                 line("1 GUARD ROOM", AREA, page=2), body(page=2, y=20.0)]
+        units = assemble(lines, RANKS)
+        total, kept, dropped = retention(lines, units)
+        self.assertEqual(len(units), 1)
+        self.assertEqual(dropped, {1: len(BODY_TEXT) * 2})
+        self.assertLess(kept, total)
+
+    def test_retention_counts_lines_not_units(self) -> None:
+        """A line in two units must not be counted twice into the total."""
+        lines = [line("1 GUARD ROOM", AREA), body(y=20.0)]
+        total, _, _ = retention(lines, assemble(lines, RANKS))
+        self.assertEqual(total, sum(len(item.text) for item in lines))
 
 
 if __name__ == "__main__":

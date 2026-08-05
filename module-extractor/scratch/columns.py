@@ -35,10 +35,16 @@ from bbox import BboxError, SOURCES  # noqa: E402
 from pdfhtml import Page, Run, extract_document  # noqa: E402
 
 
+# (size, family, bold, colour, italic) -- what the typesetter chose.
+Style = tuple[float, str, bool, str, bool]
+
+
 LINE_TOLERANCE = 0.5   # share of line height that still counts as the same line
 GUTTER_BAND = (0.30, 0.70)  # a gutter lives in the middle of the page, not the margin
 MIN_COLUMN_SHARE = 0.15     # both sides must carry real text to be columns
 MIN_RUN_IN_HEADING = 3      # characters; shorter prefixes are dropped capitals
+DROP_CAP_RATIO = 2.0        # a single glyph this much taller than body is an initial
+RUN_IN_TERMINATORS = ":."   # punctuation a run-in heading closes with
 RESUMPTION_WINDOW = 4       # points scanned past a quiet run for the next column
 FOLIO_MARGIN = 0.12         # share of page height that is header/footer space
 
@@ -55,12 +61,19 @@ class Line:
     family: str = ""
     bold: bool = False
     color: str = "#000000"
+    italic: bool = False
     run_in: bool = False  # a prefix split off a row that continues in body style
 
     @property
-    def style(self) -> tuple[float, str, bool, str]:
-        """What the typesetter chose. Discrete, so no clustering is needed."""
-        return (self.size, self.family, self.bold, self.color)
+    def style(self) -> tuple[float, str, bool, str, bool]:
+        """What the typesetter chose. Discrete, so no clustering is needed.
+
+        **Italic is part of the choice.** Leaving it out made Doom's read-aloud
+        text -- bold italic BookAntiqua -- indistinguishable from its bold
+        BookAntiqua act titles, so every boxed paragraph following a keyed
+        heading was promoted to a heading of its own.
+        """
+        return (self.size, self.family, self.bold, self.color, self.italic)
 
     @property
     def is_upper(self) -> bool:
@@ -160,14 +173,46 @@ def column_of(word: Run, gutter: float | None) -> int:
     return -1  # spans the gutter: a full-width heading or rule
 
 
+def is_drop_cap(run: Run, body: Style | None) -> bool:
+    """One oversized glyph opening a paragraph.
+
+    Its height describes the glyph, not the row it sits in. Doom of the Savage
+    Kings opens each section with a 72pt initial 85pt tall, across three 18pt
+    body lines. Letting that height set the row's vertical tolerance swallowed
+    the section heading above it and the first two body lines below it into one
+    row, in body style -- so ``Introduction`` and ``The Village of Hirot``
+    stopped being headings, no heading was left on either page, and 10,509
+    characters fell through ``assemble``'s front-matter branch.
+    """
+    return (body is not None
+            and len(run.text.strip()) <= 1
+            and run.height > body[0] * DROP_CAP_RATIO)
+
+
+def _row_span(row: list[Run], word: Run, body: Style | None) -> float:
+    """How far from a row's top ``word`` may sit and still join it.
+
+    Measured over the runs that set type on the row, so an initial cannot widen
+    the row's reach and pull in the heading above it.
+    """
+    ordinary = [run.height for run in row if not is_drop_cap(run, body)]
+    if not ordinary:
+        # The row *is* a dropped capital. Its height is exactly what attaches
+        # the paragraph it opens, so here it is the right measure.
+        return max(run.height for run in row)
+    if not is_drop_cap(word, body):
+        ordinary.append(word.height)
+    return max(ordinary)
+
+
 def _band(words: list[Run], page: int, column: int,
-          body: tuple[float, str, bool, str] | None) -> list[Line]:
+          body: Style | None) -> list[Line]:
     rows: list[list[Run]] = []
     for word in sorted(words, key=lambda w: (w.y, w.x)):
         if rows:
             row = rows[-1]
             top = min(w.y for w in row)
-            span = max(max(w.height for w in row), word.height)
+            span = _row_span(row, word, body)
             if abs(word.y - top) <= span * LINE_TOLERANCE:
                 row.append(word)
                 continue
@@ -185,8 +230,9 @@ def _band(words: list[Run], page: int, column: int,
     return lines
 
 
-def run_style(run: Run) -> tuple[float, str, bool, str]:
-    return (run.size, run.font.family, run.bold, run.color)
+def run_style(run: Run) -> Style:
+    # Italic last: `tiers` and Contract A read this tuple positionally.
+    return (run.size, run.font.family, run.bold, run.color, run.italic)
 
 
 def _line(runs: list[Run], page: int, column: int, run_in: bool = False) -> Line:
@@ -195,7 +241,7 @@ def _line(runs: list[Run], page: int, column: int, run_in: bool = False) -> Line
     weight: Counter = Counter()
     for run in runs:
         weight[run_style(run)] += len(run.text)
-    size, family, bold, color = weight.most_common(1)[0][0]
+    size, family, bold, color, italic = weight.most_common(1)[0][0]
     heights = Counter(round(run.height, 1) for run in runs)
     return Line(
         page=page,
@@ -208,12 +254,13 @@ def _line(runs: list[Run], page: int, column: int, run_in: bool = False) -> Line
         family=family,
         bold=bold,
         color=color,
+        italic=italic,
         run_in=run_in,
     )
 
 
 def _split_run_in_heading(
-    ordered: list[Run], body: tuple[float, str, bool, str] | None
+    ordered: list[Run], body: Style | None
 ) -> list[list[Run]]:
     """Split a row where a **run-in heading** is followed by body text.
 
@@ -228,18 +275,37 @@ def _split_run_in_heading(
     documents collapsed to a handful of units because of it.
 
     The signal is positional rather than metric: a row that *opens* in a
-    non-body style and *switches into* body has a heading prefix. Splitting
+    non-body style and *switches out of it* has a heading prefix. Splitting
     there lets a unit boundary fall mid-row, which is what these layouts need.
+
+    **The switch is out of the heading's style, not always into the document's
+    body style.** Doom sets the read-aloud text after a keyed heading in bold
+    italic, so requiring the tail to match body exactly left three areas -- C-7,
+    C-10 and D-1, the last of them the adventure's climax -- glued to their
+    prose and rejected as eleven-word headings, then absorbed into the area
+    above.
+
+    A switch into a style that is not body is only a heading boundary when the
+    prefix *closes* like a run-in heading. Шпиль Кетцаль sets its stat lines
+    entirely in non-body styles -- ``Телосложение 3, ловкость 2 НАВЫКИ:
+    скрытность 2`` changes style mid-row with no heading anywhere in sight --
+    and cutting on the style change alone promoted fifteen attribute lines to
+    units.
     """
     if body is None or len(ordered) < 2:
         return [ordered]
-    if run_style(ordered[0]) == body:
+    opening = run_style(ordered[0])
+    if opening == body:
         return [ordered]
     cut = next(
-        (index for index, run in enumerate(ordered) if run_style(run) == body), None
+        (index for index, run in enumerate(ordered) if run_style(run) != opening), None
     )
     if cut is None or cut == 0:
         return [ordered]
+    if run_style(ordered[cut]) != body:
+        closer = "".join(run.text for run in ordered[:cut]).strip()[-1:]
+        if closer not in RUN_IN_TERMINATORS:
+            return [ordered]
     prefix = "".join(run.text for run in ordered[:cut]).strip()
     if len(prefix) < MIN_RUN_IN_HEADING:
         # A **dropped capital** matches this shape exactly -- one oversized
@@ -249,7 +315,7 @@ def _split_run_in_heading(
     return [ordered[:cut], ordered[cut:]]
 
 
-def body_run_style(pages: Sequence[Page]) -> tuple[float, str, bool, str] | None:
+def body_run_style(pages: Sequence[Page]) -> Style | None:
     """The style carrying the most characters across the document."""
     weight: Counter = Counter()
     for page in pages:
@@ -279,7 +345,7 @@ def is_folio(line: Line, height: float) -> bool:
 
 
 def page_lines(
-    page: Page, body: tuple[float, str, bool, str] | None = None
+    page: Page, body: Style | None = None
 ) -> list[Line]:
     """Lines in reading order: spanning content, then each column top to bottom."""
     if not page.words:

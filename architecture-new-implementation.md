@@ -557,10 +557,32 @@ is part of T0.5's review, not a separate gate.
 non-keyed units: stat blocks, tables, sidebars, rules sections.
 *Done when (review):* a unit table for all five sources is written to
 `module-extractor/scratch/unit-tables/`. **Artefact produced, gate open.** The
-tables are there and `scratch/unit-tables/README.md` states what to look at
-first and what a decision unblocks. Four questions are outstanding: Falkrest's
-map labels, Lair's fragmenting stat blocks, the pages neither covered nor
-excluded in Doom and Falkrest, and Doom's largest unit.
+tables are there and `scratch/unit-tables/README.md` carries the full findings.
+
+The four questions the first round raised are answered. Three were defects and
+are fixed; the fourth was decided:
+
+- **Doom lost 17% of its text**, all of it pages 3 and 4, because a 72pt drop
+  cap set the row tolerance and swallowed the headings above it. Retention is
+  now 98.9%, and the only page still uncovered that holds text is the credits
+  page.
+- **Three of Doom's 26 keyed areas were absorbed**, including `Area D-1 – Lair
+  of the Hound`, the climax, which is why its largest unit measured 8,882B. The
+  run-in split cut only where the tail matched body style exactly, and Doom sets
+  read-aloud text in bold italic. All 26 are units now.
+- **Lair's bestiary fragmented three monsters into ten units**, one of them
+  named for a trait and holding another monster's prose. A subordinate heading
+  no larger than body is a label inside something, not a section.
+- **Falkrest's map labels stay as units** and its contents rows do not. Thirteen
+  of its thirty-five keyed units were rows of the contents page.
+
+**The measurement that found all of this is text retention** — characters the
+line layer produced against characters that reached a unit. A unit count cannot
+see loss: Doom segmented into a plausible 33 units while two pages of prose fell
+through `assemble`'s front-matter branch. It now heads every digest.
+
+Three questions remain, all judgment rather than correctness, and they are
+listed under "What is left for the reviewer" in the artefact.
 
 ### Phase 1 — CSV contract
 

@@ -15,7 +15,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -34,7 +35,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -53,7 +55,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -72,7 +75,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -83,53 +87,16 @@
       4
     ],
     "column": 0,
-    "text": "Table of Contents Table of Contents\nIntroduction 3 9. Chapel of St Sedge  15\nReferee’s Background  4 10. Abandoned Priest’s Quarters  15\nHooks 6 11. Statues With Weapons  16",
+    "text": "Table of Contents Table of Contents\nIntroduction 3 9. Chapel of St Sedge  15\nReferee’s Background  4 10. Abandoned Priest’s Quarters  15\nHooks 6 11. Statues With Weapons  16\nPlayers’ Background  7 12. Hall of Hounds  16\nDolmenwood Lore  8 13. The Knight’s Tomb  17\nOutside the Mound  9 14. Warded Pool  18\n1. Approaching the Burial Mound  9 The Fairy Prison  19\n2. The Whything Stones  10 15. Tower on a Frozen Lake  19\n3. Tomb Entrance  11 16. Entrance Hall  20\n4. Worm Hole  11 17. Fairy Kitchen  21\nThe Burial Mound  12 18. Wedding Feast  21\n5. Hall of Guardians  12 19. The Princess’s Bedchamber  22\n6. Blindfolded Statue  13 Epilogue 23\n7. Freezing Mirror  13 Magic Items  24\n8. Family Crypt  14",
     "labels": [],
-    "text_bytes": 177,
+    "text_bytes": 710,
     "keyed_area": null,
     "style": {
       "size": 51.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#e5f6fd"
-    }
-  },
-  {
-    "unit_id": "p4.players-background-7-12-hall-of",
-    "heading": "Players’ Background  7 12. Hall of Hounds  16",
-    "heading_path": [],
-    "pages": [
-      4
-    ],
-    "column": 0,
-    "text": "Players’ Background  7 12. Hall of Hounds  16\nDolmenwood Lore  8 13. The Knight’s Tomb  17",
-    "labels": [],
-    "text_bytes": 94,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro-Semibold",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p4.outside-the-mound-9-14-warded-po",
-    "heading": "Outside the Mound  9 14. Warded Pool  18",
-    "heading_path": [],
-    "pages": [
-      4
-    ],
-    "column": 0,
-    "text": "Outside the Mound  9 14. Warded Pool  18\n1. Approaching the Burial Mound  9 The Fairy Prison  19\n2. The Whything Stones  10 15. Tower on a Frozen Lake  19\n3. Tomb Entrance  11 16. Entrance Hall  20\n4. Worm Hole  11 17. Fairy Kitchen  21\nThe Burial Mound  12 18. Wedding Feast  21\n5. Hall of Guardians  12 19. The Princess’s Bedchamber  22\n6. Blindfolded Statue  13 Epilogue 23\n7. Freezing Mirror  13 Magic Items  24\n8. Family Crypt  14",
-    "labels": [],
-    "text_bytes": 437,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro-Semibold",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#e5f6fd",
+      "italic": false
     }
   },
   {
@@ -148,7 +115,8 @@
       "size": 51.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#e5f6fd"
+      "color": "#e5f6fd",
+      "italic": false
     }
   },
   {
@@ -169,7 +137,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -190,7 +159,8 @@
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -211,7 +181,8 @@
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -232,7 +203,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -253,7 +225,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -274,7 +247,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -293,7 +267,8 @@
       "size": 51.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#e5f6fd"
+      "color": "#e5f6fd",
+      "italic": false
     }
   },
   {
@@ -314,7 +289,8 @@
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -327,78 +303,16 @@
       6
     ],
     "column": 0,
-    "text": "The Love of Mortal and Fairy\nIn the midst of the war, a mortal knight\nand a fairy princess met and fell in love.",
+    "text": "The Love of Mortal and Fairy\nIn the midst of the war, a mortal knight\nand a fairy princess met and fell in love.\n▶ Princess Snowfall-at-Dusk:  The sev-\nenteenth daughter of the Cold Prince.\n▶ Sir Chyde:  A near-mythical hero who\nfought in the war against the Cold Prince.\n▶ First meeting:  They met in the deeps\nof Dolmenwood, in a clearing beside a\ncircle of stones known as the Whything\nStones.\n▶ Trysts:  For months, the pair trysted in\nsecret glades, knowing that their love was\nforbidden.\n▶ The portrait:  Sir Chyde commissioned\na portrait of his love, entitled “The Lady\nof the Wood”.\n▶ The binding ring:  The princess\npledged her heart to the knight, bestow-\ning on him a magical ring that had the\npower to bind their souls together for\neternity (see  Ring of Soul-Binding, p24 ).",
     "labels": [],
-    "text_bytes": 112,
+    "text_bytes": 803,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p6.princess-snowfall-at-dusk-the-se",
-    "heading": "▶ Princess Snowfall-at-Dusk:  The sev-",
-    "heading_path": [
-      "Referee’s Background Referee’s Background"
-    ],
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "▶ Princess Snowfall-at-Dusk:  The sev-\nenteenth daughter of the Cold Prince.\n▶ Sir Chyde:  A near-mythical hero who\nfought in the war against the Cold Prince.\n▶ First meeting:  They met in the deeps\nof Dolmenwood, in a clearing beside a\ncircle of stones known as the Whything\nStones.\n▶ Trysts:  For months, the pair trysted in\nsecret glades, knowing that their love was\nforbidden.\n▶ The portrait:  Sir Chyde commissioned\na portrait of his love, entitled “The Lady\nof the Wood”.",
-    "labels": [],
-    "text_bytes": 491,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p6.the-binding-ring-the-princess",
-    "heading": "▶ The binding ring:  The princess",
-    "heading_path": [
-      "Referee’s Background Referee’s Background"
-    ],
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "▶ The binding ring:  The princess\npledged her heart to the knight, bestow-\ning on him a magical ring that had the\npower to bind their souls together for",
-    "labels": [],
-    "text_bytes": 154,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p6.eternity-see-ring-of-soul-bindin",
-    "heading": "eternity (see  Ring of Soul-Binding, p24 ).",
-    "heading_path": [
-      "Referee’s Background Referee’s Background"
-    ],
-    "pages": [
-      6
-    ],
-    "column": 0,
-    "text": "eternity (see  Ring of Soul-Binding, p24 ).",
-    "labels": [],
-    "text_bytes": 43,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -411,57 +325,16 @@
       6
     ],
     "column": 1,
-    "text": "Forbidden Love Discovered\nBefore long, the Cold Prince discovered\nhis daughter’s betrayal.",
+    "text": "Forbidden Love Discovered\nBefore long, the Cold Prince discovered\nhis daughter’s betrayal.\n▶ The princess imprisoned:  His spies\ncaptured her and brought her before\nhim. He decreed that she be imprisoned\nin a forlorn tower, there to stay until she\nrenounced her foolish love.\n▶ Secret communion:  Unbeknown\nto her father, the princess was able to\nsecretly speak with Sir Chyde, even from\nher prison, via the power of the binding\nring. The two schemed her rescue.",
     "labels": [],
-    "text_bytes": 92,
+    "text_bytes": 468,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p6.the-princess-imprisoned-his-spie",
-    "heading": "▶ The princess imprisoned:  His spies",
-    "heading_path": [
-      "Referee’s Background Referee’s Background"
-    ],
-    "pages": [
-      6
-    ],
-    "column": 1,
-    "text": "▶ The princess imprisoned:  His spies\ncaptured her and brought her before\nhim. He decreed that she be imprisoned\nin a forlorn tower, there to stay until she\nrenounced her foolish love.",
-    "labels": [],
-    "text_bytes": 186,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p6.secret-communion-unbeknown",
-    "heading": "▶ Secret communion:  Unbeknown",
-    "heading_path": [
-      "Referee’s Background Referee’s Background"
-    ],
-    "pages": [
-      6
-    ],
-    "column": 1,
-    "text": "▶ Secret communion:  Unbeknown\nto her father, the princess was able to\nsecretly speak with Sir Chyde, even from\nher prison, via the power of the binding\nring. The two schemed her rescue.",
-    "labels": [],
-    "text_bytes": 188,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -474,36 +347,16 @@
       6
     ],
     "column": 1,
-    "text": "The Cold Prince Defeated\nThe mortal armies were victorious,\nand the Cold Prince was exiled into his\ndominion in Fairy.",
+    "text": "The Cold Prince Defeated\nThe mortal armies were victorious,\nand the Cold Prince was exiled into his\ndominion in Fairy.\n▶ Ever-looming threat:  The Cold Prince\nhas never troubled Dolmenwood since,\nbut the threat of his return to the mortal\nworld ever dominates the fears of com-\nmon folk.",
     "labels": [],
-    "text_bytes": 118,
+    "text_bytes": 289,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p6.ever-looming-threat-the-cold-pri",
-    "heading": "▶ Ever-looming threat:  The Cold Prince",
-    "heading_path": [
-      "Referee’s Background Referee’s Background"
-    ],
-    "pages": [
-      6
-    ],
-    "column": 1,
-    "text": "▶ Ever-looming threat:  The Cold Prince\nhas never troubled Dolmenwood since,\nbut the threat of his return to the mortal\nworld ever dominates the fears of com-\nmon folk.",
-    "labels": [],
-    "text_bytes": 170,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -516,36 +369,16 @@
       7
     ],
     "column": 0,
-    "text": "The Death of Sir Chyde\nThe knight was slain in the final battle of\nmortal and fairy on the hills of the High\nWold, not long after his love was impris-\noned.\n▶ Dying wish:  Sir Chyde insisted on\nbeing interred in a tomb in the glade\nbeside the Whything Stones.\n▶ Grave goods:  He wished to be buried\nwith the portrait and ring, and to have a\nsubsection of his tomb dedicated to his\nbetrothed.",
+    "text": "The Death of Sir Chyde\nThe knight was slain in the final battle of\nmortal and fairy on the hills of the High\nWold, not long after his love was impris-\noned.\n▶ Dying wish:  Sir Chyde insisted on\nbeing interred in a tomb in the glade\nbeside the Whything Stones.\n▶ Grave goods:  He wished to be buried\nwith the portrait and ring, and to have a\nsubsection of his tomb dedicated to his\nbetrothed.\n▶ Chapel of St Sedge:  A chapel dedi-\ncated to his patron saint, Sedge, was also\nintegrated into the tomb. (Sedge is the\npatron saint of crusaders and knife-mak-\ners.)\n▶ A holy site:  As was the way in those\ndays, the tomb of the great hero was\nmaintained as a site of pilgrimage.\n▶ Attendant:  A priest lived in the tomb,\nbeside the chapel.",
     "labels": [],
-    "text_bytes": 395,
+    "text_bytes": 743,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p7.chapel-of-st-sedge-a-chapel-dedi",
-    "heading": "▶ Chapel of St Sedge:  A chapel dedi-",
-    "heading_path": [
-      "Referee’s Background Referee’s Background"
-    ],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "▶ Chapel of St Sedge:  A chapel dedi-\ncated to his patron saint, Sedge, was also\nintegrated into the tomb. (Sedge is the\npatron saint of crusaders and knife-mak-\ners.)\n▶ A holy site:  As was the way in those\ndays, the tomb of the great hero was\nmaintained as a site of pilgrimage.\n▶ Attendant:  A priest lived in the tomb,\nbeside the chapel.",
-    "labels": [],
-    "text_bytes": 347,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -566,7 +399,8 @@
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -579,36 +413,16 @@
       7
     ],
     "column": 1,
-    "text": "The Sealing of the Tomb\n▶ Fey influence:  An unsettling, fey influ-\nence began to creep into the tomb.",
+    "text": "The Sealing of the Tomb\n▶ Fey influence:  An unsettling, fey influ-\nence began to creep into the tomb.\n▶ The priest’s dreams:  The priest who\nmaintained the tomb experienced dis-\nturbing dreams and visitations, and rec-\nommended that the tomb be abandoned.\n▶ Closure:  Guardians and wards were\nplaced, and the tomb sealed.",
     "labels": [],
-    "text_bytes": 104,
+    "text_bytes": 330,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p7.the-priest-s-dreams-the-priest-w",
-    "heading": "▶ The priest’s dreams:  The priest who",
-    "heading_path": [
-      "Referee’s Background Referee’s Background"
-    ],
-    "pages": [
-      7
-    ],
-    "column": 1,
-    "text": "▶ The priest’s dreams:  The priest who\nmaintained the tomb experienced dis-\nturbing dreams and visitations, and rec-\nommended that the tomb be abandoned.\n▶ Closure:  Guardians and wards were\nplaced, and the tomb sealed.",
-    "labels": [],
-    "text_bytes": 225,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -621,36 +435,16 @@
       7
     ],
     "column": 1,
-    "text": "Centuries Passed\n▶ The tomb:  Has rested quietly.\n▶ The princess:  Remains imprisoned,\nforgotten by her father, waiting with fairy\npatience to find a way to be reunited with\nSir Chyde.\n▶ The wedding:  Undeterred by death\nand many centuries, the princess stub-\nbornly insists on holding a perpetual\nwedding feast, awaiting the arrival of Sir\nChyde. Some few, brave friends and allies\nhave journeyed in secret to her isolated\ntower to join the long-delayed festivities.",
+    "text": "Centuries Passed\n▶ The tomb:  Has rested quietly.\n▶ The princess:  Remains imprisoned,\nforgotten by her father, waiting with fairy\npatience to find a way to be reunited with\nSir Chyde.\n▶ The wedding:  Undeterred by death\nand many centuries, the princess stub-\nbornly insists on holding a perpetual\nwedding feast, awaiting the arrival of Sir\nChyde. Some few, brave friends and allies\nhave journeyed in secret to her isolated\ntower to join the long-delayed festivities.\n▶ The Whything stones:  Are now fre-\nquented by the Drune—the cult of sorcer-\ners who covet the standing stones\nand ley lines of Dolmenwood. 5",
     "labels": [],
-    "text_bytes": 473,
+    "text_bytes": 620,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p7.the-whything-stones-are-now-fre",
-    "heading": "▶ The Whything stones:  Are now fre-",
-    "heading_path": [
-      "Referee’s Background Referee’s Background"
-    ],
-    "pages": [
-      7
-    ],
-    "column": 1,
-    "text": "▶ The Whything stones:  Are now fre-\nquented by the Drune—the cult of sorcer-\ners who covet the standing stones\nand ley lines of Dolmenwood. 5",
-    "labels": [],
-    "text_bytes": 146,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -669,7 +463,8 @@
       "size": 51.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#e5f6fd"
+      "color": "#e5f6fd",
+      "italic": false
     }
   },
   {
@@ -690,7 +485,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -712,7 +508,8 @@
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -734,7 +531,8 @@
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -756,7 +554,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -778,7 +577,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -792,37 +592,16 @@
       8
     ],
     "column": 1,
-    "text": "The Complication\n▶ The ring to be retrieved carries a fairy\nenchantment: the ghost of Sir Chyde is\nbound to it and will haunt any who steal",
+    "text": "The Complication\n▶ The ring to be retrieved carries a fairy\nenchantment: the ghost of Sir Chyde is\nbound to it and will haunt any who steal\nit (see  Epilogue, p23 ).",
     "labels": [],
-    "text_bytes": 141,
+    "text_bytes": 167,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p8.it-see-epilogue-p23",
-    "heading": "it (see  Epilogue, p23 ).",
-    "heading_path": [
-      "Hooks Hooks",
-      "Dreams of the Lady"
-    ],
-    "pages": [
-      8
-    ],
-    "column": 1,
-    "text": "it (see  Epilogue, p23 ).",
-    "labels": [],
-    "text_bytes": 25,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -841,7 +620,8 @@
       "size": 51.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#e5f6fd"
+      "color": "#e5f6fd",
+      "italic": false
     }
   },
   {
@@ -862,7 +642,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -883,7 +664,8 @@
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -896,36 +678,16 @@
       9
     ],
     "column": 0,
-    "text": "Sir Chyde\nIn the midst of the war, the fabled hero\nfell in love with a woman called the Lady\nof the Wood.",
+    "text": "Sir Chyde\nIn the midst of the war, the fabled hero\nfell in love with a woman called the Lady\nof the Wood.\n▶ The Lady of the Wood:  A sorcerous\nmaiden of mysterious origin.\n▶ First meeting:  They met in the deeps\nof Dolmenwood.\n▶ The betrothal:  The two pledged their\nhearts to one another, exchanging rings\nof engagement.",
     "labels": [],
-    "text_bytes": 105,
+    "text_bytes": 327,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p9.the-lady-of-the-wood-a-sorcerous",
-    "heading": "▶ The Lady of the Wood:  A sorcerous",
-    "heading_path": [
-      "Players’ Background Players’ Background"
-    ],
-    "pages": [
-      9
-    ],
-    "column": 0,
-    "text": "▶ The Lady of the Wood:  A sorcerous\nmaiden of mysterious origin.\n▶ First meeting:  They met in the deeps\nof Dolmenwood.\n▶ The betrothal:  The two pledged their\nhearts to one another, exchanging rings\nof engagement.",
-    "labels": [],
-    "text_bytes": 221,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -938,36 +700,16 @@
       9
     ],
     "column": 0,
-    "text": "The Cold Prince Defeated\nThe mortal armies were victorious,\nand the Cold Prince was exiled into his\ndominion in Fairy.",
+    "text": "The Cold Prince Defeated\nThe mortal armies were victorious,\nand the Cold Prince was exiled into his\ndominion in Fairy.\n▶ Ever-looming threat:  Every year, in\nwinter, the magic that banishes the Cold\nPrince weakens and frigid winds whisper\nof his desire to reclaim his kingdom in\nthe mortal world.",
     "labels": [],
-    "text_bytes": 118,
+    "text_bytes": 298,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p9.ever-looming-threat-every-year-i",
-    "heading": "▶ Ever-looming threat:  Every year, in",
-    "heading_path": [
-      "Players’ Background Players’ Background"
-    ],
-    "pages": [
-      9
-    ],
-    "column": 0,
-    "text": "▶ Ever-looming threat:  Every year, in\nwinter, the magic that banishes the Cold\nPrince weakens and frigid winds whisper\nof his desire to reclaim his kingdom in\nthe mortal world.",
-    "labels": [],
-    "text_bytes": 179,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -980,36 +722,16 @@
       9
     ],
     "column": 1,
-    "text": "The Death of Sir Chyde\nThe knight was slain in the final battle of\nmortal and fairy on the hills of the High\nWold.\n▶ Dying wish:  Sir Chyde insisted on\nbeing interred in a tomb deep in the\nforest.",
+    "text": "The Death of Sir Chyde\nThe knight was slain in the final battle of\nmortal and fairy on the hills of the High\nWold.\n▶ Dying wish:  Sir Chyde insisted on\nbeing interred in a tomb deep in the\nforest.\n▶ The fate of the Lady:  She was never\nseen again. Some say she died in the\ndepths of the forest, in the glade where\nshe and her love first met.",
     "labels": [],
-    "text_bytes": 198,
+    "text_bytes": 345,
     "keyed_area": null,
     "style": {
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p9.the-fate-of-the-lady-she-was-nev",
-    "heading": "▶ The fate of the Lady:  She was never",
-    "heading_path": [
-      "Players’ Background Players’ Background"
-    ],
-    "pages": [
-      9
-    ],
-    "column": 1,
-    "text": "▶ The fate of the Lady:  She was never\nseen again. Some say she died in the\ndepths of the forest, in the glade where\nshe and her love first met.",
-    "labels": [],
-    "text_bytes": 146,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -1022,57 +744,16 @@
       9
     ],
     "column": 1,
-    "text": "Deeper Investigation\nIf PCs spend time and money to employ\nsages, seek out obscure tomes, or consult\nwith oracles, they may be able to divulge\nsome of the true story of the knight and\nthe princess. Each of the following facts\nrequires a significant research effort.",
+    "text": "Deeper Investigation\nIf PCs spend time and money to employ\nsages, seek out obscure tomes, or consult\nwith oracles, they may be able to divulge\nsome of the true story of the knight and\nthe princess. Each of the following facts\nrequires a significant research effort.\n▶ The identity of the Lady of the Wood:\nSir Chyde’s betrothed was in fact a fairy\nprincess. Theirs was a forbidden love.\n▶ The ring:  The ring which Sir Chyde\nwore was a magic item from Fairy. It\nbound his soul to that of the Lady.\n▶ Grave goods:  Sir Chyde was buried\nwith the following items of note: the\nsword with which he slew the fairy giant\nButter-for-Bones, his moonstone engage-\nment ring, the portrait of the Lady that he\nhad commissioned.\n▶ The sealing of the tomb:  Sir Chyde’s\ntomb was a site of pilgrimage for many\nyears, until a series of hauntings caused\nthe Church to place magical wards and\nseal it off.",
     "labels": [],
-    "text_bytes": 265,
+    "text_bytes": 899,
     "keyed_area": null,
     "style": {
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
-    }
-  },
-  {
-    "unit_id": "p9.the-identity-of-the-lady-of-the",
-    "heading": "▶ The identity of the Lady of the Wood:",
-    "heading_path": [
-      "Players’ Background Players’ Background"
-    ],
-    "pages": [
-      9
-    ],
-    "column": 1,
-    "text": "▶ The identity of the Lady of the Wood:\nSir Chyde’s betrothed was in fact a fairy\nprincess. Theirs was a forbidden love.\n▶ The ring:  The ring which Sir Chyde\nwore was a magic item from Fairy. It\nbound his soul to that of the Lady.\n▶ Grave goods:  Sir Chyde was buried\nwith the following items of note: the\nsword with which he slew the fairy giant\nButter-for-Bones, his moonstone engage-\nment ring, the portrait of the Lady that he\nhad commissioned.",
-    "labels": [],
-    "text_bytes": 457,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
-    }
-  },
-  {
-    "unit_id": "p9.the-sealing-of-the-tomb-sir-chyd",
-    "heading": "▶ The sealing of the tomb:  Sir Chyde’s",
-    "heading_path": [
-      "Players’ Background Players’ Background"
-    ],
-    "pages": [
-      9
-    ],
-    "column": 1,
-    "text": "▶ The sealing of the tomb:  Sir Chyde’s\ntomb was a site of pilgrimage for many\nyears, until a series of hauntings caused\nthe Church to place magical wards and\nseal it off.",
-    "labels": [],
-    "text_bytes": 175,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1091,7 +772,8 @@
       "size": 51.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#e5f6fd"
+      "color": "#e5f6fd",
+      "italic": false
     }
   },
   {
@@ -1112,7 +794,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1133,7 +816,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1154,7 +838,8 @@
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -1175,7 +860,8 @@
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -1188,36 +874,16 @@
       10
     ],
     "column": 1,
-    "text": "Languages\nThe following languages are used in\nDolmenwood:\n▶ Woldish:  The equivalent of the com-\nmon tongue in Dolmenwood.\n▶ Old Woldish:  An ancient dialect of\nWoldish that is largely incomprehensible\nto speakers of Woldish.\n▶ Drunic:  The secret language of the\nmysterious Drune.\n▶ Liturgic:  The sacred language of the\nChurch of the One True God.\n▶ Sylvan:  The common language of\nfairies and fairy-kin in Dolmenwood.\nMortals speaking it invariably sound like\nfools.\n▶ High Elfish:  The language of fairy\nnobility. Utterly unfathomable to mortals.",
+    "text": "Languages\nThe following languages are used in\nDolmenwood:\n▶ Woldish:  The equivalent of the com-\nmon tongue in Dolmenwood.\n▶ Old Woldish:  An ancient dialect of\nWoldish that is largely incomprehensible\nto speakers of Woldish.\n▶ Drunic:  The secret language of the\nmysterious Drune.\n▶ Liturgic:  The sacred language of the\nChurch of the One True God.\n▶ Sylvan:  The common language of\nfairies and fairy-kin in Dolmenwood.\nMortals speaking it invariably sound like\nfools.\n▶ High Elfish:  The language of fairy\nnobility. Utterly unfathomable to mortals.\n▶ The Immortal Tongue of Fairy:  The\nancient and reality-bending language\nknown only to the most ancient and\ndreadful of fairies.",
     "labels": [],
-    "text_bytes": 562,
+    "text_bytes": 694,
     "keyed_area": null,
     "style": {
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
-    }
-  },
-  {
-    "unit_id": "p10.the-immortal-tongue-of-fairy-the",
-    "heading": "▶ The Immortal Tongue of Fairy:  The",
-    "heading_path": [
-      "Dolmenwood Lore Dolmenwood Lore"
-    ],
-    "pages": [
-      10
-    ],
-    "column": 1,
-    "text": "▶ The Immortal Tongue of Fairy:  The\nancient and reality-bending language\nknown only to the most ancient and\ndreadful of fairies.",
-    "labels": [],
-    "text_bytes": 131,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1228,34 +894,16 @@
       11
     ],
     "column": 0,
-    "text": "Outside the Mound Outside the Mound\nRandom Events (1-in-6 Chance Every Two Turns)\n1.  A PC suddenly spots a  ghostly, vio- 3.  A  gust of wind whips  the branches\nlet-eyed owl gazing down from a high  of the trees into a frenzy. PCs near trees\nbranch.  Save versus spells  or fall into a  must  save versus paralysis  or be struck\nfaint for 1d6 turns. for 1 damage. Flames sputter and may\n2.  1d4  tipsy goblin merchants  with  go out: torches 4-in-6 chance, lanterns\nlanterns climb cautiously out of a  2-in-6.\ntrapdoor in the forest floor. They have  4.  A  huge, warty toad  creeps over, eyes\nstepped into Dolmenwood from Fairy,  the PCs quizzically, and utters a single,\nseeking rare night-fruits. (See  Dolmen- croaking word: “Betrayal”.",
+    "text": "Outside the Mound Outside the Mound\nRandom Events (1-in-6 Chance Every Two Turns)\n1.  A PC suddenly spots a  ghostly, vio- 3.  A  gust of wind whips  the branches\nlet-eyed owl gazing down from a high  of the trees into a frenzy. PCs near trees\nbranch.  Save versus spells  or fall into a  must  save versus paralysis  or be struck\nfaint for 1d6 turns. for 1 damage. Flames sputter and may\n2.  1d4  tipsy goblin merchants  with  go out: torches 4-in-6 chance, lanterns\nlanterns climb cautiously out of a  2-in-6.\ntrapdoor in the forest floor. They have  4.  A  huge, warty toad  creeps over, eyes\nstepped into Dolmenwood from Fairy,  the PCs quizzically, and utters a single,\nseeking rare night-fruits. (See  Dolmen- croaking word: “Betrayal”.\nwood Goblin, p20 .)",
     "labels": [],
-    "text_bytes": 746,
+    "text_bytes": 766,
     "keyed_area": null,
     "style": {
       "size": 51.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#e5f6fd"
-    }
-  },
-  {
-    "unit_id": "p11.wood-goblin-p20",
-    "heading": "wood Goblin, p20 .)",
-    "heading_path": [],
-    "pages": [
-      11
-    ],
-    "column": 0,
-    "text": "wood Goblin, p20 .)",
-    "labels": [],
-    "text_bytes": 19,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "MinionPro",
-      "bold": true,
-      "color": "#231f20"
+      "color": "#e5f6fd",
+      "italic": false
     }
   },
   {
@@ -1274,7 +922,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1293,7 +942,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1312,7 +962,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1334,7 +985,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1353,7 +1005,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1372,7 +1025,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1393,7 +1047,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1412,7 +1067,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1431,7 +1087,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1452,7 +1109,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1471,7 +1129,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1492,7 +1151,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1511,7 +1171,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1530,7 +1191,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1549,7 +1211,8 @@
       "size": 51.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#e5f6fd"
+      "color": "#e5f6fd",
+      "italic": false
     }
   },
   {
@@ -1568,7 +1231,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1587,7 +1251,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1606,7 +1271,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1627,7 +1293,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1646,7 +1313,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1665,7 +1333,8 @@
       "size": 51.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#e5f6fd"
+      "color": "#e5f6fd",
+      "italic": false
     }
   },
   {
@@ -1686,7 +1355,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1707,7 +1377,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1728,7 +1399,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1747,7 +1419,8 @@
       "size": 51.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#e5f6fd"
+      "color": "#e5f6fd",
+      "italic": false
     }
   },
   {
@@ -1766,7 +1439,8 @@
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -1786,7 +1460,8 @@
       "size": 23.0,
       "family": "GloucesterMT-ExtraCondensed",
       "bold": false,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -1805,7 +1480,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1824,7 +1500,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -1845,7 +1522,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -1866,7 +1544,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -1887,7 +1566,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -1908,7 +1588,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -1927,7 +1608,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -1948,12 +1630,13 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
-    "unit_id": "p29.14-13-6-blindfolded-statue",
-    "heading": "14 13 6.  Blindfolded statue:",
+    "unit_id": "p29.14-13-6-blindfolded-statue-princ",
+    "heading": "14 13 6.  Blindfolded statue:  Princess",
     "heading_path": [
       "The Burial Mound"
     ],
@@ -1961,15 +1644,16 @@
       29
     ],
     "column": 0,
-    "text": "14 13 6.  Blindfolded statue:\nPrincess\nSnowfall-at-Dusk, posed with\nfinger at her lips.",
+    "text": "14 13 6.  Blindfolded statue:  Princess\nSnowfall-at-Dusk, posed with\nfinger at her lips.",
     "labels": [],
-    "text_bytes": 87,
+    "text_bytes": 88,
     "keyed_area": "14",
     "style": {
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -1990,7 +1674,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2011,7 +1696,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2032,7 +1718,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2053,7 +1740,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2074,7 +1762,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2095,7 +1784,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2116,7 +1806,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2137,7 +1828,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2158,7 +1850,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2177,7 +1870,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -2196,7 +1890,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2218,7 +1913,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2237,7 +1933,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2256,7 +1953,8 @@
       "size": 27.0,
       "family": "AlbertText",
       "bold": true,
-      "color": "#3952a3"
+      "color": "#3952a3",
+      "italic": false
     }
   },
   {
@@ -2277,7 +1975,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2298,7 +1997,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2319,7 +2019,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   },
   {
@@ -2340,7 +2041,8 @@
       "size": 15.0,
       "family": "MinionPro",
       "bold": true,
-      "color": "#231f20"
+      "color": "#231f20",
+      "italic": false
     }
   }
 ]

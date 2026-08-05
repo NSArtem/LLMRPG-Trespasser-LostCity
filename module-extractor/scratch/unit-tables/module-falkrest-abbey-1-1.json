@@ -7,36 +7,16 @@
       3
     ],
     "column": 0,
-    "text": "Area numbers Monsters Secret doors Portal",
+    "text": "Area numbers Monsters Secret doors Portal\nStatue",
     "labels": [],
-    "text_bytes": 41,
+    "text_bytes": 48,
     "keyed_area": null,
     "style": {
       "size": 14.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
-    }
-  },
-  {
-    "unit_id": "p3.statue",
-    "heading": "Statue",
-    "heading_path": [
-      "Area numbers Monsters Secret doors Portal"
-    ],
-    "pages": [
-      3
-    ],
-    "column": 0,
-    "text": "Statue",
-    "labels": [],
-    "text_bytes": 6,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#000000"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -55,7 +35,8 @@
       "size": 16.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -76,7 +57,8 @@
       "size": 16.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -97,7 +79,8 @@
       "size": 16.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -116,7 +99,8 @@
       "size": 16.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -135,7 +119,8 @@
       "size": 24.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -156,7 +141,8 @@
       "size": 16.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -177,7 +163,8 @@
       "size": 16.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -199,7 +186,8 @@
       "size": 16.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -220,7 +208,8 @@
       "size": 16.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -242,7 +231,8 @@
       "size": 16.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -264,7 +254,8 @@
       "size": 16.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -286,7 +277,8 @@
       "size": 16.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -301,59 +293,16 @@
       5
     ],
     "column": 1,
-    "text": "Entrance\nFALKREST FALKREST\nA B B E Y\nA Level 1–3 Adventure for Old-School Essentials by\nAndrea Tupac Mollica & Giuseppe Rotondo",
+    "text": "Entrance\nFALKREST FALKREST\nA B B E Y\nA Level 1–3 Adventure for Old-School Essentials by\nAndrea Tupac Mollica & Giuseppe Rotondo\nCover Art  Layout Zaira DIANA  AXIAN SPICE Map by:\nGiuseppe ROTONDO,\ncreated with Dungeonscrawl\nThanks to:\nJ. Sebastian PAGANI, Stephen SMITH, James SPAHN\nOld-School Essentials is a trademark of Necrotic Gnome. The trademark and Old-School\nEssentials logo are used with permission of Necrotic Gnome, under license.",
     "labels": [],
-    "text_bytes": 129,
+    "text_bytes": 444,
     "keyed_area": null,
     "style": {
       "size": 16.0,
       "family": "SkolarLatin-Medium",
       "bold": false,
-      "color": "#ffffff"
-    }
-  },
-  {
-    "unit_id": "p5.cover-art-layout-zaira-diana-axi",
-    "heading": "Cover Art  Layout Zaira DIANA  AXIAN SPICE Map by:",
-    "heading_path": [
-      "N",
-      "S P P"
-    ],
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "Cover Art  Layout Zaira DIANA  AXIAN SPICE Map by:\nGiuseppe ROTONDO,\ncreated with Dungeonscrawl",
-    "labels": [],
-    "text_bytes": 95,
-    "keyed_area": null,
-    "style": {
-      "size": 12.0,
-      "family": "Aller",
-      "bold": true,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p5.thanks-to",
-    "heading": "Thanks to:",
-    "heading_path": [
-      "N",
-      "S P P"
-    ],
-    "pages": [
-      5
-    ],
-    "column": 0,
-    "text": "Thanks to:\nJ. Sebastian PAGANI, Stephen SMITH, James SPAHN\nOld-School Essentials is a trademark of Necrotic Gnome. The trademark and Old-School\nEssentials logo are used with permission of Necrotic Gnome, under license.",
-    "labels": [],
-    "text_bytes": 218,
-    "keyed_area": null,
-    "style": {
-      "size": 12.0,
-      "family": "Aller",
-      "bold": true,
-      "color": "#000000"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -372,7 +321,8 @@
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -391,7 +341,8 @@
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -402,411 +353,16 @@
       7
     ],
     "column": 0,
-    "text": "Table of Contents\nThe Legend of the Abbey .......... 2 The Knight’s Movement .................37",
+    "text": "Table of Contents\nThe Legend of the Abbey .......... 2 The Knight’s Movement .................37\nQuick Instructions ................... 2 The Chessboard Puzzle ..................37\nTable of Contents ..................... 3 OPEN GAME LICENCE ............... 39\nTreasure & Monster Overview 4\nHooks .........................................6\nRumors ....................................... 7\nJora’s Last Inn & Emporium ......8\nSpeaking with Jora: .........................8\nEmporium: ......................................8\nClimbing The Lune Mountains 9\nThe Falkrest Abbey ................. 10\nRoom Descriptions ...................12\n1 Entrance ......................................12\n2 The Frozen Cloister .....................13\nThe Fountain ..................................13\n3 Herbalist’s Dispensary ................14\n4 Workshop ....................................15\n5 East corridor ...............................15\n6 Ritual Chamber ...........................16\n7 The Library ..................................17\n8 Library Office ..............................17\n9 Columbarium of the Knights ......18\n10 West Corridor ............................18\n11 Dark Antechamber .....................19\n12 The Abbot’s Sepulchre ..............20\nGrusom, The Wight Abbot ............20\n13 Empty Antechamber .................21\n14 The collapsed Sepulchre ........... 22\n15 The Guarded Antechamber ...... 23\n16 The Tomb of Queen Ethofled .... 24\n17 The Secret Garden ..................... 26\n18 The Path of Knightly Virtue ..... 27\n19 The Hall of Crowning ............... 28\nAftermath ...............................30\nMonsters ................................. 32\nAppendix ................................... 37",
     "labels": [],
-    "text_bytes": 98,
+    "text_bytes": 1713,
     "keyed_area": null,
     "style": {
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
-    }
-  },
-  {
-    "unit_id": "p7.quick-instructions-2-the-chessbo",
-    "heading": "Quick Instructions ................... 2 The Chessboard Puzzle ..................37",
-    "heading_path": [],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "Quick Instructions ................... 2 The Chessboard Puzzle ..................37",
-    "labels": [],
-    "text_bytes": 83,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.table-of-contents-3-open-game-li",
-    "heading": "Table of Contents ..................... 3 OPEN GAME LICENCE ............... 39",
-    "heading_path": [
-      "Quick Instructions ................... 2 The Chessboard Puzzle ..................37"
-    ],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "Table of Contents ..................... 3 OPEN GAME LICENCE ............... 39",
-    "labels": [],
-    "text_bytes": 78,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.treasure-monster-overview-4-hook",
-    "heading": "Treasure & Monster Overview 4 Hooks .........................................6 Rumors ....................................... 7",
-    "heading_path": [
-      "Quick Instructions ................... 2 The Chessboard Puzzle ..................37"
-    ],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "Treasure & Monster Overview 4 Hooks .........................................6 Rumors ....................................... 7",
-    "labels": [],
-    "text_bytes": 127,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.jora-s-last-inn-emporium-8",
-    "heading": "Jora’s Last Inn & Emporium ......8",
-    "heading_path": [
-      "Quick Instructions ................... 2 The Chessboard Puzzle ..................37"
-    ],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "Jora’s Last Inn & Emporium ......8",
-    "labels": [],
-    "text_bytes": 36,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.speaking-with-jora-8-emporium-8",
-    "heading": "Speaking with Jora: .........................8 Emporium: ......................................8",
-    "heading_path": [],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "Speaking with Jora: .........................8 Emporium: ......................................8",
-    "labels": [],
-    "text_bytes": 96,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.climbing-the-lune-mountains-9-th",
-    "heading": "Climbing The Lune Mountains 9 The Falkrest Abbey ................. 10",
-    "heading_path": [
-      "Speaking with Jora: .........................8 Emporium: ......................................8"
-    ],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "Climbing The Lune Mountains 9 The Falkrest Abbey ................. 10",
-    "labels": [],
-    "text_bytes": 69,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.room-descriptions-12",
-    "heading": "Room Descriptions ...................12",
-    "heading_path": [
-      "Speaking with Jora: .........................8 Emporium: ......................................8"
-    ],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "Room Descriptions ...................12",
-    "labels": [],
-    "text_bytes": 39,
-    "keyed_area": null,
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Medium",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.1-entrance-12",
-    "heading": "1 Entrance ......................................12",
-    "heading_path": [],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "1 Entrance ......................................12",
-    "labels": [],
-    "text_bytes": 51,
-    "keyed_area": "1",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.2-the-frozen-cloister-13",
-    "heading": "2 The Frozen Cloister .....................13",
-    "heading_path": [
-      "1 Entrance ......................................12"
-    ],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "2 The Frozen Cloister .....................13\nThe Fountain ..................................13",
-    "labels": [],
-    "text_bytes": 95,
-    "keyed_area": "2",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.3-herbalist-s-dispensary-14",
-    "heading": "3 Herbalist’s Dispensary ................14",
-    "heading_path": [],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "3 Herbalist’s Dispensary ................14",
-    "labels": [],
-    "text_bytes": 45,
-    "keyed_area": "3",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.4-workshop-15",
-    "heading": "4 Workshop ....................................15",
-    "heading_path": [],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "4 Workshop ....................................15",
-    "labels": [],
-    "text_bytes": 49,
-    "keyed_area": "4",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.5-east-corridor-15",
-    "heading": "5 East corridor ...............................15",
-    "heading_path": [],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "5 East corridor ...............................15",
-    "labels": [],
-    "text_bytes": 49,
-    "keyed_area": "5",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.6-ritual-chamber-16",
-    "heading": "6 Ritual Chamber ...........................16",
-    "heading_path": [],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "6 Ritual Chamber ...........................16",
-    "labels": [],
-    "text_bytes": 46,
-    "keyed_area": "6",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.7-the-library-17",
-    "heading": "7 The Library ..................................17",
-    "heading_path": [],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "7 The Library ..................................17",
-    "labels": [],
-    "text_bytes": 50,
-    "keyed_area": "7",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.8-library-office-17",
-    "heading": "8 Library Office ..............................17",
-    "heading_path": [],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "8 Library Office ..............................17",
-    "labels": [],
-    "text_bytes": 49,
-    "keyed_area": "8",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.9-columbarium-of-the-knights-18",
-    "heading": "9 Columbarium of the Knights ......18",
-    "heading_path": [],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "9 Columbarium of the Knights ......18",
-    "labels": [],
-    "text_bytes": 37,
-    "keyed_area": "9",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.10-west-corridor-18",
-    "heading": "10 West Corridor ............................18",
-    "heading_path": [],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "10 West Corridor ............................18",
-    "labels": [],
-    "text_bytes": 47,
-    "keyed_area": "10",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.11-dark-antechamber-19",
-    "heading": "11 Dark Antechamber .....................19",
-    "heading_path": [],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "11 Dark Antechamber .....................19",
-    "labels": [],
-    "text_bytes": 43,
-    "keyed_area": "11",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.12-the-abbot-s-sepulchre-20",
-    "heading": "12 The Abbot’s Sepulchre ..............20",
-    "heading_path": [
-      "11 Dark Antechamber .....................19"
-    ],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "12 The Abbot’s Sepulchre ..............20\nGrusom, The Wight Abbot ............20\n13 Empty Antechamber .................21\n14 The collapsed Sepulchre ........... 22\n15 The Guarded Antechamber ...... 23\n16 The Tomb of Queen Ethofled .... 24\n17 The Secret Garden ..................... 26\n18 The Path of Knightly Virtue ..... 27",
-    "labels": [],
-    "text_bytes": 326,
-    "keyed_area": "12",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
-    }
-  },
-  {
-    "unit_id": "p7.19-the-hall-of-crowning-28",
-    "heading": "19 The Hall of Crowning ............... 28",
-    "heading_path": [
-      "11 Dark Antechamber .....................19"
-    ],
-    "pages": [
-      7
-    ],
-    "column": 0,
-    "text": "19 The Hall of Crowning ............... 28\nAftermath ...............................30 Monsters ................................. 32 Appendix ................................... 37",
-    "labels": [],
-    "text_bytes": 180,
-    "keyed_area": "19",
-    "style": {
-      "size": 14.0,
-      "family": "SkolarLatin-Light",
-      "bold": false,
-      "color": "#000000"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -814,61 +370,20 @@
     "heading": "Treasure & Monster Overview",
     "heading_path": [],
     "pages": [
-      8
+      8,
+      9
     ],
     "column": -1,
-    "text": "Treasure & Monster Overview",
+    "text": "Treasure & Monster Overview\nWhere Treasure\n◆ 257sp\n◆ Pearl necklace (500gp)\nLune\nMountains\nRoom 2 ◆ 53gp, 17gp\n◆ 2 x thawing oil\n◆ Potion of healing\n◆ Potion of levitation\nRoom 3 ◆ Potion of poison\n◆ Potion of gaseous form\n◆ Rare tea leaves (100gp)\n◆ Old recipe scroll (50gp)\nRoom 6 ◆ Painting (100gp)\n◆ Elaborate silver letter\nRoom 7 opener (60gp)\n◆ Book of chess rules\n(30gp)\n◆ Spellbook\n◆ Tourmaline inkwell\nRoom 8 (500gp)\n◆ Genealogical scrolls\n(500gp)\nMonsters\n◆ 5 Bandits\n◆ 1 Cave Bear\n◆ 1 Treant\n◆ 2d6 Wolfs\n◆ 2d3 Mountain Goat\n◆ 1 Lune Yeti\n◆ 1 Icescale Viper\n◆ 1+ Flayed Zombie\n◆\n◆\n◆\n◆\nRoom 9 ◆\n◆\n◆\n◆\n◆\nRoom 12\nRoom 14 ◆\nRoom 15 ◆\n◆\n◆\nRoom 16\n◆\n◆\nRoom 18\nRoom 19 ◆\nSilver ring (50gp)\nPearl earring (100gp)\nSilver brooch with\namethyst (200gp)\nRare perfume (50gp)\nChess horse obsidian\nstatuette (100gp)\nTopaz pendant (200gp)\nSilver and bronze\nnecklace (100gp)\nGolden ring with a ruby\n(1000gp)\nSilver pastoral staff ◆ 1 Wight\n(300gp), golden nose\n(600gp)\nMagic morning star\nCandelabra (200gp) ◆ 7 Skele-\ntons\nPolished chain mail with ◆ 1 Ghost\na dozen aquamarines\n(1000gp)\nPlatinum signet ring\nwith a mother of pearl\nhorse head seal (1000gp)\nGold and platinum tiara\n(2.000gp)\nMagic dagger; jeweled\nsheath (1000gp)\n◆ 2 Iron Living Statues\nChalice (2.000gp) ◆ Rowan the Eternal\nKnight",
     "labels": [],
-    "text_bytes": 27,
+    "text_bytes": 1378,
     "keyed_area": null,
     "style": {
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
-    }
-  },
-  {
-    "unit_id": "p8.where-treasure",
-    "heading": "Where Treasure",
-    "heading_path": [
-      "Treasure & Monster Overview"
-    ],
-    "pages": [
-      8
-    ],
-    "column": 0,
-    "text": "Where Treasure\n◆ 257sp\n◆ Pearl necklace (500gp)\nLune\nMountains\nRoom 2 ◆ 53gp, 17gp\n◆ 2 x thawing oil\n◆ Potion of healing\n◆ Potion of levitation\nRoom 3 ◆ Potion of poison\n◆ Potion of gaseous form\n◆ Rare tea leaves (100gp)\n◆ Old recipe scroll (50gp)\nRoom 6 ◆ Painting (100gp)\n◆ Elaborate silver letter\nRoom 7 opener (60gp)\n◆ Book of chess rules\n(30gp)\n◆ Spellbook\n◆ Tourmaline inkwell\nRoom 8 (500gp)\n◆ Genealogical scrolls\n(500gp)",
-    "labels": [],
-    "text_bytes": 460,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#ffffff"
-    }
-  },
-  {
-    "unit_id": "p8.monsters",
-    "heading": "Monsters",
-    "heading_path": [
-      "Treasure & Monster Overview"
-    ],
-    "pages": [
-      8,
-      9
-    ],
-    "column": 1,
-    "text": "Monsters\n◆ 5 Bandits\n◆ 1 Cave Bear\n◆ 1 Treant\n◆ 2d6 Wolfs\n◆ 2d3 Mountain Goat\n◆ 1 Lune Yeti\n◆ 1 Icescale Viper\n◆ 1+ Flayed Zombie\n◆\n◆\n◆\n◆\nRoom 9 ◆\n◆\n◆\n◆\n◆\nRoom 12\nRoom 14 ◆\nRoom 15 ◆\n◆\n◆\nRoom 16\n◆\n◆\nRoom 18\nRoom 19 ◆\nSilver ring (50gp)\nPearl earring (100gp)\nSilver brooch with\namethyst (200gp)\nRare perfume (50gp)\nChess horse obsidian\nstatuette (100gp)\nTopaz pendant (200gp)\nSilver and bronze\nnecklace (100gp)\nGolden ring with a ruby\n(1000gp)\nSilver pastoral staff ◆ 1 Wight\n(300gp), golden nose\n(600gp)\nMagic morning star\nCandelabra (200gp) ◆ 7 Skele-\ntons\nPolished chain mail with ◆ 1 Ghost\na dozen aquamarines\n(1000gp)\nPlatinum signet ring\nwith a mother of pearl\nhorse head seal (1000gp)\nGold and platinum tiara\n(2.000gp)\nMagic dagger; jeweled\nsheath (1000gp)\n◆ 2 Iron Living Statues\nChalice (2.000gp) ◆ Rowan the Eternal\nKnight",
-    "labels": [],
-    "text_bytes": 889,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -879,34 +394,16 @@
       10
     ],
     "column": 0,
-    "text": "Hooks\nThese assume the group starts at a reasonably large city, and knows\nthe general terms of the legend of the abbey and of St. Brynedd’s\nmiraculous  water  (page  2).  Hooks  1  and  2  can  go  together  to\nforce the group to make a choice. See also Aftermath at the end of the\nadventure before you choose!",
+    "text": "Hooks\nThese assume the group starts at a reasonably large city, and knows\nthe general terms of the legend of the abbey and of St. Brynedd’s\nmiraculous  water  (page  2).  Hooks  1  and  2  can  go  together  to\nforce the group to make a choice. See also Aftermath at the end of the\nadventure before you choose!\nHooks\n◆ The healer’s daughter: Myrta the healer\ndesperately needs  a vial of St. Brynedd’s Water\nfor her young daughter Syf, who lays on her\n1 deathbed because of the soul plague, a terrible\nmagic disease that is slowly detaching her spirit\nfrom the body.\n◆ Offers: 200gp and 1 healing potion.\n◆ Lortag the snobbish alchemist: Wants  a vial of\n2 St. Brynedd’s Water  for his experiments.\n◆ Offers: 3.000gp.\n◆ The Earl of Locklear: Has recently discovered\nhis family descends from the legendary Queen\nEthofled and wants to display the queen’s crown\n3 in his castle. As proven by the documents found\nin room 8, his claim is false, even though he\nbelieves it.\n◆ Offers: 3.000gp for  Queen Ethofled’s Crown.\n◆ The graverobber’s diary: A page from an old\ndiary mentions an abbot with a  jeweled golden\n4 mask  buried inside the abbey, as well as the\npresence of a garden leading to a treasury where\ntwelve jeweled golden chalices  were kept.",
     "labels": [],
-    "text_bytes": 312,
+    "text_bytes": 1275,
     "keyed_area": null,
     "style": {
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
-    }
-  },
-  {
-    "unit_id": "p10.hooks-2",
-    "heading": "Hooks",
-    "heading_path": [],
-    "pages": [
-      10
-    ],
-    "column": 0,
-    "text": "Hooks\n◆ The healer’s daughter:  Myrta the healer\ndesperately needs  a vial of St. Brynedd’s Water\nfor her young daughter Syf, who lays on her\n1 deathbed because of the soul plague, a terrible\nmagic disease that is slowly detaching her spirit\nfrom the body.\n◆ Offers:  200gp and 1 healing potion.\n◆ Lortag the snobbish alchemist:  Wants  a vial of\n2 St. Brynedd’s Water  for his experiments.\n◆ Offers:  3.000gp.\n◆ The Earl of Locklear:  Has recently discovered\nhis family descends from the legendary Queen\nEthofled and wants to display the queen’s crown\n3 in his castle. As proven by the documents found\nin room 8, his claim is false, even though he\nbelieves it.\n◆ Offers:  3.000gp for  Queen Ethofled’s Crown.\n◆ The graverobber’s diary:  A page from an old\ndiary mentions an abbot with a  jeweled golden\n4 mask  buried inside the abbey, as well as the\npresence of a garden leading to a treasury where\ntwelve jeweled golden chalices  were kept.",
-    "labels": [],
-    "text_bytes": 969,
-    "keyed_area": null,
-    "style": {
-      "size": 15.0,
-      "family": "SkolarLatin",
-      "bold": true,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -925,7 +422,8 @@
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -944,7 +442,8 @@
       "size": 15.0,
       "family": "SkolarLatin",
       "bold": true,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -963,7 +462,8 @@
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -982,7 +482,8 @@
       "size": 21.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1001,7 +502,8 @@
       "size": 21.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1020,7 +522,8 @@
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -1031,15 +534,16 @@
       13
     ],
     "column": 0,
-    "text": "1d6 Random Happenings on the Lune Mountains\n◆ 5 Bandits.  Old Beorly and his four treacherous children\nBella, Joik, Torod, and Smeel (hand axes, short bows,\n1 winter clothes). Just out hunting, may attack if the\ncharacters look weak. Their hideout is nearby: a cave\nwith fire wood, blankets, a coffer with 257sp, pearl\nnecklace (500gp), flask of wine, dried meat for 20 meals.\n2 ◆ 1 Cave Bear.  Looking for food. -1 to reaction if characters\nsmeared with yeti oil are within 60’ (keen sense of smell).\n◆ 1 Treant.  Ompholobulous Danglebeard. Random\nreaction. Basically wants travellers not to disturb\n3 the trees, and hates fires. Remembers the days when\nmonks lived in the abbey, kept the trail clear, and were\nfrequently visited by knights, kings, and queens.\n◆ 2d6 Wolves . White fur; hungry. -1 to reaction if\n4 characters smeared with yeti oil are within 60’ (keen\nsense of smell). Afraid of fire; will flee if one is wounded.\n5 ◆ 2d3 Mountain Goats  (2 HD Small Herd Animals).\nStubborn, territorial, tasty. Fight only if disturbed.\n◆ Blizzard:  Furious, freezing wind, raging snow. Lasts 1d6\nhours. Visibility drops to 20’. Movement rates (further)\n6 halved. Characters who are not protected from the cold\nmust save vs paralysis or suffer 1 hp from the cold. 1-in-\n20 chance per hour of encountering a raging Lune Yeti.\nCuriously, it will ignore characters smeared with yeti oil.",
+    "text": "1d6 Random Happenings on the Lune Mountains\n◆ 5 Bandits. Old Beorly and his four treacherous children\nBella, Joik, Torod, and Smeel (hand axes, short bows,\n1 winter clothes). Just out hunting, may attack if the\ncharacters look weak. Their hideout is nearby: a cave\nwith fire wood, blankets, a coffer with 257sp, pearl\nnecklace (500gp), flask of wine, dried meat for 20 meals.\n2 ◆ 1 Cave Bear.\nLooking for food. -1 to reaction if characters\nsmeared with yeti oil are within 60’ (keen sense of smell).\n◆ 1 Treant. Ompholobulous Danglebeard. Random\nreaction. Basically wants travellers not to disturb\n3 the trees, and hates fires. Remembers the days when\nmonks lived in the abbey, kept the trail clear, and were\nfrequently visited by knights, kings, and queens.\n◆ 2d6 Wolves . White fur; hungry. -1 to reaction if\n4 characters smeared with yeti oil are within 60’ (keen\nsense of smell). Afraid of fire; will flee if one is wounded.\n5 ◆ 2d3 Mountain Goats  (2 HD Small Herd Animals).\nStubborn, territorial, tasty. Fight only if disturbed.\n◆ Blizzard: Furious, freezing wind, raging snow. Lasts 1d6\nhours. Visibility drops to 20’. Movement rates (further)\n6 halved. Characters who are not protected from the cold\nmust save vs paralysis or suffer 1 hp from the cold. 1-in-\n20 chance per hour of encountering a raging Lune Yeti.\nCuriously, it will ignore characters smeared with yeti oil.",
     "labels": [],
-    "text_bytes": 1403,
+    "text_bytes": 1399,
     "keyed_area": "1",
     "style": {
       "size": 15.0,
       "family": "SkolarLatin",
       "bold": true,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -1058,7 +562,8 @@
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -1071,15 +576,36 @@
       16
     ],
     "column": 0,
-    "text": "1d6 Random Happenings in the Abbey\n1 ◆ 2d6 Giant Rats  ponder the group as possible food\n(random reaction).\n2 ◆ 1 Icescale Viper  comes crawling and hissing (random\nreaction). See  Monsters .\n3 ◆ 1d4  Flayed Zombies  attack. Ignore this result if circle in\nroom 6 is broken. See  Monsters .\n4 ◆ Prolonged moaning echoing in the halls.\n5 ◆ Clerical chanting resonates through the air.\n6 ◆ A ghostly light reverberates just behind the corner.\nArea numbers Monsters Secret doors Portal\nStatue\nP S\nGhost\n16\n14 13\n10\nWight 11\n12\n9\nBandits\nN\nRowayn\n19 1 square = 10’\n18 Living Statues\nS\n17\nS P P\nP\n6\nSkele-  8 7 tons Flayed Zombie\n15\n5\nFlayed Zombie Icescale Viper 4\n2\n3\n1\nEntrance\nArea numbers\nMonsters Room Descriptions N\nSecret doors Rowayn\n19 1 square = 10’",
+    "text": "1d6 Random Happenings in the Abbey\n1 ◆ 2d6 Giant Rats  ponder the group as possible food\n(random reaction).\n2 ◆ 1 Icescale Viper  comes crawling and hissing (random\nreaction). See  Monsters .\n3 ◆ 1d4  Flayed Zombies  attack. Ignore this result if circle in\nroom 6 is broken. See  Monsters .\n4 ◆ Prolonged moaning echoing in the halls.\n5 ◆ Clerical chanting resonates through the air.\n6 ◆ A ghostly light reverberates just behind the corner.\nArea numbers Monsters Secret doors Portal\nStatue\nP S\nGhost\n16\n14 13\n10\nWight 11\n12\n9\nBandits\nN\nRowayn\n19 1 square = 10’\n18 Living Statues\nS\n17\nS P P\nP\n6\nSkele-  8 7 tons Flayed Zombie\n15\n5\nFlayed Zombie Icescale Viper 4\n2\n3\n1\nEntrance\nArea numbers",
     "labels": [],
-    "text_bytes": 771,
+    "text_bytes": 702,
     "keyed_area": "1",
     "style": {
       "size": 15.0,
       "family": "SkolarLatin",
       "bold": true,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
+    }
+  },
+  {
+    "unit_id": "p16.monsters-room-descriptions-n",
+    "heading": "Monsters Room Descriptions N",
+    "heading_path": [],
+    "pages": [
+      16
+    ],
+    "column": 0,
+    "text": "Monsters Room Descriptions N\nSecret doors Rowayn\n19 1 square = 10’",
+    "labels": [],
+    "text_bytes": 68,
+    "keyed_area": null,
+    "style": {
+      "size": 35.0,
+      "family": "GothicusRoman",
+      "bold": false,
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -1090,15 +616,16 @@
       16
     ],
     "column": 0,
-    "text": "Portal 1 Entrance\nStatue Archway, wooden double door, displaying a chess piece (a\nfallen long ago. 18 Rook, a Bishop, a Queen and a  Living Statues\nFootprints (mud and snow, King).\nhumans). Frescoes on east and  S\nwest walls, under a thin layer of  ▷ Frescoes, east wall: A\nice. Lowered portcullis allows crowned woman riding a\nto see the cloister. white chess horse, and a\n17 crowned man riding a black\n▷ Footprints: human-sized. A chess horse.\nsmall group. Go through the  S P\nportcullis into the cloister  P ▷ Lifting the portcullis:\n(room 2), and turn west. Requires a combined STR 22\nto lift. Unless propped open,\n▷ Frescoes, west wall: Four  P falls back down with a loud  P\npaladins in splendid vests,  S noise, alerting the Bandits in  6\nkneeling. Each has a shield  Skele-  room 9. 7\nGhost tons 8 Flayed Zombie\n16 15\n5\n14 13\nFlayed Zombie\n10\nWight Icescale Viper 4\n11\n12 2\n9\n3\nBandits\n1\nEntrance",
+    "text": "Portal 1 Entrance\nStatue Archway, wooden double door,  displaying a chess piece (a\nfallen long ago. 18 Rook, a Bishop, a Queen and a  Living Statues\nFootprints (mud and snow, King).\nhumans). Frescoes on east and  S\nwest walls, under a thin layer of  ▷ Frescoes, east wall: A\nice. Lowered portcullis allows crowned woman riding a\nto see the cloister. white chess horse, and a\n17 crowned man riding a black\n▷ Footprints: human-sized. A chess horse.\nsmall group. Go through the  S P\nportcullis into the cloister  P ▷ Lifting the portcullis:\n(room 2), and turn west. Requires a combined STR 22\nto lift. Unless propped open,\n▷ Frescoes, west wall: Four  P falls back down with a loud  P\npaladins in splendid vests,  S noise, alerting the Bandits in  6\nkneeling. Each has a shield  Skele-  room 9. 7\nGhost tons 8 Flayed Zombie\n16 15\n5\n14 13\nFlayed Zombie\n10\nWight Icescale Viper 4\n11\n12 2\n9\n3\nBandits\n1\nEntrance",
     "labels": [],
-    "text_bytes": 912,
+    "text_bytes": 913,
     "keyed_area": null,
     "style": {
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1117,7 +644,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1137,7 +665,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1156,7 +685,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1176,7 +706,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1196,7 +727,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1215,7 +747,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1234,7 +767,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1253,7 +787,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1273,7 +808,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1292,7 +828,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1312,7 +849,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1331,7 +869,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1350,7 +889,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1369,7 +909,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1389,7 +930,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1408,7 +950,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1427,7 +970,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1447,7 +991,8 @@
       "size": 26.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1467,7 +1012,8 @@
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -1490,7 +1036,8 @@
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -1509,7 +1056,8 @@
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -1530,7 +1078,8 @@
       "size": 21.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1551,7 +1100,8 @@
       "size": 21.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#000000"
+      "color": "#000000",
+      "italic": false
     }
   },
   {
@@ -1570,7 +1120,8 @@
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   },
   {
@@ -1591,7 +1142,8 @@
       "size": 35.0,
       "family": "GothicusRoman",
       "bold": false,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "italic": false
     }
   }
 ]

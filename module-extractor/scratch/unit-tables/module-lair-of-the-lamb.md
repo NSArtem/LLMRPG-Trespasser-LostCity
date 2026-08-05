@@ -2,19 +2,21 @@
 
 | | |
 |---|---|
-| units | 214 |
+| units | 192 |
+| text retained | 99.9% (146 of 107716 characters reached no unit) |
 | pages covered | 53 |
 | keyed units | 51 (strict `N NAME` form: 51) |
 | spanning a page break | 1 |
-| size | median 293B, max 3915B, min 7B |
+| size | median 391B, max 3915B, min 7B |
 
 ## Checks
+
+**Text reaching no unit:** 146 characters, worst pages p1 (146)
 
 **Keyed range** 1–46, 46 distinct.
 **Missing keys:** none
 
-**Suspiciously small** (< 40B): 18
-- `p5.stats-5-12-man-age-1d20-14` p[5] — stats. 5-12 Man, age 1d20+14
+**Suspiciously small** (< 40B): 11
 - `p16.common-knowledge` p[16] — Common Knowledge
 - `p16.secrets` p[16] — Secrets
 - `p17.part-1-lair-of-the-lamb` p[17] — Part 1: Lair of the Lamb
@@ -26,7 +28,6 @@
 - `p43.appendix-a-magic-items` p[43] — Appendix A: Magic Items
 - `p47.appendix-c-divine-favor` p[47] — Appendix C: Divine Favor
 - `p48.appendix-d-drugs` p[48] — Appendix D: Drugs
-- …and 6 more
 
 **Suspiciously large** (> 3000B), likely under-segmented: 1
 - `p3.advice-for-dms` p[3] 3915B — Advice for DMs
@@ -41,9 +42,7 @@
 | `p3.advice-for-dms` | 3 | 3915 | Advice for DMs |
 | `p4.salt-of-the-earth` | 4 | 49 | Salt of the Earth |
 | `p5.level-0-peasants` | 5 | 262 | Level 0 Peasants |
-| `p5.stats-demographic` | 5 | 235 | Stats Demographic |
-| `p5.stats-5-12-man-age-1d20-14` | 5 | 28 | stats. 5-12 Man, age 1d20+14 |
-| `p5.hp-0-13-20-woman-age-1d20-14` | 5 | 1066 | HP 0 13-20 Woman, age 1d20+14 |
+| `p5.stats-demographic` | 5 | 1331 | Stats Demographic |
 | `p6.profession` | 6 | 1048 | Profession |
 | `p6.24-animal-handler-59-gambler-94` | 6–8 | 462 | 24 Animal Handler  59 Gambler 94 Stay-at-Home Parent |
 | `p8.time` | 8 | 1497 | Time |
@@ -103,16 +102,9 @@
 | `p19.dungeon-features` | 19 | 88 | Dungeon Features |
 | `p19.overview` | 19 | 1324 | Overview |
 | `p19.starting-the-game` | 19 | 927 | Starting the Game |
-| `p20.the-lamb` | 20 | 442 | The Lamb |
-| `p20.the-lamb-2` | 20 | 106 | The Lamb |
-| `p20.immunity-acid` | 20 | 1065 | Immunity – Acid. |
-| `p20.the-little-lambs` | 20 | 231 | The Little Lambs |
-| `p20.little-lamb` | 20 | 99 | Little Lamb |
-| `p20.immunity-acid-2` | 20 | 244 | Immunity – Acid. |
-| `p20.father-bastoval` | 20 | 271 | Father Bastoval |
-| `p20.father-bastoval-2` | 20 | 65 | Father Bastoval |
-| `p20.spells-delay-haste-scry` | 20 | 194 | Spells -  delay, haste, scry |
-| `p20.milo-bilosh` | 20 | 83 | Milo/Bilosh |
+| `p20.the-lamb` | 20 | 1615 | The Lamb |
+| `p20.the-little-lambs` | 20 | 576 | The Little Lambs |
+| `p20.father-bastoval` | 20 | 616 | Father Bastoval |
 | `p21.1-bowls` | 21 | 303 | 1  BOWLS |
 | `p21.2-goats` | 21 | 165 | 2  GOATS |
 | `p21.3-vinegar` | 21 | 177 | 3  VINEGAR |
@@ -135,11 +127,8 @@
 | `p26.20-pools` | 26 | 1251 | 20 POOLS |
 | `p27.part-2-gallery-of-the-ghouls` | 27 | 28 | Part 2 Gallery of the Ghouls |
 | `p28.active-encounters` | 28 | 252 | Active Encounters |
-| `p28.passive-encounters` | 28 | 391 | Passive Encounters |
-| `p28.armored-ghoul-gerdith-or-molina` | 28 | 96 | Armored Ghoul (Gerdith or Molina) |
-| `p28.indirect-encounters` | 28 | 235 | Indirect Encounters |
-| `p28.ghoul-jasper-or-luntz` | 28 | 91 | Ghoul (Jasper or Luntz) |
-| `p28.lantern-worm` | 28 | 656 | Lantern Worm |
+| `p28.passive-encounters` | 28 | 488 | Passive Encounters |
+| `p28.indirect-encounters` | 28 | 984 | Indirect Encounters |
 | `p29.the-ghouls` | 29 | 113 | The Ghouls |
 | `p29.jasper-and-luntz` | 29 | 226 | Jasper and Luntz |
 | `p29.gerdith-and-molina` | 29 | 127 | Gerdith and Molina |
@@ -158,7 +147,7 @@
 | `p32.25-crypt` | 32 | 1972 | 25 CRYPT |
 | `p32.26-secret-crypt` | 32 | 311 | 26 SECRET CRYPT |
 | `p33.27-ballista` | 33 | 1361 | 27 BALLISTA |
-| `p33.28-games` | 33 | 590 | 28 GAMES |
+| `p33.28-games` | 33 | 592 | 28 GAMES |
 | `p33.29-stage` | 33 | 386 | 29 STAGE |
 | `p33.30-coffer` | 33 | 462 | 30 COFFER |
 | `p34.31-traverse` | 34 | 604 | 31 TRAVERSE |
@@ -207,42 +196,32 @@
 | `p47.shendormu-s-favor` | 47 | 724 | Shendormu's Favor |
 | `p47.vandoh-s-favor` | 47 | 1283 | Vandoh's Favor |
 | `p48.appendix-d-drugs` | 48 | 17 | Appendix D: Drugs |
-| `p48.lambfruit` | 48 | 105 | Lambfruit |
-| `p48.nascent-lambfruit-52-dark-green` | 48 | 118 | • Nascent   Lambfruit   (52)   – Dark   green.     Causes |
-| `p48.immature-lambfruit-6-orange-allo` | 48 | 275 | • Immature Lambfruit (6) – Orange.  Allows you to |
+| `p48.lambfruit` | 48 | 504 | Lambfruit |
 | `p48.mevverwen` | 48 | 184 | Mevverwen |
 | `p48.toad-shavings` | 48 | 256 | Toad Shavings |
 | `p48.purple-lotus-powder` | 48 | 479 | Purple Lotus Powder |
-| `p49.appendix-e-leveling-and-classes` | 49 | 232 | Appendix E: Leveling and Classes |
-| `p49.1-level-1-mastery` | 49 | 181 | +1 Level - - - +1 Mastery |
+| `p49.appendix-e-leveling-and-classes` | 49 | 414 | Appendix E: Leveling and Classes |
 | `p49.mastery` | 49 | 885 | Mastery |
 | `p49.choosing-a-class` | 49 | 523 | Choosing a Class |
-| `p50.acrobat` | 50 | 48 | Acrobat |
-| `p50.a-dodge-nah-1-day-b-tricky` | 50 | 27 | A Dodge, Nah 1/day B Tricky |
-| `p50.c-cat-power-nah-2-day-d-roast-th` | 50 | 38 | C Cat Power, Nah 2/day D Roast the Oaf |
+| `p50.acrobat` | 50 | 115 | Acrobat |
 | `p50.dodge` | 50 | 153 | Dodge |
 | `p50.nah` | 50 | 123 | Nah |
 | `p50.tricky` | 50 | 220 | Tricky |
 | `p50.cat-power` | 50 | 78 | Cat Power |
 | `p50.roast-the-oaf` | 50 | 213 | Roast the Oaf |
 | `p50.multi-class-note` | 50 | 157 | Multi-class Note |
-| `p51.barbarian` | 51 | 60 | Barbarian |
-| `p51.a-rage-b-firewater-c-thews-1-day` | 51 | 32 | A Rage B Firewater C Thews 1/day |
-| `p51.d-rampage-thews-2-day` | 51 | 22 | D Rampage, Thews 2/day |
+| `p51.barbarian` | 51 | 116 | Barbarian |
 | `p51.loincloth-hp` | 51 | 76 | Loincloth HP |
 | `p51.rage` | 51 | 490 | Rage |
 | `p51.firewater` | 51 | 192 | Firewater |
 | `p51.thews` | 51 | 192 | Thews |
 | `p51.rampage` | 51 | 70 | Rampage |
-| `p52.fighter` | 52 | 50 | Fighter |
-| `p52.a-stand-tough-b-tricky-c-very-tr` | 52 | 36 | A Stand Tough B Tricky C Very Tricky |
-| `p52.d-double-attack` | 52 | 15 | D Double Attack |
+| `p52.fighter` | 52 | 103 | Fighter |
 | `p52.stand-tough` | 52 | 208 | Stand Tough |
 | `p52.tricky` | 52 | 252 | Tricky |
 | `p52.very-tricky` | 52 | 167 | Very Tricky |
 | `p52.double-attack` | 52 | 58 | Double Attack |
-| `p53.thief` | 53 | 62 | Thief |
-| `p53.a-luck-b-opportunist-c-preparati` | 53 | 47 | A “Luck” B Opportunist C Preparation D Snag |
+| `p53.thief` | 53 | 110 | Thief |
 | `p53.luck` | 53 | 108 | “ Luck ” |
 | `p53.opportunist` | 53 | 131 | Opportunist |
 | `p53.preparation` | 53 | 452 | Preparation |

@@ -174,11 +174,91 @@ class RunInHeadingTests(unittest.TestCase):
                word("good portion of the adventure", 95.0, 100.0, w=200.0)]
         self.assertEqual(len(_split_run_in_heading(row, run_style(row[1]))), 1)
 
+    def test_a_run_in_heading_splits_from_a_tail_that_is_not_body(self) -> None:
+        """Doom sets read-aloud text after a keyed heading in bold italic.
+
+        Requiring the tail to match body exactly left C-7, C-10 and D-1 glued
+        to their prose and rejected as over-long headings.
+        """
+        italic = Run(page=1, x=175.0, y=100.0, width=200.0, height=12.0,
+                     text="Tall slabs of stone", font=BODY_FONT,
+                     bold=True, italic=True)
+        row = [self._row()[0], italic]
+        parts = _split_run_in_heading(row, run_style(self._row()[1]))
+        self.assertEqual(len(parts), 2)
+        self.assertIn("Chapel of Justicia", parts[0][0].text)
+
+    def test_a_style_change_alone_does_not_split_a_stat_line(self) -> None:
+        """Шпиль Кетцаль sets whole stat lines in non-body styles.
+
+        Cutting on the style change alone promoted fifteen attribute lines to
+        units. Only a prefix closing like a heading earns the cut.
+        """
+        other = Font(font_id=4, size=12.0, family="Caps", color="#000000")
+        row = [word("Телосложение 3, ловкость 2", 50.0, 100.0, font=other),
+               word("НАВЫКИ: скрытность 2", 175.0, 100.0, font=self.HEAD)]
+        self.assertEqual(len(_split_run_in_heading(row, run_style(word("x", 0, 0)))), 1)
+
     def test_body_style_is_the_most_characters_not_the_most_runs(self) -> None:
         words = [word("H", 50.0, float(i), font=self.HEAD) for i in range(9)]
         words.append(word("a" * 200, 50.0, 100.0, w=300.0))
         page = Page(number=1, width=612.0, height=792.0, words=tuple(words))
         self.assertEqual(body_run_style([page]), run_style(words[-1]))
+
+
+class DropCapTests(unittest.TestCase):
+    """A 72pt initial describes one glyph, never the row it opens."""
+
+    DISPLAY = Font(font_id=5, size=21.0, family="Duvall", color="#000000")
+    INITIAL = Font(font_id=6, size=72.0, family="RomantiqueInitials", color="#000000")
+
+    def _page(self):
+        # Doom page 3: heading, then an initial 85pt tall across three body
+        # lines. Letting the initial set the row tolerance fused all three.
+        words = [word("IntroductIon", 152.0, 52.0, h=23.0, font=self.DISPLAY, bold=True),
+                 word("R", 53.0, 78.0, h=85.0, w=63.0, font=self.INITIAL),
+                 word("emember the good old days", 116.0, 89.0, w=331.0),
+                 word("underground, NPCs were there", 116.0, 106.0, w=331.0)]
+        return Page(number=3, width=904.0, height=1174.0, words=tuple(words))
+
+    def test_the_heading_above_an_initial_stays_its_own_line(self) -> None:
+        lines = page_lines(self._page(), body=run_style(word("x", 0.0, 0.0)))
+        self.assertIn("IntroductIon", [item.text for item in lines])
+
+    def test_the_heading_keeps_its_own_style(self) -> None:
+        """Fused into the body row it took body's style and stopped ranking."""
+        lines = page_lines(self._page(), body=run_style(word("x", 0.0, 0.0)))
+        heading = next(item for item in lines if item.text == "IntroductIon")
+        self.assertEqual(heading.family, "Duvall")
+        self.assertEqual(heading.size, 21.0)
+
+    def test_an_initial_still_joins_the_paragraph_it_opens(self) -> None:
+        lines = page_lines(self._page(), body=run_style(word("x", 0.0, 0.0)))
+        self.assertTrue(any(item.text.startswith("R emember") for item in lines),
+                        [item.text for item in lines])
+
+    def test_an_initial_claims_one_line_and_not_the_paragraph(self) -> None:
+        """Once the row has ordinary text, the initial's height is spent.
+
+        Left in the measure it kept reaching down the column, taking the second
+        and third body lines into the same row.
+        """
+        lines = page_lines(self._page(), body=run_style(word("x", 0.0, 0.0)))
+        self.assertIn("underground, NPCs were there", [item.text for item in lines])
+
+
+class ItalicStyleTests(unittest.TestCase):
+    def test_italic_distinguishes_two_otherwise_identical_styles(self) -> None:
+        """Doom's read-aloud text is bold italic where its act titles are bold.
+
+        Blind to italic, every boxed paragraph after a keyed heading became a
+        heading of its own.
+        """
+        upright = Run(page=1, x=0.0, y=0.0, width=10.0, height=12.0, text="a",
+                      font=BODY_FONT, bold=True, italic=False)
+        slanted = Run(page=1, x=0.0, y=0.0, width=10.0, height=12.0, text="a",
+                      font=BODY_FONT, bold=True, italic=True)
+        self.assertNotEqual(run_style(upright), run_style(slanted))
 
 
 class StyleTests(unittest.TestCase):
